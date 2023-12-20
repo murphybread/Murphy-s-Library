@@ -64,8 +64,8 @@
             return;
         }
         const el = document.getElementById(id);
-        width = el.offsetWidth*2;
-        height = el.offsetHeight*2;
+        width = el.offsetWidth;
+        height = el.offsetHeight;
         const highlightNodes = new Set();
         let hoverNode = null;
         const color = getCssVar("--graph-main");
