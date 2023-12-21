@@ -8,9 +8,13 @@ https://murphy-s-library.vercel.app/
 
 
 
-[![Velog's GitHub stats](https://velog-readme-stats.vercel.app/api/badge?name=murphybread)](https://velog.io/@mcbible) 
+[![Velog](https://velog-readme-stats.vercel.app/api/badge?name=murphybread)](https://velog.io/@mcbible) 
 
 [![Velog's GitHub stats](https://velog-readme-stats.vercel.app/api?name=murphybread)](https://github.com/murphybread/velog-readme-stats)
+
+
+[![Velog's GitHub stats](https://velog-readme-stats.vercel.app/api?name=murphybread)](https://velog.io/@murphybread)
+
 
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=murphybread)](https://github.com/anuraghazra/github-readme-stats)
