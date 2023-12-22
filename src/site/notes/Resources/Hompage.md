@@ -9,7 +9,7 @@ https://murphy-s-library.vercel.app/
 <iframe src="https://joey.team/block/?id=4zfONMIb0udThRYvgsJesRl8BG13&block_id=LVHLMUlfRfZ9t0EyPdOI" 
         width="600" 
         height="400" 
-        frameborder="0" 
+        style="border: 10px solid #2e2e2e;border-radius: 10px;"
         allowfullscreen>
 </iframe>
 
