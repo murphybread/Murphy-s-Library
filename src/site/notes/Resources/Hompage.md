@@ -1,11 +1,23 @@
 ---
-{"dg-publish":true,"permalink":"/Resources/Hompage/","tags":["gardenEntry"]}
+{"dg-publish":true,"permalink":"/Resources/Hompage/","tags":["gardenEntry"],"noteIcon":"1"}
 ---
 
 https://murphy-s-library.vercel.app/
 
 
+https://joey.team/block/?id=4zfONMIb0udThRYvgsJesRl8BG13&block_id=LVHLMUlfRfZ9t0EyPdOI
 
+도서관 이용 수칙
+
+
+
+방명록
+
+개인활동
+## 요즘 읽고 있는 책
+## 요즘 하고 있는 프로젝트
+
+## 외부링크
 
 
 [![Velog](https://velog-readme-stats.vercel.app/api/badge?name=murphybread)](https://velog.io/@mcbible) 
