@@ -1,4 +1,4 @@
 ---
-{"dg-publish":true,"permalink":"/Resources/icon test/"}
+{"dg-publish":true,"permalink":"/Resources/icon test/","noteIcon":1}
 ---
 
