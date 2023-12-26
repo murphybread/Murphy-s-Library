@@ -29,7 +29,7 @@ https://murphy-s-library.vercel.app/
 
 
 
-[[Resources/000\|000]] IT 지식
+[[Resources/000 IT 지식\|000 IT 지식]] IT 지식
 
 
 
