@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Resources/Hompage/","tags":["gardenEntry"],"noteIcon":"1"}
+{"dg-publish":true,"permalink":"/Resources/Hompage/","tags":["gardenEntry"],"noteIcon":"","created":"2023-12-20T12:21:00.425+09:00","updated":"2023-12-28T00:32:28.937+09:00"}
 ---
 
 https://murphy-s-library.vercel.app/
