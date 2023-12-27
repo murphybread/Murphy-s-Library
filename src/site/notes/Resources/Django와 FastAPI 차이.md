@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Resources/Django와 FastAPI 차이/","noteIcon":"1"}
+{"dg-publish":true,"permalink":"/Resources/Django와 FastAPI 차이/","noteIcon":"","created":"2023-10-24T21:52:00.511+09:00","updated":"2023-12-21T21:35:35.040+09:00"}
 ---
 
 #Resources #Django #FastAPI #WebDevelopment #Python 
