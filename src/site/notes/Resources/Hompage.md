@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Resources/Hompage/","tags":["gardenEntry"],"noteIcon":"","created":"2023-12-20T12:21:00.425+09:00","updated":"2023-12-28T01:08:39.683+09:00"}
+{"dg-publish":true,"permalink":"/Resources/Hompage/","tags":["gardenEntry"],"noteIcon":"","created":"2023-12-20T12:21:00.425+09:00","updated":"2023-12-28T01:17:02.341+09:00"}
 ---
 
 #hompage
@@ -23,15 +23,13 @@ https://murphy-s-library.vercel.app/
 2. 검색을 통하는 방법
 
 도서 번호는 다음과 같이 분류 됩니다
-- 
-- 100
+# [[Resources/000\|000]] IT 지식
 
 
 
-[[Resources/AI - Prompt\|AI - Prompt]]
 
-# 000
-[[000 \|000 ]]IT 지식
+
+
 
 
 
