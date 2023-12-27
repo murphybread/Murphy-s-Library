@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Resources/Hompage/","tags":["gardenEntry"],"noteIcon":"","created":"2023-12-20T12:21:00.425+09:00","updated":"2023-12-28T00:32:28.937+09:00"}
+{"dg-publish":true,"permalink":"/Resources/Hompage/","tags":["gardenEntry"],"noteIcon":"","created":"2023-12-20T12:21:00.425+09:00","updated":"2023-12-28T00:45:08.801+09:00"}
 ---
 
 https://murphy-s-library.vercel.app/
@@ -30,7 +30,7 @@ https://murphy-s-library.vercel.app/
 
 
 
-[[Resources/000 IT 지식\|000 IT 지식]] IT 지식
+[[000 \|000 ]]IT 지식
 
 
 
