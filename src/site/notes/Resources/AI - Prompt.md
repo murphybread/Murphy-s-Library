@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Resources/AI - Prompt/","noteIcon":"","created":"2023-11-18T17:29:32.658+09:00","updated":"2023-12-28T01:08:27.391+09:00"}
+{"dg-publish":true,"permalink":"/Resources/AI - Prompt/","noteIcon":"0"}
 ---
 
 
