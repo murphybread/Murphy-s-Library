@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Resources/Hompage/","tags":["gardenEntry"],"noteIcon":"","created":"2023-12-20T12:21:00.425+09:00","updated":"2023-12-28T01:17:02.341+09:00"}
+{"dg-publish":true,"permalink":"/Resources/Hompage/","tags":["gardenEntry"],"noteIcon":"0"}
 ---
 
 #hompage
@@ -20,9 +20,19 @@ https://murphy-s-library.vercel.app/
 > 도서관에서는 다음의 규칙에 따라 정보를 찾으시면 됩니다
 
 1. 대분류에서 소분류로 접근하는 방법
-2. 검색을 통하는 방법
+도서 청구기호는 다음에 따라 분류 됩니다.
+- 000 대분류 
+- 010 중분류
+- 010.10 소분류
+- 010.10 a 세분류
+- 010.10 a-1  "글 제목"
+다음과 같이 a-1과 같은 형태의 청구 기호 이외에는 범위를 지칭합니다.
 
-도서 번호는 다음과 같이 분류 됩니다
+1. 검색을 통하는 방법
+해당 내용과 관련된 단어나 분류 범위를 검색합니다.
+ 
+각 노트들은 앞 뒤로만 연결 돼 있습니다.
+
 # [[Resources/000\|000]] IT 지식
 
 
