@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Resources/Hompage/","tags":["gardenEntry"],"noteIcon":"","created":"2023-12-20T12:21:00.425+09:00","updated":"2023-12-30T01:07:27.993+09:00"}
+{"dg-publish":true,"permalink":"/Resources/Hompage/","tags":["gardenEntry"],"noteIcon":"","created":"2023-12-20T12:21:00.425+09:00","updated":"2023-12-30T01:14:40.521+09:00"}
 ---
 
 #hompage
@@ -39,7 +39,7 @@ https://murphy-s-library.vercel.app/
 
 
 
-```html
+
 <script type="text/javascript" src="https://www.counters-free.net/count/djwq"></script><br>
  <a href='http://www.freevisitorcounters.com'>Counters</a> <script type='text/javascript' src='https://whomania.com/ctr?id=8bc628dccd4cc3ac3fa64ffaaecf94185432d886'></script>
 ```
