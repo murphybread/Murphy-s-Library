@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Resources/Hompage/","tags":["gardenEntry"],"noteIcon":"","created":"2023-12-20T12:21:00.425+09:00","updated":"2023-12-30T01:14:40.521+09:00"}
+{"dg-publish":true,"permalink":"/Resources/Hompage/","tags":["gardenEntry"],"noteIcon":"","created":"2023-12-20T12:21:00.425+09:00","updated":"2023-12-30T03:56:27.389+09:00"}
 ---
 
 #hompage
@@ -42,7 +42,7 @@ https://murphy-s-library.vercel.app/
 
 <script type="text/javascript" src="https://www.counters-free.net/count/djwq"></script><br>
  <a href='http://www.freevisitorcounters.com'>Counters</a> <script type='text/javascript' src='https://whomania.com/ctr?id=8bc628dccd4cc3ac3fa64ffaaecf94185432d886'></script>
-```
+
 
 
 
@@ -66,3 +66,14 @@ https://murphy-s-library.vercel.app/
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/%EB%AF%BC%EC%B0%AC-%EA%B9%80-aba89a243)
 [![Velog's GitHub stats](https://velog-readme-stats.vercel.app/api/list?name=murphybread)](https://velog.io/@muphybread)
+
+
+
+구글 analytics
+
+<!-- Google tag (gtag.js) --> <script async src="https://www.googletagmanager.com/gtag/js?id=G-QHF8SF84LT"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-QHF8SF84LT'); </script>
+
+
+---
+방명록 추가
+청구번호 듀이십진분류법
