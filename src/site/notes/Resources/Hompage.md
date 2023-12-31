@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Resources/Hompage/","tags":["gardenEntry"],"noteIcon":"0"}
+{"dg-publish":true,"permalink":"/Resources/Hompage/","tags":["gardenEntry"],"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2023-12-31T20:37:48.308+09:00"}
 ---
 
 #hompage
@@ -7,12 +7,6 @@ https://murphy-s-library.vercel.app/
 
 
 
-<iframe src="https://joey.team/block/?id=4zfONMIb0udThRYvgsJesRl8BG13&block_id=LVHLMUlfRfZ9t0EyPdOI" 
-        width="600" 
-        height="400" 
-        style="border: 10px solid #2e2e2e;border-radius: 10px;"
-        allowfullscreen>
-</iframe>
 
 
 # Library guidelines
@@ -69,9 +63,7 @@ https://murphy-s-library.vercel.app/
 
 
 
-구글 analytics
 
-<!-- Google tag (gtag.js) --> <script async src="https://www.googletagmanager.com/gtag/js?id=G-QHF8SF84LT"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-QHF8SF84LT'); </script>
 
 
 ---
