@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Resources/Hompage/","tags":["gardenEntry"],"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2024-01-01T03:25:27.276+09:00"}
+{"dg-publish":true,"permalink":"/Resources/Hompage/","tags":["gardenEntry"],"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2024-01-01T03:28:14.213+09:00"}
 ---
 
 #hompage #Library #Rules
@@ -16,9 +16,9 @@
 1. Method of approaching from major to minor categories
 The library call numbers are classified as follows:
 
-- 000: Major category **100,200,300 ...**
-- 010 Middle category **010,020,030 ...**
-- 010.10: Minor category **010.10, 010.20, 010.30 ...**
+- 000: Major category `100,200,300 ...`
+- 010 Middle category `010,020,030 ...`
+- 010.10: Minor category `010.10, 010.20, 010.30 ...`
 - 010.10 a: Subcategory **010.10 a, 010.10 b, 010.10 c ...**
 - 010.10 a-1: "Article Title"
   
