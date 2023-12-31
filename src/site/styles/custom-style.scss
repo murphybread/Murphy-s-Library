@@ -11,3 +11,13 @@ body {
     //   color: black;
     //  }
 }
+
+
+/* Custom styles for the Google Translate widget */
+.goog-te-gadget-simple {
+    font-size: 0.9em; /* Smaller font size might reduce the widget size */
+}
+
+.goog-te-gadget-icon {
+    display: none; /* This can hide the dropdown icon, making the button simpler */
+}
