@@ -84,12 +84,13 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
     {% endfor %}
     {{ content | hideDataview | link | taggify | safe}}
     <!-- Google Translate div -->
-    <div id="google_translate_element" style="position: absolute; top: 20px; right: 20px;"></div>
+    <div id="google_translate_element" style="position: absolute; top: 50px; right: 20px; background: #f0f0f0; border: 1px solid #d0d0d0; padding: 5px; border-radius: 5px;"></div>
+
 
     <!-- Google Translate Initialization Script -->
     <script type="text/javascript">
       function googleTranslateElementInit() {
-        new google.translate.TranslateElement({ pageLanguage: 'en', includedLanguages: 'ko' }, 'google_translate_element');
+        new google.translate.TranslateElement({ pageLanguage: 'en', includedLanguages: 'ko,en,ja,es'}, 'google_translate_element');
       }
     </script>
 
