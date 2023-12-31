@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"permalink":"/Resources/History of Library/","noteIcon":"0","created":"2023-12-31T20:39:20.070+09:00","updated":"2024-01-01T03:07:06.623+09:00"}
+{"dg-publish":true,"permalink":"/Resources/History of Library/","noteIcon":"0","created":"2023-12-31T20:39:20.070+09:00","updated":"2024-01-01T03:07:41.222+09:00"}
 ---
 
-
+#Hompage #[[Resources/Hompage\|Hompage]] 
 
 # Guest book
 
