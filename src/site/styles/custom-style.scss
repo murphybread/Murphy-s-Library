@@ -17,8 +17,8 @@ body {
 .goog-te-gadget-simple {
     font-size: 0.9em; /* Smaller font size might reduce the widget size */
     display: inline-block; /* Ensures the widget takes only necessary space */
-    width: auto; /* Or set a specific width if necessary */
-    height: auto; /* Or set a specific height if necessary */
+    width: 80px; /* Or set a specific width if necessary */
+    height: 25px; /* Or set a specific height if necessary */
 }
 
 .goog-te-gadget-icon {
