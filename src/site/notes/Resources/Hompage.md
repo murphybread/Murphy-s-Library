@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Resources/Hompage/","tags":["gardenEntry"],"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2024-01-01T03:07:57.890+09:00"}
+{"dg-publish":true,"permalink":"/Resources/Hompage/","tags":["gardenEntry"],"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2024-01-01T03:10:19.250+09:00"}
 ---
 
 #hompage #Library #Rules
@@ -46,7 +46,7 @@ Each note is connected only to the preceding and following ones.
  
 
 
-# [[Resources/000\|000]] IT 지식
+# [[Resources/000\|000]] IT Knowledge
 
 
 
