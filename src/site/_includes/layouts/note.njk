@@ -7,13 +7,18 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
     <title>{% if title %}{{ title }}{% else %}{{ page.fileSlug }}{% endif %}</title>
     {%include "components/pageheader.njk"%}
     <!-- Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QHF8SF84LT"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-QHF8SF84LT');
-    </script>
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-QHF8SF84LT"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-QHF8SF84LT');
+      </script>
+    <!-- Google Translate Button -->
+      <div id="google_translate_element" style="position: absolute; top: 20px; right: 20px;"></div>
+    
+    
+
     {% for imp in dynamics.common.head %}
       {% include imp %}
     {% endfor %}
@@ -68,6 +73,14 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
       {% endfor %}
       {% for imp in dynamics.notes.header %}
         {% include imp %}
+      <!-- Google Translate Scripts -->
+      <script type="text/javascript">
+        function googleTranslateElementInit() {
+          new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'ko'}, 'google_translate_element');
+        }
+      </script>
+      <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+  
       {% endfor %}
       </header>
       {% for imp in dynamics.common.beforeContent %}
