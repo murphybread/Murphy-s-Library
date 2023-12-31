@@ -1,11 +1,26 @@
 ---
-{"dg-publish":true,"permalink":"/Resources/History of Library/","noteIcon":"0","created":"2023-12-31T20:39:20.070+09:00","updated":"2024-01-01T02:03:58.102+09:00"}
+{"dg-publish":true,"permalink":"/Resources/History of Library/","noteIcon":"0","created":"2023-12-31T20:39:20.070+09:00","updated":"2024-01-01T03:07:06.623+09:00"}
 ---
 
 
 
-방명록 추가
-청구번호 듀이십진분류법
+# Guest book
+
+problem: record reaction of users in all notes
+
+solution: using external service [joey](https://joey.team/)
+
+| Feature | Expected Value | Joey |
+| ---- | ---- | ---- |
+| Implementation Required | html tag | html (iframe) |
+| Coverage | All Notes | All Notes |
+| User Reaction Recording | Anonymity , private user, no login  | Anonymity , no private ,no login,  |
+| Customization Options | Not to much | title , placeholder , color |
+| Integration Complexity | Low | Low |
+| Cost | Affordable | Free up to 3 blocks(no limited response, block is component in Joey) |
+| Operational Management | One Endpoint | one site (can see all history and users) |
+
+
 구글 애널리틱스 (도메인 구입 및 연결, visit counter 임베딩 구현후 각 페이지별로는 못 구해서 해당 서비스사용)
 
 # src/site/_includes/layouts/note.njk 에 analytics & 방명록 일괄 적용
