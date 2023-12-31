@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Resources/Hompage/","tags":["gardenEntry"],"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2024-01-01T03:07:53.825+09:00"}
+{"dg-publish":true,"permalink":"/Resources/Hompage/","tags":["gardenEntry"],"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2024-01-01T03:07:57.890+09:00"}
 ---
 
 #hompage #Library #Rules
@@ -61,7 +61,7 @@ Each note is connected only to the preceding and following ones.
 
 
 
-[[History of\|History of]]
+[[Resources/History of Library\|History of Library]]
 
 
 [![Velog](https://velog-readme-stats.vercel.app/api/badge?name=murphybread)](https://velog.io/@mcbible) 
