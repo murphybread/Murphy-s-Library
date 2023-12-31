@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Resources/History of Library/","noteIcon":"0","created":"2023-12-31T20:39:20.070+09:00","updated":"2024-01-01T03:07:41.222+09:00"}
+{"dg-publish":true,"permalink":"/Resources/History of Library/","noteIcon":"0","created":"2023-12-31T20:39:20.070+09:00","updated":"2024-01-01T03:47:14.817+09:00"}
 ---
 
 #Hompage #[[Resources/Hompage\|Hompage]] 
@@ -174,3 +174,15 @@ body {
 
 # index.njk 알기
 홈페이지에 관한 것은 index.njk파일에서 관리
+
+
+
+
+# code font and color change
+just code element not working so , important used
+code {
+    background-color: #c4b7b7 !important;
+    color: #1077ffcb !important;
+    padding: 2px !important;
+    font-weight: bolder !important;
+}
