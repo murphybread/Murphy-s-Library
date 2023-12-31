@@ -24,3 +24,9 @@ body {
 .goog-te-gadget-icon {
     display: none; /* This can hide the dropdown icon, making the button simpler */
 }
+
+strong {
+    background-color: #887575; /* Light Gray Background */
+    color: #ff1f1f; /* Optional: Change Text Color If Needed */
+    padding: 2px; /* Optional: Adds some space around the text */
+}
