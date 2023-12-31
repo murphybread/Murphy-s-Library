@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Resources/Hompage/","tags":["gardenEntry"],"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2024-01-01T03:47:39.442+09:00"}
+{"dg-publish":true,"permalink":"/Resources/Hompage/","tags":["gardenEntry"],"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2024-01-01T03:48:02.529+09:00"}
 ---
 
 #hompage #Library #Rules
@@ -26,7 +26,7 @@ Notes with identifiers like "a-1" represent articles containing content, while o
 You can view all notes containing actual content at once in a single subcategory note.
 
 **Example (ex):**
-Subcategory: 010.10 a
+Subcategory: `010.10 a`
 - Articles:
     - 010.10 a-1
     - 010.10 a-2
