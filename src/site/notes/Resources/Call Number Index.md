@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Resources/Call Number Index/","noteIcon":"","created":"2023-12-28T18:54:11.332+09:00","updated":"2023-12-28T18:57:09.520+09:00"}
+{"dg-publish":true,"permalink":"/Resources/Call Number Index/","noteIcon":"0"}
 ---
 
 [[Resources/000\|000]]
