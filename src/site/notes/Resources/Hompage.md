@@ -1,9 +1,9 @@
 ---
-{"dg-publish":true,"permalink":"/Resources/Hompage/","tags":["gardenEntry"],"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2023-12-31T20:37:48.308+09:00"}
+{"dg-publish":true,"permalink":"/Resources/Hompage/","tags":["gardenEntry"],"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2024-01-01T00:59:54.222+09:00"}
 ---
 
-#hompage
-https://murphy-s-library.vercel.app/
+#hompage #Library #Rules
+
 
 
 
@@ -11,31 +11,44 @@ https://murphy-s-library.vercel.app/
 
 # Library guidelines
 
-> 도서관에서는 다음의 규칙에 따라 정보를 찾으시면 됩니다
+>  In the library, you can find information by following these rules
 
-1. 대분류에서 소분류로 접근하는 방법
-도서 청구기호는 다음에 따라 분류 됩니다.
-- 000 대분류 
-- 010 중분류
-- 010.10 소분류
-- 010.10 a 세분류
-- 010.10 a-1  "글 제목"
-다음과 같이 a-1과 같은 형태의 청구 기호 이외에는 범위를 지칭합니다.
+1. Method of approaching from major to minor categories
+The library call numbers are classified as follows:
 
-1. 검색을 통하는 방법
-해당 내용과 관련된 단어나 분류 범위를 검색합니다.
+- 000: Major category **100,200,300 ...**
+- 010 Middle category **010,020,030 ...**
+- 010.10: Minor category **010.10, 010.20, 010.30 ...**
+- 010.10 a: Subcategory **010.10 a, 010.10 b, 010.10 c ...**
+- 010.10 a-1: "Article Title"
+  
+Notes with identifiers like "a-1" represent articles containing content, while other identifiers denote a range.
+You can view all notes containing actual content at once in a single subcategory note.
+
+**Example (ex):**
+Subcategory: 010.10 a
+- Articles:
+    - 010.10 a-1
+    - 010.10 a-2
+    - 010.10 a-3
+
+
+
+2. Method through search
+- Search using contents, tags, numbers  related to the content or category range.
+
+
+
+Each note is connected only to the preceding and following ones.
+
+**Example (ex):**
+100 note is connected hompage and 110,120,130, ...
  
-각 노트들은 앞 뒤로만 연결 돼 있습니다.
+
 
 # [[Resources/000\|000]] IT 지식
 
 
-
-
-
-
-<script type="text/javascript" src="https://www.counters-free.net/count/djwq"></script><br>
- <a href='http://www.freevisitorcounters.com'>Counters</a> <script type='text/javascript' src='https://whomania.com/ctr?id=8bc628dccd4cc3ac3fa64ffaaecf94185432d886'></script>
 
 
 
@@ -67,6 +80,3 @@ https://murphy-s-library.vercel.app/
 
 
 ---
-방명록 추가
-청구번호 듀이십진분류법
-구글 애널리틱스 (도메인 구입 및 연결, visit counter 임베딩 구현후 각 페이지별로는 못 구해서 해당 서비스사용)
