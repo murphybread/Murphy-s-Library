@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Resources/Hompage/","tags":["gardenEntry"],"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2024-01-02T01:27:05.784+09:00"}
+{"dg-publish":true,"permalink":"/Resources/Hompage/","tags":["gardenEntry"],"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2024-01-02T01:29:33.615+09:00"}
 ---
 
 #hompage #Library #Rules
@@ -53,6 +53,8 @@ Each note is connected only to the preceding and following ones.
 
 
 
+
+---
 ## On My Bookshelf
 ## Ongoing Projects
 
@@ -69,6 +71,8 @@ IT Community in Korea
 
 
 
+
+---
 # History of Library
 Link:  [[Resources/History of Library\|History of Library]]
 
