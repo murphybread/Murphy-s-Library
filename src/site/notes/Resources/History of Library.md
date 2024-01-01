@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Resources/History of Library/","noteIcon":"0","created":"2023-12-31T20:39:20.070+09:00","updated":"2024-01-02T01:47:14.928+09:00"}
+{"dg-publish":true,"permalink":"/Resources/History of Library/","noteIcon":"0","created":"2023-12-31T20:39:20.070+09:00","updated":"2024-01-02T02:20:21.956+09:00"}
 ---
 
 #Hompage #[[Resources/Hompage\|Hompage]] 
@@ -226,4 +226,31 @@ src/site/styles/custom-style.scss
     cursor: var(--cursor-link);
     filter: var(--link-external-filter);
   }
+```
+
+but not work so i find element that
+markdown-rendered img
+only works when using !important
+```
+.markdown-rendered img {
+        float: left !important;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+```
+
+![find style using develop tool.png](/img/user/images/find%20style%20using%20develop%20tool.png)
+
+
+add new line after badge
+```
+
+body {
+    .external-link::after {
+    content: "";
+    display: block;
+    clear: both;
+    }
+}
 ```
