@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Resources/Call Number Index/","noteIcon":"0","created":"2023-12-28T18:54:11.332+09:00","updated":"2024-01-02T01:24:52.480+09:00"}
+{"dg-publish":true,"permalink":"/Resources/Call Number Index/","noteIcon":"0","created":"2023-12-28T18:54:11.332+09:00","updated":"2024-01-02T01:33:21.021+09:00"}
 ---
 
 
@@ -11,3 +11,7 @@
 		- [[Resources/010.00 a\|010.00 a]] Essential Developer Insights
 	- [[Resources/010.10\|010.10]] Develop Programming Language
 	
+
+
+
+[[Resources/400\|400]]
