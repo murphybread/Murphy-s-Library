@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Resources/Hompage/","tags":["gardenEntry"],"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2024-01-02T01:29:33.615+09:00"}
+{"dg-publish":true,"permalink":"/Resources/Hompage/","tags":["gardenEntry"],"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2024-01-02T03:04:57.277+09:00"}
 ---
 
 #hompage #Library #Rules
@@ -45,7 +45,7 @@ Each note is connected only to the preceding and following ones.
 100 note is connected hompage and 110,120,130, ...
  
 
-
+### test
 # [[Resources/000\|000]] IT Knowledge
 
 
