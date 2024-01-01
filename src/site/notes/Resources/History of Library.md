@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Resources/History of Library/","noteIcon":"0","created":"2023-12-31T20:39:20.070+09:00","updated":"2024-01-01T03:47:14.817+09:00"}
+{"dg-publish":true,"permalink":"/Resources/History of Library/","noteIcon":"0","created":"2023-12-31T20:39:20.070+09:00","updated":"2024-01-02T01:47:14.928+09:00"}
 ---
 
 #Hompage #[[Resources/Hompage\|Hompage]] 
@@ -186,3 +186,44 @@ code {
     padding: 2px !important;
     font-weight: bolder !important;
 }
+
+
+# markdown badge image position
+original is too much right
+original is src/site/styles/obsidian-base.scss
+```
+  .external-link {
+    color: var(--link-external-color);
+    text-decoration-line: var(--link-external-decoration);
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(transparent, transparent), url('/img/outgoing.svg');
+    background-size: 13px;
+    padding-right: 16px;
+    background-position-y: 4px;
+    cursor: var(--cursor-link);
+    filter: var(--link-external-filter);
+  }
+```
+
+
+I guess this code is cause
+`background-position: center right;`
+
+
+So I annotated this line
+src/site/styles/custom-style.scss
+```
+  .external-link {
+    color: var(--link-external-color);
+    text-decoration-line: var(--link-external-decoration);
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(transparent, transparent), url('/img/outgoing.svg');
+    background-size: 13px;
+    padding-right: 16px;
+    background-position-y: 4px;
+    cursor: var(--cursor-link);
+    filter: var(--link-external-filter);
+  }
+```
