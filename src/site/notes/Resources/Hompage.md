@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Resources/Hompage/","tags":["gardenEntry"],"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2024-01-01T03:48:02.529+09:00"}
+{"dg-publish":true,"permalink":"/Resources/Hompage/","tags":["gardenEntry"],"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2024-01-02T01:14:37.974+09:00"}
 ---
 
 #hompage #Library #Rules
@@ -53,30 +53,33 @@ Each note is connected only to the preceding and following ones.
 
 
 
-## 요즘 읽고 있는 책
-## 요즘 하고 있는 프로젝트
+## On My Bookshelf
+## Ongoing Projects
 
-## 외부링크
-
-
+## Link Trees
 
 
-[[Resources/History of Library\|History of Library]]
-
-
-[![Velog](https://velog-readme-stats.vercel.app/api/badge?name=murphybread)](https://velog.io/@mcbible) 
+## GitHub
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/murphybread)
+## Linkedin
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/%EB%AF%BC%EC%B0%AC-%EA%B9%80-aba89a243)
+## Velog
+IT Community in Korea
 
 [![Velog's GitHub stats](https://velog-readme-stats.vercel.app/api?name=murphybread)](https://github.com/murphybread/velog-readme-stats)
 
 
-[![Velog's GitHub stats](https://velog-readme-stats.vercel.app/api?name=murphybread)](https://velog.io/@murphybread)
+
+# History of Library
+Link:  [[Resources/History of Library\|History of Library]]
+
 
 
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=murphybread)](https://github.com/anuraghazra/github-readme-stats)
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=murphybread)](https://github.com/anuraghazra/github-readme-stats)
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/%EB%AF%BC%EC%B0%AC-%EA%B9%80-aba89a243)
+
 [![Velog's GitHub stats](https://velog-readme-stats.vercel.app/api/list?name=murphybread)](https://velog.io/@muphybread)
 
 
