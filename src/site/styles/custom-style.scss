@@ -10,17 +10,13 @@ body {
     //  h1 {
     //   color: black;
     //  }
-    .external-link {
-    color: var(--link-external-color);
-    text-decoration-line: var(--link-external-decoration);
-    background-repeat: no-repeat;
-    background-image: linear-gradient(transparent, transparent), url('/img/outgoing.svg');
-    background-size: 13px;
-    padding-right: 16px;
-    background-position-y: 4px;
-    cursor: var(--cursor-link);
-    filter: var(--link-external-filter);
-  }
+    .markdown-rendered img {
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
 }
 
 
