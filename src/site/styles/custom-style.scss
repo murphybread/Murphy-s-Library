@@ -41,10 +41,13 @@ code {
 
     }
 
-a .external-link {
-    display: block !important;
+a .external-link::after {
+    content: "";
+    display: block;
+    clear: both;
 
 }
+
 
 
 
