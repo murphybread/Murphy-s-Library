@@ -10,12 +10,7 @@ body {
     //  h1 {
     //   color: black;
     //  }
-    .markdown-rendered img {
-        float: none;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
+
 
 }
 
@@ -39,6 +34,14 @@ code {
     padding: 2px !important;
     font-weight: bolder !important;
 }
+
+
+.markdown-rendered img {
+        float: none !important;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
 
 
