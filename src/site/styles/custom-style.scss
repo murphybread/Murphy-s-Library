@@ -11,6 +11,11 @@ body {
     //   color: black;
     //  }
 
+    .external-link::after {
+    content: "";
+    display: block;
+    clear: both;
+    }
 
 }
 
