@@ -37,9 +37,11 @@ code {
 
 
 .markdown-rendered img {
-        float: left !important;
+    float: left !important;
+    width: 70% !important;
+    
 
-    }
+}
 
 .external-link::after {
     content: "";
@@ -48,8 +50,5 @@ code {
 
 }
 
-img {
-    width: 70%;
-}
 
 
