@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Resources/AI - Prompt/","noteIcon":"0","created":"2023-11-18T17:29:32.658+09:00","updated":"2024-01-02T21:57:06.796+09:00"}
+{"dg-publish":true,"permalink":"/resources/ai-prompt/","noteIcon":"0","created":"2023-11-18T17:29:32.658+09:00","updated":"2024-01-02T21:57:06.796+09:00"}
 ---
 
 #PromptEngineering #Dall-E #ChatGPT #Prompt-Vision
