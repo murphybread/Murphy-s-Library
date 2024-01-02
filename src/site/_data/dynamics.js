@@ -1,7 +1,7 @@
 const fsFileTree = require("fs-file-tree");
 
 const BASE_PATH = "src/site/_includes/components/user";
-const STYLE_PATH = "src/site/styles/user";
+const STYLE_PATH = "src/site/styles/";
 const NAMESPACES = ["index", "notes", "common"];
 const SLOTS = ["head", "header", "beforeContent", "afterContent", "footer"];
 const FILE_TREE_NAMESPACE = "filetree";
@@ -28,36 +28,36 @@ const generateComponentPaths = async (namespace, slots) => {
   return data;
 };
 
-// const generateStylesPaths = async () => {
-//   try {
-//     const tree = await fsFileTree(`${STYLE_PATH}`);
-//     let comps = Object.keys(tree).map((p) =>
-//       `/styles/user/${p}`.replace(".scss", ".css")
-//     );
-//     comps.sort();
-//     return comps;
-//   } catch {
-//     return [];
-//   }
-// };
-
 const generateStylesPaths = async () => {
   try {
-    // Adjusted to the correct styles directory
-    const tree = await fsFileTree(`src/site/styles/`);
-    let comps = Object.keys(tree)
-      .map((p) => `/styles/${p}`.replace('.scss', '.css'))
-      // Remove custom-style.css if it's already in the array to re-add it later
-      .filter((path) => !path.endsWith('custom-style.css'));
-    // Sort the array to maintain a consistent order
+    const tree = await fsFileTree(`${STYLE_PATH}`);
+    let comps = Object.keys(tree).map((p) =>
+      `/styles/user/${p}`.replace(".scss", ".css")
+    );
     comps.sort();
-    // Add custom-style.css at the end to ensure it's the last stylesheet
-    comps.push('/styles/custom-style.css');
     return comps;
   } catch {
     return [];
   }
 };
+
+// const generateStylesPaths = async () => {
+//   try {
+//     // Adjusted to the correct styles directory
+//     const tree = await fsFileTree(`src/site/styles/`);
+//     let comps = Object.keys(tree)
+//       .map((p) => `/styles/${p}`.replace('.scss', '.css'))
+//       // Remove custom-style.css if it's already in the array to re-add it later
+//       .filter((path) => !path.endsWith('custom-style.css'));
+//     // Sort the array to maintain a consistent order
+//     comps.sort();
+//     // Add custom-style.css at the end to ensure it's the last stylesheet
+//     comps.push('/styles/custom-style.css');
+//     return comps;
+//   } catch {
+//     return [];
+//   }
+// };
 
 
 
