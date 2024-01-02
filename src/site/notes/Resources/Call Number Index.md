@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Resources/Call Number Index/","noteIcon":"0","created":"2023-12-28T18:54:11.332+09:00","updated":"2024-01-02T01:33:21.021+09:00"}
+{"dg-publish":true,"permalink":"/Resources/Call Number Index/","noteIcon":"0","created":"2023-12-28T18:54:11.332+09:00","updated":"2024-01-02T12:56:23.806+09:00"}
 ---
 
 
@@ -12,6 +12,14 @@
 	- [[Resources/010.10\|010.10]] Develop Programming Language
 	
 
+[[100\|100]] Infra
+- [[110\|110]] DevOps Engineer Infra
+- [[120\|120]] ML Engineer Infra
 
 
-[[Resources/400\|400]]
+
+[[Resources/400\|400]] ML Engineer Basic
+
+[[500\|500]] Algorithms and Modeling 
+
+[[600\|600]] ML Libraries and Implementation
