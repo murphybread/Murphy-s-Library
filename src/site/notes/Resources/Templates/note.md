@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Resources/Templates/note/","noteIcon":"0","created":"2023-12-31T20:16:05.589+09:00","updated":"2023-12-31T20:17:15.869+09:00"}
+{"dg-publish":true,"permalink":"/resources/templates/note/","noteIcon":"0","created":"2023-12-31T20:16:05.589+09:00","updated":"2023-12-31T20:17:15.869+09:00"}
 ---
 
 #번호 #주제 #기술스택
