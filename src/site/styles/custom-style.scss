@@ -28,12 +28,29 @@ body {
 }
 
 
-code {
-    background-color: #c4b7b7 !important;
-    color: #0146a1cb !important;
-    padding: 2px !important;
-    font-weight: bolder !important;
+/* Style for code blocks */
+pre {
+    background-color: #f7f7f7; /* Light gray background */
+    border: 1px solid #e1e1e8; /* Light border color */
+    border-left: 4px solid #6699cc; /* Thicker left border for emphasis, blue color */
+    padding: 0.5em; /* Padding inside the pre element */
+    overflow-x: auto; /* Horizontal scrollbar if the content is too wide */
+    font-family: 'Consolas', 'Monaco', 'Courier New', monospace; /* Monospaced font for better readability */
+    white-space: pre; /* Preserves whitespace and line breaks as they are in the code */
+    color: #333; /* Dark grey color for the text */
 }
+
+/* Style for inline code */
+code {
+    background-color: #eff0f1; /* Slightly different background color for inline code */
+    border: 1px solid #dcdcdc; /* Subtle border for inline code */
+    border-radius: 3px; /* Rounded corners for inline code */
+    padding: 0.2em 0.4em; /* Padding around the inline code */
+    font-family: 'Consolas', 'Monaco', 'Courier New', monospace; /* Monospaced font for better readability */
+    font-size: 0.9em; /* Slightly smaller font size for inline code */
+    color: #c7254e; /* Reddish color for the text, often used for inline code */
+}
+
 
 
 .markdown-rendered img {
@@ -56,20 +73,5 @@ code {
     clear: both;
 
 }
-
-/*code block style test */
-pre {
-    background-color: #f4f4f4; /* Light grey background */
-    border: 3px solid #d4c7c7b0; /* Light grey border */
-    border-left: 3px solid #f36d33; /* Highlighted left border for emphasis */
-    padding: 1em; /* Padding inside the pre element */
-    margin: 1em 0; /* Margin above and below the pre element */
-    overflow: auto; /* Adds a scrollbar if the content overflows */
-    font-family: 'Consolas', 'Monaco', 'Courier New', monospace; /* Monospaced font for better code readability */
-    white-space: pre-wrap; /* Ensures the text wraps and preserves spaces and line breaks */
-    word-break: break-all; /* Allows long words to be able to break and wrap onto the next line */
-    line-height: 1.5; /* Line height for better readability */
-}
-
 
 
