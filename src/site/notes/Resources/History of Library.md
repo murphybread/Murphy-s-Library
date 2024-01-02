@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Resources/History of Library/","noteIcon":"0","created":"2023-12-31T20:39:20.070+09:00","updated":"2024-01-02T03:13:36.093+09:00"}
+{"dg-publish":true,"permalink":"/resources/history-of-library/","noteIcon":"0","created":"2023-12-31T20:39:20.070+09:00","updated":"2024-01-02T23:48:37.077+09:00"}
 ---
 
 #Hompage #[[Resources/Hompage\|Hompage]] 
@@ -255,4 +255,188 @@ add new line after badge
     clear: both;
 
 }
+```
+
+
+
+# change img soruce width and clear
+
+`p::before` and `clear`
+```
+.markdown-rendered p::before {
+    content: ""; /* Creates a pseudo-element */
+    display: table; /* Ensures the content is treated as a block-level table */
+    clear: both; /* Clears the float */
+}
+```
+
+
+# add pre code block style
+```
+/*code block style test */
+pre {
+    background-color: #f4f4f4; /* Light grey background */
+    border: 3px solid #d4c7c7b0; /* Light grey border */
+    border-left: 3px solid #f36d33; /* Highlighted left border for emphasis */
+    padding: 1em; /* Padding inside the pre element */
+    margin: 1em 0; /* Margin above and below the pre element */
+    overflow: auto; /* Adds a scrollbar if the content overflows */
+    font-family: 'Consolas', 'Monaco', 'Courier New', monospace; /* Monospaced font for better code readability */
+    white-space: pre-wrap; /* Ensures the text wraps and preserves spaces and line breaks */
+    word-break: break-all; /* Allows long words to be able to break and wrap onto the next line */
+    line-height: 1.5; /* Line height for better readability */
+}
+```
+
+
+# code and pre tags style by ai
+```
+/* Style for code blocks */
+pre {
+    background-color: #f7f7f7; /* Light gray background */
+    border: 1px solid #e1e1e8; /* Light border color */
+    border-left: 4px solid #6699cc; /* Thicker left border for emphasis, blue color */
+    padding: 0.5em; /* Padding inside the pre element */
+    overflow-x: auto; /* Horizontal scrollbar if the content is too wide */
+    font-family: 'Consolas', 'Monaco', 'Courier New', monospace; /* Monospaced font for better readability */
+    white-space: pre; /* Preserves whitespace and line breaks as they are in the code */
+    color: #333; /* Dark grey color for the text */
+}
+
+/* Style for inline code */
+code {
+    background-color: #eff0f1; /* Slightly different background color for inline code */
+    border: 1px solid #dcdcdc; /* Subtle border for inline code */
+    border-radius: 3px; /* Rounded corners for inline code */
+    padding: 0.2em 0.4em; /* Padding around the inline code */
+    font-family: 'Consolas', 'Monaco', 'Courier New', monospace; /* Monospaced font for better readability */
+    font-size: 0.9em; /* Slightly smaller font size for inline code */
+    color: #c7254e; /* Reddish color for the text, often used for inline code */
+}
+```
+
+### before
+```
+code {
+    background-color: #c4b7b7 !important;
+    color: #0146a1cb !important;
+    padding: 2px !important;
+    font-weight: bolder !important;
+}
+
+pre {
+    background-color: #f4f4f4; /* Light grey background */
+    border: 3px solid #d4c7c7b0; /* Light grey border */
+    border-left: 3px solid #f36d33; /* Highlighted left border for emphasis */
+    padding: 1em; /* Padding inside the pre element */
+    margin: 1em 0; /* Margin above and below the pre element */
+    overflow: auto; /* Adds a scrollbar if the content overflows */
+    font-family: 'Consolas', 'Monaco', 'Courier New', monospace; /* Monospaced font for better code readability */
+    white-space: pre-wrap; /* Ensures the text wraps and preserves spaces and line breaks */
+    word-break: break-all; /* Allows long words to be able to break and wrap onto the next line */
+    line-height: 1.5; /* Line height for better readability */
+}
+
+```
+![codestyle.png](/img/user/images/codestyle.png)
+
+### After
+white background web site, so black window
+```
+.markdown-rendered pre code {
+    background-color: #242121; /* Black background for inline code */
+    color: #ff6347; /* Reddish color for text */
+    padding: 0.2em 0.4em;
+    border-radius: 3px;
+    font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+    font-size: 0.9em;
+}
+
+/* Specificity increased with .markdown-rendered to ensure override */
+.markdown-rendered pre {
+    background-color: #000; /* Black background for code blocks */
+    color: #f5f5f5; /* Light grey, almost white color for text */
+    border-left: 4px solid #ff6347; /* Reddish color for the left border */
+    padding: 1em;
+    overflow: auto;
+    font-family: var(--font-monospace); /* Using the CSS variable for monospace font */
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    border: none; /* Override any existing borders */
+}
+
+.markdown-rendered pre code {
+    /* Styles for inline code */
+    background-color: #000; /* Black background for inline code */
+    color: #ff6347; /* Reddish color for text */
+    padding: 0.2em 0.4em;
+    border: none; /* Remove border */
+    border-radius: 2px; /* Keep rounded corners if desired */
+    font-family: var(--font-monospace); /* Using the CSS variable for monospace font */
+    font-size: var(--code-size); /* Using the CSS variable for code size */
+}
+
+.markdown-rendered code {
+    /* Styles for inline code */
+    background-color: #000; /* Black background for inline code */
+    color: #ff6347; /* Reddish color for text */
+    padding: 0.2em 0.4em;
+    border: none; /* Remove border */
+    border-radius: 2px; /* Keep rounded corners if desired */
+    font-family: var(--font-monospace); /* Using the CSS variable for monospace font */
+    font-size: var(--code-size); /* Using the CSS variable for code size */
+}
+
+
+```
+
+
+
+
+# modify js and apply css
+
+
+from html search order css
+but note.njk  like this
+```
+  {% for imp in dynamics.common.head %}
+  {% include imp %}
+```
+
+so find dynamics.js
+
+AI Suggest Style path incorrect.  Because I ask i don have /user directory but it used in function
+and second is order for custom.css
+
+```
+// const generateStylesPaths = async () => {
+//   try {
+//     const tree = await fsFileTree(`${STYLE_PATH}`);
+//     let comps = Object.keys(tree).map((p) =>
+//       `/styles/user/${p}`.replace(".scss", ".css")
+//     );
+//     comps.sort();
+//     return comps;
+//   } catch {
+//     return [];
+//   }
+// };
+
+const generateStylesPaths = async () => {
+  try {
+    // Adjusted to the correct styles directory
+    const tree = await fsFileTree(`src/site/styles/`);
+    let comps = Object.keys(tree)
+      .map((p) => `/styles/${p}`.replace('.scss', '.css'))
+      // Remove custom-style.css if it's already in the array to re-add it later
+      .filter((path) => !path.endsWith('custom-style.css'));
+    // Sort the array to maintain a consistent order
+    comps.sort();
+    // Add custom-style.css at the end to ensure it's the last stylesheet
+    comps.push('/styles/custom-style.css');
+    return comps;
+  } catch {
+    return [];
+  }
+};
 ```
