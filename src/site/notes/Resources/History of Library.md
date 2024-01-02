@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Resources/History of Library/","noteIcon":"0","created":"2023-12-31T20:39:20.070+09:00","updated":"2024-01-02T02:20:21.956+09:00"}
+{"dg-publish":true,"permalink":"/Resources/History of Library/","noteIcon":"0","created":"2023-12-31T20:39:20.070+09:00","updated":"2024-01-02T03:13:36.093+09:00"}
 ---
 
 #Hompage #[[Resources/Hompage\|Hompage]] 
@@ -234,9 +234,7 @@ only works when using !important
 ```
 .markdown-rendered img {
         float: left !important;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
+
     }
 ```
 
@@ -246,11 +244,15 @@ only works when using !important
 add new line after badge
 ```
 
-body {
-    .external-link::after {
+.markdown-rendered img {
+        float: left !important;
+
+    }
+
+.external-link::after {
     content: "";
     display: block;
     clear: both;
-    }
+
 }
 ```
