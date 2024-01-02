@@ -39,8 +39,15 @@ code {
 .markdown-rendered img {
     float: left !important;
     width: 70% !important;
-    clear:both !important;
+    
 
+}
+
+/* Add a clear fix to the element following the floated image */
+.markdown-rendered p::before {
+    content: ""; /* Creates a pseudo-element */
+    display: table; /* Ensures the content is treated as a block-level table */
+    clear: both; /* Clears the float */
 }
 
 .external-link::after {
