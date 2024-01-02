@@ -27,14 +27,6 @@ body {
     display: none; /* This can hide the dropdown icon, making the button simpler */
 }
 
-.markdown-rendered pre code {
-    background-color: #242121; /* Black background for inline code */
-    color: #ff6347; /* Reddish color for text */
-    padding: 0.2em 0.4em;
-    border-radius: 3px;
-    font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
-    font-size: 0.9em;
-}
 
 /* Specificity increased with .markdown-rendered to ensure override */
 .markdown-rendered pre {
