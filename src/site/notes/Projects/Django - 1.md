@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Projects/Django - 1/","tags":["Django","Python","Backend","Framework","110_10_a_1"],"noteIcon":"0","created":"2023-12-15T21:35:22.090+09:00","updated":"2024-01-01T01:17:53.722+09:00"}
+{"dg-publish":true,"permalink":"/projects/django-1/","tags":["Django","Python","Backend","Framework","110_10_a_1"],"noteIcon":"0","created":"2023-12-15T21:35:22.090+09:00","updated":"2024-01-01T01:17:53.722+09:00"}
 ---
 
 
