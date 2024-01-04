@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/resources/history-of-library/","noteIcon":"0","created":"2023-12-31T20:39:20.070+09:00","updated":"2024-01-05T01:30:12.672+09:00"}
+{"dg-publish":true,"permalink":"/resources/history-of-library/","noteIcon":"0","created":"2023-12-31T20:39:20.070+09:00","updated":"2024-01-05T01:39:55.236+09:00"}
 ---
 
 #Hompage #[[Resources/Hompage\|Hompage]] 
@@ -23,7 +23,11 @@ solution: using external service [joey](https://joey.team/)
 
 구글 애널리틱스 (도메인 구입 및 연결, visit counter 임베딩 구현후 각 페이지별로는 못 구해서 해당 서비스사용)
 
-# src/site/_includes/layouts/note.njk 에 analytics & 방명록 일괄 적용
+#  Apply Google Analytics in bulk to all pages
+
+`src/site/_includes/layouts/note.njk`
+First I tried insert html script to all md files, but i notice that it too much hard. so I find template file that used by the md file to be applied to the actual webpage
+
 모든페이지에 들어가는 항목의 경우 각 각의 md파일에 대한 템플릿아닌, 적용되는 웹페에지에 적용
 
 구글 아날리틱스는 모든페이지 헤드에 있는게 일반적
