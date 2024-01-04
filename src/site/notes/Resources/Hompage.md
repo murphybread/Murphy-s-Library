@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/resources/hompage/","tags":["gardenEntry"],"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2024-01-05T00:49:42.751+09:00"}
+{"dg-publish":true,"permalink":"/resources/hompage/","tags":["gardenEntry"],"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2024-01-05T01:10:00.896+09:00"}
 ---
 
 #hompage #Library #Rules
@@ -24,7 +24,6 @@ The library call numbers are classified as follows:
   
 Notes with identifiers like "a-1" represent articles containing content, while other identifiers denote a range.
 You can view all notes containing actual content at once in a single subcategory note.
-
 **Example (ex):**
 Subcategory: `010.10 a`
 - Articles:
@@ -36,16 +35,13 @@ Subcategory: `010.10 a`
 
 2. Method through search
 - Search using contents, tags, numbers  related to the content or category range.
-
-
-
 Each note is connected only to the preceding and following ones.
 
 **Example (ex):**
 100 note is connected hompage and 110,120,130, ...
  
 
-### View all call numbers at once
+# View all call numbers at once
 [[Projects/Library/Call Number Index\|Call Number Index]]
 
 
