@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/projects/library/call-number-index/","noteIcon":"0","created":"2023-12-28T18:54:11.332+09:00","updated":"2024-01-05T00:25:47.636+09:00"}
+{"dg-publish":true,"permalink":"/projects/library/call-number-index/","noteIcon":"0","created":"2023-12-28T18:54:11.332+09:00","updated":"2024-01-05T00:31:28.044+09:00"}
 ---
 
 
@@ -16,11 +16,19 @@
 - [[110\|110]] DevOps Engineer Infra
 - [[120\|120]] ML Engineer Infra
 
+Linear Algebra
+
+Statistics
 
 
 [[Projects/Library/400\|400]] ML Engineer Basic
-- [[410\|410]] Mathematics
-	- [[410.00\|410.00]]
+- [[Projects/Library/410\|410]] Mathematics
+	- [[Projects/Library/410.00\|410.00]] Linear Algebra
+		- [[Projects/Library/410.00 a\|410.00 a]]
+	- [[Projects/Library/410.10\|410.10]] Probability
+	- [[Projects/Library/410.20\|410.20]] Statistics
+	- [[Projects/Library/410.30\|410.30]] Calculus
+Calculus
 - [[420\|420]]
 
 [[500\|500]] Algorithms and Modeling 
