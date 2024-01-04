@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/resources/ai-prompt/","noteIcon":"0","created":"2023-11-18T17:29:32.658+09:00","updated":"2024-01-04T10:26:29.188+09:00"}
+{"dg-publish":true,"permalink":"/resources/ai-prompt/","noteIcon":"0","created":"2023-11-18T17:29:32.658+09:00","updated":"2024-01-04T23:45:48.125+09:00"}
 ---
 
 #PromptEngineering #Dall-E #ChatGPT #Prompt-Vision
@@ -36,7 +36,7 @@ As a result, I was able to achieve the desired composition of the image
 ---
 
 # How to prompt your documentation to follow the suggested structure
-#ChatGPT #PromptEngineering #AI-Compliance #Ha
+#ChatGPT #PromptEngineering #AI-Compliance 
 
 
 # Problems
