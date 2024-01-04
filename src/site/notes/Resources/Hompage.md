@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/resources/hompage/","tags":["gardenEntry"],"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2024-01-05T01:11:06.633+09:00"}
+{"dg-publish":true,"permalink":"/resources/hompage/","tags":["gardenEntry"],"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2024-01-05T01:13:30.856+09:00"}
 ---
 
 #hompage #Library #Rules
@@ -44,7 +44,7 @@ Each note is connected only to the preceding and following ones.
 # View all call numbers at once
 [[Projects/Library/Call Number Index\|Call Number Index]]
 
----
+--- 
 ---
 ---
 
