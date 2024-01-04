@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/resources/hompage/","tags":["gardenEntry"],"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2024-01-02T03:04:57.277+09:00"}
+{"dg-publish":true,"permalink":"/resources/hompage/","tags":["gardenEntry"],"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2024-01-04T16:13:40.942+09:00"}
 ---
 
 #hompage #Library #Rules
@@ -45,8 +45,12 @@ Each note is connected only to the preceding and following ones.
 100 note is connected hompage and 110,120,130, ...
  
 
-### test
+### View all call numbers at once
+[[Resources/Call Number Index\|Call Number Index]]
+
+
 # [[Resources/000\|000]] IT Knowledge
+[[Resources/400\|400]] Machine Learning Base 
 
 
 
