@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/resources/history-of-library/","noteIcon":"0","created":"2023-12-31T20:39:20.070+09:00","updated":"2024-01-05T01:39:55.236+09:00"}
+{"dg-publish":true,"permalink":"/resources/history-of-library/","noteIcon":"0","created":"2023-12-31T20:39:20.070+09:00","updated":"2024-01-05T01:40:52.329+09:00"}
 ---
 
 #Hompage #[[Resources/Hompage\|Hompage]] 
@@ -26,7 +26,7 @@ solution: using external service [joey](https://joey.team/)
 #  Apply Google Analytics in bulk to all pages
 
 `src/site/_includes/layouts/note.njk`
-First I tried insert html script to all md files, but i notice that it too much hard. so I find template file that used by the md file to be applied to the actual webpage
+Initially, I attempted to insert an HTML script into all MD files, but I realized that it was too difficult. So, I looked for a template file that the MD files use to apply to the actual webpages
 
 모든페이지에 들어가는 항목의 경우 각 각의 md파일에 대한 템플릿아닌, 적용되는 웹페에지에 적용
 
