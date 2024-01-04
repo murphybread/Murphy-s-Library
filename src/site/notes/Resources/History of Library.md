@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/resources/history-of-library/","noteIcon":"0","created":"2023-12-31T20:39:20.070+09:00","updated":"2024-01-05T01:28:49.882+09:00"}
+{"dg-publish":true,"permalink":"/resources/history-of-library/","noteIcon":"0","created":"2023-12-31T20:39:20.070+09:00","updated":"2024-01-05T01:30:12.672+09:00"}
 ---
 
 #Hompage #[[Resources/Hompage\|Hompage]] 
@@ -454,7 +454,7 @@ const generateStylesPaths = async () => {
 # hr for new line
 In markdown `---` horizon line makes new line. In html to makes new line defualt.
 but my case not worked. So I inspect why, because no margin and padding in hr styles
-So I just add it approximately 6px
+So I just add it approximately 20px
 
 ### Causion
 `I need to distinguish which HRs should have the style applied to that`
@@ -463,7 +463,7 @@ If you're unsure about which tags are affected by a specific tag, you can use a 
 
 ```
 .markdown-rendered hr {
-    margin-top: 20px;  /* Adds 6 pixels of space above the <hr> */
-    margin-bottom: 6px;  /* Adds 6 pixels of space below the <hr> */
+    margin-top: 20px;  /* Adds 20 pixels of space above the <hr> */
+    margin-bottom: 20px;  /* Adds 20 pixels of space below the <hr> */
 }
 ```
