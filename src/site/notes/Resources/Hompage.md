@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/resources/hompage/","tags":["gardenEntry"],"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2024-01-05T00:46:40.984+09:00"}
+{"dg-publish":true,"permalink":"/resources/hompage/","tags":["gardenEntry"],"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2024-01-05T00:49:42.751+09:00"}
 ---
 
 #hompage #Library #Rules
@@ -62,8 +62,7 @@ Each note is connected only to the preceding and following ones.
 ## On My Bookshelf
 
 ### Basic Math for Data Science with Python
-[![9791140702701.jpg](/img/user/images/9791140702701.jpg)(https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=309058341&start=slayer)
-
+[![9791140702701.jpg](/img/user/images/9791140702701.jpg)](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=309058341&start=slayer)
 ## Ongoing Projects
 
 ## Link Trees
