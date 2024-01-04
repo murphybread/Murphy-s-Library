@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/resources/hompage/","tags":["gardenEntry"],"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2024-01-04T16:13:40.942+09:00"}
+{"dg-publish":true,"permalink":"/resources/hompage/","tags":["gardenEntry"],"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2024-01-05T00:42:57.538+09:00"}
 ---
 
 #hompage #Library #Rules
@@ -50,7 +50,7 @@ Each note is connected only to the preceding and following ones.
 
 
 # [[Projects/Library/000\|000]] IT Knowledge
-[[Projects/Library/400\|400]] Machine Learning Base 
+# [[Projects/Library/400\|400]] Machine Learning Base 
 
 
 
@@ -60,6 +60,10 @@ Each note is connected only to the preceding and following ones.
 
 ---
 ## On My Bookshelf
+
+### Basic Math for Data Science with Python
+[![book_name][9791140702701.jpg]](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=309058341&start=slayer)
+
 ## Ongoing Projects
 
 ## Link Trees
