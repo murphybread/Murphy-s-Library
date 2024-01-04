@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/resources/history-of-library/","noteIcon":"0","created":"2023-12-31T20:39:20.070+09:00","updated":"2024-01-02T23:48:37.077+09:00"}
+{"dg-publish":true,"permalink":"/resources/history-of-library/","noteIcon":"0","created":"2023-12-31T20:39:20.070+09:00","updated":"2024-01-03T00:16:14.102+09:00"}
 ---
 
 #Hompage #[[Resources/Hompage\|Hompage]] 
@@ -408,7 +408,16 @@ so find dynamics.js
 AI Suggest Style path incorrect.  Because I ask i don have /user directory but it used in function
 and second is order for custom.css
 
+before
+`const STYLE_PATH = "src/site/styles/users";`
+
+after
+`const STYLE_PATH = "src/site/styles/";`
 ```
+
+const STYLE_PATH = "src/site/styles/";
+
+
 // const generateStylesPaths = async () => {
 //   try {
 //     const tree = await fsFileTree(`${STYLE_PATH}`);
