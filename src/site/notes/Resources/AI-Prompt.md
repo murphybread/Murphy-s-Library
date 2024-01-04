@@ -1,0 +1,119 @@
+---
+{"dg-publish":true,"permalink":"/Resources/AI-Prompt/","noteIcon":"1"}
+---
+
+#PromptEngineering #Dall-E #ChatGPT #Prompt-Vision
+
+
+
+# Create a PPT picture of the desired size in prompt
+#Dall-E3 #Text_to_Image #ChatGPT 
+ChatGPT's Dall-E 3 model enables prompt-recognized AI image generation
+
+The first thing I wanted to try was a layered picture for PPT with Infra at the bottom, DevOps in the middle, and Application at the top.
+
+First, it is good for the image atmosphere to declare the style.
+I want to architecture for ppt in IT
+
+However, I kept getting a picture with the longest text at the bottom as shown below. Even when I typed the prompt "Put Infra at the bottom", it came out incorrectly with the answer "Okay".
+
+![DALL·E 2024-01-02 21.50.21 - Create an image featuring three vertically stacked squares against a white background, with uniform font style for each square. The bottom square is c.png](/img/user/images/DALL%C2%B7E%202024-01-02%2021.50.21%20-%20Create%20an%20image%20featuring%20three%20vertically%20stacked%20squares%20against%20a%20white%20background,%20with%20uniform%20font%20style%20for%20each%20square.%20The%20bottom%20square%20is%20c.png)
+
+
+
+After several attempts, it presented the structure itself.
+```
+I created the following image
+Application
+DevOps
+Infra
+
+```
+As a result, I was able to achieve the desired composition of the image
+![DALL·E 2023-11-18 17.46.12 - A PowerPoint icon featuring three boxes aligned vertically on a white background. Each box has a black outline and is labeled in black. The smallest b.png](/img/user/images/DALL%C2%B7E%202023-11-18%2017.46.12%20-%20A%20PowerPoint%20icon%20featuring%20three%20boxes%20aligned%20vertically%20on%20a%20white%20background.%20Each%20box%20has%20a%20black%20outline%20and%20is%20labeled%20in%20black.%20The%20smallest%20b.png)
+
+
+---
+
+# How to prompt your documentation to follow the suggested structure
+#ChatGPT #PromptEngineering #AI-Compliance #Ha
+
+
+# Problems
+`When you want to give ChatGPT the role of creating posts that fit your desired structure, but they don't follow your desired structure`
+
+I tried to write an article with a set structure through ChatGPT, but ChatGPT said yes, but didn't create the structure I wanted.
+
+Here is role what i used
+```
+
+Your role is to assist users in creating IT-related blog articles. When provided with a conversation between the user and ChatGPT, you will write an article using the information provided, formatted in Markdown.
+When you get not english conversation, first translate it and Please use the following format as a guide
+ Your articles should follow a specific structure: 
+You must adhere to a 3-line summary of the TLDR, a 3-line summary of the problem, and a 3-line summary of the solution
+
+before write start, think about format rule and markdown format
+
+**TL;DR**: Summarize the problem definition, the solution approach, and the benefits and limitations of the solution. Summarize 3. lines as far as possible
+1.Describe how you defined the problem, usually in some context.
+2. Describe your approach to solving that problem and how you solved it.
+3. Describe the benefits and limitations of solving the problem.
+
+ **Problem**: Provide a detailed definition of the problem, the context in which it occurs, and the benefits of solving it.
+`Define what the problem is, usually in the form of a one-line summary`
+Describe the problem in more detail, the context in which you encounter it, and the benefits of solving it.
+
+ **Solution**: Describe the approach to solving the problem, including a technical introduction or example, and illustrate how the solution addresses the original problem.
+`How to resolve this issue`
+An approach to solve that problem first
+A technical introduction or example in the middle
+At the end, a situation where the solution solved the original problem
+
+You should emphasize clarity and accuracy in conveying technical information. Your responses should be well-structured and adhere strictly to the provided format. It's important to ensure that the content is informative and relevant to IT professionals and enthusiasts.
+```
+
+Main points are here
+```
+You must adhere to a 3-line summary of the TLDR, a 3-line summary of the problem, and a 3-line summary of the solution
+
+before write start, think about format rule and markdown format
+**TL;DR**: Summarize the problem definition, the solution approach, and the benefits and limitations of the solution. Summarize 3. lines as far as possible
+1.Describe how you defined the problem, usually in some context.
+2. Describe your approach to solving that problem and how you solved it.
+3. Describe the benefits and limitations of solving the problem.
+```
+
+
+# Solution
+'If the structure is formed by the preceding command, the structure for subsequent commands can be ignored'.
+
+There are other structures, but the TL DR's 3-line summary was the only one that I could see that I wasn't breaking, and that I could see clearly.
+I tried translating it into a foreign language, adding structure after translation, and adding prompts to emphasize structure, but it didn't work.
+
+I thought maybe the previous command was making the next one disappear, so I removed the previous command and specified exactly what I wanted it to look like
+
+This solution gave me the structure I wanted.
+Here is modified role explanation
+```
+...
+...
+**TL;DR**
+1.Describe how you defined the problem, usually in some context.
+2. Describe your approach to solving that problem and how you solved it.
+3. Describe the benefits and limitations of solving the problem.
+
+ **Problem**
+`Define what the problem is, usually in the form of a one-line summary`
+Describe the problem in more detail, the context in which you encounter it, and the benefits of solving it.
+
+ **Solution**
+`How to resolve this issue`
+An approach to solve that problem first
+A technical introduction or example in the middle
+At the end, a situation where the solution solved the original problem
+...
+...
+...
+```
+
+---
