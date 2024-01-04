@@ -46,11 +46,11 @@ Each note is connected only to the preceding and following ones.
  
 
 ### View all call numbers at once
-[[Resources/Call Number Index\|Call Number Index]]
+[[Projects/Library/Call Number Index\|Call Number Index]]
 
 
-# [[Resources/000\|000]] IT Knowledge
-[[Resources/400\|400]] Machine Learning Base 
+# [[Projects/Library/000\|000]] IT Knowledge
+[[Projects/Library/400\|400]] Machine Learning Base 
 
 
 
