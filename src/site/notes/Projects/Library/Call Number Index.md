@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/projects/library/call-number-index/","noteIcon":"0","created":"2023-12-28T18:54:11.332+09:00","updated":"2024-01-05T00:31:28.044+09:00"}
+{"dg-publish":true,"permalink":"/projects/library/call-number-index/","noteIcon":"0","created":"2023-12-28T18:54:11.332+09:00","updated":"2024-01-10T01:10:11.698+09:00"}
 ---
 
 
