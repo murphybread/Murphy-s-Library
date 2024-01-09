@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/resources/hompage/","tags":["gardenEntry"],"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2024-01-10T01:21:53.507+09:00"}
+{"dg-publish":true,"permalink":"/resources/hompage/","tags":["gardenEntry"],"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2024-01-10T01:29:41.787+09:00"}
 ---
 
 #hompage #Library #Rules
@@ -62,11 +62,11 @@ Recent Posts
 
 | File                                                                                                     | title                                   | file.link                                                                                                |
 | -------------------------------------------------------------------------------------------------------- | --------------------------------------- | -------------------------------------------------------------------------------------------------------- |
-| [[Areas_of_Responsibility/Diary/202401/2024-01-09\|2024-01-09]]                                       | 2024-01-09                              | [[Areas_of_Responsibility/Diary/202401/2024-01-09\|2024-01-09]]                                       |
-| [[Areas_of_Responsibility/Diary/202401/2024-01-08\|2024-01-08]]                                       | 2024-01-08                              | [[Areas_of_Responsibility/Diary/202401/2024-01-08\|2024-01-08]]                                       |
-| [[Areas_of_Responsibility/Diary/202401/2024-01-07\|2024-01-07]]                                       | 2024-01-07                              | [[Areas_of_Responsibility/Diary/202401/2024-01-07\|2024-01-07]]                                       |
 | [[Projects/Library/Basic Math for Data Science with Python\|Basic Math for Data Science with Python]] | Basic Math for Data Science with Python | [[Projects/Library/Basic Math for Data Science with Python\|Basic Math for Data Science with Python]] |
-| [[Areas_of_Responsibility/Diary/202401/2024-01-06\|2024-01-06]]                                       | 2024-01-06                              | [[Areas_of_Responsibility/Diary/202401/2024-01-06\|2024-01-06]]                                       |
+| [[Projects/Library/410.30\|410.30]]                                                                   | 410.30                                  | [[Projects/Library/410.30\|410.30]]                                                                   |
+| [[Projects/Library/410.20\|410.20]]                                                                   | 410.20                                  | [[Projects/Library/410.20\|410.20]]                                                                   |
+| [[Projects/Library/410.10\|410.10]]                                                                   | 410.10                                  | [[Projects/Library/410.10\|410.10]]                                                                   |
+| [[Projects/Library/410.00 a\|410.00 a]]                                                               | 410.00 a                                | [[Projects/Library/410.00 a\|410.00 a]]                                                               |
 
 { .block-language-dataview}
 
