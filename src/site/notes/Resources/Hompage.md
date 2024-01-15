@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/resources/hompage/","tags":["gardenEntry"],"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2024-01-10T01:29:41.787+09:00"}
+{"dg-publish":true,"permalink":"/resources/hompage/","tags":["gardenEntry"],"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2024-01-15T09:36:13.633+09:00"}
 ---
 
 #hompage #Library #Rules
@@ -19,17 +19,11 @@ The library call numbers are classified as follows:
 - 000: Major category `100,200,300 ...`
 - 010 Middle category `010,020,030 ...`
 - 010.10: Minor category `010.10, 010.20, 010.30 ...`
-- 010.10 a: Subcategory `010.10 a, 010.10 b, 010.10 c ...`
-- 010.10 a-1: "Article Title"
+- 010.10 a: Articles category `010.10 a, 010.10 b, 010.10 c ...`
   
-Notes with identifiers like "a-1" represent articles containing content, while other identifiers denote a range.
+Notes with suffixes like"a" represent articles containing content, while other identifiers denote a range.
 You can view all notes containing actual content at once in a single subcategory note.
-**Example (ex):**
-Subcategory: `010.10 a`
-- Articles:
-    - 010.10 a-1
-    - 010.10 a-2
-    - 010.10 a-3
+
 
 
 
