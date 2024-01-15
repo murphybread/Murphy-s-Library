@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/projects/library/call-number-index/","noteIcon":"0","created":"2023-12-28T18:54:11.332+09:00","updated":"2024-01-10T01:10:11.698+09:00"}
+{"dg-publish":true,"permalink":"/projects/library/call-number-index/","noteIcon":"0","created":"2023-12-28T18:54:11.332+09:00","updated":"2024-01-15T12:31:51.032+09:00"}
 ---
 
 
@@ -10,6 +10,7 @@
 	- [[Projects/Library/010.00\|010.00]] Develop Computer Science Knowledge
 		- [[Projects/Library/010.00 a\|010.00 a]] Essential Developer Insights
 	- [[Projects/Library/010.10\|010.10]] Develop Programming Language
+		- [[ 010.10 a\| 010.10 a]] Bash shell
 	
 
 [[100\|100]] Infra
@@ -28,8 +29,6 @@ Statistics
 	- [[Projects/Library/410.10\|410.10]] Probability
 	- [[Projects/Library/410.20\|410.20]] Statistics
 	- [[Projects/Library/410.30\|410.30]] Calculus
-Calculus
-- [[420\|420]]
 
 [[500\|500]] Algorithms and Modeling 
 
