@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/projects/library/call-number-index/","noteIcon":"0","created":"2023-12-28T18:54:11.332+09:00","updated":"2024-01-18T00:16:43.734+09:00"}
+{"dg-publish":true,"permalink":"/projects/library/call-number-index/","tags":["Library"],"noteIcon":"0","created":"2023-12-28T18:54:11.332+09:00","updated":"2024-01-18T00:37:22.860+09:00"}
 ---
 
 Call Number Index
