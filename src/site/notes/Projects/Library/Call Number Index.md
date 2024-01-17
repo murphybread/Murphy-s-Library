@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/projects/library/call-number-index/","noteIcon":"0","created":"2023-12-28T18:54:11.332+09:00","updated":"2024-01-18T00:02:20.098+09:00"}
+{"dg-publish":true,"permalink":"/projects/library/call-number-index/","noteIcon":"0","created":"2023-12-28T18:54:11.332+09:00","updated":"2024-01-18T00:16:43.734+09:00"}
 ---
 
 Call Number Index
@@ -35,6 +35,7 @@ Statistics
 [[600\|600]] ML Libraries and Implementation
 - [[Projects/Library/610\|610]] Data Handling
     - [[Projects/Library/610.00\|610.00]] Pandas
+	    - [[610.00 a \|610.00 a ]] Pandas-basic 
     - [[610.10\|610.10]] NumPy
 - [[620\|620]] Machine Learning Frameworks
     - [[620.00\|620.00]] scikit-learn
