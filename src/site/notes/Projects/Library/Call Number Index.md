@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"permalink":"/projects/library/call-number-index/","noteIcon":"0","created":"2023-12-28T18:54:11.332+09:00","updated":"2024-01-15T12:31:51.032+09:00"}
+{"dg-publish":true,"permalink":"/projects/library/call-number-index/","noteIcon":"0","created":"2023-12-28T18:54:11.332+09:00","updated":"2024-01-18T00:02:20.098+09:00"}
 ---
 
-
+Call Number Index
 [[Resources/Hompage\|Hompage]]
 
 [[Projects/Library/000\|000]] IT Knoewledge
@@ -30,6 +30,13 @@ Statistics
 	- [[Projects/Library/410.20\|410.20]] Statistics
 	- [[Projects/Library/410.30\|410.30]] Calculus
 
-[[500\|500]] Algorithms and Modeling 
+[[500\|500]] Algorithms and Modeling
 
 [[600\|600]] ML Libraries and Implementation
+- [[Projects/Library/610\|610]] Data Handling
+    - [[Projects/Library/610.00\|610.00]] Pandas
+    - [[610.10\|610.10]] NumPy
+- [[620\|620]] Machine Learning Frameworks
+    - [[620.00\|620.00]] scikit-learn
+    - [[620.10\|620.10]] TensorFlow
+    - [[620.20\|620.20]] PyTorch
