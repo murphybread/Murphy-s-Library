@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/projects/library/call-number-index/","tags":["Library"],"noteIcon":"0","created":"2023-12-28T18:54:11.332+09:00","updated":"2024-01-18T00:37:22.860+09:00"}
+{"dg-publish":true,"permalink":"/projects/library/call-number-index/","tags":["Library"],"noteIcon":"0","created":"2023-12-28T18:54:11.332+09:00","updated":"2024-01-18T09:36:42.368+09:00"}
 ---
 
 Call Number Index
@@ -12,14 +12,13 @@ Call Number Index
 	- [[Projects/Library/010.10\|010.10]] Develop Programming Language
 		- [[ 010.10 a\| 010.10 a]] Bash shell
 	
+---
 
 [[100\|100]] Infra
 - [[110\|110]] DevOps Engineer Infra
 - [[120\|120]] ML Engineer Infra
 
-Linear Algebra
-
-Statistics
+---
 
 
 [[Projects/Library/400\|400]] ML Engineer Basic
@@ -30,7 +29,12 @@ Statistics
 	- [[Projects/Library/410.20\|410.20]] Statistics
 	- [[Projects/Library/410.30\|410.30]] Calculus
 
+---
+
 [[500\|500]] Algorithms and Modeling
+
+---
+
 
 [[600\|600]] ML Libraries and Implementation
 - [[Projects/Library/610\|610]] Data Handling
@@ -41,3 +45,5 @@ Statistics
     - [[620.00\|620.00]] scikit-learn
     - [[620.10\|620.10]] TensorFlow
     - [[620.20\|620.20]] PyTorch
+
+---
