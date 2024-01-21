@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/projects/library/call-number-index/","tags":["Library"],"noteIcon":"0","created":"2023-12-28T18:54:11.332+09:00","updated":"2024-01-18T09:36:42.368+09:00"}
+{"dg-publish":true,"permalink":"/projects/library/call-number-index/","tags":["Library"],"noteIcon":"0","created":"2023-12-28T18:54:11.332+09:00","updated":"2024-01-21T17:54:32.582+09:00"}
 ---
 
 Call Number Index
@@ -24,10 +24,15 @@ Call Number Index
 [[Projects/Library/400\|400]] ML Engineer Basic
 - [[Projects/Library/410\|410]] Mathematics
 	- [[Projects/Library/410.00\|410.00]] Linear Algebra
-		- [[Projects/Library/410.00 a\|410.00 a]]
+		- [[Projects/Library/410.00 a\|410.00 a]] Fundamental Function
+		- [[Projects/Library/410.00 b\|410.00 b]] Vector
+		- [[Projects/Library/410.00 c\|410.00 c]] Vectors Properties
+		- [[Projects/Library/410.00 d\|410.00 d]] Vector Operation
 	- [[Projects/Library/410.10\|410.10]] Probability
+		- [[Projects/Library/410.10 a\|410.10 a]] Fundamental Function
 	- [[Projects/Library/410.20\|410.20]] Statistics
 	- [[Projects/Library/410.30\|410.30]] Calculus
+		- [[Projects/Library/410.30 a\|410.30 a]] fundamental 
 
 ---
 
@@ -47,3 +52,8 @@ Call Number Index
     - [[620.20\|620.20]] PyTorch
 
 ---
+
+[[Projects/Library/700\|700]] Research Paper
+- [[Projects/Library/710\|710]] methodology
+	- [[Projects/Library/710.00\|710.00]] Multi-agent Reinforcement Learning
+		- [[Projects/Library/710.00 a\|710.00 a]]
