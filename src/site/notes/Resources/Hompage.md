@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/resources/hompage/","tags":["gardenEntry"],"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2024-01-18T09:34:33.928+09:00"}
+{"dg-publish":true,"permalink":"/resources/hompage/","tags":["gardenEntry"],"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2024-01-22T01:28:52.983+09:00"}
 ---
 
 #hompage #Library #Rules
@@ -53,13 +53,13 @@ Each note is connected only to the preceding and following ones.
 Recent Posts
 ---
 
-| File                                                                                                     | title                                   | file.link                                                                                                |
-| -------------------------------------------------------------------------------------------------------- | --------------------------------------- | -------------------------------------------------------------------------------------------------------- |
-| [[Projects/Library/610.00 a\|610.00 a]]                                                               | 610.00 a                                | [[Projects/Library/610.00 a\|610.00 a]]                                                               |
-| [[Projects/Library/610.00\|610.00]]                                                                   | 610.00                                  | [[Projects/Library/610.00\|610.00]]                                                                   |
-| [[Projects/Library/610\|610]]                                                                         | 610                                     | [[Projects/Library/610\|610]]                                                                         |
-| [[Projects/Library/010.10 a\|010.10 a]]                                                               | 010.10 a                                | [[Projects/Library/010.10 a\|010.10 a]]                                                               |
-| [[Projects/Library/Basic Math for Data Science with Python\|Basic Math for Data Science with Python]] | Basic Math for Data Science with Python | [[Projects/Library/Basic Math for Data Science with Python\|Basic Math for Data Science with Python]] |
+| File                                       | title    | file.link                                  |
+| ------------------------------------------ | -------- | ------------------------------------------ |
+| [[Projects/Library/410.10 a\|410.10 a]] | 410.10 a | [[Projects/Library/410.10 a\|410.10 a]] |
+| [[Projects/Library/410.00 d\|410.00 d]] | 410.00 d | [[Projects/Library/410.00 d\|410.00 d]] |
+| [[Projects/Library/410.00 c\|410.00 c]] | 410.00 c | [[Projects/Library/410.00 c\|410.00 c]] |
+| [[Projects/Library/410.00 b\|410.00 b]] | 410.00 b | [[Projects/Library/410.00 b\|410.00 b]] |
+| [[Projects/Library/410.30 a\|410.30 a]] | 410.30 a | [[Projects/Library/410.30 a\|410.30 a]] |
 
 { .block-language-dataview}
 
@@ -70,7 +70,7 @@ Recent Posts
 ## On My Bookshelf
 
 ### Basic Math for Data Science with Python
-[![9791140702701.jpg](/img/user/images/9791140702701.jpg)](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=309058341&start=slayer)
+
 ## Ongoing Projects
 
 ## Link Trees
