@@ -1,7 +1,8 @@
 ---
-{"dg-publish":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2024-01-22T10:15:45.242+09:00"}
+dg-publish: true
+dg-home: true
+dg-publish: true
 ---
-
 #hompage #Library #Rules
 
 
@@ -55,11 +56,11 @@ Recent Posts
 
 | File                                       | title    | file.link                                  |
 | ------------------------------------------ | -------- | ------------------------------------------ |
-| [[Projects/Library/410.10 a\|410.10 a]] | 410.10 a | [[Projects/Library/410.10 a\|410.10 a]] |
-| [[Projects/Library/410.00 d\|410.00 d]] | 410.00 d | [[Projects/Library/410.00 d\|410.00 d]] |
-| [[Projects/Library/410.00 c\|410.00 c]] | 410.00 c | [[Projects/Library/410.00 c\|410.00 c]] |
-| [[Projects/Library/410.00 b\|410.00 b]] | 410.00 b | [[Projects/Library/410.00 b\|410.00 b]] |
-| [[Projects/Library/410.30 a\|410.30 a]] | 410.30 a | [[Projects/Library/410.30 a\|410.30 a]] |
+| [[Projects/Library/630.20\|630.20]]     | 630.20   | [[Projects/Library/630.20\|630.20]]     |
+| [[Projects/Library/630.10\|630.10]]     | 630.10   | [[Projects/Library/630.10\|630.10]]     |
+| [[Projects/Library/630.00\|630.00]]     | 630.00   | [[Projects/Library/630.00\|630.00]]     |
+| [[Projects/Library/630\|630]]           | 630      | [[Projects/Library/630\|630]]           |
+| [[Projects/Library/620.10 a\|620.10 a]] | 620.10 a | [[Projects/Library/620.10 a\|620.10 a]] |
 
 { .block-language-dataview}
 
@@ -89,7 +90,7 @@ IT Community in Korea
 
 ---
 # History of Library
-Link:  [[Resources/History of Library\|History of Library]]
+Link:  [[Projects/Library/Manage/History of Library\|History of Library]]
 
 
 
