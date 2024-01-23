@@ -1,9 +1,14 @@
 ---
-{"dg-publish":true,"permalink":"/projects/library/manage/call-number-index/","tags":["Library"],"noteIcon":"0","created":"2023-12-28T18:54:11.332+09:00","updated":"2024-01-23T09:32:08.870+09:00"}
+{"dg-publish":true,"permalink":"/projects/library/manage/call-number-index/","tags":["Library"],"noteIcon":"0","created":"2023-12-28T18:54:11.332+09:00","updated":"2024-01-23T10:56:06.115+09:00"}
 ---
 
 Call Number Index
 [[Projects/Library/Manage/Hompage\|Hompage]]
+
+
+```json
+
+```
 
 [[Projects/Library/000\|000]] IT Knoewledge
 - [[Projects/Library/010\|010]] Develop Knowledge
@@ -60,4 +65,3 @@ Call Number Index
 [[Projects/Library/700\|700]] Research Paper
 - [[Projects/Library/710\|710]] methodology
 	- [[Projects/Library/710.00\|710.00]] Multi-agent Reinforcement Learning
-		- [[Projects/Library/710.00 a\|710.00 a]]
