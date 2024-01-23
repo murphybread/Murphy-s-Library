@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/resources/history-of-library/","noteIcon":"0","created":"2023-12-31T20:39:20.070+09:00","updated":"2024-01-05T01:40:52.329+09:00"}
 ---
 
-#Hompage #[[Resources/Hompage\|Hompage]] 
+#Hompage #[[Projects/Library/Manage/Hompage\|Hompage]] 
 
 # Guest book
 
