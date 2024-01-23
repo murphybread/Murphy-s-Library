@@ -1,0 +1,63 @@
+---
+{"dg-publish":true,"permalink":"/projects/library/manage/call-number-index/","tags":["Library"],"noteIcon":"0","created":"2023-12-28T18:54:11.332+09:00","updated":"2024-01-23T09:32:08.870+09:00"}
+---
+
+Call Number Index
+[[Projects/Library/Manage/Hompage\|Hompage]]
+
+[[Projects/Library/000\|000]] IT Knoewledge
+- [[Projects/Library/010\|010]] Develop Knowledge
+	- [[Projects/Library/010.00\|010.00]] Develop Computer Science Knowledge
+		- [[Projects/Library/010.00 a\|010.00 a]] Essential Developer Insights
+	- [[Projects/Library/010.10\|010.10]] Develop Programming Language
+		- [[ 010.10 a\| 010.10 a]] Bash shell
+	
+---
+
+[[100\|100]] Infra
+- [[110\|110]] DevOps Engineer Infra
+- [[120\|120]] ML Engineer Infra
+
+---
+
+
+[[Projects/Library/400\|400]] ML Engineer Basic
+- [[Projects/Library/410\|410]] Mathematics
+	- [[Projects/Library/410.00\|410.00]] Linear Algebra
+		- [[Projects/Library/410.00 a\|410.00 a]] Fundamental Function
+		- [[Projects/Library/410.00 b\|410.00 b]] Vector
+		- [[Projects/Library/410.00 c\|410.00 c]] Vectors Properties
+		- [[Projects/Library/410.00 d\|410.00 d]] Vector Operation
+	- [[Projects/Library/410.10\|410.10]] Probability
+		- [[Projects/Library/410.10 a\|410.10 a]] Fundamental Function
+	- [[Projects/Library/410.20\|410.20]] Statistics
+	- [[Projects/Library/410.30\|410.30]] Calculus
+		- [[Projects/Library/410.30 a\|410.30 a]] fundamental 
+
+---
+
+[[500\|500]] Algorithms and Modeling
+
+---
+
+
+[[600\|600]] ML Libraries and Implementation
+- [[Projects/Library/610\|610]] Data Handling
+    - [[Projects/Library/610.00\|610.00]] Pandas
+	    - [[610.00 a \|610.00 a ]] Pandas-basic 
+    - [[610.10\|610.10]] NumPy
+- 620 Data visualization
+	- 620.00 Mapplethorpe lib
+	- 620.10 Seabornn 
+		- 620.10 a Seaborn Fundamental  
+- [[620\|620]] Machine Learning Frameworks
+    - [[620.00\|620.00]] scikit-learn
+    - [[620.10\|620.10]] TensorFlow
+    - [[620.20\|620.20]] PyTorch
+
+---
+
+[[Projects/Library/700\|700]] Research Paper
+- [[Projects/Library/710\|710]] methodology
+	- [[Projects/Library/710.00\|710.00]] Multi-agent Reinforcement Learning
+		- [[Projects/Library/710.00 a\|710.00 a]]
