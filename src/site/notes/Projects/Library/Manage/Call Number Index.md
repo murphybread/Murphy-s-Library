@@ -1,7 +1,8 @@
 ---
-{"dg-publish":true,"permalink":"/projects/library/manage/call-number-index/","tags":["Library"],"noteIcon":"0","created":"2023-12-28T18:54:11.332+09:00","updated":"2024-01-23T10:56:06.115+09:00"}
+dg-publish: true
+tags:
+  - Library
 ---
-
 Call Number Index
 [[Projects/Library/Manage/Hompage\|Hompage]]
 
@@ -51,14 +52,14 @@ Call Number Index
     - [[Projects/Library/610.00\|610.00]] Pandas
 	    - [[610.00 a \|610.00 a ]] Pandas-basic 
     - [[610.10\|610.10]] NumPy
-- 620 Data visualization
-	- 620.00 Mapplethorpe lib
-	- 620.10 Seabornn 
-		- 620.10 a Seaborn Fundamental  
-- [[620\|620]] Machine Learning Frameworks
-    - [[620.00\|620.00]] scikit-learn
-    - [[620.10\|620.10]] TensorFlow
-    - [[620.20\|620.20]] PyTorch
+- [[620\|620]] Data visualization
+	- [[620.00\|620.00]] Mapplethorpe lib
+	- [[620.10\|620.10]] Seabornn 
+		- [[Projects/Library/620.10 a\|620.10 a]] Seaborn Fundamental  
+- [[Projects/Library/630\|630]] Machine Learning Frameworks
+    - [[Projects/Library/630.00\|630.00]] scikit-learn
+    - [[Projects/Library/630.10\|630.10]] TensorFlow
+    - [[Projects/Library/630.20\|630.20]] PyTorch
 
 ---
 
