@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/projects/library/manage/history-of-library/","noteIcon":"0","created":"2023-12-31T20:39:20.070+09:00","updated":"2024-01-24T01:50:18.063+09:00"}
+{"dg-publish":true,"permalink":"/projects/library/manage/history-of-library/","noteIcon":"0","created":"2023-12-31T20:39:20.070+09:00","updated":"2024-01-24T14:15:58.255+09:00"}
 ---
 
 #Hompage #[[Projects/Library/Manage/Hompage\|Hompage]] 
@@ -543,3 +543,7 @@ for root, dirs, files in os.walk("."):
 7. **Write Changes to File**: After making the necessary additions, the script writes the updated lines back to the file, saving the changes.
     
 8. **Error Handling**: If the script encounters a Unicode decode error while reading a file (possibly due to a different encoding), it prints an error message indicating which file caused the issue.
+
+
+
+automation.py
