@@ -1,8 +1,7 @@
 ---
-dg-publish: true
-dg-home: true
-dg-publish: true
+{"dg-publish":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2024-01-25T20:51:24.254+09:00"}
 ---
+
 #hompage #Library #Rules
 
 
@@ -42,7 +41,7 @@ Each note is connected only to the preceding and following ones.
 ---
 
 # [[Projects/Library/000/000\|000]] IT Knowledge
-# [[Projects/Library/400/400\|400]] Machine Learning Base 
+# [[Projects/Library/Manage/400\|400]] Machine Learning Base 
 
 
 
@@ -57,10 +56,10 @@ Recent Posts
 | File                                                      | title    | file.link                                                 |
 | --------------------------------------------------------- | -------- | --------------------------------------------------------- |
 | [[Projects/Library/600/620/620.10/620.10 a\|620.10 a]] | 620.10 a | [[Projects/Library/600/620/620.10/620.10 a\|620.10 a]] |
-| [[Projects/Library/100/120/120\|120]]                  | 120      | [[Projects/Library/100/120/120\|120]]                  |
-| [[Projects/Library/400/400\|400]]                      | 400      | [[Projects/Library/400/400\|400]]                      |
-| [[Projects/Library/000/010/010.10/010.10\|010.10]]     | 010.10   | [[Projects/Library/000/010/010.10/010.10\|010.10]]     |
-| [[Projects/Library/100/100\|100]]                      | 100      | [[Projects/Library/100/100\|100]]                      |
+| [[Projects/Library/700/700\|700]]                      | 700      | [[Projects/Library/700/700\|700]]                      |
+| [[Projects/Library/700/710/710\|710]]                  | 710      | [[Projects/Library/700/710/710\|710]]                  |
+| [[Projects/Library/700/710/710.00/710.00\|710.00]]     | 710.00   | [[Projects/Library/700/710/710.00/710.00\|710.00]]     |
+| [[Projects/Library/600/630/630.00/630.00\|630.00]]     | 630.00   | [[Projects/Library/600/630/630.00/630.00\|630.00]]     |
 
 { .block-language-dataview}
 
