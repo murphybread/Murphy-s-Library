@@ -1,9 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/projects/library/manage/hompage/","noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2024-01-26T10:14:30.341+09:00"}
----
-
+dg-publish: true
 dg-home: true
-
 ---
 #hompage #Library #Rules
 
@@ -26,7 +23,7 @@ The library call numbers are classified as follows:
   
 Notes with suffixes like"a" represent articles containing content, while other identifiers denote a range.
 You can view all notes call numbers at once
-[[Projects/Library/Manage/Call Number Index\|Call Number Index]]
+[[Call Number Index]]
 
 
 
@@ -43,8 +40,46 @@ Each note is connected only to the preceding and following ones.
 ---
 ---
 
-# [[Projects/Library/000/000\|000]] IT Knowledge
-# [[Projects/Library/Manage/400\|400]] Machine Learning Base 
+[[000]] IT Knowledge
+- [[010]] Develop Knowledge
+	- [[010.00]] Develop Computer Science Knowledge
+		- [[010.00 a]] Essential Developer Insights
+	- [[010.10]] Develop Programming Language
+		- [[010.10 a]] Bash shell
+[[100]] Infra
+- [[110]] DevOps Engineer Infra
+- [[120]] ML Engineer Infra
+[[400]] ML Engineer Basic
+- [[410]] Mathematics
+	- [[410.00]] Linear Algebra
+		- [[410.00 a]] Fundamental Function
+		- [[410.00 b]] Vector
+		- [[410.00 c]] Vectors Properties
+		- [[410.00 d]] Vector Operation
+	- [[410.10]] Probability
+		- [[410.10 a]] Fundamental Function
+	- [[410.20]] Statistics
+	- [[410.30]] Calculus
+		- [[410.30 a]] fundamental 
+[[500]] Algorithms and Modeling
+[[600]] ML Libraries and Implementation
+- [[610]] Data Handling
+	- [[610.00]] Pandas
+		- [[610.00 a]] Pandas-basic 
+	- [[610.10]] NumPy
+- [[620]] Data visualization
+	- [[620.00]] MatplotLib
+		- [[620.00 a]] MatplotLib Fundamental 
+	- [[620.10]] Seabornn 
+		- [[620.10 a]] Seaborn Fundamental  
+- [[630]] Machine Learning Frameworks
+    - [[630.00]] scikit-learn
+    - [[630.10]] TensorFlow
+    - [[630.20]] PyTorch
+[[700]] Research Paper
+- [[710]] methodology
+	- [[710.00]] Multi-agent Reinforcement Learning
+		- [[710.00 a]] Base Domains
 
 
 
@@ -53,18 +88,19 @@ Each note is connected only to the preceding and following ones.
 
 
 
-Recent Posts
----
+# Recent Posts
 
-| File                                                      | title    | file.link                                                 |
-| --------------------------------------------------------- | -------- | --------------------------------------------------------- |
-| [[Projects/Library/600/620/620.10/620.10 a\|620.10 a]] | 620.10 a | [[Projects/Library/600/620/620.10/620.10 a\|620.10 a]] |
-| [[Projects/Library/700/710/710.00/710.00\|710.00]]     | 710.00   | [[Projects/Library/700/710/710.00/710.00\|710.00]]     |
-| [[Projects/Library/700/710/710\|710]]                  | 710      | [[Projects/Library/700/710/710\|710]]                  |
-| [[Projects/Library/700/700\|700]]                      | 700      | [[Projects/Library/700/700\|700]]                      |
-| [[Projects/Library/600/630/630.00/630.00\|630.00]]     | 630.00   | [[Projects/Library/600/630/630.00/630.00\|630.00]]     |
+```dataview
+TABLE file.name AS title, file.link
+FROM ""
+WHERE dg-publish = true
+SORT file.ctime DESC
+LIMIT 5
 
-{ .block-language-dataview}
+
+
+
+```
 
 
 
@@ -92,7 +128,7 @@ IT Community in Korea
 
 ---
 # History of Library
-Link:  [[Projects/Library/Manage/History of Library\|History of Library]]
+Link:  [[History of Library]]
 
 
 
