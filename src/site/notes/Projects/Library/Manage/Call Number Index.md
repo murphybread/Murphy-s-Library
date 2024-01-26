@@ -1,7 +1,10 @@
 ---
-{"dg-publish":true,"permalink":"/projects/library/manage/call-number-index/","tags":["Library"],"noteIcon":"0","created":"2023-12-28T18:54:11.332+09:00","updated":"2024-01-25T19:07:43.611+09:00"}
+{"dg-publish":true,"permalink":"/projects/library/manage/call-number-index/","noteIcon":"0","created":"2023-12-28T18:54:11.332+09:00","updated":"2024-01-26T10:14:30.339+09:00"}
 ---
 
+tags:
+  - Library
+---
 Call Number Index
 [[Projects/Library/Manage/Hompage\|Hompage]]
 
