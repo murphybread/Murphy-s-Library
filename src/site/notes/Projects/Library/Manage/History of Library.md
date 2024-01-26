@@ -1,8 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/projects/library/manage/history-of-library/","noteIcon":"0","created":"2023-12-31T20:39:20.070+09:00","updated":"2024-01-26T18:01:22.857+09:00"}
+dg-publish: true
 ---
-
-
 #Hompage #[[Projects/Library/Manage/Hompage\|Hompage]] 
 
 # Guest book
