@@ -1,8 +1,9 @@
 ---
-dg-publish: true
+{"dg-publish":true,"permalink":"/projects/library/manage/history-of-library/","noteIcon":"0","created":"2023-12-31T20:39:20.070+09:00","updated":"2024-01-26T18:01:22.857+09:00"}
 ---
 
-#Hompage #[[Hompage]] 
+
+#Hompage #[[Projects/Library/Manage/Hompage\|Hompage]] 
 
 # Guest book
 
@@ -242,7 +243,7 @@ only works when using !important
     }
 ```
 
-![[find style using develop tool.png]]
+![find style using develop tool.png](/img/user/images/find%20style%20using%20develop%20tool.png)
 
 
 add new line after badge
@@ -342,7 +343,7 @@ pre {
 }
 
 ```
-![[codestyle.png]]
+![codestyle.png](/img/user/images/codestyle.png)
 
 ### After
 white background web site, so black window
