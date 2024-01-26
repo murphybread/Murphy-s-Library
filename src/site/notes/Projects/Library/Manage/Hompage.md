@@ -56,9 +56,9 @@ Recent Posts
 | File                                                      | title    | file.link                                                 |
 | --------------------------------------------------------- | -------- | --------------------------------------------------------- |
 | [[Projects/Library/600/620/620.10/620.10 a\|620.10 a]] | 620.10 a | [[Projects/Library/600/620/620.10/620.10 a\|620.10 a]] |
-| [[Projects/Library/700/700\|700]]                      | 700      | [[Projects/Library/700/700\|700]]                      |
-| [[Projects/Library/700/710/710\|710]]                  | 710      | [[Projects/Library/700/710/710\|710]]                  |
 | [[Projects/Library/700/710/710.00/710.00\|710.00]]     | 710.00   | [[Projects/Library/700/710/710.00/710.00\|710.00]]     |
+| [[Projects/Library/700/710/710\|710]]                  | 710      | [[Projects/Library/700/710/710\|710]]                  |
+| [[Projects/Library/700/700\|700]]                      | 700      | [[Projects/Library/700/700\|700]]                      |
 | [[Projects/Library/600/630/630.00/630.00\|630.00]]     | 630.00   | [[Projects/Library/600/630/630.00/630.00\|630.00]]     |
 
 { .block-language-dataview}
