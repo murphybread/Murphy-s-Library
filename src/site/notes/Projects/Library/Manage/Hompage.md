@@ -95,8 +95,8 @@ Each note is connected only to the preceding and following ones.
 | [[Projects/Library/700/700\|700]]                  | 700    | [[Projects/Library/700/700\|700]]                  |
 | [[Projects/Library/700/710/710.00/710.00\|710.00]] | 710.00 | [[Projects/Library/700/710/710.00/710.00\|710.00]] |
 | [[Projects/Library/700/710/710\|710]]              | 710    | [[Projects/Library/700/710/710\|710]]              |
+| [[Projects/Library/600/630/630.20/630.20\|630.20]] | 630.20 | [[Projects/Library/600/630/630.20/630.20\|630.20]] |
 | [[Projects/Library/600/630/630.00/630.00\|630.00]] | 630.00 | [[Projects/Library/600/630/630.00/630.00\|630.00]] |
-| [[Projects/Library/600/630/630.10/630.10\|630.10]] | 630.10 | [[Projects/Library/600/630/630.10/630.10\|630.10]] |
 
 { .block-language-dataview}
 
