@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/projects/library/manage/call-number-index/","noteIcon":"0","created":"2023-12-28T18:54:11.332+09:00","updated":"2024-01-26T18:01:13.089+09:00"}
+{"dg-publish":true,"permalink":"/projects/library/manage/call-number-index/","noteIcon":"0","created":"2023-12-28T18:54:11.332+09:00","updated":"2024-01-26T21:05:32.567+09:00"}
 ---
 
 
@@ -44,3 +44,4 @@
 - [[Projects/Library/700/710/710\|710]] methodology
 	- [[Projects/Library/700/710/710.00/710.00\|710.00]] Multi-agent Reinforcement Learning
 		- [[Projects/Library/700/710/710.00/710.00 a\|710.00 a]] Base Domains
+		- [[Projects/Library/700/710/710.00/710.00 b\|710.00 b]] Paper review
