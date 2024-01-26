@@ -1,7 +1,10 @@
 ---
-{"dg-publish":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2024-01-25T20:51:24.254+09:00"}
+{"dg-publish":true,"permalink":"/projects/library/manage/hompage/","noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2024-01-26T10:14:30.341+09:00"}
 ---
 
+dg-home: true
+
+---
 #hompage #Library #Rules
 
 
