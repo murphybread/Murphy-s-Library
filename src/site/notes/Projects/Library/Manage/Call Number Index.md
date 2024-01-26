@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/projects/library/manage/call-number-index/","noteIcon":"0","created":"2023-12-28T18:54:11.332+09:00","updated":"2024-01-26T10:14:30.339+09:00"}
+{"dg-publish":true,"permalink":"/projects/library/manage/call-number-index/","noteIcon":"0","created":"2023-12-28T18:54:11.332+09:00","updated":"2024-01-26T10:29:54.410+09:00"}
 ---
 
 tags:
@@ -9,7 +9,7 @@ Call Number Index
 [[Projects/Library/Manage/Hompage\|Hompage]]
 
 
-```json
+			```json
 
 ```
 
