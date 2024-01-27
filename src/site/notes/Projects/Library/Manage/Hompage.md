@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2024-01-26T18:03:21.073+09:00"}
+{"dg-publish":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2024-01-26T23:33:16.165+09:00"}
 ---
+
 
 #hompage #Library #Rules
 
@@ -93,10 +94,10 @@ Each note is connected only to the preceding and following ones.
 | File                                                      | title    | file.link                                                 |
 | --------------------------------------------------------- | -------- | --------------------------------------------------------- |
 | [[Projects/Library/700/710/710.00/710.00 b\|710.00 b]] | 710.00 b | [[Projects/Library/700/710/710.00/710.00 b\|710.00 b]] |
-| [[Projects/Library/700/700\|700]]                      | 700      | [[Projects/Library/700/700\|700]]                      |
-| [[Projects/Library/700/710/710.00/710.00\|710.00]]     | 710.00   | [[Projects/Library/700/710/710.00/710.00\|710.00]]     |
 | [[Projects/Library/700/710/710\|710]]                  | 710      | [[Projects/Library/700/710/710\|710]]                  |
-| [[Projects/Library/600/630/630.20/630.20\|630.20]]     | 630.20   | [[Projects/Library/600/630/630.20/630.20\|630.20]]     |
+| [[Projects/Library/700/710/710.00/710.00\|710.00]]     | 710.00   | [[Projects/Library/700/710/710.00/710.00\|710.00]]     |
+| [[Projects/Library/700/700\|700]]                      | 700      | [[Projects/Library/700/700\|700]]                      |
+| [[Projects/Library/600/630/630.00/630.00\|630.00]]     | 630.00   | [[Projects/Library/600/630/630.00/630.00\|630.00]]     |
 
 { .block-language-dataview}
 
