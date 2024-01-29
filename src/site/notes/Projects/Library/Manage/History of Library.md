@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/projects/library/manage/history-of-library/","noteIcon":"0","created":"2023-12-31T20:39:20.070+09:00","updated":"2024-01-29T23:04:52.219+09:00"}
+{"dg-publish":true,"permalink":"/projects/library/manage/history-of-library/","noteIcon":"0","created":"2023-12-31T20:39:20.070+09:00","updated":"2024-01-29T23:13:13.482+09:00"}
 ---
 
 
@@ -553,4 +553,511 @@ for root, dirs, files in os.walk("."):
 
 
 
-automation.py
+# automation.py
+```
+import os
+import json
+import shutil
+import re
+
+
+# Load the JSON file containing the directory structure
+def load_json_structure(file_path):
+    with open(file_path, "r") as file:
+        return json.load(file)
+
+
+# Create directories based on the JSON structure
+def create_directories(base_path, structure):
+    for major_key, major_val in structure["MajorCategories"].items():
+        major_dir = os.path.join(base_path, major_key)
+        os.makedirs(major_dir, exist_ok=True)
+        for minor_key in major_val.get("MinorCategories", {}):
+            minor_dir = os.path.join(major_dir, minor_key)
+            os.makedirs(minor_dir, exist_ok=True)
+            subcategories = major_val["MinorCategories"][minor_key].get(
+                "Subcategories", {}
+            )
+            for sub_key in subcategories:
+                sub_dir = os.path.join(minor_dir, sub_key)
+                os.makedirs(sub_dir, exist_ok=True)
+
+
+def move_files_from_Entrance(Entrance_path, base_path, structure):
+    # Check if Entrance directory has any markdown files
+    md_files = [f for f in os.listdir(Entrance_path) if f.endswith(".md")]
+    if not md_files:
+        print("No books to work on.")
+        return
+
+    files_moved = 0  # Counter for the number of files moved
+
+    # Move each markdown file to its new location
+    for file in md_files:
+        new_path = determine_new_path(file, structure, base_path)
+        source_path = os.path.join(Entrance_path, file)
+
+        print(f"Trying to move: {source_path} to {new_path}")
+
+        if new_path:
+            print(f"Trying to move: {source_path} to {new_path}")
+            shutil.move(source_path, new_path)
+            print(f"Moved {file} to {new_path}")
+            files_moved += 1
+
+    if files_moved == 0:
+        print("No books moved.")
+
+
+def determine_new_path(file_name, structure, base_path):
+    # Remove file extension and split the filename into parts
+    parts = file_name.replace(".md", "").split(" ")
+    subcategory_code = parts[0]
+    book_suffix = parts[1] if len(parts) > 1 else None
+
+    print(f"Processing file: {file_name}")
+    print(f"Subcategory code: {subcategory_code}, Book suffix: {book_suffix}")
+
+    # Iterate through the JSON structure to find the matching path
+    for major_key, major_val in structure["MajorCategories"].items():
+        # Check if file matches a major category
+        if subcategory_code == major_key:
+            path = os.path.join(base_path, major_key, file_name)
+            print(f"Matched major category. Path: {path}")
+            return path
+
+        for minor_key, minor_val in major_val.get("MinorCategories", {}).items():
+            # Check if file matches a minor category
+            if subcategory_code == minor_key:
+                path = os.path.join(base_path, major_key, minor_key, file_name)
+                print(f"Matched minor category. Path: {path}")
+                return path
+
+            for sub_key in minor_val.get("Subcategories", {}):
+                # Check if file matches a subcategory or book within a subcategory
+                if sub_key == subcategory_code or (
+                    book_suffix and f"{sub_key} {book_suffix}" == subcategory_code
+                ):
+                    sub_dir = os.path.join(base_path, major_key, minor_key, sub_key)
+                    path = os.path.join(sub_dir, file_name)
+                    print(f"Matched subcategory/book. Path: {path}")
+                    return path
+
+    print(f"No matching path found for: {file_name}")
+    return None
+
+
+# Function to add tags to Markdown files
+def add_tags_to_md_files(base_path, structure):
+    for root, dirs, files in os.walk(base_path):
+        for file in files:
+            if file.endswith(".md"):
+                file_path = os.path.join(root, file)
+                try:
+                    with open(file_path, "r", encoding="utf-8") as f:
+                        content = f.readlines()
+
+                    new_tag = construct_tag(file, structure)
+                    print(f"Checking tags in {file}")
+
+                    # Split the file into header and body
+                    if "---" in content:
+                        split_index = content.index(
+                            "---\n", 1
+                        )  # Find the second occurrence of '---'
+                        header = content[: split_index + 1]
+                        body = content[split_index + 1 :]
+
+                        # Check if new tag already exists in header
+                        if new_tag + "\n" not in header:
+                            header.insert(
+                                -1, new_tag + "\n"
+                            )  # Insert tag at the end of header
+                            print(f"Added tag to {file}")
+
+                        # Reassemble the file
+                        content = header + body
+                    else:
+                        print(f"No header in {file}, skipping tag addition")
+
+                    with open(file_path, "w", encoding="utf-8") as f:
+                        f.writelines(content)
+
+                except UnicodeDecodeError as e:
+                    print(f"Error reading {file_path}: {e}")
+
+
+# Function to construct the appropriate tag for a file
+def construct_tag(file_name, structure):
+    major_match = re.match(r"(\d0\d).md", file_name)
+    minor_match = re.match(r"(\d[1-9]\d)\.md", file_name)
+    sub_match = re.match(r"(\d{3}\.\d{2}).md", file_name)
+    book_match = re.match(r"(\d{3}\.\d{2}) [a-zA-Z].md", file_name)
+
+    tag = ""
+    if major_match:
+        major_code = major_match.group(1)
+        print(f"Major Category Match: {major_code}")
+        tag = construct_major_tag(major_code, structure)
+
+    elif minor_match:
+        minor_code = minor_match.group(1)
+        print(f"Minor Category Match: {minor_code}")
+        tag = construct_minor_tag(minor_code, structure)
+
+    elif sub_match:
+        sub_code = sub_match.group(1)
+        print(f"Subcategory Match: {sub_code}")
+        tag = construct_subcategory_tag(sub_code, structure)
+
+    elif book_match:
+        book_code = book_match.group(1)
+        print(f"Book Match: {book_code}")
+        tag = construct_book_tag(book_code, structure)
+
+    else:
+        print(f"No match for file: {file_name}")
+
+    return tag
+
+
+# Helper functions to construct tags for each file type
+def construct_major_tag(major_code, structure):
+    tag = f"#[[{major_code}]]"
+    minor_categories = structure["MajorCategories"][major_code].get(
+        "MinorCategories", {}
+    )
+    for minor_key in minor_categories.keys():
+        tag += f"#[[{minor_key}]]"
+    return tag
+
+
+def construct_minor_tag(minor_code, structure):
+    for major_key, major_val in structure["MajorCategories"].items():
+        if minor_code in major_val["MinorCategories"]:
+            major_value = major_val["value"]
+            tag = f"#[[{major_value}]]#[[{minor_code}]]"
+            subcategories = major_val["MinorCategories"][minor_code].get(
+                "Subcategories", {}
+            )
+            for sub_key in subcategories.keys():
+                tag += f"#[[{sub_key}]]"
+            return tag
+    return ""
+
+
+def construct_subcategory_tag(sub_code, structure):
+    for major_key, major_val in structure["MajorCategories"].items():
+        for minor_key, minor_val in major_val.get("MinorCategories", {}).items():
+            if sub_code in minor_val["Subcategories"]:
+                tag = f"#[[{sub_code}]]"
+                return tag
+    return ""
+
+
+def construct_book_tag(book_code, structure):
+    for major_key, major_val in structure["MajorCategories"].items():
+        for minor_key, minor_val in major_val.get("MinorCategories", {}).items():
+            for sub_key, sub_val in minor_val.get("Subcategories", {}).items():
+                if book_code.startswith(sub_key):
+                    tag = f"#[[{sub_key}]]#[[{book_code}]]"
+                    return tag
+    return ""
+
+
+# Ensure that we are in the correct directory to prevent affecting other directories
+current_dir = os.getcwd()
+expected_dir_name = "Library"
+
+if os.path.basename(current_dir) != expected_dir_name:
+    print(
+        f"Error: Current directory {current_dir} is not '{expected_dir_name}'. Exiting script."
+    )
+    exit()
+
+
+# Main execution
+json_file_name = "structure.json"
+json_structure = load_json_structure(json_file_name)
+base_directory = os.getcwd()
+Entrance_directory = os.path.join(base_directory, "Entrance")
+
+print(f"json_file_name: {json_file_name}")
+print(f"base_directory: {base_directory}")
+print(f"Entrance_directory: {Entrance_directory}")
+print("*--------------------*")
+
+create_directories(base_directory, json_structure)
+move_files_from_Entrance(
+    Entrance_directory, base_directory, json_structure
+)  # Added this line
+add_tags_to_md_files(base_directory, json_structure)
+
+```
+
+
+# conver_to json.
+using one med file
+```
+import re
+import json
+import shutil
+import os
+
+
+def md_to_json(md_file, json_file):
+    with open(md_file, "r") as file:
+        lines = file.readlines()
+
+    json_structure = {"MajorCategories": {}}
+    current_major = current_minor = current_sub = None
+
+    for i, line in enumerate(lines):
+        line = line.strip()  # Remove leading and trailing whitespaces
+        if not line or line.startswith("---"):
+            continue  # Skip empty lines and metadata lines
+
+        print(f"Processing line {i}: {line}")  # Debug print
+
+        try:
+            # Match major, minor, subcategories, and book entries
+            major_match = re.match(r"\[\[(\d{3})\]\]\s*(.*)", line)
+            minor_match = re.match(r"- \[\[(\d{3})\]\]\s*(.*)", line)
+            sub_match = re.match(r"- \[\[(\d{3}\.\d{2})\]\]\s*(.*)", line)
+            book_match = re.match(r"- \[\[(\d{3}\.\d{2} [a-zA-Z])\]\]\s*(.*)", line)
+
+            if major_match:
+                current_major, title = major_match.groups()
+                json_structure["MajorCategories"][current_major] = {
+                    "value": current_major,
+                    "title": title,
+                    "MinorCategories": {},
+                }
+                print(f"Major Category: {current_major}, Title: {title}")  # Debug print
+
+            elif minor_match:
+                current_minor, title = minor_match.groups()
+                json_structure["MajorCategories"][current_major]["MinorCategories"][
+                    current_minor
+                ] = {"title": title, "Subcategories": {}}
+                print(f"Minor Category: {current_minor}, Title: {title}")  # Debug print
+
+            elif sub_match:
+                current_sub, title = sub_match.groups()
+                json_structure["MajorCategories"][current_major]["MinorCategories"][
+                    current_minor
+                ]["Subcategories"][current_sub] = {"title": title, "Books": {}}
+                print(f"Subcategory: {current_sub}, Title: {title}")  # Debug print
+
+            elif book_match:
+                book_code, book_title = book_match.groups()
+                json_structure["MajorCategories"][current_major]["MinorCategories"][
+                    current_minor
+                ]["Subcategories"][current_sub]["Books"][book_code] = book_title
+                print(f"Book: {book_code}, Title: {book_title}")  # Debug print
+
+        except Exception as e:
+            print(f"Error processing line {i}: '{line}'")
+            print(str(e))
+
+    # Save JSON structure to file
+    temp_json_path = os.path.join(os.getcwd(), json_file)
+    with open(temp_json_path, "w") as outfile:
+        json.dump(json_structure, outfile, indent=4)
+
+    # Move the JSON file to the parent directory
+    parent_dir_path = os.path.abspath(os.path.join(os.getcwd(), os.pardir))
+    destination_path = os.path.join(parent_dir_path, json_file)
+    shutil.move(temp_json_path, destination_path)
+    print(f"Moved {json_file} to {destination_path}")
+
+
+# Usage example
+md_file = "../Entrance/Call Number Index.md"
+json_file = "structure.json"
+
+print(f"Read from {md_file}")
+md_to_json(md_file, json_file)
+print(f"Output json file is {json_file}")
+
+```
+
+
+# structure.json
+matching with current directory structure
+```
+{
+    "MajorCategories": {
+        "000": {
+            "value": "000",
+            "title": "IT Knowledge",
+            "MinorCategories": {
+                "010": {
+                    "title": "Develop Knowledge",
+                    "Subcategories": {
+                        "010.00": {
+                            "title": "Develop Computer Science Knowledge",
+                            "Books": {
+                                "010.00 a": "Essential Developer Insights"
+                            }
+                        },
+                        "010.10": {
+                            "title": "Develop Programming Language",
+                            "Books": {
+                                "010.10 a": "Bash shell"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "100": {
+            "value": "100",
+            "title": "Infra",
+            "MinorCategories": {
+                "110": {
+                    "title": "DevOps Engineer Infra",
+                    "Subcategories": {}
+                },
+                "120": {
+                    "title": "ML Engineer Infra",
+                    "Subcategories": {}
+                }
+            }
+        },
+        "400": {
+            "value": "400",
+            "title": "ML Engineer Basic",
+            "MinorCategories": {
+                "410": {
+                    "title": "Mathematics",
+                    "Subcategories": {
+                        "410.00": {
+                            "title": "Linear Algebra",
+                            "Books": {
+                                "410.00 a": "Fundamental Function",
+                                "410.00 b": "Vector",
+                                "410.00 c": "Vectors Properties",
+                                "410.00 d": "Vector Operation"
+                            }
+                        },
+                        "410.10": {
+                            "title": "Probability",
+                            "Books": {
+                                "410.10 a": "Fundamental Function"
+                            }
+                        },
+                        "410.20": {
+                            "title": "Statistics",
+                            "Books": {}
+                        },
+                        "410.30": {
+                            "title": "Calculus",
+                            "Books": {
+                                "410.30 a": "fundamental"
+                            }
+                        }
+                    }
+                },
+                "420": {
+                    "title": "Data",
+                    "Subcategories": {
+                        "420.00": {
+                            "title": "Structured Data",
+                            "Books": {
+                                "420.00 a": "Categorical Data",
+                                "420.00 b": "Numerical Data"
+                            }
+                        },
+                        "420.10": {
+                            "title": "Unstructured Data",
+                            "Books": {}
+                        }
+                    }
+                }
+            }
+        },
+        "500": {
+            "value": "500",
+            "title": "Algorithms and Modeling",
+            "MinorCategories": {}
+        },
+        "600": {
+            "value": "600",
+            "title": "ML Libraries and Implementation",
+            "MinorCategories": {
+                "610": {
+                    "title": "Data Handling",
+                    "Subcategories": {
+                        "610.00": {
+                            "title": "Pandas",
+                            "Books": {
+                                "610.00 a": "Pandas-basic"
+                            }
+                        },
+                        "610.10": {
+                            "title": "NumPy",
+                            "Books": {
+                                "610.10 a": "Numpy Fundamental functions",
+                                "610.10 b": "Numpy Appllied function"
+                            }
+                        }
+                    }
+                },
+                "620": {
+                    "title": "Data visualization",
+                    "Subcategories": {
+                        "620.00": {
+                            "title": "MatplotLib",
+                            "Books": {
+                                "620.00 a": "MatplotLib Fundamental"
+                            }
+                        },
+                        "620.10": {
+                            "title": "Seabornn",
+                            "Books": {
+                                "620.10 a": "Seaborn Fundamental"
+                            }
+                        }
+                    }
+                },
+                "630": {
+                    "title": "Machine Learning Frameworks",
+                    "Subcategories": {
+                        "630.00": {
+                            "title": "scikit-learn",
+                            "Books": {}
+                        },
+                        "630.10": {
+                            "title": "TensorFlow",
+                            "Books": {}
+                        },
+                        "630.20": {
+                            "title": "PyTorch",
+                            "Books": {}
+                        }
+                    }
+                }
+            }
+        },
+        "700": {
+            "value": "700",
+            "title": "Research Paper",
+            "MinorCategories": {
+                "710": {
+                    "title": "methodology",
+                    "Subcategories": {
+                        "710.00": {
+                            "title": "Multi-agent Reinforcement Learning",
+                            "Books": {
+                                "710.00 a": "Base Domains",
+                                "710.00 b": "Paper review"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+```
