@@ -1,6 +1,13 @@
 ---
-{"dg-publish":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2024-01-26T23:33:16.165+09:00"}
+
+dg-publish: true
+dg-home: true
 ---
+
+
+
+
+
 
 
 #hompage #Library #Rules
@@ -24,7 +31,7 @@ The library call numbers are classified as follows:
   
 Notes with suffixes like"a" represent articles containing content, while other identifiers denote a range.
 You can view all notes call numbers at once
-[[Projects/Library/Manage/Call Number Index\|Call Number Index]]
+[[Projects/Library/Entrance/Call Number Index\|Call Number Index]]
 
 
 
@@ -61,7 +68,10 @@ Each note is connected only to the preceding and following ones.
 		- [[Projects/Library/400/410/410.10/410.10 a\|410.10 a]] Fundamental Function
 	- [[Projects/Library/400/410/410.20/410.20\|410.20]] Statistics
 	- [[Projects/Library/400/410/410.30/410.30\|410.30]] Calculus
-		- [[Projects/Library/400/410/410.30/410.30 a\|410.30 a]] fundamental 
+		- [[Projects/Library/400/410/410.30/410.30 a\|410.30 a]] fundamental
+- [[Projects/Library/400/420/420\|420]] Data
+	- [[Projects/Library/400/420/420.00/420.00\|420.00]] Data Feature
+		- [[Projects/Library/400/420/420.00/420.00 a\|420.00 a]]
 [[Projects/Library/500/500\|500]] Algorithms and Modeling
 [[Projects/Library/600/600\|600]] ML Libraries and Implementation
 - [[Projects/Library/600/610/610\|610]] Data Handling
@@ -93,11 +103,11 @@ Each note is connected only to the preceding and following ones.
 
 | File                                                      | title    | file.link                                                 |
 | --------------------------------------------------------- | -------- | --------------------------------------------------------- |
+| [[Projects/Library/600/610/610.10/610.10 a\|610.10 a]] | 610.10 a | [[Projects/Library/600/610/610.10/610.10 a\|610.10 a]] |
+| [[Projects/Library/400/420/420.10/420.10\|420.10]]     | 420.10   | [[Projects/Library/400/420/420.10/420.10\|420.10]]     |
+| [[Projects/Library/400/420/420.00/420.00\|420.00]]     | 420.00   | [[Projects/Library/400/420/420.00/420.00\|420.00]]     |
+| [[Projects/Library/400/420/420\|420]]                  | 420      | [[Projects/Library/400/420/420\|420]]                  |
 | [[Projects/Library/700/710/710.00/710.00 b\|710.00 b]] | 710.00 b | [[Projects/Library/700/710/710.00/710.00 b\|710.00 b]] |
-| [[Projects/Library/700/710/710\|710]]                  | 710      | [[Projects/Library/700/710/710\|710]]                  |
-| [[Projects/Library/700/710/710.00/710.00\|710.00]]     | 710.00   | [[Projects/Library/700/710/710.00/710.00\|710.00]]     |
-| [[Projects/Library/700/700\|700]]                      | 700      | [[Projects/Library/700/700\|700]]                      |
-| [[Projects/Library/600/630/630.00/630.00\|630.00]]     | 630.00   | [[Projects/Library/600/630/630.00/630.00\|630.00]]     |
 
 { .block-language-dataview}
 
