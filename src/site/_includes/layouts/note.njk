@@ -3,131 +3,94 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
 ---
 <!DOCTYPE html>
 <html lang="{{ meta.mainLanguage }}">
-
-<head>
-  <title>{% if title %}{{ title }}{% else %}{{ page.fileSlug }}{% endif %}</title>
-  {%include "components/pageheader.njk"%}
-  <!-- Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-QHF8SF84LT"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-    gtag('config', 'G-QHF8SF84LT');
-  </script>
-  {% for imp in dynamics.common.head %}
-  {% include imp %}
-  {% endfor %}
-  {% for imp in dynamics.notes.head %}
-  {% include imp %}
-  {% endfor %}
-
-</head>
-
-<body
-  class="theme-{{meta.baseTheme}} markdown-preview-view markdown-rendered markdown-preview-section {{meta.bodyClasses}}">
-  {%include "components/notegrowthhistory.njk"%}
-
-  {% if settings.dgShowFileTree !== true %}
-  {%include "components/navbar.njk"%}
-  {%else%}
-  {%include "components/filetree.njk"%}
-  {% endif %}
-
-  {% if settings.dgEnableSearch === true %}
-  {%include "components/searchContainer.njk"%}
-  {% endif %}
-
-  <main class="content cm-s-obsidian {{contentClasses}}">
-    <header>
-      {% if settings.dgShowInlineTitle === true %}
-      <h1 data-note-icon="{% if noteIcon %}{{noteIcon}}{% else %}{{meta.noteIconsSettings.default}}{% endif %}">{% if
-        title %}{{ title }}{% else %}{{ page.fileSlug }}{% endif %}</h1>
-      {% endif %}
-      <div class="header-meta">
-        {% if settings.dgShowTags === true and tags %}
-        <div class="header-tags">
-          {% for tag in tags %}
-          {% if tag != 'gardenEntry' and tag !='note' %}
-          <a class="tag" onclick="toggleTagSearch(this)">
-            #{{tag}}
-          </a>
-          {% endif %}
-          {% endfor %}
-        </div>
-        {% endif %}
-        {%- if meta.timestampSettings.showCreated or meta.timestampSettings.showUpdated -%}
-        <div class="timestamps">
-          {%- if meta.timestampSettings.showCreated and created -%}
-          <div><i icon-name="calendar-plus"></i> <span class="human-date" data-date="{{created}}"></span></div>
-          {%- endif -%}
-          {%- if meta.timestampSettings.showUpdated and updated -%}
-          <div><i icon-name="calendar-clock"></i> <span class="human-date" data-date="{{updated}}"></span></div>
-          {%- endif -%}
-        </div>
-        {%- endif -%}
-      </div>
-      {% for imp in dynamics.common.header %}
+  <head>
+    <title>{% if title %}{{ title }}{% else %}{{ page.fileSlug }}{% endif %}</title>
+    {%include "components/pageheader.njk"%}
+    {% for imp in dynamics.common.head %}
       {% include imp %}
+    {% endfor %}
+    {% for imp in dynamics.notes.head %}
+      {% include imp %}
+    {% endfor %}
+  </head>
+  <body class="theme-{{meta.baseTheme}} markdown-preview-view markdown-rendered markdown-preview-section {{meta.bodyClasses}}">
+    {%include "components/notegrowthhistory.njk"%}
+    
+    {% if settings.dgShowFileTree !== true %}
+      {%include "components/navbar.njk"%}
+    {%else%}
+      {%include "components/filetree.njk"%}
+    {% endif %}
+
+    {% if settings.dgEnableSearch === true %}
+      {%include "components/searchContainer.njk"%}
+    {% endif %}
+
+    <main class="content cm-s-obsidian {{contentClasses}}">
+      <header>
+        {% if settings.dgShowInlineTitle === true %}
+          <h1 data-note-icon="{% if noteIcon %}{{noteIcon}}{% else %}{{meta.noteIconsSettings.default}}{% endif %}">{% if title %}{{ title }}{% else %}{{ page.fileSlug }}{% endif %}</h1>
+        {% endif %}
+        <div class="header-meta">
+          {% if settings.dgShowTags === true and tags %}
+            <div class="header-tags">
+              {% for tag in tags %}
+                {% if tag != 'gardenEntry' and tag !='note' %}
+                  <a class="tag" onclick="toggleTagSearch(this)">
+                    #{{tag}}
+                  </a>
+                {% endif %}
+              {% endfor %}
+            </div>
+          {% endif %}
+          {%- if meta.timestampSettings.showCreated or meta.timestampSettings.showUpdated -%}
+          <div class="timestamps">
+            {%- if meta.timestampSettings.showCreated and created -%}
+            <div><i icon-name="calendar-plus"></i> <span class="human-date" data-date="{{created}}"></span></div>
+            {%- endif -%}
+            {%- if meta.timestampSettings.showUpdated and updated -%}
+            <div><i icon-name="calendar-clock"></i> <span class="human-date" data-date="{{updated}}"></span></div>
+            {%- endif -%}
+          </div>
+          {%- endif -%}
+        </div>
+      {% for imp in dynamics.common.header %}
+        {% include imp %}
       {% endfor %}
       {% for imp in dynamics.notes.header %}
-      {% include imp %}
-
-      
+        {% include imp %}
       {% endfor %}
-    </header>
-    {% for imp in dynamics.common.beforeContent %}
-    {% include imp %}
+      </header>
+      {% for imp in dynamics.common.beforeContent %}
+        {% include imp %}
+      {% endfor %}
+      {% for imp in dynamics.notes.beforeContent %}
+        {% include imp %}
+      {% endfor %}
+      {{ content | hideDataview | link | taggify | safe}}
+      {% for imp in dynamics.common.afterContent %}
+        {% include imp %}
+      {% endfor %}
+      {% for imp in dynamics.notes.afterContent %}
+        {% include imp %}
+      {% endfor %}
+    </main>
+
+    {% if settings.dgShowBacklinks === true or settings.dgShowLocalGraph === true or settings.dgShowToc === true%}
+      {%include "components/sidebar.njk"%}
+    {% endif %}
+
+    {% if settings.dgLinkPreview === true %}
+      {%include "components/linkPreview.njk"%}
+    {% endif %}
+    {% include "components/references.njk" %}
+    {% include "components/timestamps.njk" %}
+    {% for imp in dynamics.common.footer %}
+      {% include imp %}
     {% endfor %}
-    {% for imp in dynamics.notes.beforeContent %}
-    {% include imp %}
+    {% for imp in dynamics.notes.footer %}
+      {% include imp %}
     {% endfor %}
-    {{ content | hideDataview | link | taggify | safe}}
-    <!-- Google Translate div -->
-    <div id="google_translate_element" style="position: absolute; top: 50px; right: 20px; background: #f0f0f0; border: 1px solid #ce3b3b; border-radius: 5px;"></div>
-
-
-    <!-- Google Translate Initialization Script -->
-    <script type="text/javascript">
-      function googleTranslateElementInit() {
-        new google.translate.TranslateElement({ pageLanguage: 'en', includedLanguages: 'ko,en,ja,es', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
-      }
-    </script>
-
-    <!-- Google Translate API Script -->
-    <script type="text/javascript"
-      src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-
-
-    <!-- Iframe Content -->
-    <iframe src="https://joey.team/block/?id=4zfONMIb0udThRYvgsJesRl8BG13&block_id=LVHLMUlfRfZ9t0EyPdOI" width="600"
-      height="400" style="border: 10px solid #2e2e2e;border-radius: 10px;" allowfullscreen>
-    </iframe>
-
-    {% for imp in dynamics.common.afterContent %}
-    {% include imp %}
-    {% endfor %}
-    {% for imp in dynamics.notes.afterContent %}
-    {% include imp %}
-    {% endfor %}
-  </main>
-
-  {% if settings.dgShowBacklinks === true or settings.dgShowLocalGraph === true or settings.dgShowToc === true%}
-  {%include "components/sidebar.njk"%}
-  {% endif %}
-
-  {% if settings.dgLinkPreview === true %}
-  {%include "components/linkPreview.njk"%}
-  {% endif %}
-  {% include "components/references.njk" %}
-  {% include "components/timestamps.njk" %}
-  {% for imp in dynamics.common.footer %}
-  {% include imp %}
-  {% endfor %}
-  {% for imp in dynamics.notes.footer %}
-  {% include imp %}
-  {% endfor %}
-  {%include "components/lucideIcons.njk"%}
-</body>
-
+    {%include "components/lucideIcons.njk"%}
+  </body>
 </html>
