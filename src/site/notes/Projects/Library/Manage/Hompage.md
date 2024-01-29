@@ -1,14 +1,6 @@
 ---
-
-dg-publish: true
-dg-home: true
+{"dg-publish":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2024-01-29T23:10:33.808+09:00"}
 ---
-
-
-
-
-
-
 
 #hompage #Library #Rules
 
@@ -103,11 +95,11 @@ Each note is connected only to the preceding and following ones.
 
 | File                                                      | title    | file.link                                                 |
 | --------------------------------------------------------- | -------- | --------------------------------------------------------- |
+| [[Projects/Library/600/610/610.10/610.10 b\|610.10 b]] | 610.10 b | [[Projects/Library/600/610/610.10/610.10 b\|610.10 b]] |
 | [[Projects/Library/600/610/610.10/610.10 a\|610.10 a]] | 610.10 a | [[Projects/Library/600/610/610.10/610.10 a\|610.10 a]] |
 | [[Projects/Library/400/420/420.10/420.10\|420.10]]     | 420.10   | [[Projects/Library/400/420/420.10/420.10\|420.10]]     |
 | [[Projects/Library/400/420/420.00/420.00\|420.00]]     | 420.00   | [[Projects/Library/400/420/420.00/420.00\|420.00]]     |
 | [[Projects/Library/400/420/420\|420]]                  | 420      | [[Projects/Library/400/420/420\|420]]                  |
-| [[Projects/Library/700/710/710.00/710.00 b\|710.00 b]] | 710.00 b | [[Projects/Library/700/710/710.00/710.00 b\|710.00 b]] |
 
 { .block-language-dataview}
 
