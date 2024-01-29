@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2024-01-29T23:30:52.410+09:00"}
+{"dg-publish":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2024-01-29T23:31:18.509+09:00"}
 ---
 
 #hompage #Library #Rules
@@ -8,7 +8,7 @@
 
 
 
-``
+
 # Library Guidelines
 
 >  In the library, you can find information by following these rules
