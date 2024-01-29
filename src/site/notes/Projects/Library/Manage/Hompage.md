@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2024-01-29T23:10:33.808+09:00"}
+{"dg-publish":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2024-01-29T23:30:52.410+09:00"}
 ---
 
 #hompage #Library #Rules
@@ -36,9 +36,11 @@ Each note is connected only to the preceding and following ones.
  
 
 
---- 
----
----
+
+
+<div class="transclusion internal-embed is-loaded"><div class="markdown-embed">
+
+
 
 [[Projects/Library/000/000\|000]] IT Knowledge
 - [[Projects/Library/000/010/010\|010]] Develop Knowledge
@@ -60,16 +62,20 @@ Each note is connected only to the preceding and following ones.
 		- [[Projects/Library/400/410/410.10/410.10 a\|410.10 a]] Fundamental Function
 	- [[Projects/Library/400/410/410.20/410.20\|410.20]] Statistics
 	- [[Projects/Library/400/410/410.30/410.30\|410.30]] Calculus
-		- [[Projects/Library/400/410/410.30/410.30 a\|410.30 a]] fundamental
+		- [[Projects/Library/400/410/410.30/410.30 a\|410.30 a]] fundamental 
 - [[Projects/Library/400/420/420\|420]] Data
-	- [[Projects/Library/400/420/420.00/420.00\|420.00]] Data Feature
-		- [[Projects/Library/400/420/420.00/420.00 a\|420.00 a]]
+	- [[Projects/Library/400/420/420.00/420.00\|420.00]]  Structured Data
+		- [[Projects/Library/400/420/420.00/420.00 a\|420.00 a]] Categorical Data
+		- [[Projects/Library/400/420/420.00/420.00 b\|420.00 b]] Numerical Data
+	- [[Projects/Library/400/420/420.10/420.10\|420.10]] Unstructured Data
 [[Projects/Library/500/500\|500]] Algorithms and Modeling
 [[Projects/Library/600/600\|600]] ML Libraries and Implementation
 - [[Projects/Library/600/610/610\|610]] Data Handling
 	- [[Projects/Library/600/610/610.00/610.00\|610.00]] Pandas
 		- [[Projects/Library/600/610/610.00/610.00 a\|610.00 a]] Pandas-basic 
 	- [[Projects/Library/600/610/610.10/610.10\|610.10]] NumPy
+		- [[Projects/Library/600/610/610.10/610.10 a\|610.10 a]] Numpy Fundamental functions
+		- [[Projects/Library/600/610/610.10/610.10 b\|610.10 b]] Numpy Appllied function
 - [[Projects/Library/600/620/620\|620]] Data visualization
 	- [[Projects/Library/600/620/620.00/620.00\|620.00]] MatplotLib
 		- [[620.00 a\|620.00 a]] MatplotLib Fundamental 
@@ -83,8 +89,9 @@ Each note is connected only to the preceding and following ones.
 - [[Projects/Library/700/710/710\|710]] methodology
 	- [[Projects/Library/700/710/710.00/710.00\|710.00]] Multi-agent Reinforcement Learning
 		- [[Projects/Library/700/710/710.00/710.00 a\|710.00 a]] Base Domains
+		- [[Projects/Library/700/710/710.00/710.00 b\|710.00 b]] Paper review
 
-
+</div></div>
 
 
 
