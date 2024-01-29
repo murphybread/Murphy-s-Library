@@ -1,7 +1,7 @@
 ---
-
-dg-publish: true
+{"dg-publish":true,"permalink":"/projects/library/manage/history-of-library/","noteIcon":"0","created":"2023-12-31T20:39:20.070+09:00","updated":"2024-01-29T23:04:52.219+09:00"}
 ---
+
 
 
 
