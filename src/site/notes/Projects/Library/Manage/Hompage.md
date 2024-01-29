@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2024-01-29T23:31:18.509+09:00"}
+{"dg-publish":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2024-01-29T23:38:16.032+09:00"}
 ---
 
 #hompage #Library #Rules
@@ -120,6 +120,9 @@ Each note is connected only to the preceding and following ones.
 
 ## Ongoing Projects
 
+# RAG LLM with Amazon Bedrock
+
+ref: https://github.com/aws-samples/amazon-bedrock-workshop
 ## Link Trees
 
 ### GitHub
