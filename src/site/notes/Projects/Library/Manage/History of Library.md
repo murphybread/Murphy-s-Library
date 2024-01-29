@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/projects/library/manage/history-of-library/","noteIcon":"0","created":"2023-12-31T20:39:20.070+09:00","updated":"2024-01-29T23:13:13.482+09:00"}
+{"dg-publish":true,"permalink":"/projects/library/manage/history-of-library/","noteIcon":"0","created":"2023-12-31T20:39:20.070+09:00","updated":"2024-01-29T23:35:28.209+09:00"}
 ---
 
 
@@ -1061,3 +1061,11 @@ matching with current directory structure
     }
 }
 ```
+
+
+
+Structural management from one file  
+  
+In the case of `![[note_name]]` in obisidian's markdown grammar, it is called Wikilink, which shows the contents of the linked note. In other words, the mirroring method makes the two structures managed by Homepage and call-number-index manage in one place  
+  
+The result is easy to implement and easy to manage afterwards
