@@ -1,7 +1,7 @@
 ---
-dg-publish: true
-dg-home: true
+{"dg-publish":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"noteIcon":"0","created":"2024-01-30T20:06:19.823+09:00","updated":"2024-01-31T01:29:36.869+09:00"}
 ---
+
 #hompage #Library #Rules
 
 
@@ -115,7 +115,7 @@ Each note is connected only to the preceding and following ones.
 | [[Projects/Library/300/310/310\|310]]                  | 310      | Projects/Library/300/310/310.md             | 1:17 AM - January 31, 2024 |
 | [[Projects/Library/300/300\|300]]                      | 300      | Projects/Library/300/300.md                 | 1:17 AM - January 31, 2024 |
 | [[Projects/Library/200/210/210.30/210.30 a\|210.30 a]] | 210.30 a | Projects/Library/200/210/210.30/210.30 a.md | 1:17 AM - January 31, 2024 |
-| [[Projects/Library/200/210/210.00/210.00 a\|210.00 a]] | 210.00 a | Projects/Library/200/210/210.00/210.00 a.md | 1:26 AM - January 31, 2024 |
+| [[Projects/Library/200/210/210.00/210.00 a\|210.00 a]] | 210.00 a | Projects/Library/200/210/210.00/210.00 a.md | 1:30 AM - January 31, 2024 |
 | [[Projects/Library/200/210/210.30/210.30\|210.30]]     | 210.30   | Projects/Library/200/210/210.30/210.30.md   | 1:17 AM - January 31, 2024 |
 | [[Projects/Library/200/210/210.20/210.20\|210.20]]     | 210.20   | Projects/Library/200/210/210.20/210.20.md   | 1:17 AM - January 31, 2024 |
 | [[Projects/Library/200/210/210.10/210.10\|210.10]]     | 210.10   | Projects/Library/200/210/210.10/210.10.md   | 1:17 AM - January 31, 2024 |
