@@ -1,7 +1,7 @@
 ---
-{"dg-publish":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"noteIcon":"0","created":"2024-01-30T20:06:19.823+09:00","updated":"2024-01-30T23:41:56.795+09:00"}
+dg-publish: true
+dg-home: true
 ---
-
 #hompage #Library #Rules
 
 
@@ -51,12 +51,14 @@ Each note is connected only to the preceding and following ones.
 [[Projects/Library/100/100\|100]] Infra
 - [[Projects/Library/100/110/110\|110]] DevOps Engineer Infra
 - [[Projects/Library/100/120/120\|120]] ML Engineer Infra
-[[200\|200]] DevOps Solutions
+[[200\|200]] DevOps 
 - [[210\|210]] CICD
-	- [[210.00\|210.00]] CICD
-		- [[210.00 a\|210.00 a]] GitLab
+	- [[Projects/Library/200/210/210.10/210.10\|210.10]] DevOps Fundemental
+	- [[Projects/Library/200/210/210.20/210.20\|210.20]] DevOps Culture
+	- [[Projects/Library/200/210/210.30/210.30\|210.30]] DevOps Solutions
+		- [[Projects/Library/200/210/210.30/210.30 a\|210.30 a]] GitLab
 [[300\|300]] Applications
-- 
+- [[310\|310]] Applications Framework
 [[Projects/Library/400/400\|400]] ML Engineer Basic
 - [[Projects/Library/400/410/410\|410]] Mathematics
 	- [[Projects/Library/400/410/410.00/410.00\|410.00]] Linear Algebra
