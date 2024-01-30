@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/projects/library/manage/history-of-library/","noteIcon":"0","created":"2023-12-31T20:39:20.070+09:00","updated":"2024-01-29T23:35:28.209+09:00"}
+{"dg-publish":true,"permalink":"/projects/library/manage/history-of-library/","noteIcon":"0","created":"2023-12-31T20:39:20.070+09:00","updated":"2024-01-30T10:30:02.005+09:00"}
 ---
 
 
@@ -796,17 +796,27 @@ add_tags_to_md_files(base_directory, json_structure)
 ```
 
 
-# conver_to json.
-using one med file
-```
+# conver_md_to json.py
+Convert Md file to Json file.
+Md file is library structure file. it will match current directroy and make to json
+
+<div class="transclusion internal-embed is-loaded"><div class="markdown-embed">
+
+$<div class="markdown-embed-title">
+
+# convert_md_to_json
+
+</div>
+
+
+```python
 import re
 import json
 import shutil
 import os
 
-
 def md_to_json(md_file, json_file):
-    with open(md_file, "r") as file:
+    with open(md_file, 'r') as file:
         lines = file.readlines()
 
     json_structure = {"MajorCategories": {}}
@@ -821,39 +831,29 @@ def md_to_json(md_file, json_file):
 
         try:
             # Match major, minor, subcategories, and book entries
-            major_match = re.match(r"\[\[(\d{3})\]\]\s*(.*)", line)
-            minor_match = re.match(r"- \[\[(\d{3})\]\]\s*(.*)", line)
-            sub_match = re.match(r"- \[\[(\d{3}\.\d{2})\]\]\s*(.*)", line)
-            book_match = re.match(r"- \[\[(\d{3}\.\d{2} [a-zA-Z])\]\]\s*(.*)", line)
+            major_match = re.match(r'\[\[(\d{3})\]\]\s*(.*)', line)
+            minor_match = re.match(r'- \[\[(\d{3})\]\]\s*(.*)', line)
+            sub_match = re.match(r'- \[\[(\d{3}\.\d{2})\]\]\s*(.*)', line)
+            book_match = re.match(r'- \[\[(\d{3}\.\d{2} [a-zA-Z])\]\]\s*(.*)', line)
 
             if major_match:
                 current_major, title = major_match.groups()
-                json_structure["MajorCategories"][current_major] = {
-                    "value": current_major,
-                    "title": title,
-                    "MinorCategories": {},
-                }
+                json_structure["MajorCategories"][current_major] = {"value": current_major, "title": title, "MinorCategories": {}}
                 print(f"Major Category: {current_major}, Title: {title}")  # Debug print
 
             elif minor_match:
                 current_minor, title = minor_match.groups()
-                json_structure["MajorCategories"][current_major]["MinorCategories"][
-                    current_minor
-                ] = {"title": title, "Subcategories": {}}
+                json_structure["MajorCategories"][current_major]["MinorCategories"][current_minor] = {"title": title, "Subcategories": {}}
                 print(f"Minor Category: {current_minor}, Title: {title}")  # Debug print
 
             elif sub_match:
                 current_sub, title = sub_match.groups()
-                json_structure["MajorCategories"][current_major]["MinorCategories"][
-                    current_minor
-                ]["Subcategories"][current_sub] = {"title": title, "Books": {}}
+                json_structure["MajorCategories"][current_major]["MinorCategories"][current_minor]["Subcategories"][current_sub] = {"title": title, "Books": {}}
                 print(f"Subcategory: {current_sub}, Title: {title}")  # Debug print
 
             elif book_match:
                 book_code, book_title = book_match.groups()
-                json_structure["MajorCategories"][current_major]["MinorCategories"][
-                    current_minor
-                ]["Subcategories"][current_sub]["Books"][book_code] = book_title
+                json_structure["MajorCategories"][current_major]["MinorCategories"][current_minor]["Subcategories"][current_sub]["Books"][book_code] = book_title
                 print(f"Book: {book_code}, Title: {book_title}")  # Debug print
 
         except Exception as e:
@@ -862,7 +862,7 @@ def md_to_json(md_file, json_file):
 
     # Save JSON structure to file
     temp_json_path = os.path.join(os.getcwd(), json_file)
-    with open(temp_json_path, "w") as outfile:
+    with open(temp_json_path, 'w') as outfile:
         json.dump(json_structure, outfile, indent=4)
 
     # Move the JSON file to the parent directory
@@ -871,20 +871,23 @@ def md_to_json(md_file, json_file):
     shutil.move(temp_json_path, destination_path)
     print(f"Moved {json_file} to {destination_path}")
 
-
 # Usage example
-md_file = "../Entrance/Call Number Index.md"
-json_file = "structure.json"
+md_file = 'Call Number Index.md'
+json_file = 'structure.json'
 
-print(f"Read from {md_file}")
+print(f'Read from {md_file}')
 md_to_json(md_file, json_file)
-print(f"Output json file is {json_file}")
+print(f'Output json file is {json_file}')
 
 ```
+
+</div></div>
 
 
 # structure.json
 matching with current directory structure
+Major, Minor, Sub,  Books
+for example 
 ```
 {
     "MajorCategories": {
@@ -924,147 +927,15 @@ matching with current directory structure
                     "Subcategories": {}
                 }
             }
-        },
-        "400": {
-            "value": "400",
-            "title": "ML Engineer Basic",
-            "MinorCategories": {
-                "410": {
-                    "title": "Mathematics",
-                    "Subcategories": {
-                        "410.00": {
-                            "title": "Linear Algebra",
-                            "Books": {
-                                "410.00 a": "Fundamental Function",
-                                "410.00 b": "Vector",
-                                "410.00 c": "Vectors Properties",
-                                "410.00 d": "Vector Operation"
-                            }
-                        },
-                        "410.10": {
-                            "title": "Probability",
-                            "Books": {
-                                "410.10 a": "Fundamental Function"
-                            }
-                        },
-                        "410.20": {
-                            "title": "Statistics",
-                            "Books": {}
-                        },
-                        "410.30": {
-                            "title": "Calculus",
-                            "Books": {
-                                "410.30 a": "fundamental"
-                            }
-                        }
-                    }
-                },
-                "420": {
-                    "title": "Data",
-                    "Subcategories": {
-                        "420.00": {
-                            "title": "Structured Data",
-                            "Books": {
-                                "420.00 a": "Categorical Data",
-                                "420.00 b": "Numerical Data"
-                            }
-                        },
-                        "420.10": {
-                            "title": "Unstructured Data",
-                            "Books": {}
-                        }
-                    }
-                }
-            }
-        },
-        "500": {
-            "value": "500",
-            "title": "Algorithms and Modeling",
-            "MinorCategories": {}
-        },
-        "600": {
-            "value": "600",
-            "title": "ML Libraries and Implementation",
-            "MinorCategories": {
-                "610": {
-                    "title": "Data Handling",
-                    "Subcategories": {
-                        "610.00": {
-                            "title": "Pandas",
-                            "Books": {
-                                "610.00 a": "Pandas-basic"
-                            }
-                        },
-                        "610.10": {
-                            "title": "NumPy",
-                            "Books": {
-                                "610.10 a": "Numpy Fundamental functions",
-                                "610.10 b": "Numpy Appllied function"
-                            }
-                        }
-                    }
-                },
-                "620": {
-                    "title": "Data visualization",
-                    "Subcategories": {
-                        "620.00": {
-                            "title": "MatplotLib",
-                            "Books": {
-                                "620.00 a": "MatplotLib Fundamental"
-                            }
-                        },
-                        "620.10": {
-                            "title": "Seabornn",
-                            "Books": {
-                                "620.10 a": "Seaborn Fundamental"
-                            }
-                        }
-                    }
-                },
-                "630": {
-                    "title": "Machine Learning Frameworks",
-                    "Subcategories": {
-                        "630.00": {
-                            "title": "scikit-learn",
-                            "Books": {}
-                        },
-                        "630.10": {
-                            "title": "TensorFlow",
-                            "Books": {}
-                        },
-                        "630.20": {
-                            "title": "PyTorch",
-                            "Books": {}
-                        }
-                    }
-                }
-            }
-        },
-        "700": {
-            "value": "700",
-            "title": "Research Paper",
-            "MinorCategories": {
-                "710": {
-                    "title": "methodology",
-                    "Subcategories": {
-                        "710.00": {
-                            "title": "Multi-agent Reinforcement Learning",
-                            "Books": {
-                                "710.00 a": "Base Domains",
-                                "710.00 b": "Paper review"
-                            }
-                        }
-                    }
-                }
-            }
         }
     }
 }
+
 ```
 
 
 
-Structural management from one file  
+# Structural management from one file  
   
 In the case of `![[note_name]]` in obisidian's markdown grammar, it is called Wikilink, which shows the contents of the linked note. In other words, the mirroring method makes the two structures managed by Homepage and call-number-index manage in one place  
   
