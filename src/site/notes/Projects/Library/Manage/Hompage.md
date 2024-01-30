@@ -1,7 +1,7 @@
 ---
-dg-publish: true
-dg-home: true
+{"dg-publish":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"noteIcon":"0","created":"2024-01-30T20:06:19.823+09:00","updated":"2024-01-31T00:31:28.956+09:00"}
 ---
+
 #hompage #Library #Rules
 
 
