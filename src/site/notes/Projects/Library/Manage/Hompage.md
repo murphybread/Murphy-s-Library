@@ -57,8 +57,8 @@ Each note is connected only to the preceding and following ones.
 	- [[Projects/Library/200/210/210.20/210.20\|210.20]] DevOps Culture
 	- [[Projects/Library/200/210/210.30/210.30\|210.30]] DevOps Solutions
 		- [[Projects/Library/200/210/210.30/210.30 a\|210.30 a]] GitLab
-[[300\|300]] Applications
-- [[310\|310]] Applications Framework
+[[Projects/Library/300/300\|300]] Applications
+- [[Projects/Library/300/310/310\|310]] Applications Framework
 [[Projects/Library/400/400\|400]] ML Engineer Basic
 - [[Projects/Library/400/410/410\|410]] Mathematics
 	- [[Projects/Library/400/410/410.00/410.00\|410.00]] Linear Algebra
