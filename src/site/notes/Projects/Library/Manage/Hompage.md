@@ -1,7 +1,7 @@
 ---
-dg-publish: true
-dg-home: true
+{"dg-publish":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"noteIcon":"0","created":"2024-01-30T20:06:19.823+09:00","updated":"2024-01-30T23:37:18.197+09:00"}
 ---
+
 #hompage #Library #Rules
 
 
@@ -74,7 +74,7 @@ Each note is connected only to the preceding and following ones.
 		- [[Projects/Library/400/420/420.00/420.00 a\|420.00 a]] Categorical Data
 		- [[Projects/Library/400/420/420.00/420.00 b\|420.00 b]] Numerical Data
 	- [[Projects/Library/400/420/420.10/420.10\|420.10]] Unstructured Data
-[[500\|500]] Algorithms and Modeling
+[[Projects/Library/500/500\|500]] Algorithms and Modeling
 [[Projects/Library/600/600\|600]] ML Libraries and Implementation
 - [[Projects/Library/600/610/610\|610]] Data Handling
 	- [[Projects/Library/600/610/610.00/610.00\|610.00]] Pandas
