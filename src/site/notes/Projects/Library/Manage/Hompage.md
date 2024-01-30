@@ -1,7 +1,7 @@
 ---
-{"dg-publish":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2024-01-29T23:38:16.032+09:00"}
+dg-publish: true
+dg-home: true
 ---
-
 #hompage #Library #Rules
 
 
@@ -74,7 +74,7 @@ Each note is connected only to the preceding and following ones.
 		- [[Projects/Library/400/420/420.00/420.00 a\|420.00 a]] Categorical Data
 		- [[Projects/Library/400/420/420.00/420.00 b\|420.00 b]] Numerical Data
 	- [[Projects/Library/400/420/420.10/420.10\|420.10]] Unstructured Data
-[[Projects/Library/500/500\|500]] Algorithms and Modeling
+[[500\|500]] Algorithms and Modeling
 [[Projects/Library/600/600\|600]] ML Libraries and Implementation
 - [[Projects/Library/600/610/610\|610]] Data Handling
 	- [[Projects/Library/600/610/610.00/610.00\|610.00]] Pandas
@@ -91,6 +91,8 @@ Each note is connected only to the preceding and following ones.
     - [[Projects/Library/600/630/630.00/630.00\|630.00]] scikit-learn
     - [[Projects/Library/600/630/630.10/630.10\|630.10]] TensorFlow
     - [[Projects/Library/600/630/630.20/630.20\|630.20]] PyTorch
+    - [[Projects/Library/600/630/630.30/630.30\|630.30]] Langchain
+	    - [[Projects/Library/600/630/630.30/630.30 a\|630.30 a]] Amazone Bedrock with RAG
 [[Projects/Library/700/700\|700]] Research Paper
 - [[Projects/Library/700/710/710\|710]] methodology
 	- [[Projects/Library/700/710/710.00/710.00\|710.00]] Multi-agent Reinforcement Learning
@@ -106,13 +108,8 @@ Each note is connected only to the preceding and following ones.
 
 # Recent Posts
 
-| File                                                      | title    | file.link                                                 |
-| --------------------------------------------------------- | -------- | --------------------------------------------------------- |
-| [[Projects/Library/600/610/610.10/610.10 b\|610.10 b]] | 610.10 b | [[Projects/Library/600/610/610.10/610.10 b\|610.10 b]] |
-| [[Projects/Library/600/610/610.10/610.10 a\|610.10 a]] | 610.10 a | [[Projects/Library/600/610/610.10/610.10 a\|610.10 a]] |
-| [[Projects/Library/400/420/420.10/420.10\|420.10]]     | 420.10   | [[Projects/Library/400/420/420.10/420.10\|420.10]]     |
-| [[Projects/Library/400/420/420.00/420.00\|420.00]]     | 420.00   | [[Projects/Library/400/420/420.00/420.00\|420.00]]     |
-| [[Projects/Library/400/420/420\|420]]                  | 420      | [[Projects/Library/400/420/420\|420]]                  |
+| File | title | file.link |
+| ---- | ----- | --------- |
 
 { .block-language-dataview}
 
