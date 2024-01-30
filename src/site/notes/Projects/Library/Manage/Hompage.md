@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"noteIcon":"0","created":"2024-01-30T20:06:19.823+09:00","updated":"2024-01-31T01:16:19.012+09:00"}
+{"dg-publish":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"noteIcon":"0","created":"2024-01-30T20:06:19.823+09:00","updated":"2024-01-31T01:19:31.586+09:00"}
 ---
 
 #hompage #Library #Rules
@@ -110,15 +110,15 @@ Each note is connected only to the preceding and following ones.
 
 # Recent Posts
 
-| File                                                      | title    | file.link                                                 | file.path                                   | file.ctime                  |
-| --------------------------------------------------------- | -------- | --------------------------------------------------------- | ------------------------------------------- | --------------------------- |
-| [[Projects/Library/300/310/310\|310]]                  | 310      | [[Projects/Library/300/310/310\|310]]                  | Projects/Library/300/310/310.md             | 12:33 AM - January 31, 2024 |
-| [[Projects/Library/300/300\|300]]                      | 300      | [[Projects/Library/300/300\|300]]                      | Projects/Library/300/300.md                 | 12:33 AM - January 31, 2024 |
-| [[Projects/Library/200/210/210.30/210.30 a\|210.30 a]] | 210.30 a | [[Projects/Library/200/210/210.30/210.30 a\|210.30 a]] | Projects/Library/200/210/210.30/210.30 a.md | 12:03 AM - January 31, 2024 |
-| [[Projects/Library/Entrance/210.00 a\|210.00 a]]       | 210.00 a | [[Projects/Library/Entrance/210.00 a\|210.00 a]]       | Projects/Library/Entrance/210.00 a.md       | 11:51 PM - January 30, 2024 |
-| [[Projects/Library/200/210/210.30/210.30\|210.30]]     | 210.30   | [[Projects/Library/200/210/210.30/210.30\|210.30]]     | Projects/Library/200/210/210.30/210.30.md   | 11:51 PM - January 30, 2024 |
-| [[Projects/Library/200/210/210.20/210.20\|210.20]]     | 210.20   | [[Projects/Library/200/210/210.20/210.20\|210.20]]     | Projects/Library/200/210/210.20/210.20.md   | 11:51 PM - January 30, 2024 |
-| [[Projects/Library/200/210/210.10/210.10\|210.10]]     | 210.10   | [[Projects/Library/200/210/210.10/210.10\|210.10]]     | Projects/Library/200/210/210.10/210.10.md   | 11:51 PM - January 30, 2024 |
+| File                                                      | title    | file.path                                   | file.mtime                 |
+| --------------------------------------------------------- | -------- | ------------------------------------------- | -------------------------- |
+| [[Projects/Library/300/310/310\|310]]                  | 310      | Projects/Library/300/310/310.md             | 1:17 AM - January 31, 2024 |
+| [[Projects/Library/300/300\|300]]                      | 300      | Projects/Library/300/300.md                 | 1:17 AM - January 31, 2024 |
+| [[Projects/Library/200/210/210.30/210.30 a\|210.30 a]] | 210.30 a | Projects/Library/200/210/210.30/210.30 a.md | 1:17 AM - January 31, 2024 |
+| [[Projects/Library/Entrance/210.00 a\|210.00 a]]       | 210.00 a | Projects/Library/Entrance/210.00 a.md       | 1:17 AM - January 31, 2024 |
+| [[Projects/Library/200/210/210.30/210.30\|210.30]]     | 210.30   | Projects/Library/200/210/210.30/210.30.md   | 1:17 AM - January 31, 2024 |
+| [[Projects/Library/200/210/210.20/210.20\|210.20]]     | 210.20   | Projects/Library/200/210/210.20/210.20.md   | 1:17 AM - January 31, 2024 |
+| [[Projects/Library/200/210/210.10/210.10\|210.10]]     | 210.10   | Projects/Library/200/210/210.10/210.10.md   | 1:17 AM - January 31, 2024 |
 
 { .block-language-dataview}
 
