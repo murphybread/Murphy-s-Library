@@ -51,6 +51,12 @@ Each note is connected only to the preceding and following ones.
 [[Projects/Library/100/100\|100]] Infra
 - [[Projects/Library/100/110/110\|110]] DevOps Engineer Infra
 - [[Projects/Library/100/120/120\|120]] ML Engineer Infra
+[[200\|200]] DevOps Solutions
+- [[210\|210]] CICD
+	- [[210.00\|210.00]] CICD
+		- [[210.00 a\|210.00 a]] GitLab
+[[300\|300]] Applications
+- 
 [[Projects/Library/400/400\|400]] ML Engineer Basic
 - [[Projects/Library/400/410/410\|410]] Mathematics
 	- [[Projects/Library/400/410/410.00/410.00\|410.00]] Linear Algebra
