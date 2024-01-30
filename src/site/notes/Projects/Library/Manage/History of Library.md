@@ -1,7 +1,7 @@
 ---
-{"dg-publish":true,"permalink":"/projects/library/manage/history-of-library/","noteIcon":"0","created":"2024-01-30T20:06:19.819+09:00","updated":"2024-01-31T00:34:25.082+09:00"}
----
 
+dg-publish: true
+---
 
 
 
@@ -723,12 +723,12 @@ def construct_tag(file_name, structure):
 
 # Helper functions to construct tags for each file type
 def construct_major_tag(major_code, structure):
-    tag = f"#[[{major_code}]]"
+    tag = f"#[[{major_code}\|{major_code}]]"
     minor_categories = structure["MajorCategories"][major_code].get(
         "MinorCategories", {}
     )
     for minor_key in minor_categories.keys():
-        tag += f"#[[{minor_key}]]"
+        tag += f"#[[{minor_key}\|{minor_key}]]"
     return tag
 
 
@@ -736,12 +736,12 @@ def construct_minor_tag(minor_code, structure):
     for major_key, major_val in structure["MajorCategories"].items():
         if minor_code in major_val["MinorCategories"]:
             major_value = major_val["value"]
-            tag = f"#[[{major_value}]]#[[{minor_code}]]"
+            tag = f"#[[{major_value}\|{major_value}]]#[[{minor_code}\|{minor_code}]]"
             subcategories = major_val["MinorCategories"][minor_code].get(
                 "Subcategories", {}
             )
             for sub_key in subcategories.keys():
-                tag += f"#[[{sub_key}]]"
+                tag += f"#[[{sub_key}\|{sub_key}]]"
             return tag
     return ""
 
@@ -750,7 +750,7 @@ def construct_subcategory_tag(sub_code, structure):
     for major_key, major_val in structure["MajorCategories"].items():
         for minor_key, minor_val in major_val.get("MinorCategories", {}).items():
             if sub_code in minor_val["Subcategories"]:
-                tag = f"#[[{sub_code}]]"
+                tag = f"#[[{sub_code}\|{sub_code}]]"
                 return tag
     return ""
 
@@ -760,7 +760,7 @@ def construct_book_tag(book_code, structure):
         for minor_key, minor_val in major_val.get("MinorCategories", {}).items():
             for sub_key, sub_val in minor_val.get("Subcategories", {}).items():
                 if book_code.startswith(sub_key):
-                    tag = f"#[[{sub_key}]]#[[{book_code}]]"
+                    tag = f"#[[{sub_key}\|{sub_key}]]#[[{book_code}\|{book_code}]]"
                     return tag
     return ""
 
