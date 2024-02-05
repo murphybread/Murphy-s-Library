@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"noteIcon":"0","created":"2024-01-31T10:10:26.886+09:00","updated":"2024-01-31T10:10:26.886+09:00"}
+{"dg-publish":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"noteIcon":"0","created":"2024-01-31T10:10:26.886+09:00","updated":"2024-02-05T10:53:07.688+09:00"}
 ---
 
 #hompage #Library #Rules
@@ -23,8 +23,6 @@ The library call numbers are classified as follows:
   
 Notes with suffixes like"a" represent articles containing content, while other identifiers denote a range.
 You can view all notes call numbers at once
-[[Projects/Library/Entrance/Call Number Index\|Call Number Index]]
-
 
 
 2. Method through search
@@ -53,10 +51,10 @@ Each note is connected only to the preceding and following ones.
 - [[Projects/Library/100/120/120\|120]] ML Engineer Infra
 [[Projects/Library/200/200\|200]] DevOps 
 - [[210\|210]] CICD
-	- [[210.00\|210.00]] DevOps Fundemental
+	- [[Projects/Library/200/210/210.00/210.00\|210.00]] DevOps Fundemental
 	- [[Projects/Library/200/210/210.10/210.10\|210.10]] DevOps Culture
 	- [[Projects/Library/200/210/210.20/210.20\|210.20]] DevOps Solutions
-		- [[210.20 a\|210.20 a]] GitLab
+		- [[Projects/Library/200/210/210.20/210.20 a\|210.20 a]] GitLab
 [[Projects/Library/300/300\|300]] Applications
 - [[Projects/Library/300/310/310\|310]] Applications Framework
 [[Projects/Library/400/400\|400]] ML Engineer Basic
@@ -83,7 +81,7 @@ Each note is connected only to the preceding and following ones.
 		- [[Projects/Library/600/610/610.00/610.00 a\|610.00 a]] Pandas-basic 
 	- [[Projects/Library/600/610/610.10/610.10\|610.10]] NumPy
 		- [[Projects/Library/600/610/610.10/610.10 a\|610.10 a]] Numpy Fundamental functions
-		- [[Projects/Library/600/610/610.10/610.10 b\|610.10 b]] Numpy Appllied function
+		- [[Projects/Library/Entrance/610.10 b\|610.10 b]] Numpy Appllied function
 - [[Projects/Library/600/620/620\|620]] Data visualization
 	- [[Projects/Library/600/620/620.00/620.00\|620.00]] MatplotLib
 		- [[620.00 a\|620.00 a]] MatplotLib Fundamental 
@@ -112,13 +110,13 @@ Each note is connected only to the preceding and following ones.
 
 | File                                                                  | title              | file.path                                     | file.mtime                   |
 | --------------------------------------------------------------------- | ------------------ | --------------------------------------------- | ---------------------------- |
-| [[Projects/Library/200/200\|200]]                                  | 200                | Projects/Library/200/200.md                   | 10:11 AM - January 31, 2024  |
-| [[Projects/Library/Manage/Hompage\|Hompage]]                       | Hompage            | Projects/Library/Manage/Hompage.md            | 10:10 AM - January 31, 2024  |
-| [[Projects/Library/Manage/History of Library\|History of Library]] | History of Library | Projects/Library/Manage/History of Library.md | 10:16 AM - February 05, 2024 |
-| [[Projects/Library/700/710/710\|710]]                              | 710                | Projects/Library/700/710/710.md               | 10:10 AM - January 31, 2024  |
-| [[Projects/Library/700/710/710.00/710.00 b\|710.00 b]]             | 710.00 b           | Projects/Library/700/710/710.00/710.00 b.md   | 10:10 AM - January 31, 2024  |
-| [[Projects/Library/700/700\|700]]                                  | 700                | Projects/Library/700/700.md                   | 10:10 AM - January 31, 2024  |
-| [[Projects/Library/600/630/630.30/630.30 a\|630.30 a]]             | 630.30 a           | Projects/Library/600/630/630.30/630.30 a.md   | 10:10 AM - January 31, 2024  |
+| [[Projects/Library/200/210/210.20/210.20 a\|210.20 a]]             | 210.20 a           | Projects/Library/200/210/210.20/210.20 a.md   | 10:53 AM - February 05, 2024 |
+| [[Projects/Library/200/210/210.00/210.00\|210.00]]                 | 210.00             | Projects/Library/200/210/210.00/210.00.md     | 10:53 AM - February 05, 2024 |
+| [[Projects/Library/600/610/610.10/610.10 b\|610.10 b]]             | 610.10 b           | Projects/Library/600/610/610.10/610.10 b.md   | 10:53 AM - February 05, 2024 |
+| [[Projects/Library/200/200\|200]]                                  | 200                | Projects/Library/200/200.md                   | 10:53 AM - February 05, 2024 |
+| [[Projects/Library/Manage/Hompage\|Hompage]]                       | Hompage            | Projects/Library/Manage/Hompage.md            | 10:53 AM - February 05, 2024 |
+| [[Projects/Library/Manage/History of Library\|History of Library]] | History of Library | Projects/Library/Manage/History of Library.md | 10:53 AM - February 05, 2024 |
+| [[Projects/Library/700/710/710\|710]]                              | 710                | Projects/Library/700/710/710.md               | 10:53 AM - February 05, 2024 |
 
 { .block-language-dataview}
 
