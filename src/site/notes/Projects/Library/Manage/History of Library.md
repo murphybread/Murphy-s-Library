@@ -1,7 +1,7 @@
 ---
-
-dg-publish: true
+{"dg-publish":true,"permalink":"/projects/library/manage/history-of-library/","noteIcon":"0","created":"2024-01-31T10:10:26.885+09:00","updated":"2024-02-05T10:16:26.740+09:00"}
 ---
+
 
 
 
@@ -724,12 +724,12 @@ def construct_tag(file_name, structure):
 
 # Helper functions to construct tags for each file type
 def construct_major_tag(major_code, structure):
-    tag = f"#[[{major_code}\|{major_code}]]"
+    tag = f"#[[{major_code}]]"
     minor_categories = structure["MajorCategories"][major_code].get(
         "MinorCategories", {}
     )
     for minor_key in minor_categories.keys():
-        tag += f"#[[{minor_key}\|{minor_key}]]"
+        tag += f"#[[{minor_key}]]"
     return tag
 
 
@@ -737,12 +737,12 @@ def construct_minor_tag(minor_code, structure):
     for major_key, major_val in structure["MajorCategories"].items():
         if minor_code in major_val["MinorCategories"]:
             major_value = major_val["value"]
-            tag = f"#[[{major_value}\|{major_value}]]#[[{minor_code}\|{minor_code}]]"
+            tag = f"#[[{major_value}]]#[[{minor_code}]]"
             subcategories = major_val["MinorCategories"][minor_code].get(
                 "Subcategories", {}
             )
             for sub_key in subcategories.keys():
-                tag += f"#[[{sub_key}\|{sub_key}]]"
+                tag += f"#[[{sub_key}]]"
             return tag
     return ""
 
@@ -751,7 +751,7 @@ def construct_subcategory_tag(sub_code, structure):
     for major_key, major_val in structure["MajorCategories"].items():
         for minor_key, minor_val in major_val.get("MinorCategories", {}).items():
             if sub_code in minor_val["Subcategories"]:
-                tag = f"#[[{sub_code}\|{sub_code}]]"
+                tag = f"#[[{sub_code}]]"
                 return tag
     return ""
 
@@ -761,7 +761,7 @@ def construct_book_tag(book_code, structure):
         for minor_key, minor_val in major_val.get("MinorCategories", {}).items():
             for sub_key, sub_val in minor_val.get("Subcategories", {}).items():
                 if book_code.startswith(sub_key):
-                    tag = f"#[[{sub_key}\|{sub_key}]]#[[{book_code}\|{book_code}]]"
+                    tag = f"#[[{sub_key}]]#[[{book_code}]]"
                     return tag
     return ""
 
@@ -1092,3 +1092,18 @@ LIMIT 7
 Add Table attrivutes modifed time path and remove link
 Specifify query path "Projects/Library"
 Increase Limit to 7
+
+
+# Using GitHub to Share Synchronized Python Files Across Different Platforms
+
+## Problem
+
+The current Obsidian sync functionality only supports synchronization for files with Python file extensions, excluding files in other formats such as Markdown (md).
+
+Initial attempts involved converting Python files into Markdown (md) or inserting Python code into Markdown files. However, this approach resulted in excessive fragmentation and posed challenges for management.
+
+## Solution
+
+https://github.com/murphybread/Library
+
+To address this issue, the solution is to utilize GitHub links for syncing files between different platforms, such as Mac and Windows. This can be achieved by performing a 'git pull' to ensure synchronization with the latest version when starting work through the GitHub link.
