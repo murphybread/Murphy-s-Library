@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"noteIcon":"0","created":"2024-01-31T10:10:26.886+09:00","updated":"2024-02-05T10:53:07.688+09:00"}
+{"dg-publish":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"noteIcon":"0","created":"2024-01-31T10:10:26.886+09:00","updated":"2024-02-05T12:40:32.146+09:00"}
 ---
 
 #hompage #Library #Rules
@@ -50,8 +50,9 @@ Each note is connected only to the preceding and following ones.
 - [[Projects/Library/100/110/110\|110]] DevOps Engineer Infra
 - [[Projects/Library/100/120/120\|120]] ML Engineer Infra
 [[Projects/Library/200/200\|200]] DevOps 
-- [[210\|210]] CICD
+- [[Projects/Library/200/210/210\|210]] CICD
 	- [[Projects/Library/200/210/210.00/210.00\|210.00]] DevOps Fundemental
+		- [[Projects/Library/200/210/210.00/210.00 a\|210.00 a]] DevOps Backgrond
 	- [[Projects/Library/200/210/210.10/210.10\|210.10]] DevOps Culture
 	- [[Projects/Library/200/210/210.20/210.20\|210.20]] DevOps Solutions
 		- [[Projects/Library/200/210/210.20/210.20 a\|210.20 a]] GitLab
@@ -89,6 +90,7 @@ Each note is connected only to the preceding and following ones.
 		- [[Projects/Library/600/620/620.10/620.10 a\|620.10 a]] Seaborn Fundamental  
 - [[Projects/Library/600/630/630\|630]] Machine Learning Frameworks
     - [[Projects/Library/600/630/630.00/630.00\|630.00]] scikit-learn
+	    - [[Projects/Library/600/630/630.00/630.00 a\|630.00 a]] scikit-learn functions
     - [[Projects/Library/600/630/630.10/630.10\|630.10]] TensorFlow
     - [[Projects/Library/600/630/630.20/630.20\|630.20]] PyTorch
     - [[Projects/Library/600/630/630.30/630.30\|630.30]] Langchain
@@ -108,15 +110,15 @@ Each note is connected only to the preceding and following ones.
 
 # Recent Posts
 
-| File                                                                  | title              | file.path                                     | file.mtime                   |
-| --------------------------------------------------------------------- | ------------------ | --------------------------------------------- | ---------------------------- |
-| [[Projects/Library/200/210/210.20/210.20 a\|210.20 a]]             | 210.20 a           | Projects/Library/200/210/210.20/210.20 a.md   | 10:53 AM - February 05, 2024 |
-| [[Projects/Library/200/210/210.00/210.00\|210.00]]                 | 210.00             | Projects/Library/200/210/210.00/210.00.md     | 10:53 AM - February 05, 2024 |
-| [[Projects/Library/600/610/610.10/610.10 b\|610.10 b]]             | 610.10 b           | Projects/Library/600/610/610.10/610.10 b.md   | 10:53 AM - February 05, 2024 |
-| [[Projects/Library/200/200\|200]]                                  | 200                | Projects/Library/200/200.md                   | 10:53 AM - February 05, 2024 |
-| [[Projects/Library/Manage/Hompage\|Hompage]]                       | Hompage            | Projects/Library/Manage/Hompage.md            | 10:53 AM - February 05, 2024 |
-| [[Projects/Library/Manage/History of Library\|History of Library]] | History of Library | Projects/Library/Manage/History of Library.md | 10:53 AM - February 05, 2024 |
-| [[Projects/Library/700/710/710\|710]]                              | 710                | Projects/Library/700/710/710.md               | 10:53 AM - February 05, 2024 |
+| File                                                      | title    | file.path                                   | file.mtime                   |
+| --------------------------------------------------------- | -------- | ------------------------------------------- | ---------------------------- |
+| [[Projects/Library/200/210/210\|210]]                  | 210      | Projects/Library/200/210/210.md             | 12:40 PM - February 05, 2024 |
+| [[Projects/Library/200/210/210.20/210.20 a\|210.20 a]] | 210.20 a | Projects/Library/200/210/210.20/210.20 a.md | 12:40 PM - February 05, 2024 |
+| [[Projects/Library/200/210/210.00/210.00\|210.00]]     | 210.00   | Projects/Library/200/210/210.00/210.00.md   | 12:40 PM - February 05, 2024 |
+| [[Projects/Library/600/610/610.10/610.10 b\|610.10 b]] | 610.10 b | Projects/Library/600/610/610.10/610.10 b.md | 12:40 PM - February 05, 2024 |
+| [[Projects/Library/600/630/630.00/630.00 a\|630.00 a]] | 630.00 a | Projects/Library/600/630/630.00/630.00 a.md | 12:40 PM - February 05, 2024 |
+| [[Projects/Library/200/200\|200]]                      | 200      | Projects/Library/200/200.md                 | 12:40 PM - February 05, 2024 |
+| [[Projects/Library/Manage/Hompage\|Hompage]]           | Hompage  | Projects/Library/Manage/Hompage.md          | 12:40 PM - February 05, 2024 |
 
 { .block-language-dataview}
 
