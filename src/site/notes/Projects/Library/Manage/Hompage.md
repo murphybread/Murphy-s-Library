@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"noteIcon":"0","created":"2024-01-30T20:06:19.823+09:00","updated":"2024-01-31T01:29:36.869+09:00"}
+{"dg-publish":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"noteIcon":"0","created":"2024-01-31T10:10:26.886+09:00","updated":"2024-01-31T10:10:26.886+09:00"}
 ---
 
 #hompage #Library #Rules
@@ -51,7 +51,7 @@ Each note is connected only to the preceding and following ones.
 [[Projects/Library/100/100\|100]] Infra
 - [[Projects/Library/100/110/110\|110]] DevOps Engineer Infra
 - [[Projects/Library/100/120/120\|120]] ML Engineer Infra
-[[200\|200]] DevOps 
+[[Projects/Library/200/200\|200]] DevOps 
 - [[210\|210]] CICD
 	- [[210.00\|210.00]] DevOps Fundemental
 	- [[Projects/Library/200/210/210.10/210.10\|210.10]] DevOps Culture
@@ -110,15 +110,15 @@ Each note is connected only to the preceding and following ones.
 
 # Recent Posts
 
-| File                                                      | title    | file.path                                   | file.mtime                 |
-| --------------------------------------------------------- | -------- | ------------------------------------------- | -------------------------- |
-| [[Projects/Library/300/310/310\|310]]                  | 310      | Projects/Library/300/310/310.md             | 1:17 AM - January 31, 2024 |
-| [[Projects/Library/300/300\|300]]                      | 300      | Projects/Library/300/300.md                 | 1:17 AM - January 31, 2024 |
-| [[Projects/Library/200/210/210.30/210.30 a\|210.30 a]] | 210.30 a | Projects/Library/200/210/210.30/210.30 a.md | 1:17 AM - January 31, 2024 |
-| [[Projects/Library/200/210/210.00/210.00 a\|210.00 a]] | 210.00 a | Projects/Library/200/210/210.00/210.00 a.md | 1:30 AM - January 31, 2024 |
-| [[Projects/Library/200/210/210.30/210.30\|210.30]]     | 210.30   | Projects/Library/200/210/210.30/210.30.md   | 1:17 AM - January 31, 2024 |
-| [[Projects/Library/200/210/210.20/210.20\|210.20]]     | 210.20   | Projects/Library/200/210/210.20/210.20.md   | 1:17 AM - January 31, 2024 |
-| [[Projects/Library/200/210/210.10/210.10\|210.10]]     | 210.10   | Projects/Library/200/210/210.10/210.10.md   | 1:17 AM - January 31, 2024 |
+| File                                                                  | title              | file.path                                     | file.mtime                   |
+| --------------------------------------------------------------------- | ------------------ | --------------------------------------------- | ---------------------------- |
+| [[Projects/Library/200/200\|200]]                                  | 200                | Projects/Library/200/200.md                   | 10:11 AM - January 31, 2024  |
+| [[Projects/Library/Manage/Hompage\|Hompage]]                       | Hompage            | Projects/Library/Manage/Hompage.md            | 10:10 AM - January 31, 2024  |
+| [[Projects/Library/Manage/History of Library\|History of Library]] | History of Library | Projects/Library/Manage/History of Library.md | 10:16 AM - February 05, 2024 |
+| [[Projects/Library/700/710/710\|710]]                              | 710                | Projects/Library/700/710/710.md               | 10:10 AM - January 31, 2024  |
+| [[Projects/Library/700/710/710.00/710.00 b\|710.00 b]]             | 710.00 b           | Projects/Library/700/710/710.00/710.00 b.md   | 10:10 AM - January 31, 2024  |
+| [[Projects/Library/700/700\|700]]                                  | 700                | Projects/Library/700/700.md                   | 10:10 AM - January 31, 2024  |
+| [[Projects/Library/600/630/630.30/630.30 a\|630.30 a]]             | 630.30 a           | Projects/Library/600/630/630.30/630.30 a.md   | 10:10 AM - January 31, 2024  |
 
 { .block-language-dataview}
 
