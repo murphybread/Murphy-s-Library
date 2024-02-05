@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/projects/library/manage/history-of-library/","noteIcon":"0","created":"2024-01-31T10:10:26.885+09:00","updated":"2024-02-05T10:16:26.740+09:00"}
+{"dg-publish":true,"permalink":"/projects/library/manage/history-of-library/","noteIcon":"0","created":"2024-01-31T10:10:26.885+09:00","updated":"2024-02-05T10:53:07.689+09:00"}
 ---
 
 
@@ -1107,3 +1107,40 @@ Initial attempts involved converting Python files into Markdown (md) or insertin
 https://github.com/murphybread/Library
 
 To address this issue, the solution is to utilize GitHub links for syncing files between different platforms, such as Mac and Windows. This can be achieved by performing a 'git pull' to ensure synchronization with the latest version when starting work through the GitHub link.
+
+
+
+# 2.5.2 dg-publish frontmatter position
+## Problem
+### Notes not showing up on the homepage
+
+Reasoning
+There are some things that work and some things that don't, and in particular, there is a 404 in the case of the latter, so it seems that there is a problem with publishing.
+
+If the tag of the note that doesn't work is separated by a line like this, it is judged as a problem.
+problem form
+```
+---
+
+
+dg-publish: true
+
+---
+```
+
+
+## Solution.
+Tested some notes by moving the tags as follows and confirmed normal operation.
+Then I added a function called `update_content_and_position` in the python file.
+duplicate_tag.py to automate it.
+
+```
+---
+dg-publish: true
+
+
+
+---
+```
+
+
