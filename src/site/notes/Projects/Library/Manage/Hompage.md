@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"noteIcon":"0","created":"2024-01-31T10:10:26.886+09:00","updated":"2024-02-05T12:40:32.146+09:00"}
+{"dg-publish":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"noteIcon":"0","created":"2024-01-31T10:10:26.886+09:00","updated":"2024-02-07T09:49:07.022+09:00"}
 ---
 
 #hompage #Library #Rules
@@ -68,6 +68,8 @@ Each note is connected only to the preceding and following ones.
 		- [[Projects/Library/400/410/410.10/410.10\|410.10]] Probability
 			- [[Projects/Library/400/410/410.10/410.10 a\|410.10 a]] Fundamental Function
 		- [[Projects/Library/400/410/410.20/410.20\|410.20]] Statistics
+			- [[Projects/Library/400/410/410.20/410.20 a\|410.20 a]] Probability Distribution and Estimation
+			- [[Projects/Library/400/410/410.20/410.20 b\|410.20 b]] Maximum Likelihood Estimation(MLE) and Deep Learning
 		- [[Projects/Library/400/410/410.30/410.30\|410.30]] Calculus
 			- [[Projects/Library/400/410/410.30/410.30 a\|410.30 a]] fundamental 
 	- [[Projects/Library/400/420/420\|420]] Data
@@ -113,15 +115,15 @@ Each note is connected only to the preceding and following ones.
 
 # Recent Posts
 
-| File                                                      | title    | file.path                                   | file.mtime                   |
-| --------------------------------------------------------- | -------- | ------------------------------------------- | ---------------------------- |
-| [[Projects/Library/200/210/210\|210]]                  | 210      | Projects/Library/200/210/210.md             | 12:47 PM - February 05, 2024 |
-| [[Projects/Library/200/210/210.20/210.20 a\|210.20 a]] | 210.20 a | Projects/Library/200/210/210.20/210.20 a.md | 12:40 PM - February 05, 2024 |
-| [[Projects/Library/200/210/210.00/210.00\|210.00]]     | 210.00   | Projects/Library/200/210/210.00/210.00.md   | 12:40 PM - February 05, 2024 |
-| [[Projects/Library/600/610/610.10/610.10 b\|610.10 b]] | 610.10 b | Projects/Library/600/610/610.10/610.10 b.md | 12:40 PM - February 05, 2024 |
-| [[Projects/Library/600/630/630.00/630.00 a\|630.00 a]] | 630.00 a | Projects/Library/600/630/630.00/630.00 a.md | 12:40 PM - February 05, 2024 |
-| [[Projects/Library/200/200\|200]]                      | 200      | Projects/Library/200/200.md                 | 12:40 PM - February 05, 2024 |
-| [[Projects/Library/Manage/Hompage\|Hompage]]           | Hompage  | Projects/Library/Manage/Hompage.md          | 12:40 PM - February 05, 2024 |
+| File                                                      | title    | file.path                                   | file.mtime                  |
+| --------------------------------------------------------- | -------- | ------------------------------------------- | --------------------------- |
+| [[Projects/Library/400/410/410.20/410.20 b\|410.20 b]] | 410.20 b | Projects/Library/400/410/410.20/410.20 b.md | 9:51 AM - February 07, 2024 |
+| [[Projects/Library/400/410/410.20/410.20 a\|410.20 a]] | 410.20 a | Projects/Library/400/410/410.20/410.20 a.md | 9:50 AM - February 07, 2024 |
+| [[Projects/Library/200/210/210\|210]]                  | 210      | Projects/Library/200/210/210.md             | 9:49 AM - February 07, 2024 |
+| [[Projects/Library/200/210/210.20/210.20 a\|210.20 a]] | 210.20 a | Projects/Library/200/210/210.20/210.20 a.md | 9:49 AM - February 07, 2024 |
+| [[Projects/Library/200/210/210.00/210.00\|210.00]]     | 210.00   | Projects/Library/200/210/210.00/210.00.md   | 9:49 AM - February 07, 2024 |
+| [[Projects/Library/600/610/610.10/610.10 b\|610.10 b]] | 610.10 b | Projects/Library/600/610/610.10/610.10 b.md | 9:49 AM - February 07, 2024 |
+| [[Projects/Library/600/630/630.00/630.00 a\|630.00 a]] | 630.00 a | Projects/Library/600/630/630.00/630.00 a.md | 9:49 AM - February 07, 2024 |
 
 { .block-language-dataview}
 
