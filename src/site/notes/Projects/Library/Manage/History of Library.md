@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/projects/library/manage/history-of-library/","noteIcon":"0","created":"2024-01-31T10:10:26.885+09:00","updated":"2024-02-05T16:42:53.327+09:00"}
+{"dg-publish":true,"permalink":"/projects/library/manage/history-of-library/","noteIcon":"0","created":"2024-01-31T10:10:26.885+09:00","updated":"2024-02-07T09:49:07.024+09:00"}
 ---
 
 
@@ -1150,6 +1150,9 @@ dg-publish: true
 
 ## Problem
 `obisidian use ![[filename]] preview of note, but line break and indentation was wrong`
+![스크린샷 2024-02-05 오후 4.44.09.png](/img/user/images/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202024-02-05%20%EC%98%A4%ED%9B%84%204.44.09.png)
+
+Major category indent was wrong
 
 As-is Used this structure pattern
 ```
