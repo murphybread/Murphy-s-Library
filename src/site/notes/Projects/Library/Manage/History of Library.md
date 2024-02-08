@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/projects/library/manage/history-of-library/","noteIcon":"0","created":"2024-01-31T10:10:26.885+09:00","updated":"2024-02-07T09:49:07.024+09:00"}
+{"dg-publish":true,"permalink":"/projects/library/manage/history-of-library/","noteIcon":"0","created":"2024-01-31T10:10:26.885+09:00","updated":"2024-02-08T12:27:36.521+09:00"}
 ---
 
 
@@ -1188,3 +1188,28 @@ only consider point is major and minor category variable.
 major_match = re.match(r"- \[\[(\d0\d)\]\]\s*(.*)", line)
 minor_match = re.match(r"- \[\[(\d[1-9]\d)\]\]\s*(.*)", line)
 ```
+
+
+# 2.7.0 Managing Only Programming Files with .gitignore: Excluding Content Files
+
+## Problem
+
+In the process of starting git pull first, a conflict issue occurs if there is a change in the content file.
+It is appropriate to manage .md files other than .py only using the Sync function of the Obisidan tool.
+
+## Solution
+1. Delete .md files from remove server (when command is worked not delete immedately. you shoud commit and push)
+```
+git rm --cached -r "*.md"
+```
+1. Register files with md extension (fileanme should be `.gitignore)
+```
+.gitignore
+*.md
+```
+
+if command worked and file is created,
+next step is commit and push
+`git commit -m "Managing Only Programming Files with .gitignore: Excluding Content Files"`
+`git push`
+
