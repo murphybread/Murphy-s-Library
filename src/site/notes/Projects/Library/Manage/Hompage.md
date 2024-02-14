@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"noteIcon":"0","created":"2024-01-31T10:10:26.886+09:00","updated":"2024-02-14T12:27:27.468+09:00"}
+{"dg-publish":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"noteIcon":"0","created":"2024-01-31T10:10:26.886+09:00","updated":"2024-02-14T12:28:35.943+09:00"}
 ---
 
 #hompage #Library #Rules
@@ -27,11 +27,7 @@ You can view all notes call numbers at once
 
 2. Method through search
 - Search using contents, tags, numbers  related to the content or category range.
-Each note is connected only to the preceding and following ones.
 
-**Example (ex):**
-100 note is connected hompage and 110,120,130, ...
- 
 
 
 
@@ -44,7 +40,7 @@ Each note is connected only to the preceding and following ones.
 	- [[Projects/Library/000/010/010\|010]] Develop Knowledge
 		- [[Projects/Library/000/010/010.00/010.00\|010.00]] Develop Computer Science Knowledge
 			- [[Projects/Library/000/010/010.00/010.00 a\|010.00 a]] Essential Developer Insights
-			- [[Projects/Library/000/010/010.00/010.00 b\|010.00 b]] Industry domain knowledge
+			- [[Projects/Library/000/010/010.00/010.00 b\|010.00 b]] Industry Domain Knowledge
 		- [[Projects/Library/000/010/010.10/010.10\|010.10]] Develop Programming Language
 			- [[Projects/Library/000/010/010.10/010.10 a\|010.10 a]] Bash shell
 	- [[Projects/Library/000/090/090\|090]] External Insights an Trends
@@ -131,7 +127,7 @@ Each note is connected only to the preceding and following ones.
 
 | File                                                      | title    | file.path                                   | file.mtime                   |
 | --------------------------------------------------------- | -------- | ------------------------------------------- | ---------------------------- |
-| [[Projects/Library/000/010/010.00/010.00 b\|010.00 b]] | 010.00 b | Projects/Library/000/010/010.00/010.00 b.md | 12:27 PM - February 14, 2024 |
+| [[Projects/Library/000/010/010.00/010.00 b\|010.00 b]] | 010.00 b | Projects/Library/000/010/010.00/010.00 b.md | 12:50 PM - February 14, 2024 |
 | [[Projects/Library/600/620/620.00/620.00 a\|620.00 a]] | 620.00 a | Projects/Library/600/620/620.00/620.00 a.md | 12:27 PM - February 14, 2024 |
 | [[Projects/Library/300/310/310.00/310.00 b\|310.00 b]] | 310.00 b | Projects/Library/300/310/310.00/310.00 b.md | 12:27 PM - February 14, 2024 |
 | [[Projects/Library/300/310/310.00/310.00 a\|310.00 a]] | 310.00 a | Projects/Library/300/310/310.00/310.00 a.md | 12:27 PM - February 14, 2024 |
