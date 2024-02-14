@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"noteIcon":"0","created":"2024-01-31T10:10:26.886+09:00","updated":"2024-02-14T10:57:37.471+09:00"}
+{"dg-publish":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"noteIcon":"0","created":"2024-01-31T10:10:26.886+09:00","updated":"2024-02-14T12:27:27.468+09:00"}
 ---
 
 #hompage #Library #Rules
@@ -44,7 +44,7 @@ Each note is connected only to the preceding and following ones.
 	- [[Projects/Library/000/010/010\|010]] Develop Knowledge
 		- [[Projects/Library/000/010/010.00/010.00\|010.00]] Develop Computer Science Knowledge
 			- [[Projects/Library/000/010/010.00/010.00 a\|010.00 a]] Essential Developer Insights
-			- [[Projects/Library/Entrance/010.00 b\|010.00 b]] Industry domain knowledge
+			- [[Projects/Library/000/010/010.00/010.00 b\|010.00 b]] Industry domain knowledge
 		- [[Projects/Library/000/010/010.10/010.10\|010.10]] Develop Programming Language
 			- [[Projects/Library/000/010/010.10/010.10 a\|010.10 a]] Bash shell
 	- [[Projects/Library/000/090/090\|090]] External Insights an Trends
@@ -120,8 +120,6 @@ Each note is connected only to the preceding and following ones.
 			- [[Projects/Library/700/710/710.00/710.00 b\|710.00 b]] Paper review
 
 
-1) 제가 모두연에서 강의했던 GANs 요약 논문은 모두 아는게 좋습니다. (2) 이후, CLIP 이라는 논문을 이해하고 (3) 그다음 stable diffusion 논문을 읽으면 좋습니다.
-
 </div></div>
 
 
@@ -133,13 +131,13 @@ Each note is connected only to the preceding and following ones.
 
 | File                                                      | title    | file.path                                   | file.mtime                   |
 | --------------------------------------------------------- | -------- | ------------------------------------------- | ---------------------------- |
-| [[Projects/Library/Entrance/010.00 b\|010.00 b]]       | 010.00 b | Projects/Library/Entrance/010.00 b.md       | 11:29 AM - February 14, 2024 |
-| [[Projects/Library/600/620/620.00/620.00 a\|620.00 a]] | 620.00 a | Projects/Library/600/620/620.00/620.00 a.md | 10:57 AM - February 14, 2024 |
-| [[Projects/Library/300/310/310.00/310.00 b\|310.00 b]] | 310.00 b | Projects/Library/300/310/310.00/310.00 b.md | 10:57 AM - February 14, 2024 |
-| [[Projects/Library/300/310/310.00/310.00 a\|310.00 a]] | 310.00 a | Projects/Library/300/310/310.00/310.00 a.md | 10:57 AM - February 14, 2024 |
-| [[Projects/Library/500/520/520.30/520.30 c\|520.30 c]] | 520.30 c | Projects/Library/500/520/520.30/520.30 c.md | 10:57 AM - February 14, 2024 |
-| [[Projects/Library/500/520/520.30/520.30 b\|520.30 b]] | 520.30 b | Projects/Library/500/520/520.30/520.30 b.md | 10:57 AM - February 14, 2024 |
-| [[Projects/Library/500/520/520.30/520.30 a\|520.30 a]] | 520.30 a | Projects/Library/500/520/520.30/520.30 a.md | 10:57 AM - February 14, 2024 |
+| [[Projects/Library/000/010/010.00/010.00 b\|010.00 b]] | 010.00 b | Projects/Library/000/010/010.00/010.00 b.md | 12:27 PM - February 14, 2024 |
+| [[Projects/Library/600/620/620.00/620.00 a\|620.00 a]] | 620.00 a | Projects/Library/600/620/620.00/620.00 a.md | 12:27 PM - February 14, 2024 |
+| [[Projects/Library/300/310/310.00/310.00 b\|310.00 b]] | 310.00 b | Projects/Library/300/310/310.00/310.00 b.md | 12:27 PM - February 14, 2024 |
+| [[Projects/Library/300/310/310.00/310.00 a\|310.00 a]] | 310.00 a | Projects/Library/300/310/310.00/310.00 a.md | 12:27 PM - February 14, 2024 |
+| [[Projects/Library/500/520/520.30/520.30 c\|520.30 c]] | 520.30 c | Projects/Library/500/520/520.30/520.30 c.md | 12:27 PM - February 14, 2024 |
+| [[Projects/Library/500/520/520.30/520.30 b\|520.30 b]] | 520.30 b | Projects/Library/500/520/520.30/520.30 b.md | 12:27 PM - February 14, 2024 |
+| [[Projects/Library/500/520/520.30/520.30 a\|520.30 a]] | 520.30 a | Projects/Library/500/520/520.30/520.30 a.md | 12:27 PM - February 14, 2024 |
 
 { .block-language-dataview}
 
