@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"noteIcon":"0","created":"2024-01-31T10:10:26.886+09:00","updated":"2024-02-07T09:49:07.022+09:00"}
+{"dg-publish":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"noteIcon":"0","created":"2024-01-31T10:10:26.886+09:00","updated":"2024-02-14T10:57:37.471+09:00"}
 ---
 
 #hompage #Library #Rules
@@ -44,8 +44,13 @@ Each note is connected only to the preceding and following ones.
 	- [[Projects/Library/000/010/010\|010]] Develop Knowledge
 		- [[Projects/Library/000/010/010.00/010.00\|010.00]] Develop Computer Science Knowledge
 			- [[Projects/Library/000/010/010.00/010.00 a\|010.00 a]] Essential Developer Insights
+			- [[Projects/Library/Entrance/010.00 b\|010.00 b]] Industry domain knowledge
 		- [[Projects/Library/000/010/010.10/010.10\|010.10]] Develop Programming Language
 			- [[Projects/Library/000/010/010.10/010.10 a\|010.10 a]] Bash shell
+	- [[Projects/Library/000/090/090\|090]] External Insights an Trends
+		- [[Projects/Library/000/090/090.00/090.00\|090.00]] Industry Trends
+		- [[Projects/Library/000/090/090.10/090.10\|090.10]] Live Session
+			- [[Projects/Library/000/090/090.10/090.10 a\|090.10 a]] Job Definetion
 - [[Projects/Library/100/100\|100]] Infra
 	- [[Projects/Library/100/110/110\|110]] DevOps Engineer Infra
 	- [[Projects/Library/100/120/120\|120]] ML Engineer Infra
@@ -57,10 +62,10 @@ Each note is connected only to the preceding and following ones.
 		- [[Projects/Library/200/210/210.20/210.20\|210.20]] DevOps Solutions
 			- [[Projects/Library/200/210/210.20/210.20 a\|210.20 a]] GitLab
 - [[Projects/Library/300/300\|300]] Applications
-	- [[Projects/Library/300/310/310\|310]] IDE
+	- [[Projects/Library/300/310/310\|310]] Development Environment
 		- [[310.00\|310.00]] IDE
-			- [[310.00 a\|310.00 a]] Terminal
-			- [[310.00 b\|310.00 b]] Colab
+			- [[Projects/Library/300/310/310.00/310.00 a\|310.00 a]] Terminal
+			- [[Projects/Library/300/310/310.00/310.00 b\|310.00 b]] Colab
 			- 
 - [[Projects/Library/400/400\|400]] ML Engineer Basic
 	- [[Projects/Library/400/410/410\|410]] Mathematics
@@ -81,7 +86,14 @@ Each note is connected only to the preceding and following ones.
 			- [[Projects/Library/400/420/420.00/420.00 a\|420.00 a]] Categorical Data
 			- [[Projects/Library/400/420/420.00/420.00 b\|420.00 b]] Numerical Data
 		- [[Projects/Library/400/420/420.10/420.10\|420.10]] Unstructured Data
-- [[Projects/Library/500/500\|500]] Algorithms and Modeling
+- [[Projects/Library/500/500\|500]] ML & DL Modeling
+	- [[Projects/Library/500/510/510\|510]] Natural Language Processing (NLP)
+	- [[Projects/Library/500/520/520\|520]] Computer Vision
+		- [[Projects/Library/500/520/520.00/520.00\|520.00]] Introduction to CV
+		- [[Projects/Library/500/520/520.30/520.30\|520.30]] Generative Models in CV
+			- [[Projects/Library/500/520/520.30/520.30 a\|520.30 a]] GANs
+			- [[Projects/Library/500/520/520.30/520.30 b\|520.30 b]] CLIP
+			- [[Projects/Library/500/520/520.30/520.30 c\|520.30 c]] Stable Diffusion
 - [[Projects/Library/600/600\|600]] ML Libraries and Implementation
 	- [[Projects/Library/600/610/610\|610]] Data Handling
 		- [[Projects/Library/600/610/610.00/610.00\|610.00]] Pandas
@@ -90,8 +102,8 @@ Each note is connected only to the preceding and following ones.
 			- [[Projects/Library/600/610/610.10/610.10 a\|610.10 a]] Numpy Fundamental functions
 			- [[Projects/Library/Entrance/610.10 b\|610.10 b]] Numpy Appllied function
 	- [[Projects/Library/600/620/620\|620]] Data visualization
-		- [[Projects/Library/600/620/620.00/620.00\|620.00]] MatplotLib
-			- [[620.00 a\|620.00 a]] MatplotLib Fundamental 
+		- [[Projects/Library/600/620/620.00/620.00\|620.00]] Matplotlib
+			- [[Projects/Library/600/620/620.00/620.00 a\|620.00 a]] Matplotlib Fundamental 
 		- [[Projects/Library/600/620/620.10/620.10\|620.10]] Seabornn 
 			- [[Projects/Library/600/620/620.10/620.10 a\|620.10 a]] Seaborn Fundamental  
 	- [[Projects/Library/600/630/630\|630]] Machine Learning Frameworks
@@ -100,7 +112,7 @@ Each note is connected only to the preceding and following ones.
 	    - [[Projects/Library/600/630/630.10/630.10\|630.10]] TensorFlow
 	    - [[Projects/Library/600/630/630.20/630.20\|630.20]] PyTorch
 	    - [[Projects/Library/600/630/630.30/630.30\|630.30]] Langchain
-		    - [[Projects/Library/600/630/630.30/630.30 a\|630.30 a]] Amazone Bedrock with RAG
+		    - [[Projects/Library/600/630/630.30/630.30 a\|630.30 a]] Amazon Bedrock with RAG
 - [[Projects/Library/700/700\|700]] Research Paper
 	- [[Projects/Library/700/710/710\|710]] methodology
 		- [[Projects/Library/700/710/710.00/710.00\|710.00]] Multi-agent Reinforcement Learning
@@ -108,7 +120,7 @@ Each note is connected only to the preceding and following ones.
 			- [[Projects/Library/700/710/710.00/710.00 b\|710.00 b]] Paper review
 
 
-
+1) 제가 모두연에서 강의했던 GANs 요약 논문은 모두 아는게 좋습니다. (2) 이후, CLIP 이라는 논문을 이해하고 (3) 그다음 stable diffusion 논문을 읽으면 좋습니다.
 
 </div></div>
 
@@ -119,15 +131,15 @@ Each note is connected only to the preceding and following ones.
 
 # Recent Posts
 
-| File                                                      | title    | file.path                                   | file.mtime                  |
-| --------------------------------------------------------- | -------- | ------------------------------------------- | --------------------------- |
-| [[Projects/Library/400/410/410.20/410.20 b\|410.20 b]] | 410.20 b | Projects/Library/400/410/410.20/410.20 b.md | 9:51 AM - February 07, 2024 |
-| [[Projects/Library/400/410/410.20/410.20 a\|410.20 a]] | 410.20 a | Projects/Library/400/410/410.20/410.20 a.md | 9:50 AM - February 07, 2024 |
-| [[Projects/Library/200/210/210\|210]]                  | 210      | Projects/Library/200/210/210.md             | 9:49 AM - February 07, 2024 |
-| [[Projects/Library/200/210/210.20/210.20 a\|210.20 a]] | 210.20 a | Projects/Library/200/210/210.20/210.20 a.md | 9:49 AM - February 07, 2024 |
-| [[Projects/Library/200/210/210.00/210.00\|210.00]]     | 210.00   | Projects/Library/200/210/210.00/210.00.md   | 9:49 AM - February 07, 2024 |
-| [[Projects/Library/600/610/610.10/610.10 b\|610.10 b]] | 610.10 b | Projects/Library/600/610/610.10/610.10 b.md | 9:49 AM - February 07, 2024 |
-| [[Projects/Library/600/630/630.00/630.00 a\|630.00 a]] | 630.00 a | Projects/Library/600/630/630.00/630.00 a.md | 9:49 AM - February 07, 2024 |
+| File                                                      | title    | file.path                                   | file.mtime                   |
+| --------------------------------------------------------- | -------- | ------------------------------------------- | ---------------------------- |
+| [[Projects/Library/Entrance/010.00 b\|010.00 b]]       | 010.00 b | Projects/Library/Entrance/010.00 b.md       | 11:29 AM - February 14, 2024 |
+| [[Projects/Library/600/620/620.00/620.00 a\|620.00 a]] | 620.00 a | Projects/Library/600/620/620.00/620.00 a.md | 10:57 AM - February 14, 2024 |
+| [[Projects/Library/300/310/310.00/310.00 b\|310.00 b]] | 310.00 b | Projects/Library/300/310/310.00/310.00 b.md | 10:57 AM - February 14, 2024 |
+| [[Projects/Library/300/310/310.00/310.00 a\|310.00 a]] | 310.00 a | Projects/Library/300/310/310.00/310.00 a.md | 10:57 AM - February 14, 2024 |
+| [[Projects/Library/500/520/520.30/520.30 c\|520.30 c]] | 520.30 c | Projects/Library/500/520/520.30/520.30 c.md | 10:57 AM - February 14, 2024 |
+| [[Projects/Library/500/520/520.30/520.30 b\|520.30 b]] | 520.30 b | Projects/Library/500/520/520.30/520.30 b.md | 10:57 AM - February 14, 2024 |
+| [[Projects/Library/500/520/520.30/520.30 a\|520.30 a]] | 520.30 a | Projects/Library/500/520/520.30/520.30 a.md | 10:57 AM - February 14, 2024 |
 
 { .block-language-dataview}
 
