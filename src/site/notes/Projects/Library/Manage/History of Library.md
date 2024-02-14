@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/projects/library/manage/history-of-library/","noteIcon":"0","created":"2024-01-31T10:10:26.885+09:00","updated":"2024-02-14T10:57:37.473+09:00"}
+{"dg-publish":true,"permalink":"/projects/library/manage/history-of-library/","noteIcon":"0","created":"2024-01-31T10:10:26.885+09:00","updated":"2024-02-14T12:27:27.470+09:00"}
 ---
 
 
