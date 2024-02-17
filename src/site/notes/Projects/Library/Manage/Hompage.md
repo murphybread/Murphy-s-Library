@@ -1,7 +1,7 @@
 ---
-{"dg-publish":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"noteIcon":"0","created":"2024-01-31T10:10:26.886+09:00","updated":"2024-02-14T12:28:35.943+09:00"}
+dg-publish: true
+dg-home: true
 ---
-
 #hompage #Library #Rules
 
 
@@ -105,10 +105,11 @@ You can view all notes call numbers at once
 	- [[Projects/Library/600/630/630\|630]] Machine Learning Frameworks
 	    - [[Projects/Library/600/630/630.00/630.00\|630.00]] scikit-learn
 		    - [[Projects/Library/600/630/630.00/630.00 a\|630.00 a]] scikit-learn functions
-	    - [[Projects/Library/600/630/630.10/630.10\|630.10]] TensorFlow
-	    - [[Projects/Library/600/630/630.20/630.20\|630.20]] PyTorch
+	    - [[Projects/Library/600/630/630.10/630.10\|630.10]] PyTorch
+	    - [[Projects/Library/600/630/630.20/630.20\|630.20]] TensorFlow
 	    - [[Projects/Library/600/630/630.30/630.30\|630.30]] Langchain
 		    - [[Projects/Library/600/630/630.30/630.30 a\|630.30 a]] Amazon Bedrock with RAG
+		    - [[Projects/Library/600/630/630.30/630.30 b\|630.30 b]] RAG with FAISS
 - [[Projects/Library/700/700\|700]] Research Paper
 	- [[Projects/Library/700/710/710\|710]] methodology
 		- [[Projects/Library/700/710/710.00/710.00\|710.00]] Multi-agent Reinforcement Learning
@@ -127,13 +128,13 @@ You can view all notes call numbers at once
 
 | File                                                      | title    | file.path                                   | file.mtime                   |
 | --------------------------------------------------------- | -------- | ------------------------------------------- | ---------------------------- |
-| [[Projects/Library/000/010/010.00/010.00 b\|010.00 b]] | 010.00 b | Projects/Library/000/010/010.00/010.00 b.md | 12:50 PM - February 14, 2024 |
-| [[Projects/Library/600/620/620.00/620.00 a\|620.00 a]] | 620.00 a | Projects/Library/600/620/620.00/620.00 a.md | 12:27 PM - February 14, 2024 |
-| [[Projects/Library/300/310/310.00/310.00 b\|310.00 b]] | 310.00 b | Projects/Library/300/310/310.00/310.00 b.md | 12:27 PM - February 14, 2024 |
-| [[Projects/Library/300/310/310.00/310.00 a\|310.00 a]] | 310.00 a | Projects/Library/300/310/310.00/310.00 a.md | 12:27 PM - February 14, 2024 |
-| [[Projects/Library/500/520/520.30/520.30 c\|520.30 c]] | 520.30 c | Projects/Library/500/520/520.30/520.30 c.md | 12:27 PM - February 14, 2024 |
-| [[Projects/Library/500/520/520.30/520.30 b\|520.30 b]] | 520.30 b | Projects/Library/500/520/520.30/520.30 b.md | 12:27 PM - February 14, 2024 |
-| [[Projects/Library/500/520/520.30/520.30 a\|520.30 a]] | 520.30 a | Projects/Library/500/520/520.30/520.30 a.md | 12:27 PM - February 14, 2024 |
+| [[Projects/Library/600/630/630.30/630.30 b\|630.30 b]] | 630.30 b | Projects/Library/600/630/630.30/630.30 b.md | 12:31 PM - February 17, 2024 |
+| [[Projects/Library/000/010/010.00/010.00 b\|010.00 b]] | 010.00 b | Projects/Library/000/010/010.00/010.00 b.md | 12:08 PM - February 17, 2024 |
+| [[Projects/Library/600/620/620.00/620.00 a\|620.00 a]] | 620.00 a | Projects/Library/600/620/620.00/620.00 a.md | 12:08 PM - February 17, 2024 |
+| [[Projects/Library/300/310/310.00/310.00 b\|310.00 b]] | 310.00 b | Projects/Library/300/310/310.00/310.00 b.md | 12:08 PM - February 17, 2024 |
+| [[Projects/Library/300/310/310.00/310.00 a\|310.00 a]] | 310.00 a | Projects/Library/300/310/310.00/310.00 a.md | 12:08 PM - February 17, 2024 |
+| [[Projects/Library/500/520/520.30/520.30 c\|520.30 c]] | 520.30 c | Projects/Library/500/520/520.30/520.30 c.md | 12:08 PM - February 17, 2024 |
+| [[Projects/Library/500/520/520.30/520.30 b\|520.30 b]] | 520.30 b | Projects/Library/500/520/520.30/520.30 b.md | 12:08 PM - February 17, 2024 |
 
 { .block-language-dataview}
 
