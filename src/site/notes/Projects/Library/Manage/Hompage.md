@@ -43,6 +43,7 @@ You can view all notes call numbers at once
 			- [[Projects/Library/000/010/010.00/010.00 b\|010.00 b]] Industry Domain Knowledge
 		- [[Projects/Library/000/010/010.10/010.10\|010.10]] Develop Programming Language
 			- [[Projects/Library/000/010/010.10/010.10 a\|010.10 a]] Bash shell
+
 	- [[Projects/Library/000/090/090\|090]] External Insights an Trends
 		- [[Projects/Library/000/090/090.00/090.00\|090.00]] Industry Trends
 		- [[Projects/Library/000/090/090.10/090.10\|090.10]] Live Session
@@ -129,7 +130,7 @@ You can view all notes call numbers at once
 | File                                                      | title    | file.path                                   | file.mtime                   |
 | --------------------------------------------------------- | -------- | ------------------------------------------- | ---------------------------- |
 | [[Projects/Library/600/630/630.30/630.30 b\|630.30 b]] | 630.30 b | Projects/Library/600/630/630.30/630.30 b.md | 12:33 PM - February 17, 2024 |
-| [[Projects/Library/000/010/010.00/010.00 b\|010.00 b]] | 010.00 b | Projects/Library/000/010/010.00/010.00 b.md | 12:35 PM - February 17, 2024 |
+| [[Projects/Library/000/010/010.00/010.00 b\|010.00 b]] | 010.00 b | Projects/Library/000/010/010.00/010.00 b.md | 12:54 PM - February 17, 2024 |
 | [[Projects/Library/600/620/620.00/620.00 a\|620.00 a]] | 620.00 a | Projects/Library/600/620/620.00/620.00 a.md | 12:37 PM - February 17, 2024 |
 | [[Projects/Library/300/310/310.00/310.00 b\|310.00 b]] | 310.00 b | Projects/Library/300/310/310.00/310.00 b.md | 12:36 PM - February 17, 2024 |
 | [[Projects/Library/300/310/310.00/310.00 a\|310.00 a]] | 310.00 a | Projects/Library/300/310/310.00/310.00 a.md | 12:36 PM - February 17, 2024 |
