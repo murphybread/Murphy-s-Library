@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"noteIcon":"0","created":"2024-01-30T20:06:19.823+09:00","updated":"2024-02-17T12:44:15.633+09:00"}
+{"dg-publish":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"noteIcon":"0","created":"2024-01-30T20:06:19.823+09:00","updated":"2024-02-19T15:26:00.844+09:00"}
 ---
 
 #hompage #Library #Rules
@@ -127,15 +127,15 @@ You can view all notes call numbers at once
 
 # Recent Posts
 
-| File                                                      | title    | file.path                                   | file.mtime                   |
-| --------------------------------------------------------- | -------- | ------------------------------------------- | ---------------------------- |
-| [[Projects/Library/600/630/630.30/630.30 b\|630.30 b]] | 630.30 b | Projects/Library/600/630/630.30/630.30 b.md | 12:33 PM - February 17, 2024 |
-| [[Projects/Library/000/010/010.00/010.00 b\|010.00 b]] | 010.00 b | Projects/Library/000/010/010.00/010.00 b.md | 12:54 PM - February 17, 2024 |
-| [[Projects/Library/600/620/620.00/620.00 a\|620.00 a]] | 620.00 a | Projects/Library/600/620/620.00/620.00 a.md | 12:37 PM - February 17, 2024 |
-| [[Projects/Library/300/310/310.00/310.00 b\|310.00 b]] | 310.00 b | Projects/Library/300/310/310.00/310.00 b.md | 12:36 PM - February 17, 2024 |
-| [[Projects/Library/300/310/310.00/310.00 a\|310.00 a]] | 310.00 a | Projects/Library/300/310/310.00/310.00 a.md | 12:36 PM - February 17, 2024 |
-| [[Projects/Library/500/520/520.30/520.30 c\|520.30 c]] | 520.30 c | Projects/Library/500/520/520.30/520.30 c.md | 12:37 PM - February 17, 2024 |
-| [[Projects/Library/500/520/520.30/520.30 b\|520.30 b]] | 520.30 b | Projects/Library/500/520/520.30/520.30 b.md | 12:37 PM - February 17, 2024 |
+| File                                                      | title    | file.path                                   |
+| --------------------------------------------------------- | -------- | ------------------------------------------- |
+| [[Projects/Library/600/630/630.30/630.30 b\|630.30 b]] | 630.30 b | Projects/Library/600/630/630.30/630.30 b.md |
+| [[Projects/Library/000/010/010.00/010.00 b\|010.00 b]] | 010.00 b | Projects/Library/000/010/010.00/010.00 b.md |
+| [[Projects/Library/600/620/620.00/620.00 a\|620.00 a]] | 620.00 a | Projects/Library/600/620/620.00/620.00 a.md |
+| [[Projects/Library/300/310/310.00/310.00 b\|310.00 b]] | 310.00 b | Projects/Library/300/310/310.00/310.00 b.md |
+| [[Projects/Library/300/310/310.00/310.00 a\|310.00 a]] | 310.00 a | Projects/Library/300/310/310.00/310.00 a.md |
+| [[Projects/Library/500/520/520.30/520.30 c\|520.30 c]] | 520.30 c | Projects/Library/500/520/520.30/520.30 c.md |
+| [[Projects/Library/500/520/520.30/520.30 b\|520.30 b]] | 520.30 b | Projects/Library/500/520/520.30/520.30 b.md |
 
 { .block-language-dataview}
 
