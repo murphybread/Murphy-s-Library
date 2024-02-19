@@ -1,7 +1,7 @@
 ---
-dg-publish: true
-
+{"dg-publish":true,"permalink":"/projects/library/manage/history-of-library/","noteIcon":"0","created":"2024-01-30T20:06:19.819+09:00","updated":"2024-02-17T13:21:00.400+09:00"}
 ---
+
 
 
 
@@ -724,12 +724,12 @@ def construct_tag(file_name, structure):
 
 # Helper functions to construct tags for each file type
 def construct_major_tag(major_code, structure):
-    tag = f"#[[{major_code}\|{major_code}]]"
+    tag = f"#[[{major_code}]]"
     minor_categories = structure["MajorCategories"][major_code].get(
         "MinorCategories", {}
     )
     for minor_key in minor_categories.keys():
-        tag += f"#[[{minor_key}\|{minor_key}]]"
+        tag += f"#[[{minor_key}]]"
     return tag
 
 
@@ -737,12 +737,12 @@ def construct_minor_tag(minor_code, structure):
     for major_key, major_val in structure["MajorCategories"].items():
         if minor_code in major_val["MinorCategories"]:
             major_value = major_val["value"]
-            tag = f"#[[{major_value}\|{major_value}]]#[[{minor_code}\|{minor_code}]]"
+            tag = f"#[[{major_value}]]#[[{minor_code}]]"
             subcategories = major_val["MinorCategories"][minor_code].get(
                 "Subcategories", {}
             )
             for sub_key in subcategories.keys():
-                tag += f"#[[{sub_key}\|{sub_key}]]"
+                tag += f"#[[{sub_key}]]"
             return tag
     return ""
 
@@ -751,7 +751,7 @@ def construct_subcategory_tag(sub_code, structure):
     for major_key, major_val in structure["MajorCategories"].items():
         for minor_key, minor_val in major_val.get("MinorCategories", {}).items():
             if sub_code in minor_val["Subcategories"]:
-                tag = f"#[[{sub_code}\|{sub_code}]]"
+                tag = f"#[[{sub_code}]]"
                 return tag
     return ""
 
@@ -761,7 +761,7 @@ def construct_book_tag(book_code, structure):
         for minor_key, minor_val in major_val.get("MinorCategories", {}).items():
             for sub_key, sub_val in minor_val.get("Subcategories", {}).items():
                 if book_code.startswith(sub_key):
-                    tag = f"#[[{sub_key}\|{sub_key}]]#[[{book_code}\|{book_code}]]"
+                    tag = f"#[[{sub_key}]]#[[{book_code}]]"
                     return tag
     return ""
 
@@ -1156,12 +1156,12 @@ Major category indent was wrong
 
 As-is Used this structure pattern
 ```
-[[Projects/Library/000/000\|000]] IT Knowledge
-- [[Projects/Library/000/010/010\|010]] Develop Knowledge
-	- [[Projects/Library/000/010/010.00/010.00\|010.00]] Develop Computer Science Knowledge
-		- [[Projects/Library/000/010/010.00/010.00 a\|010.00 a]] Essential Developer Insights
-	- [[Projects/Library/000/010/010.10/010.10\|010.10]] Develop Programming Language
-		- [[Projects/Library/000/010/010.10/010.10 a\|010.10 a]] Bash shell
+[[000]] IT Knowledge
+- [[010]] Develop Knowledge
+	- [[010.00]] Develop Computer Science Knowledge
+		- [[010.00 a]] Essential Developer Insights
+	- [[010.10]] Develop Programming Language
+		- [[010.10 a]] Bash shell
 
 ```
 
@@ -1172,12 +1172,12 @@ That makes preview error indent and line break
 
 ### First Change call number md file like this
 ```
-- [[Projects/Library/000/000\|000]] IT Knowledge
-	- [[Projects/Library/000/010/010\|010]] Develop Knowledge
-		- [[Projects/Library/000/010/010.00/010.00\|010.00]] Develop Computer Science Knowledge
-			- [[Projects/Library/000/010/010.00/010.00 a\|010.00 a]] Essential Developer Insights
-		- [[Projects/Library/000/010/010.10/010.10\|010.10]] Develop Programming Language
-			- [[Projects/Library/000/010/010.10/010.10 a\|010.10 a]] Bash shell
+- [[000]] IT Knowledge
+	- [[010]] Develop Knowledge
+		- [[010.00]] Develop Computer Science Knowledge
+			- [[010.00 a]] Essential Developer Insights
+		- [[010.10]] Develop Programming Language
+			- [[010.10 a]] Bash shell
 ```
 
 ### Second Change convert_josn.py 
@@ -1213,3 +1213,12 @@ next step is commit and push
 `git commit -m "Managing Only Programming Files with .gitignore: Excluding Content Files"`
 `git push`
 
+
+
+# 2.8.0 
+automated tag
+from filename <- key point
+
+
+
+이전에 파일에 자동적으로 태그를 붙이는 것을 진행한 적이 있었다
