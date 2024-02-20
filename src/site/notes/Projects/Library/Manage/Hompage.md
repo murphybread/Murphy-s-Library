@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"noteIcon":"0","created":"2024-01-30T20:06:19.823+09:00","updated":"2024-02-21T01:01:18.592+09:00"}
+{"dg-publish":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"noteIcon":"0","created":"2024-01-30T20:06:19.823+09:00","updated":"2024-02-21T01:59:17.509+09:00"}
 ---
 
 #hompage #Library #Rules
@@ -128,15 +128,15 @@ You can view all notes call numbers at once
 
 # Recent Posts
 
-| File                                                      | Title    | Tags                    |
-| --------------------------------------------------------- | -------- | ----------------------- |
-| [[Projects/Library/300/310/310.00/310.00\|310.00]]     | 310.00   | <ul></ul>               |
-| [[Projects/Library/400/420/420.20/420.20 b\|420.20 b]] | 420.20 b | <ul><li>#YAML</li></ul> |
-| [[Projects/Library/400/420/420.20/420.20 a\|420.20 a]] | 420.20 a | <ul></ul>               |
-| [[Projects/Library/400/420/420.20/420.20\|420.20]]     | 420.20   | <ul></ul>               |
-| [[Projects/Library/600/630/630.40/630.40 a\|630.40 a]] | 630.40 a | <ul></ul>               |
-| [[Projects/Library/600/630/630.40/630.40\|630.40]]     | 630.40   | <ul></ul>               |
-| [[Projects/Library/000/010/010.00/010.00 a\|010.00 a]] | 010.00 a | <ul></ul>               |
+| File                                                      | Title    | Tags                            |
+| --------------------------------------------------------- | -------- | ------------------------------- |
+| [[Projects/Library/700/710/710.00/710.00 b\|710.00 b]] | 710.00 b | <ul><li>#Paper_Review</li></ul> |
+| [[Projects/Library/400/420/420.20/420.20 a\|420.20 a]] | 420.20 a | <ul></ul>                       |
+| [[Projects/Library/400/420/420.20/420.20 b\|420.20 b]] | 420.20 b | <ul><li>#YAML</li></ul>         |
+| [[Projects/Library/300/310/310.00/310.00\|310.00]]     | 310.00   | <ul></ul>                       |
+| [[Projects/Library/300/300\|300]]                      | 300      | <ul></ul>                       |
+| [[Projects/Library/300/310/310\|310]]                  | 310      | <ul></ul>                       |
+| [[Projects/Library/400/420/420.20/420.20\|420.20]]     | 420.20   | <ul></ul>                       |
 
 { .block-language-dataview}
 
