@@ -3,6 +3,14 @@
   <head>
     <title>{% if title %}{{ title }}{% else %}{{ page.fileSlug }}{% endif %}</title>
     {%include "components/pageheader.njk"%}
+      <!-- Google Analytics -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-QHF8SF84LT"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-QHF8SF84LT');
+      </script>
     {% for imp in dynamics.common.head %}
       {% include imp %}
     {% endfor %}
@@ -53,6 +61,27 @@
         {% include imp %}
       {% endfor %}
       {{ content | hideDataview | link | taggify | safe}}
+        <!-- Iframe Content -->
+        <iframe src="https://joey.team/block/?id=4zfONMIb0udThRYvgsJesRl8BG13&block_id=LVHLMUlfRfZ9t0EyPdOI" 
+            width="600" 
+            height="400" 
+            style="border: 10px solid #2e2e2e;border-radius: 10px;"
+            allowfullscreen>
+        </iframe>
+
+        <!-- Google Translate div -->
+        <div id="google_translate_element" style="position: absolute; top: 20px; right: 20px;"></div>
+        
+        <!-- Google Translate Initialization Script -->
+        <script type="text/javascript">
+          function googleTranslateElementInit() {
+            new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'ko'}, 'google_translate_element');
+          }
+        </script>
+
+        <!-- Google Translate API Script -->
+        <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
       {% for imp in dynamics.common.afterContent %}
         {% include imp %}
       {% endfor %}
