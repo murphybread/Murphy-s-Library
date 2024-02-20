@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"noteIcon":"0","created":"2024-01-30T20:06:19.823+09:00","updated":"2024-02-21T01:59:17.509+09:00"}
+{"dg-publish":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"noteIcon":"0","created":"2024-01-30T20:06:19.823+09:00","updated":"2024-02-21T02:08:17.543+09:00"}
 ---
 
 #hompage #Library #Rules
@@ -150,9 +150,7 @@ You can view all notes call numbers at once
 
 ## Ongoing Projects
 
-# RAG LLM with Amazon Bedrock
 
-ref: https://github.com/aws-samples/amazon-bedrock-workshop
 ## Link Trees
 
 ### GitHub
