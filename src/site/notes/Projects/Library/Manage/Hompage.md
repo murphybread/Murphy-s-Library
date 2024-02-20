@@ -97,7 +97,7 @@ You can view all notes call numbers at once
 			- [[Projects/Library/600/610/610.00/610.00 a\|610.00 a]] Pandas-basic 
 		- [[Projects/Library/600/610/610.10/610.10\|610.10]] NumPy
 			- [[Projects/Library/600/610/610.10/610.10 a\|610.10 a]] Numpy Fundamental functions
-			- [[Projects/Library/Entrance/610.10 b\|610.10 b]] Numpy Appllied function
+			- [[Projects/Library/600/610/610.10/610.10 b\|610.10 b]] Numpy Appllied function
 	- [[Projects/Library/600/620/620\|620]] Data visualization
 		- [[Projects/Library/600/620/620.00/620.00\|620.00]] Matplotlib
 			- [[Projects/Library/600/620/620.00/620.00 a\|620.00 a]] Matplotlib Fundamental 
@@ -111,6 +111,8 @@ You can view all notes call numbers at once
 	    - [[Projects/Library/600/630/630.30/630.30\|630.30]] Langchain
 		    - [[Projects/Library/600/630/630.30/630.30 a\|630.30 a]] Amazon Bedrock with RAG
 		    - [[Projects/Library/600/630/630.30/630.30 b\|630.30 b]] RAG with FAISS
+		- [[Projects/Library/600/630/630.40/630.40\|630.40]] boto3
+			- [[Projects/Library/600/630/630.40/630.40 a\|630.40 a]] Audio Summary (Transcribe, Sagemaker, Berock)
 - [[Projects/Library/700/700\|700]] Research Paper
 	- [[Projects/Library/700/710/710\|710]] methodology
 		- [[Projects/Library/700/710/710.00/710.00\|710.00]] Multi-agent Reinforcement Learning
@@ -129,13 +131,13 @@ You can view all notes call numbers at once
 
 | File                                                      | title    | file.path                                   |
 | --------------------------------------------------------- | -------- | ------------------------------------------- |
+| [[Projects/Library/600/630/630.40/630.40 a\|630.40 a]] | 630.40 a | Projects/Library/600/630/630.40/630.40 a.md |
+| [[Projects/Library/600/630/630.40/630.40\|630.40]]     | 630.40   | Projects/Library/600/630/630.40/630.40.md   |
 | [[Projects/Library/600/630/630.30/630.30 b\|630.30 b]] | 630.30 b | Projects/Library/600/630/630.30/630.30 b.md |
 | [[Projects/Library/000/010/010.00/010.00 b\|010.00 b]] | 010.00 b | Projects/Library/000/010/010.00/010.00 b.md |
 | [[Projects/Library/600/620/620.00/620.00 a\|620.00 a]] | 620.00 a | Projects/Library/600/620/620.00/620.00 a.md |
 | [[Projects/Library/300/310/310.00/310.00 b\|310.00 b]] | 310.00 b | Projects/Library/300/310/310.00/310.00 b.md |
 | [[Projects/Library/300/310/310.00/310.00 a\|310.00 a]] | 310.00 a | Projects/Library/300/310/310.00/310.00 a.md |
-| [[Projects/Library/500/520/520.30/520.30 c\|520.30 c]] | 520.30 c | Projects/Library/500/520/520.30/520.30 c.md |
-| [[Projects/Library/500/520/520.30/520.30 b\|520.30 b]] | 520.30 b | Projects/Library/500/520/520.30/520.30 b.md |
 
 { .block-language-dataview}
 
