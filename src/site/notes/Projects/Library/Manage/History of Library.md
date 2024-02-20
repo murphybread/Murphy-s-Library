@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/projects/library/manage/history-of-library/","noteIcon":"0","created":"2024-01-30T20:06:19.819+09:00","updated":"2024-02-20T15:25:52.182+09:00"}
+{"dg-publish":true,"permalink":"/projects/library/manage/history-of-library/","noteIcon":"0","created":"2024-01-30T20:06:19.819+09:00","updated":"2024-02-20T16:06:59.723+09:00"}
 ---
 
 
@@ -117,7 +117,7 @@ google 위젯 크기 조정
 <!-- Google Translate Initialization Script -->
 <script type="text/javascript">
   function googleTranslateElementInit() {
-    new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'ko'}, 'google_translate_element');
+    new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'en,ja,zh-CN,zh-TW'}, 'google_translate_element');
   }
 </script>
 
