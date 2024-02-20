@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/projects/library/manage/history-of-library/","noteIcon":"0","created":"2024-01-30T20:06:19.819+09:00","updated":"2024-02-21T01:50:04.361+09:00"}
+{"dg-publish":true,"permalink":"/projects/library/manage/history-of-library/","noteIcon":"0","created":"2024-01-30T20:06:19.819+09:00","updated":"2024-02-21T02:03:53.723+09:00"}
 ---
 
 
@@ -9,7 +9,7 @@
 
 
 
-#Hompage #[[Projects/Library/Manage/Hompage\|Hompage]] 
+#Hompage #Library 
 
 # Guest book
 
@@ -1289,4 +1289,21 @@ def construct_tag(file_name, json_structure):
         return "Tag construction failed: Filename does not match pattern."
 ```
 
+## And Modify Dataview Query
+By modifying the additional Dataview query, you can use the
+Easily see which files have been modified, and see the tags they have at a glance
+
+- Change the standard modification time not the create time `file.ctime -> file.mtime`
+- Exclude md file that have the tag `#Library` 
+| File                                                      | Title    | Tags                            |
+| --------------------------------------------------------- | -------- | ------------------------------- |
+| [[Projects/Library/700/710/710.00/710.00 b\|710.00 b]] | 710.00 b | <ul><li>#Paper_Review</li></ul> |
+| [[Projects/Library/400/420/420.20/420.20 a\|420.20 a]] | 420.20 a | <ul></ul>                       |
+| [[Projects/Library/400/420/420.20/420.20 b\|420.20 b]] | 420.20 b | <ul><li>#YAML</li></ul>         |
+| [[Projects/Library/300/310/310.00/310.00\|310.00]]     | 310.00   | <ul></ul>                       |
+| [[Projects/Library/300/300\|300]]                      | 300      | <ul></ul>                       |
+| [[Projects/Library/300/310/310\|310]]                  | 310      | <ul></ul>                       |
+| [[Projects/Library/400/420/420.20/420.20\|420.20]]     | 420.20   | <ul></ul>                       |
+
+{ .block-language-dataview}
 
