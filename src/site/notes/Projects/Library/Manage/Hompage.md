@@ -76,9 +76,12 @@ You can view all notes call numbers at once
 			- [[Projects/Library/400/410/410.30/410.30 a\|410.30 a]] fundamental 
 	- [[Projects/Library/400/420/420\|420]] Data
 		- [[Projects/Library/400/420/420.00/420.00\|420.00]]  Structured Data
-			- [[Projects/Library/400/420/420.00/420.00 a\|420.00 a]] Categorical Data
-			- [[Projects/Library/400/420/420.00/420.00 b\|420.00 b]] Numerical Data
+			- [[Projects/Library/400/420/420.00/420.00 a\|420.00 a]] Numerical Data (Continuous and Discrete)
+			- [[Projects/Library/400/420/420.00/420.00 b\|420.00 b]] Categorical Data (Ordinal and Nominal)
 		- [[Projects/Library/400/420/420.10/420.10\|420.10]] Unstructured Data
+		- [[Projects/Library/400/420/420.20/420.20\|420.20]] Semi-structured Data
+			- [[Projects/Library/400/420/420.20/420.20 a\|420.20 a]] JSON
+			- [[Projects/Library/400/420/420.20/420.20 b\|420.20 b]] yaml
 - [[Projects/Library/500/500\|500]] ML & DL Modeling
 	- [[Projects/Library/500/510/510\|510]] Natural Language Processing (NLP)
 	- [[Projects/Library/500/520/520\|520]] Computer Vision
@@ -127,13 +130,13 @@ You can view all notes call numbers at once
 
 | File                                                      | title    | file.path                                   |
 | --------------------------------------------------------- | -------- | ------------------------------------------- |
+| [[Projects/Library/400/420/420.20/420.20 b\|420.20 b]] | 420.20 b | Projects/Library/400/420/420.20/420.20 b.md |
+| [[Projects/Library/400/420/420.20/420.20 a\|420.20 a]] | 420.20 a | Projects/Library/400/420/420.20/420.20 a.md |
+| [[Projects/Library/400/420/420.20/420.20\|420.20]]     | 420.20   | Projects/Library/400/420/420.20/420.20.md   |
 | [[Projects/Library/600/630/630.40/630.40 a\|630.40 a]] | 630.40 a | Projects/Library/600/630/630.40/630.40 a.md |
 | [[Projects/Library/600/630/630.40/630.40\|630.40]]     | 630.40   | Projects/Library/600/630/630.40/630.40.md   |
-| [[Projects/Library/600/630/630.30/630.30 b\|630.30 b]] | 630.30 b | Projects/Library/600/630/630.30/630.30 b.md |
+| [[Projects/Library/000/010/010.00/010.00 a\|010.00 a]] | 010.00 a | Projects/Library/000/010/010.00/010.00 a.md |
 | [[Projects/Library/000/010/010.00/010.00 b\|010.00 b]] | 010.00 b | Projects/Library/000/010/010.00/010.00 b.md |
-| [[Projects/Library/600/620/620.00/620.00 a\|620.00 a]] | 620.00 a | Projects/Library/600/620/620.00/620.00 a.md |
-| [[Projects/Library/300/310/310.00/310.00 b\|310.00 b]] | 310.00 b | Projects/Library/300/310/310.00/310.00 b.md |
-| [[Projects/Library/300/310/310.00/310.00 a\|310.00 a]] | 310.00 a | Projects/Library/300/310/310.00/310.00 a.md |
 
 { .block-language-dataview}
 
