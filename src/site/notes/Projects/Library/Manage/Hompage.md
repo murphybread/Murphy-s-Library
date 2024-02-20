@@ -60,7 +60,6 @@ You can view all notes call numbers at once
 		- [[310.00\|310.00]] IDE
 			- [[Projects/Library/300/310/310.00/310.00 a\|310.00 a]] Terminal
 			- [[Projects/Library/300/310/310.00/310.00 b\|310.00 b]] Colab
-			- 
 - [[Projects/Library/400/400\|400]] ML Engineer Basic
 	- [[Projects/Library/400/410/410\|410]] Mathematics
 		- [[Projects/Library/400/410/410.00/410.00\|410.00]] Linear Algebra
