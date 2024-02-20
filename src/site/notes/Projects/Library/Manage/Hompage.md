@@ -1,10 +1,8 @@
 ---
-{"dg-publish":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"noteIcon":"0","created":"2024-01-30T20:06:19.823+09:00","updated":"2024-02-19T15:26:00.844+09:00"}
+{"dg-publish":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"noteIcon":"0","created":"2024-01-30T20:06:19.823+09:00","updated":"2024-02-20T12:29:46.709+09:00"}
 ---
 
 #hompage #Library #Rules
-
-
 
 
 
@@ -43,7 +41,6 @@ You can view all notes call numbers at once
 			- [[Projects/Library/000/010/010.00/010.00 b\|010.00 b]] Industry Domain Knowledge
 		- [[Projects/Library/000/010/010.10/010.10\|010.10]] Develop Programming Language
 			- [[Projects/Library/000/010/010.10/010.10 a\|010.10 a]] Bash shell
-
 	- [[Projects/Library/000/090/090\|090]] External Insights an Trends
 		- [[Projects/Library/000/090/090.00/090.00\|090.00]] Industry Trends
 		- [[Projects/Library/000/090/090.10/090.10\|090.10]] Live Session
