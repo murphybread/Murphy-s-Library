@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/projects/library/manage/history-of-library/","noteIcon":"0","created":"2024-01-30T20:06:19.819+09:00","updated":"2024-02-17T13:21:00.400+09:00"}
+{"dg-publish":true,"permalink":"/projects/library/manage/history-of-library/","noteIcon":"0","created":"2024-01-30T20:06:19.819+09:00","updated":"2024-02-20T15:25:52.182+09:00"}
 ---
 
 
@@ -14,7 +14,6 @@
 # Guest book
 
 problem: record reaction of users in all notes
-
 solution: using external service [joey](https://joey.team/)
 
 | Feature | Expected Value | Joey |
@@ -1219,6 +1218,9 @@ next step is commit and push
 automated tag
 from filename <- key point
 
+This was hard because it is a backwards and forwards type, so if it is major.md, it is different from minor.md, sub.md, and books.md, and we aimed for a function that gets the value corresponding to the key in the structure.json file and processes it.
 
+So, to simplify things a bit more, we went from filename-based to a situation where the exact filename is strictly enforced by the policy, and then we can automate it appropriately.
 
-이전에 파일에 자동적으로 태그를 붙이는 것을 진행한 적이 있었다
+The key point is filenames, and only for content files.
+Later on, we'll also apply it to uncharacterized category files, but that's for later...
