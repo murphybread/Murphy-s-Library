@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"noteIcon":"0","created":"2024-01-30T20:06:19.823+09:00","updated":"2024-02-20T12:29:46.709+09:00"}
+{"dg-publish":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"noteIcon":"0","created":"2024-01-30T20:06:19.823+09:00","updated":"2024-02-21T01:01:18.592+09:00"}
 ---
 
 #hompage #Library #Rules
@@ -57,7 +57,7 @@ You can view all notes call numbers at once
 			- [[Projects/Library/200/210/210.20/210.20 a\|210.20 a]] GitLab
 - [[Projects/Library/300/300\|300]] Applications
 	- [[Projects/Library/300/310/310\|310]] Development Environment
-		- [[310.00\|310.00]] IDE
+		- [[Projects/Library/300/310/310.00/310.00\|310.00]] IDE
 			- [[Projects/Library/300/310/310.00/310.00 a\|310.00 a]] Terminal
 			- [[Projects/Library/300/310/310.00/310.00 b\|310.00 b]] Colab
 - [[Projects/Library/400/400\|400]] ML Engineer Basic
@@ -81,7 +81,7 @@ You can view all notes call numbers at once
 		- [[Projects/Library/400/420/420.10/420.10\|420.10]] Unstructured Data
 		- [[Projects/Library/400/420/420.20/420.20\|420.20]] Semi-structured Data
 			- [[Projects/Library/400/420/420.20/420.20 a\|420.20 a]] JSON
-			- [[Projects/Library/400/420/420.20/420.20 b\|420.20 b]] yaml
+			- [[Projects/Library/400/420/420.20/420.20 b\|420.20 b]] YAML
 - [[Projects/Library/500/500\|500]] ML & DL Modeling
 	- [[Projects/Library/500/510/510\|510]] Natural Language Processing (NLP)
 	- [[Projects/Library/500/520/520\|520]] Computer Vision
@@ -116,7 +116,7 @@ You can view all notes call numbers at once
 	- [[Projects/Library/700/710/710\|710]] methodology
 		- [[Projects/Library/700/710/710.00/710.00\|710.00]] Multi-agent Reinforcement Learning
 			- [[Projects/Library/700/710/710.00/710.00 a\|710.00 a]] Base Domains
-			- [[Projects/Library/700/710/710.00/710.00 b\|710.00 b]] Paper review
+			- [[Projects/Library/700/710/710.00/710.00 b\|710.00 b]] Paper Review
 
 
 </div></div>
@@ -128,15 +128,15 @@ You can view all notes call numbers at once
 
 # Recent Posts
 
-| File                                                      | title    | file.path                                   |
-| --------------------------------------------------------- | -------- | ------------------------------------------- |
-| [[Projects/Library/400/420/420.20/420.20 b\|420.20 b]] | 420.20 b | Projects/Library/400/420/420.20/420.20 b.md |
-| [[Projects/Library/400/420/420.20/420.20 a\|420.20 a]] | 420.20 a | Projects/Library/400/420/420.20/420.20 a.md |
-| [[Projects/Library/400/420/420.20/420.20\|420.20]]     | 420.20   | Projects/Library/400/420/420.20/420.20.md   |
-| [[Projects/Library/600/630/630.40/630.40 a\|630.40 a]] | 630.40 a | Projects/Library/600/630/630.40/630.40 a.md |
-| [[Projects/Library/600/630/630.40/630.40\|630.40]]     | 630.40   | Projects/Library/600/630/630.40/630.40.md   |
-| [[Projects/Library/000/010/010.00/010.00 a\|010.00 a]] | 010.00 a | Projects/Library/000/010/010.00/010.00 a.md |
-| [[Projects/Library/000/010/010.00/010.00 b\|010.00 b]] | 010.00 b | Projects/Library/000/010/010.00/010.00 b.md |
+| File                                                      | Title    | Tags                    |
+| --------------------------------------------------------- | -------- | ----------------------- |
+| [[Projects/Library/300/310/310.00/310.00\|310.00]]     | 310.00   | <ul></ul>               |
+| [[Projects/Library/400/420/420.20/420.20 b\|420.20 b]] | 420.20 b | <ul><li>#YAML</li></ul> |
+| [[Projects/Library/400/420/420.20/420.20 a\|420.20 a]] | 420.20 a | <ul></ul>               |
+| [[Projects/Library/400/420/420.20/420.20\|420.20]]     | 420.20   | <ul></ul>               |
+| [[Projects/Library/600/630/630.40/630.40 a\|630.40 a]] | 630.40 a | <ul></ul>               |
+| [[Projects/Library/600/630/630.40/630.40\|630.40]]     | 630.40   | <ul></ul>               |
+| [[Projects/Library/000/010/010.00/010.00 a\|010.00 a]] | 010.00 a | <ul></ul>               |
 
 { .block-language-dataview}
 
