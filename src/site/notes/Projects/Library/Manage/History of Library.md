@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/projects/library/manage/history-of-library/","noteIcon":"0","created":"2024-01-30T20:06:19.819+09:00","updated":"2024-02-20T16:06:59.723+09:00"}
+{"dg-publish":true,"permalink":"/projects/library/manage/history-of-library/","noteIcon":"0","created":"2024-01-30T20:06:19.819+09:00","updated":"2024-02-21T01:50:04.361+09:00"}
 ---
 
 
@@ -1224,3 +1224,69 @@ So, to simplify things a bit more, we went from filename-based to a situation wh
 
 The key point is filenames, and only for content files.
 Later on, we'll also apply it to uncharacterized category files, but that's for later...
+
+# 2.8.1
+DataVIew modified
+This query is used for Recent Post in homepage.
+I delete file.path and add file.tags
+tags doesn't display backlink tags
+
+| File                                                      | Title    | Tags                    |
+| --------------------------------------------------------- | -------- | ----------------------- |
+| [[Projects/Library/300/310/310.00/310.00\|310.00]]     | 310.00   | <ul></ul>               |
+| [[Projects/Library/400/420/420.20/420.20 b\|420.20 b]] | 420.20 b | <ul><li>#YAML</li></ul> |
+| [[Projects/Library/400/420/420.20/420.20 a\|420.20 a]] | 420.20 a | <ul></ul>               |
+| [[Projects/Library/400/420/420.20/420.20\|420.20]]     | 420.20   | <ul></ul>               |
+| [[Projects/Library/600/630/630.40/630.40 a\|630.40 a]] | 630.40 a | <ul></ul>               |
+| [[Projects/Library/600/630/630.40/630.40\|630.40]]     | 630.40   | <ul></ul>               |
+| [[Projects/Library/000/010/010.00/010.00 a\|010.00 a]] | 010.00 a | <ul></ul>               |
+
+{ .block-language-dataview}
+
+
+# 2.9.0
+> Add Tag using structure,json in contents file
+
+Adopting the approach of using filenames to create tag numbers was beneficial.
+Upon updating to Dataview 2.8.1, I realized that attaching tags from book contents enhances usefulness.
+Consequently, I integrated a 'booksTag' function.
+
+Initially, I experimented with a function from another file, which utilized a 'title' variable.
+However, to avoid dependencies, I ultimately developed the function within 'automation.py'.
+I then opted to modify only a single function, as adding more could complicate matters. Incorporating the tagging functionality into an existing function proved sufficient.
+
+
+Below is the code snippet:
+```py
+def construct_tag(file_name, json_structure):
+    # Regex to extract major, minor, and book identifier from the filename
+    match = re.match(r"(\d{3})\.(\d{2})\s([a-zA-Z])\.md", file_name)
+    if match:
+        major, minor, book_id = match.groups()
+        book_category_code = f"{major}.{minor} {book_id}"
+        
+        # Initialize variables to hold the broader category and title
+        broader_category = ""
+        title = ""
+        
+        # Navigate through the JSON structure to find the title
+        for major_key, major_val in json_structure["MajorCategories"].items():
+            for minor_key, minor_val in major_val["MinorCategories"].items():
+                for sub_key, sub_val in minor_val["Subcategories"].items():
+                    if book_category_code in sub_val["Books"]:
+                        broader_category = major_key
+                        title = sub_val["Books"][book_category_code]
+                        break
+        
+        # Construct the tag with the title, replacing spaces with underscores
+        if broader_category and title:
+            title_sanitized = title.replace(" ", "_")
+            tag = f"#[[{broader_category}]]#[[{major}]]#[[{major}.{minor}]]#[[{book_category_code}]]#{title_sanitized}"
+            return tag
+        else:
+            return "Tag construction failed: Title not found."
+    else:
+        return "Tag construction failed: Filename does not match pattern."
+```
+
+
