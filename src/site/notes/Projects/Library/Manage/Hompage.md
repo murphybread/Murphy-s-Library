@@ -60,6 +60,12 @@ You can view all notes call numbers at once
 		- [[Projects/Library/300/310/310.00/310.00\|310.00]] IDE
 			- [[Projects/Library/300/310/310.00/310.00 a\|310.00 a]] Terminal
 			- [[Projects/Library/300/310/310.00/310.00 b\|310.00 b]] Colab
+	- [[Projects/Library/300/320/320\|320]] Frontend
+		- [[Projects/Library/300/320/320.00/320.00\|320.00]] HTML
+		- [[Projects/Library/300/320/320.10/320.10\|320.10]] CSS
+			- [[Projects/Library/300/320/320.10/320.10 b\|320.10 b]] Border Properties
+		- [[320.30\|320.30]] Java Script
+	- [[Projects/Library/300/330/330\|330]] Backend
 - [[Projects/Library/400/400\|400]] ML Engineer Basic
 	- [[Projects/Library/400/410/410\|410]] Mathematics
 		- [[Projects/Library/400/410/410.00/410.00\|410.00]] Linear Algebra
@@ -128,15 +134,15 @@ You can view all notes call numbers at once
 
 # Recent Posts
 
-| File                                                      | Title    | Tags                            |
-| --------------------------------------------------------- | -------- | ------------------------------- |
-| [[Projects/Library/700/710/710.00/710.00 b\|710.00 b]] | 710.00 b | <ul><li>#Paper_Review</li></ul> |
-| [[Projects/Library/400/420/420.20/420.20 a\|420.20 a]] | 420.20 a | <ul></ul>                       |
-| [[Projects/Library/400/420/420.20/420.20 b\|420.20 b]] | 420.20 b | <ul><li>#YAML</li></ul>         |
-| [[Projects/Library/300/310/310.00/310.00\|310.00]]     | 310.00   | <ul></ul>                       |
-| [[Projects/Library/300/300\|300]]                      | 300      | <ul></ul>                       |
-| [[Projects/Library/300/310/310\|310]]                  | 310      | <ul></ul>                       |
-| [[Projects/Library/400/420/420.20/420.20\|420.20]]     | 420.20   | <ul></ul>                       |
+| File                                                      | Title    | Tags                                              |
+| --------------------------------------------------------- | -------- | ------------------------------------------------- |
+| [[Projects/Library/300/320/320.10/320.10 b\|320.10 b]] | 320.10 b | <ul><li>#Border_Properties</li><li>#CSS</li></ul> |
+| [[Projects/Library/300/320/320.00/320.00\|320.00]]     | 320.00   | <ul></ul>                                         |
+| [[Projects/Library/300/330/330\|330]]                  | 330      | <ul></ul>                                         |
+| [[Projects/Library/300/320/320\|320]]                  | 320      | <ul></ul>                                         |
+| [[Projects/Library/300/320/320.10/320.10\|320.10]]     | 320.10   | <ul></ul>                                         |
+| [[Projects/Library/700/710/710.00/710.00 b\|710.00 b]] | 710.00 b | <ul><li>#Paper_Review</li></ul>                   |
+| [[Projects/Library/400/420/420.20/420.20 a\|420.20 a]] | 420.20 a | <ul></ul>                                         |
 
 { .block-language-dataview}
 
