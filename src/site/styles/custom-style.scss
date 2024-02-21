@@ -22,6 +22,11 @@ body {
     width: 80px; /* Or set a specific width if necessary */
     height: 25px; /* Or set a specific height if necessary */
 }
+.goog-te-gadget .goog-te-combo {
+    border: 3px solid #1e2222c4;
+    margin: 4px 0;
+    border-radius: 10px;
+}
 
 .goog-te-gadget-icon {
     display: none; /* This can hide the dropdown icon, making the button simpler */
