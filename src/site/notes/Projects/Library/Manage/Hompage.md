@@ -41,6 +41,11 @@ You can view all notes call numbers at once
 			- [[Projects/Library/000/010/010.00/010.00 b\|010.00 b]] Industry Domain Knowledge
 		- [[Projects/Library/000/010/010.10/010.10\|010.10]] Develop Programming Language
 			- [[Projects/Library/000/010/010.10/010.10 a\|010.10 a]] Bash shell
+	- [[Projects/Library/Entrance/020\|020]] Operation Knowledge
+		- [[Projects/Library/Entrance/020.00\|020.00]] Versionning
+			- [[020.00 a \|020.00 a ]] Sementic Verisionning
+			- [[Projects/Library/Entrance/020.00 b\|020.00 b]] Head...
+			- [[Projects/Library/Entrance/020.00 c\|020.00 c]] Versioning Strategy
 	- [[Projects/Library/000/090/090\|090]] External Insights an Trends
 		- [[Projects/Library/000/090/090.00/090.00\|090.00]] Industry Trends
 		- [[Projects/Library/000/090/090.10/090.10\|090.10]] Live Session
@@ -64,7 +69,7 @@ You can view all notes call numbers at once
 		- [[Projects/Library/300/320/320.00/320.00\|320.00]] HTML
 		- [[Projects/Library/300/320/320.10/320.10\|320.10]] CSS
 			- [[Projects/Library/300/320/320.10/320.10 b\|320.10 b]] Border Properties
-		- [[320.30\|320.30]] Java Script
+		- [[Projects/Library/300/320/320.30/320.30\|320.30]] Java Script
 	- [[Projects/Library/300/330/330\|330]] Backend
 - [[Projects/Library/400/400\|400]] ML Engineer Basic
 	- [[Projects/Library/400/410/410\|410]] Mathematics
@@ -136,13 +141,13 @@ You can view all notes call numbers at once
 
 | File                                                      | Title    | Tags                                              |
 | --------------------------------------------------------- | -------- | ------------------------------------------------- |
+| [[Projects/Library/Entrance/020.00 c\|020.00 c]]       | 020.00 c | <ul><li>#versioning</li></ul>                     |
+| [[Projects/Library/Entrance/020.00 b\|020.00 b]]       | 020.00 b | <ul></ul>                                         |
+| [[Projects/Library/Entrance/020.00 a\|020.00 a]]       | 020.00 a | <ul></ul>                                         |
+| [[Projects/Library/Entrance/020.00\|020.00]]           | 020.00   | <ul></ul>                                         |
+| [[Projects/Library/Entrance/020\|020]]                 | 020      | <ul></ul>                                         |
 | [[Projects/Library/300/320/320.10/320.10 b\|320.10 b]] | 320.10 b | <ul><li>#Border_Properties</li><li>#CSS</li></ul> |
-| [[Projects/Library/300/320/320.00/320.00\|320.00]]     | 320.00   | <ul></ul>                                         |
-| [[Projects/Library/300/330/330\|330]]                  | 330      | <ul></ul>                                         |
-| [[Projects/Library/300/320/320\|320]]                  | 320      | <ul></ul>                                         |
-| [[Projects/Library/300/320/320.10/320.10\|320.10]]     | 320.10   | <ul></ul>                                         |
-| [[Projects/Library/700/710/710.00/710.00 b\|710.00 b]] | 710.00 b | <ul><li>#Paper_Review</li></ul>                   |
-| [[Projects/Library/400/420/420.20/420.20 a\|420.20 a]] | 420.20 a | <ul></ul>                                         |
+| [[Projects/Library/300/320/320.30/320.30\|320.30]]     | 320.30   | <ul></ul>                                         |
 
 { .block-language-dataview}
 
