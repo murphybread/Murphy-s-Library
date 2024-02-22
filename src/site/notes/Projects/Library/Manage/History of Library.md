@@ -1,6 +1,8 @@
 ---
-{"dg-publish":true,"permalink":"/projects/library/manage/history-of-library/","noteIcon":"0","created":"2024-01-30T20:06:19.819+09:00","updated":"2024-02-21T02:03:53.723+09:00"}
+{"dg-publish":true,"permalink":"/projects/library/manage/history-of-library/","noteIcon":"0","created":"2024-01-30T20:06:19.819+09:00","updated":"2024-02-22T12:35:59.803+09:00"}
 ---
+
+
 
 
 
@@ -1231,15 +1233,15 @@ This query is used for Recent Post in homepage.
 I delete file.path and add file.tags
 tags doesn't display backlink tags
 
-| File                                                      | Title    | Tags                    |
-| --------------------------------------------------------- | -------- | ----------------------- |
-| [[Projects/Library/300/310/310.00/310.00\|310.00]]     | 310.00   | <ul></ul>               |
-| [[Projects/Library/400/420/420.20/420.20 b\|420.20 b]] | 420.20 b | <ul><li>#YAML</li></ul> |
-| [[Projects/Library/400/420/420.20/420.20 a\|420.20 a]] | 420.20 a | <ul></ul>               |
-| [[Projects/Library/400/420/420.20/420.20\|420.20]]     | 420.20   | <ul></ul>               |
-| [[Projects/Library/600/630/630.40/630.40 a\|630.40 a]] | 630.40 a | <ul></ul>               |
-| [[Projects/Library/600/630/630.40/630.40\|630.40]]     | 630.40   | <ul></ul>               |
-| [[Projects/Library/000/010/010.00/010.00 a\|010.00 a]] | 010.00 a | <ul></ul>               |
+| File                                                      | Title    | Tags                                              |
+| --------------------------------------------------------- | -------- | ------------------------------------------------- |
+| [[Projects/Library/Entrance/020.00 c\|020.00 c]]       | 020.00 c | <ul><li>#versioning</li></ul>                     |
+| [[Projects/Library/Entrance/020.00 b\|020.00 b]]       | 020.00 b | <ul></ul>                                         |
+| [[Projects/Library/Entrance/020.00 a\|020.00 a]]       | 020.00 a | <ul></ul>                                         |
+| [[Projects/Library/Entrance/020.00\|020.00]]           | 020.00   | <ul></ul>                                         |
+| [[Projects/Library/Entrance/020\|020]]                 | 020      | <ul></ul>                                         |
+| [[Projects/Library/300/320/320.30/320.30\|320.30]]     | 320.30   | <ul></ul>                                         |
+| [[Projects/Library/300/320/320.10/320.10 b\|320.10 b]] | 320.10 b | <ul><li>#Border_Properties</li><li>#CSS</li></ul> |
 
 { .block-language-dataview}
 
@@ -1290,20 +1292,20 @@ def construct_tag(file_name, json_structure):
 ```
 
 ## And Modify Dataview Query
-By modifying the additional Dataview query, you can use the
+Modify the table to provide more useful information to the readers.
 Easily see which files have been modified, and see the tags they have at a glance
 
 - Change the standard modification time not the create time `file.ctime -> file.mtime`
 - Exclude md file that have the tag `#Library` 
-| File                                                      | Title    | Tags                            |
-| --------------------------------------------------------- | -------- | ------------------------------- |
-| [[Projects/Library/700/710/710.00/710.00 b\|710.00 b]] | 710.00 b | <ul><li>#Paper_Review</li></ul> |
-| [[Projects/Library/400/420/420.20/420.20 a\|420.20 a]] | 420.20 a | <ul></ul>                       |
-| [[Projects/Library/400/420/420.20/420.20 b\|420.20 b]] | 420.20 b | <ul><li>#YAML</li></ul>         |
-| [[Projects/Library/300/310/310.00/310.00\|310.00]]     | 310.00   | <ul></ul>                       |
-| [[Projects/Library/300/300\|300]]                      | 300      | <ul></ul>                       |
-| [[Projects/Library/300/310/310\|310]]                  | 310      | <ul></ul>                       |
-| [[Projects/Library/400/420/420.20/420.20\|420.20]]     | 420.20   | <ul></ul>                       |
+| File                                                      | Title    | Tags                                              |
+| --------------------------------------------------------- | -------- | ------------------------------------------------- |
+| [[Projects/Library/Entrance/020.00 c\|020.00 c]]       | 020.00 c | <ul><li>#versioning</li></ul>                     |
+| [[Projects/Library/Entrance/020.00 b\|020.00 b]]       | 020.00 b | <ul></ul>                                         |
+| [[Projects/Library/Entrance/020.00 a\|020.00 a]]       | 020.00 a | <ul></ul>                                         |
+| [[Projects/Library/Entrance/020.00\|020.00]]           | 020.00   | <ul></ul>                                         |
+| [[Projects/Library/Entrance/020\|020]]                 | 020      | <ul></ul>                                         |
+| [[Projects/Library/300/320/320.10/320.10 b\|320.10 b]] | 320.10 b | <ul><li>#Border_Properties</li><li>#CSS</li></ul> |
+| [[Projects/Library/300/320/320.30/320.30\|320.30]]     | 320.30   | <ul></ul>                                         |
 
 { .block-language-dataview}
 
