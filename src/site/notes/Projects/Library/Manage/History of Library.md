@@ -1233,15 +1233,15 @@ This query is used for Recent Post in homepage.
 I delete file.path and add file.tags
 tags doesn't display backlink tags
 
-| File                                                      | Title    | Tags                                              |
-| --------------------------------------------------------- | -------- | ------------------------------------------------- |
-| [[Projects/Library/Entrance/020.00 c\|020.00 c]]       | 020.00 c | <ul><li>#versioning</li></ul>                     |
-| [[Projects/Library/Entrance/020.00 b\|020.00 b]]       | 020.00 b | <ul></ul>                                         |
-| [[Projects/Library/Entrance/020.00 a\|020.00 a]]       | 020.00 a | <ul></ul>                                         |
-| [[Projects/Library/Entrance/020.00\|020.00]]           | 020.00   | <ul></ul>                                         |
-| [[Projects/Library/Entrance/020\|020]]                 | 020      | <ul></ul>                                         |
-| [[Projects/Library/300/320/320.30/320.30\|320.30]]     | 320.30   | <ul></ul>                                         |
-| [[Projects/Library/300/320/320.10/320.10 b\|320.10 b]] | 320.10 b | <ul><li>#Border_Properties</li><li>#CSS</li></ul> |
+| File                                                      | Title    | Tags                                                       |
+| --------------------------------------------------------- | -------- | ---------------------------------------------------------- |
+| [[Projects/Library/000/020/020.00/020.00 c\|020.00 c]] | 020.00 c | <ul><li>#Versioning_Strategy</li><li>#versioning</li></ul> |
+| [[Projects/Library/000/020/020.00/020.00 b\|020.00 b]] | 020.00 b | <ul><li>#headver</li></ul>                                 |
+| [[Projects/Library/000/020/020.00/020.00 a\|020.00 a]] | 020.00 a | <ul></ul>                                                  |
+| [[Projects/Library/000/020/020.00/020.00\|020.00]]     | 020.00   | <ul></ul>                                                  |
+| [[Projects/Library/000/020/020\|020]]                  | 020      | <ul></ul>                                                  |
+| [[Projects/Library/300/320/320.30/320.30\|320.30]]     | 320.30   | <ul></ul>                                                  |
+| [[Projects/Library/300/320/320.10/320.10 b\|320.10 b]] | 320.10 b | <ul><li>#Border_Properties</li><li>#CSS</li></ul>          |
 
 { .block-language-dataview}
 
@@ -1297,15 +1297,15 @@ Easily see which files have been modified, and see the tags they have at a glanc
 
 - Change the standard modification time not the create time `file.ctime -> file.mtime`
 - Exclude md file that have the tag `#Library` 
-| File                                                      | Title    | Tags                                              |
-| --------------------------------------------------------- | -------- | ------------------------------------------------- |
-| [[Projects/Library/Entrance/020.00 c\|020.00 c]]       | 020.00 c | <ul><li>#versioning</li></ul>                     |
-| [[Projects/Library/Entrance/020.00 b\|020.00 b]]       | 020.00 b | <ul></ul>                                         |
-| [[Projects/Library/Entrance/020.00 a\|020.00 a]]       | 020.00 a | <ul></ul>                                         |
-| [[Projects/Library/Entrance/020.00\|020.00]]           | 020.00   | <ul></ul>                                         |
-| [[Projects/Library/Entrance/020\|020]]                 | 020      | <ul></ul>                                         |
-| [[Projects/Library/300/320/320.10/320.10 b\|320.10 b]] | 320.10 b | <ul><li>#Border_Properties</li><li>#CSS</li></ul> |
-| [[Projects/Library/300/320/320.30/320.30\|320.30]]     | 320.30   | <ul></ul>                                         |
+| File                                                      | Title    | Tags                                                       |
+| --------------------------------------------------------- | -------- | ---------------------------------------------------------- |
+| [[Projects/Library/000/020/020.00/020.00 a\|020.00 a]] | 020.00 a | <ul></ul>                                                  |
+| [[Projects/Library/000/020/020.00/020.00 c\|020.00 c]] | 020.00 c | <ul><li>#Versioning_Strategy</li><li>#versioning</li></ul> |
+| [[Projects/Library/000/020/020.00/020.00 b\|020.00 b]] | 020.00 b | <ul><li>#headver</li></ul>                                 |
+| [[Projects/Library/000/020/020\|020]]                  | 020      | <ul></ul>                                                  |
+| [[Projects/Library/000/020/020.00/020.00\|020.00]]     | 020.00   | <ul></ul>                                                  |
+| [[Projects/Library/200/210/210.00/210.00\|210.00]]     | 210.00   | <ul></ul>                                                  |
+| [[Projects/Library/300/320/320.10/320.10 b\|320.10 b]] | 320.10 b | <ul><li>#Border_Properties</li><li>#CSS</li></ul>          |
 
 { .block-language-dataview}
 
