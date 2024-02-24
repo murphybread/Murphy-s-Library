@@ -1,12 +1,84 @@
 ---
-{"dg-publish":true,"permalink":"/projects/library/manage/history-of-library/","noteIcon":"0","created":"2024-01-30T20:06:19.819+09:00","updated":"2024-02-22T12:35:59.803+09:00"}
+{"dg-publish":true,"permalink":"/projects/library/manage/history-of-library/","noteIcon":"0","created":"2024-01-30T20:06:19.819+09:00","updated":"2024-02-25T05:53:49.065+09:00"}
 ---
 
 
+0.1.0-LB
 
 
 
 
+# 1.0.0-LB,PY
+
+This is what I want to do.
+
+#[[Projects/Library/800/800\|800]]#test_major
+#[[Projects/Library/800/800\|800]]#test_major#[[Projects/Library/800/810/810\|810]]#test_minor
+#[[Projects/Library/800/800\|800]]#test_major#[[Projects/Library/800/810/810\|810]]#test_minor#[[Projects/Library/800/810/810.00/810.00\|810.00]]#test_sub
+#[[Projects/Library/800/800\|800]]#test_major#[[Projects/Library/800/810/810\|810]]#test_minor#[[Projects/Library/800/810/810.00/810.00\|810.00]]#test_sub#[[Projects/Library/800/810/810.00/810.00 a\|810.00 a]]#test_book
+
+
+## 3 steps
+### Checking
+Use Regex
+```py
+    major_regex = re.compile(r'^([0-9]{1}00)\.md$') 
+    minor_regex = re.compile(r'^([0-9]{1}[1-9][0-9])\.md$') 
+    subcategory_regex = re.compile(r'^([0-9]{1}[1-9][0-9])\.([0-9]{2})\.md$') 
+    book_regex = re.compile(r'^([0-9]{1}[1-9][0-9])\.([0-9]{2})\s([a-z])\.md$', re.IGNORECASE)
+```
+
+### Making code
+Think about data
+when not major, convert major
+when sub or book, consider position of function argument
+
+```py
+    major_code, minor_code, sub_code, book_code = "", "", "", ""
+    
+    
+    if major_regex.match(file_name):
+        major_code = major_regex.match(file_name).group(1)
+    elif minor_regex.match(file_name):
+        major_code = minor_regex.match(file_name).group(1)[:1] + '00'
+        minor_code = minor_regex.match(file_name).group(1)
+    elif subcategory_regex.match(file_name):
+        major_code = subcategory_regex.match(file_name).group(1)[:1] + '00'
+        minor_code = subcategory_regex.match(file_name).group(1)
+        sub_code = subcategory_regex.match(file_name).group(2)
+    elif book_regex.match(file_name):
+        major_code = book_regex.match(file_name).group(1)[:1] + '00'
+        minor_code = book_regex.match(file_name).group(1)
+        sub_code = book_regex.match(file_name).group(2)
+        book_code = book_regex.match(file_name).group(3)
+```
+
+### Making tag
+If you know how to use get for recursive contents in JSON, function become very easy
+Understanding data structures and creating variables with JSON enables this recursive structure
+```py
+    tag = ""
+    
+    if major_code:
+        major_info = json_structure.get("MajorCategories", {}).get(major_code, {})
+        tag += f"#[[{major_code}]]#{major_info.get('title', '').replace(' ', '_')}"
+    if minor_code:
+        minor_info = major_info.get("MinorCategories", {}).get(minor_code, {})
+        tag += f"#[[{minor_code}]]#{minor_info.get('title', '').replace(' ', '_')}"
+    if sub_code:
+        sub_info = minor_info.get("Subcategories", {}).get(f"{minor_code}.{sub_code}", {})
+        tag += f"#[[{minor_code}.{sub_code}]]#{sub_info.get('title', '').replace(' ', '_')}"
+    if book_code:
+        book_info = sub_info.get("Books", {}).get(f"{minor_code}.{sub_code} {book_code}", "")
+        tag += f"#[[{minor_code}.{sub_code} {book_code}]]#{book_info.replace(' ', '_')}"
+    
+    
+    print(major_code, minor_code , sub_code, book_code)
+    
+    
+    return tag
+
+```
 
 
 
@@ -1233,15 +1305,15 @@ This query is used for Recent Post in homepage.
 I delete file.path and add file.tags
 tags doesn't display backlink tags
 
-| File                                                      | Title    | Tags                                                       |
-| --------------------------------------------------------- | -------- | ---------------------------------------------------------- |
-| [[Projects/Library/000/020/020.00/020.00 c\|020.00 c]] | 020.00 c | <ul><li>#Versioning_Strategy</li><li>#versioning</li></ul> |
-| [[Projects/Library/000/020/020.00/020.00 b\|020.00 b]] | 020.00 b | <ul><li>#headver</li></ul>                                 |
-| [[Projects/Library/000/020/020.00/020.00 a\|020.00 a]] | 020.00 a | <ul></ul>                                                  |
-| [[Projects/Library/000/020/020.00/020.00\|020.00]]     | 020.00   | <ul></ul>                                                  |
-| [[Projects/Library/000/020/020\|020]]                  | 020      | <ul></ul>                                                  |
-| [[Projects/Library/300/320/320.30/320.30\|320.30]]     | 320.30   | <ul></ul>                                                  |
-| [[Projects/Library/300/320/320.10/320.10 b\|320.10 b]] | 320.10 b | <ul><li>#Border_Properties</li><li>#CSS</li></ul>          |
+| File                                                      | Title    | Tags                                                                                   |
+| --------------------------------------------------------- | -------- | -------------------------------------------------------------------------------------- |
+| [[Projects/Library/800/810/810.00/810.00 a\|810.00 a]] | 810.00 a | <ul><li>#test_major</li><li>#test_minor</li><li>#test_sub</li><li>#test_book</li></ul> |
+| [[Projects/Library/800/810/810.00/810.00\|810.00]]     | 810.00   | <ul><li>#test_major</li><li>#test_minor</li><li>#test_sub</li></ul>                    |
+| [[Projects/Library/800/810/810\|810]]                  | 810      | <ul><li>#test_major</li><li>#test_minor</li></ul>                                      |
+| [[Projects/Library/800/800\|800]]                      | 800      | <ul><li>#test_major</li></ul>                                                          |
+| [[Projects/Library/000/080/080.00/080.00\|080.00]]     | 080.00   | <ul></ul>                                                                              |
+| [[Projects/Library/000/080/080\|080]]                  | 080      | <ul></ul>                                                                              |
+| [[Projects/Library/000/020/020.10/020.10 c\|020.10 c]] | 020.10 c | <ul><li>#git_consturcutre</li></ul>                                                    |
 
 { .block-language-dataview}
 
@@ -1297,15 +1369,15 @@ Easily see which files have been modified, and see the tags they have at a glanc
 
 - Change the standard modification time not the create time `file.ctime -> file.mtime`
 - Exclude md file that have the tag `#Library` 
-| File                                                      | Title    | Tags                                                       |
-| --------------------------------------------------------- | -------- | ---------------------------------------------------------- |
-| [[Projects/Library/000/020/020.00/020.00 a\|020.00 a]] | 020.00 a | <ul></ul>                                                  |
-| [[Projects/Library/000/020/020.00/020.00 c\|020.00 c]] | 020.00 c | <ul><li>#Versioning_Strategy</li><li>#versioning</li></ul> |
-| [[Projects/Library/000/020/020.00/020.00 b\|020.00 b]] | 020.00 b | <ul><li>#headver</li></ul>                                 |
-| [[Projects/Library/000/020/020\|020]]                  | 020      | <ul></ul>                                                  |
-| [[Projects/Library/000/020/020.00/020.00\|020.00]]     | 020.00   | <ul></ul>                                                  |
-| [[Projects/Library/200/210/210.00/210.00\|210.00]]     | 210.00   | <ul></ul>                                                  |
-| [[Projects/Library/300/320/320.10/320.10 b\|320.10 b]] | 320.10 b | <ul><li>#Border_Properties</li><li>#CSS</li></ul>          |
+| File                                                      | Title    | Tags                                                                                                                     |
+| --------------------------------------------------------- | -------- | ------------------------------------------------------------------------------------------------------------------------ |
+| [[Projects/Library/000/020/020.00/020.00 c\|020.00 c]] | 020.00 c | <ul><li>#Versioning_Strategy</li></ul>                                                                                   |
+| [[Projects/Library/700/710/710.00/710.00 a\|710.00 a]] | 710.00 a | <ul><li>#Research_Paper</li><li>#methodology</li><li>#Multi-agent_Reinforcement_Learning</li><li>#Base_Domains</li></ul> |
+| [[Projects/Library/800/810/810.00/810.00 a\|810.00 a]] | 810.00 a | <ul><li>#test_major</li><li>#test_minor</li><li>#test_sub</li><li>#test_book</li></ul>                                   |
+| [[Projects/Library/800/810/810.00/810.00\|810.00]]     | 810.00   | <ul><li>#test_major</li><li>#test_minor</li><li>#test_sub</li></ul>                                                      |
+| [[Projects/Library/800/810/810\|810]]                  | 810      | <ul><li>#test_major</li><li>#test_minor</li></ul>                                                                        |
+| [[Projects/Library/800/800\|800]]                      | 800      | <ul><li>#test_major</li></ul>                                                                                            |
+| [[Projects/Library/000/080/080.00/080.00\|080.00]]     | 080.00   | <ul></ul>                                                                                                                |
 
 { .block-language-dataview}
 
