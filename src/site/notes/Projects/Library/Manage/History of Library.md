@@ -1,11 +1,11 @@
 ---
-{"dg-publish":true,"permalink":"/projects/library/manage/history-of-library/","noteIcon":"0","created":"2024-01-30T20:06:19.819+09:00","updated":"2024-02-25T06:06:14.939+09:00"}
+{"dg-publish":true,"permalink":"/projects/library/manage/history-of-library/","noteIcon":"0","created":"2024-01-30T20:06:19.819+09:00","updated":"2024-02-26T21:38:59.669+09:00"}
 ---
 
 #History #Versioning_Strategy 
 
 # Versioning Standard
-[[Projects/Library/000/020/020.00/020.00 c\|020.00 c]]
+
 
 
 
@@ -1370,15 +1370,12 @@ Easily see which files have been modified, and see the tags they have at a glanc
 
 - Change the standard modification time not the create time `file.ctime -> file.mtime`
 - Exclude md file that have the tag `#Library` 
-| File                                                      | Title    | Tags                                                                                                                                           |
-| --------------------------------------------------------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
-| [[Projects/Library/500/510/510\|510]]                  | 510      | <ul><li>#ML_</li><li>#Natural_Language_Processing</li></ul>                                                                                    |
-| [[Projects/Library/600/620/620.10/620.10 a\|620.10 a]] | 620.10 a | <ul><li>#ML_Libraries_and_Implementation</li><li>#Data_visualization</li><li>#Seabornn</li><li>#Seaborn_Fundamental</li><li>#Seaborn</li></ul> |
-| [[Projects/Library/600/620/620.10/620.10\|620.10]]     | 620.10   | <ul><li>#ML_Libraries_and_Implementation</li><li>#Data_visualization</li><li>#Seabornn</li></ul>                                               |
-| [[Projects/Library/600/620/620.00/620.00 a\|620.00 a]] | 620.00 a | <ul><li>#ML_Libraries_and_Implementation</li><li>#Data_visualization</li><li>#Matplotlib</li><li>#Matplotlib_Fundamental</li></ul>             |
-| [[Projects/Library/600/620/620.00/620.00\|620.00]]     | 620.00   | <ul><li>#ML_Libraries_and_Implementation</li><li>#Data_visualization</li><li>#Matplotlib</li></ul>                                             |
-| [[Projects/Library/600/610/610\|610]]                  | 610      | <ul><li>#ML_Libraries_and_Implementation</li><li>#Data_Handling</li></ul>                                                                      |
-| [[Projects/Library/600/610/610.10/610.10 b\|610.10 b]] | 610.10 b | <ul><li>#ML_Libraries_and_Implementation</li><li>#Data_Handling</li><li>#NumPy</li><li>#Numpy_Appllied_function</li></ul>                      |
 
-{ .block-language-dataview}
+```dataview-example
+TABLE file.name AS Title, file.tags AS Tags
+FROM "Projects/Library" AND -#Library
+WHERE dg-publish = true
+SORT file.mtime DESC
+LIMIT 7
+```
 
