@@ -1306,15 +1306,15 @@ This query is used for Recent Post in homepage.
 I delete file.path and add file.tags
 tags doesn't display backlink tags
 
-| File                                                      | Title    | Tags                                                                                   |
-| --------------------------------------------------------- | -------- | -------------------------------------------------------------------------------------- |
-| [[Projects/Library/800/810/810.00/810.00 a\|810.00 a]] | 810.00 a | <ul><li>#test_major</li><li>#test_minor</li><li>#test_sub</li><li>#test_book</li></ul> |
-| [[Projects/Library/800/810/810.00/810.00\|810.00]]     | 810.00   | <ul><li>#test_major</li><li>#test_minor</li><li>#test_sub</li></ul>                    |
-| [[Projects/Library/800/810/810\|810]]                  | 810      | <ul><li>#test_major</li><li>#test_minor</li></ul>                                      |
-| [[Projects/Library/800/800\|800]]                      | 800      | <ul><li>#test_major</li></ul>                                                          |
-| [[Projects/Library/000/080/080.00/080.00\|080.00]]     | 080.00   | <ul></ul>                                                                              |
-| [[Projects/Library/000/080/080\|080]]                  | 080      | <ul></ul>                                                                              |
-| [[Projects/Library/000/020/020.10/020.10 c\|020.10 c]] | 020.10 c | <ul><li>#git_consturcutre</li></ul>                                                    |
+| File                                                      | Title    | Tags                                                                                                                               |
+| --------------------------------------------------------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| [[Projects/Library/800/810/810.00/810.00 a\|810.00 a]] | 810.00 a | <ul><li>#test_major</li><li>#test_minor</li><li>#test_sub</li><li>#test_book</li></ul>                                             |
+| [[Projects/Library/800/810/810.00/810.00\|810.00]]     | 810.00   | <ul><li>#test_major</li><li>#test_minor</li><li>#test_sub</li></ul>                                                                |
+| [[Projects/Library/800/810/810\|810]]                  | 810      | <ul><li>#test_major</li><li>#test_minor</li></ul>                                                                                  |
+| [[Projects/Library/800/800\|800]]                      | 800      | <ul><li>#test_major</li></ul>                                                                                                      |
+| [[Projects/Library/600/630/630.40/630.40 a\|630.40 a]] | 630.40 a | <ul></ul>                                                                                                                          |
+| [[Projects/Library/600/630/630.40/630.40\|630.40]]     | 630.40   | <ul></ul>                                                                                                                          |
+| [[Projects/Library/600/630/630.30/630.30 b\|630.30 b]] | 630.30 b | <ul><li>#ML_Libraries_and_Implementation</li><li>#Machine_Learning_Frameworks</li><li>#Langchain</li><li>#RAG_with_FAISS</li></ul> |
 
 { .block-language-dataview}
 
