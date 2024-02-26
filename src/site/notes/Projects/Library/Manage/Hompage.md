@@ -148,15 +148,15 @@ You can view all notes call numbers at once
 
 # Recent Posts
 
-| File                                                      | Title    | Tags                                                                                                                     |
-| --------------------------------------------------------- | -------- | ------------------------------------------------------------------------------------------------------------------------ |
-| [[Projects/Library/000/020/020.00/020.00 c\|020.00 c]] | 020.00 c | <ul><li>#Versioning_Strategy</li></ul>                                                                                   |
-| [[Projects/Library/700/710/710.00/710.00 a\|710.00 a]] | 710.00 a | <ul><li>#Research_Paper</li><li>#methodology</li><li>#Multi-agent_Reinforcement_Learning</li><li>#Base_Domains</li></ul> |
-| [[Projects/Library/800/810/810.00/810.00 a\|810.00 a]] | 810.00 a | <ul><li>#test_major</li><li>#test_minor</li><li>#test_sub</li><li>#test_book</li></ul>                                   |
-| [[Projects/Library/800/810/810.00/810.00\|810.00]]     | 810.00   | <ul><li>#test_major</li><li>#test_minor</li><li>#test_sub</li></ul>                                                      |
-| [[Projects/Library/800/810/810\|810]]                  | 810      | <ul><li>#test_major</li><li>#test_minor</li></ul>                                                                        |
-| [[Projects/Library/800/800\|800]]                      | 800      | <ul><li>#test_major</li></ul>                                                                                            |
-| [[Projects/Library/000/080/080.00/080.00\|080.00]]     | 080.00   | <ul></ul>                                                                                                                |
+| File                                                                  | Title              | Tags                                                                                                                     |
+| --------------------------------------------------------------------- | ------------------ | ------------------------------------------------------------------------------------------------------------------------ |
+| [[Projects/Library/700/710/710.00/710.00 b\|710.00 b]]             | 710.00 b           | <ul><li>#Paper_Review</li></ul>                                                                                          |
+| [[Projects/Library/Manage/History of Library\|History of Library]] | History of Library | <ul><li>#History</li><li>#Versioning_Strategy</li><li>#c4b7b7</li><li>#1077ffcb</li></ul>                                |
+| [[Projects/Library/000/020/020.00/020.00 c\|020.00 c]]             | 020.00 c           | <ul><li>#Versioning_Strategy</li></ul>                                                                                   |
+| [[Projects/Library/700/710/710.00/710.00 a\|710.00 a]]             | 710.00 a           | <ul><li>#Research_Paper</li><li>#methodology</li><li>#Multi-agent_Reinforcement_Learning</li><li>#Base_Domains</li></ul> |
+| [[Projects/Library/800/810/810.00/810.00 a\|810.00 a]]             | 810.00 a           | <ul><li>#test_major</li><li>#test_minor</li><li>#test_sub</li><li>#test_book</li></ul>                                   |
+| [[Projects/Library/800/810/810.00/810.00\|810.00]]                 | 810.00             | <ul><li>#test_major</li><li>#test_minor</li><li>#test_sub</li></ul>                                                      |
+| [[Projects/Library/800/810/810\|810]]                              | 810                | <ul><li>#test_major</li><li>#test_minor</li></ul>                                                                        |
 
 { .block-language-dataview}
 
