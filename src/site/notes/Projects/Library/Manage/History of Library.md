@@ -1,10 +1,11 @@
 ---
-{"dg-publish":true,"permalink":"/projects/library/manage/history-of-library/","noteIcon":"0","created":"2024-01-30T20:06:19.819+09:00","updated":"2024-02-25T05:53:49.065+09:00"}
+{"dg-publish":true,"permalink":"/projects/library/manage/history-of-library/","noteIcon":"0","created":"2024-01-30T20:06:19.819+09:00","updated":"2024-02-25T06:06:14.939+09:00"}
 ---
 
+#History #Versioning_Strategy 
 
-0.1.0-LB
-
+# Versioning Standard
+[[Projects/Library/000/020/020.00/020.00 c\|020.00 c]]
 
 
 
@@ -12,10 +13,10 @@
 
 This is what I want to do.
 
-#[[Projects/Library/800/800\|800]]#test_major
-#[[Projects/Library/800/800\|800]]#test_major#[[Projects/Library/800/810/810\|810]]#test_minor
-#[[Projects/Library/800/800\|800]]#test_major#[[Projects/Library/800/810/810\|810]]#test_minor#[[Projects/Library/800/810/810.00/810.00\|810.00]]#test_sub
-#[[Projects/Library/800/800\|800]]#test_major#[[Projects/Library/800/810/810\|810]]#test_minor#[[Projects/Library/800/810/810.00/810.00\|810.00]]#test_sub#[[Projects/Library/800/810/810.00/810.00 a\|810.00 a]]#test_book
+major md file tags `#[[800]]#test_major`
+minor md file tags  `#[[800]]#test_major#[[810]]#test_minor`
+sub md file tags  `#[[800]]#test_major#[[810]]#test_minor#[[810.00]]#test_sub`
+books md file tags  `#[[800]]#test_major#[[810]]#test_minor#[[810.00]]#test_sub#[[810.00 a]]#test_book`
 
 
 ## 3 steps
@@ -83,7 +84,7 @@ Understanding data structures and creating variables with JSON enables this recu
 
 
 
-#Hompage #Library 
+
 
 # Guest book
 
@@ -1369,15 +1370,15 @@ Easily see which files have been modified, and see the tags they have at a glanc
 
 - Change the standard modification time not the create time `file.ctime -> file.mtime`
 - Exclude md file that have the tag `#Library` 
-| File                                                      | Title    | Tags                                                                                                                     |
-| --------------------------------------------------------- | -------- | ------------------------------------------------------------------------------------------------------------------------ |
-| [[Projects/Library/000/020/020.00/020.00 c\|020.00 c]] | 020.00 c | <ul><li>#Versioning_Strategy</li></ul>                                                                                   |
-| [[Projects/Library/700/710/710.00/710.00 a\|710.00 a]] | 710.00 a | <ul><li>#Research_Paper</li><li>#methodology</li><li>#Multi-agent_Reinforcement_Learning</li><li>#Base_Domains</li></ul> |
-| [[Projects/Library/800/810/810.00/810.00 a\|810.00 a]] | 810.00 a | <ul><li>#test_major</li><li>#test_minor</li><li>#test_sub</li><li>#test_book</li></ul>                                   |
-| [[Projects/Library/800/810/810.00/810.00\|810.00]]     | 810.00   | <ul><li>#test_major</li><li>#test_minor</li><li>#test_sub</li></ul>                                                      |
-| [[Projects/Library/800/810/810\|810]]                  | 810      | <ul><li>#test_major</li><li>#test_minor</li></ul>                                                                        |
-| [[Projects/Library/800/800\|800]]                      | 800      | <ul><li>#test_major</li></ul>                                                                                            |
-| [[Projects/Library/000/080/080.00/080.00\|080.00]]     | 080.00   | <ul></ul>                                                                                                                |
+| File                                                                  | Title              | Tags                                                                                                                     |
+| --------------------------------------------------------------------- | ------------------ | ------------------------------------------------------------------------------------------------------------------------ |
+| [[Projects/Library/700/710/710.00/710.00 b\|710.00 b]]             | 710.00 b           | <ul><li>#Paper_Review</li></ul>                                                                                          |
+| [[Projects/Library/Manage/History of Library\|History of Library]] | History of Library | <ul><li>#History</li><li>#Versioning_Strategy</li><li>#c4b7b7</li><li>#1077ffcb</li></ul>                                |
+| [[Projects/Library/000/020/020.00/020.00 c\|020.00 c]]             | 020.00 c           | <ul><li>#Versioning_Strategy</li></ul>                                                                                   |
+| [[Projects/Library/700/710/710.00/710.00 a\|710.00 a]]             | 710.00 a           | <ul><li>#Research_Paper</li><li>#methodology</li><li>#Multi-agent_Reinforcement_Learning</li><li>#Base_Domains</li></ul> |
+| [[Projects/Library/800/810/810.00/810.00 a\|810.00 a]]             | 810.00 a           | <ul><li>#test_major</li><li>#test_minor</li><li>#test_sub</li><li>#test_book</li></ul>                                   |
+| [[Projects/Library/800/810/810.00/810.00\|810.00]]                 | 810.00             | <ul><li>#test_major</li><li>#test_minor</li><li>#test_sub</li></ul>                                                      |
+| [[Projects/Library/800/810/810\|810]]                              | 810                | <ul><li>#test_major</li><li>#test_minor</li></ul>                                                                        |
 
 { .block-language-dataview}
 
