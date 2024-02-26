@@ -51,7 +51,7 @@ You can view all notes call numbers at once
 			- [[Projects/Library/000/020/020.10/020.10 b\|020.10 b]] git commands
 			- [[Projects/Library/000/020/020.10/020.10 c\|020.10 c]] git consturcure
 	- [[Projects/Library/000/080/080\|080]] English for IT Workers
-		- [[Projects/Library/000/080/080.00/080.00\|080.00]] De
+		- [[Projects/Library/000/080/080.00/080.00\|080.00]] Developer English
 	- [[Projects/Library/000/090/090\|090]] External Insights an Trends
 		- [[Projects/Library/000/090/090.00/090.00\|090.00]] Industry Trends
 		- [[Projects/Library/000/090/090.10/090.10\|090.10]] Live Session
