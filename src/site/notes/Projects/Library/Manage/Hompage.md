@@ -99,7 +99,7 @@ You can view all notes call numbers at once
 		- [[Projects/Library/400/420/420.20/420.20\|420.20]] Semi-structured Data
 			- [[Projects/Library/400/420/420.20/420.20 a\|420.20 a]] JSON
 			- [[Projects/Library/400/420/420.20/420.20 b\|420.20 b]] YAML
-- [[Projects/Library/500/500\|500]] ML & DL Modeling
+- [[Projects/Library/500/500\|500]] ML and DL Modeling
 	- [[Projects/Library/500/510/510\|510]] Natural Language Processing (NLP)
 	- [[Projects/Library/500/520/520\|520]] Computer Vision
 		- [[Projects/Library/500/520/520.00/520.00\|520.00]] Introduction to CV
@@ -148,15 +148,15 @@ You can view all notes call numbers at once
 
 # Recent Posts
 
-| File                                                                  | Title              | Tags                                                                                                                     |
-| --------------------------------------------------------------------- | ------------------ | ------------------------------------------------------------------------------------------------------------------------ |
-| [[Projects/Library/700/710/710.00/710.00 b\|710.00 b]]             | 710.00 b           | <ul><li>#Paper_Review</li></ul>                                                                                          |
-| [[Projects/Library/Manage/History of Library\|History of Library]] | History of Library | <ul><li>#History</li><li>#Versioning_Strategy</li><li>#c4b7b7</li><li>#1077ffcb</li></ul>                                |
-| [[Projects/Library/000/020/020.00/020.00 c\|020.00 c]]             | 020.00 c           | <ul><li>#Versioning_Strategy</li></ul>                                                                                   |
-| [[Projects/Library/700/710/710.00/710.00 a\|710.00 a]]             | 710.00 a           | <ul><li>#Research_Paper</li><li>#methodology</li><li>#Multi-agent_Reinforcement_Learning</li><li>#Base_Domains</li></ul> |
-| [[Projects/Library/800/810/810.00/810.00 a\|810.00 a]]             | 810.00 a           | <ul><li>#test_major</li><li>#test_minor</li><li>#test_sub</li><li>#test_book</li></ul>                                   |
-| [[Projects/Library/800/810/810.00/810.00\|810.00]]                 | 810.00             | <ul><li>#test_major</li><li>#test_minor</li><li>#test_sub</li></ul>                                                      |
-| [[Projects/Library/800/810/810\|810]]                              | 810                | <ul><li>#test_major</li><li>#test_minor</li></ul>                                                                        |
+| File                                                      | Title    | Tags                                                                                                                                           |
+| --------------------------------------------------------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
+| [[Projects/Library/500/510/510\|510]]                  | 510      | <ul><li>#ML_</li><li>#Natural_Language_Processing</li></ul>                                                                                    |
+| [[Projects/Library/600/620/620.10/620.10 a\|620.10 a]] | 620.10 a | <ul><li>#ML_Libraries_and_Implementation</li><li>#Data_visualization</li><li>#Seabornn</li><li>#Seaborn_Fundamental</li><li>#Seaborn</li></ul> |
+| [[Projects/Library/600/620/620.10/620.10\|620.10]]     | 620.10   | <ul><li>#ML_Libraries_and_Implementation</li><li>#Data_visualization</li><li>#Seabornn</li></ul>                                               |
+| [[Projects/Library/600/620/620.00/620.00 a\|620.00 a]] | 620.00 a | <ul><li>#ML_Libraries_and_Implementation</li><li>#Data_visualization</li><li>#Matplotlib</li><li>#Matplotlib_Fundamental</li></ul>             |
+| [[Projects/Library/600/620/620.00/620.00\|620.00]]     | 620.00   | <ul><li>#ML_Libraries_and_Implementation</li><li>#Data_visualization</li><li>#Matplotlib</li></ul>                                             |
+| [[Projects/Library/600/610/610\|610]]                  | 610      | <ul><li>#ML_Libraries_and_Implementation</li><li>#Data_Handling</li></ul>                                                                      |
+| [[Projects/Library/600/610/610.10/610.10 b\|610.10 b]] | 610.10 b | <ul><li>#ML_Libraries_and_Implementation</li><li>#Data_Handling</li><li>#NumPy</li><li>#Numpy_Appllied_function</li></ul>                      |
 
 { .block-language-dataview}
 
