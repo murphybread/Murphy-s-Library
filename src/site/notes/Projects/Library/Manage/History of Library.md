@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/projects/library/manage/history-of-library/","noteIcon":"0","created":"2024-01-30T20:06:19.819+09:00","updated":"2024-02-27T17:08:12.308+09:00"}
+{"dg-publish":true,"permalink":"/projects/library/manage/history-of-library/","noteIcon":"0","created":"2024-01-30T20:06:19.819+09:00","updated":"2024-02-27T17:51:35.578+09:00"}
 ---
 
 #History #Versioning_Strategy 
@@ -1155,7 +1155,7 @@ So all python files and json files moved and exeucute in /Management
 
 # Change dataview query
 
-```
+```dataview-exmaple
 TABLE file.name AS title, file.path, file.mtime
 FROM "Projects/Library"
 WHERE dg-publish = true
@@ -1306,17 +1306,13 @@ This query is used for Recent Post in homepage.
 I delete file.path and add file.tags
 tags doesn't display backlink tags
 
-| File                                                      | Title    | Tags                                                                                               |
-| --------------------------------------------------------- | -------- | -------------------------------------------------------------------------------------------------- |
-| [[Projects/Library/800/810/810.00/810.00 a\|810.00 a]] | 810.00 a | <ul><li>#test_major</li><li>#test_minor</li><li>#test_sub</li><li>#test_book</li></ul>             |
-| [[Projects/Library/800/810/810.00/810.00\|810.00]]     | 810.00   | <ul><li>#test_major</li><li>#test_minor</li><li>#test_sub</li></ul>                                |
-| [[Projects/Library/800/810/810\|810]]                  | 810      | <ul><li>#test_major</li><li>#test_minor</li></ul>                                                  |
-| [[Projects/Library/800/800\|800]]                      | 800      | <ul><li>#test_major</li></ul>                                                                      |
-| [[Projects/Library/000/080/080.00/080.00\|080.00]]     | 080.00   | <ul><li>#IT_Knowledge</li><li>#English_for_IT_Workers</li><li>#Developer_English</li></ul>         |
-| [[Projects/Library/000/080/080\|080]]                  | 080      | <ul><li>#IT_Knowledge</li><li>#English_for_IT_Workers</li></ul>                                    |
-| [[Projects/Library/000/020/020.10/020.10 c\|020.10 c]] | 020.10 c | <ul><li>#IT_Knowledge</li><li>#Operation_Knowledge</li><li>#Git</li><li>#git_consturcure</li></ul> |
-
-{ .block-language-dataview}
+```dataview-example
+TABLE file.name AS Title, file.tags AS Tags
+FROM "Projects/Library"
+WHERE dg-publish = true
+SORT file.ctime DESC
+LIMIT 7
+```
 
 
 # 2.9.0
