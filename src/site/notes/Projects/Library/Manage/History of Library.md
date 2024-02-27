@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/projects/library/manage/history-of-library/","noteIcon":"0","created":"2024-01-30T20:06:19.819+09:00","updated":"2024-02-27T18:06:24.568+09:00"}
+{"dg-publish":true,"permalink":"/projects/library/manage/history-of-library/","noteIcon":"0","created":"2024-01-30T20:06:19.819+09:00","updated":"2024-02-27T22:36:37.779+09:00"}
 ---
 
 #History #Versioning_Strategy 
@@ -1136,6 +1136,8 @@ matching with current directory structure
     }
 }
 ```
+
+
 
 
 
