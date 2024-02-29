@@ -1,11 +1,8 @@
 ---
-{"dg-publish":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"noteIcon":"0","created":"2024-01-30T20:06:19.823+09:00","updated":"2024-02-21T02:08:17.543+09:00"}
+{"dg-publish":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"noteIcon":"0","created":"2024-01-30T20:06:19.823+09:00","updated":"2024-02-29T13:51:24.728+09:00"}
 ---
 
 #hompage #Library #Rules
-
-
-
 
 # Library Guidelines
 
@@ -18,16 +15,8 @@ The library call numbers are classified as follows:
 - 010 Middle category `010,020,030 ...`
 - 010.10: Minor category `010.10, 010.20, 010.30 ...`
 - 010.10 a: Articles category `010.10 a, 010.10 b, 010.10 c ...`
-  
-Notes with suffixes like"a" represent articles containing content, while other identifiers denote a range.
-You can view all notes call numbers at once
-
-
 2. Method through search
 - Search using contents, tags, numbers  related to the content or category range.
-
-
-
 
 
 <div class="transclusion internal-embed is-loaded"><div class="markdown-embed">
@@ -90,7 +79,7 @@ You can view all notes call numbers at once
 			- [[Projects/Library/400/410/410.20/410.20 a\|410.20 a]] Probability Distribution and Estimation
 			- [[Projects/Library/400/410/410.20/410.20 b\|410.20 b]] Maximum Likelihood Estimation(MLE) and Deep Learning
 		- [[Projects/Library/400/410/410.30/410.30\|410.30]] Calculus
-			- [[Projects/Library/400/410/410.30/410.30 a\|410.30 a]] fundamental 
+			- [[Projects/Library/400/410/410.30/410.30 a\|410.30 a]] fundamental
 	- [[Projects/Library/400/420/420\|420]] Data
 		- [[Projects/Library/400/420/420.00/420.00\|420.00]]  Structured Data
 			- [[Projects/Library/400/420/420.00/420.00 a\|420.00 a]] Numerical Data (Continuous and Discrete)
@@ -99,6 +88,9 @@ You can view all notes call numbers at once
 		- [[Projects/Library/400/420/420.20/420.20\|420.20]] Semi-structured Data
 			- [[Projects/Library/400/420/420.20/420.20 a\|420.20 a]] JSON
 			- [[Projects/Library/400/420/420.20/420.20 b\|420.20 b]] YAML
+	- [[Projects/Library/400/430/430\|430]] ML Development Tools
+		- [[Projects/Library/400/430/430.00/430.00\|430.00]] Streamlit
+			- [[Projects/Library/400/430/430.00/430.00 a\|430.00 a]] LLM RAG Application Using Langchain and FAISS
 - [[Projects/Library/500/500\|500]] ML and DL Modeling
 	- [[Projects/Library/500/510/510\|510]] Natural Language Processing (NLP)
 	- [[Projects/Library/500/520/520\|520]] Computer Vision
@@ -144,32 +136,23 @@ You can view all notes call numbers at once
 
 
 
+## Ongoing Projects
 
+[[Projects/Library/400/430/430.00/430.00 a\|430.00 a]]
 
 # Recent Posts
 
-| File                                                                  | Title              | Tags                                                                                                                     |
-| --------------------------------------------------------------------- | ------------------ | ------------------------------------------------------------------------------------------------------------------------ |
-| [[Projects/Library/Manage/History of Library\|History of Library]] | History of Library | <ul><li>#History</li><li>#Versioning_Strategy</li><li>#c4b7b7</li><li>#1077ffcb</li></ul>                                |
-| [[Projects/Library/700/710/710.00/710.00 a\|710.00 a]]             | 710.00 a           | <ul><li>#Research_Paper</li><li>#methodology</li><li>#Multi-agent_Reinforcement_Learning</li><li>#Base_Domains</li></ul> |
-| [[Projects/Library/000/080/080.00/080.00\|080.00]]                 | 080.00             | <ul><li>#IT_Knowledge</li><li>#English_for_IT_Workers</li><li>#Developer_English</li></ul>                               |
-| [[Projects/Library/000/080/080\|080]]                              | 080                | <ul><li>#IT_Knowledge</li><li>#English_for_IT_Workers</li></ul>                                                          |
-| [[Projects/Library/000/020/020.10/020.10 c\|020.10 c]]             | 020.10 c           | <ul><li>#IT_Knowledge</li><li>#Operation_Knowledge</li><li>#Git</li><li>#git_consturcure</li></ul>                       |
-| [[Projects/Library/000/020/020.10/020.10 b\|020.10 b]]             | 020.10 b           | <ul><li>#IT_Knowledge</li><li>#Operation_Knowledge</li><li>#Git</li><li>#git_commands</li></ul>                          |
-| [[Projects/Library/000/020/020.10/020.10 a\|020.10 a]]             | 020.10 a           | <ul><li>#IT_Knowledge</li><li>#Operation_Knowledge</li><li>#Git</li><li>#git_init</li></ul>                              |
+| File                                                                  | Title              | Tags                                                                                                                                           |
+| --------------------------------------------------------------------- | ------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------- |
+| [[Projects/Library/400/430/430.00/430.00 a\|430.00 a]]             | 430.00 a           | <ul><li>#ML_Engineer_Basic</li><li>#ML_Development_Tools</li><li>#Streamlit</li><li>#LLM_RAG_Application_Using_Langchain_and_FAISS</li></ul>   |
+| [[Projects/Library/400/430/430.00/430.00\|430.00]]                 | 430.00             | <ul><li>#ML_Engineer_Basic</li><li>#ML_Development_Tools</li><li>#Streamlit</li></ul>                                                          |
+| [[Projects/Library/400/430/430\|430]]                              | 430                | <ul><li>#ML_Engineer_Basic</li><li>#ML_Development_Tools</li></ul>                                                                             |
+| [[Projects/Library/000/010/010.10/010.10 a\|010.10 a]]             | 010.10 a           | <ul><li>#IT_Knowledge</li><li>#Develop_Knowledge</li><li>#Develop_Programming_Language</li><li>#Bash_shell</li><li>#ssh</li><li>#AWS</li></ul> |
+| [[Projects/Library/Manage/History of Library\|History of Library]] | History of Library | <ul><li>#History</li><li>#Versioning_Strategy</li><li>#c4b7b7</li><li>#1077ffcb</li></ul>                                                      |
+| [[Projects/Library/700/710/710.00/710.00 a\|710.00 a]]             | 710.00 a           | <ul><li>#Research_Paper</li><li>#methodology</li><li>#Multi-agent_Reinforcement_Learning</li><li>#Base_Domains</li></ul>                       |
+| [[Projects/Library/000/080/080.00/080.00\|080.00]]                 | 080.00             | <ul><li>#IT_Knowledge</li><li>#English_for_IT_Workers</li><li>#Developer_English</li></ul>                                                     |
 
 { .block-language-dataview}
-
-
-
-
----
-## On My Bookshelf
-
-
-
-## Ongoing Projects
-
 
 ## Link Trees
 
@@ -189,12 +172,6 @@ IT Community in Korea
 # History of Library
 Link:  [[Projects/Library/Manage/History of Library\|History of Library]]
 
-
-
-
-
-
-[![Velog's GitHub stats](https://velog-readme-stats.vercel.app/api/list?name=murphybread)](https://velog.io/@muphybread)
 
 
 
