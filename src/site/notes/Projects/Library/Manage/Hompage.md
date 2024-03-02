@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"noteIcon":"0","created":"2024-01-30T20:06:19.823+09:00","updated":"2024-02-29T13:51:24.728+09:00"}
+{"dg-publish":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"noteIcon":"0","created":"2024-01-30T20:06:19.823+09:00","updated":"2024-02-29T15:44:54.526+09:00"}
 ---
 
 #hompage #Library #Rules
@@ -38,7 +38,8 @@ The library call numbers are classified as follows:
 		- [[Projects/Library/000/020/020.10/020.10\|020.10]] Git
 			- [[Projects/Library/000/020/020.10/020.10 a\|020.10 a]] git init
 			- [[Projects/Library/000/020/020.10/020.10 b\|020.10 b]] git commands
-			- [[Projects/Library/000/020/020.10/020.10 c\|020.10 c]] git consturcure
+			- [[Projects/Library/000/020/020.10/020.10 c\|020.10 c]] git structure
+			- [[Projects/Library/000/020/020.10/020.10 d\|020.10 d]] git submodule
 	- [[Projects/Library/000/080/080\|080]] English for IT Workers
 		- [[Projects/Library/000/080/080.00/080.00\|080.00]] Developer English
 	- [[Projects/Library/000/090/090\|090]] External Insights an Trends
@@ -89,8 +90,10 @@ The library call numbers are classified as follows:
 			- [[Projects/Library/400/420/420.20/420.20 a\|420.20 a]] JSON
 			- [[Projects/Library/400/420/420.20/420.20 b\|420.20 b]] YAML
 	- [[Projects/Library/400/430/430\|430]] ML Development Tools
-		- [[Projects/Library/400/430/430.00/430.00\|430.00]] Streamlit
-			- [[Projects/Library/400/430/430.00/430.00 a\|430.00 a]] LLM RAG Application Using Langchain and FAISS
+		- [[Projects/Library/400/430/430.00/430.00\|430.00]] LangChain
+			- [[Projects/Library/400/430/430.00/430.00 a\|430.00 a]] Langchain Components
+		- [[Projects/Library/400/430/430.10/430.10\|430.10]] Streamlit
+			- [[Projects/Library/400/430/430.10/430.10 a\|430.10 a]] LLM RAG Application Using Langchain and FAISS
 - [[Projects/Library/500/500\|500]] ML and DL Modeling
 	- [[Projects/Library/500/510/510\|510]] Natural Language Processing (NLP)
 	- [[Projects/Library/500/520/520\|520]] Computer Vision
@@ -119,8 +122,6 @@ The library call numbers are classified as follows:
 	    - [[Projects/Library/600/630/630.30/630.30\|630.30]] Langchain
 		    - [[Projects/Library/600/630/630.30/630.30 a\|630.30 a]] Amazon Bedrock with RAG
 		    - [[Projects/Library/600/630/630.30/630.30 b\|630.30 b]] RAG with FAISS
-		- [[Projects/Library/600/630/630.40/630.40\|630.40]] boto3
-			- [[Projects/Library/600/630/630.40/630.40 a\|630.40 a]] Audio Summary (Transcribe, Sagemaker, Berock)
 - [[Projects/Library/700/700\|700]] Research Paper
 	- [[Projects/Library/700/710/710\|710]] methodology
 		- [[Projects/Library/700/710/710.00/710.00\|710.00]] Multi-agent Reinforcement Learning
@@ -138,19 +139,19 @@ The library call numbers are classified as follows:
 
 ## Ongoing Projects
 
-[[Projects/Library/400/430/430.00/430.00 a\|430.00 a]]
+[[Projects/Library/400/430/430.10/430.10 a\|430.10 a]]
 
 # Recent Posts
 
-| File                                                                  | Title              | Tags                                                                                                                                           |
-| --------------------------------------------------------------------- | ------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------- |
-| [[Projects/Library/400/430/430.00/430.00 a\|430.00 a]]             | 430.00 a           | <ul><li>#ML_Engineer_Basic</li><li>#ML_Development_Tools</li><li>#Streamlit</li><li>#LLM_RAG_Application_Using_Langchain_and_FAISS</li></ul>   |
-| [[Projects/Library/400/430/430.00/430.00\|430.00]]                 | 430.00             | <ul><li>#ML_Engineer_Basic</li><li>#ML_Development_Tools</li><li>#Streamlit</li></ul>                                                          |
-| [[Projects/Library/400/430/430\|430]]                              | 430                | <ul><li>#ML_Engineer_Basic</li><li>#ML_Development_Tools</li></ul>                                                                             |
-| [[Projects/Library/000/010/010.10/010.10 a\|010.10 a]]             | 010.10 a           | <ul><li>#IT_Knowledge</li><li>#Develop_Knowledge</li><li>#Develop_Programming_Language</li><li>#Bash_shell</li><li>#ssh</li><li>#AWS</li></ul> |
-| [[Projects/Library/Manage/History of Library\|History of Library]] | History of Library | <ul><li>#History</li><li>#Versioning_Strategy</li><li>#c4b7b7</li><li>#1077ffcb</li></ul>                                                      |
-| [[Projects/Library/700/710/710.00/710.00 a\|710.00 a]]             | 710.00 a           | <ul><li>#Research_Paper</li><li>#methodology</li><li>#Multi-agent_Reinforcement_Learning</li><li>#Base_Domains</li></ul>                       |
-| [[Projects/Library/000/080/080.00/080.00\|080.00]]                 | 080.00             | <ul><li>#IT_Knowledge</li><li>#English_for_IT_Workers</li><li>#Developer_English</li></ul>                                                     |
+| File                                                                  | Title              | Tags                                                                                                                                         |
+| --------------------------------------------------------------------- | ------------------ | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| [[Projects/Library/000/020/020.10/020.10 d\|020.10 d]]             | 020.10 d           | <ul><li>#IT_Knowledge</li><li>#Operation_Knowledge</li><li>#Git</li><li>#git_submodule</li></ul>                                             |
+| [[Projects/Library/400/430/430.00/430.00 a\|430.00 a]]             | 430.00 a           | <ul><li>#ML_Engineer_Basic</li><li>#ML_Development_Tools</li><li>#LangChain</li><li>#Langchain_Components</li><li>#RAG</li></ul>             |
+| [[Projects/Library/Manage/History of Library\|History of Library]] | History of Library | <ul><li>#History</li><li>#Versioning_Strategy</li><li>#c4b7b7</li><li>#1077ffcb</li></ul>                                                    |
+| [[Projects/Library/400/430/430.10/430.10 a\|430.10 a]]             | 430.10 a           | <ul><li>#ML_Engineer_Basic</li><li>#ML_Development_Tools</li><li>#Streamlit</li><li>#LLM_RAG_Application_Using_Langchain_and_FAISS</li></ul> |
+| [[Projects/Library/400/410/410.30/410.30\|410.30]]                 | 410.30             | <ul><li>#ML_Engineer_Basic</li><li>#Mathematics</li><li>#Calculus</li></ul>                                                                  |
+| [[Projects/Library/400/430/430.10/430.10\|430.10]]                 | 430.10             | <ul><li>#ML_Engineer_Basic</li><li>#ML_Development_Tools</li><li>#Streamlit</li></ul>                                                        |
+| [[Projects/Library/400/410/410.30/410.30 a\|410.30 a]]             | 410.30 a           | <ul><li>#ML_Engineer_Basic</li><li>#Mathematics</li><li>#Calculus</li><li>#fundamental</li></ul>                                             |
 
 { .block-language-dataview}
 
