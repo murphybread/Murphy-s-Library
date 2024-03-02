@@ -1,10 +1,39 @@
 ---
-{"dg-publish":true,"permalink":"/projects/library/manage/history-of-library/","noteIcon":"0","created":"2024-01-30T20:06:19.819+09:00","updated":"2024-02-27T22:36:37.779+09:00"}
+{"dg-publish":true,"permalink":"/projects/library/manage/history-of-library/","noteIcon":"0","created":"2024-01-30T20:06:19.819+09:00","updated":"2024-03-02T23:50:36.031+09:00"}
 ---
 
 #History #Versioning_Strategy 
 
 # Versioning Standard
+
+
+
+
+
+# 1.1.0-LB
+
+> Two template post formats, depending on whether the content has a source or not
+
+## **Template 1: For Content with a Source**
+### Audience
+Target audience or group
+### Features
+Key functionalities and benefits
+### Usage
+Step-by-step implementation guide.
+
+
+## **Template 2: For Content without a Source**
+### Audience
+Target audience or group
+### Overview
+Purpose, summary, and key learnings
+### Content
+Main body of article
+### Conclusion
+Technical and key summary of the article
+
+
 
 
 
@@ -17,6 +46,9 @@ major md file tags `#[[800]]#test_major`
 minor md file tags  `#[[800]]#test_major#[[810]]#test_minor`
 sub md file tags  `#[[800]]#test_major#[[810]]#test_minor#[[810.00]]#test_sub`
 books md file tags  `#[[800]]#test_major#[[810]]#test_minor#[[810.00]]#test_sub#[[810.00 a]]#test_book`
+
+
+automation.py
 
 
 ## 3 steps
