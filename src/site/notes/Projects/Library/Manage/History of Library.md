@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/projects/library/manage/history-of-library/","noteIcon":"0","created":"2024-01-30T20:06:19.819+09:00","updated":"2024-03-02T23:50:36.031+09:00"}
+{"dg-publish":true,"permalink":"/projects/library/manage/history-of-library/","noteIcon":"0","created":"2024-01-30T20:06:19.819+09:00","updated":"2024-03-04T01:20:12.860+09:00"}
 ---
 
 #History #Versioning_Strategy 
@@ -9,6 +9,29 @@
 
 
 
+
+# 1.1.1-PY
+> Overwrite the article's tag line
+
+Modify exist `add_tags_to_md_files` function
+What i want to do is overwrite the files' tag line. It is because a new tag is being added to an already existing tag
+So I modify this part. first get distinguish body. by the split function divide tag and contents. And Combine these properly
+
+
+```
+                        if "---" in content and new_tag:
+                            parts = content.split("---", 2)
+                            if len(parts) == 3:
+                                header, middle, body = parts                              
+                                body_lines = body.split('\n', 2)
+                                
+                                modified_body = f"{new_tag}\n{body_lines[2]}" if len(body_lines) > 1 else new_tag
+                                new_content = f"---{middle}---\n{modified_body}"  # Reassemble the new content
+                                
+                                f.write(new_content)
+                                f.truncate()  # Remove the rest of the old content
+                                print(f"Added tag to {new_tag}")
+```
 
 # 1.1.0-LB
 
