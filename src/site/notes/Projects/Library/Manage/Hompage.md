@@ -80,7 +80,7 @@ The library call numbers are classified as follows:
 			- [[Projects/Library/400/410/410.20/410.20 a\|410.20 a]] Probability Distribution and Estimation
 			- [[Projects/Library/400/410/410.20/410.20 b\|410.20 b]] Maximum Likelihood Estimation(MLE) and Deep Learning
 		- [[Projects/Library/400/410/410.30/410.30\|410.30]] Calculus
-			- [[Projects/Library/400/410/410.30/410.30 a\|410.30 a]] fundamental
+			- [[Projects/Library/400/410/410.30/410.30 a\|410.30 a]] Fundamental
 	- [[Projects/Library/400/420/420\|420]] Data
 		- [[Projects/Library/400/420/420.00/420.00\|420.00]]  Structured Data
 			- [[Projects/Library/400/420/420.00/420.00 a\|420.00 a]] Numerical Data (Continuous and Discrete)
@@ -145,13 +145,13 @@ The library call numbers are classified as follows:
 
 | File                                                                  | Title              | Tags                                                                                                                                         |
 | --------------------------------------------------------------------- | ------------------ | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| [[Projects/Library/Manage/History of Library\|History of Library]] | History of Library | <ul><li>#History</li><li>#Versioning_Strategy</li><li>#c4b7b7</li><li>#1077ffcb</li></ul>                                                    |
+| [[Projects/Library/400/410/410.30/410.30 a\|410.30 a]]             | 410.30 a           | <ul><li>#ML_Engineer_Basic</li><li>#Mathematics</li><li>#Calculus</li><li>#Fundamental</li></ul>                                             |
 | [[Projects/Library/000/020/020.10/020.10 d\|020.10 d]]             | 020.10 d           | <ul><li>#IT_Knowledge</li><li>#Operation_Knowledge</li><li>#Git</li><li>#git_submodule</li></ul>                                             |
 | [[Projects/Library/400/430/430.00/430.00 a\|430.00 a]]             | 430.00 a           | <ul><li>#ML_Engineer_Basic</li><li>#ML_Development_Tools</li><li>#LangChain</li><li>#Langchain_Components</li><li>#RAG</li></ul>             |
-| [[Projects/Library/Manage/History of Library\|History of Library]] | History of Library | <ul><li>#History</li><li>#Versioning_Strategy</li><li>#c4b7b7</li><li>#1077ffcb</li></ul>                                                    |
 | [[Projects/Library/400/430/430.10/430.10 a\|430.10 a]]             | 430.10 a           | <ul><li>#ML_Engineer_Basic</li><li>#ML_Development_Tools</li><li>#Streamlit</li><li>#LLM_RAG_Application_Using_Langchain_and_FAISS</li></ul> |
 | [[Projects/Library/400/410/410.30/410.30\|410.30]]                 | 410.30             | <ul><li>#ML_Engineer_Basic</li><li>#Mathematics</li><li>#Calculus</li></ul>                                                                  |
 | [[Projects/Library/400/430/430.10/430.10\|430.10]]                 | 430.10             | <ul><li>#ML_Engineer_Basic</li><li>#ML_Development_Tools</li><li>#Streamlit</li></ul>                                                        |
-| [[Projects/Library/400/410/410.30/410.30 a\|410.30 a]]             | 410.30 a           | <ul><li>#ML_Engineer_Basic</li><li>#Mathematics</li><li>#Calculus</li><li>#fundamental</li></ul>                                             |
 
 { .block-language-dataview}
 
