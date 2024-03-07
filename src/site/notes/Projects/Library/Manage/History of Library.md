@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/projects/library/manage/history-of-library/","noteIcon":"0","created":"2024-01-30T20:06:19.819+09:00","updated":"2024-03-04T01:20:12.860+09:00"}
+{"dg-publish":true,"permalink":"/projects/library/manage/history-of-library/","noteIcon":"0","created":"2023-12-31T20:39:20.070+09:00","updated":"2024-03-07T15:55:34.942+09:00"}
 ---
 
 #History #Versioning_Strategy 
@@ -7,6 +7,13 @@
 # Versioning Standard
 
 
+
+
+
+# 1.1.2-LB
+>Using gist for centralized management for code snippets
+
+WYSIWIG
 
 
 
@@ -37,26 +44,12 @@ So I modify this part. first get distinguish body. by the split function divide 
 
 > Two template post formats, depending on whether the content has a source or not
 
+
 ## **Template 1: For Content with a Source**
-### Audience
-Target audience or group
-### Features
-Key functionalities and benefits
-### Usage
-Step-by-step implementation guide.
-
-
+![template for article](./Template%20(Source))
 ## **Template 2: For Content without a Source**
-### Audience
-Target audience or group
-### Overview
-Purpose, summary, and key learnings
-### Content
-Main body of article
-### Conclusion
-Technical and key summary of the article
 
-
+![template for article](./Template%20(No%20Source))
 
 
 
@@ -117,10 +110,10 @@ Understanding data structures and creating variables with JSON enables this recu
     
     if major_code:
         major_info = json_structure.get("MajorCategories", {}).get(major_code, {})
-        tag += f"#[[{major_code}]]#{major_info.get('title', '').replace(' ', '_')}"
+        tag += f"#[[{major_code}\|{major_code}]]#{major_info.get('title', '').replace(' ', '_')}"
     if minor_code:
         minor_info = major_info.get("MinorCategories", {}).get(minor_code, {})
-        tag += f"#[[{minor_code}]]#{minor_info.get('title', '').replace(' ', '_')}"
+        tag += f"#[[{minor_code}\|{minor_code}]]#{minor_info.get('title', '').replace(' ', '_')}"
     if sub_code:
         sub_info = minor_info.get("Subcategories", {}).get(f"{minor_code}.{sub_code}", {})
         tag += f"#[[{minor_code}.{sub_code}]]#{sub_info.get('title', '').replace(' ', '_')}"
@@ -320,6 +313,7 @@ body {
 
 # code font and color change
 just code element not working so , important used
+```
 code {
     background-color: #c4b7b7 !important;
     color: #1077ffcb !important;
@@ -858,7 +852,7 @@ def construct_major_tag(major_code, structure):
         "MinorCategories", {}
     )
     for minor_key in minor_categories.keys():
-        tag += f"#[[{minor_key}]]"
+        tag += f"#[[{minor_key}\|{minor_key}]]"
     return tag
 
 
@@ -866,12 +860,12 @@ def construct_minor_tag(minor_code, structure):
     for major_key, major_val in structure["MajorCategories"].items():
         if minor_code in major_val["MinorCategories"]:
             major_value = major_val["value"]
-            tag = f"#[[{major_value}]]#[[{minor_code}]]"
+            tag = f"#[[{major_value}\|{major_value}]]#[[{minor_code}]]"
             subcategories = major_val["MinorCategories"][minor_code].get(
                 "Subcategories", {}
             )
             for sub_key in subcategories.keys():
-                tag += f"#[[{sub_key}]]"
+                tag += f"#[[{sub_key}\|{sub_key}]]"
             return tag
     return ""
 
@@ -880,7 +874,7 @@ def construct_subcategory_tag(sub_code, structure):
     for major_key, major_val in structure["MajorCategories"].items():
         for minor_key, minor_val in major_val.get("MinorCategories", {}).items():
             if sub_code in minor_val["Subcategories"]:
-                tag = f"#[[{sub_code}]]"
+                tag = f"#[[{sub_code}\|{sub_code}]]"
                 return tag
     return ""
 
@@ -890,7 +884,7 @@ def construct_book_tag(book_code, structure):
         for minor_key, minor_val in major_val.get("MinorCategories", {}).items():
             for sub_key, sub_val in minor_val.get("Subcategories", {}).items():
                 if book_code.startswith(sub_key):
-                    tag = f"#[[{sub_key}]]#[[{book_code}]]"
+                    tag = f"#[[{sub_key}\|{sub_key}]]#[[{book_code}\|{book_code}]]"
                     return tag
     return ""
 
@@ -1287,12 +1281,12 @@ Major category indent was wrong
 
 As-is Used this structure pattern
 ```
-[[000]] IT Knowledge
-- [[010]] Develop Knowledge
-	- [[010.00]] Develop Computer Science Knowledge
-		- [[010.00 a]] Essential Developer Insights
-	- [[010.10]] Develop Programming Language
-		- [[010.10 a]] Bash shell
+[[Projects/Library/000/000\|000]] IT Knowledge
+- [[Projects/Library/000/010/010\|010]] Develop Knowledge
+	- [[Projects/Library/000/010/010.00/010.00\|010.00]] Develop Computer Science Knowledge
+		- [[Projects/Library/000/010/010.00/010.00 a\|010.00 a]] Essential Developer Insights
+	- [[Projects/Library/000/010/010.10/010.10\|010.10]] Develop Programming Language
+		- [[Projects/Library/000/010/010.10/010.10 a\|010.10 a]] Bash shell
 
 ```
 
@@ -1303,12 +1297,12 @@ That makes preview error indent and line break
 
 ### First Change call number md file like this
 ```
-- [[000]] IT Knowledge
-	- [[010]] Develop Knowledge
-		- [[010.00]] Develop Computer Science Knowledge
-			- [[010.00 a]] Essential Developer Insights
-		- [[010.10]] Develop Programming Language
-			- [[010.10 a]] Bash shell
+- [[Projects/Library/000/000\|000]] IT Knowledge
+	- [[Projects/Library/000/010/010\|010]] Develop Knowledge
+		- [[Projects/Library/000/010/010.00/010.00\|010.00]] Develop Computer Science Knowledge
+			- [[Projects/Library/000/010/010.00/010.00 a\|010.00 a]] Essential Developer Insights
+		- [[Projects/Library/000/010/010.10/010.10\|010.10]] Develop Programming Language
+			- [[Projects/Library/000/010/010.10/010.10 a\|010.10 a]] Bash shell
 ```
 
 ### Second Change convert_josn.py 
@@ -1412,7 +1406,7 @@ def construct_tag(file_name, json_structure):
         # Construct the tag with the title, replacing spaces with underscores
         if broader_category and title:
             title_sanitized = title.replace(" ", "_")
-            tag = f"#[[{broader_category}]]#[[{major}]]#[[{major}.{minor}]]#[[{book_category_code}]]#{title_sanitized}"
+            tag = f"#[[{broader_category}\|{broader_category}]]#[[{major}\|{major}]]#[[{major}.{minor}\|{major}.{minor}]]#[[{book_category_code}\|{book_category_code}]]#{title_sanitized}"
             return tag
         else:
             return "Tag construction failed: Title not found."
