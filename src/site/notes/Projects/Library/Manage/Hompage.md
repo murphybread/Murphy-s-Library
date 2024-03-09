@@ -27,7 +27,7 @@ The library call numbers are classified as follows:
 	- [[Projects/Library/000/010/010\|010]] Develop Knowledge
 		- [[Projects/Library/000/010/010.00/010.00\|010.00]] Develop Computer Science Knowledge
 			- [[Projects/Library/000/010/010.00/010.00 a\|010.00 a]] Essential Developer Insights
-			- [[Projects/Library/000/010/010.00/010.00 b\|010.00 b]] Industry Domain Knowledge
+			- [[Projects/Library/Manage/Librarian/010.00 b\|010.00 b]] Industry Domain Knowledge
 		- [[Projects/Library/000/010/010.10/010.10\|010.10]] Develop Programming Language
 			- [[Projects/Library/000/010/010.10/010.10 a\|010.10 a]] Bash shell
 	- [[Projects/Library/000/020/020\|020]] Operation Knowledge
@@ -63,8 +63,8 @@ The library call numbers are classified as follows:
 			- [[Projects/Library/300/310/310.00/310.00 a\|310.00 a]] Terminal
 			- [[Projects/Library/300/310/310.00/310.00 b\|310.00 b]] Colab
 		- [[310.10\|310.10]] Conda
-			- [[Projects/Library/Entrance/310.10 a\|310.10 a]] Conda base
-			- [[Projects/Library/Entrance/310.10 b\|310.10 b]] Conda License
+			- [[Projects/Library/300/310/310.10/310.10 a\|310.10 a]] Conda base
+			- [[Projects/Library/300/310/310.10/310.10 b\|310.10 b]] Conda License
 	- [[Projects/Library/300/320/320\|320]] Frontend
 		- [[Projects/Library/300/320/320.00/320.00\|320.00]] HTML
 		- [[Projects/Library/300/320/320.10/320.10\|320.10]] CSS
@@ -98,6 +98,9 @@ The library call numbers are classified as follows:
 			- [[Projects/Library/400/430/430.00/430.00 a\|430.00 a]] Langchain Components
 		- [[Projects/Library/400/430/430.10/430.10\|430.10]] Streamlit
 			- [[Projects/Library/400/430/430.10/430.10 a\|430.10 a]] LLM RAG Application Using Langchain and FAISS
+	- [[Projects/Library/400/440/440\|440]] ML Methodology
+		- [[Projects/Library/400/440/440.00/440.00\|440.00]] EDA(Exploratory Data Analysis)
+			- [[Projects/Library/400/440/440.00/440.00 a\|440.00 a]] Initiating Exploratory Data Analysis
 - [[Projects/Library/500/500\|500]] ML and DL Modeling
 	- [[Projects/Library/500/510/510\|510]] Natural Language Processing (NLP)
 	- [[Projects/Library/500/520/520\|520]] Computer Vision
@@ -147,15 +150,15 @@ The library call numbers are classified as follows:
 
 # Recent Posts
 
-| File                                                                  | Title              | Tags                                                                                                                                                                                                                                                                        |
-| --------------------------------------------------------------------- | ------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [[Projects/Library/Manage/History of Library\|History of Library]] | History of Library | <ul><li>#History</li><li>#Versioning_Strategy</li><li>#f4f4f4</li><li>#d4c7c7b0</li><li>#f36d33</li><li>#f7f7f7</li><li>#e1e1e8</li><li>#6699cc</li><li>#eff0f1</li><li>#dcdcdc</li><li>#c7254e</li><li>#c4b7b7</li><li>#0146a1cb</li><li>#ff6347</li><li>#f5f5f5</li></ul> |
-| [[Projects/Library/Entrance/310.10 b\|310.10 b]]                   | 310.10 b           | <ul></ul>                                                                                                                                                                                                                                                                   |
-| [[Projects/Library/Entrance/310.10 a\|310.10 a]]                   | 310.10 a           | <ul></ul>                                                                                                                                                                                                                                                                   |
-| [[Projects/Library/000/010/010.10/010.10 a\|010.10 a]]             | 010.10 a           | <ul><li>#IT_Knowledge</li><li>#Develop_Knowledge</li><li>#Develop_Programming_Language</li><li>#Bash_shell</li><li>#ssh</li><li>#AWS</li></ul>                                                                                                                              |
-| [[Projects/Library/000/020/020.10/020.10 d\|020.10 d]]             | 020.10 d           | <ul><li>#IT_Knowledge</li><li>#Operation_Knowledge</li><li>#Git</li><li>#git_submodule</li></ul>                                                                                                                                                                            |
-| [[Projects/Library/000/020/020.10/020.10 e\|020.10 e]]             | 020.10 e           | <ul><li>#IT_Knowledge</li><li>#Operation_Knowledge</li><li>#Git</li><li>#git_gist</li><li>#gist</li></ul>                                                                                                                                                                   |
-| [[Projects/Library/400/410/410.30/410.30 a\|410.30 a]]             | 410.30 a           | <ul><li>#ML_Engineer_Basic</li><li>#Mathematics</li><li>#Calculus</li><li>#Fundamental</li></ul>                                                                                                                                                                            |
+| File                                                      | Title    | Tags                                                                                                                             |
+| --------------------------------------------------------- | -------- | -------------------------------------------------------------------------------------------------------------------------------- |
+| [[Projects/Library/400/440/440.00/440.00\|440.00]]     | 440.00   | <ul><li>#ML_Engineer_Basic</li><li>#ML_Methodology</li><li>#EDA</li></ul>                                                        |
+| [[Projects/Library/400/440/440.00/440.00 a\|440.00 a]] | 440.00 a | <ul><li>#ML_Engineer_Basic</li><li>#ML_Methodology</li><li>#EDA</li><li>#Initiating_Exploratory_Data_Analysis</li></ul>          |
+| [[Projects/Library/300/310/310.10/310.10 b\|310.10 b]] | 310.10 b | <ul><li>#Applications</li><li>#Development_Environment</li><li>#Conda</li><li>#Conda_License</li></ul>                           |
+| [[Projects/Library/400/440/440\|440]]                  | 440      | <ul><li>#ML_Engineer_Basic</li><li>#ML_Methodology</li></ul>                                                                     |
+| [[Projects/Library/300/310/310.10/310.10 a\|310.10 a]] | 310.10 a | <ul><li>#Applications</li><li>#Development_Environment</li><li>#Conda</li><li>#Conda_base</li></ul>                              |
+| [[Projects/Library/000/020/020.10/020.10 e\|020.10 e]] | 020.10 e | <ul><li>#IT_Knowledge</li><li>#Operation_Knowledge</li><li>#Git</li><li>#git_gist</li><li>#gist</li></ul>                        |
+| [[Projects/Library/400/430/430.00/430.00 a\|430.00 a]] | 430.00 a | <ul><li>#ML_Engineer_Basic</li><li>#ML_Development_Tools</li><li>#LangChain</li><li>#Langchain_Components</li><li>#RAG</li></ul> |
 
 { .block-language-dataview}
 
