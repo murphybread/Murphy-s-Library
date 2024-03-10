@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/projects/library/manage/history-of-library/","noteIcon":"0","created":"2023-12-31T20:39:20.070+09:00","updated":"2024-03-07T15:55:34.942+09:00"}
+{"dg-publish":true,"permalink":"/projects/library/manage/history-of-library/","noteIcon":"0","created":"2023-12-31T20:39:20.070+09:00","updated":"2024-03-11T00:59:53.587+09:00"}
 ---
 
 #History #Versioning_Strategy 
@@ -10,12 +10,38 @@
 
 
 
+# 1.2.0-PY
+> create template file for initial RAG state
+
+Before we implement RAG, we want to break it down into two stages. After all, when we first implement RAG, we will be passing the context in the form of an LLM, which is inefficient in terms of speed and ocst if it contains all the content.
+First stage without content (000.010,010.00 etc.) and second stage with content (010.00 a, 010.00 etc.)
+Create a file that only knows the descriptions of the files containing content files by pulling their filenames and descriptions from the first stage.
+
+What we've updated in this version is a python file that creates a template for the primary stage
+The important things in that file are paths and Regex.
+
+Executable path some_path/Managed/create_base_template.py
+Reading path some_path/Library/Managed/...
+Writing file path some_path/Managed/Librarian/template.md
+
+It's important to make sure the path is readable, and which regular expression is used to read the file.
+The module has two functions
+The first one extracts the description. The main point is to extract the content from the footer via `r'^---\n(.*?)\n---'` and then extract the description via metadata.group(1), i.e. the data must be in the promised format.
+The second is recursively searching through rglob and returning by mdfile starting with 3 digits via regular expression
+
+## create_base_template.py
+
+<iframe src="https://gist.github.com/murphybread/a0a351e489cde4b2064fcd3a7855d885.pibb?file=create_base_template.py" width="70%" height="300"></iframe>
+
 # 1.1.2-LB
 >Using gist for centralized management for code snippets
 
 WYSIWIG
+Key point is .pibb. for using my web
+```
+<iframe src="https://gist.github.com/murphybread/a0a351e489cde4b2064fcd3a7855d885.pibb?file=automation.py" width="100%" height="300"></iframe>
 
-
+```
 
 # 1.1.1-PY
 > Overwrite the article's tag line
