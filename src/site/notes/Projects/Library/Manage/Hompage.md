@@ -1,22 +1,8 @@
 ---
-{"dg-publish":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"noteIcon":"0","created":"2024-01-30T20:06:19.823+09:00","updated":"2024-02-29T15:44:54.526+09:00"}
+{"dg-publish":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"noteIcon":"0","created":"2024-01-30T20:06:19.823+09:00","updated":"2024-03-12T12:11:12.378+09:00"}
 ---
 
 #hompage #Library #Rules
-
-# Library Guidelines
-
->  In the library, you can find information by following these rules
-
-1. Method of approaching from major to minor categories
-The library call numbers are classified as follows:
-
-- 000: Major category `100,200,300 ...`
-- 010 Middle category `010,020,030 ...`
-- 010.10: Minor category `010.10, 010.20, 010.30 ...`
-- 010.10 a: Articles category `010.10 a, 010.10 b, 010.10 c ...`
-2. Method through search
-- Search using contents, tags, numbers  related to the content or category range.
 
 
 <div class="transclusion internal-embed is-loaded"><div class="markdown-embed">
@@ -129,6 +115,9 @@ The library call numbers are classified as follows:
 	    - [[Projects/Library/600/630/630.30/630.30\|630.30]] Langchain
 		    - [[Projects/Library/600/630/630.30/630.30 a\|630.30 a]] Amazon Bedrock with RAG
 		    - [[Projects/Library/600/630/630.30/630.30 b\|630.30 b]] RAG with FAISS
+	- [[Projects/Library/Entrance/640\|640]] Vector Database
+		- [[Projects/Library/Entrance/640.00\|640.00]] 
+			- [[Projects/Library/Entrance/640.00 a\|640.00 a]] Milvus
 - [[Projects/Library/700/700\|700]] Research Paper
 	- [[Projects/Library/700/710/710\|710]] methodology
 		- [[Projects/Library/700/710/710.00/710.00\|710.00]] Multi-agent Reinforcement Learning
@@ -146,19 +135,18 @@ The library call numbers are classified as follows:
 
 ## Ongoing Projects
 
-[[Projects/Library/400/430/430.10/430.10 a\|430.10 a]]
 
 # Recent Posts
 
 | File                                                                  | Title              | Tags                                                                                                                                                                                                                                                                        |
 | --------------------------------------------------------------------- | ------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [[Projects/Library/Entrance/640.00 a\|640.00 a]]                   | 640.00 a           | <ul></ul>                                                                                                                                                                                                                                                                   |
+| [[Projects/Library/Entrance/640\|640]]                             | 640                | <ul></ul>                                                                                                                                                                                                                                                                   |
+| [[Projects/Library/Entrance/640.00\|640.00]]                       | 640.00             | <ul></ul>                                                                                                                                                                                                                                                                   |
+| [[Projects/Library/000/020/020.10/020.10 d\|020.10 d]]             | 020.10 d           | <ul><li>#IT_Knowledge</li><li>#Operation_Knowledge</li><li>#Git</li><li>#git_submodule</li></ul>                                                                                                                                                                            |
 | [[Projects/Library/Manage/History of Library\|History of Library]] | History of Library | <ul><li>#History</li><li>#Versioning_Strategy</li><li>#f4f4f4</li><li>#d4c7c7b0</li><li>#f36d33</li><li>#f7f7f7</li><li>#e1e1e8</li><li>#6699cc</li><li>#eff0f1</li><li>#dcdcdc</li><li>#c7254e</li><li>#c4b7b7</li><li>#0146a1cb</li><li>#ff6347</li><li>#f5f5f5</li></ul> |
 | [[Projects/Library/000/000\|000]]                                  | 000                | <ul><li>#IT_Knowledge</li></ul>                                                                                                                                                                                                                                             |
 | [[Projects/Library/400/440/440.00/440.00\|440.00]]                 | 440.00             | <ul><li>#ML_Engineer_Basic</li><li>#ML_Methodology</li><li>#EDA</li></ul>                                                                                                                                                                                                   |
-| [[Projects/Library/400/440/440.00/440.00 a\|440.00 a]]             | 440.00 a           | <ul><li>#ML_Engineer_Basic</li><li>#ML_Methodology</li><li>#EDA</li><li>#Initiating_Exploratory_Data_Analysis</li></ul>                                                                                                                                                     |
-| [[Projects/Library/400/440/440\|440]]                              | 440                | <ul><li>#ML_Engineer_Basic</li><li>#ML_Methodology</li></ul>                                                                                                                                                                                                                |
-| [[Projects/Library/300/310/310.10/310.10 b\|310.10 b]]             | 310.10 b           | <ul><li>#Applications</li><li>#Development_Environment</li><li>#Conda</li><li>#Conda_License</li></ul>                                                                                                                                                                      |
-| [[Projects/Library/300/310/310.10/310.10 a\|310.10 a]]             | 310.10 a           | <ul><li>#Applications</li><li>#Development_Environment</li><li>#Conda</li><li>#Conda_base</li></ul>                                                                                                                                                                         |
 
 { .block-language-dataview}
 
@@ -184,6 +172,3 @@ Link:  [[Projects/Library/Manage/History of Library\|History of Library]]
 
 
 
-
-
----
