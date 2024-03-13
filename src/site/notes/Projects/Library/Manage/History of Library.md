@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/projects/library/manage/history-of-library/","noteIcon":"0","created":"2023-12-31T20:39:20.070+09:00","updated":"2024-03-12T18:42:36.510+09:00"}
+{"dg-publish":true,"permalink":"/projects/library/manage/history-of-library/","noteIcon":"0","created":"2023-12-31T20:39:20.070+09:00","updated":"2024-03-12T18:43:13.795+09:00"}
 ---
 
 #History #Versioning_Strategy 
@@ -77,9 +77,6 @@ So I modify this part. first get distinguish body. by the split function divide 
 ## **Template 2: For Content without a Source**
 
 ![template for article](./Template%20(No%20Source))
-\
-![template for article](./Manage/%20(No%20Source))
-
 
 
 
