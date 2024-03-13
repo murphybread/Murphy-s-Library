@@ -115,9 +115,9 @@
 	    - [[Projects/Library/600/630/630.30/630.30\|630.30]] Langchain
 		    - [[Projects/Library/600/630/630.30/630.30 a\|630.30 a]] Amazon Bedrock with RAG
 		    - [[Projects/Library/600/630/630.30/630.30 b\|630.30 b]] RAG with FAISS
-	- [[Projects/Library/Entrance/640\|640]] Vector Database
-		- [[Projects/Library/Entrance/640.00\|640.00]] 
-			- [[Projects/Library/Entrance/640.00 a\|640.00 a]] Milvus
+	- [[Projects/Library/600/640/640\|640]] Vector Database
+		- [[Projects/Library/600/640/640.00/640.00\|640.00]] 
+			- [[Projects/Library/600/640/640.00/640.00 a\|640.00 a]] Milvus
 - [[Projects/Library/700/700\|700]] Research Paper
 	- [[Projects/Library/700/710/710\|710]] methodology
 		- [[Projects/Library/700/710/710.00/710.00\|710.00]] Multi-agent Reinforcement Learning
@@ -140,13 +140,13 @@
 
 | File                                                                      | Title                | Tags                                                                                                                                                                                                                                                                        |
 | ------------------------------------------------------------------------- | -------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [[Projects/Library/200/210/210.20/210.20 a\|210.20 a]]                 | 210.20 a             | <ul><li>#DevOps</li><li>#CICD</li><li>#DevOps_Solutions</li><li>#GitLab</li></ul>                                                                                                                                                                                           |
+| [[Projects/Library/600/640/640\|640]]                                  | 640                  | <ul><li>#ML_Libraries_and_Implementation</li><li>#Vector_Database</li></ul>                                                                                                                                                                                                 |
+| [[Projects/Library/600/640/640.00/640.00\|640.00]]                     | 640.00               | <ul><li>#ML_Libraries_and_Implementation</li><li>#Vector_Database</li></ul>                                                                                                                                                                                                 |
+| [[Projects/Library/600/640/640.00/640.00 a\|640.00 a]]                 | 640.00 a             | <ul><li>#ML_Libraries_and_Implementation</li><li>#Vector_Database</li><li>#Milvus</li></ul>                                                                                                                                                                                 |
+| [[Projects/Library/Manage/History of Library\|History of Library]]     | History of Library   | <ul><li>#History</li><li>#Versioning_Strategy</li><li>#f4f4f4</li><li>#d4c7c7b0</li><li>#f36d33</li><li>#f7f7f7</li><li>#e1e1e8</li><li>#6699cc</li><li>#eff0f1</li><li>#dcdcdc</li><li>#c7254e</li><li>#c4b7b7</li><li>#0146a1cb</li><li>#ff6347</li><li>#f5f5f5</li></ul> |
 | [[Projects/Library/Manage/Template (Source)\|Template (Source)]]       | Template (Source)    | <ul><li>#Tag</li></ul>                                                                                                                                                                                                                                                      |
 | [[Projects/Library/Manage/Template (No Source)\|Template (No Source)]] | Template (No Source) | <ul><li>#Tag</li></ul>                                                                                                                                                                                                                                                      |
-| [[Projects/Library/Manage/History of Library\|History of Library]]     | History of Library   | <ul><li>#History</li><li>#Versioning_Strategy</li><li>#f4f4f4</li><li>#d4c7c7b0</li><li>#f36d33</li><li>#f7f7f7</li><li>#e1e1e8</li><li>#6699cc</li><li>#eff0f1</li><li>#dcdcdc</li><li>#c7254e</li><li>#c4b7b7</li><li>#0146a1cb</li><li>#ff6347</li><li>#f5f5f5</li></ul> |
-| [[Projects/Library/Entrance/640.00 a\|640.00 a]]                       | 640.00 a             | <ul></ul>                                                                                                                                                                                                                                                                   |
-| [[Projects/Library/Entrance/640\|640]]                                 | 640                  | <ul></ul>                                                                                                                                                                                                                                                                   |
-| [[Projects/Library/Entrance/640.00\|640.00]]                           | 640.00               | <ul></ul>                                                                                                                                                                                                                                                                   |
-| [[Projects/Library/000/020/020.10/020.10 d\|020.10 d]]                 | 020.10 d             | <ul><li>#IT_Knowledge</li><li>#Operation_Knowledge</li><li>#Git</li><li>#git_submodule</li></ul>                                                                                                                                                                            |
 
 { .block-language-dataview}
 
