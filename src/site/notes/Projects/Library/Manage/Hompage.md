@@ -27,6 +27,9 @@
 			- [[Projects/Library/000/020/020.10/020.10 c\|020.10 c]] git structure
 			- [[Projects/Library/000/020/020.10/020.10 d\|020.10 d]] git submodule
 			- [[Projects/Library/000/020/020.10/020.10 e\|020.10 e]] git gist
+	- [[Projects/Library/000/030/030\|030]] Package
+		- [[Projects/Library/000/030/030.00/030.00\|030.00]] PIP
+			- [[Projects/Library/000/030/030.00/030.00 a\|030.00 a]] pip name and module name
 	- [[Projects/Library/000/080/080\|080]] English for IT Workers
 		- [[Projects/Library/000/080/080.00/080.00\|080.00]] Developer English
 	- [[Projects/Library/000/090/090\|090]] External Insights an Trends
@@ -119,7 +122,7 @@
 		- [[Projects/Library/600/640/640.00/640.00\|640.00]] 
 			- [[Projects/Library/600/640/640.00/640.00 a\|640.00 a]] Milvus
 - [[Projects/Library/700/700\|700]] Research Paper
-	- [[Projects/Library/700/710/710\|710]] methodology
+	- [[Projects/Library/700/710/710\|710]] methodologysh
 		- [[Projects/Library/700/710/710.00/710.00\|710.00]] Multi-agent Reinforcement Learning
 			- [[Projects/Library/700/710/710.00/710.00 a\|710.00 a]] Base Domains
 			- [[Projects/Library/700/710/710.00/710.00 b\|710.00 b]] Paper Review
@@ -138,15 +141,15 @@
 
 # Recent Posts
 
-| File                                                                      | Title                | Tags                                                                                                                                                                                                                                                                        |
-| ------------------------------------------------------------------------- | -------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [[Projects/Library/Manage/History of Library\|History of Library]]     | History of Library   | <ul><li>#History</li><li>#Versioning_Strategy</li><li>#f4f4f4</li><li>#d4c7c7b0</li><li>#f36d33</li><li>#f7f7f7</li><li>#e1e1e8</li><li>#6699cc</li><li>#eff0f1</li><li>#dcdcdc</li><li>#c7254e</li><li>#c4b7b7</li><li>#0146a1cb</li><li>#ff6347</li><li>#f5f5f5</li></ul> |
-| [[Projects/Library/200/210/210.20/210.20 a\|210.20 a]]                 | 210.20 a             | <ul><li>#DevOps</li><li>#CICD</li><li>#DevOps_Solutions</li><li>#GitLab</li></ul>                                                                                                                                                                                           |
-| [[Projects/Library/600/640/640\|640]]                                  | 640                  | <ul><li>#ML_Libraries_and_Implementation</li><li>#Vector_Database</li></ul>                                                                                                                                                                                                 |
-| [[Projects/Library/600/640/640.00/640.00\|640.00]]                     | 640.00               | <ul><li>#ML_Libraries_and_Implementation</li><li>#Vector_Database</li></ul>                                                                                                                                                                                                 |
-| [[Projects/Library/600/640/640.00/640.00 a\|640.00 a]]                 | 640.00 a             | <ul><li>#ML_Libraries_and_Implementation</li><li>#Vector_Database</li><li>#Milvus</li></ul>                                                                                                                                                                                 |
-| [[Projects/Library/Manage/Template (Source)\|Template (Source)]]       | Template (Source)    | <ul><li>#Tag</li></ul>                                                                                                                                                                                                                                                      |
-| [[Projects/Library/Manage/Template (No Source)\|Template (No Source)]] | Template (No Source) | <ul><li>#Tag</li></ul>                                                                                                                                                                                                                                                      |
+| File                                                                  | Title              | Tags                                                                                                                                                                                                                                                                        |
+| --------------------------------------------------------------------- | ------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [[Projects/Library/000/030/030.00/030.00 a\|030.00 a]]             | 030.00 a           | <ul><li>#IT_Knowledge</li><li>#Package</li><li>#PIP</li><li>#pip_name_and_module_name</li><li>#pip</li></ul>                                                                                                                                                                |
+| [[Projects/Library/000/030/030\|030]]                              | 030                | <ul><li>#IT_Knowledge</li><li>#Package</li></ul>                                                                                                                                                                                                                            |
+| [[Projects/Library/000/030/030.00/030.00\|030.00]]                 | 030.00             | <ul><li>#IT_Knowledge</li><li>#Package</li><li>#PIP</li></ul>                                                                                                                                                                                                               |
+| [[Projects/Library/Manage/Template (Source)\|Template (Source)]]   | Template (Source)  | <ul><li>#Tag</li></ul>                                                                                                                                                                                                                                                      |
+| [[Projects/Library/000/090/090.00/090.00\|090.00]]                 | 090.00             | <ul><li>#IT_Knowledge</li><li>#External_Insights_an_Trends</li><li>#Industry_Trends</li></ul>                                                                                                                                                                               |
+| [[Projects/Library/Manage/History of Library\|History of Library]] | History of Library | <ul><li>#History</li><li>#Versioning_Strategy</li><li>#f4f4f4</li><li>#d4c7c7b0</li><li>#f36d33</li><li>#f7f7f7</li><li>#e1e1e8</li><li>#6699cc</li><li>#eff0f1</li><li>#dcdcdc</li><li>#c7254e</li><li>#c4b7b7</li><li>#0146a1cb</li><li>#ff6347</li><li>#f5f5f5</li></ul> |
+| [[Projects/Library/200/210/210.20/210.20 a\|210.20 a]]             | 210.20 a           | <ul><li>#DevOps</li><li>#CICD</li><li>#DevOps_Solutions</li><li>#GitLab</li></ul>                                                                                                                                                                                           |
 
 { .block-language-dataview}
 
