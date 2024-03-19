@@ -1,10 +1,34 @@
 ---
-{"dg-publish":true,"permalink":"/projects/library/manage/history-of-library/","noteIcon":"0","created":"2023-12-31T20:39:20.070+09:00","updated":"2024-03-13T09:57:56.507+09:00"}
+{"dg-publish":true,"permalink":"/projects/library/manage/history-of-library/","noteIcon":"0","created":"2023-12-31T20:39:20.070+09:00","updated":"2024-03-19T12:18:11.587+09:00"}
 ---
 
 #History #Versioning_Strategy 
 
 # Versioning Standard
+
+
+# Initialize
+
+# 0.0.0-LB
+
+Major: The change creates a new process that may not work with the old process and requires significant consideration. Set version criteria more granularly
+Keep major, which generally means not backwards compatible, intact
+
+Minor: The change affects current processes and will require attention in the future. Minors are listed as feature additions. File creation, module additions, etc.
+However, some minors may be incompatible. Because they don't mean exactly the same thing
+For example, if a Python file in a certain version references example.txt, but you change it to base_template, it will not work in previous versions, but the purpose is for testing purposes, so it is considered MINOR in terms of impact.
+
+Patch: The change is minimal or don't require much attention after the change. especially Patches are improvements such as variable names, bug fixes, refactorings, etc. 
+
+
+
+The reason for the change is that I didn't have an explicit criterion for considering the version impact, and now it's explicit.
+
+
+
+
+
+# Below version is deprecated Because of Version Policy Changing
 
 
 
