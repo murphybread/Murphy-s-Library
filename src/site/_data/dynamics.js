@@ -1,7 +1,7 @@
 const fsFileTree = require("fs-file-tree");
 
 const BASE_PATH = "src/site/_includes/components/user";
-const STYLE_PATH = "src/site/styles/user";
+const STYLE_PATH = "src/site/styles/";
 const NAMESPACES = ["index", "notes", "common"];
 const SLOTS = ["head", "header", "beforeContent", "afterContent", "footer"];
 const FILE_TREE_NAMESPACE = "filetree";
