@@ -83,13 +83,15 @@ body {
 
 
 .markdown-rendered img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 70%; /* Adjust based on your needs */
+    display: block; /* Makes the image a block-level element */
+    margin: var(--infobox-margin) auto; /* Centers the image with automatic margins */
+    width: var(--image-width); /* Retains the variable-driven width */
+    background-color: var(--background-secondary-alt); /* Keeps your background color */
+    padding: 5px; /* Retains padding */
+    border: 1px var(--background-modifier-border) solid; /* Keeps the border */
+    max-width: var(--img-max-width); /* Retains the max-width setting */
 }
 
-// }
 
 /* Add a clear fix to the element following the floated image */
 .markdown-rendered p::before {
