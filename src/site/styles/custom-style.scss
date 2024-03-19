@@ -74,13 +74,20 @@ body {
 
 
 
+.markdown-rendered img.newline {
+    float: none;
+    display: block;
+    margin: auto; /* Center the image if desired */
+    width: 70%; /* or any other width */
+}
 
-.markdown-rendered img {
-    float: left !important;
-    width: 70% !important;
+
+// .markdown-rendered img {
+//     float: left !important;
+//     width: 70% !important;
     
 
-}
+// }
 
 /* Add a clear fix to the element following the floated image */
 .markdown-rendered p::before {
