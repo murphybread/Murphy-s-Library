@@ -1,14 +1,18 @@
 ---
-{"dg-publish":true,"permalink":"/projects/library/manage/history-of-library/","noteIcon":"0","created":"2023-12-31T20:39:20.070+09:00","updated":"2024-03-19T12:18:11.587+09:00"}
+{"dg-publish":true,"permalink":"/projects/library/manage/history-of-library/","noteIcon":"0","created":"2023-12-31T20:39:20.070+09:00","updated":"2024-03-19T12:18:51.246+09:00"}
 ---
 
 #History #Versioning_Strategy 
-
 # Versioning Standard
+[[Projects/Library/000/020/020.00/020.00 c\|020.00 c]]
+
+
+
+
+
 
 
 # Initialize
-
 # 0.0.0-LB
 
 Major: The change creates a new process that may not work with the old process and requires significant consideration. Set version criteria more granularly
