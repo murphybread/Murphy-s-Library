@@ -16,6 +16,7 @@
 			- [[Projects/Library/000/010/010.00/010.00 b\|010.00 b]] Industry Domain Knowledge
 		- [[Projects/Library/000/010/010.10/010.10\|010.10]] Develop Programming Language
 			- [[Projects/Library/000/010/010.10/010.10 a\|010.10 a]] Bash shell
+			- [[Projects/Library/000/010/010.10/010.10 b\|010.10 b]] Python
 	- [[Projects/Library/000/020/020\|020]] Operation Knowledge
 		- [[Projects/Library/000/020/020.00/020.00\|020.00]] Versioning
 			- [[Projects/Library/000/020/020.00/020.00 a\|020.00 a]] Sementic Verisioning
@@ -27,9 +28,12 @@
 			- [[Projects/Library/000/020/020.10/020.10 c\|020.10 c]] git structure
 			- [[Projects/Library/000/020/020.10/020.10 d\|020.10 d]] git submodule
 			- [[Projects/Library/000/020/020.10/020.10 e\|020.10 e]] git gist
+		- [[Projects/Library/000/020/020.20/020.20\|020.20]] Organizing Code Functions and Modules
+			- [[Projects/Library/000/020/020.20/020.20 a\|020.20 a]] Proper dividing for reusable modules
 	- [[Projects/Library/000/030/030\|030]] Package
 		- [[Projects/Library/000/030/030.00/030.00\|030.00]] PIP
 			- [[Projects/Library/000/030/030.00/030.00 a\|030.00 a]] pip name and module name
+			- [[030.00 b\|030.00 b]] pip packages pre option in requirements 
 	- [[Projects/Library/000/080/080\|080]] English for IT Workers
 		- [[Projects/Library/000/080/080.00/080.00\|080.00]] Developer English
 	- [[Projects/Library/000/090/090\|090]] External Insights an Trends
@@ -143,13 +147,13 @@
 
 | File                                                                  | Title              | Tags                                                                                                                                                                                                                                                                        |
 | --------------------------------------------------------------------- | ------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [[Projects/Library/000/030/030.00/030.00 a\|030.00 a]]             | 030.00 a           | <ul><li>#IT_Knowledge</li><li>#Package</li><li>#PIP</li><li>#pip_name_and_module_name</li><li>#pip</li></ul>                                                                                                                                                                |
-| [[Projects/Library/000/030/030\|030]]                              | 030                | <ul><li>#IT_Knowledge</li><li>#Package</li></ul>                                                                                                                                                                                                                            |
-| [[Projects/Library/000/030/030.00/030.00\|030.00]]                 | 030.00             | <ul><li>#IT_Knowledge</li><li>#Package</li><li>#PIP</li></ul>                                                                                                                                                                                                               |
-| [[Projects/Library/Manage/Template (Source)\|Template (Source)]]   | Template (Source)  | <ul><li>#Tag</li></ul>                                                                                                                                                                                                                                                      |
-| [[Projects/Library/000/090/090.00/090.00\|090.00]]                 | 090.00             | <ul><li>#IT_Knowledge</li><li>#External_Insights_an_Trends</li><li>#Industry_Trends</li></ul>                                                                                                                                                                               |
 | [[Projects/Library/Manage/History of Library\|History of Library]] | History of Library | <ul><li>#History</li><li>#Versioning_Strategy</li><li>#f4f4f4</li><li>#d4c7c7b0</li><li>#f36d33</li><li>#f7f7f7</li><li>#e1e1e8</li><li>#6699cc</li><li>#eff0f1</li><li>#dcdcdc</li><li>#c7254e</li><li>#c4b7b7</li><li>#0146a1cb</li><li>#ff6347</li><li>#f5f5f5</li></ul> |
-| [[Projects/Library/200/210/210.20/210.20 a\|210.20 a]]             | 210.20 a           | <ul><li>#DevOps</li><li>#CICD</li><li>#DevOps_Solutions</li><li>#GitLab</li></ul>                                                                                                                                                                                           |
+| [[Projects/Library/000/020/020.00/020.00 c\|020.00 c]]             | 020.00 c           | <ul><li>#IT_Knowledge</li><li>#Operation_Knowledge</li><li>#Versioning</li><li>#Versioning_Strategy</li></ul>                                                                                                                                                               |
+| [[Projects/Library/400/430/430.10/430.10 a\|430.10 a]]             | 430.10 a           | <ul><li>#ML_Engineer_Basic</li><li>#ML_Development_Tools</li><li>#Streamlit</li><li>#LLM_RAG_Application_Using_Langchain_and_FAISS</li></ul>                                                                                                                                |
+| [[Projects/Library/000/020/020.20/020.20\|020.20]]                 | 020.20             | <ul><li>#IT_Knowledge</li><li>#Operation_Knowledge</li><li>#Organizing_Code_Functions_and_Modules</li></ul>                                                                                                                                                                 |
+| [[Projects/Library/000/020/020.20/020.20 a\|020.20 a]]             | 020.20 a           | <ul><li>#IT_Knowledge</li><li>#Operation_Knowledge</li><li>#Organizing_Code_Functions_and_Modules</li><li>#Proper_dividing_for_reusable_modules</li><li>#Module</li><li>#methodology</li></ul>                                                                              |
+| [[Projects/Library/000/010/010.10/010.10 b\|010.10 b]]             | 010.10 b           | <ul><li>#IT_Knowledge</li><li>#Develop_Knowledge</li><li>#Develop_Programming_Language</li><li>#Python</li></ul>                                                                                                                                                            |
+| [[Projects/Library/000/030/030.00/030.00 a\|030.00 a]]             | 030.00 a           | <ul><li>#IT_Knowledge</li><li>#Package</li><li>#PIP</li><li>#pip_name_and_module_name</li><li>#pip</li></ul>                                                                                                                                                                |
 
 { .block-language-dataview}
 
