@@ -1,55 +1,15 @@
 ---
-{"dg-publish":true,"permalink":"/projects/library/manage/history-of-library/","noteIcon":"0","created":"2023-12-31T20:39:20.070+09:00","updated":"2024-03-19T13:40:42.182+09:00"}
+{"dg-publish":true,"permalink":"/projects/library/manage/history-of-library/","noteIcon":"0","created":"2023-12-31T20:39:20.070+09:00","updated":"2024-03-20T02:03:19.578+09:00"}
 ---
 
 #History #Versioning_Strategy 
 # Versioning Standard
 [[Projects/Library/000/020/020.00/020.00 c\|020.00 c]]
 
-# 0.0.1-LB
-## The Library Cleaning
-
-Changing History of Library.md from hardcoding to github gist
-Better viewing of code on screen in the UI
-
-Before
-After
 
 
-
-
-
-
-
-
-# Initialize
-# 0.0.0-LB
-
-Major: The change creates a new process that may not work with the old process and requires significant consideration. Set version criteria more granularly
-Keep major, which generally means not backwards compatible, intact
-
-Minor: The change affects current processes and will require attention in the future. Minors are listed as feature additions. File creation, module additions, etc.
-However, some minors may be incompatible. Because they don't mean exactly the same thing
-For example, if a Python file in a certain version references example.txt, but you change it to base_template, it will not work in previous versions, but the purpose is for testing purposes, so it is considered MINOR in terms of impact.
-
-Patch: The change is minimal or don't require much attention after the change. especially Patches are improvements such as variable names, bug fixes, refactorings, etc. 
-
-
-
-The reason for the change is that I didn't have an explicit criterion for considering the version impact, and now it's explicit.
-
-
-
-
-
-# Below version is deprecated Because of Version Policy Changing
-
-
-
-
-
-# 1.2.0-PY
-> create template file for initial RAG state
+# 0.4.0-PY
+## create template file for initial RAG state
 
 Before we implement RAG, we want to break it down into two stages. After all, when we first implement RAG, we will be passing the context in the form of an LLM, which is inefficient in terms of speed and ocst if it contains all the content.
 First stage without content (000.010,010.00 etc.) and second stage with content (010.00 a, 010.00 etc.)
@@ -67,22 +27,19 @@ The module has two functions
 The first one extracts the description. The main point is to extract the content from the footer via `r'^---\n(.*?)\n---'` and then extract the description via metadata.group(1), i.e. the data must be in the promised format.
 The second is recursively searching through rglob and returning by mdfile starting with 3 digits via regular expression
 
-## create_base_template.py
 
-<iframe src="https://gist.github.com/murphybread/a0a351e489cde4b2064fcd3a7855d885.pibb?file=create_base_template.py" width="70%" height="300"></iframe>
 
-# 1.1.2-LB
->Using gist for centralized management for code snippets
+# 0.3.4-LB
+## Using gist for centralized management for code snippets
 
 WYSIWIG
 Key point is .pibb. for using my web
 ```
 <iframe src="https://gist.github.com/murphybread/a0a351e489cde4b2064fcd3a7855d885.pibb?file=automation.py" width="100%" height="300"></iframe>
-
 ```
 
-# 1.1.1-PY
-> Overwrite the article's tag line
+# 0.3.3-PY
+## Overwrite the article's tag line
 
 Modify exist `add_tags_to_md_files` function
 What i want to do is overwrite the files' tag line. It is because a new tag is being added to an already existing tag
@@ -104,9 +61,9 @@ So I modify this part. first get distinguish body. by the split function divide 
                                 print(f"Added tag to {new_tag}")
 ```
 
-# 1.1.0-LB
+# 0.3.2-LB
 
-> Two template post formats, depending on whether the content has a source or not
+## Two template post formats, depending on whether the content has a source or not
 
 
 ## **Template 1: For Content with a Source**
@@ -159,8 +116,16 @@ This section summarizes the key findings and suggests next steps
 
 
 
+# 0.3.1-LB,OB
 
-# 1.0.0-LB,PY
+Structural management from one file  
+  
+In the case of `![[note_name]]` in obisidian's markdown grammar, it is called Wikilink, which shows the contents of the linked note. In other words, the mirroring method makes the two structures managed by Homepage and call-number-index manage in one place  
+  
+The result is easy to implement and easy to manage afterwards
+
+
+# 0.3.0-LB,PY
 
 This is what I want to do.
 
@@ -168,10 +133,6 @@ major md file tags `#[[800]]#test_major`
 minor md file tags  `#[[800]]#test_major#[[810]]#test_minor`
 sub md file tags  `#[[800]]#test_major#[[810]]#test_minor#[[810.00]]#test_sub`
 books md file tags  `#[[800]]#test_major#[[810]]#test_minor#[[810.00]]#test_sub#[[810.00 a]]#test_book`
-
-
-automation.py
-
 
 ## 3 steps
 ### Checking
@@ -236,11 +197,244 @@ Understanding data structures and creating variables with JSON enables this recu
 ```
 
 
+#  0.2.3-OB
+## Change dataview query
+
+```dataview-exmaple
+TABLE file.name AS title, file.path, file.mtime
+FROM "Projects/Library"
+WHERE dg-publish = true
+SORT file.ctime DESC
+LIMIT 7
+```
+
+Add Table attrivutes modifed time path and remove link
+Specifify query path "Projects/Library"
+Increase Limit to 7
+
+# 0.2.2-LB
+## Using GitHub to Share Synchronized Python Files Across Different Platforms
+
+### Problem
+
+The current Obsidian sync functionality only supports synchronization for files with Python file extensions, excluding files in other formats such as Markdown (md).
+
+Initial attempts involved converting Python files into Markdown (md) or inserting Python code into Markdown files. However, this approach resulted in excessive fragmentation and posed challenges for management.
+
+### Solution
+
+https://github.com/murphybread/Library
+
+To address this issue, the solution is to utilize GitHub links for syncing files between different platforms, such as Mac and Windows. This can be achieved by performing a 'git pull' to ensure synchronization with the latest version when starting work through the GitHub link.
+
+
+
+# 0.2.1-PY
+## dg-publish frontmatter position
+### Problem
+Notes not showing up on the homepage
+Reasoning
+There are some things that work and some things that don't, and in particular, there is a 404 in the case of the latter, so it seems that there is a problem with publishing.
+
+If the tag of the note that doesn't work is separated by a line like this, it is judged as a problem.
+problem form
+```
+---
+
+
+dg-publish: true
+
+---
+```
+
+
+### Solution.
+Tested some notes by moving the tags as follows and confirmed normal operation.
+Then I added a function called `update_content_and_position` in the python file.
+duplicate_tag.py to automate it.
+
+```
+---
+dg-publish: true
+
+
+
+---
+```
+
+# 0.2.0-PY
+
+## Change the call number index structure and modify the convert file
+
+### Problem
+`obisidian use ![[filename]] preview of note, but line break and indentation was wrong`
+
+Major category indent was wrong
+
+As-is Used this structure pattern
+```
+[[000]] IT Knowledge
+- [[010]] Develop Knowledge
+	- [[010.00]] Develop Computer Science Knowledge
+		- [[010.00 a]] Essential Developer Insights
+	- [[010.10]] Develop Programming Language
+		- [[010.10 a]] Bash shell
+
+```
+
+Major Category don't use hypen.
+That makes preview error indent and line break
+
+### Solution
+
+### First Change call number md file like this
+```
+- [[000]] IT Knowledge
+	- [[010]] Develop Knowledge
+		- [[010.00]] Develop Computer Science Knowledge
+			- [[010.00 a]] Essential Developer Insights
+		- [[010.10]] Develop Programming Language
+			- [[010.10 a]] Bash shell
+```
+
+### Second Change convert_josn.py 
+Important point is just change a little bit. Because I don't want to change output.json, filename, path etc...
+only consider point is major and minor category variable.
+
+```
+major_match = re.match(r"- \[\[(\d0\d)\]\]\s*(.*)", line)
+minor_match = re.match(r"- \[\[(\d[1-9]\d)\]\]\s*(.*)", line)
+```
+
+
+# 0.1.1-PY
+### Managing Only Programming Files with .gitignore: Excluding Content Files
+
+## Problem
+
+In the process of starting git pull first, a conflict issue occurs if there is a change in the content file.
+It is appropriate to manage .md files other than .py only using the Sync function of the Obisidan tool.
+
+## Solution
+1. Delete .md files from remove server (when command is worked not delete immedately. you shoud commit and push)
+```
+git rm --cached -r "*.md"
+```
+1. Register files with md extension (fileanme should be `.gitignore)
+```
+.gitignore
+*.md
+```
+
+if command worked and file is created,
+next step is commit and push
+`git commit -m "Managing Only Programming Files with .gitignore: Excluding Content Files"`
+`git push`
+
+
+
+# 0.1.0-LB
+## automated tag from filename <- key point
+
+This was hard because it is a backwards and forwards type, so if it is major.md, it is different from minor.md, sub.md, and books.md, and we aimed for a function that gets the value corresponding to the key in the structure.json file and processes it.
+
+So, to simplify things a bit more, we went from filename-based to a situation where the exact filename is strictly enforced by the policy, and then we can automate it appropriately.
+
+The key point is filenames, and only for content files.
+Later on, we'll also apply it to uncharacterized category files, but that's for later...
+
+# 0.0.4-OB
+# DataView modified
+This query is used for Recent Post in homepage.
+I delete file.path and add file.tags
+tags doesn't display backlink tags
+
+```dataview-example
+TABLE file.name AS Title, file.tags AS Tags
+FROM "Projects/Library"
+WHERE dg-publish = true
+SORT file.ctime DESC
+LIMIT 7
+```
+
+
+
+# 0.0.3-PY
+## Add Tag using structure,json in contents file
+
+Adopting the approach of using filenames to create tag numbers was beneficial.
+Upon updating to Dataview , I realized that attaching tags from book contents enhances usefulness.
+Consequently, I integrated a 'booksTag' function.
+
+Initially, I experimented with a function from another file, which utilized a 'title' variable.
+However, to avoid dependencies, I ultimately developed the function within 'automation.py'.
+I then opted to modify only a single function, as adding more could complicate matters. Incorporating the tagging functionality into an existing function proved sufficient.
+
+
+# 0.0.2-OB
+## Modify the table to provide more useful information to the readers.
+Easily see which files have been modified, and see the tags they have at a glance
+
+- Change the standard modification time not the create time `file.ctime -> file.mtime`
+- Exclude md file that have the tag `#Library` 
+
+```dataview-example
+TABLE file.name AS Title, file.tags AS Tags
+FROM "Projects/Library" AND -#Library
+WHERE dg-publish = true
+SORT file.mtime DESC
+LIMIT 7
+```
 
 
 
 
-# Guest book
+
+# 0.0.1-LB
+## The Library Cleaning
+
+Changing History of Library.md from hardcoding to github gist
+Better viewing of code on screen in the UI
+
+### Before
+![before.png](/img/user/images/before.png)
+
+### After
+![short.png](/img/user/images/short.png)
+
+
+
+
+
+
+
+# Initialize
+# 0.0.0-LB
+
+Major: The change creates a new process that may not work with the old process and requires significant consideration. Set version criteria more granularly
+Keep major, which generally means not backwards compatible, intact
+
+Minor: The change affects current processes and will require attention in the future. Minors are listed as feature additions. File creation, module additions, etc.
+However, some minors may be incompatible. Because they don't mean exactly the same thing
+For example, if a Python file in a certain version references example.txt, but you change it to base_template, it will not work in previous versions, but the purpose is for testing purposes, so it is considered MINOR in terms of impact.
+
+Patch: The change is minimal or don't require much attention after the change. especially Patches are improvements such as variable names, bug fixes, refactorings, etc. 
+
+
+
+The reason for the change is that I didn't have an explicit criterion for considering the version impact, and now it's explicit.
+
+
+
+
+
+
+
+---
+
+
+# ADD-Ons
+## Guest book 
 
 problem: record reaction of users in all notes
 solution: using external service [joey](https://joey.team/)
@@ -255,20 +449,15 @@ solution: using external service [joey](https://joey.team/)
 | Cost | Affordable | Free up to 3 blocks(no limited response, block is component in Joey) |
 | Operational Management | One Endpoint | one site (can see all history and users) |
 
-
-구글 애널리틱스 (도메인 구입 및 연결, visit counter 임베딩 구현후 각 페이지별로는 못 구해서 해당 서비스사용)
-
-#  Apply Google Analytics in bulk to all pages
+##  Apply Google Analytics in bulk to all pages
 
 `src/site/_includes/layouts/note.njk`
 Initially, I attempted to insert an HTML script into all MD files, but I realized that it was too difficult. So, I looked for a template file that the MD files use to apply to the actual webpages
+the template file is note.njk file
 
-모든페이지에 들어가는 항목의 경우 각 각의 md파일에 대한 템플릿아닌, 적용되는 웹페에지에 적용
+About Homepage is managed by index.njk
 
-구글 아날리틱스는 모든페이지 헤드에 있는게 일반적
-보안도 딱히 관리해야하는 것없음
 
-I frame은 글을 읽은 다음 쓸 수 있게 페이지 맨 아래에 위치
 ```
 <!DOCTYPE html>
 <html lang="{{ meta.mainLanguage }}">
@@ -301,41 +490,32 @@ I frame은 글을 읽은 다음 쓸 수 있게 페이지 맨 아래에 위치
 </html>
 
 ```
+## Google Translation
+Implementing Google Translation
+Add script in position that after body's first 'end for'
 
 
+After install, custom settings
 
-# 구글 번역기능
+Add Languages
+Add a Border
+Change location
 
-
-구글 번역 구현
-body에서 첫번쨰 end for 다음에 위치
-
-
-언어 추가
-보더 추가
-위치 변경
-
-
-google.translate.TranslateElement.InlineLayout.SIMPLE 추가
-  
-The `layout` option in the Google Translate widget configuration specifies the appearance of the translate widget on your webpage. When you set `layout` to `google.translate.TranslateElement.InlineLayout.SIMPLE`, it instructs the widget to use a simple inline layout without any additional dropdown menus or complex formatting.
-
-label lnaguage는 client brower language
-
-google 위젯 크기 조정
+### Google Translation-CSS
 ```
 .goog-te-gadget-simple {
-  font-size: 0.9em; /* Smaller font size might reduce the widget size */
+    font-size: 0.9em; /* Smaller font size might reduce the widget size */
+    display: inline-block; /* Ensures the widget takes only necessary space */
+    width: 80px; /* Or set a specific width if necessary */
+    height: 25px; /* Or set a specific height if necessary */
 }
+
 
 .goog-te-gadget-icon {
-  display: none; /* This can hide the dropdown icon, making the button simpler */
+    display: none; /* This can hide the dropdown icon, making the button simpler */
 }
-
 ```
-
-
-
+### Google Translation-HTML
 ```
     {% include imp %}
     {% endfor %}
@@ -355,70 +535,12 @@ google 위젯 크기 조정
 
 ```
 
-css  에서 조정하기 (구글 default css box size등이 문제 같음)
-src/site/styles/custom-style.scss
-```
-body {
-    /***
-      ADD YOUR CUSTOM STYLIING HERE. (INSIDE THE body {...} section.)
-      IT WILL TAKE PRECEDENCE OVER THE STYLING IN THE STYLE.CSS FILE.
-   ***/
-    //  background-color: white;
-    //  .content {
-    //   font-size: 14px;
-    //  }
-    //  h1 {
-    //   color: black;
-    //  }
-}
-
-
-.goog-te-gadget-simple {
-    font-size: 0.9em; /* Smaller font size might reduce the widget size */
-    display: inline-block; /* Ensures the widget takes only necessary space */
-    min-width: auto; /* Lets the widget size adjust to content */
-    min-height: auto; /* Adjusts the height based on content */
-}
-
-
-.goog-te-gadget-icon {
-    display: none; /* This can hide the dropdown icon, making the button simpler */
-}
-```
-
-1시도 변화없음
-.goog-te-gadget-simple {
-    font-size: 0.9em; /* Smaller font size might reduce the widget size */
-    display: inline-block; /* Ensures the widget takes only necessary space */
-    min-width: auto; /* Lets the widget size adjust to content */
-    min-height: auto; /* Adjusts the height based on content */
-}
-
-2시도 변화없음
-.goog-te-gadget-simple {
-    font-size: 0.9em; /* Smaller font size might reduce the widget size */
-    display: inline-block; /* Ensures the widget takes only necessary space */
-    width: auto; /* Lets the widget size adjust to content */
-    height: auto; /* Adjusts the height based on content */
-}
-
-3시도 콘솔창에서 확인후 수동 변경
-.goog-te-gadget-simple {
-    font-size: 0.9em; /* Smaller font size might reduce the widget size */
-    display: inline-block; /* Ensures the widget takes only necessary space */
-    width: 80px; /* Or set a specific width if necessary */
-    height: 25px; /* Or set a specific height if necessary */
-}
-
-
-# index.njk 알기
-홈페이지에 관한 것은 index.njk파일에서 관리
-
-
-
-
-# code font and color change
+# Hompage Custom
+## code font and color change
 just code element not working so , important used
+
+src/site/styles/custom-style.scss
+
 ```
 code {
     background-color: #c4b7b7 !important;
@@ -432,27 +554,7 @@ code {
 original is too much right
 original is src/site/styles/obsidian-base.scss
 ```
-  .external-link {
-    color: var(--link-external-color);
-    text-decoration-line: var(--link-external-decoration);
-    background-position: center right;
-    background-repeat: no-repeat;
-    background-image: linear-gradient(transparent, transparent), url('/img/outgoing.svg');
-    background-size: 13px;
-    padding-right: 16px;
-    background-position-y: 4px;
-    cursor: var(--cursor-link);
-    filter: var(--link-external-filter);
-  }
-```
 
-
-I guess this code is cause
-`background-position: center right;`
-
-
-So I annotated this line
-src/site/styles/custom-style.scss
 ```
   .external-link {
     color: var(--link-external-color);
@@ -468,19 +570,10 @@ src/site/styles/custom-style.scss
   }
 ```
 
-but not work so i find element that
+
+Even I changed CSS, It's not applied. So i find the element and modify it.
 markdown-rendered img
 only works when using !important
-```
-.markdown-rendered img {
-        float: left !important;
-
-    }
-```
-
-![find style using develop tool.png](/img/user/images/find%20style%20using%20develop%20tool.png)
-
-
 add new line after badge
 ```
 
@@ -497,9 +590,7 @@ add new line after badge
 }
 ```
 
-
-
-# change img soruce width and clear
+## Change img soruce width and clear
 
 `p::before` and `clear`
 ```
@@ -511,7 +602,7 @@ add new line after badge
 ```
 
 
-# add pre code block style
+## add pre code block style
 ```
 /*code block style test */
 pre {
@@ -528,8 +619,7 @@ pre {
 }
 ```
 
-
-# code and pre tags style by ai
+## code and pre tags style by ai
 ```
 /* Style for code blocks */
 pre {
@@ -555,7 +645,7 @@ code {
 }
 ```
 
-### before
+before
 ```
 code {
     background-color: #c4b7b7 !important;
@@ -578,9 +668,8 @@ pre {
 }
 
 ```
-![codestyle.png](/img/user/images/codestyle.png)
 
-### After
+After
 white background web site, so black window
 ```
 .markdown-rendered pre code {
@@ -626,36 +715,18 @@ white background web site, so black window
     font-family: var(--font-monospace); /* Using the CSS variable for monospace font */
     font-size: var(--code-size); /* Using the CSS variable for code size */
 }
-
-
 ```
 
 
+## modify js and apply css
 
-
-
-# modify js and apply css
-
-
-from html search order css
-but note.njk  like this
-```
-  {% for imp in dynamics.common.head %}
-  {% include imp %}
-```
-
-so find dynamics.js
-
-AI Suggest Style path incorrect.  Because I ask i don have /user directory but it used in function
-and second is order for custom.css
-
+It seems like why css not wokred propery, maybe becasue of this wrong path in js function.
 before
 `const STYLE_PATH = "src/site/styles/users";`
-
 after
 `const STYLE_PATH = "src/site/styles/";`
-```
 
+```
 const STYLE_PATH = "src/site/styles/";
 
 
@@ -691,13 +762,11 @@ const generateStylesPaths = async () => {
 };
 ```
 
-
-# hr for new line
+## hr for new line
 In markdown `---` horizon line makes new line. In html to makes new line defualt.
 but my case not worked. So I inspect why, because no margin and padding in hr styles
 So I just add it approximately 20px
 
-### Causion
 `I need to distinguish which HRs should have the style applied to that`
 
 If you're unsure about which tags are affected by a specific tag, you can use a developer tool like F12 to check.
@@ -707,421 +776,30 @@ If you're unsure about which tags are affected by a specific tag, you can use a 
     margin-top: 20px;  /* Adds 20 pixels of space above the <hr> */
     margin-bottom: 20px;  /* Adds 20 pixels of space below the <hr> */
 }
+
+
+
 ```
 
 
+# Python Files
 
-# 2.0
-Managing automation by python script file add properties front matter by Python file
-The script's purpose is to ensure that all Markdown (`.md`) files in a directory and its subdirectories contain the line `dg-publish: true` in their YAML front matter
-```py
-import os
+## automation.py
 
-def add_publish_line(file_path):
-    try:
-        # Open the file and read its lines
-        with open(file_path, "r", encoding="utf-8", errors="ignore") as file:
-            lines = file.readlines()
-
-        yaml_start = None
-        yaml_end = None
-        # Find the start and end of the YAML front matter
-        for i, line in enumerate(lines):
-            if line.strip() == "---":
-                if yaml_start is None:
-                    yaml_start = i
-                elif yaml_end is None:
-                    yaml_end = i
-                    break
-
-        if yaml_start is not None:
-            if yaml_end is None:  # If there is no closing ---
-                yaml_end = yaml_start  # Set the end point to the start point
-                lines.insert(yaml_end + 1, "---\n")  # Add the closing ---
-
-            yaml_content = lines[yaml_start : yaml_end + 1]
-            # Check if 'dg-publish: true' is in the YAML front matter
-            if "dg-publish: true" not in "".join(yaml_content):
-                # Add 'dg-publish: true' if not present
-                lines.insert(yaml_start + 1, "dg-publish: true\n")
-        else:  # If there is no YAML front matter
-            # Add a new YAML front matter with 'dg-publish: true'
-            lines.insert(0, "---\n")
-            lines.insert(1, "dg-publish: true\n")
-            lines.insert(2, "---\n")
-
-        # Write the modified lines back to the file
-        with open(file_path, "w", encoding="utf-8") as file:
-            file.writelines(lines)
-    except UnicodeDecodeError:
-        print(f"Decode error in file: {file_path}")
-
-# Walk through all .md files in the current directory and its subdirectories
-for root, dirs, files in os.walk("."):
-    for name in files:
-        if name.endswith(".md"):
-            file_path = os.path.join(root, name)
-            add_publish_line(file_path)
-
-```
-
-1. **Initialize and Traverse Directory**: The script starts by traversing all the files in the current directory and its subdirectories. It specifically looks for files with a `.md` extension.
-    
-2. **Open and Read Each Markdown File**: For each `.md` file found, the script opens the file and reads all its lines into memory.
-    
-3. **Identify YAML Front Matter**: The script then searches for YAML front matter in the file, which is demarcated by lines containing `---`. It records the indices of the start and end lines of the YAML front matter.
-    
-4. **Handle Incomplete Front Matter**: If the closing `---` of the YAML front matter is missing, the script adds it right after the opening `---`.
-    
-5. **Check and Add 'dg-publish: true'**: The script checks if `dg-publish: true` is already present within the YAML front matter. If it's not, the script inserts `dg-publish: true` immediately after the opening `---` of the front matter.
-    
-6. **Handle Files Without Front Matter**: If a file does not have any YAML front matter, the script creates a new front matter at the beginning of the file and includes `dg-publish: true`.
-    
-7. **Write Changes to File**: After making the necessary additions, the script writes the updated lines back to the file, saving the changes.
-    
-8. **Error Handling**: If the script encounters a Unicode decode error while reading a file (possibly due to a different encoding), it prints an error message indicating which file caused the issue.
-
-
-
-# automation.py
 <iframe src="https://gist.github.com/murphybread/a0a351e489cde4b2064fcd3a7855d885.pibb?file=automation.py" width="100%" height="300"></iframe>
 
 
 
-# conver_to json.
-using one med file
-
-```
-import re
-import json
-import shutil
-import os
+## conver_to json.
+using one python file convert from md to json
+<iframe src="https://gist.github.com/murphybread/e99137ae5f1706bdc6a2ed4efdaace7d.pibb?file=convert_to_json.py" width="700" height="300"></iframe>
 
 
-def md_to_json(md_file, json_file):
-    with open(md_file, "r") as file:
-        lines = file.readlines()
-
-    json_structure = {"MajorCategories": {}}
-    current_major = current_minor = current_sub = None
-
-    for i, line in enumerate(lines):
-        line = line.strip()  # Remove leading and trailing whitespaces
-        if not line or line.startswith("---"):
-            continue  # Skip empty lines and metadata lines
-
-        print(f"Processing line {i}: {line}")  # Debug print
-
-        try:
-            # Match major, minor, subcategories, and book entries
-            major_match = re.match(r"\[\[(\d{3})\]\]\s*(.*)", line)
-            minor_match = re.match(r"- \[\[(\d{3})\]\]\s*(.*)", line)
-            sub_match = re.match(r"- \[\[(\d{3}\.\d{2})\]\]\s*(.*)", line)
-            book_match = re.match(r"- \[\[(\d{3}\.\d{2} [a-zA-Z])\]\]\s*(.*)", line)
-
-            if major_match:
-                current_major, title = major_match.groups()
-                json_structure["MajorCategories"][current_major] = {
-                    "value": current_major,
-                    "title": title,
-                    "MinorCategories": {},
-                }
-                print(f"Major Category: {current_major}, Title: {title}")  # Debug print
-
-            elif minor_match:
-                current_minor, title = minor_match.groups()
-                json_structure["MajorCategories"][current_major]["MinorCategories"][
-                    current_minor
-                ] = {"title": title, "Subcategories": {}}
-                print(f"Minor Category: {current_minor}, Title: {title}")  # Debug print
-
-            elif sub_match:
-                current_sub, title = sub_match.groups()
-                json_structure["MajorCategories"][current_major]["MinorCategories"][
-                    current_minor
-                ]["Subcategories"][current_sub] = {"title": title, "Books": {}}
-                print(f"Subcategory: {current_sub}, Title: {title}")  # Debug print
-
-            elif book_match:
-                book_code, book_title = book_match.groups()
-                json_structure["MajorCategories"][current_major]["MinorCategories"][
-                    current_minor
-                ]["Subcategories"][current_sub]["Books"][book_code] = book_title
-                print(f"Book: {book_code}, Title: {book_title}")  # Debug print
-
-        except Exception as e:
-            print(f"Error processing line {i}: '{line}'")
-            print(str(e))
-
-    # Save JSON structure to file
-    temp_json_path = os.path.join(os.getcwd(), json_file)
-    with open(temp_json_path, "w") as outfile:
-        json.dump(json_structure, outfile, indent=4)
-
-    # Move the JSON file to the parent directory
-    parent_dir_path = os.path.abspath(os.path.join(os.getcwd(), os.pardir))
-    destination_path = os.path.join(parent_dir_path, json_file)
-    shutil.move(temp_json_path, destination_path)
-    print(f"Moved {json_file} to {destination_path}")
-
-
-# Usage example
-md_file = "../Entrance/Call Number Index.md"
-json_file = "structure.json"
-
-print(f"Read from {md_file}")
-md_to_json(md_file, json_file)
-print(f"Output json file is {json_file}")
-
-```
-
-
-# structure.json
+## structure.json
 matching with current directory structure
 <iframe src="https://gist.github.com/murphybread/e99137ae5f1706bdc6a2ed4efdaace7d.pibb?file=structure.json" width="700" height="300"></iframe>
 
 
-
-
-
-Structural management from one file  
-  
-In the case of `![[note_name]]` in obisidian's markdown grammar, it is called Wikilink, which shows the contents of the linked note. In other words, the mirroring method makes the two structures managed by Homepage and call-number-index manage in one place  
-  
-The result is easy to implement and easy to manage afterwards
-
-
-# 2.5 Combine and One place
-import conver_md_to_json module in automation.py
-and automation.py, structure.json moved to /Management 
-So all python files and json files moved and exeucute in /Management
-
-
-
-# Change dataview query
-
-```dataview-exmaple
-TABLE file.name AS title, file.path, file.mtime
-FROM "Projects/Library"
-WHERE dg-publish = true
-SORT file.ctime DESC
-LIMIT 7
-```
-
-Add Table attrivutes modifed time path and remove link
-Specifify query path "Projects/Library"
-Increase Limit to 7
-
-
-# Using GitHub to Share Synchronized Python Files Across Different Platforms
-
-## Problem
-
-The current Obsidian sync functionality only supports synchronization for files with Python file extensions, excluding files in other formats such as Markdown (md).
-
-Initial attempts involved converting Python files into Markdown (md) or inserting Python code into Markdown files. However, this approach resulted in excessive fragmentation and posed challenges for management.
-
-## Solution
-
-https://github.com/murphybread/Library
-
-To address this issue, the solution is to utilize GitHub links for syncing files between different platforms, such as Mac and Windows. This can be achieved by performing a 'git pull' to ensure synchronization with the latest version when starting work through the GitHub link.
-
-
-
-# 2.5.2 dg-publish frontmatter position
-## Problem
-### Notes not showing up on the homepage
-
-Reasoning
-There are some things that work and some things that don't, and in particular, there is a 404 in the case of the latter, so it seems that there is a problem with publishing.
-
-If the tag of the note that doesn't work is separated by a line like this, it is judged as a problem.
-problem form
-```
----
-
-
-dg-publish: true
-
----
-```
-
-
-## Solution.
-Tested some notes by moving the tags as follows and confirmed normal operation.
-Then I added a function called `update_content_and_position` in the python file.
-duplicate_tag.py to automate it.
-
-```
----
-dg-publish: true
-
-
-
----
-```
-
-
-
-
-# 2.6.0 Change the call number index structure and modify the convert file
-
-## Problem
-`obisidian use ![[filename]] preview of note, but line break and indentation was wrong`
-![스크린샷 2024-02-05 오후 4.44.09.png](/img/user/images/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202024-02-05%20%EC%98%A4%ED%9B%84%204.44.09.png)
-
-Major category indent was wrong
-
-As-is Used this structure pattern
-```
-[[Projects/Library/000/000\|000]] IT Knowledge
-- [[Projects/Library/000/010/010\|010]] Develop Knowledge
-	- [[Projects/Library/000/010/010.00/010.00\|010.00]] Develop Computer Science Knowledge
-		- [[Projects/Library/000/010/010.00/010.00 a\|010.00 a]] Essential Developer Insights
-	- [[Projects/Library/000/010/010.10/010.10\|010.10]] Develop Programming Language
-		- [[Projects/Library/000/010/010.10/010.10 a\|010.10 a]] Bash shell
-
-```
-
-Major Category don't use hypen.
-That makes preview error indent and line break
-
-## Solution
-
-### First Change call number md file like this
-```
-- [[Projects/Library/000/000\|000]] IT Knowledge
-	- [[Projects/Library/000/010/010\|010]] Develop Knowledge
-		- [[Projects/Library/000/010/010.00/010.00\|010.00]] Develop Computer Science Knowledge
-			- [[Projects/Library/000/010/010.00/010.00 a\|010.00 a]] Essential Developer Insights
-		- [[Projects/Library/000/010/010.10/010.10\|010.10]] Develop Programming Language
-			- [[Projects/Library/000/010/010.10/010.10 a\|010.10 a]] Bash shell
-```
-
-### Second Change convert_josn.py 
-Important point is just change a little bit. Because I don't want to change output.json, filename, path etc...
-only consider point is major and minor category variable.
-
-```
-major_match = re.match(r"- \[\[(\d0\d)\]\]\s*(.*)", line)
-minor_match = re.match(r"- \[\[(\d[1-9]\d)\]\]\s*(.*)", line)
-```
-
-
-# 2.7.0 Managing Only Programming Files with .gitignore: Excluding Content Files
-
-## Problem
-
-In the process of starting git pull first, a conflict issue occurs if there is a change in the content file.
-It is appropriate to manage .md files other than .py only using the Sync function of the Obisidan tool.
-
-## Solution
-1. Delete .md files from remove server (when command is worked not delete immedately. you shoud commit and push)
-```
-git rm --cached -r "*.md"
-```
-1. Register files with md extension (fileanme should be `.gitignore)
-```
-.gitignore
-*.md
-```
-
-if command worked and file is created,
-next step is commit and push
-`git commit -m "Managing Only Programming Files with .gitignore: Excluding Content Files"`
-`git push`
-
-
-
-# 2.8.0 
-automated tag
-from filename <- key point
-
-This was hard because it is a backwards and forwards type, so if it is major.md, it is different from minor.md, sub.md, and books.md, and we aimed for a function that gets the value corresponding to the key in the structure.json file and processes it.
-
-So, to simplify things a bit more, we went from filename-based to a situation where the exact filename is strictly enforced by the policy, and then we can automate it appropriately.
-
-The key point is filenames, and only for content files.
-Later on, we'll also apply it to uncharacterized category files, but that's for later...
-
-# 2.8.1
-DataVIew modified
-This query is used for Recent Post in homepage.
-I delete file.path and add file.tags
-tags doesn't display backlink tags
-
-```dataview-example
-TABLE file.name AS Title, file.tags AS Tags
-FROM "Projects/Library"
-WHERE dg-publish = true
-SORT file.ctime DESC
-LIMIT 7
-```
-
-
-
-
-
-# 2.9.0
-> Add Tag using structure,json in contents file
-
-Adopting the approach of using filenames to create tag numbers was beneficial.
-Upon updating to Dataview 2.8.1, I realized that attaching tags from book contents enhances usefulness.
-Consequently, I integrated a 'booksTag' function.
-
-Initially, I experimented with a function from another file, which utilized a 'title' variable.
-However, to avoid dependencies, I ultimately developed the function within 'automation.py'.
-I then opted to modify only a single function, as adding more could complicate matters. Incorporating the tagging functionality into an existing function proved sufficient.
-
-
-Below is the code snippet:
-```py
-def construct_tag(file_name, json_structure):
-    # Regex to extract major, minor, and book identifier from the filename
-    match = re.match(r"(\d{3})\.(\d{2})\s([a-zA-Z])\.md", file_name)
-    if match:
-        major, minor, book_id = match.groups()
-        book_category_code = f"{major}.{minor} {book_id}"
-        
-        # Initialize variables to hold the broader category and title
-        broader_category = ""
-        title = ""
-        
-        # Navigate through the JSON structure to find the title
-        for major_key, major_val in json_structure["MajorCategories"].items():
-            for minor_key, minor_val in major_val["MinorCategories"].items():
-                for sub_key, sub_val in minor_val["Subcategories"].items():
-                    if book_category_code in sub_val["Books"]:
-                        broader_category = major_key
-                        title = sub_val["Books"][book_category_code]
-                        break
-        
-        # Construct the tag with the title, replacing spaces with underscores
-        if broader_category and title:
-            title_sanitized = title.replace(" ", "_")
-            tag = f"#[[{broader_category}\|{broader_category}]]#[[{major}\|{major}]]#[[{major}.{minor}\|{major}.{minor}]]#[[{book_category_code}\|{book_category_code}]]#{title_sanitized}"
-            return tag
-        else:
-            return "Tag construction failed: Title not found."
-    else:
-        return "Tag construction failed: Filename does not match pattern."
-```
-
-## And Modify Dataview Query
-Modify the table to provide more useful information to the readers.
-Easily see which files have been modified, and see the tags they have at a glance
-
-- Change the standard modification time not the create time `file.ctime -> file.mtime`
-- Exclude md file that have the tag `#Library` 
-
-```dataview-example
-TABLE file.name AS Title, file.tags AS Tags
-FROM "Projects/Library" AND -#Library
-WHERE dg-publish = true
-SORT file.mtime DESC
-LIMIT 7
-```
-
-
-
+## create_base_template.py
+For RAG, I thought there is need one default tempalte file, structure is 2 stages. first one is default parent file, and second is child file
+<iframe src="https://gist.github.com/murphybread/a0a351e489cde4b2064fcd3a7855d885.pibb?file=create_base_template.py" width="70%" height="300"></iframe>
