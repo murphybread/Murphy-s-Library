@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/projects/library/manage/history-of-library/","noteIcon":"0","created":"2023-12-31T20:39:20.070+09:00","updated":"2024-03-19T12:18:51.246+09:00"}
+{"dg-publish":true,"permalink":"/projects/library/manage/history-of-library/","noteIcon":"0","created":"2023-12-31T20:39:20.070+09:00","updated":"2024-03-19T12:59:52.112+09:00"}
 ---
 
 #History #Versioning_Strategy 
@@ -1018,6 +1018,7 @@ add_tags_to_md_files(base_directory, json_structure)
 
 # conver_to json.
 using one med file
+
 ```
 import re
 import json
@@ -1105,182 +1106,7 @@ print(f"Output json file is {json_file}")
 
 # structure.json
 matching with current directory structure
-```
-{
-    "MajorCategories": {
-        "000": {
-            "value": "000",
-            "title": "IT Knowledge",
-            "MinorCategories": {
-                "010": {
-                    "title": "Develop Knowledge",
-                    "Subcategories": {
-                        "010.00": {
-                            "title": "Develop Computer Science Knowledge",
-                            "Books": {
-                                "010.00 a": "Essential Developer Insights"
-                            }
-                        },
-                        "010.10": {
-                            "title": "Develop Programming Language",
-                            "Books": {
-                                "010.10 a": "Bash shell"
-                            }
-                        }
-                    }
-                }
-            }
-        },
-        "100": {
-            "value": "100",
-            "title": "Infra",
-            "MinorCategories": {
-                "110": {
-                    "title": "DevOps Engineer Infra",
-                    "Subcategories": {}
-                },
-                "120": {
-                    "title": "ML Engineer Infra",
-                    "Subcategories": {}
-                }
-            }
-        },
-        "400": {
-            "value": "400",
-            "title": "ML Engineer Basic",
-            "MinorCategories": {
-                "410": {
-                    "title": "Mathematics",
-                    "Subcategories": {
-                        "410.00": {
-                            "title": "Linear Algebra",
-                            "Books": {
-                                "410.00 a": "Fundamental Function",
-                                "410.00 b": "Vector",
-                                "410.00 c": "Vectors Properties",
-                                "410.00 d": "Vector Operation"
-                            }
-                        },
-                        "410.10": {
-                            "title": "Probability",
-                            "Books": {
-                                "410.10 a": "Fundamental Function"
-                            }
-                        },
-                        "410.20": {
-                            "title": "Statistics",
-                            "Books": {}
-                        },
-                        "410.30": {
-                            "title": "Calculus",
-                            "Books": {
-                                "410.30 a": "fundamental"
-                            }
-                        }
-                    }
-                },
-                "420": {
-                    "title": "Data",
-                    "Subcategories": {
-                        "420.00": {
-                            "title": "Structured Data",
-                            "Books": {
-                                "420.00 a": "Categorical Data",
-                                "420.00 b": "Numerical Data"
-                            }
-                        },
-                        "420.10": {
-                            "title": "Unstructured Data",
-                            "Books": {}
-                        }
-                    }
-                }
-            }
-        },
-        "500": {
-            "value": "500",
-            "title": "Algorithms and Modeling",
-            "MinorCategories": {}
-        },
-        "600": {
-            "value": "600",
-            "title": "ML Libraries and Implementation",
-            "MinorCategories": {
-                "610": {
-                    "title": "Data Handling",
-                    "Subcategories": {
-                        "610.00": {
-                            "title": "Pandas",
-                            "Books": {
-                                "610.00 a": "Pandas-basic"
-                            }
-                        },
-                        "610.10": {
-                            "title": "NumPy",
-                            "Books": {
-                                "610.10 a": "Numpy Fundamental functions",
-                                "610.10 b": "Numpy Appllied function"
-                            }
-                        }
-                    }
-                },
-                "620": {
-                    "title": "Data visualization",
-                    "Subcategories": {
-                        "620.00": {
-                            "title": "MatplotLib",
-                            "Books": {
-                                "620.00 a": "MatplotLib Fundamental"
-                            }
-                        },
-                        "620.10": {
-                            "title": "Seabornn",
-                            "Books": {
-                                "620.10 a": "Seaborn Fundamental"
-                            }
-                        }
-                    }
-                },
-                "630": {
-                    "title": "Machine Learning Frameworks",
-                    "Subcategories": {
-                        "630.00": {
-                            "title": "scikit-learn",
-                            "Books": {}
-                        },
-                        "630.10": {
-                            "title": "TensorFlow",
-                            "Books": {}
-                        },
-                        "630.20": {
-                            "title": "PyTorch",
-                            "Books": {}
-                        }
-                    }
-                }
-            }
-        },
-        "700": {
-            "value": "700",
-            "title": "Research Paper",
-            "MinorCategories": {
-                "710": {
-                    "title": "methodology",
-                    "Subcategories": {
-                        "710.00": {
-                            "title": "Multi-agent Reinforcement Learning",
-                            "Books": {
-                                "710.00 a": "Base Domains",
-                                "710.00 b": "Paper review"
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    }
-}
-```
+<iframe src="https://gist.github.com/murphybread/e99137ae5f1706bdc6a2ed4efdaace7d.pibb?convert_md_to_json.py" width="700" height="300"></iframe>
 
 
 
