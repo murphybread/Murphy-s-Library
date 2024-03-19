@@ -30,11 +30,16 @@ const generateComponentPaths = async (namespace, slots) => {
 
 const generateStylesPaths = async () => {
   try {
-    const tree = await fsFileTree(`${STYLE_PATH}`);
-    let comps = Object.keys(tree).map((p) =>
-      `/styles/user/${p}`.replace(".scss", ".css")
-    );
+    // Adjusted to the correct styles directory
+    const tree = await fsFileTree(`src/site/styles/`);
+    let comps = Object.keys(tree)
+      .map((p) => `/styles/${p}`.replace('.scss', '.css'))
+      // Remove custom-style.css if it's already in the array to re-add it later
+      .filter((path) => !path.endsWith('custom-style.css'));
+    // Sort the array to maintain a consistent order
     comps.sort();
+    // Add custom-style.css at the end to ensure it's the last stylesheet
+    comps.push('/styles/custom-style.css');
     return comps;
   } catch {
     return [];
