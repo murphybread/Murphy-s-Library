@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/projects/library/manage/history-of-library/","noteIcon":"0","created":"2023-12-31T20:39:20.070+09:00","updated":"2024-03-20T02:03:19.578+09:00"}
+{"dg-publish":true,"permalink":"/projects/library/manage/history-of-library/","noteIcon":"0","created":"2023-12-31T20:39:20.070+09:00","updated":"2024-03-20T02:13:43.038+09:00"}
 ---
 
 #History #Versioning_Strategy 
@@ -401,9 +401,6 @@ Better viewing of code on screen in the UI
 
 ### After
 ![short.png](/img/user/images/short.png)
-
-
-
 
 
 
