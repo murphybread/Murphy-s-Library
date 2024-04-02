@@ -55,7 +55,7 @@
 		- [[Projects/Library/300/310/310.00/310.00\|310.00]] IDE
 			- [[Projects/Library/300/310/310.00/310.00 a\|310.00 a]] Terminal
 			- [[Projects/Library/300/310/310.00/310.00 b\|310.00 b]] Colab
-		- [[310.10\|310.10]] Conda
+		- [[Projects/Library/300/310/310.10/310.10\|310.10]] Conda
 			- [[Projects/Library/300/310/310.10/310.10 a\|310.10 a]] Conda base
 			- [[Projects/Library/300/310/310.10/310.10 b\|310.10 b]] Conda License
 	- [[Projects/Library/300/320/320\|320]] Frontend
@@ -91,6 +91,8 @@
 			- [[Projects/Library/400/430/430.00/430.00 a\|430.00 a]] Langchain Components
 		- [[Projects/Library/400/430/430.10/430.10\|430.10]] Streamlit
 			- [[Projects/Library/400/430/430.10/430.10 a\|430.10 a]] LLM RAG Application Using Langchain and FAISS
+		- [[Projects/Library/400/430/430.20/430.20\|430.20]] Langsmith
+			- [[Projects/Library/400/430/430.20/430.20 a\|430.20 a]] Implement Langsmith
 	- [[Projects/Library/400/440/440\|440]] ML Methodology
 		- [[Projects/Library/400/440/440.00/440.00\|440.00]] EDA(Exploratory Data Analysis)
 			- [[Projects/Library/400/440/440.00/440.00 a\|440.00 a]] Initiating Exploratory Data Analysis
@@ -145,15 +147,15 @@
 
 # Recent Posts
 
-| File                                                                  | Title              | Tags                                                                                                                                                                                           |
-| --------------------------------------------------------------------- | ------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [[Projects/Library/000/020/020.20/020.20 a\|020.20 a]]             | 020.20 a           | <ul><li>#IT_Knowledge</li><li>#Operation_Knowledge</li><li>#Organizing_Code_Functions_and_Modules</li><li>#Proper_dividing_for_reusable_modules</li><li>#Module</li><li>#methodology</li></ul> |
-| [[Projects/Library/Manage/History of Library\|History of Library]] | History of Library | <ul><li>#History</li><li>#Versioning_Strategy</li></ul>                                                                                                                                        |
-| [[Projects/Library/000/020/020.20/020.20\|020.20]]                 | 020.20             | <ul><li>#IT_Knowledge</li><li>#Operation_Knowledge</li><li>#Organizing_Code_Functions_and_Modules</li></ul>                                                                                    |
-| [[Projects/Library/000/010/010.00/010.00 b\|010.00 b]]             | 010.00 b           | <ul><li>#IT_Knowledge</li><li>#Develop_Knowledge</li><li>#Develop_Computer_Science_Knowledge</li><li>#Industry_Domain_Knowledge</li><li>#SLA</li><li>#SLO</li><li>#SLI</li></ul>               |
-| [[Projects/Library/000/010/010.10/010.10\|010.10]]                 | 010.10             | <ul><li>#IT_Knowledge</li><li>#Develop_Knowledge</li><li>#Develop_Programming_Language</li></ul>                                                                                               |
-| [[Projects/Library/000/020/020.00/020.00 c\|020.00 c]]             | 020.00 c           | <ul><li>#IT_Knowledge</li><li>#Operation_Knowledge</li><li>#Versioning</li><li>#Versioning_Strategy</li></ul>                                                                                  |
-| [[Projects/Library/400/430/430.10/430.10 a\|430.10 a]]             | 430.10 a           | <ul><li>#ML_Engineer_Basic</li><li>#ML_Development_Tools</li><li>#Streamlit</li><li>#LLM_RAG_Application_Using_Langchain_and_FAISS</li></ul>                                                   |
+| File                                                                  | Title              | Tags                                                                                                               |
+| --------------------------------------------------------------------- | ------------------ | ------------------------------------------------------------------------------------------------------------------ |
+| [[Projects/Library/Manage/History of Library\|History of Library]] | History of Library | <ul><li>#History</li><li>#Versioning_Strategy</li></ul>                                                            |
+| [[Projects/Library/000/020/020.00/020.00 c\|020.00 c]]             | 020.00 c           | <ul><li>#IT_Knowledge</li><li>#Operation_Knowledge</li><li>#Versioning</li><li>#Versioning_Strategy</li></ul>      |
+| [[Projects/Library/300/310/310.00/310.00 b\|310.00 b]]             | 310.00 b           | <ul><li>#Applications</li><li>#Development_Environment</li><li>#IDE</li><li>#Colab</li></ul>                       |
+| [[Projects/Library/300/310/310.10/310.10\|310.10]]                 | 310.10             | <ul><li>#Applications</li><li>#Development_Environment</li><li>#Conda</li></ul>                                    |
+| [[Projects/Library/800/800\|800]]                                  | 800                | <ul><li>#test_major</li></ul>                                                                                      |
+| [[Projects/Library/400/430/430.20/430.20\|430.20]]                 | 430.20             | <ul><li>#ML_Engineer_Basic</li><li>#ML_Development_Tools</li><li>#Langsmith</li></ul>                              |
+| [[Projects/Library/400/430/430.20/430.20 a\|430.20 a]]             | 430.20 a           | <ul><li>#ML_Engineer_Basic</li><li>#ML_Development_Tools</li><li>#Langsmith</li><li>#Implement_Langsmith</li></ul> |
 
 { .block-language-dataview}
 
