@@ -1,10 +1,141 @@
 ---
-{"dg-publish":true,"permalink":"/projects/library/manage/history-of-library/","noteIcon":"0","created":"2023-12-31T20:39:20.070+09:00","updated":"2024-03-20T02:13:43.038+09:00"}
+{"dg-publish":true,"permalink":"/projects/library/manage/history-of-library/","noteIcon":"0","created":"2023-12-31T20:39:20.070+09:00","updated":"2024-04-02T20:58:08.306+09:00"}
 ---
 
 #History #Versioning_Strategy 
 # Versioning Standard
 [[Projects/Library/000/020/020.00/020.00 c\|020.00 c]]
+
+
+
+# 0.9.0-PY
+stramlit_app.py
+<iframe src="https://gist.github.com/murphybread/c17eca86bf26962b19bbc427d3c4b2c0.pibb?file=streamlit_app.py" width="100%" height="300"></iframe>
+
+RAG_Milvus.py
+<iframe src="https://gist.github.com/murphybread/c17eca86bf26962b19bbc427d3c4b2c0.pibb?file=RAG_Milvus.py" width="100%" height="300"></iframe>
+
+
+create_base_template.py
+<iframe src="https://gist.github.com/murphybread/a0a351e489cde4b2064fcd3a7855d885.pibb?file=create_base_template.py" width="100%" height="300"></iframe>
+
+
+ # An introduction to the whole process
+![0.9 architecture.png](/img/user/Excalidraw/0.9%20architecture.png)
+## Web platform
+>Write posts (a md file) in the Entrance directory as inspiration strikes.
+>Automatically tagged, repositioned when running automation.py
+>Deployed via plugin to https://www.murphybooks.me/
+
+1. Data management. MD file text-oriented personal IT blog
+2. Data is put into the Entrance folder. Using automation.py to automatically tag (link backlinks), automatically create folders, and move files. 
+3. The categorization is done by creating a call number index.md file, This md file is converted to json, and the system works according to this json format.
+4. So the most important thing is to have filenames (major,minor,sub,book) that match the rule name in the directory (Entrance) that matches the policy.\
+5. Create base_template.md based on the files in the web platform. This file is the primary parent file for the RAG and has path and description values for all file
+
+
+## Application process.
+>If the user doesn't have a session when they enter, create the first session and answer based on base_template.
+> If a session is confirmed later, it recognizes the previous content as history and the current content as current conversation.
+> If there is a special pattern of file_path: ... .md, it answers by summing the queried values.
+> That application is serviced by Streamlit cloud that free deploy service https://murphybooks.streamlit.app/
+
+1. implement RAG with Langchain.  
+	1. Data (md, txt file only)
+		1. Use invoke function to get query value using prompt_ template
+		2. Use openai embedding for embedding
+	2. Insertion (important considerations speed, time, cost)
+		2. file-by-file insertion. Update for one article
+		3. Folder embedding. When updating several at once
+		4. Per-user memory insertion
+	3. Memory
+		1. Use Milvus Vector DB and use the cloud
+		2. Implement your own upsert function
+		3. Connect with Milvus' own function
+	4. Lookup
+		1. Use source value as a key. The key is divided into two types
+		2. When uploading web platform data directly, the file path is treated as SOURCE
+		3. Treat UUID value as SOURCE in a conversation session with a user
+3. Implementing front via Stramlit
+	1. select model (A radio button)
+	2. input (text box, and A hutton)
+	3. admin screen (Password with streamlit secret)
+
+
+
+### Centralized management as much as possible in the form of files. Environment values , packages
+For security reasons, but also for management reasons, it was better to create and manage environment variables in .env files as much as possible.
+When using external solutions like streamlit, you need to use toml to use secrets, but it is convenient to use .env directly with copy-paste.
+It is good to manage requirements in the form of requirements.txt to use cloud deployment systems and to maintain virtual environments such as conda.
+Additionally, I feel that visibility is much better if it is displayed through comments.
+
+### Use managed services as much as possible
+As I was working on the project by myself, I had to manage a lot of things, so I decided to use managed services. The downside is that you become dependent on the managed service or need to do extra work, but it's better in the long run. On a small scale, to be precise.
+
+For example, for the web platform, I build it through the Obsidian plugin and deploy a certain number of times a day through the Varcel homepage. While using this, there were problems such as not knowing the daily distribution limit of varcel, or not knowing how to set up the domain when setting up, but despite the glitches, Using it is better than not.
+The biggest advantage is requires less infrastructure management work and no cost
+
+Another platform I use is streamlit cloud.
+On the downside, I had to manually register a secret value in the requirements.txt and ui to get the service. At first, I didn't know how to do this, so it was a bit laborious, but once I succeeded, it was easy to maintain because I only needed to update incrementally. This is also a good way to go because it reduces infrastructure management.
+
+Another managed service is a serverless managed service provided by a cloud company called zilliz for milvus vector db. This is what I found after considering VectorDB to configure memory, but then realizing the volatility of the service when it goes down and the cost of infrastructure to maintain adequate memory.
+
+### Start as simple as possible and work your way up to complexity
+
+There are several cases that I solved by starting simple rather than overcomplicating the project, and there are three main ones.
+
+The first is a data form. At first, I considered full automation, where you just throw in content and it automatically creates a file title with a number, tags it, and so on, but this was too complicated and didn't work well.
+The logic was too complicated to start working easily. **So I made a promise to myself and the system to keep it simple. The filename should be written in alphanumeric English according to a set policy, which should match the converted json by a predefined call number index.**
+Since I was working on my own, I didn't need to complicate the logic that much, and in the end, the simple logic worked and So I can able to start the project.
+
+Second is the authentication method. I was worried about how to handle authentication in a situation where an admin page is required. Should I use authentication in stramlit itself. At the end, **I made it work if it matches a certain hard-coded pattern.** I had a lot of questions about base64 encoding, where to store it, and whether it would be exposed when using commands like echo, but I decided to simply use streamlit's sercret function to hide environment variables. The main reason  that i can make this decision is that even if it is exposed, the maximum loss is limited to invoking the openai api, which is within my budget (about $20).
+
+Third is the session delivery method. Once you have a conversation, it is recorded as a session via a UUID. This is important because it allows you to continue the conversation later, and it is possible to continue the conversation with this recorded information. The question was how to store and manage this information. It needs to be personalized to prevent it from being seen by others, and it needs to be separated by user, which can lead to complex logic and additional infrastructure.
+**My solution was to simply leave it up to the user.**
+The UUID, which is session information, disappears when the session is closed, so there is no need to manage it, and if the user manages it, it becomes personalized private management, so the part I needed to prepare was to implement logic in a way that handles the provided UUID. Of course, the best way is to provide this management in a secure form through SSO or at least use a guest ID so that the user does not do it, but in that case, I think I will have to spend all this quarter on DB Schema work for user management, so it is an unavoidable choice...
+
+
+
+# The most important thing is to leave it to others and cut it off appropriately
+
+
+**This is probably the most important point to complete the project.****
+**
+## Leaving it to someone else means implementing the features you need, but recognizing the improvements that can be made and leaving them for someone else in the future.
+For example, let's talk about .env files in more depth. The whole reason I started talking about .env was that I wanted to manage environment variables in a centralized system that was safe, easy to manage, and had a low learning curve.
+To put it more simply, environment variables should be managed in a single file, accessible from anywhere, with a low learning curve, and we should spend less money and time running this system.
+So at first it was an .env file, but when I was doing it on more than two environments, I felt that I needed a centralized system in case it grew by n times, so I looked for solutions like hashicorp's valut or AWS's parameter store. But I wanted to be a little greedy and reduce the learning curve. For example, hashicorp valut requires me to manage the infrastructure, and in the case of AWS, the container I run must have the aws command installed, and I need to manage the aws key in addition.
+So in the end, I decided to proceed with the .env file, and the rationale was that I felt that I could proceed only if I thought that someone would take care of this part. However, the concern I have about this part is that if it grows to more places in the future, I will need an additional appropriate system.
+
+
+## Cutting it right means you don't have to implement it too perfectly
+Another important point, proper separation, is something I learned while implementing Milvus's upsert function. In implementing the upsert function, I found out from the docs that there is a very good function that, as the name suggests, updates if there is data and inserts if there is no data. However, there was a problem that did not work properly in the first place. It didn't work properly because it conflicted with the function that automatically creates another parameter, priamary key, so I looked at the pymilvus package of mivus, which actually references upsert, and I looked at the docs and issues, but actually, logically, in my environment, where I don't care if the PK is not maintained, if I implemented it in the form of deleting the existing entity if it exists and creating it if it doesn't exist.
+
+I could implement it in less than 2 hours. However, I was obsessed with the need to use upsert and overinvested for about 12 hours or more, and in the end, I ended up implementing the aforementioned delete and insert method.
+This was a lesson learned after the fact because it was cool to break things properly.
+
+
+## Make good use of logs
+
+You can get lost a lot while building. It could be something I did wrong (variable name location, etc.), something the docs did wrong, or something that's hard to find in the docs or error messages.
+In particular, this environment is a structure that references streamlit in an environment that references milvus, which references langchain. Therefore, as a first-time user of the three, when I encountered a problem, it was difficult to figure out whether langchain corrupted the return value, the milvus function behaved strangely, or the streamlit notation was strange.
+For example, langchain and milvus would return a string with '₩n' in it, but streamlit would automatically ignore it,
+ No matter how much I edited the streamlit UI, I couldn't get a value because Milvus returned an empty value in the first place...
+
+This time, I made it simple by using the print function, but later, I felt that it was better to create an error log function and utilize it as a decorator to basically check the log for the first part of the operation.
+
+There are still many regrets, but minimizing packages to speed up the app, not adding new lines when the user enters text, saving the memory session more visible and adding the current memory session, adding one more prompt template to increase the correct answer rate for the article, etc.
+
+Still, in the end, how much? I think it's an important branching point to make a product that works, so I think the criteria for becoming 1.0.0 is "returning to the initially intended process form" even though 0.9 is the version.
+
+
+
+
+
+
+
+
+
 
 
 
