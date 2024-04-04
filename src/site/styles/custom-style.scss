@@ -108,10 +108,8 @@ body {
     clear: both;
 }
 
-/* Prevent line breaks after periods in links within blockquotes */
-blockquote a {
-    display: inline; /* Ensures links do not become block-level elements */
-    white-space: nowrap; /* Prevents breaking at whitespace */
+blockquote:before {
+    content: none; /* No content before blockquotes */
 }
 
 
