@@ -82,15 +82,29 @@ body {
     white-space: nowrap; /* Prevents the text within the link from wrapping */
 }
 
-/* Reset image styling to default */
+/* Ensure images do not float */
 .markdown-rendered img {
-    display: inline-block; /* Images are inline-block by default */
-    max-width: 100%; /* Ensures image is not wider than its container */
-    height: auto; /* Maintains aspect ratio */
-    margin: 0; /* Removes any default margin */
-    padding: 0; /* Removes any default padding */
-    border: none; /* Removes any default border */
+    float: none !important; /* Overrides any other float properties */
+    display: block; /* Display images as block-level elements */
+    margin-left: auto; /* Center image horizontally */
+    margin-right: auto;
+    max-width: 100%; /* Responsive image width */
+    height: auto; /* Maintain aspect ratio */
 }
+
+/* Override and reset any float styling specifically for images */
+.markdown-rendered p img {
+    float: none !important;
+}
+
+
+/* Clearing floats only for elements that require it, in case they are added elsewhere */
+.markdown-rendered .clear-float::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 
 /* Clearing floats only for elements that require it */
 .markdown-rendered .clear-float::after {
