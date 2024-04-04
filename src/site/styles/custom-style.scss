@@ -100,6 +100,7 @@ body {
 }
 
 
+
 /* Clearing floats only for elements that require it, in case they are added elsewhere */
 .markdown-rendered .clear-float::after {
     content: "";
@@ -107,12 +108,10 @@ body {
     clear: both;
 }
 
-
-/* Clearing floats only for elements that require it */
-.markdown-rendered .clear-float::after {
-    content: "";
-    display: table;
-    clear: both;
+/* Prevent line breaks after periods in links within blockquotes */
+blockquote a {
+    display: inline; /* Ensures links do not become block-level elements */
+    white-space: nowrap; /* Prevents breaking at whitespace */
 }
 
 
