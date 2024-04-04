@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/projects/library/manage/history-of-library/","noteIcon":"0","created":"2023-12-31T20:39:20.070+09:00","updated":"2024-04-04T13:39:18.690+09:00"}
+{"dg-publish":true,"permalink":"/projects/library/manage/history-of-library/","noteIcon":"0","created":"2023-12-31T20:39:20.070+09:00","updated":"2024-04-04T17:22:58.813+09:00"}
 ---
 
 #History #Versioning_Strategy 
@@ -7,9 +7,108 @@
 [[Projects/Library/000/020/020.00/020.00 c\|020.00 c]]
 
 
+# 0.10.0-PY
+## Changed base_template content to be imported locally to the vector DB
+
+### Before: Get base_template file string from local file
+```
+
+def invoke_from_retriever(query, llm, prompt_template, vectorstore , uuid=''):
+	...
+    
+    setup_and_retrieval = RunnableParallel(
+        Library_base_knowledge =  RunnableLambda(lambda _: load_base_template(BASE_FILE_PATH)),
+        Library_base_knowledge =  RunnableLambda(lambda _ : knowledge),
+        history_conversation=RunnableLambda(lambda _: history),  # Use RunnableLambda for static content
+        input=RunnablePassthrough()  # This can just pass the question as is
+    )
+
+	return history, query, answer
+def load_base_template(file_path):
+    try:
+        return Path(file_path).read_text(encoding='utf-8')
+    except FileNotFoundError:
+        return ""
+```
+
+### After: Get base_template file string from vector DB ,Simplify by removing functions and using variables
+```py
+
+def invoke_from_retriever(query, llm, prompt_template, vectorstore , uuid=''):
+	...
+	
+	expr_base = f"source == '{BASE_FILE_PATH}'"
+    retrieverOptions_base = {"expr": expr_base , 'k' : 1}
+    pks_base = vectorstore.get_pks(expr_base)
+
+    if pks_base:
+        retriever_base = vectorstore.as_retriever(search_kwargs=retrieverOptions_base)
+        knowledge = retriever_base.get_relevant_documents("base_query")[0].page_content
+    else:
+        knowledge = "No base template in vectorstore"
+
+    print("knowledge\n" + knowledge)
+
+    # Set up the components of the chain.
+    setup_and_retrieval = RunnableParallel(
+        Library_base_knowledge =  RunnableLambda(lambda _: load_base_template(BASE_FILE_PATH)),
+        Library_base_knowledge =  RunnableLambda(lambda _ : knowledge),
+        history_conversation=RunnableLambda(lambda _: history),  # Use RunnableLambda for static content
+        input=RunnablePassthrough()  # This can just pass the question as is
+    )
+
+	return history, query, answer
+
+```
+
+full code
+```
+def invoke_from_retriever(query, llm, prompt_template, vectorstore , uuid=''):    
+    expr = f"source == '{uuid}'"
+    retrieverOptions = {"expr": expr , 'k' : 1}
+    pks = vectorstore.get_pks(expr)
+    
+    
+    print(f'pks: {pks}')
+    
+    if pks:        
+        retriever = vectorstore.as_retriever(search_kwargs=retrieverOptions)
+        history = retriever.get_relevant_documents(query)[0].page_content + "\n"
+    else:
+        history = ""
+    
+    expr_base = f"source == '{BASE_FILE_PATH}'"
+    retrieverOptions_base = {"expr": expr_base , 'k' : 1}
+    pks_base = vectorstore.get_pks(expr_base)
+
+    if pks_base:
+        retriever_base = vectorstore.as_retriever(search_kwargs=retrieverOptions_base)
+        knowledge = retriever_base.get_relevant_documents("base_query")[0].page_content
+    else:
+        knowledge = "No base template in vectorstore"
+
+    print("knowledge\n" + knowledge)
+    
+    # Set up the components of the chain.
+    setup_and_retrieval = RunnableParallel(
+        Library_base_knowledge =  RunnableLambda(lambda _ : knowledge),
+        history_conversation=RunnableLambda(lambda _: history),  # Use RunnableLambda for static content
+        input=RunnablePassthrough()  # This can just pass the question as is
+    )
+
+    # Construct and invoke the chain
+    rag_chain = setup_and_retrieval | prompt_template | llm
+    answer = rag_chain.invoke(query).content.rstrip("\nNone")
+    
+    return history, query, answer
+```
 
 
-# 0.10.1-FE
+`
+
+
+
+# 0.9.1-FE
 
 ## before
 ![Screenshot%202024-04-04%20at%201.06.26%E2%80%AFPM.png](/img/user/images/Screenshot%25202024-04-04%2520at%25201.06.26%25E2%2580%25AFPM.png)
