@@ -82,14 +82,16 @@ body {
     white-space: nowrap; /* Prevents the text within the link from wrapping */
 }
 
-/* Ensure images do not float */
+/* Adjust image width and maintain aspect ratio */
 .markdown-rendered img {
-    float: none !important; /* Overrides any other float properties */
-    display: block; /* Display images as block-level elements */
-    margin-left: auto; /* Center image horizontally */
+    float: none !important; /* Ensures the image does not float */
+    display: block; /* Displays images as block-level elements */
+    margin-left: auto; /* Centers the image horizontally */
     margin-right: auto;
-    max-width: 100%; /* Responsive image width */
-    height: auto; /* Maintain aspect ratio */
+    width: auto; /* Allows the image to maintain its original width unless it exceeds the maximum width of the container */
+    min-width: 50%; /* Sets a minimum width for the image; adjust as needed */
+    max-width: 100%; /* Ensures the image is not wider than its container */
+    height: auto; /* Height is automatic to maintain the aspect ratio */
 }
 
 /* Override and reset any float styling specifically for images */
