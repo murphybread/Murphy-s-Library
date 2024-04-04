@@ -82,10 +82,21 @@ body {
     white-space: nowrap; /* Prevents the text within the link from wrapping */
 }
 
-/* Minimal image styling to display images naturally */
+/* Reset image styling to default */
 .markdown-rendered img {
-    max-width: 100%; /* Ensures image is responsive and does not overflow its container */
-    height: auto; /* Keeps image aspect ratio intact */
+    display: inline-block; /* Images are inline-block by default */
+    max-width: 100%; /* Ensures image is not wider than its container */
+    height: auto; /* Maintains aspect ratio */
+    margin: 0; /* Removes any default margin */
+    padding: 0; /* Removes any default padding */
+    border: none; /* Removes any default border */
+}
+
+/* Clearing floats only for elements that require it */
+.markdown-rendered .clear-float::after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 
