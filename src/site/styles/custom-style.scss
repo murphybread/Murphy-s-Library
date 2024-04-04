@@ -74,38 +74,21 @@ body {
 
 
 
-.markdown-rendered img.newline {
-    float: none;
-    display: block;
-    margin: auto; /* Center the image if desired */
-    width: 70%; /* or any other width */
+
+
+/* Prevent markdown link line breaks */
+.markdown-rendered a {
+    display: inline; /* Default inline display for links */
+    white-space: nowrap; /* Prevents the text within the link from wrapping */
 }
 
-
+/* Minimal image styling to display images naturally */
 .markdown-rendered img {
-    display: block; /* Makes the image a block-level element */
-    margin: var(--infobox-margin) auto; /* Centers the image with automatic margins */
-    width: var(--image-width); /* Retains the variable-driven width */
-    background-color: var(--background-secondary-alt); /* Keeps your background color */
-    padding: 5px; /* Retains padding */
-    border: 1px var(--background-modifier-border) solid; /* Keeps the border */
-    max-width: var(--img-max-width); /* Retains the max-width setting */
+    max-width: 100%; /* Ensures image is responsive and does not overflow its container */
+    height: auto; /* Keeps image aspect ratio intact */
 }
 
 
-/* Add a clear fix to the element following the floated image */
-.markdown-rendered p::before {
-    content: ""; /* Creates a pseudo-element */
-    display: table; /* Ensures the content is treated as a block-level table */
-    clear: both; /* Clears the float */
-}
-
-.external-link::after {
-    content: "";
-    display: block;
-    clear: both;
-
-}
 
 .markdown-rendered hr {
     margin-top: 20px;  /* Adds 6 pixels of space above the <hr> */
