@@ -1,11 +1,53 @@
 ---
-{"dg-publish":true,"permalink":"/projects/library/manage/history-of-library/","noteIcon":"0","created":"2023-12-31T20:39:20.070+09:00","updated":"2024-04-02T20:58:08.306+09:00"}
+{"dg-publish":true,"permalink":"/projects/library/manage/history-of-library/","noteIcon":"0","created":"2023-12-31T20:39:20.070+09:00","updated":"2024-04-04T13:39:18.690+09:00"}
 ---
 
 #History #Versioning_Strategy 
 # Versioning Standard
 [[Projects/Library/000/020/020.00/020.00 c\|020.00 c]]
 
+
+
+
+# 0.10.1-FE
+
+## before
+![Screenshot%202024-04-04%20at%201.06.26%E2%80%AFPM.png](/img/user/images/Screenshot%25202024-04-04%2520at%25201.06.26%25E2%2580%25AFPM.png)
+
+
+## after
+![Screenshot 2024-04-04 at 1.38.51 PM.png](/img/user/images/Screenshot%202024-04-04%20at%201.38.51%20PM.png)
+### img -> Eliminate floating right
+### link eliminate new line and make it to inline
+
+```
+/* Prevent markdown link line breaks */
+.markdown-rendered a {
+    display: inline; /* Default inline display for links */
+    white-space: nowrap; /* Prevents the text within the link from wrapping */
+}
+
+/* Adjust image width and maintain aspect ratio */
+.markdown-rendered img {
+    float: none !important; /* Ensures the image does not float */
+    display: block; /* Displays images as block-level elements */
+    margin-left: auto; /* Centers the image horizontally */
+    margin-right: auto;
+    width: auto; /* Allows the image to maintain its original width unless it exceeds the maximum width of the container */
+    min-width: 50%; /* Sets a minimum width for the image; adjust as needed */
+    max-width: 100%; /* Ensures the image is not wider than its container */
+    height: auto; /* Height is automatic to maintain the aspect ratio */
+}
+
+/* Override and reset any float styling specifically for images */
+.markdown-rendered p img {
+    float: none !important;
+}
+
+blockquote:before {
+    content: none; /* No content before blockquotes */
+}
+```
 
 
 # 0.9.0-PY
@@ -30,7 +72,7 @@ create_base_template.py
 1. Data management. MD file text-oriented personal IT blog
 2. Data is put into the Entrance folder. Using automation.py to automatically tag (link backlinks), automatically create folders, and move files. 
 3. The categorization is done by creating a call number index.md file, This md file is converted to json, and the system works according to this json format.
-4. So the most important thing is to have filenames (major,minor,sub,book) that match the rule name in the directory (Entrance) that matches the policy.\
+4. So the most important thing is to have filenames (major,minor,sub,book) that match the rule name in the directory (Entrance) that matches the policy.
 5. Create base_template.md based on the files in the web platform. This file is the primary parent file for the RAG and has path and description values for all file
 
 
