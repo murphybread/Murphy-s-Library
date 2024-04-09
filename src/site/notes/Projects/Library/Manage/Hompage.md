@@ -50,6 +50,10 @@
 		- [[Projects/Library/200/210/210.10/210.10\|210.10]] DevOps Culture
 		- [[Projects/Library/200/210/210.20/210.20\|210.20]] DevOps Solutions
 			- [[Projects/Library/200/210/210.20/210.20 a\|210.20 a]] GitLab
+	- [[Projects/Library/200/220/220\|220]] Project Management System
+		- [[Projects/Library/200/220/220.00/220.00\|220.00]] PMS Adoption: Pre-Implementation Checklist
+		- [[Projects/Library/200/220/220.10/220.10\|220.10]] PMS in Action Implementation
+			- [[Projects/Library/200/220/220.10/220.10 a\|220.10 a]] GitLab Issue template
 - [[Projects/Library/300/300\|300]] Applications
 	- [[Projects/Library/300/310/310\|310]] Development Environment
 		- [[Projects/Library/300/310/310.00/310.00\|310.00]] IDE
@@ -83,6 +87,7 @@
 			- [[Projects/Library/400/420/420.00/420.00 a\|420.00 a]] Numerical Data (Continuous and Discrete)
 			- [[Projects/Library/400/420/420.00/420.00 b\|420.00 b]] Categorical Data (Ordinal and Nominal)
 		- [[Projects/Library/400/420/420.10/420.10\|420.10]] Unstructured Data
+			- [[420.10 a\|420.10 a]] Export ChatGPT Conversation from Safari
 		- [[Projects/Library/400/420/420.20/420.20\|420.20]] Semi-structured Data
 			- [[Projects/Library/400/420/420.20/420.20 a\|420.20 a]] JSON
 			- [[Projects/Library/400/420/420.20/420.20 b\|420.20 b]] YAML
@@ -125,17 +130,24 @@
 		    - [[Projects/Library/600/630/630.30/630.30 a\|630.30 a]] Amazon Bedrock with RAG
 		    - [[Projects/Library/600/630/630.30/630.30 b\|630.30 b]] RAG with FAISS
 	- [[Projects/Library/600/640/640\|640]] Vector Database
-		- [[Projects/Library/600/640/640.00/640.00\|640.00]] 
+		- [[Projects/Library/600/640/640.00/640.00\|640.00]] VectorDB Solutions
 			- [[Projects/Library/600/640/640.00/640.00 a\|640.00 a]] Milvus
 - [[Projects/Library/700/700\|700]] Research Paper
-	- [[Projects/Library/700/710/710\|710]] methodologysh
+	- [[Projects/Library/700/710/710\|710]] methodology
 		- [[Projects/Library/700/710/710.00/710.00\|710.00]] Multi-agent Reinforcement Learning
 			- [[Projects/Library/700/710/710.00/710.00 a\|710.00 a]] Base Domains
-			- [[Projects/Library/700/710/710.00/710.00 b\|710.00 b]] Paper Review
+			- [[Projects/Library/700/710/710.00/710.00 b\|710.00 b]] Mindcraft
 - [[Projects/Library/800/800\|800]] test_major
 	- [[Projects/Library/800/810/810\|810]] test_minor
 		- [[Projects/Library/800/810/810.00/810.00\|810.00]] test_sub
 			- [[Projects/Library/800/810/810.00/810.00 a\|810.00 a]] test_book
+- [[Projects/Library/900/900\|900]] Life Lessons
+	- [[Projects/Library/900/910/910\|910]] Self Discoveries
+		- [[Projects/Library/900/910/910.00/910.00\|910.00]]  Approach to Life
+			- [[Projects/Library/900/910/910.00/910.00 a\|910.00 a]] Hodie Vixi(Today I Lived)
+			- [[Projects/Library/900/910/910.00/910.00 b\|910.00 b]] 
+	- [[Projects/Library/900/920/920\|920]] Lessons from Others
+	- [[Projects/Library/900/930/930\|930]] Gained from Society
 
 </div></div>
 
@@ -147,15 +159,15 @@
 
 # Recent Posts
 
-| File                                                                  | Title              | Tags                                                                                                               |
-| --------------------------------------------------------------------- | ------------------ | ------------------------------------------------------------------------------------------------------------------ |
-| [[Projects/Library/Manage/History of Library\|History of Library]] | History of Library | <ul><li>#History</li><li>#Versioning_Strategy</li></ul>                                                            |
-| [[Projects/Library/000/020/020.00/020.00 c\|020.00 c]]             | 020.00 c           | <ul><li>#IT_Knowledge</li><li>#Operation_Knowledge</li><li>#Versioning</li><li>#Versioning_Strategy</li></ul>      |
-| [[Projects/Library/300/310/310.00/310.00 b\|310.00 b]]             | 310.00 b           | <ul><li>#Applications</li><li>#Development_Environment</li><li>#IDE</li><li>#Colab</li></ul>                       |
-| [[Projects/Library/300/310/310.10/310.10\|310.10]]                 | 310.10             | <ul><li>#Applications</li><li>#Development_Environment</li><li>#Conda</li></ul>                                    |
-| [[Projects/Library/800/800\|800]]                                  | 800                | <ul><li>#test_major</li></ul>                                                                                      |
-| [[Projects/Library/400/430/430.20/430.20\|430.20]]                 | 430.20             | <ul><li>#ML_Engineer_Basic</li><li>#ML_Development_Tools</li><li>#Langsmith</li></ul>                              |
-| [[Projects/Library/400/430/430.20/430.20 a\|430.20 a]]             | 430.20 a           | <ul><li>#ML_Engineer_Basic</li><li>#ML_Development_Tools</li><li>#Langsmith</li><li>#Implement_Langsmith</li></ul> |
+| File                                                      | Title    | Tags                                                                                                                                                        |
+| --------------------------------------------------------- | -------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [[Projects/Library/200/220/220.00/220.00\|220.00]]     | 220.00   | <ul><li>#DevOps</li><li>#Project_Management_System</li><li>#PMS_Adoption</li></ul>                                                                          |
+| [[Projects/Library/200/220/220\|220]]                  | 220      | <ul><li>#DevOps</li><li>#Project_Management_System</li></ul>                                                                                                |
+| [[Projects/Library/200/220/220.10/220.10\|220.10]]     | 220.10   | <ul><li>#DevOps</li><li>#Project_Management_System</li><li>#PMS_in_Action_Implementation</li></ul>                                                          |
+| [[Projects/Library/200/220/220.10/220.10 a\|220.10 a]] | 220.10 a | <ul><li>#DevOps</li><li>#Project_Management_System</li><li>#PMS_in_Action_Implementation</li><li>#GitLab_Issue_template</li><li>#Tag</li></ul>              |
+| [[Projects/Library/900/910/910.00/910.00 b\|910.00 b]] | 910.00 b | <ul><li>#Life_Lessons</li><li>#Self_Discoveries</li><li>#Approach_to_Life</li><li>#Human</li></ul>                                                          |
+| [[Projects/Library/600/640/640.00/640.00\|640.00]]     | 640.00   | <ul><li>#ML_Libraries_and_Implementation</li><li>#Vector_Database</li><li>#VectorDB_Solutions</li></ul>                                                     |
+| [[Projects/Library/700/710/710.00/710.00 b\|710.00 b]] | 710.00 b | <ul><li>#Research_Paper</li><li>#methodology</li><li>#Multi-agent_Reinforcement_Learning</li><li>#Mindcraft</li><li>#mindcraft</li><li>#minecraft</li></ul> |
 
 { .block-language-dataview}
 
