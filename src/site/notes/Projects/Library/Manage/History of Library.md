@@ -1,10 +1,23 @@
 ---
-{"dg-publish":true,"permalink":"/projects/library/manage/history-of-library/","noteIcon":"0","created":"2023-12-31T20:39:20.070+09:00","updated":"2024-04-04T17:22:58.813+09:00"}
+{"dg-publish":true,"permalink":"/projects/library/manage/history-of-library/","noteIcon":"0","created":"2023-12-31T20:39:20.070+09:00","updated":"2024-04-11T01:01:07.372+09:00"}
 ---
 
 #History #Versioning_Strategy 
 # Versioning Standard
 [[Projects/Library/000/020/020.00/020.00 c\|020.00 c]]
+
+
+# 0.11.0-LB
+## Write a description of all my data. simplest, most important and most manual tasks
+
+Every file that goes up in a library has a description. This gives us a summary of the information, but this property was created after we had quite a bit of data.
+
+So it's all manually entered. It's too laborious to automate. But it's still my philosophy to do it by hand. In the case of this app, the goal is to "let you know the author's thoughts", so it would be less pure if the description was written by an AI. That's not to say that I didn't use translation AI, but I checked every description.
+
+I want to make sure that I can best explain my intentions and what the purpose of this category, this document, is.
+
+
+
 
 
 # 0.10.0-PY
