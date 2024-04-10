@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/projects/library/manage/history-of-library/","noteIcon":"0","created":"2023-12-31T20:39:20.070+09:00","updated":"2024-04-11T01:01:07.372+09:00"}
+{"dg-publish":true,"permalink":"/projects/library/manage/history-of-library/","noteIcon":"0","created":"2023-12-31T20:39:20.070+09:00","updated":"2024-04-11T01:09:19.849+09:00"}
 ---
 
 #History #Versioning_Strategy 
@@ -124,7 +124,7 @@ def invoke_from_retriever(query, llm, prompt_template, vectorstore , uuid=''):
 # 0.9.1-FE
 
 ## before
-![Screenshot%202024-04-04%20at%201.06.26%E2%80%AFPM.png](/img/user/images/Screenshot%25202024-04-04%2520at%25201.06.26%25E2%2580%25AFPM.png)
+![Screenshot.png](/img/user/images/Screenshot.png)
 
 
 ## after
