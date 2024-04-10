@@ -119,7 +119,7 @@
 	- [[Projects/Library/600/620/620\|620]] Data visualization
 		- [[Projects/Library/600/620/620.00/620.00\|620.00]] Matplotlib
 			- [[Projects/Library/600/620/620.00/620.00 a\|620.00 a]] Matplotlib Fundamental 
-		- [[Projects/Library/600/620/620.10/620.10\|620.10]] Seabornn 
+		- [[Projects/Library/600/620/620.10/620.10\|620.10]] Seaborn
 			- [[Projects/Library/600/620/620.10/620.10 a\|620.10 a]] Seaborn Fundamental  
 	- [[Projects/Library/600/630/630\|630]] Machine Learning Frameworks
 	    - [[Projects/Library/600/630/630.00/630.00\|630.00]] scikit-learn
@@ -159,15 +159,15 @@
 
 # Recent Posts
 
-| File                                                      | Title    | Tags                                                                                                                                                        |
-| --------------------------------------------------------- | -------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [[Projects/Library/200/220/220.00/220.00\|220.00]]     | 220.00   | <ul><li>#DevOps</li><li>#Project_Management_System</li><li>#PMS_Adoption</li></ul>                                                                          |
-| [[Projects/Library/200/220/220\|220]]                  | 220      | <ul><li>#DevOps</li><li>#Project_Management_System</li></ul>                                                                                                |
-| [[Projects/Library/200/220/220.10/220.10\|220.10]]     | 220.10   | <ul><li>#DevOps</li><li>#Project_Management_System</li><li>#PMS_in_Action_Implementation</li></ul>                                                          |
-| [[Projects/Library/200/220/220.10/220.10 a\|220.10 a]] | 220.10 a | <ul><li>#DevOps</li><li>#Project_Management_System</li><li>#PMS_in_Action_Implementation</li><li>#GitLab_Issue_template</li><li>#Tag</li></ul>              |
-| [[Projects/Library/900/910/910.00/910.00 b\|910.00 b]] | 910.00 b | <ul><li>#Life_Lessons</li><li>#Self_Discoveries</li><li>#Approach_to_Life</li><li>#Human</li></ul>                                                          |
-| [[Projects/Library/600/640/640.00/640.00\|640.00]]     | 640.00   | <ul><li>#ML_Libraries_and_Implementation</li><li>#Vector_Database</li><li>#VectorDB_Solutions</li></ul>                                                     |
-| [[Projects/Library/700/710/710.00/710.00 b\|710.00 b]] | 710.00 b | <ul><li>#Research_Paper</li><li>#methodology</li><li>#Multi-agent_Reinforcement_Learning</li><li>#Mindcraft</li><li>#mindcraft</li><li>#minecraft</li></ul> |
+| File                                                                  | Title              | Tags                                                                                                                                           |
+| --------------------------------------------------------------------- | ------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------- |
+| [[Projects/Library/Manage/History of Library\|History of Library]] | History of Library | <ul><li>#History</li><li>#Versioning_Strategy</li></ul>                                                                                        |
+| [[Projects/Library/600/620/620.10/620.10 a\|620.10 a]]             | 620.10 a           | <ul><li>#ML_Libraries_and_Implementation</li><li>#Data_visualization</li><li>#Seabornn</li><li>#Seaborn_Fundamental</li><li>#Seaborn</li></ul> |
+| [[Projects/Library/600/620/620.10/620.10\|620.10]]                 | 620.10             | <ul><li>#ML_Libraries_and_Implementation</li><li>#Data_visualization</li><li>#Seabornn</li></ul>                                               |
+| [[Projects/Library/400/430/430.20/430.20\|430.20]]                 | 430.20             | <ul><li>#ML_Engineer_Basic</li><li>#ML_Development_Tools</li><li>#Langsmith</li></ul>                                                          |
+| [[Projects/Library/400/430/430.20/430.20 a\|430.20 a]]             | 430.20 a           | <ul><li>#ML_Engineer_Basic</li><li>#ML_Development_Tools</li><li>#Langsmith</li><li>#Implement_Langsmith</li></ul>                             |
+| [[Projects/Library/400/420/420\|420]]                              | 420                | <ul><li>#ML_Engineer_Basic</li><li>#Data</li></ul>                                                                                             |
+| [[Projects/Library/300/330/330\|330]]                              | 330                | <ul><li>#Applications</li><li>#Backend</li></ul>                                                                                               |
 
 { .block-language-dataview}
 
