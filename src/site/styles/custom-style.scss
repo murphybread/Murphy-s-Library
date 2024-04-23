@@ -122,6 +122,6 @@ blockquote:before {
 
 /* Dataview (Obsidian solution query) Table width */
 .block-language-dataview.table-wrapper {
-    width: 80%;
-    margin: auto; /* Centers the table on the page */
+    width: 80%; !important;
+    margin: auto; !important; /* Centers the table on the page */
 }
