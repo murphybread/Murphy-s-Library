@@ -33,7 +33,6 @@
 	- [[Projects/Library/000/030/030\|030]] Package
 		- [[Projects/Library/000/030/030.00/030.00\|030.00]] PIP
 			- [[Projects/Library/000/030/030.00/030.00 a\|030.00 a]] pip name and module name
-			- [[030.00 b\|030.00 b]] pip packages pre option in requirements 
 	- [[Projects/Library/000/080/080\|080]] English for IT Workers
 		- [[Projects/Library/000/080/080.00/080.00\|080.00]] Developer English
 	- [[Projects/Library/000/090/090\|090]] External Insights an Trends
@@ -59,6 +58,7 @@
 		- [[Projects/Library/300/310/310.00/310.00\|310.00]] IDE
 			- [[Projects/Library/300/310/310.00/310.00 a\|310.00 a]] Terminal
 			- [[Projects/Library/300/310/310.00/310.00 b\|310.00 b]] Colab
+			- [[Projects/Library/300/310/310.00/310.00 c\|310.00 c]] VSCode
 		- [[Projects/Library/300/310/310.10/310.10\|310.10]] Conda
 			- [[Projects/Library/300/310/310.10/310.10 a\|310.10 a]] Conda base
 			- [[Projects/Library/300/310/310.10/310.10 b\|310.10 b]] Conda License
@@ -68,6 +68,9 @@
 			- [[Projects/Library/300/320/320.10/320.10 b\|320.10 b]] Border Properties
 		- [[Projects/Library/300/320/320.30/320.30\|320.30]] Java Script
 	- [[Projects/Library/300/330/330\|330]] Backend
+		- [[Projects/Library/300/330/330.00/330.00\|330.00]] Django
+			- [[Projects/Library/300/330/330.00/330.00 a\|330.00 a]] Django default project
+			- [[Projects/Library/300/330/330.00/330.00 b\|330.00 b]] Difference between Django and FastAPI
 - [[Projects/Library/400/400\|400]] ML Engineer Basic
 	- [[Projects/Library/400/410/410\|410]] Mathematics
 		- [[Projects/Library/400/410/410.00/410.00\|410.00]] Linear Algebra
@@ -98,6 +101,8 @@
 			- [[Projects/Library/400/430/430.10/430.10 a\|430.10 a]] LLM RAG Application Using Langchain and FAISS
 		- [[Projects/Library/400/430/430.20/430.20\|430.20]] Langsmith
 			- [[Projects/Library/400/430/430.20/430.20 a\|430.20 a]] Implement Langsmith
+		- [[Projects/Library/400/430/430.30/430.30\|430.30]] Gradio
+			- [[Projects/Library/400/430/430.30/430.30 a\|430.30 a]] Gradio Quick Tutorial
 	- [[Projects/Library/400/440/440\|440]] ML Methodology
 		- [[Projects/Library/400/440/440.00/440.00\|440.00]] EDA(Exploratory Data Analysis)
 			- [[Projects/Library/400/440/440.00/440.00 a\|440.00 a]] Initiating Exploratory Data Analysis
@@ -105,6 +110,7 @@
 	- [[Projects/Library/500/510/510\|510]] Natural Language Processing (NLP)
 	- [[Projects/Library/500/520/520\|520]] Computer Vision
 		- [[Projects/Library/500/520/520.00/520.00\|520.00]] Introduction to CV
+			- [[Projects/Library/500/520/520.00/520.00 a\|520.00 a]] Voxelization from Open3D Library
 		- [[Projects/Library/500/520/520.30/520.30\|520.30]] Generative Models in CV
 			- [[Projects/Library/500/520/520.30/520.30 a\|520.30 a]] GANs
 			- [[Projects/Library/500/520/520.30/520.30 b\|520.30 b]] CLIP
@@ -118,9 +124,11 @@
 			- [[Projects/Library/600/610/610.10/610.10 b\|610.10 b]] Numpy Appllied function
 	- [[Projects/Library/600/620/620\|620]] Data visualization
 		- [[Projects/Library/600/620/620.00/620.00\|620.00]] Matplotlib
-			- [[Projects/Library/600/620/620.00/620.00 a\|620.00 a]] Matplotlib Fundamental 
+			- [[Projects/Library/600/620/620.00/620.00 a\|620.00 a]] Matplotlib Fundamental
 		- [[Projects/Library/600/620/620.10/620.10\|620.10]] Seaborn
-			- [[Projects/Library/600/620/620.10/620.10 a\|620.10 a]] Seaborn Fundamental  
+			- [[Projects/Library/600/620/620.10/620.10 a\|620.10 a]] Seaborn Fundamental
+		- [[Projects/Library/600/620/620.20/620.20\|620.20]] Script
+			- [[Projects/Library/600/620/620.20/620.20 a\|620.20 a]] Shell Scirpt For visualize GPU usage
 	- [[Projects/Library/600/630/630\|630]] Machine Learning Frameworks
 	    - [[Projects/Library/600/630/630.00/630.00\|630.00]] scikit-learn
 		    - [[Projects/Library/600/630/630.00/630.00 a\|630.00 a]] scikit-learn functions
@@ -132,20 +140,24 @@
 	- [[Projects/Library/600/640/640\|640]] Vector Database
 		- [[Projects/Library/600/640/640.00/640.00\|640.00]] VectorDB Solutions
 			- [[Projects/Library/600/640/640.00/640.00 a\|640.00 a]] Milvus
+	- [[Projects/Library/600/650/650\|650]] Prompt Engineering
+		- [[Projects/Library/600/650/650.00/650.00\|650.00]] Prompt Use case
+			- [[Projects/Library/600/650/650.00/650.00 a\|650.00 a]] Qr Code Color Placement Recommendation with Design
+			- [[Projects/Library/600/650/650.00/650.00 b\|650.00 b]] When AI doesn't know where up and down are, use text to represent them
 - [[Projects/Library/700/700\|700]] Research Paper
 	- [[Projects/Library/700/710/710\|710]] methodology
 		- [[Projects/Library/700/710/710.00/710.00\|710.00]] Multi-agent Reinforcement Learning
 			- [[Projects/Library/700/710/710.00/710.00 a\|710.00 a]] Base Domains
 			- [[Projects/Library/700/710/710.00/710.00 b\|710.00 b]] Mindcraft
-- [[Projects/Library/800/800\|800]] test_major
-	- [[Projects/Library/800/810/810\|810]] test_minor
-		- [[Projects/Library/800/810/810.00/810.00\|810.00]] test_sub
-			- [[Projects/Library/800/810/810.00/810.00 a\|810.00 a]] test_book
+- [[Projects/Library/800/800\|800]] Anythings
+	- [[Projects/Library/800/810/810\|810]] Game
+		- [[Projects/Library/800/810/810.00/810.00\|810.00]] Minecraft
+			- [[Projects/Library/800/810/810.00/810.00 a\|810.00 a]] Minecraft Commands
 - [[Projects/Library/900/900\|900]] Life Lessons
 	- [[Projects/Library/900/910/910\|910]] Self Discoveries
 		- [[Projects/Library/900/910/910.00/910.00\|910.00]]  Approach to Life
 			- [[Projects/Library/900/910/910.00/910.00 a\|910.00 a]] Hodie Vixi(Today I Lived)
-			- [[Projects/Library/900/910/910.00/910.00 b\|910.00 b]] 
+			- [[Projects/Library/900/910/910.00/910.00 b\|910.00 b]] How you can try something you've given up on as impossible
 	- [[Projects/Library/900/920/920\|920]] Lessons from Others
 	- [[Projects/Library/900/930/930\|930]] Gained from Society
 
@@ -159,15 +171,15 @@
 
 # Recent Posts
 
-| File                                                                  | Title              | Tags                                                                                                                                           |
-| --------------------------------------------------------------------- | ------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------- |
-| [[Projects/Library/Manage/History of Library\|History of Library]] | History of Library | <ul><li>#History</li><li>#Versioning_Strategy</li></ul>                                                                                        |
-| [[Projects/Library/600/620/620.10/620.10 a\|620.10 a]]             | 620.10 a           | <ul><li>#ML_Libraries_and_Implementation</li><li>#Data_visualization</li><li>#Seabornn</li><li>#Seaborn_Fundamental</li><li>#Seaborn</li></ul> |
-| [[Projects/Library/600/620/620.10/620.10\|620.10]]                 | 620.10             | <ul><li>#ML_Libraries_and_Implementation</li><li>#Data_visualization</li><li>#Seabornn</li></ul>                                               |
-| [[Projects/Library/400/430/430.20/430.20\|430.20]]                 | 430.20             | <ul><li>#ML_Engineer_Basic</li><li>#ML_Development_Tools</li><li>#Langsmith</li></ul>                                                          |
-| [[Projects/Library/400/430/430.20/430.20 a\|430.20 a]]             | 430.20 a           | <ul><li>#ML_Engineer_Basic</li><li>#ML_Development_Tools</li><li>#Langsmith</li><li>#Implement_Langsmith</li></ul>                             |
-| [[Projects/Library/400/420/420\|420]]                              | 420                | <ul><li>#ML_Engineer_Basic</li><li>#Data</li></ul>                                                                                             |
-| [[Projects/Library/300/330/330\|330]]                              | 330                | <ul><li>#Applications</li><li>#Backend</li></ul>                                                                                               |
+| File                                                      | Title    | Tags                                                                                                                                                                                                                                                                             |
+| --------------------------------------------------------- | -------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [[Projects/Library/600/650/650.00/650.00 b\|650.00 b]] | 650.00 b | <ul><li>#ML_Libraries_and_Implementation</li><li>#Prompt_Engineering</li><li>#Prompt_Use_case</li><li>#When_AI_doesn</li><li>#PromptEngineering</li><li>#Dall-E</li><li>#ChatGPT</li><li>#Prompt-Vision</li><li>#Dall-E3</li><li>#Text_to_Image</li><li>#AI-Compliance</li></ul> |
+| [[Projects/Library/300/330/330.00/330.00 b\|330.00 b]] | 330.00 b | <ul><li>#Applications</li><li>#Backend</li><li>#Django</li><li>#Difference_between_Django_and_FastAPI</li></ul>                                                                                                                                                                  |
+| [[Projects/Library/000/030/030.00/030.00 a\|030.00 a]] | 030.00 a | <ul><li>#IT_Knowledge</li><li>#Package</li><li>#PIP</li><li>#pip_name_and_module_name</li><li>#pip</li></ul>                                                                                                                                                                     |
+| [[Projects/Library/400/430/430.30/430.30\|430.30]]     | 430.30   | <ul><li>#ML_Engineer_Basic</li><li>#ML_Development_Tools</li><li>#Gradio</li></ul>                                                                                                                                                                                               |
+| [[Projects/Library/400/430/430.30/430.30 a\|430.30 a]] | 430.30 a | <ul><li>#ML_Engineer_Basic</li><li>#ML_Development_Tools</li><li>#Gradio</li><li>#Gradio_Quick_Tutorial</li></ul>                                                                                                                                                                |
+| [[Projects/Library/300/330/330.00/330.00\|330.00]]     | 330.00   | <ul><li>#Applications</li><li>#Backend</li><li>#Django</li></ul>                                                                                                                                                                                                                 |
+| [[Projects/Library/300/330/330.00/330.00 a\|330.00 a]] | 330.00 a | <ul><li>#Applications</li><li>#Backend</li><li>#Django</li><li>#Django_default_project</li></ul>                                                                                                                                                                                 |
 
 { .block-language-dataview}
 
