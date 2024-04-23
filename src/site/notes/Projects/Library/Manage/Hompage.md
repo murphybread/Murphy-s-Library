@@ -8,13 +8,13 @@
 
 | File                                                      | Title    | Tags                                                                                                                                                 |
 | --------------------------------------------------------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [[Projects/Library/Entrance/090.20 a\|090.20 a]]       | 090.20 a | <ul></ul>                                                                                                                                            |
+| [[Projects/Library/Entrance/090.20\|090.20]]           | 090.20   | <ul></ul>                                                                                                                                            |
 | [[Projects/Library/000/020/020.10/020.10 b\|020.10 b]] | 020.10 b | <ul><li>#IT_Knowledge</li><li>#Operation_Knowledge</li><li>#Git</li><li>#git_commands</li></ul>                                                      |
 | [[Projects/Library/100/120/120.00/120.00\|120.00]]     | 120.00   | <ul><li>#Infra</li><li>#ML_Engineer_Infra</li><li>#GPU</li></ul>                                                                                     |
 | [[Projects/Library/200/210/210.00/210.00\|210.00]]     | 210.00   | <ul><li>#DevOps</li><li>#CICD</li><li>#DevOps_Fundamental</li></ul>                                                                                  |
 | [[Projects/Library/200/210/210.00/210.00 a\|210.00 a]] | 210.00 a | <ul><li>#DevOps</li><li>#CICD</li><li>#DevOps_Fundamental</li><li>#DevOps_Background</li></ul>                                                       |
 | [[Projects/Library/100/120/120.00/120.00 a\|120.00 a]] | 120.00 a | <ul><li>#Infra</li><li>#ML_Engineer_Infra</li><li>#GPU</li><li>#How_to_easily_rent_an_expensive_GPU_and_what_to_consider_when_choosing_one</li></ul> |
-| [[Projects/Library/900/930/930.00/930.00 a\|930.00 a]] | 930.00 a | <ul><li>#Life_Lessons</li><li>#Gained_from_Society</li><li>#Company</li><li>#Year_1_Review_What_I_Learned_at_the_Company</li></ul>                   |
-| [[Projects/Library/900/910/910.00/910.00 c\|910.00 c]] | 910.00 c | <ul><li>#Life_Lessons</li><li>#Self_Discoveries</li><li>#Approach_to_Life</li><li>#Digital_Detox_Learning_from_a_Failure_to_Detox</li></ul>          |
 
 { .block-language-dataview}
 
@@ -61,7 +61,9 @@
 	- [[Projects/Library/000/090/090\|090]] External Insights an Trends
 		- [[Projects/Library/000/090/090.00/090.00\|090.00]] Industry Trends
 		- [[Projects/Library/000/090/090.10/090.10\|090.10]] Live Session
-			- [[Projects/Library/000/090/090.10/090.10 a\|090.10 a]] Job Definetion
+			- [[Projects/Library/Entrance/090.10 a\|090.10 a]] Job Definition
+		- [[Projects/Library/Entrance/090.20\|090.20]] Publications
+			- [[Projects/Library/Entrance/090.20 a\|090.20 a]] Developer Trivia, Things You Should Have Known Before You Became a Developer
 - [[Projects/Library/100/100\|100]] Infra
 	- [[Projects/Library/100/110/110\|110]] DevOps Engineer Infra
 	- [[Projects/Library/100/120/120\|120]] ML Engineer Infra
