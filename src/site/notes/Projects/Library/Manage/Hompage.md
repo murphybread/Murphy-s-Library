@@ -6,15 +6,15 @@
 
 # Recent Posts
 
-| File                                                      | Title    | Tags                                                                                                                                                 |
-| --------------------------------------------------------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [[Projects/Library/Entrance/090.20 a\|090.20 a]]       | 090.20 a | <ul></ul>                                                                                                                                            |
-| [[Projects/Library/Entrance/090.20\|090.20]]           | 090.20   | <ul></ul>                                                                                                                                            |
-| [[Projects/Library/000/020/020.10/020.10 b\|020.10 b]] | 020.10 b | <ul><li>#IT_Knowledge</li><li>#Operation_Knowledge</li><li>#Git</li><li>#git_commands</li></ul>                                                      |
-| [[Projects/Library/100/120/120.00/120.00\|120.00]]     | 120.00   | <ul><li>#Infra</li><li>#ML_Engineer_Infra</li><li>#GPU</li></ul>                                                                                     |
-| [[Projects/Library/200/210/210.00/210.00\|210.00]]     | 210.00   | <ul><li>#DevOps</li><li>#CICD</li><li>#DevOps_Fundamental</li></ul>                                                                                  |
-| [[Projects/Library/200/210/210.00/210.00 a\|210.00 a]] | 210.00 a | <ul><li>#DevOps</li><li>#CICD</li><li>#DevOps_Fundamental</li><li>#DevOps_Background</li></ul>                                                       |
-| [[Projects/Library/100/120/120.00/120.00 a\|120.00 a]] | 120.00 a | <ul><li>#Infra</li><li>#ML_Engineer_Infra</li><li>#GPU</li><li>#How_to_easily_rent_an_expensive_GPU_and_what_to_consider_when_choosing_one</li></ul> |
+| File                                                      | Title    | Tags                                                                                                                                                     |
+| --------------------------------------------------------- | -------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [[Projects/Library/100/110/110.10/110.10\|110.10]]     | 110.10   | <ul><li>#Infra</li><li>#DevOps_Engineer_Infra</li><li>#Kubernetes</li></ul>                                                                              |
+| [[Projects/Library/100/110/110.10/110.10 a\|110.10 a]] | 110.10 a | <ul><li>#Infra</li><li>#DevOps_Engineer_Infra</li><li>#Kubernetes</li><li>#Kops_script_for_installing_GitLab</li></ul>                                   |
+| [[Projects/Library/900/910/910.00/910.00 d\|910.00 d]] | 910.00 d | <ul><li>#Life_Lessons</li><li>#Self_Discoveries</li><li>#Approach_to_Life</li><li>#How_to_use_metrics_to_evaluate_whether_a_job_is_a_good_idea</li></ul> |
+| [[Projects/Library/300/320/320.10/320.10 a\|320.10 a]] | 320.10 a | <ul><li>#Applications</li><li>#Frontend</li><li>#CSS</li><li>#CSS_Default</li></ul>                                                                      |
+| [[Projects/Library/100/110/110.00/110.00\|110.00]]     | 110.00   | <ul><li>#Infra</li><li>#DevOps_Engineer_Infra</li><li>#Docker</li></ul>                                                                                  |
+| [[Projects/Library/100/110/110.00/110.00 a\|110.00 a]] | 110.00 a | <ul><li>#Infra</li><li>#DevOps_Engineer_Infra</li><li>#Docker</li><li>#Simple_docker_command_things</li></ul>                                            |
+| [[Projects/Library/300/310/310.10/310.10 a\|310.10 a]] | 310.10 a | <ul><li>#Applications</li><li>#Development_Environment</li><li>#Conda</li><li>#Conda_base</li></ul>                                                      |
 
 { .block-language-dataview}
 
@@ -61,11 +61,15 @@
 	- [[Projects/Library/000/090/090\|090]] External Insights an Trends
 		- [[Projects/Library/000/090/090.00/090.00\|090.00]] Industry Trends
 		- [[Projects/Library/000/090/090.10/090.10\|090.10]] Live Session
-			- [[Projects/Library/Entrance/090.10 a\|090.10 a]] Job Definition
-		- [[Projects/Library/Entrance/090.20\|090.20]] Publications
-			- [[Projects/Library/Entrance/090.20 a\|090.20 a]] Developer Trivia, Things You Should Have Known Before You Became a Developer
+			- [[Projects/Library/000/090/090.10/090.10 a\|090.10 a]] Job Definition
+		- [[Projects/Library/000/090/090.20/090.20\|090.20]] Publications
+			- [[Projects/Library/000/090/090.20/090.20 a\|090.20 a]] Developer Trivia, Things You Should Have Known Before You Became a Developer
 - [[Projects/Library/100/100\|100]] Infra
 	- [[Projects/Library/100/110/110\|110]] DevOps Engineer Infra
+		- [[Projects/Library/100/110/110.00/110.00\|110.00]] Docker
+			- [[Projects/Library/100/110/110.00/110.00 a\|110.00 a]] Simple docker command things
+		- [[Projects/Library/100/110/110.10/110.10\|110.10]] Kubernetes
+			- [[Projects/Library/100/110/110.10/110.10 a\|110.10 a]] Kops script for installing GitLab
 	- [[Projects/Library/100/120/120\|120]] ML Engineer Infra
 		- [[Projects/Library/100/120/120.00/120.00\|120.00]] GPU
 			- [[Projects/Library/100/120/120.00/120.00 a\|120.00 a]] How to easily rent an expensive GPU and what to consider when choosing one
@@ -92,6 +96,7 @@
 	- [[Projects/Library/300/320/320\|320]] Frontend
 		- [[Projects/Library/300/320/320.00/320.00\|320.00]] HTML
 		- [[Projects/Library/300/320/320.10/320.10\|320.10]] CSS
+			- [[Projects/Library/300/320/320.10/320.10 a\|320.10 a]] CSS Default 
 			- [[Projects/Library/300/320/320.10/320.10 b\|320.10 b]] Border Properties
 		- [[Projects/Library/300/320/320.30/320.30\|320.30]] Java Script
 	- [[Projects/Library/300/330/330\|330]] Backend
@@ -186,6 +191,7 @@
 			- [[Projects/Library/900/910/910.00/910.00 a\|910.00 a]] Hodie Vixi(Today I Lived)
 			- [[Projects/Library/900/910/910.00/910.00 b\|910.00 b]] How you can try something you've given up on as impossible
 			- [[Projects/Library/900/910/910.00/910.00 c\|910.00 c]] Digital Detox Learning from a Failure to Detox
+			- [[Projects/Library/900/910/910.00/910.00 d\|910.00 d]] How to use metrics to evaluate whether a job is a good idea
 	- [[Projects/Library/900/920/920\|920]] Lessons from Others
 	- [[Projects/Library/900/930/930\|930]] Gained from Society
 		- [[Projects/Library/900/930/930.00/930.00\|930.00]] Company
