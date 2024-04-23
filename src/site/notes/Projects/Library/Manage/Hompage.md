@@ -6,15 +6,15 @@
 
 # Recent Posts
 
-| File                                                      | Title    | Tags                                                                                                                                                                                                                                                                             |
-| --------------------------------------------------------- | -------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [[Projects/Library/600/650/650.00/650.00 b\|650.00 b]] | 650.00 b | <ul><li>#ML_Libraries_and_Implementation</li><li>#Prompt_Engineering</li><li>#Prompt_Use_case</li><li>#When_AI_doesn</li><li>#PromptEngineering</li><li>#Dall-E</li><li>#ChatGPT</li><li>#Prompt-Vision</li><li>#Dall-E3</li><li>#Text_to_Image</li><li>#AI-Compliance</li></ul> |
-| [[Projects/Library/300/330/330.00/330.00 b\|330.00 b]] | 330.00 b | <ul><li>#Applications</li><li>#Backend</li><li>#Django</li><li>#Difference_between_Django_and_FastAPI</li></ul>                                                                                                                                                                  |
-| [[Projects/Library/000/030/030.00/030.00 a\|030.00 a]] | 030.00 a | <ul><li>#IT_Knowledge</li><li>#Package</li><li>#PIP</li><li>#pip_name_and_module_name</li><li>#pip</li></ul>                                                                                                                                                                     |
-| [[Projects/Library/400/430/430.30/430.30\|430.30]]     | 430.30   | <ul><li>#ML_Engineer_Basic</li><li>#ML_Development_Tools</li><li>#Gradio</li></ul>                                                                                                                                                                                               |
-| [[Projects/Library/400/430/430.30/430.30 a\|430.30 a]] | 430.30 a | <ul><li>#ML_Engineer_Basic</li><li>#ML_Development_Tools</li><li>#Gradio</li><li>#Gradio_Quick_Tutorial</li></ul>                                                                                                                                                                |
-| [[Projects/Library/300/330/330.00/330.00\|330.00]]     | 330.00   | <ul><li>#Applications</li><li>#Backend</li><li>#Django</li></ul>                                                                                                                                                                                                                 |
-| [[Projects/Library/300/330/330.00/330.00 a\|330.00 a]] | 330.00 a | <ul><li>#Applications</li><li>#Backend</li><li>#Django</li><li>#Django_default_project</li></ul>                                                                                                                                                                                 |
+| File                                                      | Title    | Tags                                                                                                                                                 |
+| --------------------------------------------------------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [[Projects/Library/000/020/020.10/020.10 b\|020.10 b]] | 020.10 b | <ul><li>#IT_Knowledge</li><li>#Operation_Knowledge</li><li>#Git</li><li>#git_commands</li></ul>                                                      |
+| [[Projects/Library/100/120/120.00/120.00\|120.00]]     | 120.00   | <ul><li>#Infra</li><li>#ML_Engineer_Infra</li><li>#GPU</li></ul>                                                                                     |
+| [[Projects/Library/200/210/210.00/210.00\|210.00]]     | 210.00   | <ul><li>#DevOps</li><li>#CICD</li><li>#DevOps_Fundamental</li></ul>                                                                                  |
+| [[Projects/Library/200/210/210.00/210.00 a\|210.00 a]] | 210.00 a | <ul><li>#DevOps</li><li>#CICD</li><li>#DevOps_Fundamental</li><li>#DevOps_Background</li></ul>                                                       |
+| [[Projects/Library/100/120/120.00/120.00 a\|120.00 a]] | 120.00 a | <ul><li>#Infra</li><li>#ML_Engineer_Infra</li><li>#GPU</li><li>#How_to_easily_rent_an_expensive_GPU_and_what_to_consider_when_choosing_one</li></ul> |
+| [[Projects/Library/900/930/930.00/930.00 a\|930.00 a]] | 930.00 a | <ul><li>#Life_Lessons</li><li>#Gained_from_Society</li><li>#Company</li><li>#Year_1_Review_What_I_Learned_at_the_Company</li></ul>                   |
+| [[Projects/Library/900/910/910.00/910.00 c\|910.00 c]] | 910.00 c | <ul><li>#Life_Lessons</li><li>#Self_Discoveries</li><li>#Approach_to_Life</li><li>#Digital_Detox_Learning_from_a_Failure_to_Detox</li></ul>          |
 
 { .block-language-dataview}
 
@@ -65,10 +65,12 @@
 - [[Projects/Library/100/100\|100]] Infra
 	- [[Projects/Library/100/110/110\|110]] DevOps Engineer Infra
 	- [[Projects/Library/100/120/120\|120]] ML Engineer Infra
+		- [[Projects/Library/100/120/120.00/120.00\|120.00]] GPU
+			- [[Projects/Library/100/120/120.00/120.00 a\|120.00 a]] How to easily rent an expensive GPU and what to consider when choosing one
 - [[Projects/Library/200/200\|200]] DevOps 
 	- [[Projects/Library/200/210/210\|210]] CICD
-		- [[Projects/Library/200/210/210.00/210.00\|210.00]] DevOps Fundemental
-			- [[Projects/Library/200/210/210.00/210.00 a\|210.00 a]] DevOps Backgrond
+		- [[Projects/Library/200/210/210.00/210.00\|210.00]] DevOps Fundamental
+			- [[Projects/Library/200/210/210.00/210.00 a\|210.00 a]] DevOps Background
 		- [[Projects/Library/200/210/210.10/210.10\|210.10]] DevOps Culture
 		- [[Projects/Library/200/210/210.20/210.20\|210.20]] DevOps Solutions
 			- [[Projects/Library/200/210/210.20/210.20 a\|210.20 a]] GitLab
@@ -181,8 +183,11 @@
 		- [[Projects/Library/900/910/910.00/910.00\|910.00]]  Approach to Life
 			- [[Projects/Library/900/910/910.00/910.00 a\|910.00 a]] Hodie Vixi(Today I Lived)
 			- [[Projects/Library/900/910/910.00/910.00 b\|910.00 b]] How you can try something you've given up on as impossible
+			- [[Projects/Library/900/910/910.00/910.00 c\|910.00 c]] Digital Detox Learning from a Failure to Detox
 	- [[Projects/Library/900/920/920\|920]] Lessons from Others
 	- [[Projects/Library/900/930/930\|930]] Gained from Society
+		- [[Projects/Library/900/930/930.00/930.00\|930.00]] Company
+			- [[Projects/Library/900/930/930.00/930.00 a\|930.00 a]] Year 1 Review What I Learned at the Company
 
 </div></div>
 
