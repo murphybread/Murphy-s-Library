@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/projects/library/manage/history-of-library/","noteIcon":"0","created":"2023-12-31T20:39:20.070+09:00","updated":"2024-04-23T21:19:27.950+09:00"}
+{"dg-publish":true,"permalink":"/projects/library/manage/history-of-library/","noteIcon":"0","created":"2023-12-31T20:39:20.070+09:00","updated":"2024-04-23T21:28:45.594+09:00"}
 ---
 
 #History #Versioning_Strategy 
@@ -485,13 +485,13 @@ Understanding data structures and creating variables with JSON enables this recu
 #  0.2.3-OB
 ## Change dataview query
 
-```bash
+
 TABLE file.name AS title, file.path, file.mtime
 FROM "Projects/Library"
 WHERE dg-publish = true
 SORT file.ctime DESC
 LIMIT 7
-```
+
 
 Add Table attrivutes modifed time path and remove link
 Specifify query path "Projects/Library"
@@ -634,13 +634,12 @@ This query is used for Recent Post in homepage.
 I delete file.path and add file.tags
 tags doesn't display backlink tags
 
-```sh
+
 TABLE file.name AS Title, file.tags AS Tags
 FROM "Projects/Library"
 WHERE dg-publish = true
 SORT file.ctime DESC
 LIMIT 7
-```
 
 
 
@@ -663,13 +662,13 @@ Easily see which files have been modified, and see the tags they have at a glanc
 - Change the standard modification time not the create time `file.ctime -> file.mtime`
 - Exclude md file that have the tag `#Library` 
 
-```sh
+
 TABLE file.name AS Title, file.tags AS Tags
 FROM "Projects/Library" AND -#Library
 WHERE dg-publish = true
 SORT file.mtime DESC
 LIMIT 7
-```
+
 
 
 
