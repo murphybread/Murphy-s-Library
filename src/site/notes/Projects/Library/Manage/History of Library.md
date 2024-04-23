@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/projects/library/manage/history-of-library/","noteIcon":"0","created":"2023-12-31T20:39:20.070+09:00","updated":"2024-04-11T01:09:19.849+09:00"}
+{"dg-publish":true,"permalink":"/projects/library/manage/history-of-library/","noteIcon":"0","created":"2023-12-31T20:39:20.070+09:00","updated":"2024-04-23T18:58:01.758+09:00"}
 ---
 
 #History #Versioning_Strategy 
@@ -707,6 +707,26 @@ Patch: The change is minimal or don't require much attention after the change. e
 The reason for the change is that I didn't have an explicit criterion for considering the version impact, and now it's explicit.
 
 
+분류
+
+대분류 100,200,300
+중분류 110,120,130
+소분류 101.10 101.20 101.30
+
+
+중요한것 방향성, 확장성, 기준, 관리
+
+방향성: 인프라 100, 인프라위에 올라가는 cicd 200, cicd를 활용한 위에 올라가는 또는 고급 300등방향성
+
+
+확장성: 새 주제나 개념이 번호가 붙을 때 중간에 밀어내야하는 경우 ex) 110(A) 120(B)에서 110(A) 120(C) 130(B)으로 확장할경우 110(A) 111(B) 120(B)를 통해 유연하게 확장 가능
+-> 이전 버전인 101,102형태면 불가
+
+유사 분류는 뒤에 알파벳을 붙임. 즉 알파벳의 경우 일부러 방향성을 정하지 않음. 110에 해당하지만 그렇다고 110.1처럼 하위로 나누기는 애매한거에 붙임
+
+
+
+기준: 확장성을 살려도 110이나 120에대한 개념이 바뀌면 안되기에 최대한 신중하게 골라야 가능. 예를들어 111에 못넣고 기존의 120을 대체해야하는 경우, 기존의120이 121로 밀리게됨 즉 추가가 아니라 기존 데이터도 변동
 
 
 
