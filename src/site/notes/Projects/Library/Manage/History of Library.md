@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/projects/library/manage/history-of-library/","noteIcon":"0","created":"2023-12-31T20:39:20.070+09:00","updated":"2024-04-23T21:28:45.594+09:00"}
+{"dg-publish":true,"permalink":"/projects/library/manage/history-of-library/","noteIcon":"0","created":"2023-12-31T20:39:20.070+09:00","updated":"2024-04-23T22:06:04.906+09:00"}
 ---
 
 #History #Versioning_Strategy 
@@ -759,7 +759,7 @@ the template file is note.njk file
 About Homepage is managed by index.njk
 
 
-```
+```html
 <!DOCTYPE html>
 <html lang="{{ meta.mainLanguage }}">
   <head>
@@ -817,7 +817,7 @@ Change location
 }
 ```
 ### Google Translation-HTML
-```
+```html
     {% include imp %}
     {% endfor %}
     {{ content | hideDataview | link | taggify | safe}}
