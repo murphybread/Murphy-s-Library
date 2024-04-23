@@ -1,9 +1,32 @@
 ---
-{"dg-publish":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"noteIcon":"0","created":"2024-01-30T20:06:19.823+09:00","updated":"2024-03-12T12:11:12.378+09:00"}
+{"dg-publish":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"noteIcon":"0","created":"2024-01-30T20:06:19.823+09:00","updated":"2024-04-23T10:17:53.788+09:00"}
 ---
 
 #hompage #Library #Rules
 
+# Recent Posts
+
+| File                                                      | Title    | Tags                                                                                                                                                                                                                                                                             |
+| --------------------------------------------------------- | -------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [[Projects/Library/600/650/650.00/650.00 b\|650.00 b]] | 650.00 b | <ul><li>#ML_Libraries_and_Implementation</li><li>#Prompt_Engineering</li><li>#Prompt_Use_case</li><li>#When_AI_doesn</li><li>#PromptEngineering</li><li>#Dall-E</li><li>#ChatGPT</li><li>#Prompt-Vision</li><li>#Dall-E3</li><li>#Text_to_Image</li><li>#AI-Compliance</li></ul> |
+| [[Projects/Library/300/330/330.00/330.00 b\|330.00 b]] | 330.00 b | <ul><li>#Applications</li><li>#Backend</li><li>#Django</li><li>#Difference_between_Django_and_FastAPI</li></ul>                                                                                                                                                                  |
+| [[Projects/Library/000/030/030.00/030.00 a\|030.00 a]] | 030.00 a | <ul><li>#IT_Knowledge</li><li>#Package</li><li>#PIP</li><li>#pip_name_and_module_name</li><li>#pip</li></ul>                                                                                                                                                                     |
+| [[Projects/Library/400/430/430.30/430.30\|430.30]]     | 430.30   | <ul><li>#ML_Engineer_Basic</li><li>#ML_Development_Tools</li><li>#Gradio</li></ul>                                                                                                                                                                                               |
+| [[Projects/Library/400/430/430.30/430.30 a\|430.30 a]] | 430.30 a | <ul><li>#ML_Engineer_Basic</li><li>#ML_Development_Tools</li><li>#Gradio</li><li>#Gradio_Quick_Tutorial</li></ul>                                                                                                                                                                |
+| [[Projects/Library/300/330/330.00/330.00\|330.00]]     | 330.00   | <ul><li>#Applications</li><li>#Backend</li><li>#Django</li></ul>                                                                                                                                                                                                                 |
+| [[Projects/Library/300/330/330.00/330.00 a\|330.00 a]] | 330.00 a | <ul><li>#Applications</li><li>#Backend</li><li>#Django</li><li>#Django_default_project</li></ul>                                                                                                                                                                                 |
+
+{ .block-language-dataview}
+
+## Link Trees
+
+### GitHub
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/murphybread)
+### Linkedin
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/%EB%AF%BC%EC%B0%AC-%EA%B9%80-aba89a243)
+
+
+# Categories List
 
 <div class="transclusion internal-embed is-loaded"><div class="markdown-embed">
 
@@ -162,37 +185,6 @@
 	- [[Projects/Library/900/930/930\|930]] Gained from Society
 
 </div></div>
-
-
-
-
-## Ongoing Projects
-
-
-# Recent Posts
-
-| File                                                      | Title    | Tags                                                                                                                                                                                                                                                                             |
-| --------------------------------------------------------- | -------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [[Projects/Library/600/650/650.00/650.00 b\|650.00 b]] | 650.00 b | <ul><li>#ML_Libraries_and_Implementation</li><li>#Prompt_Engineering</li><li>#Prompt_Use_case</li><li>#When_AI_doesn</li><li>#PromptEngineering</li><li>#Dall-E</li><li>#ChatGPT</li><li>#Prompt-Vision</li><li>#Dall-E3</li><li>#Text_to_Image</li><li>#AI-Compliance</li></ul> |
-| [[Projects/Library/300/330/330.00/330.00 b\|330.00 b]] | 330.00 b | <ul><li>#Applications</li><li>#Backend</li><li>#Django</li><li>#Difference_between_Django_and_FastAPI</li></ul>                                                                                                                                                                  |
-| [[Projects/Library/000/030/030.00/030.00 a\|030.00 a]] | 030.00 a | <ul><li>#IT_Knowledge</li><li>#Package</li><li>#PIP</li><li>#pip_name_and_module_name</li><li>#pip</li></ul>                                                                                                                                                                     |
-| [[Projects/Library/400/430/430.30/430.30\|430.30]]     | 430.30   | <ul><li>#ML_Engineer_Basic</li><li>#ML_Development_Tools</li><li>#Gradio</li></ul>                                                                                                                                                                                               |
-| [[Projects/Library/400/430/430.30/430.30 a\|430.30 a]] | 430.30 a | <ul><li>#ML_Engineer_Basic</li><li>#ML_Development_Tools</li><li>#Gradio</li><li>#Gradio_Quick_Tutorial</li></ul>                                                                                                                                                                |
-| [[Projects/Library/300/330/330.00/330.00\|330.00]]     | 330.00   | <ul><li>#Applications</li><li>#Backend</li><li>#Django</li></ul>                                                                                                                                                                                                                 |
-| [[Projects/Library/300/330/330.00/330.00 a\|330.00 a]] | 330.00 a | <ul><li>#Applications</li><li>#Backend</li><li>#Django</li><li>#Django_default_project</li></ul>                                                                                                                                                                                 |
-
-{ .block-language-dataview}
-
-## Link Trees
-
-### GitHub
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/murphybread)
-### Linkedin
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/%EB%AF%BC%EC%B0%AC-%EA%B9%80-aba89a243)
-### Velog
-IT Community in Korea
-
-[![Velog's GitHub stats](https://velog-readme-stats.vercel.app/api?name=murphybread)](https://github.com/murphybread/velog-readme-stats)
 
 
 
