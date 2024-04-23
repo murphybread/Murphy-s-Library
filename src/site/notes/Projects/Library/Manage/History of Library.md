@@ -1033,36 +1033,7 @@ const STYLE_PATH = "src/site/styles/";
 
 // const generateStylesPaths = async () => {
 //   try {
-//     const tree = await fsFileTree(<pre class="dataview dataview-error">Evaluation Error: ReferenceError: STYLE_PATH is not defined
-    at eval (eval at &lt;anonymous&gt; (plugin:dataview), &lt;anonymous&gt;:1:40)
-    at DataviewInlineApi.eval (plugin:dataview:18619:16)
-    at evalInContext (plugin:dataview:18620:7)
-    at asyncEvalInContext (plugin:dataview:18630:32)
-    at DataviewJSRenderer.render (plugin:dataview:18651:19)
-    at DataviewJSRenderer.onload (plugin:dataview:18241:14)
-    at e.load (app://obsidian.md/app.js:1:1167250)
-    at DataviewApi.executeJs (plugin:dataview:19179:18)
-    at eval (plugin:digitalgarden:10991:17)
-    at Generator.next (&lt;anonymous&gt;)
-    at eval (plugin:digitalgarden:90:61)
-    at new Promise (&lt;anonymous&gt;)
-    at __async (plugin:digitalgarden:74:10)
-    at tryExecuteJs (plugin:digitalgarden:10987:10)
-    at DataviewCompiler.eval (plugin:digitalgarden:10911:28)
-    at Generator.next (&lt;anonymous&gt;)
-    at eval (plugin:digitalgarden:90:61)
-    at new Promise (&lt;anonymous&gt;)
-    at __async (plugin:digitalgarden:74:10)
-    at eval (plugin:digitalgarden:10804:41)
-    at GardenPageCompiler.eval (plugin:digitalgarden:17266:50)
-    at Generator.next (&lt;anonymous&gt;)
-    at eval (plugin:digitalgarden:90:61)
-    at new Promise (&lt;anonymous&gt;)
-    at __async (plugin:digitalgarden:74:10)
-    at eval (plugin:digitalgarden:17264:50)
-    at GardenPageCompiler.eval (plugin:digitalgarden:17202:36)
-    at Generator.next (&lt;anonymous&gt;)
-    at fulfilled (plugin:digitalgarden:77:24)</pre>);
+//     const tree = await fsFileTree(`${STYLE_PATH}`);
 //     let comps = Object.keys(tree).map((p) =>
 //       `/styles/user/${p}`.replace(".scss", ".css")
 //     );
