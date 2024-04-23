@@ -6,15 +6,15 @@
 
 # Recent Posts
 
-| File                                                      | Title    | Tags                                                                                                                                                     |
-| --------------------------------------------------------- | -------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [[Projects/Library/100/110/110.10/110.10 a\|110.10 a]] | 110.10 a | <ul><li>#Infra</li><li>#DevOps_Engineer_Infra</li><li>#Kubernetes</li><li>#Kops_script_for_installing_GitLab</li></ul>                                   |
-| [[Projects/Library/100/110/110.10/110.10\|110.10]]     | 110.10   | <ul><li>#Infra</li><li>#DevOps_Engineer_Infra</li><li>#Kubernetes</li></ul>                                                                              |
-| [[Projects/Library/900/910/910.00/910.00 d\|910.00 d]] | 910.00 d | <ul><li>#Life_Lessons</li><li>#Self_Discoveries</li><li>#Approach_to_Life</li><li>#How_to_use_metrics_to_evaluate_whether_a_job_is_a_good_idea</li></ul> |
-| [[Projects/Library/300/320/320.10/320.10 a\|320.10 a]] | 320.10 a | <ul><li>#Applications</li><li>#Frontend</li><li>#CSS</li><li>#CSS_Default</li></ul>                                                                      |
-| [[Projects/Library/100/110/110.00/110.00\|110.00]]     | 110.00   | <ul><li>#Infra</li><li>#DevOps_Engineer_Infra</li><li>#Docker</li></ul>                                                                                  |
-| [[Projects/Library/100/110/110.00/110.00 a\|110.00 a]] | 110.00 a | <ul><li>#Infra</li><li>#DevOps_Engineer_Infra</li><li>#Docker</li><li>#Simple_docker_command_things</li></ul>                                            |
-| [[Projects/Library/300/310/310.10/310.10 a\|310.10 a]] | 310.10 a | <ul><li>#Applications</li><li>#Development_Environment</li><li>#Conda</li><li>#Conda_base</li></ul>                                                      |
+| File                                                                  | Title              | Tags                                                                                                                                                     |
+| --------------------------------------------------------------------- | ------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [[Projects/Library/Manage/History of Library\|History of Library]] | History of Library | <ul><li>#History</li><li>#Versioning_Strategy</li></ul>                                                                                                  |
+| [[Projects/Library/100/110/110.10/110.10 a\|110.10 a]]             | 110.10 a           | <ul><li>#Infra</li><li>#DevOps_Engineer_Infra</li><li>#Kubernetes</li><li>#Kops_script_for_installing_GitLab</li></ul>                                   |
+| [[Projects/Library/100/110/110.10/110.10\|110.10]]                 | 110.10             | <ul><li>#Infra</li><li>#DevOps_Engineer_Infra</li><li>#Kubernetes</li></ul>                                                                              |
+| [[Projects/Library/900/910/910.00/910.00 d\|910.00 d]]             | 910.00 d           | <ul><li>#Life_Lessons</li><li>#Self_Discoveries</li><li>#Approach_to_Life</li><li>#How_to_use_metrics_to_evaluate_whether_a_job_is_a_good_idea</li></ul> |
+| [[Projects/Library/300/320/320.10/320.10 a\|320.10 a]]             | 320.10 a           | <ul><li>#Applications</li><li>#Frontend</li><li>#CSS</li><li>#CSS_Default</li></ul>                                                                      |
+| [[Projects/Library/100/110/110.00/110.00\|110.00]]                 | 110.00             | <ul><li>#Infra</li><li>#DevOps_Engineer_Infra</li><li>#Docker</li></ul>                                                                                  |
+| [[Projects/Library/100/110/110.00/110.00 a\|110.00 a]]             | 110.00 a           | <ul><li>#Infra</li><li>#DevOps_Engineer_Infra</li><li>#Docker</li><li>#Simple_docker_command_things</li></ul>                                            |
 
 { .block-language-dataview}
 
