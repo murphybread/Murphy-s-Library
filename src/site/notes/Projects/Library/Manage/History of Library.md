@@ -1,10 +1,19 @@
 ---
-{"dg-publish":true,"permalink":"/projects/library/manage/history-of-library/","noteIcon":"0","created":"2023-12-31T20:39:20.070+09:00","updated":"2024-04-23T22:06:04.906+09:00"}
+{"dg-publish":true,"permalink":"/projects/library/manage/history-of-library/","noteIcon":"0","created":"2023-12-31T20:39:20.070+09:00","updated":"2024-04-24T14:23:51.419+09:00"}
 ---
 
 #History #Versioning_Strategy 
 # Versioning Standard
 [[Projects/Library/000/020/020.00/020.00 c\|020.00 c]]
+
+# 0.12.0-LB
+Using base template from local. Because speed and Tokens. It will be longer after, so that base knowledge is useful more than external vector db.
+By Regex pattern.
+
+I decided to only articles is going to embed to vector. Because using just categories are enough to only base
+
+
+
 
 
 # 0.11.0-LB
