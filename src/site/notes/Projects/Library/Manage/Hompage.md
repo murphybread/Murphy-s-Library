@@ -7,13 +7,13 @@
 # Recent Posts
 
 
-| File                                                                  | Tags                                                                                                                   |
-| --------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
-| [[Projects/Library/Manage/Hompage\|Hompage]]                       | <ul><li>#hompage</li><li>#Library</li><li>#Rules</li></ul>                                                             |
-| [[Projects/Library/300/320/320.10/320.10 a\|320.10 a]]             | <ul><li>#Applications</li><li>#Frontend</li><li>#CSS</li><li>#CSS_Default</li></ul>                                    |
-| [[Projects/Library/100/110/110.00/110.00 a\|110.00 a]]             | <ul><li>#Infra</li><li>#DevOps_Engineer_Infra</li><li>#Docker</li><li>#Simple_docker_command_things</li></ul>          |
-| [[Projects/Library/Manage/History of Library\|History of Library]] | <ul><li>#History</li><li>#Versioning_Strategy</li></ul>                                                                |
-| [[Projects/Library/100/110/110.10/110.10 a\|110.10 a]]             | <ul><li>#Infra</li><li>#DevOps_Engineer_Infra</li><li>#Kubernetes</li><li>#Kops_script_for_installing_GitLab</li></ul> |
+| File                                                                  | Tags                                                                                                          |
+| --------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
+| [[Projects/Library/Manage/History of Library\|History of Library]] | <ul><li>#History</li><li>#Versioning_Strategy</li></ul>                                                       |
+| [[Projects/Library/Entrance/710.00 c\|710.00 c]]                   | <ul></ul>                                                                                                     |
+| [[Projects/Library/Manage/Hompage\|Hompage]]                       | <ul><li>#hompage</li><li>#Library</li><li>#Rules</li></ul>                                                    |
+| [[Projects/Library/300/320/320.10/320.10 a\|320.10 a]]             | <ul><li>#Applications</li><li>#Frontend</li><li>#CSS</li><li>#CSS_Default</li></ul>                           |
+| [[Projects/Library/100/110/110.00/110.00 a\|110.00 a]]             | <ul><li>#Infra</li><li>#DevOps_Engineer_Infra</li><li>#Docker</li><li>#Simple_docker_command_things</li></ul> |
 
 { .block-language-dataview}
 
@@ -181,6 +181,7 @@
 		- [[Projects/Library/700/710/710.00/710.00\|710.00]] Multi-agent Reinforcement Learning
 			- [[Projects/Library/700/710/710.00/710.00 a\|710.00 a]] Base Domains
 			- [[Projects/Library/700/710/710.00/710.00 b\|710.00 b]] Mindcraft
+			- [[Projects/Library/Entrance/710.00 c\|710.00 c]] Creative-Agents
 - [[Projects/Library/800/800\|800]] Anythings
 	- [[Projects/Library/800/810/810\|810]] Game
 		- [[Projects/Library/800/810/810.00/810.00\|810.00]] Minecraft
