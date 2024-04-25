@@ -1,10 +1,25 @@
 ---
-{"dg-publish":true,"permalink":"/projects/library/manage/history-of-library/","noteIcon":"0","created":"2023-12-31T20:39:20.070+09:00","updated":"2024-04-24T14:23:51.419+09:00"}
+{"dg-publish":true,"permalink":"/projects/library/manage/history-of-library/","dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-31T20:39:20.070+09:00","updated":"2024-04-25T18:13:12.653+09:00"}
 ---
 
 #History #Versioning_Strategy 
 # Versioning Standard
 [[Projects/Library/000/020/020.00/020.00 c\|020.00 c]]
+
+
+# 0.13.0-FE
+Show description frontmatter by custom component
+reference: https://dudethatserin.com/advanced-tips-obsidian-digital-garden/
+
+code
+naviage here `src/site/_includes/components`
+create this file `user/notes/header/frontmatter.njk`
+read description front matter from note , and write to header
+```
+{%- if description -%}
+<p>{{ description }}</p>
+{%- endif -%}
+```
 
 # 0.12.0-LB
 Using base template from local. Because speed and Tokens. It will be longer after, so that base knowledge is useful more than external vector db.
