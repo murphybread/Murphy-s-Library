@@ -7,13 +7,13 @@
 # Recent Posts
 
 
-| File                                                                  | Tags                                                                                                          |
-| --------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
-| [[Projects/Library/Manage/History of Library\|History of Library]] | <ul><li>#History</li><li>#Versioning_Strategy</li></ul>                                                       |
-| [[Projects/Library/Entrance/710.00 c\|710.00 c]]                   | <ul></ul>                                                                                                     |
-| [[Projects/Library/Manage/Hompage\|Hompage]]                       | <ul><li>#hompage</li><li>#Library</li><li>#Rules</li></ul>                                                    |
-| [[Projects/Library/300/320/320.10/320.10 a\|320.10 a]]             | <ul><li>#Applications</li><li>#Frontend</li><li>#CSS</li><li>#CSS_Default</li></ul>                           |
-| [[Projects/Library/100/110/110.00/110.00 a\|110.00 a]]             | <ul><li>#Infra</li><li>#DevOps_Engineer_Infra</li><li>#Docker</li><li>#Simple_docker_command_things</li></ul> |
+| File                                                      | Tags                                                                                                                        |
+| --------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
+| [[Projects/Library/000/020/020.10/020.10 f\|020.10 f]] | <ul><li>#IT_Knowledge</li><li>#Operation_Knowledge</li><li>#Git</li><li>#git_branch_strategy</li></ul>                      |
+| [[Projects/Library/100/110/110.30/110.30 a\|110.30 a]] | <ul><li>#Infra</li><li>#DevOps_Engineer_Infra</li><li>#GCP</li><li>#GCP_features_shared_by_a_co-worker</li></ul>            |
+| [[Projects/Library/700/710/710.00/710.00 c\|710.00 c]] | <ul><li>#Research_Paper</li><li>#methodology</li><li>#Multi-agent_Reinforcement_Learning</li><li>#Creative-Agents</li></ul> |
+| [[Projects/Library/100/110/110.10/110.10 b\|110.10 b]] | <ul><li>#Infra</li><li>#DevOps_Engineer_Infra</li><li>#Kubernetes</li><li>#eksctl_commands</li></ul>                        |
+| [[Projects/Library/100/110/110.20/110.20\|110.20]]     | <ul><li>#Infra</li><li>#DevOps_Engineer_Infra</li><li>#AWS</li></ul>                                                        |
 
 { .block-language-dataview}
 
@@ -51,6 +51,7 @@
 			- [[Projects/Library/000/020/020.10/020.10 c\|020.10 c]] git structure
 			- [[Projects/Library/000/020/020.10/020.10 d\|020.10 d]] git submodule
 			- [[Projects/Library/000/020/020.10/020.10 e\|020.10 e]] git gist
+			- [[Projects/Library/000/020/020.10/020.10 f\|020.10 f]] git branch strategy
 		- [[Projects/Library/000/020/020.20/020.20\|020.20]] Organizing Code Functions and Modules
 			- [[Projects/Library/000/020/020.20/020.20 a\|020.20 a]] Proper dividing for reusable modules
 	- [[Projects/Library/000/030/030\|030]] Package
@@ -70,6 +71,11 @@
 			- [[Projects/Library/100/110/110.00/110.00 a\|110.00 a]] Simple docker command things
 		- [[Projects/Library/100/110/110.10/110.10\|110.10]] Kubernetes
 			- [[Projects/Library/100/110/110.10/110.10 a\|110.10 a]] Kops script for installing GitLab
+			- [[Projects/Library/100/110/110.10/110.10 b\|110.10 b]] eksctl commands
+			- [[Projects/Library/100/110/110.10/110.10 c\|110.10 c]] Helm
+		- [[Projects/Library/100/110/110.20/110.20\|110.20]] AWS
+		- [[Projects/Library/100/110/110.30/110.30\|110.30]] GCP
+			- [[Projects/Library/100/110/110.30/110.30 a\|110.30 a]] GCP features shared by a co-worker
 	- [[Projects/Library/100/120/120\|120]] ML Engineer Infra
 		- [[Projects/Library/100/120/120.00/120.00\|120.00]] GPU
 			- [[Projects/Library/100/120/120.00/120.00 a\|120.00 a]] How to easily rent an expensive GPU and what to consider when choosing one
@@ -181,7 +187,7 @@
 		- [[Projects/Library/700/710/710.00/710.00\|710.00]] Multi-agent Reinforcement Learning
 			- [[Projects/Library/700/710/710.00/710.00 a\|710.00 a]] Base Domains
 			- [[Projects/Library/700/710/710.00/710.00 b\|710.00 b]] Mindcraft
-			- [[Projects/Library/Entrance/710.00 c\|710.00 c]] Creative-Agents
+			- [[Projects/Library/700/710/710.00/710.00 c\|710.00 c]] Creative-Agents
 - [[Projects/Library/800/800\|800]] Anythings
 	- [[Projects/Library/800/810/810\|810]] Game
 		- [[Projects/Library/800/810/810.00/810.00\|810.00]] Minecraft
