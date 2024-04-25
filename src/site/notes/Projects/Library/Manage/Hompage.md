@@ -9,11 +9,11 @@
 
 | File                                                                  | Tags                                                                                                                        |
 | --------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
+| [[Projects/Library/300/320/320.10/320.10 a\|320.10 a]]             | <ul><li>#Applications</li><li>#Frontend</li><li>#CSS</li><li>#CSS_Default</li><li>#ID선택자</li></ul>                          |
 | [[Projects/Library/Manage/History of Library\|History of Library]] | <ul><li>#History</li><li>#Versioning_Strategy</li></ul>                                                                     |
 | [[Projects/Library/000/020/020.10/020.10 f\|020.10 f]]             | <ul><li>#IT_Knowledge</li><li>#Operation_Knowledge</li><li>#Git</li><li>#git_branch_strategy</li></ul>                      |
 | [[Projects/Library/100/110/110.30/110.30 a\|110.30 a]]             | <ul><li>#Infra</li><li>#DevOps_Engineer_Infra</li><li>#GCP</li><li>#GCP_features_shared_by_a_co-worker</li></ul>            |
 | [[Projects/Library/700/710/710.00/710.00 c\|710.00 c]]             | <ul><li>#Research_Paper</li><li>#methodology</li><li>#Multi-agent_Reinforcement_Learning</li><li>#Creative-Agents</li></ul> |
-| [[Projects/Library/100/110/110.10/110.10 b\|110.10 b]]             | <ul><li>#Infra</li><li>#DevOps_Engineer_Infra</li><li>#Kubernetes</li><li>#eksctl_commands</li></ul>                        |
 
 { .block-language-dataview}
 
