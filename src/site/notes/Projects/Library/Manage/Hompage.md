@@ -7,13 +7,13 @@
 # Recent Posts
 
 
-| File                                                                  | Tags                                                                                                                               |
-| --------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
-| [[Projects/Library/900/930/930.00/930.00 a\|930.00 a]]             | <ul><li>#Life_Lessons</li><li>#Gained_from_Society</li><li>#Company</li><li>#Year_1_Review_What_I_Learned_at_the_Company</li></ul> |
-| [[Projects/Library/300/320/320.10/320.10 a\|320.10 a]]             | <ul><li>#Applications</li><li>#Frontend</li><li>#CSS</li><li>#CSS_Default</li><li>#ID선택자</li></ul>                                 |
-| [[Projects/Library/Manage/History of Library\|History of Library]] | <ul><li>#History</li><li>#Versioning_Strategy</li></ul>                                                                            |
-| [[Projects/Library/000/020/020.10/020.10 f\|020.10 f]]             | <ul><li>#IT_Knowledge</li><li>#Operation_Knowledge</li><li>#Git</li><li>#git_branch_strategy</li></ul>                             |
-| [[Projects/Library/100/110/110.30/110.30 a\|110.30 a]]             | <ul><li>#Infra</li><li>#DevOps_Engineer_Infra</li><li>#GCP</li><li>#GCP_features_shared_by_a_co-worker</li></ul>                   |
+| File                                                      | Tags                                                                                                                               |
+| --------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| [[Projects/Library/100/110/110.10/110.10 d\|110.10 d]] | <ul><li>#Infra</li><li>#DevOps_Engineer_Infra</li><li>#Kubernetes</li><li>#Helm_Argocd_Ingress_trouble_shooting</li></ul>          |
+| [[Projects/Library/100/110/110.00/110.00 b\|110.00 b]] | <ul><li>#Infra</li><li>#DevOps_Engineer_Infra</li><li>#Docker</li><li>#Docker_credential_credsStore__with_Kaniko</li></ul>         |
+| [[Projects/Library/100/110/110.10/110.10 c\|110.10 c]] | <ul><li>#Infra</li><li>#DevOps_Engineer_Infra</li><li>#Kubernetes</li><li>#Helm</li></ul>                                          |
+| [[Projects/Library/900/930/930.00/930.00 a\|930.00 a]] | <ul><li>#Life_Lessons</li><li>#Gained_from_Society</li><li>#Company</li><li>#Year_1_Review_What_I_Learned_at_the_Company</li></ul> |
+| [[Projects/Library/300/320/320.10/320.10 a\|320.10 a]] | <ul><li>#Applications</li><li>#Frontend</li><li>#CSS</li><li>#CSS_Default</li><li>#ID선택자</li></ul>                                 |
 
 { .block-language-dataview}
 
@@ -69,10 +69,12 @@
 	- [[Projects/Library/100/110/110\|110]] DevOps Engineer Infra
 		- [[Projects/Library/100/110/110.00/110.00\|110.00]] Docker
 			- [[Projects/Library/100/110/110.00/110.00 a\|110.00 a]] Simple docker command things
+			- [[Projects/Library/100/110/110.00/110.00 b\|110.00 b]] Docker credential credsStore  with Kaniko
 		- [[Projects/Library/100/110/110.10/110.10\|110.10]] Kubernetes
 			- [[Projects/Library/100/110/110.10/110.10 a\|110.10 a]] Kops script for installing GitLab
 			- [[Projects/Library/100/110/110.10/110.10 b\|110.10 b]] eksctl commands
 			- [[Projects/Library/100/110/110.10/110.10 c\|110.10 c]] Helm
+			- [[Projects/Library/100/110/110.10/110.10 d\|110.10 d]] Helm Argocd Ingress trouble shooting
 		- [[Projects/Library/100/110/110.20/110.20\|110.20]] AWS
 		- [[Projects/Library/100/110/110.30/110.30\|110.30]] GCP
 			- [[Projects/Library/100/110/110.30/110.30 a\|110.30 a]] GCP features shared by a co-worker
