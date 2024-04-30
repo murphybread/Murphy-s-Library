@@ -7,13 +7,13 @@
 # Recent Posts
 
 
-| File                                                      | Tags                                                                                                                               |
-| --------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
-| [[Projects/Library/100/110/110.10/110.10 d\|110.10 d]] | <ul><li>#Infra</li><li>#DevOps_Engineer_Infra</li><li>#Kubernetes</li><li>#Helm_Argocd_Ingress_trouble_shooting</li></ul>          |
-| [[Projects/Library/100/110/110.00/110.00 b\|110.00 b]] | <ul><li>#Infra</li><li>#DevOps_Engineer_Infra</li><li>#Docker</li><li>#Docker_credential_credsStore__with_Kaniko</li></ul>         |
-| [[Projects/Library/100/110/110.10/110.10 c\|110.10 c]] | <ul><li>#Infra</li><li>#DevOps_Engineer_Infra</li><li>#Kubernetes</li><li>#Helm</li></ul>                                          |
-| [[Projects/Library/900/930/930.00/930.00 a\|930.00 a]] | <ul><li>#Life_Lessons</li><li>#Gained_from_Society</li><li>#Company</li><li>#Year_1_Review_What_I_Learned_at_the_Company</li></ul> |
-| [[Projects/Library/300/320/320.10/320.10 a\|320.10 a]] | <ul><li>#Applications</li><li>#Frontend</li><li>#CSS</li><li>#CSS_Default</li><li>#ID선택자</li></ul>                                 |
+| File                                                      | Tags                                                                                                                                                                |
+| --------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [[Projects/Library/Entrance/830.00 b\|830.00 b]]       | <ul></ul>                                                                                                                                                           |
+| [[Projects/Library/Entrance/830.00 a\|830.00 a]]       | <ul></ul>                                                                                                                                                           |
+| [[Projects/Library/600/650/650.00/650.00 a\|650.00 a]] | <ul><li>#ML_Libraries_and_Implementation</li><li>#Prompt_Engineering</li><li>#Prompt_Use_case</li><li>#Qr_Code_Color_Placement_Recommendation_with_Design</li></ul> |
+| [[Projects/Library/Entrance/830.00\|830.00]]           | <ul></ul>                                                                                                                                                           |
+| [[Projects/Library/Entrance/830\|830]]                 | <ul></ul>                                                                                                                                                           |
 
 { .block-language-dataview}
 
@@ -194,6 +194,13 @@
 	- [[Projects/Library/800/810/810\|810]] Game
 		- [[Projects/Library/800/810/810.00/810.00\|810.00]] Minecraft
 			- [[Projects/Library/800/810/810.00/810.00 a\|810.00 a]] Minecraft Commands
+	- [[Projects/Library/Entrance/820\|820]] Writing
+		- [[Projects/Library/Entrance/820.00\|820.00]] LinkedIn
+			- [[Projects/Library/Entrance/820.00 a\|820.00 a]] Why I Use Obsidian as KnowldegeBase Tool
+	- [[Projects/Library/Entrance/830\|830]] Hobby
+		- [[Projects/Library/Entrance/830.00\|830.00]] 3D Works
+			- [[Projects/Library/Entrance/830.00 a\|830.00 a]] 3D object domain knowledge
+			- [[Projects/Library/Entrance/830.00 b\|830.00 b]] Unity Plugin VScode highlighting
 - [[Projects/Library/900/900\|900]] Life Lessons
 	- [[Projects/Library/900/910/910\|910]] Self Discoveries
 		- [[Projects/Library/900/910/910.00/910.00\|910.00]]  Approach to Life
