@@ -7,13 +7,13 @@
 # Recent Posts
 
 
-| File                                                                  | Tags                                                                                                   |
-| --------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
-| [[Projects/Library/Manage/History of Library\|History of Library]] | <ul><li>#History</li><li>#Versioning_Strategy</li></ul>                                                |
-| [[Projects/Library/100/110/110.10/110.10 c\|110.10 c]]             | <ul><li>#Infra</li><li>#DevOps_Engineer_Infra</li><li>#Kubernetes</li><li>#Helm</li></ul>              |
-| [[Projects/Library/100/110/110.30/110.30\|110.30]]                 | <ul><li>#Infra</li><li>#DevOps_Engineer_Infra</li><li>#GCP</li></ul>                                   |
-| [[Projects/Library/Entrance/830.00 c\|830.00 c]]                   | <ul></ul>                                                                                              |
-| [[Projects/Library/300/310/310.10/310.10 b\|310.10 b]]             | <ul><li>#Applications</li><li>#Development_Environment</li><li>#Conda</li><li>#Conda_License</li></ul> |
+| File                                                | Tags      |
+| --------------------------------------------------- | --------- |
+| [[Projects/Library/Entrance/720.20 c\|720.20 c]] | <ul></ul> |
+| [[Projects/Library/Entrance/720.20\|720.20]]     | <ul></ul> |
+| [[Projects/Library/Entrance/720.10\|720.10]]     | <ul></ul> |
+| [[Projects/Library/Entrance/720.10 b\|720.10 b]] | <ul></ul> |
+| [[Projects/Library/Entrance/720.00 a\|720.00 a]] | <ul></ul> |
 
 { .block-language-dataview}
 
@@ -57,7 +57,7 @@
 	- [[Projects/Library/000/030/030\|030]] Package
 		- [[Projects/Library/000/030/030.00/030.00\|030.00]] PIP
 			- [[Projects/Library/000/030/030.00/030.00 a\|030.00 a]] pip name and module name
-			- [[Projects/Library/Entrance/030.00 b\|030.00 b]] pip options
+			- [[Projects/Library/000/030/030.00/030.00 b\|030.00 b]] pip options
 	- [[Projects/Library/000/080/080\|080]] English for IT Workers
 		- [[Projects/Library/000/080/080.00/080.00\|080.00]] Developer English
 	- [[Projects/Library/000/090/090\|090]] External Insights an Trends
@@ -71,7 +71,7 @@
 		- [[Projects/Library/100/110/110.00/110.00\|110.00]] Docker
 			- [[Projects/Library/100/110/110.00/110.00 a\|110.00 a]] Simple docker command things
 			- [[Projects/Library/100/110/110.00/110.00 b\|110.00 b]] Docker credential credsStore  with Kaniko
-			- [[Projects/Library/Entrance/110.00 c\|110.00 c]] Multi stage builds
+			- [[Projects/Library/100/110/110.00/110.00 c\|110.00 c]] Multi stage builds
 		- [[Projects/Library/100/110/110.10/110.10\|110.10]] Kubernetes
 			- [[Projects/Library/100/110/110.10/110.10 a\|110.10 a]] Kops script for installing GitLab
 			- [[Projects/Library/100/110/110.10/110.10 b\|110.10 b]] eksctl commands
@@ -192,8 +192,13 @@
 			- [[Projects/Library/700/710/710.00/710.00 a\|710.00 a]] Base Domains
 			- [[Projects/Library/700/710/710.00/710.00 b\|710.00 b]] Mindcraft
 			- [[Projects/Library/700/710/710.00/710.00 c\|710.00 c]] Creative-Agents
-	- [[720\|720]] 3d generation
-		- 
+	- [[Projects/Library/Entrance/720\|720]] Computer Vision
+		- [[Projects/Library/Entrance/720.00\|720.00]] 3D Generation
+			- [[Projects/Library/Entrance/720.00 a\|720.00 a]] DREAMGAUSSIAN: GENERATIVE GAUSSIAN SPLATTING FOR EFFICIENT 3D CONTENT CREATION
+		- [[Projects/Library/Entrance/720.10\|720.10]] Text to 3D
+			- [[Projects/Library/Entrance/720.10 b\|720.10 b]] GaussianDreamer: Fast Generation from Text to 3D Gaussians by Bridging 2D and 3D Diffusion Models
+		- [[Projects/Library/Entrance/720.20\|720.20]] 3D Reconstruction
+			- [[Projects/Library/Entrance/720.20 c\|720.20 c]] Triplane Meets Gaussian Splatting: Fast and Generalizable Single-View 3D Reconstruction with Transformers
 - [[Projects/Library/800/800\|800]] Anythings
 	- [[Projects/Library/800/810/810\|810]] Game
 		- [[Projects/Library/800/810/810.00/810.00\|810.00]] Minecraft
@@ -205,7 +210,7 @@
 		- [[Projects/Library/800/830/830.00/830.00\|830.00]] 3D Works
 			- [[Projects/Library/800/830/830.00/830.00 a\|830.00 a]] 3D object domain knowledge
 			- [[Projects/Library/800/830/830.00/830.00 b\|830.00 b]] Unity Plugin VScode highlighting
-			- [[Projects/Library/Entrance/830.00 c\|830.00 c]] Unity Engine Learning
+			- [[Projects/Library/800/830/830.00/830.00 c\|830.00 c]] Unity Engine Learning
 - [[Projects/Library/900/900\|900]] Life Lessons
 	- [[Projects/Library/900/910/910\|910]] Self Discoveries
 		- [[Projects/Library/900/910/910.00/910.00\|910.00]]  Approach to Life
