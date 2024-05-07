@@ -7,13 +7,13 @@
 # Recent Posts
 
 
-| File                                                | Tags      |
-| --------------------------------------------------- | --------- |
-| [[Projects/Library/Entrance/720.20 c\|720.20 c]] | <ul></ul> |
-| [[Projects/Library/Entrance/720.20\|720.20]]     | <ul></ul> |
-| [[Projects/Library/Entrance/720.10\|720.10]]     | <ul></ul> |
-| [[Projects/Library/Entrance/720.10 b\|720.10 b]] | <ul></ul> |
-| [[Projects/Library/Entrance/720.00 a\|720.00 a]] | <ul></ul> |
+| File                                                      | Tags                                                                                                                             |
+| --------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
+| [[Projects/Library/700/720/720.20/720.20 c\|720.20 c]] | <ul><li>#Research_Paper</li><li>#Computer_Vision</li><li>#3D_Reconstruction</li><li>#Triplane_Meets_Gaussian_Splatting</li></ul> |
+| [[Projects/Library/700/720/720.10/720.10 b\|720.10 b]] | <ul><li>#Research_Paper</li><li>#Computer_Vision</li><li>#Text_to_3D</li><li>#GaussianDreamer</li></ul>                          |
+| [[Projects/Library/700/720/720\|720]]                  | <ul><li>#Research_Paper</li><li>#Computer_Vision</li></ul>                                                                       |
+| [[Projects/Library/700/720/720.10/720.10\|720.10]]     | <ul><li>#Research_Paper</li><li>#Computer_Vision</li><li>#Text_to_3D</li></ul>                                                   |
+| [[Projects/Library/700/720/720.00/720.00\|720.00]]     | <ul><li>#Research_Paper</li><li>#Computer_Vision</li><li>#3D_Generation</li></ul>                                                |
 
 { .block-language-dataview}
 
@@ -192,13 +192,13 @@
 			- [[Projects/Library/700/710/710.00/710.00 a\|710.00 a]] Base Domains
 			- [[Projects/Library/700/710/710.00/710.00 b\|710.00 b]] Mindcraft
 			- [[Projects/Library/700/710/710.00/710.00 c\|710.00 c]] Creative-Agents
-	- [[Projects/Library/Entrance/720\|720]] Computer Vision
-		- [[Projects/Library/Entrance/720.00\|720.00]] 3D Generation
-			- [[Projects/Library/Entrance/720.00 a\|720.00 a]] DREAMGAUSSIAN: GENERATIVE GAUSSIAN SPLATTING FOR EFFICIENT 3D CONTENT CREATION
-		- [[Projects/Library/Entrance/720.10\|720.10]] Text to 3D
-			- [[Projects/Library/Entrance/720.10 b\|720.10 b]] GaussianDreamer: Fast Generation from Text to 3D Gaussians by Bridging 2D and 3D Diffusion Models
-		- [[Projects/Library/Entrance/720.20\|720.20]] 3D Reconstruction
-			- [[Projects/Library/Entrance/720.20 c\|720.20 c]] Triplane Meets Gaussian Splatting: Fast and Generalizable Single-View 3D Reconstruction with Transformers
+	- [[Projects/Library/700/720/720\|720]] Computer Vision
+		- [[Projects/Library/700/720/720.00/720.00\|720.00]] 3D Generation
+			- [[Projects/Library/700/720/720.00/720.00 a\|720.00 a]] DREAMGAUSSIAN: GENERATIVE GAUSSIAN SPLATTING FOR EFFICIENT 3D CONTENT CREATION
+		- [[Projects/Library/700/720/720.10/720.10\|720.10]] Text to 3D
+			- [[Projects/Library/700/720/720.10/720.10 b\|720.10 b]] GaussianDreamer: Fast Generation from Text to 3D Gaussians by Bridging 2D and 3D Diffusion Models
+		- [[Projects/Library/700/720/720.20/720.20\|720.20]] 3D Reconstruction
+			- [[Projects/Library/700/720/720.20/720.20 c\|720.20 c]] Triplane Meets Gaussian Splatting: Fast and Generalizable Single-View 3D Reconstruction with Transformers
 - [[Projects/Library/800/800\|800]] Anythings
 	- [[Projects/Library/800/810/810\|810]] Game
 		- [[Projects/Library/800/810/810.00/810.00\|810.00]] Minecraft
