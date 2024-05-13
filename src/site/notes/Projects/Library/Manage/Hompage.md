@@ -7,13 +7,13 @@
 # Recent Posts
 
 
-| File                                                      | Tags                                                                                                                                                |
-| --------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [[Projects/Library/Entrance/110.10 f\|110.10 f]]       | <ul><li>#Kubernetes</li><li>#Helm</li><li>#Grafana</li></ul>                                                                                        |
-| [[Projects/Library/000/020/020.00/020.00 a\|020.00 a]] | <ul><li>#IT_Knowledge</li><li>#Operation_Knowledge</li><li>#Versioning</li><li>#Sementic_Versioning</li></ul>                                       |
-| [[Projects/Library/Entrance/910.00 e\|910.00 e]]       | <ul><li>#Job_swtich</li><li>#Life_Lessons</li></ul>                                                                                                 |
-| [[Projects/Library/900/910/910.00/910.00 d\|910.00 d]] | <ul><li>#Life_Lessons</li><li>#Self_Discoveries</li><li>#Approach_to_Life</li><li>#Methods_to_use_metrics_to_evaluate_which_job_is_better</li></ul> |
-| [[Projects/Library/100/110/110.10/110.10 e\|110.10 e]] | <ul><li>#Infra</li><li>#DevOps_Engineer_Infra</li><li>#Kubernetes</li><li>#Loki_with_Helm</li><li>#AWS</li></ul>                                    |
+| File                                                      | Tags                                                                                                                                                    |
+| --------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [[Projects/Library/900/910/910.00/910.00 e\|910.00 e]] | <ul><li>#Life_Lessons</li><li>#Self_Discoveries</li><li>#Approach_to_Life</li><li>#Don</li><li>#Job_swtich</li></ul>                                    |
+| [[Projects/Library/100/110/110.10/110.10 f\|110.10 f]] | <ul><li>#Infra</li><li>#DevOps_Engineer_Infra</li><li>#Kubernetes</li><li>#What_to_do_if_password_settings_don</li><li>#Helm</li><li>#Grafana</li></ul> |
+| [[Projects/Library/000/020/020.00/020.00 a\|020.00 a]] | <ul><li>#IT_Knowledge</li><li>#Operation_Knowledge</li><li>#Versioning</li><li>#Sementic_Versioning</li></ul>                                           |
+| [[Projects/Library/900/910/910.00/910.00 d\|910.00 d]] | <ul><li>#Life_Lessons</li><li>#Self_Discoveries</li><li>#Approach_to_Life</li><li>#Methods_to_use_metrics_to_evaluate_which_job_is_better</li></ul>     |
+| [[Projects/Library/100/110/110.10/110.10 e\|110.10 e]] | <ul><li>#Infra</li><li>#DevOps_Engineer_Infra</li><li>#Kubernetes</li><li>#Loki_with_Helm</li><li>#AWS</li></ul>                                        |
 
 { .block-language-dataview}
 
@@ -79,7 +79,7 @@
 			- [[Projects/Library/100/110/110.10/110.10 c\|110.10 c]] Helm
 			- [[Projects/Library/100/110/110.10/110.10 d\|110.10 d]] Helm Argocd Ingress trouble shooting
 			- [[Projects/Library/100/110/110.10/110.10 e\|110.10 e]] Loki with Helm
-			- [[Projects/Library/Entrance/110.10 f\|110.10 f]] What to do if password settings don't work well in Grafana helm charts 
+			- [[Projects/Library/100/110/110.10/110.10 f\|110.10 f]] What to do if password settings don't work well in Grafana helm charts 
 		- [[Projects/Library/100/110/110.20/110.20\|110.20]] AWS
 		- [[Projects/Library/100/110/110.30/110.30\|110.30]] GCP
 			- [[Projects/Library/100/110/110.30/110.30 a\|110.30 a]] GCP features shared by a co-worker
@@ -225,7 +225,7 @@
 			- [[Projects/Library/900/910/910.00/910.00 b\|910.00 b]] How you can try something you've given up on as impossible
 			- [[Projects/Library/900/910/910.00/910.00 c\|910.00 c]] Digital Detox Learning from a Failure to Detox
 			- [[Projects/Library/900/910/910.00/910.00 d\|910.00 d]] Methods to use metrics to evaluate which job is better
-			- [[Projects/Library/Entrance/910.00 e\|910.00 e]] Don't miss the moment when their eyes sparkle if you want to catch someone or keep them for a long time
+			- [[Projects/Library/900/910/910.00/910.00 e\|910.00 e]] Don't miss the moment when their eyes sparkle if you want to catch someone or keep them for a long time
 	- [[Projects/Library/900/920/920\|920]] Lessons from Others
 	- [[Projects/Library/900/930/930\|930]] Gained from Society
 		- [[Projects/Library/900/930/930.00/930.00\|930.00]] Company
