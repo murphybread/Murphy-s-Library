@@ -7,13 +7,13 @@
 # Recent Posts
 
 
-| File                                                      | Tags                                                                                                                             |
-| --------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
-| [[Projects/Library/700/720/720.20/720.20 c\|720.20 c]] | <ul><li>#Research_Paper</li><li>#Computer_Vision</li><li>#3D_Reconstruction</li><li>#Triplane_Meets_Gaussian_Splatting</li></ul> |
-| [[Projects/Library/700/720/720.10/720.10 b\|720.10 b]] | <ul><li>#Research_Paper</li><li>#Computer_Vision</li><li>#Text_to_3D</li><li>#GaussianDreamer</li></ul>                          |
-| [[Projects/Library/700/720/720\|720]]                  | <ul><li>#Research_Paper</li><li>#Computer_Vision</li></ul>                                                                       |
-| [[Projects/Library/700/720/720.10/720.10\|720.10]]     | <ul><li>#Research_Paper</li><li>#Computer_Vision</li><li>#Text_to_3D</li></ul>                                                   |
-| [[Projects/Library/700/720/720.00/720.00\|720.00]]     | <ul><li>#Research_Paper</li><li>#Computer_Vision</li><li>#3D_Generation</li></ul>                                                |
+| File                                                      | Tags                                                                                                                                                |
+| --------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [[Projects/Library/Entrance/110.10 f\|110.10 f]]       | <ul><li>#Kubernetes</li><li>#Helm</li><li>#Grafana</li></ul>                                                                                        |
+| [[Projects/Library/000/020/020.00/020.00 a\|020.00 a]] | <ul><li>#IT_Knowledge</li><li>#Operation_Knowledge</li><li>#Versioning</li><li>#Sementic_Versioning</li></ul>                                       |
+| [[Projects/Library/Entrance/910.00 e\|910.00 e]]       | <ul><li>#Job_swtich</li><li>#Life_Lessons</li></ul>                                                                                                 |
+| [[Projects/Library/900/910/910.00/910.00 d\|910.00 d]] | <ul><li>#Life_Lessons</li><li>#Self_Discoveries</li><li>#Approach_to_Life</li><li>#Methods_to_use_metrics_to_evaluate_which_job_is_better</li></ul> |
+| [[Projects/Library/100/110/110.10/110.10 e\|110.10 e]] | <ul><li>#Infra</li><li>#DevOps_Engineer_Infra</li><li>#Kubernetes</li><li>#Loki_with_Helm</li><li>#AWS</li></ul>                                    |
 
 { .block-language-dataview}
 
@@ -42,7 +42,7 @@
 			- [[Projects/Library/000/010/010.10/010.10 b\|010.10 b]] Python
 	- [[Projects/Library/000/020/020\|020]] Operation Knowledge
 		- [[Projects/Library/000/020/020.00/020.00\|020.00]] Versioning
-			- [[Projects/Library/000/020/020.00/020.00 a\|020.00 a]] Sementic Verisioning
+			- [[Projects/Library/000/020/020.00/020.00 a\|020.00 a]] Sementic Versioning
 			- [[Projects/Library/000/020/020.00/020.00 b\|020.00 b]] headver
 			- [[Projects/Library/000/020/020.00/020.00 c\|020.00 c]] Versioning Strategy
 		- [[Projects/Library/000/020/020.10/020.10\|020.10]] Git
@@ -72,11 +72,14 @@
 			- [[Projects/Library/100/110/110.00/110.00 a\|110.00 a]] Simple docker command things
 			- [[Projects/Library/100/110/110.00/110.00 b\|110.00 b]] Docker credential credsStore  with Kaniko
 			- [[Projects/Library/100/110/110.00/110.00 c\|110.00 c]] Multi stage builds
+			- [[Projects/Library/100/110/110.00/110.00 d\|110.00 d]] Install Docker and Compose with setup
 		- [[Projects/Library/100/110/110.10/110.10\|110.10]] Kubernetes
 			- [[Projects/Library/100/110/110.10/110.10 a\|110.10 a]] Kops script for installing GitLab
 			- [[Projects/Library/100/110/110.10/110.10 b\|110.10 b]] eksctl commands
 			- [[Projects/Library/100/110/110.10/110.10 c\|110.10 c]] Helm
 			- [[Projects/Library/100/110/110.10/110.10 d\|110.10 d]] Helm Argocd Ingress trouble shooting
+			- [[Projects/Library/100/110/110.10/110.10 e\|110.10 e]] Loki with Helm
+			- [[Projects/Library/Entrance/110.10 f\|110.10 f]] What to do if password settings don't work well in Grafana helm charts 
 		- [[Projects/Library/100/110/110.20/110.20\|110.20]] AWS
 		- [[Projects/Library/100/110/110.30/110.30\|110.30]] GCP
 			- [[Projects/Library/100/110/110.30/110.30 a\|110.30 a]] GCP features shared by a co-worker
@@ -132,7 +135,6 @@
 			- [[Projects/Library/400/420/420.00/420.00 a\|420.00 a]] Numerical Data (Continuous and Discrete)
 			- [[Projects/Library/400/420/420.00/420.00 b\|420.00 b]] Categorical Data (Ordinal and Nominal)
 		- [[Projects/Library/400/420/420.10/420.10\|420.10]] Unstructured Data
-			- [[420.10 a\|420.10 a]] Export ChatGPT Conversation from Safari
 		- [[Projects/Library/400/420/420.20/420.20\|420.20]] Semi-structured Data
 			- [[Projects/Library/400/420/420.20/420.20 a\|420.20 a]] JSON
 			- [[Projects/Library/400/420/420.20/420.20 b\|420.20 b]] YAML
@@ -179,6 +181,10 @@
 	    - [[Projects/Library/600/630/630.30/630.30\|630.30]] Langchain
 		    - [[Projects/Library/600/630/630.30/630.30 a\|630.30 a]] Amazon Bedrock with RAG
 		    - [[Projects/Library/600/630/630.30/630.30 b\|630.30 b]] RAG with FAISS
+		- [[Projects/Library/600/630/630.40/630.40\|630.40]] Gradio
+			- [[Projects/Library/600/630/630.40/630.40 a\|630.40 a]] Gradio Quick start tutorial
+		- [[Projects/Library/600/630/630.50/630.50\|630.50]] LlamaIndex
+			- [[Projects/Library/600/630/630.50/630.50 a\|630.50 a]] RAPTOR RAG 
 	- [[Projects/Library/600/640/640\|640]] Vector Database
 		- [[Projects/Library/600/640/640.00/640.00\|640.00]] VectorDB Solutions
 			- [[Projects/Library/600/640/640.00/640.00 a\|640.00 a]] Milvus
@@ -196,6 +202,7 @@
 		- [[Projects/Library/700/720/720.00/720.00\|720.00]] 3D Generation
 			- [[Projects/Library/700/720/720.00/720.00 a\|720.00 a]] DREAMGAUSSIAN: GENERATIVE GAUSSIAN SPLATTING FOR EFFICIENT 3D CONTENT CREATION
 		- [[Projects/Library/700/720/720.10/720.10\|720.10]] Text to 3D
+			- [[Projects/Library/700/720/720.10/720.10 a\|720.10 a]] ProlificDreamer: High-Fidelity and Diverse Text-to-3D Generation with Variational Score Distillation
 			- [[Projects/Library/700/720/720.10/720.10 b\|720.10 b]] GaussianDreamer: Fast Generation from Text to 3D Gaussians by Bridging 2D and 3D Diffusion Models
 		- [[Projects/Library/700/720/720.20/720.20\|720.20]] 3D Reconstruction
 			- [[Projects/Library/700/720/720.20/720.20 c\|720.20 c]] Triplane Meets Gaussian Splatting: Fast and Generalizable Single-View 3D Reconstruction with Transformers
@@ -217,7 +224,8 @@
 			- [[Projects/Library/900/910/910.00/910.00 a\|910.00 a]] Hodie Vixi(Today I Lived)
 			- [[Projects/Library/900/910/910.00/910.00 b\|910.00 b]] How you can try something you've given up on as impossible
 			- [[Projects/Library/900/910/910.00/910.00 c\|910.00 c]] Digital Detox Learning from a Failure to Detox
-			- [[Projects/Library/900/910/910.00/910.00 d\|910.00 d]] How to use metrics to evaluate whether a job is a good idea
+			- [[Projects/Library/900/910/910.00/910.00 d\|910.00 d]] Methods to use metrics to evaluate which job is better
+			- [[Projects/Library/Entrance/910.00 e\|910.00 e]] Don't miss the moment when their eyes sparkle if you want to catch someone or keep them for a long time
 	- [[Projects/Library/900/920/920\|920]] Lessons from Others
 	- [[Projects/Library/900/930/930\|930]] Gained from Society
 		- [[Projects/Library/900/930/930.00/930.00\|930.00]] Company
