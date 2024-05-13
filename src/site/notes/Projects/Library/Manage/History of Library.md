@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/projects/library/manage/history-of-library/","dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-31T20:39:20.070+09:00","updated":"2024-05-03T14:41:39.004+09:00"}
+{"dg-publish":true,"permalink":"/projects/library/manage/history-of-library/","dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-31T20:39:20.070+09:00","updated":"2024-05-13T13:20:08.972+09:00"}
 ---
 
 #History #Versioning_Strategy 
@@ -9,10 +9,12 @@
 
 
 # 0.14.0-LB
-I've set a quality standard for writing articles: unique and personable.
+# I've set a quality standard for writing articles: unique and personable.
+
 The reasoning behind this is that I'd rather write one article that people read than 100 articles that they don't read.
 Especially because if you write the same stuff that comes up in searches anyway, it's a waste of time because it's buried by higher quality articles.
 In other words, it's better to have one good post than 10 bad ones that don't give anyone any direction.
+The standard for writing is that your own traces should be revealed in your writing.
 
 
 
