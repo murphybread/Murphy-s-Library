@@ -9,11 +9,11 @@
 
 | File                                                      | Tags                                                                                                                                                    |
 | --------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [[Projects/Library/600/630/630.50/630.50 a\|630.50 a]] | <ul><li>#ML_Libraries_and_Implementation</li><li>#Machine_Learning_Frameworks</li><li>#LlamaIndex</li><li>#RAPTOR_RAG</li></ul>                         |
 | [[Projects/Library/900/910/910.00/910.00 e\|910.00 e]] | <ul><li>#Life_Lessons</li><li>#Self_Discoveries</li><li>#Approach_to_Life</li><li>#Don</li><li>#Job_swtich</li></ul>                                    |
 | [[Projects/Library/100/110/110.10/110.10 f\|110.10 f]] | <ul><li>#Infra</li><li>#DevOps_Engineer_Infra</li><li>#Kubernetes</li><li>#What_to_do_if_password_settings_don</li><li>#Helm</li><li>#Grafana</li></ul> |
 | [[Projects/Library/000/020/020.00/020.00 a\|020.00 a]] | <ul><li>#IT_Knowledge</li><li>#Operation_Knowledge</li><li>#Versioning</li><li>#Sementic_Versioning</li></ul>                                           |
 | [[Projects/Library/900/910/910.00/910.00 d\|910.00 d]] | <ul><li>#Life_Lessons</li><li>#Self_Discoveries</li><li>#Approach_to_Life</li><li>#Methods_to_use_metrics_to_evaluate_which_job_is_better</li></ul>     |
-| [[Projects/Library/100/110/110.10/110.10 e\|110.10 e]] | <ul><li>#Infra</li><li>#DevOps_Engineer_Infra</li><li>#Kubernetes</li><li>#Loki_with_Helm</li><li>#AWS</li></ul>                                        |
 
 { .block-language-dataview}
 
