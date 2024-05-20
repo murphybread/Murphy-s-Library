@@ -7,13 +7,13 @@
 # Recent Posts
 
 
-| File                                                      | Tags                                                                                                                                                    |
-| --------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [[Projects/Library/600/630/630.50/630.50 a\|630.50 a]] | <ul><li>#ML_Libraries_and_Implementation</li><li>#Machine_Learning_Frameworks</li><li>#LlamaIndex</li><li>#RAPTOR_RAG</li></ul>                         |
-| [[Projects/Library/900/910/910.00/910.00 e\|910.00 e]] | <ul><li>#Life_Lessons</li><li>#Self_Discoveries</li><li>#Approach_to_Life</li><li>#Don</li><li>#Job_swtich</li></ul>                                    |
-| [[Projects/Library/100/110/110.10/110.10 f\|110.10 f]] | <ul><li>#Infra</li><li>#DevOps_Engineer_Infra</li><li>#Kubernetes</li><li>#What_to_do_if_password_settings_don</li><li>#Helm</li><li>#Grafana</li></ul> |
-| [[Projects/Library/000/020/020.00/020.00 a\|020.00 a]] | <ul><li>#IT_Knowledge</li><li>#Operation_Knowledge</li><li>#Versioning</li><li>#Sementic_Versioning</li></ul>                                           |
-| [[Projects/Library/900/910/910.00/910.00 d\|910.00 d]] | <ul><li>#Life_Lessons</li><li>#Self_Discoveries</li><li>#Approach_to_Life</li><li>#Methods_to_use_metrics_to_evaluate_which_job_is_better</li></ul>     |
+| File                                                      | Tags                                                                                                                                                                |
+| --------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [[Projects/Library/600/650/650.00/650.00 a\|650.00 a]] | <ul><li>#ML_Libraries_and_Implementation</li><li>#Prompt_Engineering</li><li>#Prompt_Use_case</li><li>#Qr_Code_Color_Placement_Recommendation_with_Design</li></ul> |
+| [[Projects/Library/Entrance/090.10 b\|090.10 b]]       | <ul><li>#Trino</li><li>#EKS</li><li>#EMR</li><li>#Airflow</li><li>#Yunikorn</li></ul>                                                                               |
+| [[Projects/Library/600/630/630.50/630.50 a\|630.50 a]] | <ul><li>#ML_Libraries_and_Implementation</li><li>#Machine_Learning_Frameworks</li><li>#LlamaIndex</li><li>#RAPTOR_RAG</li></ul>                                     |
+| [[Projects/Library/900/910/910.00/910.00 e\|910.00 e]] | <ul><li>#Life_Lessons</li><li>#Self_Discoveries</li><li>#Approach_to_Life</li><li>#Don</li><li>#Job_swtich</li></ul>                                                |
+| [[Projects/Library/100/110/110.10/110.10 f\|110.10 f]] | <ul><li>#Infra</li><li>#DevOps_Engineer_Infra</li><li>#Kubernetes</li><li>#What_to_do_if_password_settings_don</li><li>#Helm</li><li>#Grafana</li></ul>             |
 
 { .block-language-dataview}
 
@@ -35,16 +35,14 @@
 - [[Projects/Library/000/000\|000]] IT Knowledge
 	- [[Projects/Library/000/010/010\|010]] Develop Knowledge
 		- [[Projects/Library/000/010/010.00/010.00\|010.00]] Develop Computer Science Knowledge
-			- [[Projects/Library/000/010/010.00/010.00 a\|010.00 a]] Essential Developer Insights
-			- [[Projects/Library/000/010/010.00/010.00 b\|010.00 b]] Industry Domain Knowledge
+			- [[Projects/Library/Entrance/010.00 b\|010.00 b]] SLA and SLO and SLI
 		- [[Projects/Library/000/010/010.10/010.10\|010.10]] Develop Programming Language
-			- [[Projects/Library/000/010/010.10/010.10 a\|010.10 a]] Bash shell
-			- [[Projects/Library/000/010/010.10/010.10 b\|010.10 b]] Python
+			- [[Projects/Library/Entrance/010.10 a\|010.10 a]] Linux stdinput and output with errorlog
 	- [[Projects/Library/000/020/020\|020]] Operation Knowledge
 		- [[Projects/Library/000/020/020.00/020.00\|020.00]] Versioning
 			- [[Projects/Library/000/020/020.00/020.00 a\|020.00 a]] Sementic Versioning
 			- [[Projects/Library/000/020/020.00/020.00 b\|020.00 b]] headver
-			- [[Projects/Library/000/020/020.00/020.00 c\|020.00 c]] Versioning Strategy
+			- [[Projects/Library/Entrance/020.00 c\|020.00 c]] My own Versioning Strategy
 		- [[Projects/Library/000/020/020.10/020.10\|020.10]] Git
 			- [[Projects/Library/000/020/020.10/020.10 a\|020.10 a]] git init
 			- [[Projects/Library/000/020/020.10/020.10 b\|020.10 b]] git commands
@@ -64,6 +62,7 @@
 		- [[Projects/Library/000/090/090.00/090.00\|090.00]] Industry Trends
 		- [[Projects/Library/000/090/090.10/090.10\|090.10]] Live Session
 			- [[Projects/Library/000/090/090.10/090.10 a\|090.10 a]] Job Definition
+			- [[Projects/Library/Entrance/090.10 b\|090.10 b]] AWS 2024 Summit
 		- [[Projects/Library/000/090/090.20/090.20\|090.20]] Publications
 			- [[Projects/Library/000/090/090.20/090.20 a\|090.20 a]] Developer Trivia, Things You Should Have Known Before You Became a Developer
 - [[Projects/Library/100/100\|100]] Infra
@@ -226,6 +225,7 @@
 			- [[Projects/Library/900/910/910.00/910.00 c\|910.00 c]] Digital Detox Learning from a Failure to Detox
 			- [[Projects/Library/900/910/910.00/910.00 d\|910.00 d]] Methods to use metrics to evaluate which job is better
 			- [[Projects/Library/900/910/910.00/910.00 e\|910.00 e]] Don't miss the moment when their eyes sparkle if you want to catch someone or keep them for a long time
+			- [[910.00 f\|910.00 f]]
 	- [[Projects/Library/900/920/920\|920]] Lessons from Others
 	- [[Projects/Library/900/930/930\|930]] Gained from Society
 		- [[Projects/Library/900/930/930.00/930.00\|930.00]] Company
