@@ -7,13 +7,13 @@
 # Recent Posts
 
 
-| File                                                      | Tags                                                                                                                                                                |
-| --------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [[Projects/Library/600/650/650.00/650.00 a\|650.00 a]] | <ul><li>#ML_Libraries_and_Implementation</li><li>#Prompt_Engineering</li><li>#Prompt_Use_case</li><li>#Qr_Code_Color_Placement_Recommendation_with_Design</li></ul> |
-| [[Projects/Library/Entrance/090.10 b\|090.10 b]]       | <ul><li>#Trino</li><li>#EKS</li><li>#EMR</li><li>#Airflow</li><li>#Yunikorn</li></ul>                                                                               |
-| [[Projects/Library/600/630/630.50/630.50 a\|630.50 a]] | <ul><li>#ML_Libraries_and_Implementation</li><li>#Machine_Learning_Frameworks</li><li>#LlamaIndex</li><li>#RAPTOR_RAG</li></ul>                                     |
-| [[Projects/Library/900/910/910.00/910.00 e\|910.00 e]] | <ul><li>#Life_Lessons</li><li>#Self_Discoveries</li><li>#Approach_to_Life</li><li>#Don</li><li>#Job_swtich</li></ul>                                                |
-| [[Projects/Library/100/110/110.10/110.10 f\|110.10 f]] | <ul><li>#Infra</li><li>#DevOps_Engineer_Infra</li><li>#Kubernetes</li><li>#What_to_do_if_password_settings_don</li><li>#Helm</li><li>#Grafana</li></ul>             |
+| File                                                      | Tags                                                                                                                                                            |
+| --------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [[Projects/Library/900/910/910.00/910.00 f\|910.00 f]] | <ul><li>#Life_Lessons</li><li>#Self_Discoveries</li><li>#Approach_to_Life</li><li>#Learn_how_an_AI_ML_pipeline_starts_with_a_cow_and_ends_with_a_dish</li></ul> |
+| [[Projects/Library/600/650/650.10/650.10\|650.10]]     | <ul><li>#ML_Libraries_and_Implementation</li><li>#Prompt_Engineering</li><li>#Prompt_Theory</li></ul>                                                           |
+| [[Projects/Library/600/650/650.10/650.10 a\|650.10 a]] | <ul><li>#ML_Libraries_and_Implementation</li><li>#Prompt_Engineering</li><li>#Prompt_Theory</li><li>#Checklist_for_Prompt_Engineering</li></ul>                 |
+| [[Projects/Library/000/030/030.10/030.10\|030.10]]     | <ul><li>#IT_Knowledge</li><li>#Package</li><li>#My_Own_Package_List</li></ul>                                                                                   |
+| [[Projects/Library/000/030/030.10/030.10 a\|030.10 a]] | <ul><li>#IT_Knowledge</li><li>#Package</li><li>#My_Own_Package_List</li><li>#Packages_used_in_LLM_implementations</li></ul>                                     |
 
 { .block-language-dataview}
 
@@ -35,14 +35,15 @@
 - [[Projects/Library/000/000\|000]] IT Knowledge
 	- [[Projects/Library/000/010/010\|010]] Develop Knowledge
 		- [[Projects/Library/000/010/010.00/010.00\|010.00]] Develop Computer Science Knowledge
-			- [[Projects/Library/Entrance/010.00 b\|010.00 b]] SLA and SLO and SLI
+			- [[Projects/Library/000/010/010.00/010.00 b\|010.00 b]] SLA and SLO and SLI
 		- [[Projects/Library/000/010/010.10/010.10\|010.10]] Develop Programming Language
-			- [[Projects/Library/Entrance/010.10 a\|010.10 a]] Linux stdinput and output with errorlog
+			- [[Projects/Library/000/010/010.10/010.10 a\|010.10 a]] Linux stdinput and output with errorlog
+			- [[Projects/Library/000/010/010.10/010.10 b\|010.10 b]] ssh turnneling
 	- [[Projects/Library/000/020/020\|020]] Operation Knowledge
 		- [[Projects/Library/000/020/020.00/020.00\|020.00]] Versioning
-			- [[Projects/Library/000/020/020.00/020.00 a\|020.00 a]] Sementic Versioning
+			- [[Projects/Library/000/020/020.00/020.00 a\|020.00 a]] My own Versioning Strategy
 			- [[Projects/Library/000/020/020.00/020.00 b\|020.00 b]] headver
-			- [[Projects/Library/Entrance/020.00 c\|020.00 c]] My own Versioning Strategy
+			- [[020.00 c\|020.00 c]]
 		- [[Projects/Library/000/020/020.10/020.10\|020.10]] Git
 			- [[Projects/Library/000/020/020.10/020.10 a\|020.10 a]] git init
 			- [[Projects/Library/000/020/020.10/020.10 b\|020.10 b]] git commands
@@ -56,13 +57,15 @@
 		- [[Projects/Library/000/030/030.00/030.00\|030.00]] PIP
 			- [[Projects/Library/000/030/030.00/030.00 a\|030.00 a]] pip name and module name
 			- [[Projects/Library/000/030/030.00/030.00 b\|030.00 b]] pip options
+		- [[Projects/Library/000/030/030.10/030.10\|030.10]] My Own Package List
+			- [[Projects/Library/000/030/030.10/030.10 a\|030.10 a]] Packages used in LLM implementations
 	- [[Projects/Library/000/080/080\|080]] English for IT Workers
 		- [[Projects/Library/000/080/080.00/080.00\|080.00]] Developer English
 	- [[Projects/Library/000/090/090\|090]] External Insights an Trends
 		- [[Projects/Library/000/090/090.00/090.00\|090.00]] Industry Trends
 		- [[Projects/Library/000/090/090.10/090.10\|090.10]] Live Session
 			- [[Projects/Library/000/090/090.10/090.10 a\|090.10 a]] Job Definition
-			- [[Projects/Library/Entrance/090.10 b\|090.10 b]] AWS 2024 Summit
+			- [[Projects/Library/000/090/090.10/090.10 b\|090.10 b]] AWS 2024 Summit
 		- [[Projects/Library/000/090/090.20/090.20\|090.20]] Publications
 			- [[Projects/Library/000/090/090.20/090.20 a\|090.20 a]] Developer Trivia, Things You Should Have Known Before You Became a Developer
 - [[Projects/Library/100/100\|100]] Infra
@@ -110,7 +113,8 @@
 		- [[Projects/Library/300/320/320.10/320.10\|320.10]] CSS
 			- [[Projects/Library/300/320/320.10/320.10 a\|320.10 a]] CSS Default 
 			- [[Projects/Library/300/320/320.10/320.10 b\|320.10 b]] Border Properties
-		- [[Projects/Library/300/320/320.30/320.30\|320.30]] Java Script
+		- [[Projects/Library/300/320/320.30/320.30\|320.30]] JavaScript
+			- [[320.30 a\|320.30 a]] JavaScript Basic
 	- [[Projects/Library/300/330/330\|330]] Backend
 		- [[Projects/Library/300/330/330.00/330.00\|330.00]] Django
 			- [[Projects/Library/300/330/330.00/330.00 a\|330.00 a]] Django default project
@@ -191,6 +195,8 @@
 		- [[Projects/Library/600/650/650.00/650.00\|650.00]] Prompt Use case
 			- [[Projects/Library/600/650/650.00/650.00 a\|650.00 a]] Qr Code Color Placement Recommendation with Design
 			- [[Projects/Library/600/650/650.00/650.00 b\|650.00 b]] When AI doesn't know where up and down are, use text to represent them
+		- [[Projects/Library/600/650/650.10/650.10\|650.10]] Prompt Theory
+			- [[Projects/Library/600/650/650.10/650.10 a\|650.10 a]] Checklist for Prompt Engineering
 - [[Projects/Library/700/700\|700]] Research Paper
 	- [[Projects/Library/700/710/710\|710]] methodology
 		- [[Projects/Library/700/710/710.00/710.00\|710.00]] Multi-agent Reinforcement Learning
@@ -225,7 +231,7 @@
 			- [[Projects/Library/900/910/910.00/910.00 c\|910.00 c]] Digital Detox Learning from a Failure to Detox
 			- [[Projects/Library/900/910/910.00/910.00 d\|910.00 d]] Methods to use metrics to evaluate which job is better
 			- [[Projects/Library/900/910/910.00/910.00 e\|910.00 e]] Don't miss the moment when their eyes sparkle if you want to catch someone or keep them for a long time
-			- [[910.00 f\|910.00 f]]
+			- [[Projects/Library/900/910/910.00/910.00 f\|910.00 f]] Learn how an AI ML pipeline starts with a cow and ends with a dish
 	- [[Projects/Library/900/920/920\|920]] Lessons from Others
 	- [[Projects/Library/900/930/930\|930]] Gained from Society
 		- [[Projects/Library/900/930/930.00/930.00\|930.00]] Company
