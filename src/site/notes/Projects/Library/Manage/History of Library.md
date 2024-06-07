@@ -4,7 +4,7 @@
 
 #History #Versioning_Strategy 
 # Versioning Standard
-[[Projects/Library/Entrance/020.00 c\|020.00 c]]
+[[020.00 c\|020.00 c]]
 
 
 
