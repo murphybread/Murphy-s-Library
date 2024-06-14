@@ -9,11 +9,11 @@
 
 | File                                                      | Tags                                                                                                                                                            |
 | --------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [[Projects/Library/300/320/320.30/320.30 a\|320.30 a]] | <ul><li>#Applications</li><li>#Frontend</li><li>#Java_Script</li><li>#JavaScript_Basic</li><li>#JavaScript</li></ul>                                            |
+| [[Projects/Library/000/010/010.10/010.10 b\|010.10 b]] | <ul><li>#IT_Knowledge</li><li>#Develop_Knowledge</li><li>#Develop_Programming_Language</li><li>#ssh_turnneling</li><li>#ssh</li><li>#AWS</li></ul>              |
+| [[Projects/Library/800/810/810.00/810.00 a\|810.00 a]] | <ul><li>#Anythings</li><li>#Game</li><li>#Minecraft</li><li>#Minecraft_Commands</li></ul>                                                                       |
 | [[Projects/Library/900/910/910.00/910.00 f\|910.00 f]] | <ul><li>#Life_Lessons</li><li>#Self_Discoveries</li><li>#Approach_to_Life</li><li>#Learn_how_an_AI_ML_pipeline_starts_with_a_cow_and_ends_with_a_dish</li></ul> |
 | [[Projects/Library/600/650/650.10/650.10\|650.10]]     | <ul><li>#ML_Libraries_and_Implementation</li><li>#Prompt_Engineering</li><li>#Prompt_Theory</li></ul>                                                           |
-| [[Projects/Library/600/650/650.10/650.10 a\|650.10 a]] | <ul><li>#ML_Libraries_and_Implementation</li><li>#Prompt_Engineering</li><li>#Prompt_Theory</li><li>#Checklist_for_Prompt_Engineering</li></ul>                 |
-| [[Projects/Library/000/030/030.10/030.10\|030.10]]     | <ul><li>#IT_Knowledge</li><li>#Package</li><li>#My_Own_Package_List</li></ul>                                                                                   |
-| [[Projects/Library/000/030/030.10/030.10 a\|030.10 a]] | <ul><li>#IT_Knowledge</li><li>#Package</li><li>#My_Own_Package_List</li><li>#Packages_used_in_LLM_implementations</li></ul>                                     |
 
 { .block-language-dataview}
 
@@ -114,7 +114,7 @@
 			- [[Projects/Library/300/320/320.10/320.10 a\|320.10 a]] CSS Default 
 			- [[Projects/Library/300/320/320.10/320.10 b\|320.10 b]] Border Properties
 		- [[Projects/Library/300/320/320.30/320.30\|320.30]] JavaScript
-			- [[320.30 a\|320.30 a]] JavaScript Basic
+			- [[Projects/Library/300/320/320.30/320.30 a\|320.30 a]] JavaScript Basic
 	- [[Projects/Library/300/330/330\|330]] Backend
 		- [[Projects/Library/300/330/330.00/330.00\|330.00]] Django
 			- [[Projects/Library/300/330/330.00/330.00 a\|330.00 a]] Django default project
