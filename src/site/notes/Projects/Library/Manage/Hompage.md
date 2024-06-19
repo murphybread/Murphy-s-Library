@@ -15,13 +15,13 @@ In the process of editing the book's tags, you've deleted all of the tags that a
 # Recent Posts
 
 
-| File                                                      | Tags                                                                                                                 |
-| --------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
-| [[Projects/Library/000/090/090.00/090.00 a\|090.00 a]] | <ul><li>#IT_Knowledge</li><li>#External_Insights_an_Trends</li><li>#Publications</li><li>#Developer_Trivia</li></ul> |
-| [[Projects/Library/000/090/090.00/090.00\|090.00]]     | <ul><li>#IT_Knowledge</li><li>#External_Insights_an_Trends</li><li>#Publications</li></ul>                           |
-| [[Projects/Library/000/090/090\|090]]                  | <ul><li>#IT_Knowledge</li><li>#External_Insights_an_Trends</li></ul>                                                 |
-| [[Projects/Library/000/030/030.00/030.00 a\|030.00 a]] | <ul><li>#IT_Knowledge</li><li>#Package</li><li>#PIP</li><li>#pip_name_and_module_name</li><li>#pip</li></ul>         |
-| [[Projects/Library/000/030/030.00/030.00\|030.00]]     | <ul><li>#IT_Knowledge</li><li>#Package</li><li>#PIP</li></ul>                                                        |
+| File                                                      | Tags                                                                                                                                                    |
+| --------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [[Projects/Library/100/120/120.00/120.00 a\|120.00 a]] | <ul><li>#Infra</li><li>#ML_Engineer_Infra</li><li>#GPU</li><li>#How_to_easily_rent_an_expensive_GPU_and_what_to_consider_when_choosing_one</li></ul>    |
+| [[Projects/Library/100/120/120.00/120.00\|120.00]]     | <ul><li>#Infra</li><li>#ML_Engineer_Infra</li><li>#GPU</li></ul>                                                                                        |
+| [[Projects/Library/100/120/120\|120]]                  | <ul><li>#Infra</li><li>#ML_Engineer_Infra</li></ul>                                                                                                     |
+| [[Projects/Library/100/110/110.10/110.10 f\|110.10 f]] | <ul><li>#Infra</li><li>#DevOps_Engineer_Infra</li><li>#Kubernetes</li><li>#What_to_do_if_password_settings_don</li><li>#Helm</li><li>#Grafana</li></ul> |
+| [[Projects/Library/100/110/110.10/110.10 e\|110.10 e]] | <ul><li>#Infra</li><li>#DevOps_Engineer_Infra</li><li>#Kubernetes</li><li>#Loki_with_Helm</li><li>#AWS</li></ul>                                        |
 
 { .block-language-dataview}
 
@@ -68,17 +68,13 @@ In the process of editing the book's tags, you've deleted all of the tags that a
 			- [[Projects/Library/100/110/110.00/110.00 a\|110.00 a]] Simple docker command things
 			- [[Projects/Library/100/110/110.00/110.00 b\|110.00 b]] Docker credential credsStore  with Kaniko
 			- [[Projects/Library/100/110/110.00/110.00 c\|110.00 c]] Multi stage builds
-			- [[Projects/Library/100/110/110.00/110.00 d\|110.00 d]] Install Docker and Compose with setup
 		- [[Projects/Library/100/110/110.10/110.10\|110.10]] Kubernetes
 			- [[Projects/Library/100/110/110.10/110.10 a\|110.10 a]] Kops script for installing GitLab
 			- [[Projects/Library/100/110/110.10/110.10 b\|110.10 b]] eksctl commands
 			- [[Projects/Library/100/110/110.10/110.10 c\|110.10 c]] Helm
-			- [[Projects/Library/100/110/110.10/110.10 d\|110.10 d]] Helm Argocd Ingress trouble shooting
+			- [[Projects/Library/100/110/110.10/110.10 d\|110.10 d]] Helm Argocd Ingress trouble shooting AWS EKS
 			- [[Projects/Library/100/110/110.10/110.10 e\|110.10 e]] Loki with Helm
 			- [[Projects/Library/100/110/110.10/110.10 f\|110.10 f]] What to do if password settings don't work well in Grafana helm charts 
-		- [[Projects/Library/100/110/110.20/110.20\|110.20]] AWS
-		- [[Projects/Library/100/110/110.30/110.30\|110.30]] GCP
-			- [[Projects/Library/100/110/110.30/110.30 a\|110.30 a]] GCP features shared by a co-worker
 	- [[Projects/Library/100/120/120\|120]] ML Engineer Infra
 		- [[Projects/Library/100/120/120.00/120.00\|120.00]] GPU
 			- [[Projects/Library/100/120/120.00/120.00 a\|120.00 a]] How to easily rent an expensive GPU and what to consider when choosing one
