@@ -7,13 +7,13 @@
 # Recent Posts
 
 
-| File                                                      | Tags                                                                                                                                                                       |
-| --------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [[Projects/Library/000/010/010.10/010.10\|010.10]]     | <ul><li>#IT_Knowledge</li><li>#Develop_Knowledge</li><li>#Develop_Programming_Language</li></ul>                                                                           |
-| [[Projects/Library/000/010/010.00/010.00 b\|010.00 b]] | <ul><li>#IT_Knowledge</li><li>#Develop_Knowledge</li><li>#Develop_Computer_Science_Knowledge</li><li>#SLA_and_SLO_and_SLI</li><li>#SLA</li><li>#SLO</li><li>#SLI</li></ul> |
-| [[Projects/Library/000/010/010.00/010.00\|010.00]]     | <ul><li>#IT_Knowledge</li><li>#Develop_Knowledge</li><li>#Develop_Computer_Science_Knowledge</li></ul>                                                                     |
-| [[Projects/Library/000/000\|000]]                      | <ul><li>#IT_Knowledge</li></ul>                                                                                                                                            |
-| [[Projects/Library/Manage/Hompage\|Hompage]]           | <ul><li>#hompage</li><li>#Library</li><li>#Rules</li></ul>                                                                                                                 |
+| File                                                      | Tags                                                                                                                                                 |
+| --------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [[Projects/Library/100/120/120\|120]]                  | <ul><li>#Infra</li><li>#ML_Engineer_Infra</li></ul>                                                                                                  |
+| [[Projects/Library/100/120/120.00/120.00\|120.00]]     | <ul><li>#Infra</li><li>#ML_Engineer_Infra</li><li>#GPU</li></ul>                                                                                     |
+| [[Projects/Library/100/120/120.00/120.00 a\|120.00 a]] | <ul><li>#Infra</li><li>#ML_Engineer_Infra</li><li>#GPU</li><li>#How_to_easily_rent_an_expensive_GPU_and_what_to_consider_when_choosing_one</li></ul> |
+| [[Projects/Library/100/110/110\|110]]                  | <ul><li>#Infra</li><li>#DevOps_Engineer_Infra</li></ul>                                                                                              |
+| [[Projects/Library/100/110/110.30/110.30\|110.30]]     | <ul><li>#Infra</li><li>#DevOps_Engineer_Infra</li><li>#GCP</li></ul>                                                                                 |
 
 { .block-language-dataview}
 
