@@ -15,13 +15,13 @@ In the process of editing the book's tags, you've deleted all of the tags that a
 # Recent Posts
 
 
-| File                                                      | Tags                                                                                                                                                                                                                                                                             |
-| --------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [[Projects/Library/600/650/650.10/650.10 a\|650.10 a]] | <ul><li>#ML_Libraries_and_Implementation</li><li>#Prompt_Engineering</li><li>#Prompt_Theory</li><li>#Checklist_for_Prompt_Engineering</li></ul>                                                                                                                                  |
-| [[Projects/Library/600/650/650.10/650.10\|650.10]]     | <ul><li>#ML_Libraries_and_Implementation</li><li>#Prompt_Engineering</li><li>#Prompt_Theory</li></ul>                                                                                                                                                                            |
-| [[Projects/Library/600/650/650.00/650.00 b\|650.00 b]] | <ul><li>#ML_Libraries_and_Implementation</li><li>#Prompt_Engineering</li><li>#Prompt_Use_case</li><li>#When_AI_doesn</li><li>#PromptEngineering</li><li>#Dall-E</li><li>#ChatGPT</li><li>#Prompt-Vision</li><li>#Dall-E3</li><li>#Text_to_Image</li><li>#AI-Compliance</li></ul> |
-| [[Projects/Library/600/650/650.00/650.00 a\|650.00 a]] | <ul><li>#ML_Libraries_and_Implementation</li><li>#Prompt_Engineering</li><li>#Prompt_Use_case</li><li>#Qr_Code_Color_Placement_Recommendation_with_Design</li></ul>                                                                                                              |
-| [[Projects/Library/600/650/650.00/650.00\|650.00]]     | <ul><li>#ML_Libraries_and_Implementation</li><li>#Prompt_Engineering</li><li>#Prompt_Use_case</li></ul>                                                                                                                                                                          |
+| File                                                      | Tags                                                                                                                             |
+| --------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
+| [[Projects/Library/700/720/720.20/720.20 c\|720.20 c]] | <ul><li>#Research_Paper</li><li>#Computer_Vision</li><li>#3D_Reconstruction</li><li>#Triplane_Meets_Gaussian_Splatting</li></ul> |
+| [[Projects/Library/700/720/720.20/720.20\|720.20]]     | <ul><li>#Research_Paper</li><li>#Computer_Vision</li><li>#3D_Reconstruction</li></ul>                                            |
+| [[Projects/Library/700/720/720.10/720.10 b\|720.10 b]] | <ul><li>#Research_Paper</li><li>#Computer_Vision</li><li>#Text_to_3D</li><li>#GaussianDreamer</li></ul>                          |
+| [[Projects/Library/700/720/720.10/720.10 a\|720.10 a]] | <ul><li>#Research_Paper</li><li>#Computer_Vision</li><li>#Text_to_3D</li><li>#ProlificDreamer</li></ul>                          |
+| [[Projects/Library/700/720/720.10/720.10\|720.10]]     | <ul><li>#Research_Paper</li><li>#Computer_Vision</li><li>#Text_to_3D</li></ul>                                                   |
 
 { .block-language-dataview}
 
