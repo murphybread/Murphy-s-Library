@@ -1,10 +1,23 @@
 ---
-dg-publish: true
-
+{"dg-publish":true,"permalink":"/projects/library/manage/history-of-library/","dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-31T20:39:20.070+09:00","updated":"2024-06-20T00:59:18.393+09:00"}
 ---
+
 #History #Versioning_Strategy 
 # Versioning Standard
-[[020.00 c\|020.00 c]]
+[[Projects/Library/000/020/020.00/020.00 c\|020.00 c]]
+
+
+# 0.15.0-LB
+![DALL·E 2024-06-20 00.22.00 - In front of a library, a person is bowing apologetically with a sign above them that says 'Under maintenance'. The person looks genuinely sorry, with .webp](/img/user/Projects/Library/Manage/DALL%C2%B7E%202024-06-20%2000.22.00%20-%20In%20front%20of%20a%20library,%20a%20person%20is%20bowing%20apologetically%20with%20a%20sign%20above%20them%20that%20says%20'Under%20maintenance'.%20The%20person%20looks%20genuinely%20sorry,%20with%20.webp)
+# I was testing a Python module that writes tags and ended up deleting all of my tags, so I took this opportunity to clean up my library categories.
+
+
+When I tested the program to see if I could delete it, I realized that not only the tags that I could see were deleted, but also the tags that Varcel, the distribution platform, wrote itself, and the platform stopped working.
+It took me a while to find the error, and then a few days to recover from it, as it overlapped with Varcel's limit of 100 deployments per day.
+So, I thought I'd take this opportunity to reorganize the categories, both the ones that were too granular and unnecessary when I started, and the ones that are really unique to me.
+
+
+
 
 
 
@@ -504,16 +517,16 @@ Understanding data structures and creating variables with JSON enables this recu
     
     if major_code:
         major_info = json_structure.get("MajorCategories", {}).get(major_code, {})
-        tag += f"#[[{major_code}\|{major_code}]]#{major_info.get('title', '').replace(' ', '_')}"
+        tag += f"#[[{major_code}]]#{major_info.get('title', '').replace(' ', '_')}"
     if minor_code:
         minor_info = major_info.get("MinorCategories", {}).get(minor_code, {})
-        tag += f"#[[{minor_code}\|{minor_code}]]#{minor_info.get('title', '').replace(' ', '_')}"
+        tag += f"#[[{minor_code}]]#{minor_info.get('title', '').replace(' ', '_')}"
     if sub_code:
         sub_info = minor_info.get("Subcategories", {}).get(f"{minor_code}.{sub_code}", {})
-        tag += f"#[[{minor_code}.{sub_code}\|{minor_code}.{sub_code}]]#{sub_info.get('title', '').replace(' ', '_')}"
+        tag += f"#[[{minor_code}.{sub_code}]]#{sub_info.get('title', '').replace(' ', '_')}"
     if book_code:
         book_info = sub_info.get("Books", {}).get(f"{minor_code}.{sub_code} {book_code}", "")
-        tag += f"#[[{minor_code}.{sub_code} {book_code}\|{minor_code}.{sub_code} {book_code}]]#{book_info.replace(' ', '_')}"
+        tag += f"#[[{minor_code}.{sub_code} {book_code}]]#{book_info.replace(' ', '_')}"
     
     
     print(major_code, minor_code , sub_code, book_code)
@@ -600,12 +613,12 @@ Major category indent was wrong
 
 As-is Used this structure pattern
 ```
-[[Projects/Library/000/000\|000]] IT Knowledge
-- [[Projects/Library/000/010/010\|010]] Develop Knowledge
-	- [[Projects/Library/000/010/010.00/010.00\|010.00]] Develop Computer Science Knowledge
-		- [[010.00 a\|010.00 a]] Essential Developer Insights
-	- [[Projects/Library/000/010/010.10/010.10\|010.10]] Develop Programming Language
-		- [[Projects/Library/000/010/010.10/010.10 a\|010.10 a]] Bash shell
+[[000]] IT Knowledge
+- [[010]] Develop Knowledge
+	- [[010.00]] Develop Computer Science Knowledge
+		- [[010.00 a]] Essential Developer Insights
+	- [[010.10]] Develop Programming Language
+		- [[010.10 a]] Bash shell
 
 ```
 
@@ -616,12 +629,12 @@ That makes preview error indent and line break
 
 ### First Change call number md file like this
 ```
-- [[Projects/Library/000/000\|000]] IT Knowledge
-	- [[Projects/Library/000/010/010\|010]] Develop Knowledge
-		- [[Projects/Library/000/010/010.00/010.00\|010.00]] Develop Computer Science Knowledge
-			- [[010.00 a\|010.00 a]] Essential Developer Insights
-		- [[Projects/Library/000/010/010.10/010.10\|010.10]] Develop Programming Language
-			- [[Projects/Library/000/010/010.10/010.10 a\|010.10 a]] Bash shell
+- [[000]] IT Knowledge
+	- [[010]] Develop Knowledge
+		- [[010.00]] Develop Computer Science Knowledge
+			- [[010.00 a]] Essential Developer Insights
+		- [[010.10]] Develop Programming Language
+			- [[010.10 a]] Bash shell
 ```
 
 ### Second Change convert_josn.py 
