@@ -15,13 +15,13 @@ In the process of editing the book's tags, you've deleted all of the tags that a
 # Recent Posts
 
 
-| File                                                      | Tags                                                                                                                            |
-| --------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
-| [[Projects/Library/600/640/640.00/640.00\|640.00]]     | <ul><li>#ML_Libraries_and_Implementation</li><li>#Vector_Database</li><li>#VectorDB_Solutions</li></ul>                         |
-| [[Projects/Library/600/640/640\|640]]                  | <ul><li>#ML_Libraries_and_Implementation</li><li>#Vector_Database</li></ul>                                                     |
-| [[Projects/Library/600/630/630.50/630.50 a\|630.50 a]] | <ul><li>#ML_Libraries_and_Implementation</li><li>#Machine_Learning_Frameworks</li><li>#LlamaIndex</li><li>#RAPTOR_RAG</li></ul> |
-| [[Projects/Library/600/630/630.50/630.50\|630.50]]     | <ul><li>#ML_Libraries_and_Implementation</li><li>#Machine_Learning_Frameworks</li><li>#LlamaIndex</li></ul>                     |
-| [[Projects/Library/400/430/430.00/430.00 c\|430.00 c]] | <ul><li>#ML_Engineer_Basic</li><li>#ML_Development_Tools</li><li>#LangChain</li><li>#RAG_with_FAISS</li></ul>                   |
+| File                                                      | Tags                                                                                                                                                                                                                                                                             |
+| --------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [[Projects/Library/600/650/650.10/650.10 a\|650.10 a]] | <ul><li>#ML_Libraries_and_Implementation</li><li>#Prompt_Engineering</li><li>#Prompt_Theory</li><li>#Checklist_for_Prompt_Engineering</li></ul>                                                                                                                                  |
+| [[Projects/Library/600/650/650.10/650.10\|650.10]]     | <ul><li>#ML_Libraries_and_Implementation</li><li>#Prompt_Engineering</li><li>#Prompt_Theory</li></ul>                                                                                                                                                                            |
+| [[Projects/Library/600/650/650.00/650.00 b\|650.00 b]] | <ul><li>#ML_Libraries_and_Implementation</li><li>#Prompt_Engineering</li><li>#Prompt_Use_case</li><li>#When_AI_doesn</li><li>#PromptEngineering</li><li>#Dall-E</li><li>#ChatGPT</li><li>#Prompt-Vision</li><li>#Dall-E3</li><li>#Text_to_Image</li><li>#AI-Compliance</li></ul> |
+| [[Projects/Library/600/650/650.00/650.00 a\|650.00 a]] | <ul><li>#ML_Libraries_and_Implementation</li><li>#Prompt_Engineering</li><li>#Prompt_Use_case</li><li>#Qr_Code_Color_Placement_Recommendation_with_Design</li></ul>                                                                                                              |
+| [[Projects/Library/600/650/650.00/650.00\|650.00]]     | <ul><li>#ML_Libraries_and_Implementation</li><li>#Prompt_Engineering</li><li>#Prompt_Use_case</li></ul>                                                                                                                                                                          |
 
 { .block-language-dataview}
 
