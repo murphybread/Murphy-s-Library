@@ -15,13 +15,13 @@ In the process of editing the book's tags, you've deleted all of the tags that a
 # Recent Posts
 
 
-| File                                                      | Tags                                                                                                            |
-| --------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
-| [[Projects/Library/300/330/330.10/330.10 a\|330.10 a]] | <ul><li>#Applications</li><li>#Backend</li><li>#Node</li><li>#Variable_Specification</li></ul>                  |
-| [[Projects/Library/300/330/330.10/330.10\|330.10]]     | <ul><li>#Applications</li><li>#Backend</li><li>#Node</li></ul>                                                  |
-| [[Projects/Library/300/330/330.00/330.00 b\|330.00 b]] | <ul><li>#Applications</li><li>#Backend</li><li>#Django</li><li>#Difference_between_Django_and_FastAPI</li></ul> |
-| [[Projects/Library/300/330/330.00/330.00 a\|330.00 a]] | <ul><li>#Applications</li><li>#Backend</li><li>#Django</li><li>#Django_default_project</li></ul>                |
-| [[Projects/Library/300/330/330.00/330.00\|330.00]]     | <ul><li>#Applications</li><li>#Backend</li><li>#Django</li></ul>                                                |
+| File                                                      | Tags                                                                                                                    |
+| --------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
+| [[Projects/Library/400/440/440.00/440.00 a\|440.00 a]] | <ul><li>#ML_Engineer_Basic</li><li>#ML_Methodology</li><li>#EDA</li><li>#Initiating_Exploratory_Data_Analysis</li></ul> |
+| [[Projects/Library/400/440/440.00/440.00\|440.00]]     | <ul><li>#ML_Engineer_Basic</li><li>#ML_Methodology</li><li>#EDA</li></ul>                                               |
+| [[Projects/Library/400/440/440\|440]]                  | <ul><li>#ML_Engineer_Basic</li><li>#ML_Methodology</li></ul>                                                            |
+| [[Projects/Library/400/430/430.20/430.20\|430.20]]     | <ul><li>#ML_Engineer_Basic</li><li>#ML_Development_Tools</li><li>#Gradio</li></ul>                                      |
+| [[Projects/Library/400/430/430.20/430.20 a\|430.20 a]] | <ul><li>#ML_Engineer_Basic</li><li>#ML_Development_Tools</li><li>#Gradio</li><li>#Gradio_Quick_Tutorial</li></ul>       |
 
 { .block-language-dataview}
 
@@ -107,34 +107,26 @@ In the process of editing the book's tags, you've deleted all of the tags that a
 - [[Projects/Library/400/400\|400]] ML Engineer Basic
 	- [[Projects/Library/400/410/410\|410]] Mathematics
 		- [[Projects/Library/400/410/410.00/410.00\|410.00]] Linear Algebra
-			- [[Projects/Library/400/410/410.00/410.00 a\|410.00 a]] Fundamental Function
-			- [[Projects/Library/400/410/410.00/410.00 b\|410.00 b]] Vector
-			- [[Projects/Library/400/410/410.00/410.00 c\|410.00 c]] Vectors Properties
-			- [[Projects/Library/400/410/410.00/410.00 d\|410.00 d]] Vector Operation
+			- [[Projects/Library/400/410/410.00/410.00 a\|410.00 a]] Vectors Properties
+			- [[Projects/Library/400/410/410.00/410.00 b\|410.00 b]] Vector Operation
 		- [[Projects/Library/400/410/410.10/410.10\|410.10]] Probability
-			- [[Projects/Library/400/410/410.10/410.10 a\|410.10 a]] Fundamental Function
+			- [[Projects/Library/400/410/410.10/410.10 a\|410.10 a]] Fundamental Words
 		- [[Projects/Library/400/410/410.20/410.20\|410.20]] Statistics
 			- [[Projects/Library/400/410/410.20/410.20 a\|410.20 a]] Probability Distribution and Estimation
 			- [[Projects/Library/400/410/410.20/410.20 b\|410.20 b]] Maximum Likelihood Estimation(MLE) and Deep Learning
 		- [[Projects/Library/400/410/410.30/410.30\|410.30]] Calculus
-			- [[Projects/Library/400/410/410.30/410.30 a\|410.30 a]] Fundamental
+			- [[Projects/Library/400/410/410.30/410.30 a\|410.30 a]] Fundamental Calculus
 	- [[Projects/Library/400/420/420\|420]] Data
 		- [[Projects/Library/400/420/420.00/420.00\|420.00]]  Structured Data
 			- [[Projects/Library/400/420/420.00/420.00 a\|420.00 a]] Numerical Data (Continuous and Discrete)
 			- [[Projects/Library/400/420/420.00/420.00 b\|420.00 b]] Categorical Data (Ordinal and Nominal)
-		- [[Projects/Library/400/420/420.10/420.10\|420.10]] Unstructured Data
-		- [[Projects/Library/400/420/420.20/420.20\|420.20]] Semi-structured Data
-			- [[Projects/Library/400/420/420.20/420.20 a\|420.20 a]] JSON
-			- [[Projects/Library/400/420/420.20/420.20 b\|420.20 b]] YAML
 	- [[Projects/Library/400/430/430\|430]] ML Development Tools
 		- [[Projects/Library/400/430/430.00/430.00\|430.00]] LangChain
 			- [[Projects/Library/400/430/430.00/430.00 a\|430.00 a]] Langchain Components
 		- [[Projects/Library/400/430/430.10/430.10\|430.10]] Streamlit
 			- [[Projects/Library/400/430/430.10/430.10 a\|430.10 a]] LLM RAG Application Using Langchain and FAISS
-		- [[Projects/Library/400/430/430.20/430.20\|430.20]] Langsmith
-			- [[Projects/Library/400/430/430.20/430.20 a\|430.20 a]] Implement Langsmith
-		- [[Projects/Library/400/430/430.30/430.30\|430.30]] Gradio
-			- [[Projects/Library/400/430/430.30/430.30 a\|430.30 a]] Gradio Quick Tutorial
+		- [[Projects/Library/400/430/430.20/430.20\|430.20]] Gradio
+			- [[Projects/Library/400/430/430.20/430.20 a\|430.20 a]] Gradio Quick Tutorial
 	- [[Projects/Library/400/440/440\|440]] ML Methodology
 		- [[Projects/Library/400/440/440.00/440.00\|440.00]] EDA(Exploratory Data Analysis)
 			- [[Projects/Library/400/440/440.00/440.00 a\|440.00 a]] Initiating Exploratory Data Analysis
