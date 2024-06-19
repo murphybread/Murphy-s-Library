@@ -1,19 +1,19 @@
 ---
-{"dg-home":true,"dg-publish":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2024-04-24T00:03:24.522+09:00"}
+dg-publish: true
+dg-home: true
 ---
-
 #hompage #Library #Rules
 
 # Recent Posts
 
 
-| File                                                      | Tags                                                                                                                   |
-| --------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
-| [[Projects/Library/300/320/320.30/320.30 a\|320.30 a]] | <ul><li>#Applications</li><li>#Frontend</li><li>#Java_Script</li><li>#JavaScript_Basic</li><li>#JavaScript</li></ul>   |
-| [[Projects/Library/000/020/020.10/020.10 d\|020.10 d]] | <ul><li>#IT_Knowledge</li><li>#Operation_Knowledge</li><li>#Git</li><li>#git_submodule</li></ul>                       |
-| [[Projects/Library/000/020/020.10/020.10 c\|020.10 c]] | <ul><li>#IT_Knowledge</li><li>#Operation_Knowledge</li><li>#Git</li><li>#git_consturcure</li><li>#git_gist</li></ul>   |
-| [[Projects/Library/000/020/020.10/020.10 b\|020.10 b]] | <ul><li>#IT_Knowledge</li><li>#Operation_Knowledge</li><li>#Git</li><li>#git_commands</li><li>#git_submodule</li></ul> |
-| [[Projects/Library/000/020/020.10/020.10 a\|020.10 a]] | <ul><li>#IT_Knowledge</li><li>#Operation_Knowledge</li><li>#Git</li><li>#git_init</li></ul>                            |
+| File                                                                      | Tags                                                                                                                               |
+| ------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| [[Projects/Library/900/930/930.00/930.00 a\|930.00 a]]                 | <ul><li>#Life_Lessons</li><li>#Gained_from_Society</li><li>#Company</li><li>#Year_1_Review_What_I_Learned_at_the_Company</li></ul> |
+| [[Projects/Library/900/930/930.00/930.00\|930.00]]                     | <ul><li>#Life_Lessons</li><li>#Gained_from_Society</li><li>#Company</li></ul>                                                      |
+| [[Projects/Library/Manage/Template (Source)\|Template (Source)]]       | <ul><li>#Tag</li></ul>                                                                                                             |
+| [[Projects/Library/Manage/Template (No Source)\|Template (No Source)]] | <ul><li>#Tag</li></ul>                                                                                                             |
+| [[Projects/Library/Manage/Hompage\|Hompage]]                           | <ul><li>#hompage</li><li>#Library</li><li>#Rules</li></ul>                                                                         |
 
 { .block-language-dataview}
 
@@ -38,8 +38,8 @@
 			- [[Projects/Library/000/010/010.00/010.00 b\|010.00 b]] SLA and SLO and SLI
 		- [[Projects/Library/000/010/010.10/010.10\|010.10]] Develop Programming Language
 			- [[Projects/Library/000/010/010.10/010.10 a\|010.10 a]] Linux stdinput and output with errorlog
-		- [[Projects/Library/Entrance/010.20\|010.20]] Data Structure and Algorithm
-			- [[Projects/Library/Entrance/010.20 a\|010.20 a]] Why learn data structures and algorithms?
+		- [[Projects/Library/000/010/010.20/010.20\|010.20]] Data Structure and Algorithm
+			- [[Projects/Library/000/010/010.20/010.20 a\|010.20 a]] Why learn data structures and algorithms?
 	- [[Projects/Library/000/020/020\|020]] Operation Knowledge
 		- [[Projects/Library/000/020/020.00/020.00\|020.00]] Versioning
 			- [[Projects/Library/000/020/020.00/020.00 a\|020.00 a]] My own Versioning Strategy
@@ -113,12 +113,13 @@
 			- [[Projects/Library/300/320/320.10/320.10 b\|320.10 b]] Border Properties
 		- [[Projects/Library/300/320/320.30/320.30\|320.30]] JavaScript
 			- [[Projects/Library/300/320/320.30/320.30 a\|320.30 a]] JavaScript Basic
+			- [[Projects/Library/300/320/320.30/320.30 b\|320.30 b]] Fix too loud sound at video startup with headphones on
 	- [[Projects/Library/300/330/330\|330]] Backend
 		- [[Projects/Library/300/330/330.00/330.00\|330.00]] Django
 			- [[Projects/Library/300/330/330.00/330.00 a\|330.00 a]] Django default project
 			- [[Projects/Library/300/330/330.00/330.00 b\|330.00 b]] Difference between Django and FastAPI
-		- [[Projects/Library/Entrance/330.10\|330.10]] Node.js
-			- [[Projects/Library/Entrance/330.10 a\|330.10 a]] Variable Specification
+		- [[Projects/Library/300/330/330.10/330.10\|330.10]] Node.js
+			- [[Projects/Library/300/330/330.10/330.10 a\|330.10 a]] Variable Specification
 - [[Projects/Library/400/400\|400]] ML Engineer Basic
 	- [[Projects/Library/400/410/410\|410]] Mathematics
 		- [[Projects/Library/400/410/410.00/410.00\|410.00]] Linear Algebra
