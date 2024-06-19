@@ -1,19 +1,27 @@
 ---
-{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2024-06-19T23:39:50.670+09:00"}
+{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2024-06-20T00:23:55.053+09:00"}
 ---
 
 #hompage #Library #Rules
 
+
+![DALL·E 2024-06-20 00.22.00 - In front of a library, a person is bowing apologetically with a sign above them that says 'Under maintenance'. The person looks genuinely sorry, with .webp](/img/user/Projects/Library/Manage/DALL%C2%B7E%202024-06-20%2000.22.00%20-%20In%20front%20of%20a%20library,%20a%20person%20is%20bowing%20apologetically%20with%20a%20sign%20above%20them%20that%20says%20'Under%20maintenance'.%20The%20person%20looks%20genuinely%20sorry,%20with%20.webp)
+
+책의 태그를 수정하는 과정에서 배포에 필요한 태그들이 전부 삭제되어 수정이 필요한 상황입니다. 추가적으로 배포 횟수제한으로 인해 업데이트가 느려지고 있습니다. 빠른 복구 중에 있습니다. 조속히 고치겠습니다. 감사합니다.
+
+In the process of editing the book's tags, you've deleted all of the tags that are required for deployment and need to fix them. Additionally, updates are slowing down due to the deployment limit. We're working on a quick recovery. We'll get it fixed soon, thank you.
+
+
 # Recent Posts
 
 
-| File                                                      | Tags                                                                                                                                                 |
-| --------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [[Projects/Library/000/010/010\|010]]                  | <ul><li>#IT_Knowledge</li><li>#Develop_Knowledge</li></ul>                                                                                           |
-| [[Projects/Library/000/020/020.10/020.10 a\|020.10 a]] | <ul><li>#IT_Knowledge</li><li>#Operation_Knowledge</li><li>#Git</li><li>#git_init</li></ul>                                                          |
-| [[Projects/Library/100/120/120\|120]]                  | <ul><li>#Infra</li><li>#ML_Engineer_Infra</li></ul>                                                                                                  |
-| [[Projects/Library/100/120/120.00/120.00\|120.00]]     | <ul><li>#Infra</li><li>#ML_Engineer_Infra</li><li>#GPU</li></ul>                                                                                     |
-| [[Projects/Library/100/120/120.00/120.00 a\|120.00 a]] | <ul><li>#Infra</li><li>#ML_Engineer_Infra</li><li>#GPU</li><li>#How_to_easily_rent_an_expensive_GPU_and_what_to_consider_when_choosing_one</li></ul> |
+| File                                                      | Tags                                                                                                                                              |
+| --------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [[Projects/Library/Manage/Hompage\|Hompage]]           | <ul><li>#hompage</li><li>#Library</li><li>#Rules</li></ul>                                                                                        |
+| [[Projects/Library/000/010/010.10/010.10 a\|010.10 a]] | <ul><li>#IT_Knowledge</li><li>#Develop_Knowledge</li><li>#Develop_Programming_Language</li><li>#Linux_stdinput_and_output_with_errorlog</li></ul> |
+| [[Projects/Library/000/010/010.10/010.10\|010.10]]     | <ul><li>#IT_Knowledge</li><li>#Develop_Knowledge</li><li>#Develop_Programming_Language</li></ul>                                                  |
+| [[Projects/Library/000/010/010\|010]]                  | <ul><li>#IT_Knowledge</li><li>#Develop_Knowledge</li></ul>                                                                                        |
+| [[Projects/Library/000/020/020.10/020.10 a\|020.10 a]] | <ul><li>#IT_Knowledge</li><li>#Operation_Knowledge</li><li>#Git</li><li>#git_init</li></ul>                                                       |
 
 { .block-language-dataview}
 
