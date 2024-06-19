@@ -1,7 +1,7 @@
 ---
-{"dg-publish":true,"permalink":"/projects/library/manage/history-of-library/","dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-31T20:39:20.070+09:00","updated":"2024-05-13T13:20:08.972+09:00"}
----
+dg-publish: true
 
+---
 #History #Versioning_Strategy 
 # Versioning Standard
 [[020.00 c\|020.00 c]]
@@ -395,7 +395,9 @@ So I modify this part. first get distinguish body. by the split function divide 
 
 
 
-
+---
+dg-publish: true
+---
 # Title
 #Tag
 
@@ -418,7 +420,9 @@ Step-by-step implementation guide.
 
 
 
-
+---
+dg-publish: true
+---
 # Title
 #Tag
 
@@ -500,16 +504,16 @@ Understanding data structures and creating variables with JSON enables this recu
     
     if major_code:
         major_info = json_structure.get("MajorCategories", {}).get(major_code, {})
-        tag += f"#[[{major_code}]]#{major_info.get('title', '').replace(' ', '_')}"
+        tag += f"#[[{major_code}\|{major_code}]]#{major_info.get('title', '').replace(' ', '_')}"
     if minor_code:
         minor_info = major_info.get("MinorCategories", {}).get(minor_code, {})
-        tag += f"#[[{minor_code}]]#{minor_info.get('title', '').replace(' ', '_')}"
+        tag += f"#[[{minor_code}\|{minor_code}]]#{minor_info.get('title', '').replace(' ', '_')}"
     if sub_code:
         sub_info = minor_info.get("Subcategories", {}).get(f"{minor_code}.{sub_code}", {})
-        tag += f"#[[{minor_code}.{sub_code}]]#{sub_info.get('title', '').replace(' ', '_')}"
+        tag += f"#[[{minor_code}.{sub_code}\|{minor_code}.{sub_code}]]#{sub_info.get('title', '').replace(' ', '_')}"
     if book_code:
         book_info = sub_info.get("Books", {}).get(f"{minor_code}.{sub_code} {book_code}", "")
-        tag += f"#[[{minor_code}.{sub_code} {book_code}]]#{book_info.replace(' ', '_')}"
+        tag += f"#[[{minor_code}.{sub_code} {book_code}\|{minor_code}.{sub_code} {book_code}]]#{book_info.replace(' ', '_')}"
     
     
     print(major_code, minor_code , sub_code, book_code)
@@ -596,12 +600,12 @@ Major category indent was wrong
 
 As-is Used this structure pattern
 ```
-[[000]] IT Knowledge
-- [[010]] Develop Knowledge
-	- [[010.00]] Develop Computer Science Knowledge
-		- [[010.00 a]] Essential Developer Insights
-	- [[010.10]] Develop Programming Language
-		- [[010.10 a]] Bash shell
+[[Projects/Library/000/000\|000]] IT Knowledge
+- [[Projects/Library/000/010/010\|010]] Develop Knowledge
+	- [[Projects/Library/000/010/010.00/010.00\|010.00]] Develop Computer Science Knowledge
+		- [[010.00 a\|010.00 a]] Essential Developer Insights
+	- [[Projects/Library/000/010/010.10/010.10\|010.10]] Develop Programming Language
+		- [[Projects/Library/000/010/010.10/010.10 a\|010.10 a]] Bash shell
 
 ```
 
@@ -612,12 +616,12 @@ That makes preview error indent and line break
 
 ### First Change call number md file like this
 ```
-- [[000]] IT Knowledge
-	- [[010]] Develop Knowledge
-		- [[010.00]] Develop Computer Science Knowledge
-			- [[010.00 a]] Essential Developer Insights
-		- [[010.10]] Develop Programming Language
-			- [[010.10 a]] Bash shell
+- [[Projects/Library/000/000\|000]] IT Knowledge
+	- [[Projects/Library/000/010/010\|010]] Develop Knowledge
+		- [[Projects/Library/000/010/010.00/010.00\|010.00]] Develop Computer Science Knowledge
+			- [[010.00 a\|010.00 a]] Essential Developer Insights
+		- [[Projects/Library/000/010/010.10/010.10\|010.10]] Develop Programming Language
+			- [[Projects/Library/000/010/010.10/010.10 a\|010.10 a]] Bash shell
 ```
 
 ### Second Change convert_josn.py 
