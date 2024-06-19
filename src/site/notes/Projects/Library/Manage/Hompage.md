@@ -1,7 +1,7 @@
 ---
-dg-publish: true
-dg-home: true
+{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2024-06-19T23:39:50.670+09:00"}
 ---
+
 #hompage #Library #Rules
 
 # Recent Posts
@@ -9,11 +9,11 @@ dg-home: true
 
 | File                                                                      | Tags                                                                                                                               |
 | ------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| [[Projects/Library/Manage/Hompage\|Hompage]]                           | <ul><li>#hompage</li><li>#Library</li><li>#Rules</li></ul>                                                                         |
 | [[Projects/Library/900/930/930.00/930.00 a\|930.00 a]]                 | <ul><li>#Life_Lessons</li><li>#Gained_from_Society</li><li>#Company</li><li>#Year_1_Review_What_I_Learned_at_the_Company</li></ul> |
 | [[Projects/Library/900/930/930.00/930.00\|930.00]]                     | <ul><li>#Life_Lessons</li><li>#Gained_from_Society</li><li>#Company</li></ul>                                                      |
 | [[Projects/Library/Manage/Template (Source)\|Template (Source)]]       | <ul><li>#Tag</li></ul>                                                                                                             |
 | [[Projects/Library/Manage/Template (No Source)\|Template (No Source)]] | <ul><li>#Tag</li></ul>                                                                                                             |
-| [[Projects/Library/Manage/Hompage\|Hompage]]                           | <ul><li>#hompage</li><li>#Library</li><li>#Rules</li></ul>                                                                         |
 
 { .block-language-dataview}
 
@@ -26,7 +26,7 @@ dg-home: true
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/%EB%AF%BC%EC%B0%AC-%EA%B9%80-aba89a243)
 
 
-# Categories List
+# Categories Lists
 
 <div class="transclusion internal-embed is-loaded"><div class="markdown-embed">
 
