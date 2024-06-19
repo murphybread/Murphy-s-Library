@@ -15,13 +15,13 @@ In the process of editing the book's tags, you've deleted all of the tags that a
 # Recent Posts
 
 
-| File                                                      | Tags                                                                                                                                 |
-| --------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
-| [[Projects/Library/500/520/520.00/520.00 a\|520.00 a]] | <ul><li>#ML_and_DL_Modeling</li><li>#Computer_Vision</li><li>#Introduction_to_CV</li><li>#Voxelization_from_Open3D_Library</li></ul> |
-| [[Projects/Library/500/520/520.00/520.00\|520.00]]     | <ul><li>#ML_and_DL_Modeling</li><li>#Computer_Vision</li><li>#Introduction_to_CV</li></ul>                                           |
-| [[Projects/Library/500/500\|500]]                      | <ul><li>#ML_and_DL_Modeling</li></ul>                                                                                                |
-| [[Projects/Library/400/440/440.00/440.00 a\|440.00 a]] | <ul><li>#ML_Engineer_Basic</li><li>#ML_Methodology</li><li>#EDA</li><li>#Initiating_Exploratory_Data_Analysis</li></ul>              |
-| [[Projects/Library/400/440/440.00/440.00\|440.00]]     | <ul><li>#ML_Engineer_Basic</li><li>#ML_Methodology</li><li>#EDA</li></ul>                                                            |
+| File                                                      | Tags                                                                                                                            |
+| --------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
+| [[Projects/Library/600/640/640.00/640.00\|640.00]]     | <ul><li>#ML_Libraries_and_Implementation</li><li>#Vector_Database</li><li>#VectorDB_Solutions</li></ul>                         |
+| [[Projects/Library/600/640/640\|640]]                  | <ul><li>#ML_Libraries_and_Implementation</li><li>#Vector_Database</li></ul>                                                     |
+| [[Projects/Library/600/630/630.50/630.50 a\|630.50 a]] | <ul><li>#ML_Libraries_and_Implementation</li><li>#Machine_Learning_Frameworks</li><li>#LlamaIndex</li><li>#RAPTOR_RAG</li></ul> |
+| [[Projects/Library/600/630/630.50/630.50\|630.50]]     | <ul><li>#ML_Libraries_and_Implementation</li><li>#Machine_Learning_Frameworks</li><li>#LlamaIndex</li></ul>                     |
+| [[Projects/Library/400/430/430.00/430.00 c\|430.00 c]] | <ul><li>#ML_Engineer_Basic</li><li>#ML_Development_Tools</li><li>#LangChain</li><li>#RAG_with_FAISS</li></ul>                   |
 
 { .block-language-dataview}
 
@@ -123,6 +123,8 @@ In the process of editing the book's tags, you've deleted all of the tags that a
 	- [[Projects/Library/400/430/430\|430]] ML Development Tools
 		- [[Projects/Library/400/430/430.00/430.00\|430.00]] LangChain
 			- [[Projects/Library/400/430/430.00/430.00 a\|430.00 a]] Langchain Components
+			- [[Projects/Library/400/430/430.00/430.00 b\|430.00 b]] Amazon_Bedrock_with_RAG
+			- [[Projects/Library/400/430/430.00/430.00 c\|430.00 c]] RAG_with_FAISS
 		- [[Projects/Library/400/430/430.10/430.10\|430.10]] Streamlit
 			- [[Projects/Library/400/430/430.10/430.10 a\|430.10 a]] LLM RAG Application Using Langchain and FAISS
 		- [[Projects/Library/400/430/430.20/430.20\|430.20]] Gradio
@@ -140,7 +142,6 @@ In the process of editing the book's tags, you've deleted all of the tags that a
 			- [[Projects/Library/600/610/610.00/610.00 a\|610.00 a]] Pandas-basic 
 		- [[Projects/Library/600/610/610.10/610.10\|610.10]] NumPy
 			- [[Projects/Library/600/610/610.10/610.10 a\|610.10 a]] Numpy Fundamental functions
-			- [[Projects/Library/600/610/610.10/610.10 b\|610.10 b]] Numpy Appllied function
 	- [[Projects/Library/600/620/620\|620]] Data visualization
 		- [[Projects/Library/600/620/620.00/620.00\|620.00]] Matplotlib
 			- [[Projects/Library/600/620/620.00/620.00 a\|620.00 a]] Matplotlib Fundamental
@@ -151,18 +152,10 @@ In the process of editing the book's tags, you've deleted all of the tags that a
 	- [[Projects/Library/600/630/630\|630]] Machine Learning Frameworks
 	    - [[Projects/Library/600/630/630.00/630.00\|630.00]] scikit-learn
 		    - [[Projects/Library/600/630/630.00/630.00 a\|630.00 a]] scikit-learn functions
-	    - [[Projects/Library/600/630/630.10/630.10\|630.10]] PyTorch
-	    - [[Projects/Library/600/630/630.20/630.20\|630.20]] TensorFlow
-	    - [[Projects/Library/600/630/630.30/630.30\|630.30]] Langchain
-		    - [[Projects/Library/600/630/630.30/630.30 a\|630.30 a]] Amazon Bedrock with RAG
-		    - [[Projects/Library/600/630/630.30/630.30 b\|630.30 b]] RAG with FAISS
-		- [[Projects/Library/600/630/630.40/630.40\|630.40]] Gradio
-			- [[Projects/Library/600/630/630.40/630.40 a\|630.40 a]] Gradio Quick start tutorial
 		- [[Projects/Library/600/630/630.50/630.50\|630.50]] LlamaIndex
 			- [[Projects/Library/600/630/630.50/630.50 a\|630.50 a]] RAPTOR RAG 
 	- [[Projects/Library/600/640/640\|640]] Vector Database
 		- [[Projects/Library/600/640/640.00/640.00\|640.00]] VectorDB Solutions
-			- [[Projects/Library/600/640/640.00/640.00 a\|640.00 a]] Milvus
 	- [[Projects/Library/600/650/650\|650]] Prompt Engineering
 		- [[Projects/Library/600/650/650.00/650.00\|650.00]] Prompt Use case
 			- [[Projects/Library/600/650/650.00/650.00 a\|650.00 a]] Qr Code Color Placement Recommendation with Design
