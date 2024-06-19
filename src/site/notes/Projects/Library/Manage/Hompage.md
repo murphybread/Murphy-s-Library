@@ -7,13 +7,13 @@
 # Recent Posts
 
 
-| File                                                                      | Tags                                                                                                                               |
-| ------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
-| [[Projects/Library/Manage/Hompage\|Hompage]]                           | <ul><li>#hompage</li><li>#Library</li><li>#Rules</li></ul>                                                                         |
-| [[Projects/Library/900/930/930.00/930.00 a\|930.00 a]]                 | <ul><li>#Life_Lessons</li><li>#Gained_from_Society</li><li>#Company</li><li>#Year_1_Review_What_I_Learned_at_the_Company</li></ul> |
-| [[Projects/Library/900/930/930.00/930.00\|930.00]]                     | <ul><li>#Life_Lessons</li><li>#Gained_from_Society</li><li>#Company</li></ul>                                                      |
-| [[Projects/Library/Manage/Template (Source)\|Template (Source)]]       | <ul><li>#Tag</li></ul>                                                                                                             |
-| [[Projects/Library/Manage/Template (No Source)\|Template (No Source)]] | <ul><li>#Tag</li></ul>                                                                                                             |
+| File                                                      | Tags                                                                                                                                                                       |
+| --------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [[Projects/Library/000/010/010.00/010.00 b\|010.00 b]] | <ul><li>#IT_Knowledge</li><li>#Develop_Knowledge</li><li>#Develop_Computer_Science_Knowledge</li><li>#SLA_and_SLO_and_SLI</li><li>#SLA</li><li>#SLO</li><li>#SLI</li></ul> |
+| [[Projects/Library/000/010/010.00/010.00\|010.00]]     | <ul><li>#IT_Knowledge</li><li>#Develop_Knowledge</li><li>#Develop_Computer_Science_Knowledge</li></ul>                                                                     |
+| [[Projects/Library/000/000\|000]]                      | <ul><li>#IT_Knowledge</li></ul>                                                                                                                                            |
+| [[Projects/Library/Manage/Hompage\|Hompage]]           | <ul><li>#hompage</li><li>#Library</li><li>#Rules</li></ul>                                                                                                                 |
+| [[Projects/Library/900/930/930.00/930.00 a\|930.00 a]] | <ul><li>#Life_Lessons</li><li>#Gained_from_Society</li><li>#Company</li><li>#Year_1_Review_What_I_Learned_at_the_Company</li></ul>                                         |
 
 { .block-language-dataview}
 
