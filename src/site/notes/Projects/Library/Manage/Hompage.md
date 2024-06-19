@@ -15,13 +15,13 @@ In the process of editing the book's tags, you've deleted all of the tags that a
 # Recent Posts
 
 
-| File                                                      | Tags                                                                                                                                                    |
-| --------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [[Projects/Library/100/120/120.00/120.00 a\|120.00 a]] | <ul><li>#Infra</li><li>#ML_Engineer_Infra</li><li>#GPU</li><li>#How_to_easily_rent_an_expensive_GPU_and_what_to_consider_when_choosing_one</li></ul>    |
-| [[Projects/Library/100/120/120.00/120.00\|120.00]]     | <ul><li>#Infra</li><li>#ML_Engineer_Infra</li><li>#GPU</li></ul>                                                                                        |
-| [[Projects/Library/100/120/120\|120]]                  | <ul><li>#Infra</li><li>#ML_Engineer_Infra</li></ul>                                                                                                     |
-| [[Projects/Library/100/110/110.10/110.10 f\|110.10 f]] | <ul><li>#Infra</li><li>#DevOps_Engineer_Infra</li><li>#Kubernetes</li><li>#What_to_do_if_password_settings_don</li><li>#Helm</li><li>#Grafana</li></ul> |
-| [[Projects/Library/100/110/110.10/110.10 e\|110.10 e]] | <ul><li>#Infra</li><li>#DevOps_Engineer_Infra</li><li>#Kubernetes</li><li>#Loki_with_Helm</li><li>#AWS</li></ul>                                        |
+| File                                                      | Tags                                                                                                                                           |
+| --------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
+| [[Projects/Library/200/220/220.10/220.10\|220.10]]     | <ul><li>#DevOps</li><li>#Project_Management_System</li><li>#PMS_in_Action_Implementation</li></ul>                                             |
+| [[Projects/Library/200/220/220.10/220.10 a\|220.10 a]] | <ul><li>#DevOps</li><li>#Project_Management_System</li><li>#PMS_in_Action_Implementation</li><li>#GitLab_Issue_template</li><li>#Tag</li></ul> |
+| [[Projects/Library/200/220/220\|220]]                  | <ul><li>#DevOps</li><li>#Project_Management_System</li></ul>                                                                                   |
+| [[Projects/Library/200/210/210.00/210.00 a\|210.00 a]] | <ul><li>#DevOps</li><li>#CICD</li><li>#DevOps_Fundamental</li><li>#DevOps_Background</li></ul>                                                 |
+| [[Projects/Library/200/210/210.00/210.00\|210.00]]     | <ul><li>#DevOps</li><li>#CICD</li><li>#DevOps_Fundamental</li></ul>                                                                            |
 
 { .block-language-dataview}
 
@@ -82,11 +82,7 @@ In the process of editing the book's tags, you've deleted all of the tags that a
 	- [[Projects/Library/200/210/210\|210]] CICD
 		- [[Projects/Library/200/210/210.00/210.00\|210.00]] DevOps Fundamental
 			- [[Projects/Library/200/210/210.00/210.00 a\|210.00 a]] DevOps Background
-		- [[Projects/Library/200/210/210.10/210.10\|210.10]] DevOps Culture
-		- [[Projects/Library/200/210/210.20/210.20\|210.20]] DevOps Solutions
-			- [[Projects/Library/200/210/210.20/210.20 a\|210.20 a]] GitLab
 	- [[Projects/Library/200/220/220\|220]] Project Management System
-		- [[Projects/Library/200/220/220.00/220.00\|220.00]] PMS Adoption: Pre-Implementation Checklist
 		- [[Projects/Library/200/220/220.10/220.10\|220.10]] PMS in Action Implementation
 			- [[Projects/Library/200/220/220.10/220.10 a\|220.10 a]] GitLab Issue template
 - [[Projects/Library/300/300\|300]] Applications
