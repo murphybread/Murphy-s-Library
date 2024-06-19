@@ -7,13 +7,13 @@
 # Recent Posts
 
 
-| File                                                      | Tags                                                                                                                                                            |
-| --------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [[Projects/Library/300/320/320.30/320.30 a\|320.30 a]] | <ul><li>#Applications</li><li>#Frontend</li><li>#Java_Script</li><li>#JavaScript_Basic</li><li>#JavaScript</li></ul>                                            |
-| [[Projects/Library/000/010/010.10/010.10 b\|010.10 b]] | <ul><li>#IT_Knowledge</li><li>#Develop_Knowledge</li><li>#Develop_Programming_Language</li><li>#ssh_turnneling</li><li>#ssh</li><li>#AWS</li></ul>              |
-| [[Projects/Library/800/810/810.00/810.00 a\|810.00 a]] | <ul><li>#Anythings</li><li>#Game</li><li>#Minecraft</li><li>#Minecraft_Commands</li></ul>                                                                       |
-| [[Projects/Library/900/910/910.00/910.00 f\|910.00 f]] | <ul><li>#Life_Lessons</li><li>#Self_Discoveries</li><li>#Approach_to_Life</li><li>#Learn_how_an_AI_ML_pipeline_starts_with_a_cow_and_ends_with_a_dish</li></ul> |
-| [[Projects/Library/600/650/650.10/650.10\|650.10]]     | <ul><li>#ML_Libraries_and_Implementation</li><li>#Prompt_Engineering</li><li>#Prompt_Theory</li></ul>                                                           |
+| File                                                      | Tags                                                                                                                   |
+| --------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
+| [[Projects/Library/300/320/320.30/320.30 a\|320.30 a]] | <ul><li>#Applications</li><li>#Frontend</li><li>#Java_Script</li><li>#JavaScript_Basic</li><li>#JavaScript</li></ul>   |
+| [[Projects/Library/000/020/020.10/020.10 d\|020.10 d]] | <ul><li>#IT_Knowledge</li><li>#Operation_Knowledge</li><li>#Git</li><li>#git_submodule</li></ul>                       |
+| [[Projects/Library/000/020/020.10/020.10 c\|020.10 c]] | <ul><li>#IT_Knowledge</li><li>#Operation_Knowledge</li><li>#Git</li><li>#git_consturcure</li><li>#git_gist</li></ul>   |
+| [[Projects/Library/000/020/020.10/020.10 b\|020.10 b]] | <ul><li>#IT_Knowledge</li><li>#Operation_Knowledge</li><li>#Git</li><li>#git_commands</li><li>#git_submodule</li></ul> |
+| [[Projects/Library/000/020/020.10/020.10 a\|020.10 a]] | <ul><li>#IT_Knowledge</li><li>#Operation_Knowledge</li><li>#Git</li><li>#git_init</li></ul>                            |
 
 { .block-language-dataview}
 
@@ -38,19 +38,17 @@
 			- [[Projects/Library/000/010/010.00/010.00 b\|010.00 b]] SLA and SLO and SLI
 		- [[Projects/Library/000/010/010.10/010.10\|010.10]] Develop Programming Language
 			- [[Projects/Library/000/010/010.10/010.10 a\|010.10 a]] Linux stdinput and output with errorlog
-			- [[Projects/Library/000/010/010.10/010.10 b\|010.10 b]] ssh turnneling
+		- [[Projects/Library/Entrance/010.20\|010.20]] Data Structure and Algorithm
+			- [[Projects/Library/Entrance/010.20 a\|010.20 a]] Why learn data structures and algorithms?
 	- [[Projects/Library/000/020/020\|020]] Operation Knowledge
 		- [[Projects/Library/000/020/020.00/020.00\|020.00]] Versioning
 			- [[Projects/Library/000/020/020.00/020.00 a\|020.00 a]] My own Versioning Strategy
 			- [[Projects/Library/000/020/020.00/020.00 b\|020.00 b]] headver
-			- [[020.00 c\|020.00 c]]
 		- [[Projects/Library/000/020/020.10/020.10\|020.10]] Git
-			- [[Projects/Library/000/020/020.10/020.10 a\|020.10 a]] git init
-			- [[Projects/Library/000/020/020.10/020.10 b\|020.10 b]] git commands
-			- [[Projects/Library/000/020/020.10/020.10 c\|020.10 c]] git structure
-			- [[Projects/Library/000/020/020.10/020.10 d\|020.10 d]] git submodule
-			- [[Projects/Library/000/020/020.10/020.10 e\|020.10 e]] git gist
-			- [[Projects/Library/000/020/020.10/020.10 f\|020.10 f]] git branch strategy
+			- [[Projects/Library/000/020/020.10/020.10 a\|020.10 a]] git commands
+			- [[Projects/Library/000/020/020.10/020.10 b\|020.10 b]] git submodule
+			- [[Projects/Library/000/020/020.10/020.10 c\|020.10 c]] git gist
+			- [[Projects/Library/000/020/020.10/020.10 d\|020.10 d]] git commit convention
 		- [[Projects/Library/000/020/020.20/020.20\|020.20]] Organizing Code Functions and Modules
 			- [[Projects/Library/000/020/020.20/020.20 a\|020.20 a]] Proper dividing for reusable modules
 	- [[Projects/Library/000/030/030\|030]] Package
@@ -119,6 +117,8 @@
 		- [[Projects/Library/300/330/330.00/330.00\|330.00]] Django
 			- [[Projects/Library/300/330/330.00/330.00 a\|330.00 a]] Django default project
 			- [[Projects/Library/300/330/330.00/330.00 b\|330.00 b]] Difference between Django and FastAPI
+		- [[Projects/Library/Entrance/330.10\|330.10]] Node.js
+			- [[Projects/Library/Entrance/330.10 a\|330.10 a]] Variable Specification
 - [[Projects/Library/400/400\|400]] ML Engineer Basic
 	- [[Projects/Library/400/410/410\|410]] Mathematics
 		- [[Projects/Library/400/410/410.00/410.00\|410.00]] Linear Algebra
