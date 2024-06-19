@@ -15,13 +15,13 @@ In the process of editing the book's tags, you've deleted all of the tags that a
 # Recent Posts
 
 
-| File                                                      | Tags                                                                                                                                                        |
-| --------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [[Projects/Library/800/830/830.00/830.00 a\|830.00 a]] | <ul><li>#Anythings</li><li>#Hobby</li><li>#3D_Works</li><li>#3D_object_domain_knowledge</li></ul>                                                           |
-| [[Projects/Library/800/830/830.00/830.00\|830.00]]     | <ul><li>#Anythings</li><li>#Hobby</li><li>#3D_Works</li></ul>                                                                                               |
-| [[Projects/Library/800/830/830\|830]]                  | <ul><li>#Anythings</li><li>#Hobby</li></ul>                                                                                                                 |
-| [[Projects/Library/800/820/820.00/820.00 a\|820.00 a]] | <ul><li>#Anythings</li><li>#Writing</li><li>#LinkedIn</li><li>#Why_I_Use_Obsidian_as_KnowldegeBase_Tool</li><li>#Obsidian</li><li>#Knowledge_Base</li></ul> |
-| [[Projects/Library/800/820/820.00/820.00\|820.00]]     | <ul><li>#Anythings</li><li>#Writing</li><li>#LinkedIn</li></ul>                                                                                             |
+| File                                                      | Tags                                                                                                                                                |
+| --------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [[Projects/Library/800/820/820.00/820.00 b\|820.00 b]] | <ul><li>#Anythings</li><li>#Writing</li><li>#LinkedIn</li><li>#Year_1_Review_What_I_Learned_at_the_Company</li></ul>                                |
+| [[Projects/Library/900/910/910.00/910.00 c\|910.00 c]] | <ul><li>#Life_Lessons</li><li>#Self_Discoveries</li><li>#Approach_to_Life</li><li>#Digital_Detox_Learning_from_a_Failure_to_Detox</li></ul>         |
+| [[Projects/Library/900/910/910.00/910.00 e\|910.00 e]] | <ul><li>#Life_Lessons</li><li>#Self_Discoveries</li><li>#Approach_to_Life</li><li>#Don</li><li>#Job_swtich</li></ul>                                |
+| [[Projects/Library/900/910/910.00/910.00 d\|910.00 d]] | <ul><li>#Life_Lessons</li><li>#Self_Discoveries</li><li>#Approach_to_Life</li><li>#Methods_to_use_metrics_to_evaluate_which_job_is_better</li></ul> |
+| [[Projects/Library/900/910/910.00/910.00 b\|910.00 b]] | <ul><li>#Life_Lessons</li><li>#Self_Discoveries</li><li>#Approach_to_Life</li><li>#How_you_can_try_something_you</li><li>#Human</li></ul>           |
 
 { .block-language-dataview}
 
@@ -183,6 +183,7 @@ In the process of editing the book's tags, you've deleted all of the tags that a
 	- [[Projects/Library/800/820/820\|820]] Writing
 		- [[Projects/Library/800/820/820.00/820.00\|820.00]] LinkedIn
 			- [[Projects/Library/800/820/820.00/820.00 a\|820.00 a]] Why I Use Obsidian as KnowldegeBase Tool
+			- [[Projects/Library/800/820/820.00/820.00 b\|820.00 b]] Year 1 Review What I Learned at the Company
 	- [[Projects/Library/800/830/830\|830]] Hobby
 		- [[Projects/Library/800/830/830.00/830.00\|830.00]] 3D Works
 			- [[Projects/Library/800/830/830.00/830.00 a\|830.00 a]] 3D object domain knowledge
@@ -194,11 +195,6 @@ In the process of editing the book's tags, you've deleted all of the tags that a
 			- [[Projects/Library/900/910/910.00/910.00 c\|910.00 c]] Digital Detox Learning from a Failure to Detox
 			- [[Projects/Library/900/910/910.00/910.00 d\|910.00 d]] Methods to use metrics to evaluate which job is better
 			- [[Projects/Library/900/910/910.00/910.00 e\|910.00 e]] Don't miss the moment when their eyes sparkle if you want to catch someone or keep them for a long time
-			- [[Projects/Library/900/910/910.00/910.00 f\|910.00 f]] Learn how an AI ML pipeline starts with a cow and ends with a dish
-	- [[Projects/Library/900/920/920\|920]] Lessons from Others
-	- [[Projects/Library/900/930/930\|930]] Gained from Society
-		- [[Projects/Library/900/930/930.00/930.00\|930.00]] Company
-			- [[Projects/Library/900/930/930.00/930.00 a\|930.00 a]] Year 1 Review What I Learned at the Company
 
 </div></div>
 
