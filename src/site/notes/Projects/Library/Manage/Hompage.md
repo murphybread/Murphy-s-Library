@@ -15,13 +15,13 @@ In the process of editing the book's tags, you've deleted all of the tags that a
 # Recent Posts
 
 
-| File                                                      | Tags                                                                                                                                           |
-| --------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
-| [[Projects/Library/200/220/220.10/220.10\|220.10]]     | <ul><li>#DevOps</li><li>#Project_Management_System</li><li>#PMS_in_Action_Implementation</li></ul>                                             |
-| [[Projects/Library/200/220/220.10/220.10 a\|220.10 a]] | <ul><li>#DevOps</li><li>#Project_Management_System</li><li>#PMS_in_Action_Implementation</li><li>#GitLab_Issue_template</li><li>#Tag</li></ul> |
-| [[Projects/Library/200/220/220\|220]]                  | <ul><li>#DevOps</li><li>#Project_Management_System</li></ul>                                                                                   |
-| [[Projects/Library/200/210/210.00/210.00 a\|210.00 a]] | <ul><li>#DevOps</li><li>#CICD</li><li>#DevOps_Fundamental</li><li>#DevOps_Background</li></ul>                                                 |
-| [[Projects/Library/200/210/210.00/210.00\|210.00]]     | <ul><li>#DevOps</li><li>#CICD</li><li>#DevOps_Fundamental</li></ul>                                                                            |
+| File                                                      | Tags                                                                                                            |
+| --------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
+| [[Projects/Library/300/330/330.10/330.10 a\|330.10 a]] | <ul><li>#Applications</li><li>#Backend</li><li>#Node</li><li>#Variable_Specification</li></ul>                  |
+| [[Projects/Library/300/330/330.10/330.10\|330.10]]     | <ul><li>#Applications</li><li>#Backend</li><li>#Node</li></ul>                                                  |
+| [[Projects/Library/300/330/330.00/330.00 b\|330.00 b]] | <ul><li>#Applications</li><li>#Backend</li><li>#Django</li><li>#Difference_between_Django_and_FastAPI</li></ul> |
+| [[Projects/Library/300/330/330.00/330.00 a\|330.00 a]] | <ul><li>#Applications</li><li>#Backend</li><li>#Django</li><li>#Django_default_project</li></ul>                |
+| [[Projects/Library/300/330/330.00/330.00\|330.00]]     | <ul><li>#Applications</li><li>#Backend</li><li>#Django</li></ul>                                                |
 
 { .block-language-dataview}
 
@@ -87,18 +87,14 @@ In the process of editing the book's tags, you've deleted all of the tags that a
 			- [[Projects/Library/200/220/220.10/220.10 a\|220.10 a]] GitLab Issue template
 - [[Projects/Library/300/300\|300]] Applications
 	- [[Projects/Library/300/310/310\|310]] Development Environment
-		- [[Projects/Library/300/310/310.00/310.00\|310.00]] IDE
-			- [[Projects/Library/300/310/310.00/310.00 a\|310.00 a]] Terminal
-			- [[Projects/Library/300/310/310.00/310.00 b\|310.00 b]] Colab
-			- [[Projects/Library/300/310/310.00/310.00 c\|310.00 c]] VSCode
 		- [[Projects/Library/300/310/310.10/310.10\|310.10]] Conda
 			- [[Projects/Library/300/310/310.10/310.10 a\|310.10 a]] Conda base
 			- [[Projects/Library/300/310/310.10/310.10 b\|310.10 b]] Conda License
 	- [[Projects/Library/300/320/320\|320]] Frontend
 		- [[Projects/Library/300/320/320.00/320.00\|320.00]] HTML
+			- [[Projects/Library/300/320/320.00/320.00 a\|320.00 a]] Think about HTML
 		- [[Projects/Library/300/320/320.10/320.10\|320.10]] CSS
 			- [[Projects/Library/300/320/320.10/320.10 a\|320.10 a]] CSS Default 
-			- [[Projects/Library/300/320/320.10/320.10 b\|320.10 b]] Border Properties
 		- [[Projects/Library/300/320/320.30/320.30\|320.30]] JavaScript
 			- [[Projects/Library/300/320/320.30/320.30 a\|320.30 a]] JavaScript Basic
 			- [[Projects/Library/300/320/320.30/320.30 b\|320.30 b]] Fix too loud sound at video startup with headphones on
