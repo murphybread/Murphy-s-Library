@@ -15,13 +15,13 @@ In the process of editing the book's tags, you've deleted all of the tags that a
 # Recent Posts
 
 
-| File                                                      | Tags                                                                                                                             |
-| --------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
-| [[Projects/Library/700/720/720.20/720.20 c\|720.20 c]] | <ul><li>#Research_Paper</li><li>#Computer_Vision</li><li>#3D_Reconstruction</li><li>#Triplane_Meets_Gaussian_Splatting</li></ul> |
-| [[Projects/Library/700/720/720.20/720.20\|720.20]]     | <ul><li>#Research_Paper</li><li>#Computer_Vision</li><li>#3D_Reconstruction</li></ul>                                            |
-| [[Projects/Library/700/720/720.10/720.10 b\|720.10 b]] | <ul><li>#Research_Paper</li><li>#Computer_Vision</li><li>#Text_to_3D</li><li>#GaussianDreamer</li></ul>                          |
-| [[Projects/Library/700/720/720.10/720.10 a\|720.10 a]] | <ul><li>#Research_Paper</li><li>#Computer_Vision</li><li>#Text_to_3D</li><li>#ProlificDreamer</li></ul>                          |
-| [[Projects/Library/700/720/720.10/720.10\|720.10]]     | <ul><li>#Research_Paper</li><li>#Computer_Vision</li><li>#Text_to_3D</li></ul>                                                   |
+| File                                                      | Tags                                                                                                                                                        |
+| --------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [[Projects/Library/800/830/830.00/830.00 a\|830.00 a]] | <ul><li>#Anythings</li><li>#Hobby</li><li>#3D_Works</li><li>#3D_object_domain_knowledge</li></ul>                                                           |
+| [[Projects/Library/800/830/830.00/830.00\|830.00]]     | <ul><li>#Anythings</li><li>#Hobby</li><li>#3D_Works</li></ul>                                                                                               |
+| [[Projects/Library/800/830/830\|830]]                  | <ul><li>#Anythings</li><li>#Hobby</li></ul>                                                                                                                 |
+| [[Projects/Library/800/820/820.00/820.00 a\|820.00 a]] | <ul><li>#Anythings</li><li>#Writing</li><li>#LinkedIn</li><li>#Why_I_Use_Obsidian_as_KnowldegeBase_Tool</li><li>#Obsidian</li><li>#Knowledge_Base</li></ul> |
+| [[Projects/Library/800/820/820.00/820.00\|820.00]]     | <ul><li>#Anythings</li><li>#Writing</li><li>#LinkedIn</li></ul>                                                                                             |
 
 { .block-language-dataview}
 
@@ -186,8 +186,6 @@ In the process of editing the book's tags, you've deleted all of the tags that a
 	- [[Projects/Library/800/830/830\|830]] Hobby
 		- [[Projects/Library/800/830/830.00/830.00\|830.00]] 3D Works
 			- [[Projects/Library/800/830/830.00/830.00 a\|830.00 a]] 3D object domain knowledge
-			- [[Projects/Library/800/830/830.00/830.00 b\|830.00 b]] Unity Plugin VScode highlighting
-			- [[Projects/Library/800/830/830.00/830.00 c\|830.00 c]] Unity Engine Learning
 - [[Projects/Library/900/900\|900]] Life Lessons
 	- [[Projects/Library/900/910/910\|910]] Self Discoveries
 		- [[Projects/Library/900/910/910.00/910.00\|910.00]]  Approach to Life
