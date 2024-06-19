@@ -15,13 +15,13 @@ In the process of editing the book's tags, you've deleted all of the tags that a
 # Recent Posts
 
 
-| File                                                      | Tags                                                                                                                                              |
-| --------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [[Projects/Library/Manage/Hompage\|Hompage]]           | <ul><li>#hompage</li><li>#Library</li><li>#Rules</li></ul>                                                                                        |
-| [[Projects/Library/000/010/010.10/010.10 a\|010.10 a]] | <ul><li>#IT_Knowledge</li><li>#Develop_Knowledge</li><li>#Develop_Programming_Language</li><li>#Linux_stdinput_and_output_with_errorlog</li></ul> |
-| [[Projects/Library/000/010/010.10/010.10\|010.10]]     | <ul><li>#IT_Knowledge</li><li>#Develop_Knowledge</li><li>#Develop_Programming_Language</li></ul>                                                  |
-| [[Projects/Library/000/010/010\|010]]                  | <ul><li>#IT_Knowledge</li><li>#Develop_Knowledge</li></ul>                                                                                        |
-| [[Projects/Library/000/020/020.10/020.10 a\|020.10 a]] | <ul><li>#IT_Knowledge</li><li>#Operation_Knowledge</li><li>#Git</li><li>#git_init</li></ul>                                                       |
+| File                                                      | Tags                                                                                                                 |
+| --------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
+| [[Projects/Library/000/090/090.00/090.00 a\|090.00 a]] | <ul><li>#IT_Knowledge</li><li>#External_Insights_an_Trends</li><li>#Publications</li><li>#Developer_Trivia</li></ul> |
+| [[Projects/Library/000/090/090.00/090.00\|090.00]]     | <ul><li>#IT_Knowledge</li><li>#External_Insights_an_Trends</li><li>#Publications</li></ul>                           |
+| [[Projects/Library/000/090/090\|090]]                  | <ul><li>#IT_Knowledge</li><li>#External_Insights_an_Trends</li></ul>                                                 |
+| [[Projects/Library/000/030/030.00/030.00 a\|030.00 a]] | <ul><li>#IT_Knowledge</li><li>#Package</li><li>#PIP</li><li>#pip_name_and_module_name</li><li>#pip</li></ul>         |
+| [[Projects/Library/000/030/030.00/030.00\|030.00]]     | <ul><li>#IT_Knowledge</li><li>#Package</li><li>#PIP</li></ul>                                                        |
 
 { .block-language-dataview}
 
@@ -44,36 +44,24 @@ In the process of editing the book's tags, you've deleted all of the tags that a
 	- [[Projects/Library/000/010/010\|010]] Develop Knowledge
 		- [[Projects/Library/000/010/010.00/010.00\|010.00]] Develop Computer Science Knowledge
 			- [[Projects/Library/000/010/010.00/010.00 b\|010.00 b]] SLA and SLO and SLI
-		- [[Projects/Library/000/010/010.10/010.10\|010.10]] Develop Programming Language
-			- [[Projects/Library/000/010/010.10/010.10 a\|010.10 a]] Linux stdinput and output with errorlog
-		- [[Projects/Library/000/010/010.20/010.20\|010.20]] Data Structure and Algorithm
-			- [[Projects/Library/000/010/010.20/010.20 a\|010.20 a]] Why learn data structures and algorithms?
+		- [[Projects/Library/000/010/010.10/010.10\|010.10]] Data Structure and Algorithm
+			- [[Projects/Library/000/010/010.10/010.10 a\|010.10 a]] Why learn data structures and algorithms?
 	- [[Projects/Library/000/020/020\|020]] Operation Knowledge
 		- [[Projects/Library/000/020/020.00/020.00\|020.00]] Versioning
 			- [[Projects/Library/000/020/020.00/020.00 a\|020.00 a]] My own Versioning Strategy
 			- [[Projects/Library/000/020/020.00/020.00 b\|020.00 b]] headver
+			- [[Projects/Library/000/020/020.00/020.00 c\|020.00 c]] Proper dividing for reusable modules
 		- [[Projects/Library/000/020/020.10/020.10\|020.10]] Git
 			- [[Projects/Library/000/020/020.10/020.10 a\|020.10 a]] git commands
 			- [[Projects/Library/000/020/020.10/020.10 b\|020.10 b]] git submodule
 			- [[Projects/Library/000/020/020.10/020.10 c\|020.10 c]] git gist
 			- [[Projects/Library/000/020/020.10/020.10 d\|020.10 d]] git commit convention
-		- [[Projects/Library/000/020/020.20/020.20\|020.20]] Organizing Code Functions and Modules
-			- [[Projects/Library/000/020/020.20/020.20 a\|020.20 a]] Proper dividing for reusable modules
 	- [[Projects/Library/000/030/030\|030]] Package
 		- [[Projects/Library/000/030/030.00/030.00\|030.00]] PIP
 			- [[Projects/Library/000/030/030.00/030.00 a\|030.00 a]] pip name and module name
-			- [[Projects/Library/000/030/030.00/030.00 b\|030.00 b]] pip options
-		- [[Projects/Library/000/030/030.10/030.10\|030.10]] My Own Package List
-			- [[Projects/Library/000/030/030.10/030.10 a\|030.10 a]] Packages used in LLM implementations
-	- [[Projects/Library/000/080/080\|080]] English for IT Workers
-		- [[Projects/Library/000/080/080.00/080.00\|080.00]] Developer English
 	- [[Projects/Library/000/090/090\|090]] External Insights an Trends
-		- [[Projects/Library/000/090/090.00/090.00\|090.00]] Industry Trends
-		- [[Projects/Library/000/090/090.10/090.10\|090.10]] Live Session
-			- [[Projects/Library/000/090/090.10/090.10 a\|090.10 a]] Job Definition
-			- [[Projects/Library/000/090/090.10/090.10 b\|090.10 b]] AWS 2024 Summit
-		- [[Projects/Library/000/090/090.20/090.20\|090.20]] Publications
-			- [[Projects/Library/000/090/090.20/090.20 a\|090.20 a]] Developer Trivia, Things You Should Have Known Before You Became a Developer
+		- [[Projects/Library/000/090/090.00/090.00\|090.00]] Publications
+			- [[Projects/Library/000/090/090.00/090.00 a\|090.00 a]] Developer Trivia, Things You Should Have Known Before You Became a Developer
 - [[Projects/Library/100/100\|100]] Infra
 	- [[Projects/Library/100/110/110\|110]] DevOps Engineer Infra
 		- [[Projects/Library/100/110/110.00/110.00\|110.00]] Docker
