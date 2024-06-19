@@ -15,13 +15,13 @@ In the process of editing the book's tags, you've deleted all of the tags that a
 # Recent Posts
 
 
-| File                                                      | Tags                                                                                                                    |
-| --------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
-| [[Projects/Library/400/440/440.00/440.00 a\|440.00 a]] | <ul><li>#ML_Engineer_Basic</li><li>#ML_Methodology</li><li>#EDA</li><li>#Initiating_Exploratory_Data_Analysis</li></ul> |
-| [[Projects/Library/400/440/440.00/440.00\|440.00]]     | <ul><li>#ML_Engineer_Basic</li><li>#ML_Methodology</li><li>#EDA</li></ul>                                               |
-| [[Projects/Library/400/440/440\|440]]                  | <ul><li>#ML_Engineer_Basic</li><li>#ML_Methodology</li></ul>                                                            |
-| [[Projects/Library/400/430/430.20/430.20\|430.20]]     | <ul><li>#ML_Engineer_Basic</li><li>#ML_Development_Tools</li><li>#Gradio</li></ul>                                      |
-| [[Projects/Library/400/430/430.20/430.20 a\|430.20 a]] | <ul><li>#ML_Engineer_Basic</li><li>#ML_Development_Tools</li><li>#Gradio</li><li>#Gradio_Quick_Tutorial</li></ul>       |
+| File                                                      | Tags                                                                                                                                 |
+| --------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
+| [[Projects/Library/500/520/520.00/520.00 a\|520.00 a]] | <ul><li>#ML_and_DL_Modeling</li><li>#Computer_Vision</li><li>#Introduction_to_CV</li><li>#Voxelization_from_Open3D_Library</li></ul> |
+| [[Projects/Library/500/520/520.00/520.00\|520.00]]     | <ul><li>#ML_and_DL_Modeling</li><li>#Computer_Vision</li><li>#Introduction_to_CV</li></ul>                                           |
+| [[Projects/Library/500/500\|500]]                      | <ul><li>#ML_and_DL_Modeling</li></ul>                                                                                                |
+| [[Projects/Library/400/440/440.00/440.00 a\|440.00 a]] | <ul><li>#ML_Engineer_Basic</li><li>#ML_Methodology</li><li>#EDA</li><li>#Initiating_Exploratory_Data_Analysis</li></ul>              |
+| [[Projects/Library/400/440/440.00/440.00\|440.00]]     | <ul><li>#ML_Engineer_Basic</li><li>#ML_Methodology</li><li>#EDA</li></ul>                                                            |
 
 { .block-language-dataview}
 
@@ -131,14 +131,9 @@ In the process of editing the book's tags, you've deleted all of the tags that a
 		- [[Projects/Library/400/440/440.00/440.00\|440.00]] EDA(Exploratory Data Analysis)
 			- [[Projects/Library/400/440/440.00/440.00 a\|440.00 a]] Initiating Exploratory Data Analysis
 - [[Projects/Library/500/500\|500]] ML and DL Modeling
-	- [[Projects/Library/500/510/510\|510]] Natural Language Processing (NLP)
 	- [[Projects/Library/500/520/520\|520]] Computer Vision
 		- [[Projects/Library/500/520/520.00/520.00\|520.00]] Introduction to CV
 			- [[Projects/Library/500/520/520.00/520.00 a\|520.00 a]] Voxelization from Open3D Library
-		- [[Projects/Library/500/520/520.30/520.30\|520.30]] Generative Models in CV
-			- [[Projects/Library/500/520/520.30/520.30 a\|520.30 a]] GANs
-			- [[Projects/Library/500/520/520.30/520.30 b\|520.30 b]] CLIP
-			- [[Projects/Library/500/520/520.30/520.30 c\|520.30 c]] Stable Diffusion
 - [[Projects/Library/600/600\|600]] ML Libraries and Implementation
 	- [[Projects/Library/600/610/610\|610]] Data Handling
 		- [[Projects/Library/600/610/610.00/610.00\|610.00]] Pandas
