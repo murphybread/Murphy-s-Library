@@ -1,14 +1,12 @@
 ---
-{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2024-06-21T13:02:36.823+09:00"}
+{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2024-06-21T16:42:42.822+09:00"}
 ---
 
 #hompage #Library #Rules
 
 
 
-# Recent Posts
-
-
+# new books
 | File                                                      | Tags                                                                                                                                                |
 | --------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [[Projects/Library/Manage/Hompage\|Hompage]]           | <ul><li>#hompage</li><li>#Library</li><li>#Rules</li></ul>                                                                                          |
@@ -18,15 +16,9 @@
 | [[Projects/Library/900/910/910.00/910.00 d\|910.00 d]] | <ul><li>#Life_Lessons</li><li>#Self_Discoveries</li><li>#Approach_to_Life</li><li>#Methods_to_use_metrics_to_evaluate_which_job_is_better</li></ul> |
 
 { .block-language-dataview}
-
-
-## Link Trees
-
-### GitHub
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/murphybread)
-### Linkedin
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/%EB%AF%BC%EC%B0%AC-%EA%B9%80-aba89a243)
-
+#### External  Resources
+- [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/murphybread)
+- [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/%EB%AF%BC%EC%B0%AC-%EA%B9%80-aba89a243)
 
 # Categories Lists
 
