@@ -1,15 +1,9 @@
 ---
-{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2024-06-20T00:41:50.526+09:00"}
+{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2024-06-21T13:02:36.823+09:00"}
 ---
 
 #hompage #Library #Rules
 
-
-![DALL·E 2024-06-20 00.22.00 - In front of a library, a person is bowing apologetically with a sign above them that says 'Under maintenance'. The person looks genuinely sorry, with .webp](/img/user/Projects/Library/Manage/DALL%C2%B7E%202024-06-20%2000.22.00%20-%20In%20front%20of%20a%20library,%20a%20person%20is%20bowing%20apologetically%20with%20a%20sign%20above%20them%20that%20says%20'Under%20maintenance'.%20The%20person%20looks%20genuinely%20sorry,%20with%20.webp)
-
-책의 태그를 수정하는 과정에서 배포에 필요한 태그들이 전부 삭제되어 수정이 필요한 상황입니다. 추가적으로 배포 횟수 제한으로 인해 업데이트가 느려지고 있습니다. 빠른 복구 중에 있습니다. 조속히 고치겠습니다. 감사합니다!
-
-In the process of editing the book's tags, you've deleted all of the tags that are required for deployment and need to fix them. Additionally, updates are slowing down due to the deployment limit. We're working on a quick recovery. We'll get it fixed soon, thank you.
 
 
 # Recent Posts
@@ -17,11 +11,11 @@ In the process of editing the book's tags, you've deleted all of the tags that a
 
 | File                                                      | Tags                                                                                                                                                |
 | --------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [[Projects/Library/Manage/Hompage\|Hompage]]           | <ul><li>#hompage</li><li>#Library</li><li>#Rules</li></ul>                                                                                          |
 | [[Projects/Library/800/820/820.00/820.00 b\|820.00 b]] | <ul><li>#Anythings</li><li>#Writing</li><li>#LinkedIn</li><li>#Year_1_Review_What_I_Learned_at_the_Company</li></ul>                                |
 | [[Projects/Library/900/910/910.00/910.00 c\|910.00 c]] | <ul><li>#Life_Lessons</li><li>#Self_Discoveries</li><li>#Approach_to_Life</li><li>#Digital_Detox_Learning_from_a_Failure_to_Detox</li></ul>         |
 | [[Projects/Library/900/910/910.00/910.00 e\|910.00 e]] | <ul><li>#Life_Lessons</li><li>#Self_Discoveries</li><li>#Approach_to_Life</li><li>#Don</li><li>#Job_swtich</li></ul>                                |
 | [[Projects/Library/900/910/910.00/910.00 d\|910.00 d]] | <ul><li>#Life_Lessons</li><li>#Self_Discoveries</li><li>#Approach_to_Life</li><li>#Methods_to_use_metrics_to_evaluate_which_job_is_better</li></ul> |
-| [[Projects/Library/900/910/910.00/910.00 b\|910.00 b]] | <ul><li>#Life_Lessons</li><li>#Self_Discoveries</li><li>#Approach_to_Life</li><li>#How_you_can_try_something_you</li><li>#Human</li></ul>           |
 
 { .block-language-dataview}
 
@@ -40,7 +34,7 @@ In the process of editing the book's tags, you've deleted all of the tags that a
 
 
 
-- [[Projects/Library/000/000\|000]] IT Knowledge
+- [[Projects/Library/100/100\|100]] Infra- [[Projects/Library/000/000\|000]] IT Knowledge
 	- [[Projects/Library/000/010/010\|010]] Develop Knowledge
 		- [[Projects/Library/000/010/010.00/010.00\|010.00]] Develop Computer Science Knowledge
 			- [[Projects/Library/000/010/010.00/010.00 b\|010.00 b]] SLA and SLO and SLI
@@ -62,7 +56,7 @@ In the process of editing the book's tags, you've deleted all of the tags that a
 	- [[Projects/Library/000/090/090\|090]] External Insights an Trends
 		- [[Projects/Library/000/090/090.00/090.00\|090.00]] Publications
 			- [[Projects/Library/000/090/090.00/090.00 a\|090.00 a]] Developer Trivia, Things You Should Have Known Before You Became a Developer
-- [[Projects/Library/100/100\|100]] Infra
+
 	- [[Projects/Library/100/110/110\|110]] DevOps Engineer Infra
 		- [[Projects/Library/100/110/110.00/110.00\|110.00]] Docker
 			- [[Projects/Library/100/110/110.00/110.00 a\|110.00 a]] Simple docker command things
