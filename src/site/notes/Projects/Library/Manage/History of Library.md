@@ -1,11 +1,31 @@
 ---
-{"dg-publish":true,"permalink":"/projects/library/manage/history-of-library/","dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-31T20:39:20.070+09:00","updated":"2024-06-20T00:59:18.393+09:00"}
+{"dg-publish":true,"permalink":"/projects/library/manage/history-of-library/","dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-31T20:39:20.070+09:00","updated":"2024-06-22T18:32:09.896+09:00"}
 ---
 
 #History #Versioning_Strategy 
 # Versioning Standard
 [[Projects/Library/000/020/020.00/020.00 c\|020.00 c]]
 
+
+# 0.15.1-FB
+## Dataview tag표기방식을 여러줄에서 inline 한줄로 변경
+
+문제: 테이블 표기시 태그들 때문에 한번에 보기가 힘듬
+해결: dataview 문법에서 join함수를 통해 한줄로 표기
+
+```
+TABLE file.tags AS Tags -> TABLE join(file.tags, ", ") AS Tags
+```
+변경 전
+![Imgur](https://i.imgur.com/gVy2vs5.png)
+
+
+
+변경 후
+![Imgur](https://i.imgur.com/1mScgFn.png)
+
+
+참고링크: https://www.reddit.com/r/ObsidianMD/comments/17jlhku/inline_dataview_query_to_display_list_of_tags/
 
 # 0.15.0-LB
 ![DALL·E 2024-06-20 00.22.00 - In front of a library, a person is bowing apologetically with a sign above them that says 'Under maintenance'. The person looks genuinely sorry, with .webp](/img/user/Projects/Library/Manage/DALL%C2%B7E%202024-06-20%2000.22.00%20-%20In%20front%20of%20a%20library,%20a%20person%20is%20bowing%20apologetically%20with%20a%20sign%20above%20them%20that%20says%20'Under%20maintenance'.%20The%20person%20looks%20genuinely%20sorry,%20with%20.webp)
