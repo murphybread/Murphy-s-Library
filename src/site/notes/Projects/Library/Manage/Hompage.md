@@ -1,21 +1,21 @@
 ---
-{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2024-06-21T16:42:42.822+09:00"}
+{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2024-06-22T18:27:46.291+09:00"}
 ---
 
 #hompage #Library #Rules
 
 
 
-# new books
-| File                                                      | Tags                                                                                                                                                |
-| --------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [[Projects/Library/Manage/Hompage\|Hompage]]           | <ul><li>#hompage</li><li>#Library</li><li>#Rules</li></ul>                                                                                          |
-| [[Projects/Library/800/820/820.00/820.00 b\|820.00 b]] | <ul><li>#Anythings</li><li>#Writing</li><li>#LinkedIn</li><li>#Year_1_Review_What_I_Learned_at_the_Company</li></ul>                                |
-| [[Projects/Library/900/910/910.00/910.00 c\|910.00 c]] | <ul><li>#Life_Lessons</li><li>#Self_Discoveries</li><li>#Approach_to_Life</li><li>#Digital_Detox_Learning_from_a_Failure_to_Detox</li></ul>         |
-| [[Projects/Library/900/910/910.00/910.00 e\|910.00 e]] | <ul><li>#Life_Lessons</li><li>#Self_Discoveries</li><li>#Approach_to_Life</li><li>#Don</li><li>#Job_swtich</li></ul>                                |
-| [[Projects/Library/900/910/910.00/910.00 d\|910.00 d]] | <ul><li>#Life_Lessons</li><li>#Self_Discoveries</li><li>#Approach_to_Life</li><li>#Methods_to_use_metrics_to_evaluate_which_job_is_better</li></ul> |
 
-{ .block-language-dataview}
+# New Books
+``` dataview
+TABLE join(file.tags, ", ") AS Tags
+FROM "Projects/Library"
+WHERE dg-publish = true
+SORT file.mtime DESC
+LIMIT 5
+```
+
 #### External  Resources
 - [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/murphybread)
 - [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/%EB%AF%BC%EC%B0%AC-%EA%B9%80-aba89a243)
