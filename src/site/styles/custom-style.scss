@@ -118,3 +118,18 @@ blockquote:before {
     margin-top: 20px;  /* Adds 6 pixels of space above the <hr> */
     margin-bottom: 20px;  /* Adds 6 pixels of space below the <hr> */
 }
+
+
+
+/* Githgub and Linkedin Badge image style custom */
+/* GitHub 이미지를 위한 스타일 */
+.markdown-rendered img[alt="GitHub"] {
+    width: 150px;
+    height: auto;
+}
+
+/* LinkedIn 이미지를 위한 스타일 */
+.markdown-rendered img[alt="LinkedIn"] {
+    width: 150px;
+    height: auto;
+}
