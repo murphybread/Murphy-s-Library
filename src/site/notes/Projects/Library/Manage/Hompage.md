@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2024-06-23T15:38:51.511+09:00"}
+{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2024-06-23T15:40:52.116+09:00"}
 ---
 
 #hompage #Library #Rules
@@ -27,7 +27,8 @@
 
 
 # Categories Lists
-- 
+## Call Number Index
+
 <div class="transclusion internal-embed is-loaded"><div class="markdown-embed">
 
 
