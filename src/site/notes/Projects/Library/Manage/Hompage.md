@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2024-06-23T16:03:18.957+09:00"}
+{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2024-06-23T16:27:23.824+09:00"}
 ---
 
 #hompage #Library #Rules
@@ -21,7 +21,8 @@
 
 
 
-#### External  Resources[![GitHub|left](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/murphybread)[![LinkedIn|left](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/%EB%AF%BC%EC%B0%AC-%EA%B9%80-aba89a243)
+#### External  Resources
+[![GitHub|left](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/murphybread)[![LinkedIn|left](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/%EB%AF%BC%EC%B0%AC-%EA%B9%80-aba89a243)
 
 
 # Categories Lists
