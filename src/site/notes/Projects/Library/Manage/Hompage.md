@@ -11,11 +11,11 @@
 
 | File                                                                  | Tags                                                                                                 |
 | --------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
-| [[Projects/Library/Manage/Hompage\|Hompage]]                       | #hompage, #Library, #Rules                                                                           |
 | [[Projects/Library/Manage/History of Library\|History of Library]] | #History, #Versioning_Strategy                                                                       |
+| [[Projects/Library/500/520/520.00/520.00 a\|520.00 a]]             | #ML_and_DL_Modeling, #Computer_Vision, #Introduction_to_CV, #Voxelization_from_Open3D_Library        |
+| [[Projects/Library/Manage/Hompage\|Hompage]]                       | #hompage, #Library, #Rules                                                                           |
 | [[Projects/Library/800/820/820.00/820.00 b\|820.00 b]]             | #Anythings, #Writing, #LinkedIn, #Year_1_Review_What_I_Learned_at_the_Company                        |
 | [[Projects/Library/900/910/910.00/910.00 c\|910.00 c]]             | #Life_Lessons, #Self_Discoveries, #Approach_to_Life, #Digital_Detox_Learning_from_a_Failure_to_Detox |
-| [[Projects/Library/900/910/910.00/910.00 e\|910.00 e]]             | #Life_Lessons, #Self_Discoveries, #Approach_to_Life, #Don, #Job_swtich                               |
 
 { .block-language-dataview}
 

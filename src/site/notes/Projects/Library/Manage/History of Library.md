@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/projects/library/manage/history-of-library/","dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-31T20:39:20.070+09:00","updated":"2024-06-23T15:31:17.468+09:00"}
+{"dg-publish":true,"permalink":"/projects/library/manage/history-of-library/","dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-31T20:39:20.070+09:00","updated":"2024-06-23T21:10:23.235+09:00"}
 ---
 
 #History #Versioning_Strategy 
@@ -698,7 +698,7 @@ next step is commit and push
 
 
 # 0.1.0-LB
-## automated tag from filename <- key point
+## automated tag from filename  key point
 
 This was hard because it is a backwards and forwards type, so if it is major.md, it is different from minor.md, sub.md, and books.md, and we aimed for a function that gets the value corresponding to the key in the structure.json file and processes it.
 
@@ -1298,7 +1298,7 @@ next step is commit and push
 
 
 # 0.1.0-LB
-## automated tag from filename <- key point
+## automated tag from filename  key point
 
 This was hard because it is a backwards and forwards type, so if it is major.md, it is different from minor.md, sub.md, and books.md, and we aimed for a function that gets the value corresponding to the key in the structure.json file and processes it.
 
@@ -1650,7 +1650,7 @@ next step is commit and push
 
 
 # 0.1.0-LB
-## automated tag from filename <- key point
+## automated tag from filename  key point
 
 This was hard because it is a backwards and forwards type, so if it is major.md, it is different from minor.md, sub.md, and books.md, and we aimed for a function that gets the value corresponding to the key in the structure.json file and processes it.
 
@@ -2002,7 +2002,7 @@ next step is commit and push
 
 
 # 0.1.0-LB
-## automated tag from filename <- key point
+## automated tag from filename  key point
 
 This was hard because it is a backwards and forwards type, so if it is major.md, it is different from minor.md, sub.md, and books.md, and we aimed for a function that gets the value corresponding to the key in the structure.json file and processes it.
 
@@ -2354,7 +2354,7 @@ next step is commit and push
 
 
 # 0.1.0-LB
-## automated tag from filename <- key point
+## automated tag from filename  key point
 
 This was hard because it is a backwards and forwards type, so if it is major.md, it is different from minor.md, sub.md, and books.md, and we aimed for a function that gets the value corresponding to the key in the structure.json file and processes it.
 
