@@ -122,14 +122,15 @@ blockquote:before {
 
 
 /* Githgub and Linkedin Badge image style custom */
-/* GitHub 이미지를 위한 스타일 */
-.markdown-rendered img[alt="GitHub"] {
-    width: 150px !important;
-    height: auto !important;
+/* GitHub 이미지를 위한 스타일 left 정렬 커스텀*/
+img[alt="GitHub|left"] {
+    width: 150px;
+    height: auto;
 }
 
 /* LinkedIn 이미지를 위한 스타일 */
-.markdown-rendered img[alt="LinkedIn"] {
-    width: 150px !important;
-    height: auto !important;
+img[alt="LinkedIn|left"] {
+    width: 150px;
+    height: auto;
 }
+
