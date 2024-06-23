@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2024-06-23T15:13:23.114+09:00"}
+{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2024-06-23T15:27:37.541+09:00"}
 ---
 
 #hompage #Library #Rules
@@ -9,22 +9,26 @@
 
 # New Books
 
-``` dataview
-TABLE join(file.tags, ", ") AS Tags
-FROM "Projects/Library"
-WHERE dg-publish = true
-SORT file.mtime DESC
-LIMIT 5
-```
+| File                                                                  | Tags                                                                                                 |
+| --------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
+| [[Projects/Library/Manage/Hompage\|Hompage]]                       | #hompage, #Library, #Rules                                                                           |
+| [[Projects/Library/Manage/History of Library\|History of Library]] | #History, #Versioning_Strategy                                                                       |
+| [[Projects/Library/800/820/820.00/820.00 b\|820.00 b]]             | #Anythings, #Writing, #LinkedIn, #Year_1_Review_What_I_Learned_at_the_Company                        |
+| [[Projects/Library/900/910/910.00/910.00 c\|910.00 c]]             | #Life_Lessons, #Self_Discoveries, #Approach_to_Life, #Digital_Detox_Learning_from_a_Failure_to_Detox |
+| [[Projects/Library/900/910/910.00/910.00 e\|910.00 e]]             | #Life_Lessons, #Self_Discoveries, #Approach_to_Life, #Don, #Job_swtich                               |
+
+{ .block-language-dataview}
 
 
-``` dataview
-TABLE file.tags AS Tags
-FROM "Projects/Library"
-WHERE dg-publish = true
-SORT file.mtime DESC
-LIMIT 5
-```
+| File                                                                  | Tags                                                                                                                                        |
+| --------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
+| [[Projects/Library/Manage/Hompage\|Hompage]]                       | <ul><li>#hompage</li><li>#Library</li><li>#Rules</li></ul>                                                                                  |
+| [[Projects/Library/Manage/History of Library\|History of Library]] | <ul><li>#History</li><li>#Versioning_Strategy</li></ul>                                                                                     |
+| [[Projects/Library/800/820/820.00/820.00 b\|820.00 b]]             | <ul><li>#Anythings</li><li>#Writing</li><li>#LinkedIn</li><li>#Year_1_Review_What_I_Learned_at_the_Company</li></ul>                        |
+| [[Projects/Library/900/910/910.00/910.00 c\|910.00 c]]             | <ul><li>#Life_Lessons</li><li>#Self_Discoveries</li><li>#Approach_to_Life</li><li>#Digital_Detox_Learning_from_a_Failure_to_Detox</li></ul> |
+| [[Projects/Library/900/910/910.00/910.00 e\|910.00 e]]             | <ul><li>#Life_Lessons</li><li>#Self_Discoveries</li><li>#Approach_to_Life</li><li>#Don</li><li>#Job_swtich</li></ul>                        |
+
+{ .block-language-dataview}
 
 
 
