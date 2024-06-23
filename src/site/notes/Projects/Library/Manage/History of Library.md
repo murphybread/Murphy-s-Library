@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/projects/library/manage/history-of-library/","dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-31T20:39:20.070+09:00","updated":"2024-06-23T15:26:14.466+09:00"}
+{"dg-publish":true,"permalink":"/projects/library/manage/history-of-library/","dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-31T20:39:20.070+09:00","updated":"2024-06-23T15:31:17.468+09:00"}
 ---
 
 #History #Versioning_Strategy 
@@ -15,6 +15,15 @@
 
 
 `TABLE file.tags AS Tags -> TABLE join(file.tags, ", ") AS Tags`
+
+```dataview-script
+TABLE join(file.tags, ", ") AS Tags
+FROM "Projects/Library"
+WHERE dg-publish = true
+SORT file.mtime DESC
+LIMIT 5
+```
+
 
 변경 전
 ![Imgur](https://i.imgur.com/gVy2vs5.png)
@@ -1181,12 +1190,12 @@ Think about data
 when not major, convert major
 when sub or book, consider position of function argument
 
-{{CODE_BLOCK_7}}
+{{CODE_BLOCK_8}}
 
 ### Making tag
 If you know how to use get for recursive contents in JSON, function become very easy
 Understanding data structures and creating variables with JSON enables this recursive structure
-{{CODE_BLOCK_8}}
+{{CODE_BLOCK_9}}
 
 
 #  0.2.3-OB
@@ -1230,7 +1239,7 @@ There are some things that work and some things that don't, and in particular, t
 
 If the tag of the note that doesn't work is separated by a line like this, it is judged as a problem.
 problem form
-{{CODE_BLOCK_9}}
+{{CODE_BLOCK_10}}
 
 
 ### Solution.
@@ -1238,7 +1247,7 @@ Tested some notes by moving the tags as follows and confirmed normal operation.
 Then I added a function called `update_content_and_position` in the python file.
 duplicate_tag.py to automate it.
 
-{{CODE_BLOCK_10}}
+{{CODE_BLOCK_11}}
 
 # 0.2.0-PY
 
@@ -1250,7 +1259,7 @@ duplicate_tag.py to automate it.
 Major category indent was wrong
 
 As-is Used this structure pattern
-{{CODE_BLOCK_11}}
+{{CODE_BLOCK_12}}
 
 Major Category don't use hypen.
 That makes preview error indent and line break
@@ -1258,13 +1267,13 @@ That makes preview error indent and line break
 ### Solution
 
 ### First Change call number md file like this
-{{CODE_BLOCK_12}}
+{{CODE_BLOCK_13}}
 
 ### Second Change convert_josn.py 
 Important point is just change a little bit. Because I don't want to change output.json, filename, path etc...
 only consider point is major and minor category variable.
 
-{{CODE_BLOCK_13}}
+{{CODE_BLOCK_14}}
 
 
 # 0.1.1-PY
@@ -1277,9 +1286,9 @@ It is appropriate to manage .md files other than .py only using the Sync functio
 
 ## Solution
 1. Delete .md files from remove server (when command is worked not delete immedately. you shoud commit and push)
-{{CODE_BLOCK_14}}
-1. Register files with md extension (fileanme should be `.gitignore)
 {{CODE_BLOCK_15}}
+1. Register files with md extension (fileanme should be `.gitignore)
+{{CODE_BLOCK_16}}
 
 if command worked and file is created,
 next step is commit and push
@@ -1429,7 +1438,7 @@ the template file is note.njk file
 About Homepage is managed by index.njk
 
 
-{{CODE_BLOCK_16}}
+{{CODE_BLOCK_17}}
 ## Google Translation
 Implementing Google Translation
 Add script in position that after body's first 'end for'
@@ -1442,9 +1451,9 @@ Add a Border
 Change location
 
 ### Google Translation-CSS
-{{CODE_BLOCK_17}}
-### Google Translation-HTML
 {{CODE_BLOCK_18}}
+### Google Translation-HTML
+{{CODE_BLOCK_19}}
 
 # Hompage Custom
 ## code font and color change
@@ -1452,35 +1461,35 @@ just code element not working so , important used
 
 src/site/styles/custom-style.scss
 
-{{CODE_BLOCK_19}}
-
 {{CODE_BLOCK_20}}
+
+{{CODE_BLOCK_21}}
 
 
 Even I changed CSS, It's not applied. So i find the element and modify it.
 markdown-rendered img
 only works when using !important
 add new line after badge
-{{CODE_BLOCK_21}}
+{{CODE_BLOCK_22}}
 
 ## Change img soruce width and clear
 
 `p::before` and `clear`
-{{CODE_BLOCK_22}}
+{{CODE_BLOCK_23}}
 
 
 ## add pre code block style
-{{CODE_BLOCK_23}}
-
-## code and pre tags style by ai
 {{CODE_BLOCK_24}}
 
-before
+## code and pre tags style by ai
 {{CODE_BLOCK_25}}
+
+before
+{{CODE_BLOCK_26}}
 
 After
 white background web site, so black window
-{{CODE_BLOCK_26}}
+{{CODE_BLOCK_27}}
 
 
 ## modify js and apply css
@@ -1491,7 +1500,7 @@ before
 after
 `const STYLE_PATH = "src/site/styles/";`
 
-{{CODE_BLOCK_27}}
+{{CODE_BLOCK_28}}
 
 ## hr for new line
 In markdown `---` horizon line makes new line. In html to makes new line defualt.
@@ -1502,7 +1511,7 @@ So I just add it approximately 20px
 
 If you're unsure about which tags are affected by a specific tag, you can use a developer tool like F12 to check.
 
-{{CODE_BLOCK_28}}
+{{CODE_BLOCK_29}}
 
 
 # Python Files
@@ -1533,12 +1542,12 @@ Think about data
 when not major, convert major
 when sub or book, consider position of function argument
 
-{{CODE_BLOCK_7}}
+{{CODE_BLOCK_8}}
 
 ### Making tag
 If you know how to use get for recursive contents in JSON, function become very easy
 Understanding data structures and creating variables with JSON enables this recursive structure
-{{CODE_BLOCK_8}}
+{{CODE_BLOCK_9}}
 
 
 #  0.2.3-OB
@@ -1582,7 +1591,7 @@ There are some things that work and some things that don't, and in particular, t
 
 If the tag of the note that doesn't work is separated by a line like this, it is judged as a problem.
 problem form
-{{CODE_BLOCK_9}}
+{{CODE_BLOCK_10}}
 
 
 ### Solution.
@@ -1590,7 +1599,7 @@ Tested some notes by moving the tags as follows and confirmed normal operation.
 Then I added a function called `update_content_and_position` in the python file.
 duplicate_tag.py to automate it.
 
-{{CODE_BLOCK_10}}
+{{CODE_BLOCK_11}}
 
 # 0.2.0-PY
 
@@ -1602,7 +1611,7 @@ duplicate_tag.py to automate it.
 Major category indent was wrong
 
 As-is Used this structure pattern
-{{CODE_BLOCK_11}}
+{{CODE_BLOCK_12}}
 
 Major Category don't use hypen.
 That makes preview error indent and line break
@@ -1610,13 +1619,13 @@ That makes preview error indent and line break
 ### Solution
 
 ### First Change call number md file like this
-{{CODE_BLOCK_12}}
+{{CODE_BLOCK_13}}
 
 ### Second Change convert_josn.py 
 Important point is just change a little bit. Because I don't want to change output.json, filename, path etc...
 only consider point is major and minor category variable.
 
-{{CODE_BLOCK_13}}
+{{CODE_BLOCK_14}}
 
 
 # 0.1.1-PY
@@ -1629,9 +1638,9 @@ It is appropriate to manage .md files other than .py only using the Sync functio
 
 ## Solution
 1. Delete .md files from remove server (when command is worked not delete immedately. you shoud commit and push)
-{{CODE_BLOCK_14}}
-1. Register files with md extension (fileanme should be `.gitignore)
 {{CODE_BLOCK_15}}
+1. Register files with md extension (fileanme should be `.gitignore)
+{{CODE_BLOCK_16}}
 
 if command worked and file is created,
 next step is commit and push
@@ -1781,7 +1790,7 @@ the template file is note.njk file
 About Homepage is managed by index.njk
 
 
-{{CODE_BLOCK_16}}
+{{CODE_BLOCK_17}}
 ## Google Translation
 Implementing Google Translation
 Add script in position that after body's first 'end for'
@@ -1794,9 +1803,9 @@ Add a Border
 Change location
 
 ### Google Translation-CSS
-{{CODE_BLOCK_17}}
-### Google Translation-HTML
 {{CODE_BLOCK_18}}
+### Google Translation-HTML
+{{CODE_BLOCK_19}}
 
 # Hompage Custom
 ## code font and color change
@@ -1804,35 +1813,35 @@ just code element not working so , important used
 
 src/site/styles/custom-style.scss
 
-{{CODE_BLOCK_19}}
-
 {{CODE_BLOCK_20}}
+
+{{CODE_BLOCK_21}}
 
 
 Even I changed CSS, It's not applied. So i find the element and modify it.
 markdown-rendered img
 only works when using !important
 add new line after badge
-{{CODE_BLOCK_21}}
+{{CODE_BLOCK_22}}
 
 ## Change img soruce width and clear
 
 `p::before` and `clear`
-{{CODE_BLOCK_22}}
+{{CODE_BLOCK_23}}
 
 
 ## add pre code block style
-{{CODE_BLOCK_23}}
-
-## code and pre tags style by ai
 {{CODE_BLOCK_24}}
 
-before
+## code and pre tags style by ai
 {{CODE_BLOCK_25}}
+
+before
+{{CODE_BLOCK_26}}
 
 After
 white background web site, so black window
-{{CODE_BLOCK_26}}
+{{CODE_BLOCK_27}}
 
 
 ## modify js and apply css
@@ -1843,7 +1852,7 @@ before
 after
 `const STYLE_PATH = "src/site/styles/";`
 
-{{CODE_BLOCK_27}}
+{{CODE_BLOCK_28}}
 
 ## hr for new line
 In markdown `---` horizon line makes new line. In html to makes new line defualt.
@@ -1854,7 +1863,7 @@ So I just add it approximately 20px
 
 If you're unsure about which tags are affected by a specific tag, you can use a developer tool like F12 to check.
 
-{{CODE_BLOCK_28}}
+{{CODE_BLOCK_29}}
 
 
 # Python Files
@@ -1885,12 +1894,12 @@ Think about data
 when not major, convert major
 when sub or book, consider position of function argument
 
-{{CODE_BLOCK_7}}
+{{CODE_BLOCK_8}}
 
 ### Making tag
 If you know how to use get for recursive contents in JSON, function become very easy
 Understanding data structures and creating variables with JSON enables this recursive structure
-{{CODE_BLOCK_8}}
+{{CODE_BLOCK_9}}
 
 
 #  0.2.3-OB
@@ -1934,7 +1943,7 @@ There are some things that work and some things that don't, and in particular, t
 
 If the tag of the note that doesn't work is separated by a line like this, it is judged as a problem.
 problem form
-{{CODE_BLOCK_9}}
+{{CODE_BLOCK_10}}
 
 
 ### Solution.
@@ -1942,7 +1951,7 @@ Tested some notes by moving the tags as follows and confirmed normal operation.
 Then I added a function called `update_content_and_position` in the python file.
 duplicate_tag.py to automate it.
 
-{{CODE_BLOCK_10}}
+{{CODE_BLOCK_11}}
 
 # 0.2.0-PY
 
@@ -1954,7 +1963,7 @@ duplicate_tag.py to automate it.
 Major category indent was wrong
 
 As-is Used this structure pattern
-{{CODE_BLOCK_11}}
+{{CODE_BLOCK_12}}
 
 Major Category don't use hypen.
 That makes preview error indent and line break
@@ -1962,13 +1971,13 @@ That makes preview error indent and line break
 ### Solution
 
 ### First Change call number md file like this
-{{CODE_BLOCK_12}}
+{{CODE_BLOCK_13}}
 
 ### Second Change convert_josn.py 
 Important point is just change a little bit. Because I don't want to change output.json, filename, path etc...
 only consider point is major and minor category variable.
 
-{{CODE_BLOCK_13}}
+{{CODE_BLOCK_14}}
 
 
 # 0.1.1-PY
@@ -1981,9 +1990,9 @@ It is appropriate to manage .md files other than .py only using the Sync functio
 
 ## Solution
 1. Delete .md files from remove server (when command is worked not delete immedately. you shoud commit and push)
-{{CODE_BLOCK_14}}
-1. Register files with md extension (fileanme should be `.gitignore)
 {{CODE_BLOCK_15}}
+1. Register files with md extension (fileanme should be `.gitignore)
+{{CODE_BLOCK_16}}
 
 if command worked and file is created,
 next step is commit and push
@@ -2133,7 +2142,7 @@ the template file is note.njk file
 About Homepage is managed by index.njk
 
 
-{{CODE_BLOCK_16}}
+{{CODE_BLOCK_17}}
 ## Google Translation
 Implementing Google Translation
 Add script in position that after body's first 'end for'
@@ -2146,9 +2155,9 @@ Add a Border
 Change location
 
 ### Google Translation-CSS
-{{CODE_BLOCK_17}}
-### Google Translation-HTML
 {{CODE_BLOCK_18}}
+### Google Translation-HTML
+{{CODE_BLOCK_19}}
 
 # Hompage Custom
 ## code font and color change
@@ -2156,35 +2165,35 @@ just code element not working so , important used
 
 src/site/styles/custom-style.scss
 
-{{CODE_BLOCK_19}}
-
 {{CODE_BLOCK_20}}
+
+{{CODE_BLOCK_21}}
 
 
 Even I changed CSS, It's not applied. So i find the element and modify it.
 markdown-rendered img
 only works when using !important
 add new line after badge
-{{CODE_BLOCK_21}}
+{{CODE_BLOCK_22}}
 
 ## Change img soruce width and clear
 
 `p::before` and `clear`
-{{CODE_BLOCK_22}}
+{{CODE_BLOCK_23}}
 
 
 ## add pre code block style
-{{CODE_BLOCK_23}}
-
-## code and pre tags style by ai
 {{CODE_BLOCK_24}}
 
-before
+## code and pre tags style by ai
 {{CODE_BLOCK_25}}
+
+before
+{{CODE_BLOCK_26}}
 
 After
 white background web site, so black window
-{{CODE_BLOCK_26}}
+{{CODE_BLOCK_27}}
 
 
 ## modify js and apply css
@@ -2195,7 +2204,7 @@ before
 after
 `const STYLE_PATH = "src/site/styles/";`
 
-{{CODE_BLOCK_27}}
+{{CODE_BLOCK_28}}
 
 ## hr for new line
 In markdown `---` horizon line makes new line. In html to makes new line defualt.
@@ -2206,7 +2215,7 @@ So I just add it approximately 20px
 
 If you're unsure about which tags are affected by a specific tag, you can use a developer tool like F12 to check.
 
-{{CODE_BLOCK_28}}
+{{CODE_BLOCK_29}}
 
 
 # Python Files
@@ -2237,12 +2246,12 @@ Think about data
 when not major, convert major
 when sub or book, consider position of function argument
 
-{{CODE_BLOCK_7}}
+{{CODE_BLOCK_8}}
 
 ### Making tag
 If you know how to use get for recursive contents in JSON, function become very easy
 Understanding data structures and creating variables with JSON enables this recursive structure
-{{CODE_BLOCK_8}}
+{{CODE_BLOCK_9}}
 
 
 #  0.2.3-OB
@@ -2286,7 +2295,7 @@ There are some things that work and some things that don't, and in particular, t
 
 If the tag of the note that doesn't work is separated by a line like this, it is judged as a problem.
 problem form
-{{CODE_BLOCK_9}}
+{{CODE_BLOCK_10}}
 
 
 ### Solution.
@@ -2294,7 +2303,7 @@ Tested some notes by moving the tags as follows and confirmed normal operation.
 Then I added a function called `update_content_and_position` in the python file.
 duplicate_tag.py to automate it.
 
-{{CODE_BLOCK_10}}
+{{CODE_BLOCK_11}}
 
 # 0.2.0-PY
 
@@ -2306,7 +2315,7 @@ duplicate_tag.py to automate it.
 Major category indent was wrong
 
 As-is Used this structure pattern
-{{CODE_BLOCK_11}}
+{{CODE_BLOCK_12}}
 
 Major Category don't use hypen.
 That makes preview error indent and line break
@@ -2314,13 +2323,13 @@ That makes preview error indent and line break
 ### Solution
 
 ### First Change call number md file like this
-{{CODE_BLOCK_12}}
+{{CODE_BLOCK_13}}
 
 ### Second Change convert_josn.py 
 Important point is just change a little bit. Because I don't want to change output.json, filename, path etc...
 only consider point is major and minor category variable.
 
-{{CODE_BLOCK_13}}
+{{CODE_BLOCK_14}}
 
 
 # 0.1.1-PY
@@ -2333,9 +2342,9 @@ It is appropriate to manage .md files other than .py only using the Sync functio
 
 ## Solution
 1. Delete .md files from remove server (when command is worked not delete immedately. you shoud commit and push)
-{{CODE_BLOCK_14}}
-1. Register files with md extension (fileanme should be `.gitignore)
 {{CODE_BLOCK_15}}
+1. Register files with md extension (fileanme should be `.gitignore)
+{{CODE_BLOCK_16}}
 
 if command worked and file is created,
 next step is commit and push
@@ -2485,7 +2494,7 @@ the template file is note.njk file
 About Homepage is managed by index.njk
 
 
-{{CODE_BLOCK_16}}
+{{CODE_BLOCK_17}}
 ## Google Translation
 Implementing Google Translation
 Add script in position that after body's first 'end for'
@@ -2498,9 +2507,9 @@ Add a Border
 Change location
 
 ### Google Translation-CSS
-{{CODE_BLOCK_17}}
-### Google Translation-HTML
 {{CODE_BLOCK_18}}
+### Google Translation-HTML
+{{CODE_BLOCK_19}}
 
 # Hompage Custom
 ## code font and color change
@@ -2508,35 +2517,35 @@ just code element not working so , important used
 
 src/site/styles/custom-style.scss
 
-{{CODE_BLOCK_19}}
-
 {{CODE_BLOCK_20}}
+
+{{CODE_BLOCK_21}}
 
 
 Even I changed CSS, It's not applied. So i find the element and modify it.
 markdown-rendered img
 only works when using !important
 add new line after badge
-{{CODE_BLOCK_21}}
+{{CODE_BLOCK_22}}
 
 ## Change img soruce width and clear
 
 `p::before` and `clear`
-{{CODE_BLOCK_22}}
+{{CODE_BLOCK_23}}
 
 
 ## add pre code block style
-{{CODE_BLOCK_23}}
-
-## code and pre tags style by ai
 {{CODE_BLOCK_24}}
 
-before
+## code and pre tags style by ai
 {{CODE_BLOCK_25}}
+
+before
+{{CODE_BLOCK_26}}
 
 After
 white background web site, so black window
-{{CODE_BLOCK_26}}
+{{CODE_BLOCK_27}}
 
 
 ## modify js and apply css
@@ -2547,7 +2556,7 @@ before
 after
 `const STYLE_PATH = "src/site/styles/";`
 
-{{CODE_BLOCK_27}}
+{{CODE_BLOCK_28}}
 
 ## hr for new line
 In markdown `---` horizon line makes new line. In html to makes new line defualt.
@@ -2558,7 +2567,7 @@ So I just add it approximately 20px
 
 If you're unsure about which tags are affected by a specific tag, you can use a developer tool like F12 to check.
 
-{{CODE_BLOCK_28}}
+{{CODE_BLOCK_29}}
 
 
 # Python Files
