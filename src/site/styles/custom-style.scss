@@ -78,8 +78,8 @@ body {
 
 /* Prevent markdown link line breaks */
 .markdown-rendered a {
-    display: inline; /* Default inline display for links */
-    white-space: nowrap; /* Prevents the text within the link from wrapping */
+    display: inline-block; /* Ensures the links behave more predictably */
+    white-space: normal; /* Allows links to wrap normally */
 }
 
 /* Adjust image width and maintain aspect ratio */
