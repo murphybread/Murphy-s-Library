@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/projects/library/manage/history-of-library/","dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-31T20:39:20.070+09:00","updated":"2024-06-22T18:32:09.896+09:00"}
+{"dg-publish":true,"permalink":"/projects/library/manage/history-of-library/","dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-31T20:39:20.070+09:00","updated":"2024-06-23T15:26:14.466+09:00"}
 ---
 
 #History #Versioning_Strategy 
@@ -13,9 +13,9 @@
 문제: 테이블 표기시 태그들 때문에 한번에 보기가 힘듬
 해결: dataview 문법에서 join함수를 통해 한줄로 표기
 
-```
-TABLE file.tags AS Tags -> TABLE join(file.tags, ", ") AS Tags
-```
+
+`TABLE file.tags AS Tags -> TABLE join(file.tags, ", ") AS Tags`
+
 변경 전
 ![Imgur](https://i.imgur.com/gVy2vs5.png)
 
@@ -62,11 +62,8 @@ code
 naviage here `src/site/_includes/components`
 create this file `user/notes/header/frontmatter.njk`
 read description front matter from note , and write to header
-```
-{%- if description -%}
-<p>{{ description }}</p>
-{%- endif -%}
-```
+
+![Imgur](https://i.imgur.com/MCzEoXL.png)
 
 # 0.12.0-LB
 Using base template from local. Because speed and Tokens. It will be longer after, so that base knowledge is useful more than external vector db.
@@ -391,7 +388,9 @@ The second is recursively searching through rglob and returning by mdfile starti
 WYSIWIG
 Key point is .pibb. for using my web
 ```
-<iframe src="https://gist.github.com/murphybread/a0a351e489cde4b2064fcd3a7855d885.pibb?file=automation.py" width="100%" height="300"></iframe>
+iframe tag src="https://gist.github.com/murphybread/a0a351e489cde4b2064fcd3a7855d885.pibb?file=automation.py" width="100%" height="300"
+
+/iframe tag
 ```
 
 # 0.3.3-PY
@@ -498,11 +497,7 @@ books md file tags  `#[[800]]#test_major#[[810]]#test_minor#[[810.00]]#test_sub#
 ### Checking
 Use Regex
 ```py
-    major_regex = re.compile(r'^([0-9]{1}00)\.md$') 
-    minor_regex = re.compile(r'^([0-9]{1}[1-9][0-9])\.md$') 
-    subcategory_regex = re.compile(r'^([0-9]{1}[1-9][0-9])\.([0-9]{2})\.md$') 
-    book_regex = re.compile(r'^([0-9]{1}[1-9][0-9])\.([0-9]{2})\s([a-z])\.md$', re.IGNORECASE)
-```
+    major_regex = re.compile(r'^([0-9]{1}00)\.md
 
 ### Making code
 Think about data
@@ -537,16 +532,16 @@ Understanding data structures and creating variables with JSON enables this recu
     
     if major_code:
         major_info = json_structure.get("MajorCategories", {}).get(major_code, {})
-        tag += f"#[[{major_code}]]#{major_info.get('title', '').replace(' ', '_')}"
+        tag += f"#[[{major_code}\|{major_code}]]#{major_info.get('title', '').replace(' ', '_')}"
     if minor_code:
         minor_info = major_info.get("MinorCategories", {}).get(minor_code, {})
-        tag += f"#[[{minor_code}]]#{minor_info.get('title', '').replace(' ', '_')}"
+        tag += f"#[[{minor_code}\|{minor_code}]]#{minor_info.get('title', '').replace(' ', '_')}"
     if sub_code:
         sub_info = minor_info.get("Subcategories", {}).get(f"{minor_code}.{sub_code}", {})
-        tag += f"#[[{minor_code}.{sub_code}]]#{sub_info.get('title', '').replace(' ', '_')}"
+        tag += f"#[[{minor_code}.{sub_code}\|{minor_code}.{sub_code}]]#{sub_info.get('title', '').replace(' ', '_')}"
     if book_code:
         book_info = sub_info.get("Books", {}).get(f"{minor_code}.{sub_code} {book_code}", "")
-        tag += f"#[[{minor_code}.{sub_code} {book_code}]]#{book_info.replace(' ', '_')}"
+        tag += f"#[[{minor_code}.{sub_code} {book_code}\|{minor_code}.{sub_code} {book_code}]]#{book_info.replace(' ', '_')}"
     
     
     print(major_code, minor_code , sub_code, book_code)
@@ -633,12 +628,12 @@ Major category indent was wrong
 
 As-is Used this structure pattern
 ```
-[[000]] IT Knowledge
-- [[010]] Develop Knowledge
-	- [[010.00]] Develop Computer Science Knowledge
-		- [[010.00 a]] Essential Developer Insights
-	- [[010.10]] Develop Programming Language
-		- [[010.10 a]] Bash shell
+[[Projects/Library/000/000\|000]] IT Knowledge
+- [[Projects/Library/000/010/010\|010]] Develop Knowledge
+	- [[Projects/Library/000/010/010.00/010.00\|010.00]] Develop Computer Science Knowledge
+		- [[010.00 a\|010.00 a]] Essential Developer Insights
+	- [[Projects/Library/000/010/010.10/010.10\|010.10]] Develop Programming Language
+		- [[Projects/Library/000/010/010.10/010.10 a\|010.10 a]] Bash shell
 
 ```
 
@@ -649,12 +644,12 @@ That makes preview error indent and line break
 
 ### First Change call number md file like this
 ```
-- [[000]] IT Knowledge
-	- [[010]] Develop Knowledge
-		- [[010.00]] Develop Computer Science Knowledge
-			- [[010.00 a]] Essential Developer Insights
-		- [[010.10]] Develop Programming Language
-			- [[010.10 a]] Bash shell
+- [[Projects/Library/000/000\|000]] IT Knowledge
+	- [[Projects/Library/000/010/010\|010]] Develop Knowledge
+		- [[Projects/Library/000/010/010.00/010.00\|010.00]] Develop Computer Science Knowledge
+			- [[010.00 a\|010.00 a]] Essential Developer Insights
+		- [[Projects/Library/000/010/010.10/010.10\|010.10]] Develop Programming Language
+			- [[Projects/Library/000/010/010.10/010.10 a\|010.10 a]] Bash shell
 ```
 
 ### Second Change convert_josn.py 
@@ -815,15 +810,15 @@ The reason for the change is that I didn't have an explicit criterion for consid
 problem: record reaction of users in all notes
 solution: using external service [joey](https://joey.team/)
 
-| Feature | Expected Value | Joey |
-| ---- | ---- | ---- |
-| Implementation Required | html tag | html (iframe) |
-| Coverage | All Notes | All Notes |
-| User Reaction Recording | Anonymity , private user, no login  | Anonymity , no private ,no login,  |
-| Customization Options | Not to much | title , placeholder , color |
-| Integration Complexity | Low | Low |
-| Cost | Affordable | Free up to 3 blocks(no limited response, block is component in Joey) |
-| Operational Management | One Endpoint | one site (can see all history and users) |
+| Feature                 | Expected Value                     | Joey                                                                 |
+| ----------------------- | ---------------------------------- | -------------------------------------------------------------------- |
+| Implementation Required | html tag                           | html (iframe)                                                        |
+| Coverage                | All Notes                          | All Notes                                                            |
+| User Reaction Recording | Anonymity , private user, no login | Anonymity , no private ,no login,                                    |
+| Customization Options   | Not to much                        | title , placeholder , color                                          |
+| Integration Complexity  | Low                                | Low                                                                  |
+| Cost                    | Affordable                         | Free up to 3 blocks(no limited response, block is component in Joey) |
+| Operational Management  | One Endpoint                       | one site (can see all history and users)                             |
 
 ##  Apply Google Analytics in bulk to all pages
 
@@ -1156,6 +1151,1414 @@ If you're unsure about which tags are affected by a specific tag, you can use a 
 
 
 ```
+
+
+# Python Files
+
+## automation.py
+
+<iframe src="https://gist.github.com/murphybread/a0a351e489cde4b2064fcd3a7855d885.pibb?file=automation.py" width="100%" height="300"></iframe>
+
+
+
+## conver_to json.
+using one python file convert from md to json
+<iframe src="https://gist.github.com/murphybread/e99137ae5f1706bdc6a2ed4efdaace7d.pibb?file=convert_to_json.py" width="700" height="300"></iframe>
+
+
+## structure.json
+matching with current directory structure
+<iframe src="https://gist.github.com/murphybread/e99137ae5f1706bdc6a2ed4efdaace7d.pibb?file=structure.json" width="700" height="300"></iframe>
+
+
+## create_base_template.py
+For RAG, I thought there is need one default tempalte file, structure is 2 stages. first one is default parent file, and second is child file
+<iframe src="https://gist.github.com/murphybread/a0a351e489cde4b2064fcd3a7855d885.pibb?file=create_base_template.py" width="70%" height="300"></iframe>) 
+    minor_regex = re.compile(r'^([0-9]{1}[1-9][0-9])\.md
+
+### Making code
+Think about data
+when not major, convert major
+when sub or book, consider position of function argument
+
+{{CODE_BLOCK_7}}
+
+### Making tag
+If you know how to use get for recursive contents in JSON, function become very easy
+Understanding data structures and creating variables with JSON enables this recursive structure
+{{CODE_BLOCK_8}}
+
+
+#  0.2.3-OB
+## Change dataview query
+
+
+TABLE file.name AS title, file.path, file.mtime
+FROM "Projects/Library"
+WHERE dg-publish = true
+SORT file.ctime DESC
+LIMIT 7
+
+
+Add Table attrivutes modifed time path and remove link
+Specifify query path "Projects/Library"
+Increase Limit to 7
+
+# 0.2.2-LB
+## Using GitHub to Share Synchronized Python Files Across Different Platforms
+
+### Problem
+
+The current Obsidian sync functionality only supports synchronization for files with Python file extensions, excluding files in other formats such as Markdown (md).
+
+Initial attempts involved converting Python files into Markdown (md) or inserting Python code into Markdown files. However, this approach resulted in excessive fragmentation and posed challenges for management.
+
+### Solution
+
+https://github.com/murphybread/Library
+
+To address this issue, the solution is to utilize GitHub links for syncing files between different platforms, such as Mac and Windows. This can be achieved by performing a 'git pull' to ensure synchronization with the latest version when starting work through the GitHub link.
+
+
+
+# 0.2.1-PY
+## dg-publish frontmatter position
+### Problem
+Notes not showing up on the homepage
+Reasoning
+There are some things that work and some things that don't, and in particular, there is a 404 in the case of the latter, so it seems that there is a problem with publishing.
+
+If the tag of the note that doesn't work is separated by a line like this, it is judged as a problem.
+problem form
+{{CODE_BLOCK_9}}
+
+
+### Solution.
+Tested some notes by moving the tags as follows and confirmed normal operation.
+Then I added a function called `update_content_and_position` in the python file.
+duplicate_tag.py to automate it.
+
+{{CODE_BLOCK_10}}
+
+# 0.2.0-PY
+
+## Change the call number index structure and modify the convert file
+
+### Problem
+`obisidian use ![[filename]] preview of note, but line break and indentation was wrong`
+
+Major category indent was wrong
+
+As-is Used this structure pattern
+{{CODE_BLOCK_11}}
+
+Major Category don't use hypen.
+That makes preview error indent and line break
+
+### Solution
+
+### First Change call number md file like this
+{{CODE_BLOCK_12}}
+
+### Second Change convert_josn.py 
+Important point is just change a little bit. Because I don't want to change output.json, filename, path etc...
+only consider point is major and minor category variable.
+
+{{CODE_BLOCK_13}}
+
+
+# 0.1.1-PY
+### Managing Only Programming Files with .gitignore: Excluding Content Files
+
+## Problem
+
+In the process of starting git pull first, a conflict issue occurs if there is a change in the content file.
+It is appropriate to manage .md files other than .py only using the Sync function of the Obisidan tool.
+
+## Solution
+1. Delete .md files from remove server (when command is worked not delete immedately. you shoud commit and push)
+{{CODE_BLOCK_14}}
+1. Register files with md extension (fileanme should be `.gitignore)
+{{CODE_BLOCK_15}}
+
+if command worked and file is created,
+next step is commit and push
+`git commit -m "Managing Only Programming Files with .gitignore: Excluding Content Files"`
+`git push`
+
+
+
+# 0.1.0-LB
+## automated tag from filename <- key point
+
+This was hard because it is a backwards and forwards type, so if it is major.md, it is different from minor.md, sub.md, and books.md, and we aimed for a function that gets the value corresponding to the key in the structure.json file and processes it.
+
+So, to simplify things a bit more, we went from filename-based to a situation where the exact filename is strictly enforced by the policy, and then we can automate it appropriately.
+
+The key point is filenames, and only for content files.
+Later on, we'll also apply it to uncharacterized category files, but that's for later...
+
+# 0.0.4-OB
+# DataView modified
+This query is used for Recent Post in homepage.
+I delete file.path and add file.tags
+tags doesn't display backlink tags
+
+
+TABLE file.name AS Title, file.tags AS Tags
+FROM "Projects/Library"
+WHERE dg-publish = true
+SORT file.ctime DESC
+LIMIT 7
+
+
+
+# 0.0.3-PY
+## Add Tag using structure,json in contents file
+
+Adopting the approach of using filenames to create tag numbers was beneficial.
+Upon updating to Dataview , I realized that attaching tags from book contents enhances usefulness.
+Consequently, I integrated a 'booksTag' function.
+
+Initially, I experimented with a function from another file, which utilized a 'title' variable.
+However, to avoid dependencies, I ultimately developed the function within 'automation.py'.
+I then opted to modify only a single function, as adding more could complicate matters. Incorporating the tagging functionality into an existing function proved sufficient.
+
+
+# 0.0.2-OB
+## Modify the table to provide more useful information to the readers.
+Easily see which files have been modified, and see the tags they have at a glance
+
+- Change the standard modification time not the create time `file.ctime -> file.mtime`
+- Exclude md file that have the tag `#Library` 
+
+
+TABLE file.name AS Title, file.tags AS Tags
+FROM "Projects/Library" AND -#Library
+WHERE dg-publish = true
+SORT file.mtime DESC
+LIMIT 7
+
+
+
+
+
+
+# 0.0.1-LB
+## The Library Cleaning
+
+Changing History of Library.md from hardcoding to github gist
+Better viewing of code on screen in the UI
+
+### Before
+![before.png](/img/user/images/before.png)
+
+### After
+![short.png](/img/user/images/short.png)
+
+
+
+
+# Initialize
+# 0.0.0-LB
+
+Major: The change creates a new process that may not work with the old process and requires significant consideration. Set version criteria more granularly
+Keep major, which generally means not backwards compatible, intact
+
+Minor: The change affects current processes and will require attention in the future. Minors are listed as feature additions. File creation, module additions, etc.
+However, some minors may be incompatible. Because they don't mean exactly the same thing
+For example, if a Python file in a certain version references example.txt, but you change it to base_template, it will not work in previous versions, but the purpose is for testing purposes, so it is considered MINOR in terms of impact.
+
+Patch: The change is minimal or don't require much attention after the change. especially Patches are improvements such as variable names, bug fixes, refactorings, etc. 
+
+
+
+The reason for the change is that I didn't have an explicit criterion for considering the version impact, and now it's explicit.
+
+
+분류
+
+대분류 100,200,300
+중분류 110,120,130
+소분류 101.10 101.20 101.30
+
+
+중요한것 방향성, 확장성, 기준, 관리
+
+방향성: 인프라 100, 인프라위에 올라가는 cicd 200, cicd를 활용한 위에 올라가는 또는 고급 300등방향성
+
+
+확장성: 새 주제나 개념이 번호가 붙을 때 중간에 밀어내야하는 경우 ex) 110(A) 120(B)에서 110(A) 120(C) 130(B)으로 확장할경우 110(A) 111(B) 120(B)를 통해 유연하게 확장 가능
+-> 이전 버전인 101,102형태면 불가
+
+유사 분류는 뒤에 알파벳을 붙임. 즉 알파벳의 경우 일부러 방향성을 정하지 않음. 110에 해당하지만 그렇다고 110.1처럼 하위로 나누기는 애매한거에 붙임
+
+
+
+기준: 확장성을 살려도 110이나 120에대한 개념이 바뀌면 안되기에 최대한 신중하게 골라야 가능. 예를들어 111에 못넣고 기존의 120을 대체해야하는 경우, 기존의120이 121로 밀리게됨 즉 추가가 아니라 기존 데이터도 변동
+
+
+
+
+
+---
+
+
+# ADD-Ons
+## Guest book 
+
+problem: record reaction of users in all notes
+solution: using external service [joey](https://joey.team/)
+
+| Feature                 | Expected Value                     | Joey                                                                 |
+| ----------------------- | ---------------------------------- | -------------------------------------------------------------------- |
+| Implementation Required | html tag                           | html (iframe)                                                        |
+| Coverage                | All Notes                          | All Notes                                                            |
+| User Reaction Recording | Anonymity , private user, no login | Anonymity , no private ,no login,                                    |
+| Customization Options   | Not to much                        | title , placeholder , color                                          |
+| Integration Complexity  | Low                                | Low                                                                  |
+| Cost                    | Affordable                         | Free up to 3 blocks(no limited response, block is component in Joey) |
+| Operational Management  | One Endpoint                       | one site (can see all history and users)                             |
+
+##  Apply Google Analytics in bulk to all pages
+
+`src/site/_includes/layouts/note.njk`
+Initially, I attempted to insert an HTML script into all MD files, but I realized that it was too difficult. So, I looked for a template file that the MD files use to apply to the actual webpages
+the template file is note.njk file
+
+About Homepage is managed by index.njk
+
+
+{{CODE_BLOCK_16}}
+## Google Translation
+Implementing Google Translation
+Add script in position that after body's first 'end for'
+
+
+After install, custom settings
+
+Add Languages
+Add a Border
+Change location
+
+### Google Translation-CSS
+{{CODE_BLOCK_17}}
+### Google Translation-HTML
+{{CODE_BLOCK_18}}
+
+# Hompage Custom
+## code font and color change
+just code element not working so , important used
+
+src/site/styles/custom-style.scss
+
+{{CODE_BLOCK_19}}
+
+{{CODE_BLOCK_20}}
+
+
+Even I changed CSS, It's not applied. So i find the element and modify it.
+markdown-rendered img
+only works when using !important
+add new line after badge
+{{CODE_BLOCK_21}}
+
+## Change img soruce width and clear
+
+`p::before` and `clear`
+{{CODE_BLOCK_22}}
+
+
+## add pre code block style
+{{CODE_BLOCK_23}}
+
+## code and pre tags style by ai
+{{CODE_BLOCK_24}}
+
+before
+{{CODE_BLOCK_25}}
+
+After
+white background web site, so black window
+{{CODE_BLOCK_26}}
+
+
+## modify js and apply css
+
+It seems like why css not wokred propery, maybe becasue of this wrong path in js function.
+before
+`const STYLE_PATH = "src/site/styles/users";`
+after
+`const STYLE_PATH = "src/site/styles/";`
+
+{{CODE_BLOCK_27}}
+
+## hr for new line
+In markdown `---` horizon line makes new line. In html to makes new line defualt.
+but my case not worked. So I inspect why, because no margin and padding in hr styles
+So I just add it approximately 20px
+
+`I need to distinguish which HRs should have the style applied to that`
+
+If you're unsure about which tags are affected by a specific tag, you can use a developer tool like F12 to check.
+
+{{CODE_BLOCK_28}}
+
+
+# Python Files
+
+## automation.py
+
+<iframe src="https://gist.github.com/murphybread/a0a351e489cde4b2064fcd3a7855d885.pibb?file=automation.py" width="100%" height="300"></iframe>
+
+
+
+## conver_to json.
+using one python file convert from md to json
+<iframe src="https://gist.github.com/murphybread/e99137ae5f1706bdc6a2ed4efdaace7d.pibb?file=convert_to_json.py" width="700" height="300"></iframe>
+
+
+## structure.json
+matching with current directory structure
+<iframe src="https://gist.github.com/murphybread/e99137ae5f1706bdc6a2ed4efdaace7d.pibb?file=structure.json" width="700" height="300"></iframe>
+
+
+## create_base_template.py
+For RAG, I thought there is need one default tempalte file, structure is 2 stages. first one is default parent file, and second is child file
+<iframe src="https://gist.github.com/murphybread/a0a351e489cde4b2064fcd3a7855d885.pibb?file=create_base_template.py" width="70%" height="300"></iframe>) 
+    subcategory_regex = re.compile(r'^([0-9]{1}[1-9][0-9])\.([0-9]{2})\.md
+
+### Making code
+Think about data
+when not major, convert major
+when sub or book, consider position of function argument
+
+{{CODE_BLOCK_7}}
+
+### Making tag
+If you know how to use get for recursive contents in JSON, function become very easy
+Understanding data structures and creating variables with JSON enables this recursive structure
+{{CODE_BLOCK_8}}
+
+
+#  0.2.3-OB
+## Change dataview query
+
+
+TABLE file.name AS title, file.path, file.mtime
+FROM "Projects/Library"
+WHERE dg-publish = true
+SORT file.ctime DESC
+LIMIT 7
+
+
+Add Table attrivutes modifed time path and remove link
+Specifify query path "Projects/Library"
+Increase Limit to 7
+
+# 0.2.2-LB
+## Using GitHub to Share Synchronized Python Files Across Different Platforms
+
+### Problem
+
+The current Obsidian sync functionality only supports synchronization for files with Python file extensions, excluding files in other formats such as Markdown (md).
+
+Initial attempts involved converting Python files into Markdown (md) or inserting Python code into Markdown files. However, this approach resulted in excessive fragmentation and posed challenges for management.
+
+### Solution
+
+https://github.com/murphybread/Library
+
+To address this issue, the solution is to utilize GitHub links for syncing files between different platforms, such as Mac and Windows. This can be achieved by performing a 'git pull' to ensure synchronization with the latest version when starting work through the GitHub link.
+
+
+
+# 0.2.1-PY
+## dg-publish frontmatter position
+### Problem
+Notes not showing up on the homepage
+Reasoning
+There are some things that work and some things that don't, and in particular, there is a 404 in the case of the latter, so it seems that there is a problem with publishing.
+
+If the tag of the note that doesn't work is separated by a line like this, it is judged as a problem.
+problem form
+{{CODE_BLOCK_9}}
+
+
+### Solution.
+Tested some notes by moving the tags as follows and confirmed normal operation.
+Then I added a function called `update_content_and_position` in the python file.
+duplicate_tag.py to automate it.
+
+{{CODE_BLOCK_10}}
+
+# 0.2.0-PY
+
+## Change the call number index structure and modify the convert file
+
+### Problem
+`obisidian use ![[filename]] preview of note, but line break and indentation was wrong`
+
+Major category indent was wrong
+
+As-is Used this structure pattern
+{{CODE_BLOCK_11}}
+
+Major Category don't use hypen.
+That makes preview error indent and line break
+
+### Solution
+
+### First Change call number md file like this
+{{CODE_BLOCK_12}}
+
+### Second Change convert_josn.py 
+Important point is just change a little bit. Because I don't want to change output.json, filename, path etc...
+only consider point is major and minor category variable.
+
+{{CODE_BLOCK_13}}
+
+
+# 0.1.1-PY
+### Managing Only Programming Files with .gitignore: Excluding Content Files
+
+## Problem
+
+In the process of starting git pull first, a conflict issue occurs if there is a change in the content file.
+It is appropriate to manage .md files other than .py only using the Sync function of the Obisidan tool.
+
+## Solution
+1. Delete .md files from remove server (when command is worked not delete immedately. you shoud commit and push)
+{{CODE_BLOCK_14}}
+1. Register files with md extension (fileanme should be `.gitignore)
+{{CODE_BLOCK_15}}
+
+if command worked and file is created,
+next step is commit and push
+`git commit -m "Managing Only Programming Files with .gitignore: Excluding Content Files"`
+`git push`
+
+
+
+# 0.1.0-LB
+## automated tag from filename <- key point
+
+This was hard because it is a backwards and forwards type, so if it is major.md, it is different from minor.md, sub.md, and books.md, and we aimed for a function that gets the value corresponding to the key in the structure.json file and processes it.
+
+So, to simplify things a bit more, we went from filename-based to a situation where the exact filename is strictly enforced by the policy, and then we can automate it appropriately.
+
+The key point is filenames, and only for content files.
+Later on, we'll also apply it to uncharacterized category files, but that's for later...
+
+# 0.0.4-OB
+# DataView modified
+This query is used for Recent Post in homepage.
+I delete file.path and add file.tags
+tags doesn't display backlink tags
+
+
+TABLE file.name AS Title, file.tags AS Tags
+FROM "Projects/Library"
+WHERE dg-publish = true
+SORT file.ctime DESC
+LIMIT 7
+
+
+
+# 0.0.3-PY
+## Add Tag using structure,json in contents file
+
+Adopting the approach of using filenames to create tag numbers was beneficial.
+Upon updating to Dataview , I realized that attaching tags from book contents enhances usefulness.
+Consequently, I integrated a 'booksTag' function.
+
+Initially, I experimented with a function from another file, which utilized a 'title' variable.
+However, to avoid dependencies, I ultimately developed the function within 'automation.py'.
+I then opted to modify only a single function, as adding more could complicate matters. Incorporating the tagging functionality into an existing function proved sufficient.
+
+
+# 0.0.2-OB
+## Modify the table to provide more useful information to the readers.
+Easily see which files have been modified, and see the tags they have at a glance
+
+- Change the standard modification time not the create time `file.ctime -> file.mtime`
+- Exclude md file that have the tag `#Library` 
+
+
+TABLE file.name AS Title, file.tags AS Tags
+FROM "Projects/Library" AND -#Library
+WHERE dg-publish = true
+SORT file.mtime DESC
+LIMIT 7
+
+
+
+
+
+
+# 0.0.1-LB
+## The Library Cleaning
+
+Changing History of Library.md from hardcoding to github gist
+Better viewing of code on screen in the UI
+
+### Before
+![before.png](/img/user/images/before.png)
+
+### After
+![short.png](/img/user/images/short.png)
+
+
+
+
+# Initialize
+# 0.0.0-LB
+
+Major: The change creates a new process that may not work with the old process and requires significant consideration. Set version criteria more granularly
+Keep major, which generally means not backwards compatible, intact
+
+Minor: The change affects current processes and will require attention in the future. Minors are listed as feature additions. File creation, module additions, etc.
+However, some minors may be incompatible. Because they don't mean exactly the same thing
+For example, if a Python file in a certain version references example.txt, but you change it to base_template, it will not work in previous versions, but the purpose is for testing purposes, so it is considered MINOR in terms of impact.
+
+Patch: The change is minimal or don't require much attention after the change. especially Patches are improvements such as variable names, bug fixes, refactorings, etc. 
+
+
+
+The reason for the change is that I didn't have an explicit criterion for considering the version impact, and now it's explicit.
+
+
+분류
+
+대분류 100,200,300
+중분류 110,120,130
+소분류 101.10 101.20 101.30
+
+
+중요한것 방향성, 확장성, 기준, 관리
+
+방향성: 인프라 100, 인프라위에 올라가는 cicd 200, cicd를 활용한 위에 올라가는 또는 고급 300등방향성
+
+
+확장성: 새 주제나 개념이 번호가 붙을 때 중간에 밀어내야하는 경우 ex) 110(A) 120(B)에서 110(A) 120(C) 130(B)으로 확장할경우 110(A) 111(B) 120(B)를 통해 유연하게 확장 가능
+-> 이전 버전인 101,102형태면 불가
+
+유사 분류는 뒤에 알파벳을 붙임. 즉 알파벳의 경우 일부러 방향성을 정하지 않음. 110에 해당하지만 그렇다고 110.1처럼 하위로 나누기는 애매한거에 붙임
+
+
+
+기준: 확장성을 살려도 110이나 120에대한 개념이 바뀌면 안되기에 최대한 신중하게 골라야 가능. 예를들어 111에 못넣고 기존의 120을 대체해야하는 경우, 기존의120이 121로 밀리게됨 즉 추가가 아니라 기존 데이터도 변동
+
+
+
+
+
+---
+
+
+# ADD-Ons
+## Guest book 
+
+problem: record reaction of users in all notes
+solution: using external service [joey](https://joey.team/)
+
+| Feature                 | Expected Value                     | Joey                                                                 |
+| ----------------------- | ---------------------------------- | -------------------------------------------------------------------- |
+| Implementation Required | html tag                           | html (iframe)                                                        |
+| Coverage                | All Notes                          | All Notes                                                            |
+| User Reaction Recording | Anonymity , private user, no login | Anonymity , no private ,no login,                                    |
+| Customization Options   | Not to much                        | title , placeholder , color                                          |
+| Integration Complexity  | Low                                | Low                                                                  |
+| Cost                    | Affordable                         | Free up to 3 blocks(no limited response, block is component in Joey) |
+| Operational Management  | One Endpoint                       | one site (can see all history and users)                             |
+
+##  Apply Google Analytics in bulk to all pages
+
+`src/site/_includes/layouts/note.njk`
+Initially, I attempted to insert an HTML script into all MD files, but I realized that it was too difficult. So, I looked for a template file that the MD files use to apply to the actual webpages
+the template file is note.njk file
+
+About Homepage is managed by index.njk
+
+
+{{CODE_BLOCK_16}}
+## Google Translation
+Implementing Google Translation
+Add script in position that after body's first 'end for'
+
+
+After install, custom settings
+
+Add Languages
+Add a Border
+Change location
+
+### Google Translation-CSS
+{{CODE_BLOCK_17}}
+### Google Translation-HTML
+{{CODE_BLOCK_18}}
+
+# Hompage Custom
+## code font and color change
+just code element not working so , important used
+
+src/site/styles/custom-style.scss
+
+{{CODE_BLOCK_19}}
+
+{{CODE_BLOCK_20}}
+
+
+Even I changed CSS, It's not applied. So i find the element and modify it.
+markdown-rendered img
+only works when using !important
+add new line after badge
+{{CODE_BLOCK_21}}
+
+## Change img soruce width and clear
+
+`p::before` and `clear`
+{{CODE_BLOCK_22}}
+
+
+## add pre code block style
+{{CODE_BLOCK_23}}
+
+## code and pre tags style by ai
+{{CODE_BLOCK_24}}
+
+before
+{{CODE_BLOCK_25}}
+
+After
+white background web site, so black window
+{{CODE_BLOCK_26}}
+
+
+## modify js and apply css
+
+It seems like why css not wokred propery, maybe becasue of this wrong path in js function.
+before
+`const STYLE_PATH = "src/site/styles/users";`
+after
+`const STYLE_PATH = "src/site/styles/";`
+
+{{CODE_BLOCK_27}}
+
+## hr for new line
+In markdown `---` horizon line makes new line. In html to makes new line defualt.
+but my case not worked. So I inspect why, because no margin and padding in hr styles
+So I just add it approximately 20px
+
+`I need to distinguish which HRs should have the style applied to that`
+
+If you're unsure about which tags are affected by a specific tag, you can use a developer tool like F12 to check.
+
+{{CODE_BLOCK_28}}
+
+
+# Python Files
+
+## automation.py
+
+<iframe src="https://gist.github.com/murphybread/a0a351e489cde4b2064fcd3a7855d885.pibb?file=automation.py" width="100%" height="300"></iframe>
+
+
+
+## conver_to json.
+using one python file convert from md to json
+<iframe src="https://gist.github.com/murphybread/e99137ae5f1706bdc6a2ed4efdaace7d.pibb?file=convert_to_json.py" width="700" height="300"></iframe>
+
+
+## structure.json
+matching with current directory structure
+<iframe src="https://gist.github.com/murphybread/e99137ae5f1706bdc6a2ed4efdaace7d.pibb?file=structure.json" width="700" height="300"></iframe>
+
+
+## create_base_template.py
+For RAG, I thought there is need one default tempalte file, structure is 2 stages. first one is default parent file, and second is child file
+<iframe src="https://gist.github.com/murphybread/a0a351e489cde4b2064fcd3a7855d885.pibb?file=create_base_template.py" width="70%" height="300"></iframe>) 
+    book_regex = re.compile(r'^([0-9]{1}[1-9][0-9])\.([0-9]{2})\s([a-z])\.md
+
+### Making code
+Think about data
+when not major, convert major
+when sub or book, consider position of function argument
+
+{{CODE_BLOCK_7}}
+
+### Making tag
+If you know how to use get for recursive contents in JSON, function become very easy
+Understanding data structures and creating variables with JSON enables this recursive structure
+{{CODE_BLOCK_8}}
+
+
+#  0.2.3-OB
+## Change dataview query
+
+
+TABLE file.name AS title, file.path, file.mtime
+FROM "Projects/Library"
+WHERE dg-publish = true
+SORT file.ctime DESC
+LIMIT 7
+
+
+Add Table attrivutes modifed time path and remove link
+Specifify query path "Projects/Library"
+Increase Limit to 7
+
+# 0.2.2-LB
+## Using GitHub to Share Synchronized Python Files Across Different Platforms
+
+### Problem
+
+The current Obsidian sync functionality only supports synchronization for files with Python file extensions, excluding files in other formats such as Markdown (md).
+
+Initial attempts involved converting Python files into Markdown (md) or inserting Python code into Markdown files. However, this approach resulted in excessive fragmentation and posed challenges for management.
+
+### Solution
+
+https://github.com/murphybread/Library
+
+To address this issue, the solution is to utilize GitHub links for syncing files between different platforms, such as Mac and Windows. This can be achieved by performing a 'git pull' to ensure synchronization with the latest version when starting work through the GitHub link.
+
+
+
+# 0.2.1-PY
+## dg-publish frontmatter position
+### Problem
+Notes not showing up on the homepage
+Reasoning
+There are some things that work and some things that don't, and in particular, there is a 404 in the case of the latter, so it seems that there is a problem with publishing.
+
+If the tag of the note that doesn't work is separated by a line like this, it is judged as a problem.
+problem form
+{{CODE_BLOCK_9}}
+
+
+### Solution.
+Tested some notes by moving the tags as follows and confirmed normal operation.
+Then I added a function called `update_content_and_position` in the python file.
+duplicate_tag.py to automate it.
+
+{{CODE_BLOCK_10}}
+
+# 0.2.0-PY
+
+## Change the call number index structure and modify the convert file
+
+### Problem
+`obisidian use ![[filename]] preview of note, but line break and indentation was wrong`
+
+Major category indent was wrong
+
+As-is Used this structure pattern
+{{CODE_BLOCK_11}}
+
+Major Category don't use hypen.
+That makes preview error indent and line break
+
+### Solution
+
+### First Change call number md file like this
+{{CODE_BLOCK_12}}
+
+### Second Change convert_josn.py 
+Important point is just change a little bit. Because I don't want to change output.json, filename, path etc...
+only consider point is major and minor category variable.
+
+{{CODE_BLOCK_13}}
+
+
+# 0.1.1-PY
+### Managing Only Programming Files with .gitignore: Excluding Content Files
+
+## Problem
+
+In the process of starting git pull first, a conflict issue occurs if there is a change in the content file.
+It is appropriate to manage .md files other than .py only using the Sync function of the Obisidan tool.
+
+## Solution
+1. Delete .md files from remove server (when command is worked not delete immedately. you shoud commit and push)
+{{CODE_BLOCK_14}}
+1. Register files with md extension (fileanme should be `.gitignore)
+{{CODE_BLOCK_15}}
+
+if command worked and file is created,
+next step is commit and push
+`git commit -m "Managing Only Programming Files with .gitignore: Excluding Content Files"`
+`git push`
+
+
+
+# 0.1.0-LB
+## automated tag from filename <- key point
+
+This was hard because it is a backwards and forwards type, so if it is major.md, it is different from minor.md, sub.md, and books.md, and we aimed for a function that gets the value corresponding to the key in the structure.json file and processes it.
+
+So, to simplify things a bit more, we went from filename-based to a situation where the exact filename is strictly enforced by the policy, and then we can automate it appropriately.
+
+The key point is filenames, and only for content files.
+Later on, we'll also apply it to uncharacterized category files, but that's for later...
+
+# 0.0.4-OB
+# DataView modified
+This query is used for Recent Post in homepage.
+I delete file.path and add file.tags
+tags doesn't display backlink tags
+
+
+TABLE file.name AS Title, file.tags AS Tags
+FROM "Projects/Library"
+WHERE dg-publish = true
+SORT file.ctime DESC
+LIMIT 7
+
+
+
+# 0.0.3-PY
+## Add Tag using structure,json in contents file
+
+Adopting the approach of using filenames to create tag numbers was beneficial.
+Upon updating to Dataview , I realized that attaching tags from book contents enhances usefulness.
+Consequently, I integrated a 'booksTag' function.
+
+Initially, I experimented with a function from another file, which utilized a 'title' variable.
+However, to avoid dependencies, I ultimately developed the function within 'automation.py'.
+I then opted to modify only a single function, as adding more could complicate matters. Incorporating the tagging functionality into an existing function proved sufficient.
+
+
+# 0.0.2-OB
+## Modify the table to provide more useful information to the readers.
+Easily see which files have been modified, and see the tags they have at a glance
+
+- Change the standard modification time not the create time `file.ctime -> file.mtime`
+- Exclude md file that have the tag `#Library` 
+
+
+TABLE file.name AS Title, file.tags AS Tags
+FROM "Projects/Library" AND -#Library
+WHERE dg-publish = true
+SORT file.mtime DESC
+LIMIT 7
+
+
+
+
+
+
+# 0.0.1-LB
+## The Library Cleaning
+
+Changing History of Library.md from hardcoding to github gist
+Better viewing of code on screen in the UI
+
+### Before
+![before.png](/img/user/images/before.png)
+
+### After
+![short.png](/img/user/images/short.png)
+
+
+
+
+# Initialize
+# 0.0.0-LB
+
+Major: The change creates a new process that may not work with the old process and requires significant consideration. Set version criteria more granularly
+Keep major, which generally means not backwards compatible, intact
+
+Minor: The change affects current processes and will require attention in the future. Minors are listed as feature additions. File creation, module additions, etc.
+However, some minors may be incompatible. Because they don't mean exactly the same thing
+For example, if a Python file in a certain version references example.txt, but you change it to base_template, it will not work in previous versions, but the purpose is for testing purposes, so it is considered MINOR in terms of impact.
+
+Patch: The change is minimal or don't require much attention after the change. especially Patches are improvements such as variable names, bug fixes, refactorings, etc. 
+
+
+
+The reason for the change is that I didn't have an explicit criterion for considering the version impact, and now it's explicit.
+
+
+분류
+
+대분류 100,200,300
+중분류 110,120,130
+소분류 101.10 101.20 101.30
+
+
+중요한것 방향성, 확장성, 기준, 관리
+
+방향성: 인프라 100, 인프라위에 올라가는 cicd 200, cicd를 활용한 위에 올라가는 또는 고급 300등방향성
+
+
+확장성: 새 주제나 개념이 번호가 붙을 때 중간에 밀어내야하는 경우 ex) 110(A) 120(B)에서 110(A) 120(C) 130(B)으로 확장할경우 110(A) 111(B) 120(B)를 통해 유연하게 확장 가능
+-> 이전 버전인 101,102형태면 불가
+
+유사 분류는 뒤에 알파벳을 붙임. 즉 알파벳의 경우 일부러 방향성을 정하지 않음. 110에 해당하지만 그렇다고 110.1처럼 하위로 나누기는 애매한거에 붙임
+
+
+
+기준: 확장성을 살려도 110이나 120에대한 개념이 바뀌면 안되기에 최대한 신중하게 골라야 가능. 예를들어 111에 못넣고 기존의 120을 대체해야하는 경우, 기존의120이 121로 밀리게됨 즉 추가가 아니라 기존 데이터도 변동
+
+
+
+
+
+---
+
+
+# ADD-Ons
+## Guest book 
+
+problem: record reaction of users in all notes
+solution: using external service [joey](https://joey.team/)
+
+| Feature                 | Expected Value                     | Joey                                                                 |
+| ----------------------- | ---------------------------------- | -------------------------------------------------------------------- |
+| Implementation Required | html tag                           | html (iframe)                                                        |
+| Coverage                | All Notes                          | All Notes                                                            |
+| User Reaction Recording | Anonymity , private user, no login | Anonymity , no private ,no login,                                    |
+| Customization Options   | Not to much                        | title , placeholder , color                                          |
+| Integration Complexity  | Low                                | Low                                                                  |
+| Cost                    | Affordable                         | Free up to 3 blocks(no limited response, block is component in Joey) |
+| Operational Management  | One Endpoint                       | one site (can see all history and users)                             |
+
+##  Apply Google Analytics in bulk to all pages
+
+`src/site/_includes/layouts/note.njk`
+Initially, I attempted to insert an HTML script into all MD files, but I realized that it was too difficult. So, I looked for a template file that the MD files use to apply to the actual webpages
+the template file is note.njk file
+
+About Homepage is managed by index.njk
+
+
+{{CODE_BLOCK_16}}
+## Google Translation
+Implementing Google Translation
+Add script in position that after body's first 'end for'
+
+
+After install, custom settings
+
+Add Languages
+Add a Border
+Change location
+
+### Google Translation-CSS
+{{CODE_BLOCK_17}}
+### Google Translation-HTML
+{{CODE_BLOCK_18}}
+
+# Hompage Custom
+## code font and color change
+just code element not working so , important used
+
+src/site/styles/custom-style.scss
+
+{{CODE_BLOCK_19}}
+
+{{CODE_BLOCK_20}}
+
+
+Even I changed CSS, It's not applied. So i find the element and modify it.
+markdown-rendered img
+only works when using !important
+add new line after badge
+{{CODE_BLOCK_21}}
+
+## Change img soruce width and clear
+
+`p::before` and `clear`
+{{CODE_BLOCK_22}}
+
+
+## add pre code block style
+{{CODE_BLOCK_23}}
+
+## code and pre tags style by ai
+{{CODE_BLOCK_24}}
+
+before
+{{CODE_BLOCK_25}}
+
+After
+white background web site, so black window
+{{CODE_BLOCK_26}}
+
+
+## modify js and apply css
+
+It seems like why css not wokred propery, maybe becasue of this wrong path in js function.
+before
+`const STYLE_PATH = "src/site/styles/users";`
+after
+`const STYLE_PATH = "src/site/styles/";`
+
+{{CODE_BLOCK_27}}
+
+## hr for new line
+In markdown `---` horizon line makes new line. In html to makes new line defualt.
+but my case not worked. So I inspect why, because no margin and padding in hr styles
+So I just add it approximately 20px
+
+`I need to distinguish which HRs should have the style applied to that`
+
+If you're unsure about which tags are affected by a specific tag, you can use a developer tool like F12 to check.
+
+{{CODE_BLOCK_28}}
+
+
+# Python Files
+
+## automation.py
+
+<iframe src="https://gist.github.com/murphybread/a0a351e489cde4b2064fcd3a7855d885.pibb?file=automation.py" width="100%" height="300"></iframe>
+
+
+
+## conver_to json.
+using one python file convert from md to json
+<iframe src="https://gist.github.com/murphybread/e99137ae5f1706bdc6a2ed4efdaace7d.pibb?file=convert_to_json.py" width="700" height="300"></iframe>
+
+
+## structure.json
+matching with current directory structure
+<iframe src="https://gist.github.com/murphybread/e99137ae5f1706bdc6a2ed4efdaace7d.pibb?file=structure.json" width="700" height="300"></iframe>
+
+
+## create_base_template.py
+For RAG, I thought there is need one default tempalte file, structure is 2 stages. first one is default parent file, and second is child file
+<iframe src="https://gist.github.com/murphybread/a0a351e489cde4b2064fcd3a7855d885.pibb?file=create_base_template.py" width="70%" height="300"></iframe>, re.IGNORECASE)
+```
+
+### Making code
+Think about data
+when not major, convert major
+when sub or book, consider position of function argument
+
+{{CODE_BLOCK_7}}
+
+### Making tag
+If you know how to use get for recursive contents in JSON, function become very easy
+Understanding data structures and creating variables with JSON enables this recursive structure
+{{CODE_BLOCK_8}}
+
+
+#  0.2.3-OB
+## Change dataview query
+
+
+TABLE file.name AS title, file.path, file.mtime
+FROM "Projects/Library"
+WHERE dg-publish = true
+SORT file.ctime DESC
+LIMIT 7
+
+
+Add Table attrivutes modifed time path and remove link
+Specifify query path "Projects/Library"
+Increase Limit to 7
+
+# 0.2.2-LB
+## Using GitHub to Share Synchronized Python Files Across Different Platforms
+
+### Problem
+
+The current Obsidian sync functionality only supports synchronization for files with Python file extensions, excluding files in other formats such as Markdown (md).
+
+Initial attempts involved converting Python files into Markdown (md) or inserting Python code into Markdown files. However, this approach resulted in excessive fragmentation and posed challenges for management.
+
+### Solution
+
+https://github.com/murphybread/Library
+
+To address this issue, the solution is to utilize GitHub links for syncing files between different platforms, such as Mac and Windows. This can be achieved by performing a 'git pull' to ensure synchronization with the latest version when starting work through the GitHub link.
+
+
+
+# 0.2.1-PY
+## dg-publish frontmatter position
+### Problem
+Notes not showing up on the homepage
+Reasoning
+There are some things that work and some things that don't, and in particular, there is a 404 in the case of the latter, so it seems that there is a problem with publishing.
+
+If the tag of the note that doesn't work is separated by a line like this, it is judged as a problem.
+problem form
+{{CODE_BLOCK_9}}
+
+
+### Solution.
+Tested some notes by moving the tags as follows and confirmed normal operation.
+Then I added a function called `update_content_and_position` in the python file.
+duplicate_tag.py to automate it.
+
+{{CODE_BLOCK_10}}
+
+# 0.2.0-PY
+
+## Change the call number index structure and modify the convert file
+
+### Problem
+`obisidian use ![[filename]] preview of note, but line break and indentation was wrong`
+
+Major category indent was wrong
+
+As-is Used this structure pattern
+{{CODE_BLOCK_11}}
+
+Major Category don't use hypen.
+That makes preview error indent and line break
+
+### Solution
+
+### First Change call number md file like this
+{{CODE_BLOCK_12}}
+
+### Second Change convert_josn.py 
+Important point is just change a little bit. Because I don't want to change output.json, filename, path etc...
+only consider point is major and minor category variable.
+
+{{CODE_BLOCK_13}}
+
+
+# 0.1.1-PY
+### Managing Only Programming Files with .gitignore: Excluding Content Files
+
+## Problem
+
+In the process of starting git pull first, a conflict issue occurs if there is a change in the content file.
+It is appropriate to manage .md files other than .py only using the Sync function of the Obisidan tool.
+
+## Solution
+1. Delete .md files from remove server (when command is worked not delete immedately. you shoud commit and push)
+{{CODE_BLOCK_14}}
+1. Register files with md extension (fileanme should be `.gitignore)
+{{CODE_BLOCK_15}}
+
+if command worked and file is created,
+next step is commit and push
+`git commit -m "Managing Only Programming Files with .gitignore: Excluding Content Files"`
+`git push`
+
+
+
+# 0.1.0-LB
+## automated tag from filename <- key point
+
+This was hard because it is a backwards and forwards type, so if it is major.md, it is different from minor.md, sub.md, and books.md, and we aimed for a function that gets the value corresponding to the key in the structure.json file and processes it.
+
+So, to simplify things a bit more, we went from filename-based to a situation where the exact filename is strictly enforced by the policy, and then we can automate it appropriately.
+
+The key point is filenames, and only for content files.
+Later on, we'll also apply it to uncharacterized category files, but that's for later...
+
+# 0.0.4-OB
+# DataView modified
+This query is used for Recent Post in homepage.
+I delete file.path and add file.tags
+tags doesn't display backlink tags
+
+
+TABLE file.name AS Title, file.tags AS Tags
+FROM "Projects/Library"
+WHERE dg-publish = true
+SORT file.ctime DESC
+LIMIT 7
+
+
+
+# 0.0.3-PY
+## Add Tag using structure,json in contents file
+
+Adopting the approach of using filenames to create tag numbers was beneficial.
+Upon updating to Dataview , I realized that attaching tags from book contents enhances usefulness.
+Consequently, I integrated a 'booksTag' function.
+
+Initially, I experimented with a function from another file, which utilized a 'title' variable.
+However, to avoid dependencies, I ultimately developed the function within 'automation.py'.
+I then opted to modify only a single function, as adding more could complicate matters. Incorporating the tagging functionality into an existing function proved sufficient.
+
+
+# 0.0.2-OB
+## Modify the table to provide more useful information to the readers.
+Easily see which files have been modified, and see the tags they have at a glance
+
+- Change the standard modification time not the create time `file.ctime -> file.mtime`
+- Exclude md file that have the tag `#Library` 
+
+
+TABLE file.name AS Title, file.tags AS Tags
+FROM "Projects/Library" AND -#Library
+WHERE dg-publish = true
+SORT file.mtime DESC
+LIMIT 7
+
+
+
+
+
+
+# 0.0.1-LB
+## The Library Cleaning
+
+Changing History of Library.md from hardcoding to github gist
+Better viewing of code on screen in the UI
+
+### Before
+![before.png](/img/user/images/before.png)
+
+### After
+![short.png](/img/user/images/short.png)
+
+
+
+
+# Initialize
+# 0.0.0-LB
+
+Major: The change creates a new process that may not work with the old process and requires significant consideration. Set version criteria more granularly
+Keep major, which generally means not backwards compatible, intact
+
+Minor: The change affects current processes and will require attention in the future. Minors are listed as feature additions. File creation, module additions, etc.
+However, some minors may be incompatible. Because they don't mean exactly the same thing
+For example, if a Python file in a certain version references example.txt, but you change it to base_template, it will not work in previous versions, but the purpose is for testing purposes, so it is considered MINOR in terms of impact.
+
+Patch: The change is minimal or don't require much attention after the change. especially Patches are improvements such as variable names, bug fixes, refactorings, etc. 
+
+
+
+The reason for the change is that I didn't have an explicit criterion for considering the version impact, and now it's explicit.
+
+
+분류
+
+대분류 100,200,300
+중분류 110,120,130
+소분류 101.10 101.20 101.30
+
+
+중요한것 방향성, 확장성, 기준, 관리
+
+방향성: 인프라 100, 인프라위에 올라가는 cicd 200, cicd를 활용한 위에 올라가는 또는 고급 300등방향성
+
+
+확장성: 새 주제나 개념이 번호가 붙을 때 중간에 밀어내야하는 경우 ex) 110(A) 120(B)에서 110(A) 120(C) 130(B)으로 확장할경우 110(A) 111(B) 120(B)를 통해 유연하게 확장 가능
+-> 이전 버전인 101,102형태면 불가
+
+유사 분류는 뒤에 알파벳을 붙임. 즉 알파벳의 경우 일부러 방향성을 정하지 않음. 110에 해당하지만 그렇다고 110.1처럼 하위로 나누기는 애매한거에 붙임
+
+
+
+기준: 확장성을 살려도 110이나 120에대한 개념이 바뀌면 안되기에 최대한 신중하게 골라야 가능. 예를들어 111에 못넣고 기존의 120을 대체해야하는 경우, 기존의120이 121로 밀리게됨 즉 추가가 아니라 기존 데이터도 변동
+
+
+
+
+
+---
+
+
+# ADD-Ons
+## Guest book 
+
+problem: record reaction of users in all notes
+solution: using external service [joey](https://joey.team/)
+
+| Feature                 | Expected Value                     | Joey                                                                 |
+| ----------------------- | ---------------------------------- | -------------------------------------------------------------------- |
+| Implementation Required | html tag                           | html (iframe)                                                        |
+| Coverage                | All Notes                          | All Notes                                                            |
+| User Reaction Recording | Anonymity , private user, no login | Anonymity , no private ,no login,                                    |
+| Customization Options   | Not to much                        | title , placeholder , color                                          |
+| Integration Complexity  | Low                                | Low                                                                  |
+| Cost                    | Affordable                         | Free up to 3 blocks(no limited response, block is component in Joey) |
+| Operational Management  | One Endpoint                       | one site (can see all history and users)                             |
+
+##  Apply Google Analytics in bulk to all pages
+
+`src/site/_includes/layouts/note.njk`
+Initially, I attempted to insert an HTML script into all MD files, but I realized that it was too difficult. So, I looked for a template file that the MD files use to apply to the actual webpages
+the template file is note.njk file
+
+About Homepage is managed by index.njk
+
+
+{{CODE_BLOCK_16}}
+## Google Translation
+Implementing Google Translation
+Add script in position that after body's first 'end for'
+
+
+After install, custom settings
+
+Add Languages
+Add a Border
+Change location
+
+### Google Translation-CSS
+{{CODE_BLOCK_17}}
+### Google Translation-HTML
+{{CODE_BLOCK_18}}
+
+# Hompage Custom
+## code font and color change
+just code element not working so , important used
+
+src/site/styles/custom-style.scss
+
+{{CODE_BLOCK_19}}
+
+{{CODE_BLOCK_20}}
+
+
+Even I changed CSS, It's not applied. So i find the element and modify it.
+markdown-rendered img
+only works when using !important
+add new line after badge
+{{CODE_BLOCK_21}}
+
+## Change img soruce width and clear
+
+`p::before` and `clear`
+{{CODE_BLOCK_22}}
+
+
+## add pre code block style
+{{CODE_BLOCK_23}}
+
+## code and pre tags style by ai
+{{CODE_BLOCK_24}}
+
+before
+{{CODE_BLOCK_25}}
+
+After
+white background web site, so black window
+{{CODE_BLOCK_26}}
+
+
+## modify js and apply css
+
+It seems like why css not wokred propery, maybe becasue of this wrong path in js function.
+before
+`const STYLE_PATH = "src/site/styles/users";`
+after
+`const STYLE_PATH = "src/site/styles/";`
+
+{{CODE_BLOCK_27}}
+
+## hr for new line
+In markdown `---` horizon line makes new line. In html to makes new line defualt.
+but my case not worked. So I inspect why, because no margin and padding in hr styles
+So I just add it approximately 20px
+
+`I need to distinguish which HRs should have the style applied to that`
+
+If you're unsure about which tags are affected by a specific tag, you can use a developer tool like F12 to check.
+
+{{CODE_BLOCK_28}}
 
 
 # Python Files
