@@ -1,21 +1,20 @@
 ---
-{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2024-07-08T16:23:29.441+09:00"}
+{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2024-07-08T16:33:01.716+09:00"}
 ---
 
 #hompage #Library #Rules
 
 
 
-
 # New Books
 
-| File                                                                  | Tags                                                                                          |
-| --------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
-| [[Projects/Library/Manage/Hompage\|Hompage]]                       | #hompage, #Library, #Rules                                                                    |
-| [[Projects/Library/300/330/330.10/330.10 a\|330.10 a]]             | #Applications, #Backend, #Node, #Variable_Specification                                       |
-| [[Projects/Library/Manage/History of Library\|History of Library]] | #History, #Versioning_Strategy                                                                |
-| [[Projects/Library/500/520/520.00/520.00 a\|520.00 a]]             | #ML_and_DL_Modeling, #Computer_Vision, #Introduction_to_CV, #Voxelization_from_Open3D_Library |
-| [[Projects/Library/800/820/820.00/820.00 b\|820.00 b]]             | #Anythings, #Writing, #LinkedIn, #Year_1_Review_What_I_Learned_at_the_Company                 |
+| File                                                      | Tags                                                                                      |
+| --------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
+| [[Projects/Library/300/330/330.10/330.10 b\|330.10 b]] | #Applications, #Backend, #Node, #async                                                    |
+| [[Projects/Library/000/010/010.20/010.20\|010.20]]     | #IT_Knowledge, #Develop_Knowledge, #Diagram_UML                                           |
+| [[Projects/Library/000/010/010.20/010.20 a\|010.20 a]] | #IT_Knowledge, #Develop_Knowledge, #Diagram_UML, #UML_Diagrams                            |
+| [[Projects/Library/000/010/010.10/010.10 b\|010.10 b]] | #IT_Knowledge, #Develop_Knowledge, #Data_Structure_and_Algorithm, #Datastructure_overview |
+| [[Projects/Library/300/310/310.20/310.20 a\|310.20 a]] | #Applications, #Development_Environment, #Debugger, #BreakPoint                           |
 
 { .block-language-dataview}
 
@@ -37,6 +36,9 @@
 			- [[Projects/Library/000/010/010.00/010.00 b\|010.00 b]] SLA and SLO and SLI
 		- [[Projects/Library/000/010/010.10/010.10\|010.10]] Data Structure and Algorithm
 			- [[Projects/Library/000/010/010.10/010.10 a\|010.10 a]] Why learn data structures and algorithms?
+			- [[Projects/Library/000/010/010.10/010.10 b\|010.10 b]] Datastructure overview
+		- [[Projects/Library/000/010/010.20/010.20\|010.20]] Diagram UML
+			- [[Projects/Library/000/010/010.20/010.20 a\|010.20 a]] UML Diagrams
 	- [[Projects/Library/000/020/020\|020]] Operation Knowledge
 		- [[Projects/Library/000/020/020.00/020.00\|020.00]] Versioning
 			- [[Projects/Library/000/020/020.00/020.00 a\|020.00 a]] My own Versioning Strategy
@@ -81,6 +83,8 @@
 		- [[Projects/Library/300/310/310.10/310.10\|310.10]] Conda
 			- [[Projects/Library/300/310/310.10/310.10 a\|310.10 a]] Conda base
 			- [[Projects/Library/300/310/310.10/310.10 b\|310.10 b]] Conda License
+		- [[Projects/Library/300/310/310.20/310.20\|310.20]] Debugger
+			- [[Projects/Library/300/310/310.20/310.20 a\|310.20 a]] BreakPoint
 	- [[Projects/Library/300/320/320\|320]] Frontend
 		- [[Projects/Library/300/320/320.00/320.00\|320.00]] HTML
 			- [[Projects/Library/300/320/320.00/320.00 a\|320.00 a]] Think about HTML
@@ -95,6 +99,7 @@
 			- [[Projects/Library/300/330/330.00/330.00 b\|330.00 b]] Difference between Django and FastAPI
 		- [[Projects/Library/300/330/330.10/330.10\|330.10]] Node.js
 			- [[Projects/Library/300/330/330.10/330.10 a\|330.10 a]] Variable Specification
+			- [[Projects/Library/300/330/330.10/330.10 b\|330.10 b]] async, await and promise
 - [[Projects/Library/400/400\|400]] ML Engineer Basic
 	- [[Projects/Library/400/410/410\|410]] Mathematics
 		- [[Projects/Library/400/410/410.00/410.00\|410.00]] Linear Algebra
@@ -185,7 +190,7 @@
 			- [[Projects/Library/900/910/910.00/910.00 b\|910.00 b]] How you can try something you've given up on as impossible
 			- [[Projects/Library/900/910/910.00/910.00 c\|910.00 c]] Digital Detox Learning from a Failure to Detox
 			- [[Projects/Library/900/910/910.00/910.00 d\|910.00 d]] Methods to use metrics to evaluate which job is better
-			- [[Projects/Library/900/910/910.00/910.00 e\|910.00 e]] Don't miss the moment when their eyes sparkle if you want to catch someone or keep them for a long time
+			- [[Projects/Library/900/910/910.00/910.00 e\|910.00 e]] Don't miss the moment when their eyes sparkle if you want to catch someone or keep them for a long timeN
 
 </div></div>
 
