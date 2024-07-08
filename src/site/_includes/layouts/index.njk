@@ -94,16 +94,13 @@
     <script>
       $(document).ready(function() {
         $('.collapsible').click(function() {
-          $(this).siblings('.content').toggle();
-          $(this).toggleClass('active');
+          $(this).next('.content').toggle();
         });
   
         // Initialize the collapsible lists
         $('ul > li > ul').each(function() {
-          const collapsibleText = $(this).siblings('a').text();
-          $(this).before('<span class="collapsible">' + collapsibleText + '</span>');
-          $(this).addClass('content');
-          $(this).siblings('a').hide();
+          $(this).before('<span class="collapsible">' + $(this).prev('a').text() + '</span>');
+          $(this).prev('a').hide();
         });
       });
     </script>
