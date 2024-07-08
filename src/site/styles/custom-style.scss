@@ -136,17 +136,17 @@ img[alt="LinkedIn|left"] {
 
 
 /* 리스트 collapse 기능을 위한 css*/
-// ul {
-//   list-style-type: none;
-// }
-// .collapsible {
-//   cursor: pointer;
-//   user-select: none;
-// }
-// .content {
-//   display: none;
-//   margin-left: 20px;
-// }
+ul {
+  list-style-type: none;
+}
+.collapsible {
+  cursor: pointer;
+  user-select: none;
+}
+.content {
+  display: none;
+  margin-left: 20px;
+}
 .content li {
   list-style-type: disc;
 }
