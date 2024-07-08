@@ -10,6 +10,21 @@
       {% include imp %}
     {% endfor %}
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> 
+    <style>
+      .collapsible {
+        cursor: pointer;
+        user-select: none;
+        color: blue;
+        text-decoration: underline;
+      }
+      .content {
+        display: none;
+        margin-left: 20px;
+      }
+      .content li {
+        list-style-type: disc;
+      }
+    </style>
   </head>
   <body class="theme-{{meta.baseTheme}} markdown-preview-view markdown-rendered markdown-preview-section {{meta.bodyClasses}}">
     {%include "components/notegrowthhistory.njk"%}
