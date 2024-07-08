@@ -9,22 +9,7 @@
     {% for imp in dynamics.index.head %}
       {% include imp %}
     {% endfor %}
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> 
-    <style>
-      .collapsible {
-        cursor: pointer;
-        user-select: none;
-        color: blue;
-        text-decoration: underline;
-      }
-      .content {
-        display: none;
-        margin-left: 20px;
-      }
-      .content li {
-        list-style-type: disc;
-      }
-    </style>
+
   </head>
   <body class="theme-{{meta.baseTheme}} markdown-preview-view markdown-rendered markdown-preview-section {{meta.bodyClasses}}">
     {%include "components/notegrowthhistory.njk"%}
@@ -91,18 +76,6 @@
       {% include imp %}
     {% endfor %}
     {%include "components/lucideIcons.njk"%}
-    <script>
-      $(document).ready(function() {
-        $('.collapsible').click(function() {
-          $(this).next('.content').toggle();
-        });
-  
-        // Initialize the collapsible lists
-        $('ul > li > ul').each(function() {
-          $(this).before('<span class="collapsible">' + $(this).prev('a').text() + '</span>');
-          $(this).prev('a').hide();
-        });
-      });
-    </script>
+
     </body>
   </html>
