@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2024-06-23T16:27:23.824+09:00"}
+{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2024-07-08T16:23:29.441+09:00"}
 ---
 
 #hompage #Library #Rules
@@ -11,10 +11,10 @@
 
 | File                                                                  | Tags                                                                                          |
 | --------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
+| [[Projects/Library/Manage/Hompage\|Hompage]]                       | #hompage, #Library, #Rules                                                                    |
 | [[Projects/Library/300/330/330.10/330.10 a\|330.10 a]]             | #Applications, #Backend, #Node, #Variable_Specification                                       |
 | [[Projects/Library/Manage/History of Library\|History of Library]] | #History, #Versioning_Strategy                                                                |
 | [[Projects/Library/500/520/520.00/520.00 a\|520.00 a]]             | #ML_and_DL_Modeling, #Computer_Vision, #Introduction_to_CV, #Voxelization_from_Open3D_Library |
-| [[Projects/Library/Manage/Hompage\|Hompage]]                       | #hompage, #Library, #Rules                                                                    |
 | [[Projects/Library/800/820/820.00/820.00 b\|820.00 b]]             | #Anythings, #Writing, #LinkedIn, #Year_1_Review_What_I_Learned_at_the_Company                 |
 
 { .block-language-dataview}
@@ -23,7 +23,6 @@
 
 #### External  Resources
 [![GitHub|left](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/murphybread)[![LinkedIn|left](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/%EB%AF%BC%EC%B0%AC-%EA%B9%80-aba89a243)
-
 
 # Categories Lists
 ## Call Number Index
