@@ -82,11 +82,13 @@
           $(this).siblings('.content').toggle();
           $(this).toggleClass('active');
         });
-    
+  
         // Initialize the collapsible lists
         $('ul > li > ul').each(function() {
-          $(this).before('<span class="collapsible">' + $(this).siblings('a').text() + '</span>');
+          const collapsibleText = $(this).siblings('a').text();
+          $(this).before('<span class="collapsible">' + collapsibleText + '</span>');
           $(this).addClass('content');
+          $(this).siblings('a').hide();
         });
       });
     </script>
