@@ -32,7 +32,7 @@
 
 
 
-- [[Projects/Library/100/100\|100]] Infra- [[Projects/Library/000/000\|000]] IT Knowledge
+- [[Projects/Library/000/000\|000]] IT Knowledge
 	- [[Projects/Library/000/010/010\|010]] Develop Knowledge
 		- [[Projects/Library/000/010/010.00/010.00\|010.00]] Develop Computer Science Knowledge
 			- [[Projects/Library/000/010/010.00/010.00 b\|010.00 b]] SLA and SLO and SLI
@@ -54,7 +54,7 @@
 	- [[Projects/Library/000/090/090\|090]] External Insights an Trends
 		- [[Projects/Library/000/090/090.00/090.00\|090.00]] Publications
 			- [[Projects/Library/000/090/090.00/090.00 a\|090.00 a]] Developer Trivia, Things You Should Have Known Before You Became a Developer
-
+- [[Projects/Library/100/100\|100]] Infra
 	- [[Projects/Library/100/110/110\|110]] DevOps Engineer Infra
 		- [[Projects/Library/100/110/110.00/110.00\|110.00]] Docker
 			- [[Projects/Library/100/110/110.00/110.00 a\|110.00 a]] Simple docker command things
