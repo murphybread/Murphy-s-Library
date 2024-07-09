@@ -1,20 +1,22 @@
 ---
-{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2024-07-08T16:33:01.716+09:00"}
+{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2024-07-09T19:00:56.522+09:00"}
 ---
 
 #hompage #Library #Rules
 
 
+사서 ( LLM RAG Application for  this blog)
+https://murphybooks.streamlit.app/
 
 # New Books
 
 | File                                                      | Tags                                                                                      |
 | --------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
 | [[Projects/Library/000/090/090.10/090.10 a\|090.10 a]] | #IT_Knowledge, #External_Insights, #Activity, #Naver_boostcamp_Basic                      |
+| [[Projects/Library/Manage/Hompage\|Hompage]]           | #hompage, #Library, #Rules                                                                |
 | [[Projects/Library/000/090/090.10/090.10\|090.10]]     | #IT_Knowledge, #External_Insights, #Activity                                              |
 | [[Projects/Library/000/010/010.20/010.20 a\|010.20 a]] | #IT_Knowledge, #Develop_Knowledge, #Diagram_UML, #UML_Diagrams                            |
 | [[Projects/Library/000/010/010.10/010.10 b\|010.10 b]] | #IT_Knowledge, #Develop_Knowledge, #Data_Structure_and_Algorithm, #Datastructure_overview |
-| [[Projects/Library/300/330/330.10/330.10 b\|330.10 b]] | #Applications, #Backend, #Node, #async                                                    |
 
 { .block-language-dataview}
 
