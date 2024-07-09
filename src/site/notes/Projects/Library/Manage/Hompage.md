@@ -10,8 +10,8 @@
 
 | File                                                      | Tags                                                                                      |
 | --------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
-| [[Projects/Library/000/090/090.10/090.10\|090.10]]     | #IT_Knowledge, #External_Insights, #Activity                                              |
 | [[Projects/Library/000/090/090.10/090.10 a\|090.10 a]] | #IT_Knowledge, #External_Insights, #Activity, #Naver_boostcamp_Basic                      |
+| [[Projects/Library/000/090/090.10/090.10\|090.10]]     | #IT_Knowledge, #External_Insights, #Activity                                              |
 | [[Projects/Library/000/010/010.20/010.20 a\|010.20 a]] | #IT_Knowledge, #Develop_Knowledge, #Diagram_UML, #UML_Diagrams                            |
 | [[Projects/Library/000/010/010.10/010.10 b\|010.10 b]] | #IT_Knowledge, #Develop_Knowledge, #Data_Structure_and_Algorithm, #Datastructure_overview |
 | [[Projects/Library/300/330/330.10/330.10 b\|330.10 b]] | #Applications, #Backend, #Node, #async                                                    |
