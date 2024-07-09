@@ -10,11 +10,11 @@
 
 | File                                                      | Tags                                                                                      |
 | --------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
-| [[Projects/Library/300/330/330.10/330.10 b\|330.10 b]] | #Applications, #Backend, #Node, #async                                                    |
-| [[Projects/Library/000/010/010.20/010.20\|010.20]]     | #IT_Knowledge, #Develop_Knowledge, #Diagram_UML                                           |
+| [[Projects/Library/Entrance/090.10 a\|090.10 a]]       |                                                                                           |
 | [[Projects/Library/000/010/010.20/010.20 a\|010.20 a]] | #IT_Knowledge, #Develop_Knowledge, #Diagram_UML, #UML_Diagrams                            |
 | [[Projects/Library/000/010/010.10/010.10 b\|010.10 b]] | #IT_Knowledge, #Develop_Knowledge, #Data_Structure_and_Algorithm, #Datastructure_overview |
-| [[Projects/Library/300/310/310.20/310.20 a\|310.20 a]] | #Applications, #Development_Environment, #Debugger, #BreakPoint                           |
+| [[Projects/Library/Entrance/090.10\|090.10]]           |                                                                                           |
+| [[Projects/Library/300/330/330.10/330.10 b\|330.10 b]] | #Applications, #Backend, #Node, #async                                                    |
 
 { .block-language-dataview}
 
@@ -52,9 +52,11 @@
 	- [[Projects/Library/000/030/030\|030]] Package
 		- [[Projects/Library/000/030/030.00/030.00\|030.00]] PIP
 			- [[Projects/Library/000/030/030.00/030.00 a\|030.00 a]] pip name and module name
-	- [[Projects/Library/000/090/090\|090]] External Insights an Trends
+	- [[Projects/Library/000/090/090\|090]] External Insights
 		- [[Projects/Library/000/090/090.00/090.00\|090.00]] Publications
 			- [[Projects/Library/000/090/090.00/090.00 a\|090.00 a]] Developer Trivia, Things You Should Have Known Before You Became a Developer
+		- [[Projects/Library/Entrance/090.10\|090.10]] Activity
+			- [[Projects/Library/Entrance/090.10 a\|090.10 a]] Naver boostcamp Basic
 - [[Projects/Library/100/100\|100]] Infra
 	- [[Projects/Library/100/110/110\|110]] DevOps Engineer Infra
 		- [[Projects/Library/100/110/110.00/110.00\|110.00]] Docker
