@@ -1,29 +1,23 @@
 ---
-{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2024-07-09T19:00:56.522+09:00"}
+{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2024-10-08T15:06:36.533+09:00"}
 ---
 
 #hompage #Library #Rules
-
-
-사서 ( LLM RAG Application for  this blog)
-https://murphybooks.streamlit.app/
-
 # New Books
 
-| File                                                      | Tags                                                                                      |
-| --------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
-| [[Projects/Library/000/090/090.10/090.10 a\|090.10 a]] | #IT_Knowledge, #External_Insights, #Activity, #Naver_boostcamp_Basic                      |
-| [[Projects/Library/Manage/Hompage\|Hompage]]           | #hompage, #Library, #Rules                                                                |
-| [[Projects/Library/000/090/090.10/090.10\|090.10]]     | #IT_Knowledge, #External_Insights, #Activity                                              |
-| [[Projects/Library/000/010/010.20/010.20 a\|010.20 a]] | #IT_Knowledge, #Develop_Knowledge, #Diagram_UML, #UML_Diagrams                            |
-| [[Projects/Library/000/010/010.10/010.10 b\|010.10 b]] | #IT_Knowledge, #Develop_Knowledge, #Data_Structure_and_Algorithm, #Datastructure_overview |
+| File                                                                      | Tags                                                                 |
+| ------------------------------------------------------------------------- | -------------------------------------------------------------------- |
+| [[Projects/Library/Manage/Hompage\|Hompage]]                           | #hompage, #Library, #Rules                                           |
+| [[Projects/Library/Manage/Template (No Source)\|Template (No Source)]] | #Tag                                                                 |
+| [[Projects/Library/800/810/810.00/810.00 a\|810.00 a]]                 | #Anythings, #Game, #Minecraft, #Minecraft_Commands                   |
+| [[Projects/Library/Manage/Template (Source)\|Template (Source)]]       | #Tag                                                                 |
+| [[Projects/Library/000/090/090.10/090.10 a\|090.10 a]]                 | #IT_Knowledge, #External_Insights, #Activity, #Naver_boostcamp_Basic |
 
 { .block-language-dataview}
 
 
 
-#### External  Resources
-[![GitHub|left](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/murphybread)[![LinkedIn|left](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/%EB%AF%BC%EC%B0%AC-%EA%B9%80-aba89a243)
+#### External  Resources[![GitHub|left](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/murphybread)[![LinkedIn|left](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/%EB%AF%BC%EC%B0%AC-%EA%B9%80-aba89a243)
 
 # Categories Lists
 ## Call Number Index
@@ -200,6 +194,8 @@ https://murphybooks.streamlit.app/
 
 
 
+사서 ( LLM RAG Application for  this blog)
+https://murphybooks.streamlit.app/
 
 ---
 # History of Library

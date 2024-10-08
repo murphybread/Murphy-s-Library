@@ -436,9 +436,7 @@ So I modify this part. first get distinguish body. by the split function divide 
 
 
 
----
-dg-publish: true
----
+
 # Title
 #Tag
 
@@ -461,9 +459,7 @@ Step-by-step implementation guide.
 
 
 
----
-dg-publish: true
----
+
 # Title
 #Tag
 
