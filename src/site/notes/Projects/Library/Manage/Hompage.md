@@ -5,13 +5,13 @@
 #hompage #Library #Rules
 # New Books
 
-| File                                                                      | Tags                                               |
-| ------------------------------------------------------------------------- | -------------------------------------------------- |
-| [[Projects/Library/Manage/Hompage\|Hompage]]                           | #hompage, #Library, #Rules                         |
-| [[Projects/Library/Manage/Template (No Source)\|Template (No Source)]] | #Tag                                               |
-| [[Projects/Library/800/810/810.00/810.00 a\|810.00 a]]                 | #Anythings, #Game, #Minecraft, #Minecraft_Commands |
-| [[Projects/Library/Manage/Template (Source)\|Template (Source)]]       | #Tag                                               |
-| [[Projects/Library/000/090/090.10/090.10\|090.10]]                     | #IT_Knowledge, #External_Insights, #Activity       |
+| File                                                                      | Tags                                                                 |
+| ------------------------------------------------------------------------- | -------------------------------------------------------------------- |
+| [[Projects/Library/000/090/090.10/090.10 a\|090.10 a]]                 | #IT_Knowledge, #External_Insights, #Activity, #Naver_boostcamp_Basic |
+| [[Projects/Library/Manage/Hompage\|Hompage]]                           | #hompage, #Library, #Rules                                           |
+| [[Projects/Library/Manage/Template (No Source)\|Template (No Source)]] | #Tag                                                                 |
+| [[Projects/Library/800/810/810.00/810.00 a\|810.00 a]]                 | #Anythings, #Game, #Minecraft, #Minecraft_Commands                   |
+| [[Projects/Library/Manage/Template (Source)\|Template (Source)]]       | #Tag                                                                 |
 
 { .block-language-dataview}
 
@@ -53,6 +53,8 @@
 	- [[Projects/Library/000/090/090\|090]] External Insights
 		- [[Projects/Library/000/090/090.00/090.00\|090.00]] Publications
 			- [[Projects/Library/000/090/090.00/090.00 a\|090.00 a]] Developer Trivia, Things You Should Have Known Before You Became a Developer
+		- [[Projects/Library/000/090/090.10/090.10\|090.10]] Activity
+			- [[Projects/Library/000/090/090.10/090.10 a\|090.10 a]] Naver boostcamp Basic
 - [[Projects/Library/100/100\|100]] Infra
 	- [[Projects/Library/100/110/110\|110]] DevOps Engineer Infra
 		- [[Projects/Library/100/110/110.00/110.00\|110.00]] Docker
