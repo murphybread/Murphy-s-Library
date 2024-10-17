@@ -8,10 +8,10 @@
 | File                                                                      | Tags                                                                 |
 | ------------------------------------------------------------------------- | -------------------------------------------------------------------- |
 | [[Projects/Library/000/020/020.10/020.10 a\|020.10 a]]                 | #IT_Knowledge, #Operation_Knowledge, #Git, #git_init                 |
-| [[Projects/Library/Entrance/회고 Retrospect\|회고 Retrospect]]             |                                                                      |
 | [[Projects/Library/000/090/090.10/090.10 a\|090.10 a]]                 | #IT_Knowledge, #External_Insights, #Activity, #Naver_boostcamp_Basic |
 | [[Projects/Library/Manage/Hompage\|Hompage]]                           | #hompage, #Library, #Rules                                           |
 | [[Projects/Library/Manage/Template (No Source)\|Template (No Source)]] | #Tag                                                                 |
+| [[Projects/Library/800/810/810.00/810.00 a\|810.00 a]]                 | #Anythings, #Game, #Minecraft, #Minecraft_Commands                   |
 
 { .block-language-dataview}
 
