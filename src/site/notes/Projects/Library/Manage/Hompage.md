@@ -7,11 +7,11 @@
 
 | File                                                                      | Tags                                                                 |
 | ------------------------------------------------------------------------- | -------------------------------------------------------------------- |
+| [[Projects/Library/000/020/020.10/020.10 a\|020.10 a]]                 | #IT_Knowledge, #Operation_Knowledge, #Git, #git_init                 |
+| [[Projects/Library/Entrance/회고 Retrospect\|회고 Retrospect]]             |                                                                      |
 | [[Projects/Library/000/090/090.10/090.10 a\|090.10 a]]                 | #IT_Knowledge, #External_Insights, #Activity, #Naver_boostcamp_Basic |
 | [[Projects/Library/Manage/Hompage\|Hompage]]                           | #hompage, #Library, #Rules                                           |
 | [[Projects/Library/Manage/Template (No Source)\|Template (No Source)]] | #Tag                                                                 |
-| [[Projects/Library/800/810/810.00/810.00 a\|810.00 a]]                 | #Anythings, #Game, #Minecraft, #Minecraft_Commands                   |
-| [[Projects/Library/Manage/Template (Source)\|Template (Source)]]       | #Tag                                                                 |
 
 { .block-language-dataview}
 
@@ -43,10 +43,7 @@
 			- [[Projects/Library/000/020/020.00/020.00 b\|020.00 b]] headver
 			- [[Projects/Library/000/020/020.00/020.00 c\|020.00 c]] Proper dividing for reusable modules
 		- [[Projects/Library/000/020/020.10/020.10\|020.10]] Git
-			- [[Projects/Library/000/020/020.10/020.10 a\|020.10 a]] git commands
-			- [[Projects/Library/000/020/020.10/020.10 b\|020.10 b]] git submodule
-			- [[Projects/Library/000/020/020.10/020.10 c\|020.10 c]] git gist
-			- [[Projects/Library/000/020/020.10/020.10 d\|020.10 d]] git commit convention
+			- [[Projects/Library/000/020/020.10/020.10 a\|020.10 a]] Git Command Usecases git 명령어 실전 사용 및 응용 편
 	- [[Projects/Library/000/030/030\|030]] Package
 		- [[Projects/Library/000/030/030.00/030.00\|030.00]] PIP
 			- [[Projects/Library/000/030/030.00/030.00 a\|030.00 a]] pip name and module name
