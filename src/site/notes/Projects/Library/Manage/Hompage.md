@@ -1,17 +1,17 @@
 ---
-{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2024-10-08T18:43:02.722+09:00"}
+{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2024-10-17T22:15:16.139+09:00"}
 ---
 
 #hompage #Library #Rules
 # New Books
 
-| File                                                                      | Tags                                                                 |
-| ------------------------------------------------------------------------- | -------------------------------------------------------------------- |
-| [[Projects/Library/000/020/020.10/020.10 a\|020.10 a]]                 | #IT_Knowledge, #Operation_Knowledge, #Git, #git_init                 |
-| [[Projects/Library/000/090/090.10/090.10 a\|090.10 a]]                 | #IT_Knowledge, #External_Insights, #Activity, #Naver_boostcamp_Basic |
-| [[Projects/Library/Manage/Hompage\|Hompage]]                           | #hompage, #Library, #Rules                                           |
-| [[Projects/Library/Manage/Template (No Source)\|Template (No Source)]] | #Tag                                                                 |
-| [[Projects/Library/800/810/810.00/810.00 a\|810.00 a]]                 | #Anythings, #Game, #Minecraft, #Minecraft_Commands                   |
+| File                                                                      | Tags                                                                                  |
+| ------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
+| [[Projects/Library/000/090/090.10/090.10 b\|090.10 b]]                 | #IT_Knowledge, #External_Insights, #Activity, #우아한테크코스_1주차_회고록, #기능구현단위               |
+| [[Projects/Library/000/020/020.10/020.10 a\|020.10 a]]                 | #IT_Knowledge, #Operation_Knowledge, #Git, #Git_Command_Usecases_git_명령어_실전_사용_및_응용_편 |
+| [[Projects/Library/Manage/Hompage\|Hompage]]                           | #hompage, #Library, #Rules                                                            |
+| [[Projects/Library/000/090/090.10/090.10 a\|090.10 a]]                 | #IT_Knowledge, #External_Insights, #Activity, #Naver_boostcamp_Basic                  |
+| [[Projects/Library/Manage/Template (No Source)\|Template (No Source)]] | #Tag                                                                                  |
 
 { .block-language-dataview}
 
@@ -52,6 +52,7 @@
 			- [[Projects/Library/000/090/090.00/090.00 a\|090.00 a]] Developer Trivia, Things You Should Have Known Before You Became a Developer
 		- [[Projects/Library/000/090/090.10/090.10\|090.10]] Activity
 			- [[Projects/Library/000/090/090.10/090.10 a\|090.10 a]] Naver boostcamp Basic
+			- [[Projects/Library/000/090/090.10/090.10 b\|090.10 b]] 우아한테크코스 1주차 회고록
 - [[Projects/Library/100/100\|100]] Infra
 	- [[Projects/Library/100/110/110\|110]] DevOps Engineer Infra
 		- [[Projects/Library/100/110/110.00/110.00\|110.00]] Docker
