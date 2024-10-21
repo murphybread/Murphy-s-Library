@@ -5,13 +5,13 @@
 #hompage #Library #Rules
 # New Books
 
-| File                                                                      | Tags                                                                                  |
-| ------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
-| [[Projects/Library/000/090/090.10/090.10 b\|090.10 b]]                 | #IT_Knowledge, #External_Insights, #Activity, #우아한테크코스_1주차_회고록, #기능구현단위               |
-| [[Projects/Library/000/020/020.10/020.10 a\|020.10 a]]                 | #IT_Knowledge, #Operation_Knowledge, #Git, #Git_Command_Usecases_git_명령어_실전_사용_및_응용_편 |
-| [[Projects/Library/Manage/Hompage\|Hompage]]                           | #hompage, #Library, #Rules                                                            |
-| [[Projects/Library/000/090/090.10/090.10 a\|090.10 a]]                 | #IT_Knowledge, #External_Insights, #Activity, #Naver_boostcamp_Basic                  |
-| [[Projects/Library/Manage/Template (No Source)\|Template (No Source)]] | #Tag                                                                                  |
+| File                                                      | Tags                                                                                  |
+| --------------------------------------------------------- | ------------------------------------------------------------------------------------- |
+| [[Projects/Library/300/320/320.30/320.30 a\|320.30 a]] | #Applications, #Frontend, #JavaScript, #JavaScript_import_export_모듈_관련_예제와_함께_알아보기    |
+| [[Projects/Library/000/090/090.10/090.10 b\|090.10 b]] | #IT_Knowledge, #External_Insights, #Activity, #우아한테크코스_1주차_회고록, #기능구현단위               |
+| [[Projects/Library/000/020/020.10/020.10 a\|020.10 a]] | #IT_Knowledge, #Operation_Knowledge, #Git, #Git_Command_Usecases_git_명령어_실전_사용_및_응용_편 |
+| [[Projects/Library/Manage/Hompage\|Hompage]]           | #hompage, #Library, #Rules                                                            |
+| [[Projects/Library/000/090/090.10/090.10 a\|090.10 a]] | #IT_Knowledge, #External_Insights, #Activity, #Naver_boostcamp_Basic                  |
 
 { .block-language-dataview}
 
@@ -89,7 +89,7 @@
 		- [[Projects/Library/300/320/320.10/320.10\|320.10]] CSS
 			- [[Projects/Library/300/320/320.10/320.10 a\|320.10 a]] CSS Default 
 		- [[Projects/Library/300/320/320.30/320.30\|320.30]] JavaScript
-			- [[Projects/Library/300/320/320.30/320.30 a\|320.30 a]] JavaScript Basic
+			- [[Projects/Library/300/320/320.30/320.30 a\|320.30 a]] JavaScript import export 모듈 관련 예제와 함께 알아보기
 			- [[Projects/Library/300/320/320.30/320.30 b\|320.30 b]] Fix too loud sound at video startup with headphones on
 	- [[Projects/Library/300/330/330\|330]] Backend
 		- [[Projects/Library/300/330/330.00/330.00\|330.00]] Django
