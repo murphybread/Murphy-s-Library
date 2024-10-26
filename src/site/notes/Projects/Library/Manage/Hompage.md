@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2024-10-17T22:15:16.139+09:00"}
+{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2024-10-25T11:01:35.766+09:00"}
 ---
 
 #hompage #Library #Rules
@@ -7,11 +7,11 @@
 
 | File                                                      | Tags                                                                                  |
 | --------------------------------------------------------- | ------------------------------------------------------------------------------------- |
+| [[Projects/Library/Manage/Hompage\|Hompage]]           | #hompage, #Library, #Rules                                                            |
 | [[Projects/Library/300/320/320.30/320.30 c\|320.30 c]] | #Applications, #Frontend, #JavaScript, #Jest_관련_JavaScript에서의_테스트_개요                  |
 | [[Projects/Library/000/090/090.10/090.10 b\|090.10 b]] | #IT_Knowledge, #External_Insights, #Activity, #우아한테크코스_1주차_회고록, #기능구현단위               |
 | [[Projects/Library/300/320/320.30/320.30 a\|320.30 a]] | #Applications, #Frontend, #JavaScript, #JavaScript_import_export_모듈_관련_예제와_함께_알아보기    |
 | [[Projects/Library/000/020/020.10/020.10 a\|020.10 a]] | #IT_Knowledge, #Operation_Knowledge, #Git, #Git_Command_Usecases_git_명령어_실전_사용_및_응용_편 |
-| [[Projects/Library/Manage/Hompage\|Hompage]]           | #hompage, #Library, #Rules                                                            |
 
 { .block-language-dataview}
 
@@ -195,8 +195,6 @@
 
 
 
-사서 ( LLM RAG Application for  this blog)
-https://murphybooks.streamlit.app/
 
 ---
 # History of Library
