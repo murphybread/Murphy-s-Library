@@ -5,13 +5,13 @@
 #hompage #Library #Rules
 # New Books
 
-| File                                                      | Tags                                                                                  |
-| --------------------------------------------------------- | ------------------------------------------------------------------------------------- |
-| [[Projects/Library/000/020/020.10/020.10 a\|020.10 a]] | #IT_Knowledge, #Operation_Knowledge, #Git, #Git_Command_Usecases_git_명령어_실전_사용_및_응용_편 |
-| [[Projects/Library/300/320/320.30/320.30 a\|320.30 a]] | #Applications, #Frontend, #JavaScript, #JavaScript_import_export_모듈_관련_예제와_함께_알아보기    |
-| [[Projects/Library/Manage/Hompage\|Hompage]]           | #hompage, #Library, #Rules                                                            |
-| [[Projects/Library/300/320/320.30/320.30 c\|320.30 c]] | #Applications, #Frontend, #JavaScript, #Jest_관련_JavaScript에서의_테스트_개요                  |
-| [[Projects/Library/000/090/090.10/090.10 b\|090.10 b]] | #IT_Knowledge, #External_Insights, #Activity, #우아한테크코스_1주차_회고록, #기능구현단위               |
+| File                                                      | Tags                                                                                                                                                                    |
+| --------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [[Projects/Library/300/330/330.20/330.20 c\|330.20 c]] | #Applications, #Backend, #Discord_AI_Bot_Development_Best_Post_Recommendation, #Discord_베스트_포스트_추천_봇_만들기_시리즈_2편_Mock데이터로_10008에러_데이터도_수집하기_그_와중에_또다시_발생한_모든메시지0인_예외_케이스 |
+| [[Projects/Library/300/330/330.20/330.20 b\|330.20 b]] | #Applications, #Backend, #Discord_AI_Bot_Development_Best_Post_Recommendation, #Discord_베스트_포스트_추천_봇_만들기_시리즈_1편_프로덕션환경에서_기존_기능_수행하기_                                    |
+| [[Projects/Library/300/330/330.20/330.20 a\|330.20 a]] | #Applications, #Backend, #Discord_AI_Bot_Development_Best_Post_Recommendation, #Discord_베스트_포스트_추천_봇_만들기_시리즈                                                            |
+| [[Projects/Library/300/330/330.20/330.20\|330.20]]     | #Applications, #Backend, #Discord_AI_Bot_Development_Best_Post_Recommendation                                                                                           |
+| [[Projects/Library/300/330/330.20/330.20 f\|330.20 f]] | #Applications, #Backend, #Discord_AI_Bot_Development_Best_Post_Recommendation, #Discord_베스트_포스트_추천_봇_만들기_시리즈_5편_클라우드와_크론잡을_통해_24시간_서비스_생성하기                             |
 
 { .block-language-dataview}
 
@@ -99,6 +99,13 @@
 		- [[Projects/Library/300/330/330.10/330.10\|330.10]] Node.js
 			- [[Projects/Library/300/330/330.10/330.10 a\|330.10 a]] Variable Specification
 			- [[Projects/Library/300/330/330.10/330.10 b\|330.10 b]] async, await and promise
+		- [[Projects/Library/300/330/330.20/330.20\|330.20]] Discord AI Bot Development Best Post Recommendation
+			- [[Projects/Library/300/330/330.20/330.20 a\|330.20 a]] Discord 베스트 포스트 추천 봇 만들기 시리즈
+			- [[Projects/Library/300/330/330.20/330.20 b\|330.20 b]] Discord 베스트 포스트 추천 봇 만들기 시리즈 1편 프로덕션환경에서 기존 기능 수행하기 (feat들어본적도 없는 10008에러 해결)
+			- [[Projects/Library/300/330/330.20/330.20 c\|330.20 c]] Discord 베스트 포스트 추천 봇 만들기 시리즈 2편 Mock데이터로 10008에러 데이터도 수집하기 그 와중에 또다시 발생한 모든메시지0인 예외 케이스
+			- [[Projects/Library/300/330/330.20/330.20 d\|330.20 d]] Discord 베스트 포스트 추천 봇 만들기 시리즈 3편 파일 읽기 쓰기와 디스코드 봇 커맨드 구현하기
+			- [[Projects/Library/300/330/330.20/330.20 e\|330.20 e]] Discord 베스트 포스트 추천 봇 만들기 시리즈 4편 프로덕션 올리기전 시크릿 제거하기 bfg-repo-cleaner. 그 와중 커밋이 2배로 늘어나버린 경우
+			- [[Projects/Library/300/330/330.20/330.20 f\|330.20 f]] Discord 베스트 포스트 추천 봇 만들기 시리즈 5편 클라우드와 크론잡을 통해 24시간 서비스 생성하기
 - [[Projects/Library/400/400\|400]] ML Engineer Basic
 	- [[Projects/Library/400/410/410\|410]] Mathematics
 		- [[Projects/Library/400/410/410.00/410.00\|410.00]] Linear Algebra
