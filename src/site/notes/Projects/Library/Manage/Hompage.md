@@ -7,11 +7,11 @@
 
 | POSTS                                                     | Tags                                                                                                                                           |
 | --------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
+| [[Projects/Library/000/090/090.10/090.10 d\|090.10 d]] | #Activity, #우아한테크코스_프리코스_3주차_회고록_얼마나_목표를_완료했는지                                                                                                 |
+| [[Projects/Library/000/090/090.10/090.10 c\|090.10 c]] | #Activity, #우아한테크코스_프리코스_2주차_회고록                                                                                                               |
 | [[Projects/Library/300/330/330.20/330.20 a\|330.20 a]] | #Discord_AI_Bot_Development_Best_Post_Recommendation, #Discord_베스트_포스트_추천_봇_만들기_시리즈                                                            |
 | [[Projects/Library/300/330/330.20/330.20 c\|330.20 c]] | #Discord_AI_Bot_Development_Best_Post_Recommendation, #Discord_베스트_포스트_추천_봇_만들기_시리즈_2편_Mock데이터로_10008에러_데이터도_수집하기_그_와중에_또다시_발생한_모든메시지0인_예외_케이스 |
 | [[Projects/Library/300/330/330.20/330.20 f\|330.20 f]] | #Discord_AI_Bot_Development_Best_Post_Recommendation, #Discord_베스트_포스트_추천_봇_만들기_시리즈_5편_클라우드와_크론잡을_통해_24시간_서비스_생성하기                             |
-| [[Projects/Library/300/330/330.20/330.20 e\|330.20 e]] | #Discord_AI_Bot_Development_Best_Post_Recommendation, #Discord_베스트_포스트_추천_봇_만들기_시리즈_4편_프로덕션_올리기전_시크릿_제거하기_bfg-repo-cleaner                     |
-| [[Projects/Library/300/330/330.20/330.20 d\|330.20 d]] | #Discord_AI_Bot_Development_Best_Post_Recommendation, #Discord_베스트_포스트_추천_봇_만들기_시리즈_3편_파일_읽기_쓰기와_디스코드_봇_커맨드_구현하기                               |
 
 { .block-language-dataview}
 
@@ -52,7 +52,9 @@
 			- [[Projects/Library/000/090/090.00/090.00 a\|090.00 a]] Developer Trivia, Things You Should Have Known Before You Became a Developer
 		- [[Projects/Library/000/090/090.10/090.10\|090.10]] Activity
 			- [[Projects/Library/000/090/090.10/090.10 a\|090.10 a]] Naver boostcamp Basic
-			- [[Projects/Library/000/090/090.10/090.10 b\|090.10 b]] 우아한테크코스 1주차 회고록
+			- [[Projects/Library/000/090/090.10/090.10 b\|090.10 b]] 우아한테크코스 프리코스 1주차 회고록
+			- [[Projects/Library/000/090/090.10/090.10 c\|090.10 c]] 우아한테크코스 프리코스 2주차 회고록
+			- [[Projects/Library/000/090/090.10/090.10 d\|090.10 d]] 우아한테크코스 프리코스 3주차 회고록 얼마나 목표를 완료했는지, 프리코스 전과 무엇이 달라졌는지
 - [[Projects/Library/100/100\|100]] Infra
 	- [[Projects/Library/100/110/110\|110]] DevOps Engineer Infra
 		- [[Projects/Library/100/110/110.00/110.00\|110.00]] Docker
