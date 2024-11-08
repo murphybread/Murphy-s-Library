@@ -1,17 +1,17 @@
 ---
-{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2024-10-25T11:01:35.766+09:00"}
+{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2024-11-08T12:15:20.800+09:00"}
 ---
 
 #hompage #Library #Rules
 # New Books
 
-| File                                                      | Tags                                                                                                                                                                    |
-| --------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [[Projects/Library/300/330/330.20/330.20 a\|330.20 a]] | #Applications, #Backend, #Discord_AI_Bot_Development_Best_Post_Recommendation, #Discord_베스트_포스트_추천_봇_만들기_시리즈                                                            |
-| [[Projects/Library/300/330/330.20/330.20 c\|330.20 c]] | #Applications, #Backend, #Discord_AI_Bot_Development_Best_Post_Recommendation, #Discord_베스트_포스트_추천_봇_만들기_시리즈_2편_Mock데이터로_10008에러_데이터도_수집하기_그_와중에_또다시_발생한_모든메시지0인_예외_케이스 |
-| [[Projects/Library/300/330/330.20/330.20 f\|330.20 f]] | #Applications, #Backend, #Discord_AI_Bot_Development_Best_Post_Recommendation, #Discord_베스트_포스트_추천_봇_만들기_시리즈_5편_클라우드와_크론잡을_통해_24시간_서비스_생성하기                             |
-| [[Projects/Library/300/330/330.20/330.20 e\|330.20 e]] | #Applications, #Backend, #Discord_AI_Bot_Development_Best_Post_Recommendation, #Discord_베스트_포스트_추천_봇_만들기_시리즈_4편_프로덕션_올리기전_시크릿_제거하기_bfg-repo-cleaner                     |
-| [[Projects/Library/300/330/330.20/330.20 d\|330.20 d]] | #Applications, #Backend, #Discord_AI_Bot_Development_Best_Post_Recommendation, #Discord_베스트_포스트_추천_봇_만들기_시리즈_3편_파일_읽기_쓰기와_디스코드_봇_커맨드_구현하기                               |
+| POSTS                                                     | Tags                                                                                                                                           |
+| --------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
+| [[Projects/Library/Manage/Hompage\|Hompage]]           | #Library, #Rules                                                                                                                               |
+| [[Projects/Library/300/330/330.20/330.20 a\|330.20 a]] | #Discord_AI_Bot_Development_Best_Post_Recommendation, #Discord_베스트_포스트_추천_봇_만들기_시리즈                                                            |
+| [[Projects/Library/300/330/330.20/330.20 c\|330.20 c]] | #Discord_AI_Bot_Development_Best_Post_Recommendation, #Discord_베스트_포스트_추천_봇_만들기_시리즈_2편_Mock데이터로_10008에러_데이터도_수집하기_그_와중에_또다시_발생한_모든메시지0인_예외_케이스 |
+| [[Projects/Library/300/330/330.20/330.20 f\|330.20 f]] | #Discord_AI_Bot_Development_Best_Post_Recommendation, #Discord_베스트_포스트_추천_봇_만들기_시리즈_5편_클라우드와_크론잡을_통해_24시간_서비스_생성하기                             |
+| [[Projects/Library/300/330/330.20/330.20 e\|330.20 e]] | #Discord_AI_Bot_Development_Best_Post_Recommendation, #Discord_베스트_포스트_추천_봇_만들기_시리즈_4편_프로덕션_올리기전_시크릿_제거하기_bfg-repo-cleaner                     |
 
 { .block-language-dataview}
 
