@@ -1,11 +1,37 @@
 ---
-{"dg-publish":true,"permalink":"/projects/library/manage/history-of-library/","dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-31T20:39:20.070+09:00","updated":"2024-06-23T21:18:04.429+09:00"}
+{"dg-publish":true,"permalink":"/projects/library/manage/history-of-library/","dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-31T20:39:20.070+09:00","updated":"2024-11-08T12:18:40.307+09:00"}
 ---
 
 #History #Versioning_Strategy 
 # Versioning Standard
 [[Projects/Library/000/020/020.00/020.00 c\|020.00 c]]
 
+
+# 0.15.2-FB
+#### DateView 테이블 표기 방법 변경
+
+**이전 기본값**
+TABLE join(file.tags, ", ") AS Tags
+FROM "Projects/Library"
+WHERE dg-publish = true
+SORT file.mtime DESC
+LIMIT 5
+
+**컬럼이름 default File에서 POSTS로변경**
+TABLE WITHOUT ID
+file.link AS "POSTS", join(file.tags, ", ") AS Tags
+FROM "Projects/Library"
+WHERE dg-publish = true
+SORT file.mtime DESC
+LIMIT 5
+
+**출력되는 태그를 모든태그에서 직접적인 2가지만 출력으로 변경**
+TABLE WITHOUT ID
+file.link AS "POSTS", join(slice(file.tags, -2), ", ") AS Tags
+FROM "Projects/Library"
+WHERE dg-publish = true
+SORT file.mtime DESC
+LIMIT 5
 
 # 0.15.1-FB
 ## Dataview tag표기방식을 여러줄에서 inline 한줄로 변경

@@ -5,13 +5,13 @@
 #hompage #Library #Rules
 # New Books
 
-| POSTS                                                     | Tags                                                                                                                                           |
-| --------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
-| [[Projects/Library/Manage/Hompage\|Hompage]]           | #Library, #Rules                                                                                                                               |
-| [[Projects/Library/300/330/330.20/330.20 a\|330.20 a]] | #Discord_AI_Bot_Development_Best_Post_Recommendation, #Discord_베스트_포스트_추천_봇_만들기_시리즈                                                            |
-| [[Projects/Library/300/330/330.20/330.20 c\|330.20 c]] | #Discord_AI_Bot_Development_Best_Post_Recommendation, #Discord_베스트_포스트_추천_봇_만들기_시리즈_2편_Mock데이터로_10008에러_데이터도_수집하기_그_와중에_또다시_발생한_모든메시지0인_예외_케이스 |
-| [[Projects/Library/300/330/330.20/330.20 f\|330.20 f]] | #Discord_AI_Bot_Development_Best_Post_Recommendation, #Discord_베스트_포스트_추천_봇_만들기_시리즈_5편_클라우드와_크론잡을_통해_24시간_서비스_생성하기                             |
-| [[Projects/Library/300/330/330.20/330.20 e\|330.20 e]] | #Discord_AI_Bot_Development_Best_Post_Recommendation, #Discord_베스트_포스트_추천_봇_만들기_시리즈_4편_프로덕션_올리기전_시크릿_제거하기_bfg-repo-cleaner                     |
+| POSTS                                                                 | Tags                                                                                                                                           |
+| --------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
+| [[Projects/Library/Manage/History of Library\|History of Library]] | #History, #Versioning_Strategy                                                                                                                 |
+| [[Projects/Library/Manage/Hompage\|Hompage]]                       | #Library, #Rules                                                                                                                               |
+| [[Projects/Library/300/330/330.20/330.20 a\|330.20 a]]             | #Discord_AI_Bot_Development_Best_Post_Recommendation, #Discord_베스트_포스트_추천_봇_만들기_시리즈                                                            |
+| [[Projects/Library/300/330/330.20/330.20 c\|330.20 c]]             | #Discord_AI_Bot_Development_Best_Post_Recommendation, #Discord_베스트_포스트_추천_봇_만들기_시리즈_2편_Mock데이터로_10008에러_데이터도_수집하기_그_와중에_또다시_발생한_모든메시지0인_예외_케이스 |
+| [[Projects/Library/300/330/330.20/330.20 f\|330.20 f]]             | #Discord_AI_Bot_Development_Best_Post_Recommendation, #Discord_베스트_포스트_추천_봇_만들기_시리즈_5편_클라우드와_크론잡을_통해_24시간_서비스_생성하기                             |
 
 { .block-language-dataview}
 
