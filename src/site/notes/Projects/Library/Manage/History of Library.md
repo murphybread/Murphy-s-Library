@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/projects/library/manage/history-of-library/","dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-31T20:39:20.070+09:00","updated":"2024-11-08T12:18:40.307+09:00"}
+{"dg-publish":true,"permalink":"/projects/library/manage/history-of-library/","dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-31T20:39:20.070+09:00","updated":"2024-11-08T12:49:57.752+09:00"}
 ---
 
 #History #Versioning_Strategy 
@@ -33,6 +33,15 @@ WHERE dg-publish = true
 SORT file.mtime DESC
 LIMIT 5
 
+출력되는 파일중 긴이름인 `Hompage`나 `History of Library`는 제외
+TABLE WITHOUT ID
+file.link AS "POSTS", join(slice(file.tags, -2), ", ") AS Tags
+FROM "Projects/Library"
+WHERE dg-publish = true
+AND file.name != "History of Library"
+AND file.name != "Hompage"
+SORT file.mtime DESC
+LIMIT 5
 # 0.15.1-FB
 ## Dataview tag표기방식을 여러줄에서 inline 한줄로 변경
 
