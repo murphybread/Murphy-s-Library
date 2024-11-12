@@ -5,13 +5,13 @@
 #hompage #Library #Rules
 # New Books
 
-| POSTS                                                     | Tags                                                                                                                                           |
-| --------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
-| [[Projects/Library/000/090/090.10/090.10 d\|090.10 d]] | #Activity, #우아한테크코스_프리코스_3주차_회고록_얼마나_목표를_완료했는지                                                                                                 |
-| [[Projects/Library/000/090/090.10/090.10 c\|090.10 c]] | #Activity, #우아한테크코스_프리코스_2주차_회고록                                                                                                               |
-| [[Projects/Library/300/330/330.20/330.20 a\|330.20 a]] | #Discord_AI_Bot_Development_Best_Post_Recommendation, #Discord_베스트_포스트_추천_봇_만들기_시리즈                                                            |
-| [[Projects/Library/300/330/330.20/330.20 c\|330.20 c]] | #Discord_AI_Bot_Development_Best_Post_Recommendation, #Discord_베스트_포스트_추천_봇_만들기_시리즈_2편_Mock데이터로_10008에러_데이터도_수집하기_그_와중에_또다시_발생한_모든메시지0인_예외_케이스 |
-| [[Projects/Library/300/330/330.20/330.20 f\|330.20 f]] | #Discord_AI_Bot_Development_Best_Post_Recommendation, #Discord_베스트_포스트_추천_봇_만들기_시리즈_5편_클라우드와_크론잡을_통해_24시간_서비스_생성하기                             |
+| POSTS                                                     | Tags                                           |
+| --------------------------------------------------------- | ---------------------------------------------- |
+| [[Projects/Library/400/430/430.20/430.20 a\|430.20 a]] | #Gradio, #Gradio_Quick_Tutorial                |
+| [[Projects/Library/000/010/010.20/010.20\|010.20]]     | #Develop_Knowledge, #Diagram_UML               |
+| [[Projects/Library/000/010/010.20/010.20 a\|010.20 a]] | #Diagram_UML, #UML_Diagrams                    |
+| [[Projects/Library/000/090/090.10/090.10 d\|090.10 d]] | #Activity, #우아한테크코스_프리코스_3주차_회고록_얼마나_목표를_완료했는지 |
+| [[Projects/Library/000/090/090.10/090.10 c\|090.10 c]] | #Activity, #우아한테크코스_프리코스_2주차_회고록               |
 
 { .block-language-dataview}
 
