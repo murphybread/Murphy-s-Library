@@ -5,13 +5,13 @@
 #hompage #Library #Rules
 # New Books
 
-| POSTS                                                     | Tags                                           |
-| --------------------------------------------------------- | ---------------------------------------------- |
-| [[Projects/Library/400/430/430.20/430.20 a\|430.20 a]] | #Gradio, #Gradio_Quick_Tutorial                |
-| [[Projects/Library/000/010/010.20/010.20\|010.20]]     | #Develop_Knowledge, #Diagram_UML               |
-| [[Projects/Library/000/010/010.20/010.20 a\|010.20 a]] | #Diagram_UML, #UML_Diagrams                    |
-| [[Projects/Library/000/090/090.10/090.10 d\|090.10 d]] | #Activity, #우아한테크코스_프리코스_3주차_회고록_얼마나_목표를_완료했는지 |
-| [[Projects/Library/000/090/090.10/090.10 c\|090.10 c]] | #Activity, #우아한테크코스_프리코스_2주차_회고록               |
+| POSTS                                                                 | Tags                             |
+| --------------------------------------------------------------------- | -------------------------------- |
+| [[Projects/Library/KR/Call Number Index KR\|Call Number Index KR]] |                                  |
+| [[Projects/Library/Entrance/420.00 a\|420.00 a]]                   | #SLO, #SLI                       |
+| [[Projects/Library/000/000\|000]]                                  | #IT_Knowledge                    |
+| [[Projects/Library/400/430/430.20/430.20 a\|430.20 a]]             | #Gradio, #Gradio_Quick_Tutorial  |
+| [[Projects/Library/000/010/010.20/010.20\|010.20]]                 | #Develop_Knowledge, #Diagram_UML |
 
 { .block-language-dataview}
 
@@ -122,7 +122,7 @@
 			- [[Projects/Library/400/410/410.30/410.30 a\|410.30 a]] Fundamental Calculus
 	- [[Projects/Library/400/420/420\|420]] Data
 		- [[Projects/Library/400/420/420.00/420.00\|420.00]]  Structured Data
-			- [[Projects/Library/400/420/420.00/420.00 a\|420.00 a]] Numerical Data (Continuous and Discrete)
+			- [[Projects/Library/Entrance/420.00 a\|420.00 a]] Numerical Data (Continuous and Discrete)
 			- [[Projects/Library/400/420/420.00/420.00 b\|420.00 b]] Categorical Data (Ordinal and Nominal)
 	- [[Projects/Library/400/430/430\|430]] ML Development Tools
 		- [[Projects/Library/400/430/430.00/430.00\|430.00]] LangChain
