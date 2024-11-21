@@ -5,13 +5,13 @@
 #hompage #Library #Rules
 # New Books
 
-| POSTS                                                                 | Tags                             |
-| --------------------------------------------------------------------- | -------------------------------- |
-| [[Projects/Library/KR/Call Number Index KR\|Call Number Index KR]] |                                  |
-| [[Projects/Library/Entrance/420.00 a\|420.00 a]]                   | #SLO, #SLI                       |
-| [[Projects/Library/000/000\|000]]                                  | #IT_Knowledge                    |
-| [[Projects/Library/400/430/430.20/430.20 a\|430.20 a]]             | #Gradio, #Gradio_Quick_Tutorial  |
-| [[Projects/Library/000/010/010.20/010.20\|010.20]]                 | #Develop_Knowledge, #Diagram_UML |
+| POSTS                                                                 | Tags                   |
+| --------------------------------------------------------------------- | ---------------------- |
+| [[Projects/Library/KR/400/410/410.10/KR-410.10 a\|KR-410.10 a]]    | #성장겨험, #개인학습과회고        |
+| [[Projects/Library/KR/400/410/410.10/KR-410.10\|KR-410.10]]        | #성장겨험, #개인학습과회고        |
+| [[Projects/Library/KR/Call Number Index KR\|Call Number Index KR]] |                        |
+| [[Projects/Library/KR/400/410/410.00/KR-410.00\|KR-410.00]]        | #개인학습과회고, #우아한테크코스프리코스 |
+| [[Projects/Library/KR/100/110/KR-110\|KR-110]]                     | #프로젝트경험, #개인프로젝트       |
 
 { .block-language-dataview}
 

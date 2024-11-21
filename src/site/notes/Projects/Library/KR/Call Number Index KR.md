@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/projects/library/kr/call-number-index-kr/","dgPassFrontmatter":true,"noteIcon":"0","created":"2024-11-12T15:16:03.499+09:00","updated":"2024-11-20T23:19:22.493+09:00"}
+{"dg-publish":true,"permalink":"/projects/library/kr/call-number-index-kr/","dgPassFrontmatter":true,"noteIcon":"0","created":"2024-11-12T15:16:03.499+09:00","updated":"2024-11-21T13:03:17.074+09:00"}
 ---
 
 [[KR-000\|KR-000]] 기술 스택
@@ -23,8 +23,14 @@
 		- [[Projects/Library/KR/100/110/110.00/KR-110.00 c\|KR-110.00 c]] 디스코드 베스트 포스트 추천 봇 만들기 3편 - 파일 읽기 쓰기와 디스코드 봇 커맨드 구현하기
 		- [[Projects/Library/KR/100/110/110.00/KR-110.00 d\|KR-110.00 d]] 디스코드 베스트 포스트 추천 봇 만들기 4편 - 프로덕션 올리기전 시크릿 제거하기 bfg-repo-cleaner 와 커밋이 2배로 늘어나버린 문제
 		- [[Projects/Library/KR/100/110/110.00/KR-110.00 e\|KR-110.00 e]] 디스코드 베스트 포스트 추천 봇 만들기 5편 - 클라우드와 크론잡을 통해 24시간 서비스 생성하기
+	- 개인 사서 LLM
+	- IT 블로그
+	- 편의점 프로그램
 - [[KR-120\|KR-120]] 팀 프로젝트
+	- 국비학원 졸업프로젝트 eks jenkins
 - [[KR-130\|KR-130]] 기업 프로젝트
+	- 깃랩 HA 업그레이드
+	- 은행권 파이프라인 고도화
 [[KR-200\|KR-200]] 문제해결 경험
 - [[KR-210\|KR-210]] 트러블슈팅
 [[KR-300\|KR-300]] 협업 경험
@@ -37,6 +43,8 @@
 		- [[Projects/Library/KR/400/410/410.00/KR-410.00 b\|KR-410.00 b]] 우아한테크코스 프리코스 7기 2주차 - 목표 수정과 depth 및 eslint
 		- [[Projects/Library/KR/400/410/410.00/KR-410.00 c\|KR-410.00 c]] 우아한테크코스 프리코스 7기 3주차 - 목표 수정과 Jest
 		- [[Projects/Library/KR/400/410/410.00/KR-410.00 d\|KR-410.00 d]] 우아한테크코스 프리코스 7기 4주차 - 어려운 난이도 일단 구현하기 및 테스트케이스 분석하기
+	- [[Projects/Library/KR/400/410/410.10/KR-410.10\|KR-410.10]] 개발자로서 한 번쯤 생각해볼 고민들
+		- [[Projects/Library/KR/400/410/410.10/KR-410.10 a\|KR-410.10 a]] 코드를 작성하는 역량과 읽고 분석하는 역량중 더 중요한 것은
 - [[Projects/Library/KR/400/420/KR-420\|KR-420]] 시스템 설계와 운영 개선
 	- [[Projects/Library/KR/400/420/420.00/KR-420.00\|KR-420.00]] 운영 지표와 성능 관리
 		- [[Projects/Library/KR/400/420/420.00/KR-420.00 a\|KR-420.00 a]] SLA, SLO, SLI의 차이와 고려할 점
