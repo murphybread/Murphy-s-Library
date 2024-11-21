@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/projects/library/kr/call-number-index-kr/","dgPassFrontmatter":true,"noteIcon":"0","created":"2024-11-12T15:16:03.499+09:00","updated":"2024-11-21T13:36:43.449+09:00"}
+{"dg-publish":true,"permalink":"/projects/library/kr/call-number-index-kr/","dgPassFrontmatter":true,"noteIcon":"0","created":"2024-11-12T15:16:03.499+09:00","updated":"2024-11-21T13:40:56.043+09:00"}
 ---
 
 [[KR-000\|KR-000]] 기술 스택
@@ -10,7 +10,8 @@
 	- [[KR-010.30\|KR-010.30]] Python
 	- [[KR-010.40\|KR-010.40]] Node
 	- [[KR-010.50\|KR-010.50]] Express
-	- [[KR-010.60\|KR-010.60]] Jest
+	- [[Projects/Library/KR/KR-010.60\|KR-010.60]] Jest
+		- [[Projects/Library/KR/KR-010.60 a\|KR-010.60 a]] Jest를 사용하는 이유와 방식 정리
 - [[KR-020\|KR-020]] Ops
 	- [[KR-020.00\|KR-020.00]] Git
 	- [[KR-020.10\|KR-020.10]] Docker
