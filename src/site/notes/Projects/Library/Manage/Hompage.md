@@ -5,13 +5,13 @@
 #hompage #Library #Rules
 # New Books
 
-| POSTS                                                                 | Tags        |
-| --------------------------------------------------------------------- | ----------- |
-| [[Projects/Library/KR/KR-000\|KR-000]]                             | #기술스택       |
-| [[Projects/Library/KR/KR-010\|KR-010]]                             | #기술스택, #Dev |
-| [[Projects/Library/KR/KR-010.60\|KR-010.60]]                       | #Dev, #Jest |
-| [[Projects/Library/KR/KR-010.60 a\|KR-010.60 a]]                   | #Dev, #Jest |
-| [[Projects/Library/KR/Call Number Index KR\|Call Number Index KR]] |             |
+| POSTS                                                       | Tags        |
+| ----------------------------------------------------------- | ----------- |
+| [[Projects/Library/Manage/note-template\|note-template]] | #A          |
+| [[Projects/Library/KR/KR-000\|KR-000]]                   | #기술스택       |
+| [[Projects/Library/KR/KR-010\|KR-010]]                   | #기술스택, #Dev |
+| [[Projects/Library/KR/KR-010.60\|KR-010.60]]             | #Dev, #Jest |
+| [[Projects/Library/KR/KR-010.60 a\|KR-010.60 a]]         | #Dev, #Jest |
 
 { .block-language-dataview}
 

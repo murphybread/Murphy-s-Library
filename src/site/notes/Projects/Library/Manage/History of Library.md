@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/projects/library/manage/history-of-library/","dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-31T20:39:20.070+09:00","updated":"2024-11-08T12:49:57.752+09:00"}
+{"dg-publish":true,"permalink":"/projects/library/manage/history-of-library/","dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-31T20:39:20.070+09:00","updated":"2024-11-21T15:10:45.706+09:00"}
 ---
 
 #History #Versioning_Strategy 
@@ -467,22 +467,15 @@ So I modify this part. first get distinguish body. by the split function divide 
 
 ## **Template 1: For Content with a Source**
 
-<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/projects/library/manage/template-source/" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
+<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/projects/library/manage/note-template/" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
 
 
 
 
-# Title
-#Tag
+현재 노트: [[<% tp.file.title %>\|<% tp.file.title %>]]
+상위 분류:
 
-
-## Audience
-Target audience or group
-## Features
-Key functionalities and benefits
-## Usage
-Step-by-step implementation guide.
-
+#A
 
 </div></div>
 
@@ -490,8 +483,7 @@ Step-by-step implementation guide.
 ## **Template 2: For Content without a Source**
 
 
-<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/projects/library/manage/template-no-source/" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
-
+<div class="transclusion internal-embed is-loaded"><div class="markdown-embed">
 
 
 
