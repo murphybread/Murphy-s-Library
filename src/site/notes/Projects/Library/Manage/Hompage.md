@@ -5,13 +5,13 @@
 #hompage #Library #Rules
 # New Books
 
-| POSTS                                                                 | Tags                   |
-| --------------------------------------------------------------------- | ---------------------- |
-| [[Projects/Library/KR/400/410/410.10/KR-410.10 a\|KR-410.10 a]]    | #성장겨험, #개인학습과회고        |
-| [[Projects/Library/KR/400/410/410.10/KR-410.10\|KR-410.10]]        | #성장겨험, #개인학습과회고        |
-| [[Projects/Library/KR/Call Number Index KR\|Call Number Index KR]] |                        |
-| [[Projects/Library/KR/400/410/410.00/KR-410.00\|KR-410.00]]        | #개인학습과회고, #우아한테크코스프리코스 |
-| [[Projects/Library/KR/100/110/KR-110\|KR-110]]                     | #프로젝트경험, #개인프로젝트       |
+| POSTS                                                                 | Tags                    |
+| --------------------------------------------------------------------- | ----------------------- |
+| [[Projects/Library/KR/400/420/420.00/KR-420.00 a\|KR-420.00 a]]    | #SLO, #SLI              |
+| [[Projects/Library/KR/400/420/420.00/KR-420.00\|KR-420.00]]        | #시스템설계와운영개선, #운영지표와성능관리 |
+| [[Projects/Library/KR/400/420/KR-420\|KR-420]]                     | #성장경험, #시스템설계와운영개선      |
+| [[Projects/Library/KR/Call Number Index KR\|Call Number Index KR]] |                         |
+| [[Projects/Library/KR/400/KR-400\|KR-400]]                         |                         |
 
 { .block-language-dataview}
 

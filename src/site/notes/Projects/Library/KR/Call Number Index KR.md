@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/projects/library/kr/call-number-index-kr/","dgPassFrontmatter":true,"noteIcon":"0","created":"2024-11-12T15:16:03.499+09:00","updated":"2024-11-21T13:03:17.074+09:00"}
+{"dg-publish":true,"permalink":"/projects/library/kr/call-number-index-kr/","dgPassFrontmatter":true,"noteIcon":"0","created":"2024-11-12T15:16:03.499+09:00","updated":"2024-11-21T13:36:43.449+09:00"}
 ---
 
 [[KR-000\|KR-000]] 기술 스택
@@ -36,7 +36,7 @@
 [[KR-300\|KR-300]] 협업 경험
 - [[KR-310\|KR-310]] 개발자간 협업
 - [[KR-320\|KR-320]] 다분야 협업
-[[KR-400\|KR-400]] 성장 경험
+[[Projects/Library/KR/400/KR-400\|KR-400]] 성장 경험
 - [[Projects/Library/KR/400/410/KR-410\|KR-410]] 개인 학습과 회고
 	- [[Projects/Library/KR/400/410/410.00/KR-410.00\|KR-410.00]] 우아한테크코스 프리코스 7기 회고록 1개월 기록
 		- [[Projects/Library/KR/400/410/410.00/KR-410.00 a\|KR-410.00 a]] 우아한테크코스 프리코스 7기 1주차 - 기능 단위 목록과 커밋 메시지
@@ -48,7 +48,6 @@
 - [[Projects/Library/KR/400/420/KR-420\|KR-420]] 시스템 설계와 운영 개선
 	- [[Projects/Library/KR/400/420/420.00/KR-420.00\|KR-420.00]] 운영 지표와 성능 관리
 		- [[Projects/Library/KR/400/420/420.00/KR-420.00 a\|KR-420.00 a]] SLA, SLO, SLI의 차이와 고려할 점
-- [[KR-430\|KR-430]] 협업과 요구사항
 
 [[KR-P-000\|KR-P-000]] 교훈
 - [[KR-P-000 a\|KR-P-000 a]]
