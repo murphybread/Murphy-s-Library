@@ -5,13 +5,13 @@
 #hompage #Library #Rules
 # New Books
 
-| POSTS                                                       | Tags        |
-| ----------------------------------------------------------- | ----------- |
-| [[Projects/Library/Manage/note-template\|note-template]] | #A          |
-| [[Projects/Library/KR/KR-000\|KR-000]]                   | #기술스택       |
-| [[Projects/Library/KR/KR-010\|KR-010]]                   | #기술스택, #Dev |
-| [[Projects/Library/KR/KR-010.60\|KR-010.60]]             | #Dev, #Jest |
-| [[Projects/Library/KR/KR-010.60 a\|KR-010.60 a]]         | #Dev, #Jest |
+| POSTS                                                              | Tags        |
+| ------------------------------------------------------------------ | ----------- |
+| [[Projects/Library/Manage/note-template\|note-template]]        | #A          |
+| [[Projects/Library/KR/000/KR-000\|KR-000]]                      | #기술스택       |
+| [[Projects/Library/KR/000/010/KR-010\|KR-010]]                  | #기술스택, #Dev |
+| [[Projects/Library/KR/000/010/010.60/KR-010.60\|KR-010.60]]     | #Dev, #Jest |
+| [[Projects/Library/KR/000/010/010.60/KR-010.60 a\|KR-010.60 a]] | #Dev, #Jest |
 
 { .block-language-dataview}
 
@@ -22,16 +22,16 @@
 
 
 
-[[Projects/Library/KR/KR-000\|KR-000]] 기술 스택
-- [[Projects/Library/KR/KR-010\|KR-010]] Dev
+[[Projects/Library/KR/000/KR-000\|KR-000]] 기술 스택
+- [[Projects/Library/KR/000/010/KR-010\|KR-010]] Dev
 	- [[KR-010.00\|KR-010.00]] React, Next
 	- [[KR-010.10\|KR-010.10]] HTML,CSS,JavaScript
 	- [[KR-010.20\|KR-010.20]] TypeScript
 	- [[KR-010.30\|KR-010.30]] Python
 	- [[KR-010.40\|KR-010.40]] Node
 	- [[KR-010.50\|KR-010.50]] Express
-	- [[Projects/Library/KR/KR-010.60\|KR-010.60]] Jest
-		- [[Projects/Library/KR/KR-010.60 a\|KR-010.60 a]] 신입 개발자가 정리한 Jest 테스트 사용 예시와 환경 구성
+	- [[Projects/Library/KR/000/010/010.60/KR-010.60\|KR-010.60]] Jest
+		- [[Projects/Library/KR/000/010/010.60/KR-010.60 a\|KR-010.60 a]] 신입 개발자가 정리한 Jest 테스트 사용 예시와 환경 구성
 - [[KR-020\|KR-020]] Ops
 	- [[KR-020.00\|KR-020.00]] Git
 	- [[KR-020.10\|KR-020.10]] Docker
