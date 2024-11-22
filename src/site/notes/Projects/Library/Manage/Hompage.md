@@ -5,13 +5,13 @@
 #hompage #Library #Rules
 # New Books
 
-| POSTS                                                              | Tags        |
-| ------------------------------------------------------------------ | ----------- |
-| [[Projects/Library/Manage/note-template\|note-template]]        | #A          |
-| [[Projects/Library/KR/000/KR-000\|KR-000]]                      | #기술스택       |
-| [[Projects/Library/KR/000/010/KR-010\|KR-010]]                  | #기술스택, #Dev |
-| [[Projects/Library/KR/000/010/010.60/KR-010.60\|KR-010.60]]     | #Dev, #Jest |
-| [[Projects/Library/KR/000/010/010.60/KR-010.60 a\|KR-010.60 a]] | #Dev, #Jest |
+| POSTS                                                              | Tags                   |
+| ------------------------------------------------------------------ | ---------------------- |
+| [[Projects/Library/KR/400/410/410.00/KR-410.00 d\|KR-410.00 d]] | #개인학습과회고, #우아한테크코스프리코스 |
+| [[Projects/Library/KR/400/410/410.00/KR-410.00 a\|KR-410.00 a]] | #개인학습과회고, #우아한테크코스프리코스 |
+| [[Projects/Library/KR/400/410/410.00/KR-410.00 b\|KR-410.00 b]] | #개인학습과회고, #우아한테크코스프리코스 |
+| [[Projects/Library/KR/400/410/410.00/KR-410.00 c\|KR-410.00 c]] | #개인학습과회고, #우아한테크코스프리코스 |
+| [[Projects/Library/KR/100/110/KR-110\|KR-110]]                  | #프로젝트경험, #개인프로젝트       |
 
 { .block-language-dataview}
 
