@@ -1,11 +1,12 @@
 ---
-{"dg-publish":true,"permalink":"/projects/library/kr/call-number-index-kr/","dgPassFrontmatter":true,"noteIcon":"0","created":"2024-11-12T15:16:03.499+09:00","updated":"2024-11-21T14:57:10.567+09:00"}
+{"dg-publish":true,"permalink":"/projects/library/kr/call-number-index-kr/","dgPassFrontmatter":true,"noteIcon":"0","created":"2024-11-12T15:16:03.499+09:00","updated":"2024-11-24T00:06:16.651+09:00"}
 ---
 
 [[Projects/Library/KR/000/KR-000\|KR-000]] 기술 스택
 - [[Projects/Library/KR/000/010/KR-010\|KR-010]] Dev
 	- [[KR-010.00\|KR-010.00]] React, Next
-	- [[KR-010.10\|KR-010.10]] HTML,CSS,JavaScript
+	- [[Projects/Library/KR/000/010/010.00/KR-010.10\|KR-010.10]] HTML,CSS,JavaScript
+		- [[Projects/Library/KR/000/010/010.00/KR-010.10 a\|KR-010.10 a]] styled-components 간단 소개
 	- [[KR-010.20\|KR-010.20]] TypeScript
 	- [[KR-010.30\|KR-010.30]] Python
 	- [[KR-010.40\|KR-010.40]] Node
@@ -14,6 +15,7 @@
 		- [[Projects/Library/KR/000/010/010.60/KR-010.60 a\|KR-010.60 a]] 신입 개발자가 정리한 Jest 테스트 사용 예시와 환경 구성
 - [[KR-020\|KR-020]] Ops
 	- [[KR-020.00\|KR-020.00]] Git
+		- [[KR-020.00 a\|KR-020.00 a]] 
 	- [[KR-020.10\|KR-020.10]] Docker
 	- [[KR-020.20\|KR-020.20]] AWS, GCP Cloud
 [[Projects/Library/KR/100/KR-100\|KR-100]] 프로젝트 경험
