@@ -5,13 +5,13 @@
 #hompage #Library #Rules
 # New Books
 
-| POSTS                                                              | Tags                   |
-| ------------------------------------------------------------------ | ---------------------- |
-| [[Projects/Library/KR/400/410/410.00/KR-410.00 d\|KR-410.00 d]] | #개인학습과회고, #우아한테크코스프리코스 |
-| [[Projects/Library/KR/400/410/410.00/KR-410.00 a\|KR-410.00 a]] | #개인학습과회고, #우아한테크코스프리코스 |
-| [[Projects/Library/KR/400/410/410.00/KR-410.00 b\|KR-410.00 b]] | #개인학습과회고, #우아한테크코스프리코스 |
-| [[Projects/Library/KR/400/410/410.00/KR-410.00 c\|KR-410.00 c]] | #개인학습과회고, #우아한테크코스프리코스 |
-| [[Projects/Library/KR/100/110/KR-110\|KR-110]]                  | #프로젝트경험, #개인프로젝트       |
+| POSTS                                                                 | Tags                       |
+| --------------------------------------------------------------------- | -------------------------- |
+| [[Projects/Library/KR/Call Number Index KR\|Call Number Index KR]] |                            |
+| [[Projects/Library/KR/000/010/010.00/KR-010.10 a\|KR-010.10 a]]    | #CSS, #styled_comonents    |
+| [[Projects/Library/KR/000/010/010.00/KR-010.10\|KR-010.10]]        | #Dev, #HTML_CSS_JavaScript |
+| [[Projects/Library/KR/400/410/410.00/KR-410.00 d\|KR-410.00 d]]    | #개인학습과회고, #우아한테크코스프리코스     |
+| [[Projects/Library/KR/400/410/410.00/KR-410.00 a\|KR-410.00 a]]    | #개인학습과회고, #우아한테크코스프리코스     |
 
 { .block-language-dataview}
 
@@ -25,7 +25,8 @@
 [[Projects/Library/KR/000/KR-000\|KR-000]] 기술 스택
 - [[Projects/Library/KR/000/010/KR-010\|KR-010]] Dev
 	- [[KR-010.00\|KR-010.00]] React, Next
-	- [[KR-010.10\|KR-010.10]] HTML,CSS,JavaScript
+	- [[Projects/Library/KR/000/010/010.00/KR-010.10\|KR-010.10]] HTML,CSS,JavaScript
+		- [[Projects/Library/KR/000/010/010.00/KR-010.10 a\|KR-010.10 a]] styled-components 간단 소개
 	- [[KR-010.20\|KR-010.20]] TypeScript
 	- [[KR-010.30\|KR-010.30]] Python
 	- [[KR-010.40\|KR-010.40]] Node
@@ -34,6 +35,7 @@
 		- [[Projects/Library/KR/000/010/010.60/KR-010.60 a\|KR-010.60 a]] 신입 개발자가 정리한 Jest 테스트 사용 예시와 환경 구성
 - [[KR-020\|KR-020]] Ops
 	- [[KR-020.00\|KR-020.00]] Git
+		- [[KR-020.00 a\|KR-020.00 a]] 
 	- [[KR-020.10\|KR-020.10]] Docker
 	- [[KR-020.20\|KR-020.20]] AWS, GCP Cloud
 [[Projects/Library/KR/100/KR-100\|KR-100]] 프로젝트 경험
