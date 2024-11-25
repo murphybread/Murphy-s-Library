@@ -5,13 +5,13 @@
 #hompage #Library #Rules
 # New Books
 
-| POSTS                                                                 | Tags                       |
-| --------------------------------------------------------------------- | -------------------------- |
-| [[Projects/Library/KR/Call Number Index KR\|Call Number Index KR]] |                            |
-| [[Projects/Library/KR/000/010/010.00/KR-010.10 a\|KR-010.10 a]]    | #CSS, #styled_comonents    |
-| [[Projects/Library/KR/000/010/010.00/KR-010.10\|KR-010.10]]        | #Dev, #HTML_CSS_JavaScript |
-| [[Projects/Library/KR/400/410/410.00/KR-410.00 d\|KR-410.00 d]]    | #개인학습과회고, #우아한테크코스프리코스     |
-| [[Projects/Library/KR/400/410/410.00/KR-410.00 a\|KR-410.00 a]]    | #개인학습과회고, #우아한테크코스프리코스     |
+| POSTS                                                                 | Tags                    |
+| --------------------------------------------------------------------- | ----------------------- |
+| [[Projects/Library/KR/000/020/020.00/KR-020.00 a\|KR-020.00 a]]    | #Ops, #Git              |
+| [[Projects/Library/KR/000/020/020.00/KR-020.00\|KR-020.00]]        | #Ops, #Git              |
+| [[Projects/Library/KR/000/020/KR-020\|KR-020]]                     | #기술스택, #Ops             |
+| [[Projects/Library/KR/Call Number Index KR\|Call Number Index KR]] |                         |
+| [[Projects/Library/KR/000/010/010.00/KR-010.10 a\|KR-010.10 a]]    | #CSS, #styled_comonents |
 
 { .block-language-dataview}
 
@@ -33,9 +33,9 @@
 	- [[KR-010.50\|KR-010.50]] Express
 	- [[Projects/Library/KR/000/010/010.60/KR-010.60\|KR-010.60]] Jest
 		- [[Projects/Library/KR/000/010/010.60/KR-010.60 a\|KR-010.60 a]] 신입 개발자가 정리한 Jest 테스트 사용 예시와 환경 구성
-- [[KR-020\|KR-020]] Ops
-	- [[KR-020.00\|KR-020.00]] Git
-		- [[KR-020.00 a\|KR-020.00 a]] 
+- [[Projects/Library/KR/000/020/KR-020\|KR-020]] Ops
+	- [[Projects/Library/KR/000/020/020.00/KR-020.00\|KR-020.00]] Git
+		- [[Projects/Library/KR/000/020/020.00/KR-020.00 a\|KR-020.00 a]] Git 특정 환경의 파일만 커밋없이 제외하기
 	- [[KR-020.10\|KR-020.10]] Docker
 	- [[KR-020.20\|KR-020.20]] AWS, GCP Cloud
 [[Projects/Library/KR/100/KR-100\|KR-100]] 프로젝트 경험

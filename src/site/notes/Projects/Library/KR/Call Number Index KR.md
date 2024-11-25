@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/projects/library/kr/call-number-index-kr/","dgPassFrontmatter":true,"noteIcon":"0","created":"2024-11-12T15:16:03.499+09:00","updated":"2024-11-24T00:06:16.651+09:00"}
+{"dg-publish":true,"permalink":"/projects/library/kr/call-number-index-kr/","dgPassFrontmatter":true,"noteIcon":"0","created":"2024-11-12T15:16:03.499+09:00","updated":"2024-11-25T14:10:37.943+09:00"}
 ---
 
 [[Projects/Library/KR/000/KR-000\|KR-000]] 기술 스택
@@ -13,9 +13,9 @@
 	- [[KR-010.50\|KR-010.50]] Express
 	- [[Projects/Library/KR/000/010/010.60/KR-010.60\|KR-010.60]] Jest
 		- [[Projects/Library/KR/000/010/010.60/KR-010.60 a\|KR-010.60 a]] 신입 개발자가 정리한 Jest 테스트 사용 예시와 환경 구성
-- [[KR-020\|KR-020]] Ops
-	- [[KR-020.00\|KR-020.00]] Git
-		- [[KR-020.00 a\|KR-020.00 a]] 
+- [[Projects/Library/KR/000/020/KR-020\|KR-020]] Ops
+	- [[Projects/Library/KR/000/020/020.00/KR-020.00\|KR-020.00]] Git
+		- [[Projects/Library/KR/000/020/020.00/KR-020.00 a\|KR-020.00 a]] Git 특정 환경의 파일만 커밋없이 제외하기
 	- [[KR-020.10\|KR-020.10]] Docker
 	- [[KR-020.20\|KR-020.20]] AWS, GCP Cloud
 [[Projects/Library/KR/100/KR-100\|KR-100]] 프로젝트 경험
