@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/projects/library/kr/call-number-index-kr/","dgPassFrontmatter":true,"noteIcon":"0","created":"2024-11-12T15:16:03.499+09:00","updated":"2024-11-25T14:10:37.943+09:00"}
+{"dg-publish":true,"title":"Call Number Index KR","permalink":"/projects/library/kr/call-number-index-kr/","dgPassFrontmatter":true,"noteIcon":"0","created":"2024-11-12T15:16:03.499+09:00","updated":"2024-11-25T15:16:51.787+09:00"}
 ---
 
 [[Projects/Library/KR/000/KR-000\|KR-000]] 기술 스택
