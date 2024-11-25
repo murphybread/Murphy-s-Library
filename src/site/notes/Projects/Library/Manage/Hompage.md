@@ -5,13 +5,13 @@
 #hompage #Library #Rules
 # New Books
 
-| POSTS                    | Link                                                                  | Date       |
-| ------------------------ | --------------------------------------------------------------------- | ---------- |
-| Call Number Index KR     | [[Projects/Library/KR/Call Number Index KR\|Call Number Index KR]] | 2024-11-25 |
-| Git 특정 환경의 파일만 커밋없이 제외하기 | [[Projects/Library/KR/000/020/020.00/KR-020.00 a\|KR-020.00 a]]    | 2024-11-25 |
-| Git                      | [[Projects/Library/KR/000/020/020.00/KR-020.00\|KR-020.00]]        | 2024-11-25 |
-| Ops                      | [[Projects/Library/KR/000/020/KR-020\|KR-020]]                     | 2024-11-25 |
-| styled-components 간단 소개  | [[Projects/Library/KR/000/010/010.00/KR-010.10 a\|KR-010.10 a]]    | 2024-11-23 |
+| POSTS                                                | Link                                                                  | Date       |
+| ---------------------------------------------------- | --------------------------------------------------------------------- | ---------- |
+| 주간 회고                                                | [[Projects/Library/KR/P300/P310/KR-P-310\|KR-P-310]]               | 2024-11-25 |
+| 월간 회고                                                | [[Projects/Library/KR/P300/P320/KR-P-320\|KR-P-320]]               | 2024-11-25 |
+| 2024년11월3주차 회고: 우아한테크코스 프리코스 7기 정리, next 프레임워크 사용해보기 | [[Projects/Library/KR/P300/P310/KR-P-310 a\|KR-P-310 a]]           | 2024-11-25 |
+| Call Number Index KR                                 | [[Projects/Library/KR/Call Number Index KR\|Call Number Index KR]] | 2024-11-25 |
+| 회고                                                   | [[Projects/Library/KR/P300/KR-P-300\|KR-P-300]]                    | 2024-11-25 |
 
 { .block-language-dataview}
 
@@ -60,7 +60,7 @@
 - [[KR-310\|KR-310]] 개발자간 협업
 - [[KR-320\|KR-320]] 다분야 협업
 [[Projects/Library/KR/400/KR-400\|KR-400]] 성장 경험
-- [[Projects/Library/KR/400/410/KR-410\|KR-410]] 개인 학습과 회고
+- [[Projects/Library/KR/400/410/KR-410\|KR-410]] 개인 학습과 성장
 	- [[Projects/Library/KR/400/410/410.00/KR-410.00\|KR-410.00]] 우아한테크코스 프리코스 7기 회고록 1개월 기록
 		- [[Projects/Library/KR/400/410/410.00/KR-410.00 a\|KR-410.00 a]] 우아한테크코스 프리코스 7기 1주차 - 기능 단위 목록과 커밋 메시지
 		- [[Projects/Library/KR/400/410/410.00/KR-410.00 b\|KR-410.00 b]] 우아한테크코스 프리코스 7기 2주차 - 목표 수정과 depth 및 eslint
@@ -79,7 +79,10 @@
 [[KR-P-200\|KR-P-200]] 마일스톤
 - [[KR-P-200 a\|KR-P-200 a]] 인생에서 기억에 남는 순간
 	- [[KR-P-200 b\|KR-P-200 b]] 노력 끝에 성취한 목표
-
+[[Projects/Library/KR/P300/KR-P-300\|KR-P-300]] 회고
+- [[Projects/Library/KR/P300/P310/KR-P-310\|KR-P-310]] 주간 회고
+	- [[Projects/Library/KR/P300/P310/KR-P-310 a\|KR-P-310 a]] 2024년11월3주차 회고: 우아한테크코스 프리코스 7기 정리, next 프레임워크 사용해보기
+- [[Projects/Library/KR/P300/P320/KR-P-320\|KR-P-320]] 월간 회고
 
 </div></div>
 

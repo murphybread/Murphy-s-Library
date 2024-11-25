@@ -473,7 +473,8 @@ So I modify this part. first get distinguish body. by the split function divide 
 
 
 현재 노트: [[<% tp.file.title %>\|<% tp.file.title %>]]
-상위 분류:
+히위 분류
+- 
 
 #A
 
