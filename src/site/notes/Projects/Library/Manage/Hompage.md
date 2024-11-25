@@ -1,17 +1,17 @@
 ---
-{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2024-11-25T15:20:43.030+09:00"}
+{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2024-11-25T15:23:00.134+09:00"}
 ---
 
 #hompage #Library #Rules
 # New Books
 
-| POSTS                    | Link                                                                  | Date                        |
-| ------------------------ | --------------------------------------------------------------------- | --------------------------- |
-| Call Number Index KR     | [[Projects/Library/KR/Call Number Index KR\|Call Number Index KR]] | 3:16 PM - November 25, 2024 |
-| Git 특정 환경의 파일만 커밋없이 제외하기 | [[Projects/Library/KR/000/020/020.00/KR-020.00 a\|KR-020.00 a]]    | 2:16 PM - November 25, 2024 |
-| Git                      | [[Projects/Library/KR/000/020/020.00/KR-020.00\|KR-020.00]]        | 2:14 PM - November 25, 2024 |
-| Ops                      | [[Projects/Library/KR/000/020/KR-020\|KR-020]]                     | 2:12 PM - November 25, 2024 |
-| styled-components 간단 소개  | [[Projects/Library/KR/000/010/010.00/KR-010.10 a\|KR-010.10 a]]    | 7:47 PM - November 23, 2024 |
+| POSTS                    | Link                                                                  | Date       |
+| ------------------------ | --------------------------------------------------------------------- | ---------- |
+| Call Number Index KR     | [[Projects/Library/KR/Call Number Index KR\|Call Number Index KR]] | 2024-11-25 |
+| Git 특정 환경의 파일만 커밋없이 제외하기 | [[Projects/Library/KR/000/020/020.00/KR-020.00 a\|KR-020.00 a]]    | 2024-11-25 |
+| Git                      | [[Projects/Library/KR/000/020/020.00/KR-020.00\|KR-020.00]]        | 2024-11-25 |
+| Ops                      | [[Projects/Library/KR/000/020/KR-020\|KR-020]]                     | 2024-11-25 |
+| styled-components 간단 소개  | [[Projects/Library/KR/000/010/010.00/KR-010.10 a\|KR-010.10 a]]    | 2024-11-23 |
 
 { .block-language-dataview}
 
