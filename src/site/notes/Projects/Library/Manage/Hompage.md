@@ -5,13 +5,13 @@
 #hompage #Library #Rules
 # New Books
 
-| POSTS                                                | Link                                                                  | Date       |
-| ---------------------------------------------------- | --------------------------------------------------------------------- | ---------- |
-| \-                                                   | [[Projects/Library/Manage/note-template\|note-template]]           | 2024-11-29 |
-| Call Number Index KR                                 | [[Projects/Library/KR/Call Number Index KR\|Call Number Index KR]] | 2024-11-29 |
-| 주간 회고                                                | [[Projects/Library/KR/P300/P310/KR-P-310\|KR-P-310]]               | 2024-11-25 |
-| 월간 회고                                                | [[Projects/Library/KR/P300/P320/KR-P-320\|KR-P-320]]               | 2024-11-25 |
-| 2024년11월3주차 회고: 우아한테크코스 프리코스 7기 정리, next 프레임워크 사용해보기 | [[Projects/Library/KR/P300/P310/KR-P-310 a\|KR-P-310 a]]           | 2024-11-25 |
+| POSTS                             | Link                                                                  | Date       |
+| --------------------------------- | --------------------------------------------------------------------- | ---------- |
+| 우아한테크코스 프리코스 7기 회고록 1개월 기록        | [[Projects/Library/KR/400/410/410.00/KR-410.00\|KR-410.00]]        | 2024-11-29 |
+| 신입 개발자가 정리한 Jest 테스트 사용 예시와 환경 구성 | [[Projects/Library/KR/000/010/010.60/KR-010.60 a\|KR-010.60 a]]    | 2024-11-29 |
+| \-                                | [[Projects/Library/Manage/note-template\|note-template]]           | 2024-11-29 |
+| Call Number Index KR              | [[Projects/Library/KR/Call Number Index KR\|Call Number Index KR]] | 2024-11-29 |
+| 주간 회고                             | [[Projects/Library/KR/P300/P310/KR-P-310\|KR-P-310]]               | 2024-11-25 |
 
 { .block-language-dataview}
 
