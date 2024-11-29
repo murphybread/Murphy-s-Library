@@ -9,7 +9,7 @@
 
 
 2024년 11월 3주차: 우아한테크코스 프리코스 7기 정리,  next 프레임워크 사용해보기
-![Pasted image 20241125161232.png](/img/user/images/Pasted%20image%2020241125161232.png)
+![Pasted image 20241125161232.png](/img/user/images/Past%20images/Pasted%20image%2020241125161232.png)
 
 - 우아한테크코스 대비 수행했던 미션 수행
 	- 2주차 미션 다시 수행

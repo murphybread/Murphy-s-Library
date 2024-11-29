@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"title":"Call Number Index KR","permalink":"/projects/library/kr/call-number-index-kr/","dgPassFrontmatter":true,"noteIcon":"0","created":"2024-11-12T15:16:03.499+09:00","updated":"2024-11-25T16:50:22.823+09:00"}
+{"dg-publish":true,"title":"Call Number Index KR","permalink":"/projects/library/kr/call-number-index-kr/","dgPassFrontmatter":true,"noteIcon":"0","created":"2024-11-12T15:16:03.499+09:00","updated":"2024-11-29T12:16:16.374+09:00"}
 ---
 
 [[Projects/Library/KR/000/KR-000\|KR-000]] 기술 스택
@@ -26,7 +26,11 @@
 		- [[Projects/Library/KR/100/110/110.00/KR-110.00 c\|KR-110.00 c]] 디스코드 베스트 포스트 추천 봇 만들기 3편 - 파일 읽기 쓰기와 디스코드 봇 커맨드 구현하기
 		- [[Projects/Library/KR/100/110/110.00/KR-110.00 d\|KR-110.00 d]] 디스코드 베스트 포스트 추천 봇 만들기 4편 - 프로덕션 올리기전 시크릿 제거하기 bfg-repo-cleaner 와 커밋이 2배로 늘어나버린 문제
 		- [[Projects/Library/KR/100/110/110.00/KR-110.00 e\|KR-110.00 e]] 디스코드 베스트 포스트 추천 봇 만들기 5편 - 클라우드와 크론잡을 통해 24시간 서비스 생성하기
-	- 개인 사서 LLM
+	- [[KR-110.10\|KR-110.10]] LLM에 RAG를 결합하여 내 블로그를 안내해주는 개인 사서
+		- [[KR-110.10 a\|KR-110.10 a]] Langchang and Streamlit
+		- [[KR-110.10 b\|KR-110.10 b]] RAG 구현
+		- [[KR-110.10 c\|KR-110.10 c]] 메모리 , Admin , 프롬프트
+		- [[KR-110.10 4\|KR-110.10 4]] 배포, 시크릿
 	- IT 블로그
 	- 편의점 프로그램
 - [[KR-120\|KR-120]] 팀 프로젝트

@@ -236,11 +236,11 @@ def invoke_from_retriever(query, llm, prompt_template, vectorstore , uuid=''):
 # 0.9.1-FE
 
 ## before
-![Screenshot.png](/img/user/images/Screenshot.png)
+![Screenshot.png](/img/user/images/Past%20images/Screenshot.png)
 
 
 ## after
-![Screenshot 2024-04-04 at 1.38.51 PM.png](/img/user/images/Screenshot%202024-04-04%20at%201.38.51%20PM.png)
+![Screenshot 2024-04-04 at 1.38.51 PM.png](/img/user/images/Past%20images/Screenshot%202024-04-04%20at%201.38.51%20PM.png)
 ### img -> Eliminate floating right
 ### link eliminate new line and make it to inline
 
@@ -473,7 +473,7 @@ So I modify this part. first get distinguish body. by the split function divide 
 
 
 현재 노트: [[<% tp.file.title %>\|<% tp.file.title %>]]
-히위 분류
+하위 분류
 - 
 
 #A
@@ -784,10 +784,10 @@ Changing History of Library.md from hardcoding to github gist
 Better viewing of code on screen in the UI
 
 ### Before
-![before.png](/img/user/images/before.png)
+![before.png](/img/user/images/Past%20images/before.png)
 
 ### After
-![short.png](/img/user/images/short.png)
+![short.png](/img/user/images/Past%20images/short.png)
 
 
 
@@ -1384,10 +1384,10 @@ Changing History of Library.md from hardcoding to github gist
 Better viewing of code on screen in the UI
 
 ### Before
-![before.png](/img/user/images/before.png)
+![before.png](/img/user/images/Past%20images/before.png)
 
 ### After
-![short.png](/img/user/images/short.png)
+![short.png](/img/user/images/Past%20images/short.png)
 
 
 
@@ -1736,10 +1736,10 @@ Changing History of Library.md from hardcoding to github gist
 Better viewing of code on screen in the UI
 
 ### Before
-![before.png](/img/user/images/before.png)
+![before.png](/img/user/images/Past%20images/before.png)
 
 ### After
-![short.png](/img/user/images/short.png)
+![short.png](/img/user/images/Past%20images/short.png)
 
 
 
@@ -2088,10 +2088,10 @@ Changing History of Library.md from hardcoding to github gist
 Better viewing of code on screen in the UI
 
 ### Before
-![before.png](/img/user/images/before.png)
+![before.png](/img/user/images/Past%20images/before.png)
 
 ### After
-![short.png](/img/user/images/short.png)
+![short.png](/img/user/images/Past%20images/short.png)
 
 
 
@@ -2440,10 +2440,10 @@ Changing History of Library.md from hardcoding to github gist
 Better viewing of code on screen in the UI
 
 ### Before
-![before.png](/img/user/images/before.png)
+![before.png](/img/user/images/Past%20images/before.png)
 
 ### After
-![short.png](/img/user/images/short.png)
+![short.png](/img/user/images/Past%20images/short.png)
 
 
 
