@@ -6,9 +6,9 @@
 # New Books
 | POSTS                                                                          | Link                                                                  | Date     |
 | ------------------------------------------------------------------------------ | --------------------------------------------------------------------- | -------- |
-| 2024년11월 4주차 회고:                                                               | [[Projects/Library/KR/KR-P-310 b\|KR-P-310 b]]                     | 24-12-02 |
-| Node.js 성능 향상:  I/O-bound에는 Async와 CPU-bound를 위한 Cluster API vs Worker Threads | [[Projects/Library/KR/000/010/010.40/KR-010.40 a\|KR-010.40 a]]    | 24-12-02 |
 | Call Number Index KR                                                           | [[Projects/Library/KR/Call Number Index KR\|Call Number Index KR]] | 24-12-02 |
+| 2024년11월 4주차 회고: 협업 프로젝트시 필요한 것, 회사에 지원하기 위한 항목들의 퀄리티란                         | [[Projects/Library/KR/P300/P310/KR-P-310 b\|KR-P-310 b]]           | 24-12-02 |
+| Node.js 성능 향상:  I/O-bound에는 Async와 CPU-bound를 위한 Cluster API vs Worker Threads | [[Projects/Library/KR/000/010/010.40/KR-010.40 a\|KR-010.40 a]]    | 24-12-02 |
 | 신입 개발자가 정리한 Jest 테스트 사용 예시와 환경 구성                                              | [[Projects/Library/KR/000/010/010.60/KR-010.60 a\|KR-010.60 a]]    | 24-11-29 |
 | \-                                                                             | [[Projects/Library/Manage/note-template\|note-template]]           | 24-11-29 |
 
@@ -86,7 +86,7 @@
 [[Projects/Library/KR/P300/KR-P-300\|KR-P-300]] 회고
 - [[Projects/Library/KR/P300/P310/KR-P-310\|KR-P-310]] 주간 회고
 	- [[Projects/Library/KR/P300/P310/KR-P-310 a\|KR-P-310 a]] 2024년11월3주차 회고: 우아한테크코스 프리코스 7기 정리, next 프레임워크 사용해보기
-	- [[Projects/Library/KR/KR-P-310 b\|KR-P-310 b]] 2024년11월 4주차 회고: 
+	- [[Projects/Library/KR/P300/P310/KR-P-310 b\|KR-P-310 b]] 2024년11월 4주차 회고: 협업 프로젝트시 필요한 것, 회사에 지원하기 위한 항목들의 퀄리티란
 - [[Projects/Library/KR/P300/P320/KR-P-320\|KR-P-320]] 월간 회고
 
 </div></div>

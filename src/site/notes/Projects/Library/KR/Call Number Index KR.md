@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"title":"Call Number Index KR","permalink":"/projects/library/kr/call-number-index-kr/","dgPassFrontmatter":true,"noteIcon":"0","created":"2024-11-12T15:16:03.499+09:00","updated":"2024-12-02T18:09:35.915+09:00"}
+{"dg-publish":true,"title":"Call Number Index KR","permalink":"/projects/library/kr/call-number-index-kr/","dgPassFrontmatter":true,"noteIcon":"0","created":"2024-11-12T15:16:03.499+09:00","updated":"2024-12-02T23:57:28.498+09:00"}
 ---
 
 [[Projects/Library/KR/000/KR-000\|KR-000]] 기술 스택
@@ -67,5 +67,5 @@
 [[Projects/Library/KR/P300/KR-P-300\|KR-P-300]] 회고
 - [[Projects/Library/KR/P300/P310/KR-P-310\|KR-P-310]] 주간 회고
 	- [[Projects/Library/KR/P300/P310/KR-P-310 a\|KR-P-310 a]] 2024년11월3주차 회고: 우아한테크코스 프리코스 7기 정리, next 프레임워크 사용해보기
-	- [[Projects/Library/KR/KR-P-310 b\|KR-P-310 b]] 2024년11월 4주차 회고: 
+	- [[Projects/Library/KR/P300/P310/KR-P-310 b\|KR-P-310 b]] 2024년11월 4주차 회고: 협업 프로젝트시 필요한 것, 회사에 지원하기 위한 항목들의 퀄리티란
 - [[Projects/Library/KR/P300/P320/KR-P-320\|KR-P-320]] 월간 회고
