@@ -5,13 +5,13 @@
 #hompage #Library #Rules
 # New Books
 
-| POSTS                             | Link                                                                  | Date       |
-| --------------------------------- | --------------------------------------------------------------------- | ---------- |
-| 우아한테크코스 프리코스 7기 회고록 1개월 기록        | [[Projects/Library/KR/400/410/410.00/KR-410.00\|KR-410.00]]        | 2024-11-29 |
-| 신입 개발자가 정리한 Jest 테스트 사용 예시와 환경 구성 | [[Projects/Library/KR/000/010/010.60/KR-010.60 a\|KR-010.60 a]]    | 2024-11-29 |
-| \-                                | [[Projects/Library/Manage/note-template\|note-template]]           | 2024-11-29 |
-| Call Number Index KR              | [[Projects/Library/KR/Call Number Index KR\|Call Number Index KR]] | 2024-11-29 |
-| 주간 회고                             | [[Projects/Library/KR/P300/P310/KR-P-310\|KR-P-310]]               | 2024-11-25 |
+| POSTS                                                                          | Link                                                                  | Date       |
+| ------------------------------------------------------------------------------ | --------------------------------------------------------------------- | ---------- |
+| Node.js                                                                        | [[Projects/Library/KR/000/010/010.40/KR-010.40\|KR-010.40]]        | 2024-12-02 |
+| Call Number Index KR                                                           | [[Projects/Library/KR/Call Number Index KR\|Call Number Index KR]] | 2024-12-02 |
+| Node.js 성능 향상:  I/O-bound에는 Async와 CPU-bound를 위한 Cluster API vs Worker Threads | [[Projects/Library/KR/000/010/010.40/KR-010.40 a\|KR-010.40 a]]    | 2024-12-02 |
+| Dev                                                                            | [[Projects/Library/KR/000/010/KR-010\|KR-010]]                     | 2024-12-02 |
+| 우아한테크코스 프리코스 7기 회고록 1개월 기록                                                     | [[Projects/Library/KR/400/410/410.00/KR-410.00\|KR-410.00]]        | 2024-11-29 |
 
 { .block-language-dataview}
 
@@ -29,7 +29,8 @@
 		- [[Projects/Library/KR/000/010/010.00/KR-010.10 a\|KR-010.10 a]] styled-components 간단 소개
 	- [[KR-010.20\|KR-010.20]] TypeScript
 	- [[KR-010.30\|KR-010.30]] Python
-	- [[KR-010.40\|KR-010.40]] Node
+	- [[Projects/Library/KR/000/010/010.40/KR-010.40\|KR-010.40]] Node.js
+		- [[Projects/Library/KR/000/010/010.40/KR-010.40 a\|KR-010.40 a]] Node.js 성능 향상: I/O-bound에는 Async와 CPU-bound를 위한 Cluster API vs Worker Threads
 	- [[KR-010.50\|KR-010.50]] Express
 	- [[Projects/Library/KR/000/010/010.60/KR-010.60\|KR-010.60]] Jest
 		- [[Projects/Library/KR/000/010/010.60/KR-010.60 a\|KR-010.60 a]] 신입 개발자가 정리한 Jest 테스트 사용 예시와 환경 구성

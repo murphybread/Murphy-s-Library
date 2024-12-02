@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"title":"Call Number Index KR","permalink":"/projects/library/kr/call-number-index-kr/","dgPassFrontmatter":true,"noteIcon":"0","created":"2024-11-12T15:16:03.499+09:00","updated":"2024-11-29T12:16:16.374+09:00"}
+{"dg-publish":true,"title":"Call Number Index KR","permalink":"/projects/library/kr/call-number-index-kr/","dgPassFrontmatter":true,"noteIcon":"0","created":"2024-11-12T15:16:03.499+09:00","updated":"2024-12-02T18:06:40.326+09:00"}
 ---
 
 [[Projects/Library/KR/000/KR-000\|KR-000]] 기술 스택
@@ -9,7 +9,8 @@
 		- [[Projects/Library/KR/000/010/010.00/KR-010.10 a\|KR-010.10 a]] styled-components 간단 소개
 	- [[KR-010.20\|KR-010.20]] TypeScript
 	- [[KR-010.30\|KR-010.30]] Python
-	- [[KR-010.40\|KR-010.40]] Node
+	- [[Projects/Library/KR/000/010/010.40/KR-010.40\|KR-010.40]] Node.js
+		- [[Projects/Library/KR/000/010/010.40/KR-010.40 a\|KR-010.40 a]] Node.js 성능 향상: I/O-bound에는 Async와 CPU-bound를 위한 Cluster API vs Worker Threads
 	- [[KR-010.50\|KR-010.50]] Express
 	- [[Projects/Library/KR/000/010/010.60/KR-010.60\|KR-010.60]] Jest
 		- [[Projects/Library/KR/000/010/010.60/KR-010.60 a\|KR-010.60 a]] 신입 개발자가 정리한 Jest 테스트 사용 예시와 환경 구성
