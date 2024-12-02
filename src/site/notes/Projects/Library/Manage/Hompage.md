@@ -1,17 +1,16 @@
 ---
-{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2024-11-25T15:23:00.134+09:00"}
+{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2024-12-02T18:14:48.384+09:00"}
 ---
 
 #hompage #Library #Rules
 # New Books
-
 | POSTS                                                                          | Link                                                                  | Date       |
 | ------------------------------------------------------------------------------ | --------------------------------------------------------------------- | ---------- |
-| Node.js                                                                        | [[Projects/Library/KR/000/010/010.40/KR-010.40\|KR-010.40]]        | 2024-12-02 |
-| Call Number Index KR                                                           | [[Projects/Library/KR/Call Number Index KR\|Call Number Index KR]] | 2024-12-02 |
 | Node.js 성능 향상:  I/O-bound에는 Async와 CPU-bound를 위한 Cluster API vs Worker Threads | [[Projects/Library/KR/000/010/010.40/KR-010.40 a\|KR-010.40 a]]    | 2024-12-02 |
-| Dev                                                                            | [[Projects/Library/KR/000/010/KR-010\|KR-010]]                     | 2024-12-02 |
-| 우아한테크코스 프리코스 7기 회고록 1개월 기록                                                     | [[Projects/Library/KR/400/410/410.00/KR-410.00\|KR-410.00]]        | 2024-11-29 |
+| \-                                                                             | [[Projects/Library/KR/KR-P-310 b\|KR-P-310 b]]                     | 2024-12-02 |
+| Call Number Index KR                                                           | [[Projects/Library/KR/Call Number Index KR\|Call Number Index KR]] | 2024-12-02 |
+| 신입 개발자가 정리한 Jest 테스트 사용 예시와 환경 구성                                              | [[Projects/Library/KR/000/010/010.60/KR-010.60 a\|KR-010.60 a]]    | 2024-11-29 |
+| \-                                                                             | [[Projects/Library/Manage/note-template\|note-template]]           | 2024-11-29 |
 
 { .block-language-dataview}
 
@@ -87,6 +86,7 @@
 [[Projects/Library/KR/P300/KR-P-300\|KR-P-300]] 회고
 - [[Projects/Library/KR/P300/P310/KR-P-310\|KR-P-310]] 주간 회고
 	- [[Projects/Library/KR/P300/P310/KR-P-310 a\|KR-P-310 a]] 2024년11월3주차 회고: 우아한테크코스 프리코스 7기 정리, next 프레임워크 사용해보기
+	- [[Projects/Library/KR/KR-P-310 b\|KR-P-310 b]] 2024년11월 4주차 회고: 
 - [[Projects/Library/KR/P300/P320/KR-P-320\|KR-P-320]] 월간 회고
 
 </div></div>
