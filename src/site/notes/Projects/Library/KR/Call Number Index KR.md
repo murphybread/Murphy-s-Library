@@ -1,12 +1,13 @@
 ---
-{"dg-publish":true,"title":"Call Number Index KR","permalink":"/projects/library/kr/call-number-index-kr/","dgPassFrontmatter":true,"noteIcon":"0","created":"2024-11-12T15:16:03.499+09:00","updated":"2024-12-02T23:57:28.498+09:00"}
+{"dg-publish":true,"title":"Call Number Index KR","permalink":"/projects/library/kr/call-number-index-kr/","dgPassFrontmatter":true,"noteIcon":"0","created":"2024-11-12T15:16:03.499+09:00","updated":"2024-12-04T14:23:13.262+09:00"}
 ---
 
 [[Projects/Library/KR/000/KR-000\|KR-000]] 기술 스택
 - [[Projects/Library/KR/000/010/KR-010\|KR-010]] Dev
-	- [[KR-010.00\|KR-010.00]] React, Next
-	- [[Projects/Library/KR/000/010/010.00/KR-010.10\|KR-010.10]] HTML,CSS,JavaScript
-		- [[Projects/Library/KR/000/010/010.00/KR-010.10 a\|KR-010.10 a]] styled-components 간단 소개
+	- [[Projects/Library/KR/000/010/010.00/KR-010.00\|KR-010.00]] React, Next
+		- [[Projects/Library/KR/000/010/010.00/KR-010.00 a\|KR-010.00 a]] Hydration 에러: styled-components와 framer-motion동시 사용시 props가 강제로 넘어가면서 생긴 복합적 문제 해결하기
+	- [[Projects/Library/KR/000/010/010.10/KR-010.10\|KR-010.10]] HTML,CSS,JavaScript
+		- [[Projects/Library/KR/000/010/010.10/KR-010.10 a\|KR-010.10 a]] styled-components 간단 소개
 	- [[KR-010.20\|KR-010.20]] TypeScript
 	- [[KR-010.30\|KR-010.30]] Python
 	- [[Projects/Library/KR/000/010/010.40/KR-010.40\|KR-010.40]] Node.js

@@ -4,13 +4,13 @@
 
 #hompage #Library #Rules
 # New Books
-| POSTS                                                                          | Link                                                                  | Date     |
-| ------------------------------------------------------------------------------ | --------------------------------------------------------------------- | -------- |
-| Call Number Index KR                                                           | [[Projects/Library/KR/Call Number Index KR\|Call Number Index KR]] | 24-12-02 |
-| 2024년11월 4주차 회고: 협업 프로젝트시 필요한 것, 회사에 지원하기 위한 항목들의 퀄리티란                         | [[Projects/Library/KR/P300/P310/KR-P-310 b\|KR-P-310 b]]           | 24-12-02 |
-| Node.js 성능 향상:  I/O-bound에는 Async와 CPU-bound를 위한 Cluster API vs Worker Threads | [[Projects/Library/KR/000/010/010.40/KR-010.40 a\|KR-010.40 a]]    | 24-12-02 |
-| 신입 개발자가 정리한 Jest 테스트 사용 예시와 환경 구성                                              | [[Projects/Library/KR/000/010/010.60/KR-010.60 a\|KR-010.60 a]]    | 24-11-29 |
-| \-                                                                             | [[Projects/Library/Manage/note-template\|note-template]]           | 24-11-29 |
+| POSTS                                                                                | Link                                                                  | Date     |
+| ------------------------------------------------------------------------------------ | --------------------------------------------------------------------- | -------- |
+| Call Number Index KR                                                                 | [[Projects/Library/KR/Call Number Index KR\|Call Number Index KR]] | 24-12-04 |
+| Hydration 에러: styled-components와 framer-motion동시 사용시 props가 강제로 넘어가면서 생긴 복합적 문제 해결하기 | [[Projects/Library/KR/000/010/010.00/KR-010.00 a\|KR-010.00 a]]    | 24-12-04 |
+| 2024년11월 4주차 회고: 협업 프로젝트시 필요한 것, 회사에 지원하기 위한 항목들의 퀄리티란                               | [[Projects/Library/KR/P300/P310/KR-P-310 b\|KR-P-310 b]]           | 24-12-02 |
+| Node.js 성능 향상:  I/O-bound에는 Async와 CPU-bound를 위한 Cluster API vs Worker Threads       | [[Projects/Library/KR/000/010/010.40/KR-010.40 a\|KR-010.40 a]]    | 24-12-02 |
+| 신입 개발자가 정리한 Jest 테스트 사용 예시와 환경 구성                                                    | [[Projects/Library/KR/000/010/010.60/KR-010.60 a\|KR-010.60 a]]    | 24-11-29 |
 
 { .block-language-dataview}
 
@@ -23,9 +23,10 @@
 
 [[Projects/Library/KR/000/KR-000\|KR-000]] 기술 스택
 - [[Projects/Library/KR/000/010/KR-010\|KR-010]] Dev
-	- [[KR-010.00\|KR-010.00]] React, Next
-	- [[Projects/Library/KR/000/010/010.00/KR-010.10\|KR-010.10]] HTML,CSS,JavaScript
-		- [[Projects/Library/KR/000/010/010.00/KR-010.10 a\|KR-010.10 a]] styled-components 간단 소개
+	- [[Projects/Library/KR/000/010/010.00/KR-010.00\|KR-010.00]] React, Next
+		- [[Projects/Library/KR/000/010/010.00/KR-010.00 a\|KR-010.00 a]] Hydration 에러: styled-components와 framer-motion동시 사용시 props가 강제로 넘어가면서 생긴 복합적 문제 해결하기
+	- [[Projects/Library/KR/000/010/010.10/KR-010.10\|KR-010.10]] HTML,CSS,JavaScript
+		- [[Projects/Library/KR/000/010/010.10/KR-010.10 a\|KR-010.10 a]] styled-components 간단 소개
 	- [[KR-010.20\|KR-010.20]] TypeScript
 	- [[KR-010.30\|KR-010.30]] Python
 	- [[Projects/Library/KR/000/010/010.40/KR-010.40\|KR-010.40]] Node.js
