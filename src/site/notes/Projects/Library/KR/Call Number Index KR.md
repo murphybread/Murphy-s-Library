@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"title":"Call Number Index KR","permalink":"/projects/library/kr/call-number-index-kr/","dgPassFrontmatter":true,"noteIcon":"0","created":"2024-11-12T15:16:03.499+09:00","updated":"2024-12-04T14:41:45.897+09:00"}
+{"dg-publish":true,"title":"Call Number Index KR","permalink":"/projects/library/kr/call-number-index-kr/","dgPassFrontmatter":true,"noteIcon":"0","created":"2024-11-12T15:16:03.499+09:00","updated":"2024-12-08T17:09:22.956+09:00"}
 ---
 
 [[Projects/Library/KR/000/KR-000\|KR-000]] 기술 스택
@@ -35,6 +35,8 @@
 		- [[KR-110.10 4\|KR-110.10 4]] (준비 중⏳)배포, 시크릿
 	- [[KR-110.20\|KR-110.20]](준비 중⏳)IT 블로그
 	- [[KR-110.30\|KR-110.30]](준비 중⏳)편의점 프로그램
+	- [[Projects/Library/KR/100/110/110.40/KR-110.40\|KR-110.40]] 생성형 AI를 이용한 개인 창작 마법 프로젝트
+		- [[Projects/Library/KR/100/110/110.40/KR-110.40 a\|KR-110.40 a]] 프로젝트 중 겪은 트러블 슈팅 (CORS, 소셜 로그인 등)  
 - [[KR-120\|KR-120]] (준비 중⏳)팀 프로젝트
 - [[KR-130\|KR-130]] (준비 중⏳)기업 프로젝트
 	- (준비 중⏳)깃랩 HA 업그레이드

@@ -665,7 +665,7 @@ As-is Used this structure pattern
 - [[Projects/Library/000/010/010\|010]] Develop Knowledge
 	- [[Projects/Library/000/010/010.00/010.00\|010.00]] Develop Computer Science Knowledge
 		- [[010.00 a\|010.00 a]] Essential Developer Insights
-	- [[Projects/Library/000/010/010.10/010.10\|010.10]] Develop Programming Language
+	- [[010.10\|010.10]] Develop Programming Language
 		- [[Projects/Library/000/010/010.10/010.10 a\|010.10 a]] Bash shell
 
 ```
@@ -681,7 +681,7 @@ That makes preview error indent and line break
 	- [[Projects/Library/000/010/010\|010]] Develop Knowledge
 		- [[Projects/Library/000/010/010.00/010.00\|010.00]] Develop Computer Science Knowledge
 			- [[010.00 a\|010.00 a]] Essential Developer Insights
-		- [[Projects/Library/000/010/010.10/010.10\|010.10]] Develop Programming Language
+		- [[010.10\|010.10]] Develop Programming Language
 			- [[Projects/Library/000/010/010.10/010.10 a\|010.10 a]] Bash shell
 ```
 
