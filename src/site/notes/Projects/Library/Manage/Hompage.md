@@ -4,13 +4,13 @@
 
 #hompage #Library #Rules
 # New Books
-| POSTS                                                                                | Link                                                                  | Date     |
-| ------------------------------------------------------------------------------------ | --------------------------------------------------------------------- | -------- |
-| 생성형 AI를 이용한 개인 창작 마법 프로젝트                                                            | [[Projects/Library/KR/100/110/110.40/KR-110.40\|KR-110.40]]        | 24-12-08 |
-| 프로젝트 중 겪은 트러블 슈팅 (CORS, 소셜 로그인 등)                                                    | [[Projects/Library/KR/100/110/110.40/KR-110.40 a\|KR-110.40 a]]    | 24-12-08 |
-| Call Number Index KR                                                                 | [[Projects/Library/KR/Call Number Index KR\|Call Number Index KR]] | 24-12-08 |
-| React, Next                                                                          | [[Projects/Library/KR/000/010/010.00/KR-010.00\|KR-010.00]]        | 24-12-04 |
-| Hydration 에러: styled-components와 framer-motion동시 사용시 props가 강제로 넘어가면서 생긴 복합적 문제 해결하기 | [[Projects/Library/KR/000/010/010.00/KR-010.00 a\|KR-010.00 a]]    | 24-12-04 |
+| POSTS                                                                          | Link                                                                  | Date     |
+| ------------------------------------------------------------------------------ | --------------------------------------------------------------------- | -------- |
+| 2024년12월1주차 회고: hydration 트러블 슈팅과 프론트엔드의 핵심 state와 component                   | [[Projects/Library/KR/P300/P310/KR-P-310 c\|KR-P-310 c]]           | 24-12-09 |
+| Node.js 성능 향상:  I/O-bound에는 Async와 CPU-bound를 위한 Cluster API vs Worker Threads | [[Projects/Library/KR/000/010/010.40/KR-010.40 a\|KR-010.40 a]]    | 24-12-09 |
+| 생성형 AI를 이용한 개인 창작 마법 프로젝트                                                      | [[Projects/Library/KR/100/110/110.40/KR-110.40\|KR-110.40]]        | 24-12-08 |
+| 프로젝트 중 겪은 트러블 슈팅 (CORS, 소셜 로그인 등)                                              | [[Projects/Library/KR/100/110/110.40/KR-110.40 a\|KR-110.40 a]]    | 24-12-08 |
+| Call Number Index KR                                                           | [[Projects/Library/KR/Call Number Index KR\|Call Number Index KR]] | 24-12-08 |
 
 { .block-language-dataview}
 
