@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"title":"Call Number Index KR","permalink":"/projects/library/kr/call-number-index-kr/","dgPassFrontmatter":true,"noteIcon":"0","created":"2024-11-12T15:16:03.499+09:00","updated":"2024-12-08T17:09:22.956+09:00"}
+{"dg-publish":true,"title":"Call Number Index KR","permalink":"/projects/library/kr/call-number-index-kr/","dgPassFrontmatter":true,"noteIcon":"0","created":"2024-11-12T15:16:03.499+09:00","updated":"2024-12-11T20:26:11.717+09:00"}
 ---
 
 [[Projects/Library/KR/000/KR-000\|KR-000]] 기술 스택
@@ -55,6 +55,7 @@
 		- [[Projects/Library/KR/400/410/410.00/KR-410.00 d\|KR-410.00 d]] 우아한테크코스 프리코스 7기 4주차 - 어려운 난이도 일단 구현하기 및 테스트케이스 분석하기
 	- [[Projects/Library/KR/400/410/410.10/KR-410.10\|KR-410.10]] 개발자로서 한 번쯤 생각해볼 고민들
 		- [[Projects/Library/KR/400/410/410.10/KR-410.10 a\|KR-410.10 a]] 코드를 작성하는 역량과 읽고 분석하는 역량중 더 중요한 것은
+		- [[Projects/Library/KR/400/410/410.10/KR-410.10 b\|KR-410.10 b]] 데이터 구조 가지고 놀기
 - [[Projects/Library/KR/400/420/KR-420\|KR-420]] 시스템 설계와 운영 개선
 	- [[Projects/Library/KR/400/420/420.00/KR-420.00\|KR-420.00]] 운영 지표와 성능 관리
 		- [[Projects/Library/KR/400/420/420.00/KR-420.00 a\|KR-420.00 a]] SLA, SLO, SLI의 차이와 고려할 점

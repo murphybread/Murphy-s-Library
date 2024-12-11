@@ -6,11 +6,11 @@
 # New Books
 | POSTS                                                                          | Link                                                                  | Date     |
 | ------------------------------------------------------------------------------ | --------------------------------------------------------------------- | -------- |
+| 데이터 설계 가지고 놀기                                                                  | [[Projects/Library/KR/400/410/410.10/KR-410.10 b\|KR-410.10 b]]    | 24-12-11 |
+| Call Number Index KR                                                           | [[Projects/Library/KR/Call Number Index KR\|Call Number Index KR]] | 24-12-11 |
 | 2024년12월1주차 회고: hydration 트러블 슈팅과 프론트엔드의 핵심 state와 component                   | [[Projects/Library/KR/P300/P310/KR-P-310 c\|KR-P-310 c]]           | 24-12-09 |
 | Node.js 성능 향상:  I/O-bound에는 Async와 CPU-bound를 위한 Cluster API vs Worker Threads | [[Projects/Library/KR/000/010/010.40/KR-010.40 a\|KR-010.40 a]]    | 24-12-09 |
 | 생성형 AI를 이용한 개인 창작 마법 프로젝트                                                      | [[Projects/Library/KR/100/110/110.40/KR-110.40\|KR-110.40]]        | 24-12-08 |
-| 프로젝트 중 겪은 트러블 슈팅 (CORS, 소셜 로그인 등)                                              | [[Projects/Library/KR/100/110/110.40/KR-110.40 a\|KR-110.40 a]]    | 24-12-08 |
-| Call Number Index KR                                                           | [[Projects/Library/KR/Call Number Index KR\|Call Number Index KR]] | 24-12-08 |
 
 { .block-language-dataview}
 
@@ -74,6 +74,7 @@
 		- [[Projects/Library/KR/400/410/410.00/KR-410.00 d\|KR-410.00 d]] 우아한테크코스 프리코스 7기 4주차 - 어려운 난이도 일단 구현하기 및 테스트케이스 분석하기
 	- [[Projects/Library/KR/400/410/410.10/KR-410.10\|KR-410.10]] 개발자로서 한 번쯤 생각해볼 고민들
 		- [[Projects/Library/KR/400/410/410.10/KR-410.10 a\|KR-410.10 a]] 코드를 작성하는 역량과 읽고 분석하는 역량중 더 중요한 것은
+		- [[Projects/Library/KR/400/410/410.10/KR-410.10 b\|KR-410.10 b]] 데이터 구조 가지고 놀기
 - [[Projects/Library/KR/400/420/KR-420\|KR-420]] 시스템 설계와 운영 개선
 	- [[Projects/Library/KR/400/420/420.00/KR-420.00\|KR-420.00]] 운영 지표와 성능 관리
 		- [[Projects/Library/KR/400/420/420.00/KR-420.00 a\|KR-420.00 a]] SLA, SLO, SLI의 차이와 고려할 점
