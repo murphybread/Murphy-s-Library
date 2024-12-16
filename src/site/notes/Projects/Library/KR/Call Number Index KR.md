@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"title":"Call Number Index KR","permalink":"/projects/library/kr/call-number-index-kr/","dgPassFrontmatter":true,"noteIcon":"0","created":"2024-11-12T15:16:03.499+09:00","updated":"2024-12-11T20:26:11.717+09:00"}
+{"dg-publish":true,"title":"Call Number Index KR","description":"한국어로 기록된 카테고리 목록","permalink":"/projects/library/kr/call-number-index-kr/","dgPassFrontmatter":true,"noteIcon":"0","created":"2024-11-12T15:16:03.499+09:00","updated":"2024-12-16T11:52:31.714+09:00"}
 ---
 
 [[Projects/Library/KR/000/KR-000\|KR-000]] 기술 스택
@@ -8,17 +8,15 @@
 		- [[Projects/Library/KR/000/010/010.00/KR-010.00 a\|KR-010.00 a]] Hydration 에러: styled-components와 framer-motion동시 사용시 props가 강제로 넘어가면서 생긴 복합적 문제 해결하기
 	- [[Projects/Library/KR/000/010/010.10/KR-010.10\|KR-010.10]] HTML,CSS,JavaScript
 		- [[Projects/Library/KR/000/010/010.10/KR-010.10 a\|KR-010.10 a]] styled-components 간단 소개
-	- [[KR-010.20\|KR-010.20]] (준비 중⏳)TypeScript
-	- [[KR-010.30\|KR-010.30]] (준비 중⏳)Python
 	- [[Projects/Library/KR/000/010/010.40/KR-010.40\|KR-010.40]] Node.js
 		- [[Projects/Library/KR/000/010/010.40/KR-010.40 a\|KR-010.40 a]] Node.js 성능 향상: I/O-bound에는 Async와 CPU-bound를 위한 Cluster API vs Worker Threads
-	- [[KR-010.50\|KR-010.50]] (준비 중⏳)Express
 	- [[Projects/Library/KR/000/010/010.60/KR-010.60\|KR-010.60]] Jest
 		- [[Projects/Library/KR/000/010/010.60/KR-010.60 a\|KR-010.60 a]] 신입 개발자가 정리한 Jest 테스트 사용 예시와 환경 구성
 - [[Projects/Library/KR/000/020/KR-020\|KR-020]] Ops
 	- [[Projects/Library/KR/000/020/020.00/KR-020.00\|KR-020.00]] Git
 		- [[Projects/Library/KR/000/020/020.00/KR-020.00 a\|KR-020.00 a]] Git 특정 환경의 파일만 커밋없이 제외하기
-	- [[KR-020.10\|KR-020.10]] (준비 중⏳)Docker
+	- [[Projects/Library/KR/KR-020.10\|KR-020.10]] (준비 중⏳)Docker
+		- [[Projects/Library/KR/KR-020.10 a\|KR-020.10 a]] 도커사용이유 잘쓰는지 판단 질문
 	- [[KR-020.20\|KR-020.20]] (준비 중⏳)AWS, GCP Cloud
 [[Projects/Library/KR/100/KR-100\|KR-100]] 프로젝트 경험
 - [[Projects/Library/KR/100/110/KR-110\|KR-110]] 개인 프로젝트 
@@ -71,4 +69,6 @@
 - [[Projects/Library/KR/P300/P310/KR-P-310\|KR-P-310]] 주간 회고
 	- [[Projects/Library/KR/P300/P310/KR-P-310 a\|KR-P-310 a]] 2024년11월3주차 회고: 우아한테크코스 프리코스 7기 정리, next 프레임워크 사용해보기
 	- [[Projects/Library/KR/P300/P310/KR-P-310 b\|KR-P-310 b]] 2024년11월 4주차 회고: 협업 프로젝트시 필요한 것, 회사에 지원하기 위한 항목들의 퀄리티란
+	- [[Projects/Library/KR/P300/P310/KR-P-310 c\|KR-P-310 c]] 2024년12월1주차 회고: hydration 트러블 슈팅과 프론트엔드의 핵심 state와 component 
+	- [[Projects/Library/KR/KR-P-310 d\|KR-P-310 d]]
 - [[Projects/Library/KR/P300/P320/KR-P-320\|KR-P-320]] 월간 회고
