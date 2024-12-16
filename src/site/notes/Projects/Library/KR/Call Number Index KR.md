@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"title":"Call Number Index KR","description":"한국어로 기록된 카테고리 목록","permalink":"/projects/library/kr/call-number-index-kr/","dgPassFrontmatter":true,"noteIcon":"0","created":"2024-11-12T15:16:03.499+09:00","updated":"2024-12-16T11:52:31.714+09:00"}
+{"dg-publish":true,"title":"Call Number Index KR","description":"한국어로 기록된 카테고리 목록","permalink":"/projects/library/kr/call-number-index-kr/","dgPassFrontmatter":true,"noteIcon":"0","created":"2024-11-12T15:16:03.499+09:00","updated":"2024-12-16T23:53:04.008+09:00"}
 ---
 
 [[Projects/Library/KR/000/KR-000\|KR-000]] 기술 스택
@@ -70,5 +70,5 @@
 	- [[Projects/Library/KR/P300/P310/KR-P-310 a\|KR-P-310 a]] 2024년11월3주차 회고: 우아한테크코스 프리코스 7기 정리, next 프레임워크 사용해보기
 	- [[Projects/Library/KR/P300/P310/KR-P-310 b\|KR-P-310 b]] 2024년11월 4주차 회고: 협업 프로젝트시 필요한 것, 회사에 지원하기 위한 항목들의 퀄리티란
 	- [[Projects/Library/KR/P300/P310/KR-P-310 c\|KR-P-310 c]] 2024년12월1주차 회고: hydration 트러블 슈팅과 프론트엔드의 핵심 state와 component 
-	- [[Projects/Library/KR/KR-P-310 d\|KR-P-310 d]]
+	- [[Projects/Library/KR/P300/P310/KR-P-310 d\|KR-P-310 d]] 2024년12월 2주차 코딩테스트 준비하기 구현 문제 5시간안에 풀기
 - [[Projects/Library/KR/P300/P320/KR-P-320\|KR-P-320]] 월간 회고

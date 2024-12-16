@@ -7,10 +7,10 @@
 | POSTS                                                                          | Link                                                                  | Date     |
 | ------------------------------------------------------------------------------ | --------------------------------------------------------------------- | -------- |
 | Call Number Index KR                                                           | [[Projects/Library/KR/Call Number Index KR\|Call Number Index KR]] | 24-12-16 |
+| 12월 2주차 코딩테스트 준비하기 구현 문제 5시간안에 풀기                                              | [[Projects/Library/KR/P300/P310/KR-P-310 d\|KR-P-310 d]]           | 24-12-16 |
 | 데이터 설계 가지고 놀기                                                                  | [[Projects/Library/KR/400/410/410.10/KR-410.10 b\|KR-410.10 b]]    | 24-12-11 |
 | 2024년12월1주차 회고: hydration 트러블 슈팅과 프론트엔드의 핵심 state와 component                   | [[Projects/Library/KR/P300/P310/KR-P-310 c\|KR-P-310 c]]           | 24-12-09 |
 | Node.js 성능 향상:  I/O-bound에는 Async와 CPU-bound를 위한 Cluster API vs Worker Threads | [[Projects/Library/KR/000/010/010.40/KR-010.40 a\|KR-010.40 a]]    | 24-12-09 |
-| 생성형 AI를 이용한 개인 창작 마법 프로젝트                                                      | [[Projects/Library/KR/100/110/110.40/KR-110.40\|KR-110.40]]        | 24-12-08 |
 
 { .block-language-dataview}
 
@@ -89,7 +89,7 @@
 	- [[Projects/Library/KR/P300/P310/KR-P-310 a\|KR-P-310 a]] 2024년11월3주차 회고: 우아한테크코스 프리코스 7기 정리, next 프레임워크 사용해보기
 	- [[Projects/Library/KR/P300/P310/KR-P-310 b\|KR-P-310 b]] 2024년11월 4주차 회고: 협업 프로젝트시 필요한 것, 회사에 지원하기 위한 항목들의 퀄리티란
 	- [[Projects/Library/KR/P300/P310/KR-P-310 c\|KR-P-310 c]] 2024년12월1주차 회고: hydration 트러블 슈팅과 프론트엔드의 핵심 state와 component 
-	- [[Projects/Library/KR/KR-P-310 d\|KR-P-310 d]]
+	- [[Projects/Library/KR/P300/P310/KR-P-310 d\|KR-P-310 d]] 2024년12월 2주차 코딩테스트 준비하기 구현 문제 5시간안에 풀기
 - [[Projects/Library/KR/P300/P320/KR-P-320\|KR-P-320]] 월간 회고
 
 </div></div>
