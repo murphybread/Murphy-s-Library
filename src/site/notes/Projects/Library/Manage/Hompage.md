@@ -6,7 +6,7 @@
 # New Books
 | POSTS                                                                          | Link                                                                  | Date     |
 | ------------------------------------------------------------------------------ | --------------------------------------------------------------------- | -------- |
-| 12월 2주차 코딩테스트 준비하기 구현 문제 5시간안에 풀기                                              | [[Projects/Library/KR/P300/P310/KR-P-310 d\|KR-P-310 d]]           | 24-12-16 |
+| 12월 2주차 코딩테스트 준비하기 구현 문제 5시간안에 풀기                                              | [[Projects/Library/KR/P300/P310/KR-P-310 d\|KR-P-310 d]]           | 24-12-17 |
 | Call Number Index KR                                                           | [[Projects/Library/KR/Call Number Index KR\|Call Number Index KR]] | 24-12-16 |
 | 데이터 설계 가지고 놀기                                                                  | [[Projects/Library/KR/400/410/410.10/KR-410.10 b\|KR-410.10 b]]    | 24-12-11 |
 | 2024년12월1주차 회고: hydration 트러블 슈팅과 프론트엔드의 핵심 state와 component                   | [[Projects/Library/KR/P300/P310/KR-P-310 c\|KR-P-310 c]]           | 24-12-09 |

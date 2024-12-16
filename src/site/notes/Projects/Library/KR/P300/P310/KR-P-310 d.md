@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"title":"12월 2주차 코딩테스트 준비하기 구현 문제 5시간안에 풀기","description":"한 주 동안 안 풀어본거, 풀어본거 셋팅 등 코딩테스트만을 위해 준비하기","permalink":"/projects/library/kr/p300/p310/kr-p-310-d/","dgPassFrontmatter":true,"noteIcon":"0","created":"2024-12-16T11:52:32.941+09:00","updated":"2024-12-16T23:55:19.192+09:00"}
+{"dg-publish":true,"title":"12월 2주차 코딩테스트 준비하기 구현 문제 5시간안에 풀기","description":"한 주 동안 안 풀어본거, 풀어본거 셋팅 등 코딩테스트만을 위해 준비하기","permalink":"/projects/library/kr/p300/p310/kr-p-310-d/","dgPassFrontmatter":true,"noteIcon":"0","created":"2024-12-16T11:52:32.941+09:00","updated":"2024-12-17T00:00:19.043+09:00"}
 ---
 
 현재 노트: [[Projects/Library/KR/P300/P310/KR-P-310 d\|KR-P-310 d]] 12월 2주차 코딩테스트 준비하기 구현 문제 5시간안에 풀기
@@ -27,3 +27,6 @@
 #### 다음 주 목표
 - `우아한 테크코스 전후 비교 성장글 작성`
 - `디스코드 봇 기능 추가`. 기간동안 총 글 및 이모지 수, 총 best 5
+- `magic prompt` 고급 기능 구현 후 피드백 받기
+- `infinity 페이지 구현`
+- `취업준비 포트폴리오 정리`
