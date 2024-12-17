@@ -136,6 +136,4 @@ a.external-link img[alt="LinkedIn|left"] {
 /* dataview table 첫번째 열 너비 조절*/
  .table-view-table th:nth-child(1) {
      width: 50% !important;  /* 원하는 너비 (예: 20%) */
-    min-width: 100px !important; /* 최소 너비 설정 */
-     max-width: 200px !important;  /* 최대 너비 설정 */
  }
