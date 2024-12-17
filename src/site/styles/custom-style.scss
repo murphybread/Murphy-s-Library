@@ -130,7 +130,6 @@ a.external-link img[alt="LinkedIn|left"] {
 }
 
 /* dataview table 폰트 조절용 */
-.table-view-table > thead > tr > th {
-    font-size: 12px; !important
-
+.table-view-table {
+  font-size: 12px !important;
 }
