@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"title":"Call Number Index KR","description":"한국어로 기록된 카테고리 목록","permalink":"/projects/library/kr/call-number-index-kr/","dgPassFrontmatter":true,"noteIcon":"0","created":"2024-11-12T15:16:03.499+09:00","updated":"2024-12-16T23:53:04.008+09:00"}
+{"dg-publish":true,"title":"Call Number Index KR","description":"한국어로 기록된 카테고리 목록","permalink":"/projects/library/kr/call-number-index-kr/","dgPassFrontmatter":true,"noteIcon":"0","created":"2024-11-12T15:16:03.499+09:00","updated":"2024-12-17T13:51:00.019+09:00"}
 ---
 
 [[Projects/Library/KR/000/KR-000\|KR-000]] 기술 스택
@@ -15,8 +15,8 @@
 - [[Projects/Library/KR/000/020/KR-020\|KR-020]] Ops
 	- [[Projects/Library/KR/000/020/020.00/KR-020.00\|KR-020.00]] Git
 		- [[Projects/Library/KR/000/020/020.00/KR-020.00 a\|KR-020.00 a]] Git 특정 환경의 파일만 커밋없이 제외하기
-	- [[Projects/Library/KR/KR-020.10\|KR-020.10]] (준비 중⏳)Docker
-		- [[Projects/Library/KR/KR-020.10 a\|KR-020.10 a]] 도커사용이유 잘쓰는지 판단 질문
+	- [[Projects/Library/KR/000/020/020.10/KR-020.10\|KR-020.10]] Docker
+		- [[Projects/Library/KR/000/020/020.10/KR-020.10 a\|KR-020.10 a]] 엉망진창 개발 환경, 도커가 등장한 뒤 (feat. 라마, 깃랩)
 	- [[KR-020.20\|KR-020.20]] (준비 중⏳)AWS, GCP Cloud
 [[Projects/Library/KR/100/KR-100\|KR-100]] 프로젝트 경험
 - [[Projects/Library/KR/100/110/KR-110\|KR-110]] 개인 프로젝트 

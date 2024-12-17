@@ -4,13 +4,13 @@
 
 #hompage #Library #Rules
 # New Books
-| POSTS                                                                          | Link                                                                  | Date     |
-| ------------------------------------------------------------------------------ | --------------------------------------------------------------------- | -------- |
-| 12월 2주차 코딩테스트 준비하기 구현 문제 5시간안에 풀기                                              | [[Projects/Library/KR/P300/P310/KR-P-310 d\|KR-P-310 d]]           | 24-12-17 |
-| Call Number Index KR                                                           | [[Projects/Library/KR/Call Number Index KR\|Call Number Index KR]] | 24-12-16 |
-| 데이터 설계 가지고 놀기                                                                  | [[Projects/Library/KR/400/410/410.10/KR-410.10 b\|KR-410.10 b]]    | 24-12-11 |
-| 2024년12월1주차 회고: hydration 트러블 슈팅과 프론트엔드의 핵심 state와 component                   | [[Projects/Library/KR/P300/P310/KR-P-310 c\|KR-P-310 c]]           | 24-12-09 |
-| Node.js 성능 향상:  I/O-bound에는 Async와 CPU-bound를 위한 Cluster API vs Worker Threads | [[Projects/Library/KR/000/010/010.40/KR-010.40 a\|KR-010.40 a]]    | 24-12-09 |
+| POSTS                                | Link                                                                  | Date     |
+| ------------------------------------ | --------------------------------------------------------------------- | -------- |
+| Docker                               | [[Projects/Library/KR/000/020/020.10/KR-020.10\|KR-020.10]]        | 24-12-17 |
+| Call Number Index KR                 | [[Projects/Library/KR/Call Number Index KR\|Call Number Index KR]] | 24-12-17 |
+| 엉망진창 개발 환경, 도커가 등장한 뒤 (feat. 라마, 깃랩) | [[Projects/Library/KR/000/020/020.10/KR-020.10 a\|KR-020.10 a]]    | 24-12-17 |
+| 12월 2주차 코딩테스트 준비하기 구현 문제 5시간안에 풀기    | [[Projects/Library/KR/P300/P310/KR-P-310 d\|KR-P-310 d]]           | 24-12-17 |
+| 데이터 설계 가지고 놀기                        | [[Projects/Library/KR/400/410/410.10/KR-410.10 b\|KR-410.10 b]]    | 24-12-11 |
 
 { .block-language-dataview}
 
@@ -34,8 +34,8 @@
 - [[Projects/Library/KR/000/020/KR-020\|KR-020]] Ops
 	- [[Projects/Library/KR/000/020/020.00/KR-020.00\|KR-020.00]] Git
 		- [[Projects/Library/KR/000/020/020.00/KR-020.00 a\|KR-020.00 a]] Git 특정 환경의 파일만 커밋없이 제외하기
-	- [[Projects/Library/KR/KR-020.10\|KR-020.10]] (준비 중⏳)Docker
-		- [[Projects/Library/KR/KR-020.10 a\|KR-020.10 a]] 도커사용이유 잘쓰는지 판단 질문
+	- [[Projects/Library/KR/000/020/020.10/KR-020.10\|KR-020.10]] Docker
+		- [[Projects/Library/KR/000/020/020.10/KR-020.10 a\|KR-020.10 a]] 엉망진창 개발 환경, 도커가 등장한 뒤 (feat. 라마, 깃랩)
 	- [[KR-020.20\|KR-020.20]] (준비 중⏳)AWS, GCP Cloud
 [[Projects/Library/KR/100/KR-100\|KR-100]] 프로젝트 경험
 - [[Projects/Library/KR/100/110/KR-110\|KR-110]] 개인 프로젝트 
