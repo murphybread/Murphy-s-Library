@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"title":"Call Number Index KR","description":"한국어로 기록된 카테고리 목록","permalink":"/projects/library/kr/call-number-index-kr/","dgPassFrontmatter":true,"noteIcon":"0","created":"2024-11-12T15:16:03.499+09:00","updated":"2024-12-17T13:51:00.019+09:00"}
+{"dg-publish":true,"title":"Call Number Index KR","description":"한국어로 기록된 카테고리 목록","permalink":"/projects/library/kr/call-number-index-kr/","dgPassFrontmatter":true,"noteIcon":"0","created":"2024-11-12T15:16:03.499+09:00","updated":"2024-12-17T14:23:25.172+09:00"}
 ---
 
 [[Projects/Library/KR/000/KR-000\|KR-000]] 기술 스택
@@ -26,6 +26,7 @@
 		- [[Projects/Library/KR/100/110/110.00/KR-110.00 c\|KR-110.00 c]] 디스코드 베스트 포스트 추천 봇 만들기 3편 - 파일 읽기 쓰기와 디스코드 봇 커맨드 구현하기
 		- [[Projects/Library/KR/100/110/110.00/KR-110.00 d\|KR-110.00 d]] 디스코드 베스트 포스트 추천 봇 만들기 4편 - 프로덕션 올리기전 시크릿 제거하기 bfg-repo-cleaner 와 커밋이 2배로 늘어나버린 문제
 		- [[Projects/Library/KR/100/110/110.00/KR-110.00 e\|KR-110.00 e]] 디스코드 베스트 포스트 추천 봇 만들기 5편 - 클라우드와 크론잡을 통해 24시간 서비스 생성하기
+		- [[Projects/Library/KR/100/110/110.00/KR-110.00 f\|KR-110.00 f]] 디스코드 베스트 포스트 추천 봇 만들기 6편 - 
 	- [[KR-110.10\|KR-110.10]] (준비 중⏳)LLM에 RAG를 결합하여 내 블로그를 안내해주는 개인 사서
 		- [[KR-110.10 a\|KR-110.10 a]] (준비 중⏳)Langchang and Streamlit
 		- [[KR-110.10 b\|KR-110.10 b]] (준비 중⏳)RAG 구현

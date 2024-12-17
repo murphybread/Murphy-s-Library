@@ -4,13 +4,13 @@
 
 #hompage #Library #Rules
 # New Books
-| POSTS                                | Link                                                                  | Date     |
-| ------------------------------------ | --------------------------------------------------------------------- | -------- |
-| Docker                               | [[Projects/Library/KR/000/020/020.10/KR-020.10\|KR-020.10]]        | 24-12-17 |
-| Call Number Index KR                 | [[Projects/Library/KR/Call Number Index KR\|Call Number Index KR]] | 24-12-17 |
-| 엉망진창 개발 환경, 도커가 등장한 뒤 (feat. 라마, 깃랩) | [[Projects/Library/KR/000/020/020.10/KR-020.10 a\|KR-020.10 a]]    | 24-12-17 |
-| 12월 2주차 코딩테스트 준비하기 구현 문제 5시간안에 풀기    | [[Projects/Library/KR/P300/P310/KR-P-310 d\|KR-P-310 d]]           | 24-12-17 |
-| 데이터 설계 가지고 놀기                        | [[Projects/Library/KR/400/410/410.10/KR-410.10 b\|KR-410.10 b]]    | 24-12-11 |
+| POSTS                                                                  | Link                                                                  | Date     |
+| ---------------------------------------------------------------------- | --------------------------------------------------------------------- | -------- |
+| 디스코드 베스트 포스트 추천 봇 만들기 6편 - 모든 게시글 수 확인 하기, 유연한 확장을 위한 구조 수정, 적절한 캐시 사용 | [[Projects/Library/KR/100/110/110.00/KR-110.00 f\|KR-110.00 f]]    | 24-12-17 |
+| Call Number Index KR                                                   | [[Projects/Library/KR/Call Number Index KR\|Call Number Index KR]] | 24-12-17 |
+| Docker                                                                 | [[Projects/Library/KR/000/020/020.10/KR-020.10\|KR-020.10]]        | 24-12-17 |
+| 엉망진창 개발 환경, 도커가 등장한 뒤 (feat. 라마, 깃랩)                                   | [[Projects/Library/KR/000/020/020.10/KR-020.10 a\|KR-020.10 a]]    | 24-12-17 |
+| 12월 2주차 코딩테스트 준비하기 구현 문제 5시간안에 풀기                                      | [[Projects/Library/KR/P300/P310/KR-P-310 d\|KR-P-310 d]]           | 24-12-17 |
 
 { .block-language-dataview}
 
@@ -45,6 +45,7 @@
 		- [[Projects/Library/KR/100/110/110.00/KR-110.00 c\|KR-110.00 c]] 디스코드 베스트 포스트 추천 봇 만들기 3편 - 파일 읽기 쓰기와 디스코드 봇 커맨드 구현하기
 		- [[Projects/Library/KR/100/110/110.00/KR-110.00 d\|KR-110.00 d]] 디스코드 베스트 포스트 추천 봇 만들기 4편 - 프로덕션 올리기전 시크릿 제거하기 bfg-repo-cleaner 와 커밋이 2배로 늘어나버린 문제
 		- [[Projects/Library/KR/100/110/110.00/KR-110.00 e\|KR-110.00 e]] 디스코드 베스트 포스트 추천 봇 만들기 5편 - 클라우드와 크론잡을 통해 24시간 서비스 생성하기
+		- [[Projects/Library/KR/100/110/110.00/KR-110.00 f\|KR-110.00 f]] 디스코드 베스트 포스트 추천 봇 만들기 6편 - 
 	- [[KR-110.10\|KR-110.10]] (준비 중⏳)LLM에 RAG를 결합하여 내 블로그를 안내해주는 개인 사서
 		- [[KR-110.10 a\|KR-110.10 a]] (준비 중⏳)Langchang and Streamlit
 		- [[KR-110.10 b\|KR-110.10 b]] (준비 중⏳)RAG 구현
