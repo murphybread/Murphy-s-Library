@@ -129,3 +129,8 @@ a.external-link img[alt="LinkedIn|left"] {
     height: auto !important; /* Maintain aspect ratio with !important */
 }
 
+/* dataview table 폰트 조절용 */
+.table-view-table > thead > tr > th {
+    font-size: 12px; !important
+
+}
