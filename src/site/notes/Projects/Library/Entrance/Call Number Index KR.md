@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"title":"Call Number Index KR","description":"한국어로 기록된 카테고리 목록","permalink":"/projects/library/entrance/call-number-index-kr/","dgPassFrontmatter":true,"noteIcon":"0","created":"2024-11-12T15:16:03.499+09:00","updated":"2024-12-18T22:43:50.384+09:00"}
+{"dg-publish":true,"title":"Call Number Index KR","description":"한국어로 기록된 카테고리 목록","permalink":"/projects/library/entrance/call-number-index-kr/","dgPassFrontmatter":true,"noteIcon":"0","created":"2024-11-12T15:16:03.499+09:00","updated":"2024-12-18T22:56:00.698+09:00"}
 ---
 
 [[Projects/Library/KR/000/KR-000\|KR-000]] 기술 스택
@@ -51,7 +51,12 @@
 [[KR-300\|KR-300]] (준비 중⏳)협업 경험
 - [[KR-310\|KR-310]] (준비 중⏳)개발자간 협업
 - [[KR-320\|KR-320]] (준비 중⏳)다분야 협업
-  
+
+
+---
+
+# Personal Categories
+
 [[Projects/Library/KR/400/KR-400\|KR-400]] 성장 경험
 - [[Projects/Library/KR/400/410/KR-410\|KR-410]] 개인 학습과 성장
 	- [[Projects/Library/KR/400/410/410.00/KR-410.00\|KR-410.00]] 우아한테크코스 프리코스 7기 회고록 1개월 기록

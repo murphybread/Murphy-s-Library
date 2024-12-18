@@ -6,8 +6,8 @@
 # New Books
 | POSTS                           | Link                                                                        | Date     |
 | ------------------------------- | --------------------------------------------------------------------------- | -------- |
-| 모바일웹, 웹앱, 하이브리드앱, 네이티브앱 정리      | [[Projects/Library/KR/P100/KR-P-100 b\|KR-P-100 b]]                      | 24-12-18 |
 | Call Number Index KR            | [[Projects/Library/Entrance/Call Number Index KR\|Call Number Index KR]] | 24-12-18 |
+| 모바일웹, 웹앱, 하이브리드앱, 네이티브앱 정리      | [[Projects/Library/KR/P100/KR-P-100 b\|KR-P-100 b]]                      | 24-12-18 |
 | 지식관리 툴로 옵시디언을 사용하는 이유           | [[Projects/Library/KR/P100/KR-P-100 a\|KR-P-100 a]]                      | 24-12-18 |
 | 다이어그램 그릴 때 생각해 볼 점              | [[Projects/Library/KR/400/410/410.10/KR-410.10 c\|KR-410.10 c]]          | 24-12-18 |
 | Helm 사용하기 ArgoCD, Loki, Grafana | [[Projects/Library/KR/000/020/020.10/KR-020.10 d\|KR-020.10 d]]          | 24-12-18 |
@@ -70,7 +70,12 @@
 [[KR-300\|KR-300]] (준비 중⏳)협업 경험
 - [[KR-310\|KR-310]] (준비 중⏳)개발자간 협업
 - [[KR-320\|KR-320]] (준비 중⏳)다분야 협업
-  
+
+
+---
+
+# Personal Categories
+
 [[Projects/Library/KR/400/KR-400\|KR-400]] 성장 경험
 - [[Projects/Library/KR/400/410/KR-410\|KR-410]] 개인 학습과 성장
 	- [[Projects/Library/KR/400/410/410.00/KR-410.00\|KR-410.00]] 우아한테크코스 프리코스 7기 회고록 1개월 기록
