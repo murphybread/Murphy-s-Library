@@ -1,25 +1,6 @@
 ---
-{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2024-12-18T22:38:46.998+09:00"}
+{"dg-publish":true,"title":"Call Number Index KR","description":"한국어로 기록된 카테고리 목록","permalink":"/projects/library/entrance/call-number-index-kr/","dgPassFrontmatter":true,"noteIcon":"0","created":"2024-11-12T15:16:03.499+09:00","updated":"2024-12-18T22:43:50.384+09:00"}
 ---
-
-#hompage #Library
-# New Books
-| POSTS                           | Link                                                                        | Date     |
-| ------------------------------- | --------------------------------------------------------------------------- | -------- |
-| 모바일웹, 웹앱, 하이브리드앱, 네이티브앱 정리      | [[Projects/Library/KR/P100/KR-P-100 b\|KR-P-100 b]]                      | 24-12-18 |
-| Call Number Index KR            | [[Projects/Library/Entrance/Call Number Index KR\|Call Number Index KR]] | 24-12-18 |
-| 지식관리 툴로 옵시디언을 사용하는 이유           | [[Projects/Library/KR/P100/KR-P-100 a\|KR-P-100 a]]                      | 24-12-18 |
-| 다이어그램 그릴 때 생각해 볼 점              | [[Projects/Library/KR/400/410/410.10/KR-410.10 c\|KR-410.10 c]]          | 24-12-18 |
-| Helm 사용하기 ArgoCD, Loki, Grafana | [[Projects/Library/KR/000/020/020.10/KR-020.10 d\|KR-020.10 d]]          | 24-12-18 |
-
-{ .block-language-dataview}
-
-## Blog Post Categories (In progress: migration)
-
-<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/projects/library/entrance/call-number-index-kr/" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
-
-
-
 
 [[Projects/Library/KR/000/KR-000\|KR-000]] 기술 스택
 - [[Projects/Library/KR/000/010/KR-010\|KR-010]] Dev
@@ -106,21 +87,3 @@
 - [[Projects/Library/KR/P300/P320/KR-P-320\|KR-P-320]] 월간 회고
 - [[Projects/Library/KR/P300/P330/KR-P-330\|KR-P-330]] 연간 회고
 	- [[Projects/Library/KR/P300/P330/KR-P-330 a\|KR-P-330 a]] 2023년 회고
-
-</div></div>
-
-
-
-
-#### External  Resources
-[![GitHub|left](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/murphybread)[![LinkedIn|left](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/%EB%AF%BC%EC%B0%AC-%EA%B9%80-aba89a243)
-
-
----
-# History of Library
-Link:  [[Projects/Library/Manage/History of Library\|History of Library]]
-
-
-
-
-
