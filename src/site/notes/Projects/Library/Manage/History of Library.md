@@ -4,7 +4,7 @@
 
 #History #Versioning_Strategy 
 # Versioning Standard
-[[Projects/Library/000/020/020.00/020.00 c\|020.00 c]]
+[[020.00 c\|020.00 c]]
 
 
 # 0.15.2-FB
@@ -473,8 +473,7 @@ So I modify this part. first get distinguish body. by the split function divide 
 
 
 현재 노트: [[<% tp.file.title %>\|<% tp.file.title %>]]
-하위 분류
-- 
+상위 분류: [[]]
 
 #A
 
@@ -661,12 +660,12 @@ Major category indent was wrong
 
 As-is Used this structure pattern
 ```
-[[Projects/Library/000/000\|000]] IT Knowledge
+[[000\|000]] IT Knowledge
 - [[010\|010]] Develop Knowledge
-	- [[Projects/Library/000/010/010.00/010.00\|010.00]] Develop Computer Science Knowledge
+	- [[010.00\|010.00]] Develop Computer Science Knowledge
 		- [[010.00 a\|010.00 a]] Essential Developer Insights
 	- [[010.10\|010.10]] Develop Programming Language
-		- [[Projects/Library/000/010/010.10/010.10 a\|010.10 a]] Bash shell
+		- [[010.10 a\|010.10 a]] Bash shell
 
 ```
 
@@ -677,12 +676,12 @@ That makes preview error indent and line break
 
 ### First Change call number md file like this
 ```
-- [[Projects/Library/000/000\|000]] IT Knowledge
+- [[000\|000]] IT Knowledge
 	- [[010\|010]] Develop Knowledge
-		- [[Projects/Library/000/010/010.00/010.00\|010.00]] Develop Computer Science Knowledge
+		- [[010.00\|010.00]] Develop Computer Science Knowledge
 			- [[010.00 a\|010.00 a]] Essential Developer Insights
 		- [[010.10\|010.10]] Develop Programming Language
-			- [[Projects/Library/000/010/010.10/010.10 a\|010.10 a]] Bash shell
+			- [[010.10 a\|010.10 a]] Bash shell
 ```
 
 ### Second Change convert_josn.py 

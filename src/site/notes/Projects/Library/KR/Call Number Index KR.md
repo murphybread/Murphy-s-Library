@@ -1,13 +1,15 @@
 ---
-{"dg-publish":true,"title":"Call Number Index KR","description":"한국어로 기록된 카테고리 목록","permalink":"/projects/library/kr/call-number-index-kr/","dgPassFrontmatter":true,"noteIcon":"0","created":"2024-11-12T15:16:03.499+09:00","updated":"2024-12-17T14:23:25.172+09:00"}
+{"dg-publish":true,"title":"Call Number Index KR","description":"한국어로 기록된 카테고리 목록","permalink":"/projects/library/kr/call-number-index-kr/","dgPassFrontmatter":true,"noteIcon":"0","created":"2024-11-12T15:16:03.499+09:00","updated":"2024-12-18T22:15:44.630+09:00"}
 ---
 
 [[Projects/Library/KR/000/KR-000\|KR-000]] 기술 스택
 - [[Projects/Library/KR/000/010/KR-010\|KR-010]] Dev
-	- [[Projects/Library/KR/000/010/010.00/KR-010.00\|KR-010.00]] React, Next
-		- [[Projects/Library/KR/000/010/010.00/KR-010.00 a\|KR-010.00 a]] Hydration 에러: styled-components와 framer-motion동시 사용시 props가 강제로 넘어가면서 생긴 복합적 문제 해결하기
+	- [[Projects/Library/KR/000/010/010.00/KR-010.00\|KR-010.00]] Debugging
+		- [[Projects/Library/KR/000/010/010.00/KR-010.00 a\|KR-010.00 a]] VSCode 브레이크 포인트를 활용한 디버깅
 	- [[Projects/Library/KR/000/010/010.10/KR-010.10\|KR-010.10]] HTML,CSS,JavaScript
 		- [[Projects/Library/KR/000/010/010.10/KR-010.10 a\|KR-010.10 a]] styled-components 간단 소개
+	- [[Projects/Library/KR/000/010/010.30/KR-010.30\|KR-010.30]] React, Next
+		- [[Projects/Library/KR/000/010/010.30/KR-010.30 a\|KR-010.30 a]] Hydration 에러: styled-components와 framer-motion동시 사용시 props가 강제로 넘어가면서 생긴 복합적 문제 해결하기
 	- [[Projects/Library/KR/000/010/010.40/KR-010.40\|KR-010.40]] Node.js
 		- [[Projects/Library/KR/000/010/010.40/KR-010.40 a\|KR-010.40 a]] Node.js 성능 향상: I/O-bound에는 Async와 CPU-bound를 위한 Cluster API vs Worker Threads
 	- [[Projects/Library/KR/000/010/010.60/KR-010.60\|KR-010.60]] Jest
@@ -15,8 +17,11 @@
 - [[Projects/Library/KR/000/020/KR-020\|KR-020]] Ops
 	- [[Projects/Library/KR/000/020/020.00/KR-020.00\|KR-020.00]] Git
 		- [[Projects/Library/KR/000/020/020.00/KR-020.00 a\|KR-020.00 a]] Git 특정 환경의 파일만 커밋없이 제외하기
-	- [[Projects/Library/KR/000/020/020.10/KR-020.10\|KR-020.10]] Docker
+	- [[Projects/Library/KR/000/020/020.10/KR-020.10\|KR-020.10]] Docker, Kubernetes
 		- [[Projects/Library/KR/000/020/020.10/KR-020.10 a\|KR-020.10 a]] 엉망진창 개발 환경, 도커가 등장한 뒤 (feat. 라마, 깃랩)
+		- [[Projects/Library/KR/000/020/020.10/KR-020.10 b\|KR-020.10 b]] Kaniko와 credStore 및 Multistage 활용
+		- [[Projects/Library/KR/000/020/020.10/KR-020.10 c\|KR-020.10 c]] Kops와 eksctl 설치하기
+		- [[Projects/Library/KR/000/020/020.10/KR-020.10 d\|KR-020.10 d]] Helm 사용하기 ArgoCD, Loki, Grafana
 	- [[KR-020.20\|KR-020.20]] (준비 중⏳)AWS, GCP Cloud
 [[Projects/Library/KR/100/KR-100\|KR-100]] 프로젝트 경험
 - [[Projects/Library/KR/100/110/KR-110\|KR-110]] 개인 프로젝트 
@@ -55,14 +60,17 @@
 	- [[Projects/Library/KR/400/410/410.10/KR-410.10\|KR-410.10]] 개발자로서 한 번쯤 생각해볼 고민들
 		- [[Projects/Library/KR/400/410/410.10/KR-410.10 a\|KR-410.10 a]] 코드를 작성하는 역량과 읽고 분석하는 역량중 더 중요한 것은
 		- [[Projects/Library/KR/400/410/410.10/KR-410.10 b\|KR-410.10 b]] 데이터 구조 가지고 놀기
+		- [[Projects/Library/KR/400/410/410.10/KR-410.10 c\|KR-410.10 c]] 다이어그램 그릴 때 생각해 볼 점
 - [[Projects/Library/KR/400/420/KR-420\|KR-420]] 시스템 설계와 운영 개선
 	- [[Projects/Library/KR/400/420/420.00/KR-420.00\|KR-420.00]] 운영 지표와 성능 관리
 		- [[Projects/Library/KR/400/420/420.00/KR-420.00 a\|KR-420.00 a]] SLA, SLO, SLI의 차이와 고려할 점
 
-[[KR-P-000\|KR-P-000]] (준비 중⏳)교훈
-- [[KR-P-000 a\|KR-P-000 a]] (준비 중⏳)
-[[KR-P-100\|KR-P-100]] (준비 중⏳)취미
-- [[KR-P-100 a\|KR-P-100 a]] (준비 중⏳)
+[[Projects/Library/KR/P000/KR-P-000\|KR-P-000]] 사색의 기록
+- [[Projects/Library/KR/P000/KR-P-000 a\|KR-P-000 a]] Hodie Vixi(Today I Lived) 오늘 하루도 고생한 스스로에게 해줄 말
+- [[Projects/Library/KR/P000/KR-P-000 b\|KR-P-000 b]] 스스로 생각했을 때 불가능하다고 포기했던 일을 다시 시도하는 방법
+- [[Projects/Library/KR/P000/KR-P-000 c\|KR-P-000 c]] 직업을 선택할때 지표를 통해 어느 것이 좋은지 평가해보는 방법
+[[Projects/Library/KR/P100/KR-P-100\|KR-P-100]] 취미와 놀이터
+- [[Projects/Library/KR/P100/KR-P-100 a\|KR-P-100 a]] 지식관리 툴로 옵시디언을 사용하는 이유
 [[KR-P-200\|KR-P-200]] (준비 중⏳)마일스톤
 - [[KR-P-200 a\|KR-P-200 a]] (준비 중)인생에서 기억에 남는 순간
 	- [[KR-P-200 b\|KR-P-200 b]] (준비 중)노력 끝에 성취한 목표
@@ -73,3 +81,5 @@
 	- [[Projects/Library/KR/P300/P310/KR-P-310 c\|KR-P-310 c]] 2024년12월1주차 회고: hydration 트러블 슈팅과 프론트엔드의 핵심 state와 component 
 	- [[Projects/Library/KR/P300/P310/KR-P-310 d\|KR-P-310 d]] 2024년12월 2주차 코딩테스트 준비하기 구현 문제 5시간안에 풀기
 - [[Projects/Library/KR/P300/P320/KR-P-320\|KR-P-320]] 월간 회고
+- [[Projects/Library/KR/P300/P330/KR-P-330\|KR-P-330]] 연간 회고
+	- [[Projects/Library/KR/P300/P330/KR-P-330 a\|KR-P-330 a]] 2023년 회고
