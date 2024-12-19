@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"title":"Call Number Index KR","description":"한국어로 기록된 카테고리 목록","permalink":"/projects/library/entrance/call-number-index-kr/","dgPassFrontmatter":true,"noteIcon":"0","created":"2024-11-12T15:16:03.499+09:00","updated":"2024-12-19T20:22:08.626+09:00"}
+{"dg-publish":true,"title":"Call Number Index KR","description":"한국어로 기록된 카테고리 목록","permalink":"/projects/library/entrance/call-number-index-kr/","dgPassFrontmatter":true,"noteIcon":"0","created":"2024-11-12T15:16:03.499+09:00","updated":"2024-12-19T23:14:33.373+09:00"}
 ---
 
 [[Projects/Library/KR/000/KR-000\|KR-000]] 기술 스택
@@ -22,8 +22,8 @@
 		- [[Projects/Library/KR/000/020/020.10/KR-020.10 b\|KR-020.10 b]] Kaniko와 credStore 및 Multistage 활용
 		- [[Projects/Library/KR/000/020/020.10/KR-020.10 c\|KR-020.10 c]] Kops와 eksctl 설치하기
 		- [[Projects/Library/KR/000/020/020.10/KR-020.10 d\|KR-020.10 d]] Helm 사용하기 ArgoCD, Loki, Grafana
-	- [[Projects/Library/Entrance/KR-020.20\|KR-020.20]] AWS, GCP Cloud
-		- [[Projects/Library/Entrance/KR-020.20 a\|KR-020.20 a]] 클라우드를 사용할 때와 사용시 고려 요소
+	- [[Projects/Library/KR/000/020/020.20/KR-020.20\|KR-020.20]] Cloud
+		- [[Projects/Library/KR/000/020/020.20/KR-020.20 a\|KR-020.20 a]] 클라우드를 사용할 때와 사용시 고려 요소
 	  
 [[Projects/Library/KR/100/KR-100\|KR-100]] 프로젝트 경험
 - [[Projects/Library/KR/100/110/KR-110\|KR-110]] 개인 프로젝트 

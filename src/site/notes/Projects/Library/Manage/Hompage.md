@@ -6,11 +6,11 @@
 # New Books
 | POSTS                             | Link                                                                        | Date     |
 | --------------------------------- | --------------------------------------------------------------------------- | -------- |
-| 객체지향의 사실과 오해 독후감 역할,책임,협력 이라는 3요소 | [[Projects/Library/KR/400/410/410.10/KR-410.10 d\|KR-410.10 d]]          | 24-12-19 |
+| Cloud                             | [[Projects/Library/KR/000/020/020.20/KR-020.20\|KR-020.20]]              | 24-12-20 |
+| 클라우드를 사용할 때와 사용시 고려 요소            | [[Projects/Library/KR/000/020/020.20/KR-020.20 a\|KR-020.20 a]]          | 24-12-19 |
 | Call Number Index KR              | [[Projects/Library/Entrance/Call Number Index KR\|Call Number Index KR]] | 24-12-19 |
-| \-                                | [[Projects/Library/Entrance/KR-020.20 a\|KR-020.20 a]]                   | 24-12-19 |
+| 객체지향의 사실과 오해 독후감 역할,책임,협력 이라는 3요소 | [[Projects/Library/KR/400/410/410.10/KR-410.10 d\|KR-410.10 d]]          | 24-12-19 |
 | 모바일웹, 웹앱, 하이브리드앱, 네이티브앱 정리        | [[Projects/Library/KR/P100/KR-P-100 b\|KR-P-100 b]]                      | 24-12-18 |
-| 지식관리 툴로 옵시디언을 사용하는 이유             | [[Projects/Library/KR/P100/KR-P-100 a\|KR-P-100 a]]                      | 24-12-18 |
 
 { .block-language-dataview}
 
@@ -41,8 +41,8 @@
 		- [[Projects/Library/KR/000/020/020.10/KR-020.10 b\|KR-020.10 b]] Kaniko와 credStore 및 Multistage 활용
 		- [[Projects/Library/KR/000/020/020.10/KR-020.10 c\|KR-020.10 c]] Kops와 eksctl 설치하기
 		- [[Projects/Library/KR/000/020/020.10/KR-020.10 d\|KR-020.10 d]] Helm 사용하기 ArgoCD, Loki, Grafana
-	- [[Projects/Library/Entrance/KR-020.20\|KR-020.20]] AWS, GCP Cloud
-		- [[Projects/Library/Entrance/KR-020.20 a\|KR-020.20 a]] 클라우드를 사용할 때와 사용시 고려 요소
+	- [[Projects/Library/KR/000/020/020.20/KR-020.20\|KR-020.20]] Cloud
+		- [[Projects/Library/KR/000/020/020.20/KR-020.20 a\|KR-020.20 a]] 클라우드를 사용할 때와 사용시 고려 요소
 	  
 [[Projects/Library/KR/100/KR-100\|KR-100]] 프로젝트 경험
 - [[Projects/Library/KR/100/110/KR-110\|KR-110]] 개인 프로젝트 
