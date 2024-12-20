@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"title":"Call Number Index KR","description":"한국어로 기록된 카테고리 목록","permalink":"/projects/library/entrance/call-number-index-kr/","dgPassFrontmatter":true,"noteIcon":"0","created":"2024-11-12T15:16:03.499+09:00","updated":"2024-12-19T23:14:33.373+09:00"}
+{"dg-publish":true,"title":"Call Number Index KR","description":"한국어로 기록된 카테고리 목록","permalink":"/projects/library/entrance/call-number-index-kr/","dgPassFrontmatter":true,"noteIcon":"0","created":"2024-11-12T15:16:03.499+09:00","updated":"2024-12-20T18:04:22.584+09:00"}
 ---
 
 [[Projects/Library/KR/000/KR-000\|KR-000]] 기술 스택
@@ -8,6 +8,8 @@
 		- [[Projects/Library/KR/000/010/010.00/KR-010.00 a\|KR-010.00 a]] VSCode 브레이크 포인트를 활용한 디버깅
 	- [[Projects/Library/KR/000/010/010.10/KR-010.10\|KR-010.10]] HTML,CSS,JavaScript
 		- [[Projects/Library/KR/000/010/010.10/KR-010.10 a\|KR-010.10 a]] styled-components 간단 소개
+		- [[Projects/Library/KR/000/010/010.10/KR-010.10 b\|KR-010.10 b]] IT블로그 blockquote 개발자도구로 찾아내서 수정하기
+		- [[Projects/Library/KR/000/010/010.10/KR-010.10 c\|KR-010.10 c]] IT블로그 table 요소 보기 좋게 수정하기
 	- [[Projects/Library/KR/000/010/010.30/KR-010.30\|KR-010.30]] React, Next
 		- [[Projects/Library/KR/000/010/010.30/KR-010.30 a\|KR-010.30 a]] Hydration 에러: styled-components와 framer-motion동시 사용시 props가 강제로 넘어가면서 생긴 복합적 문제 해결하기
 	- [[Projects/Library/KR/000/010/010.40/KR-010.40\|KR-010.40]] Node.js
@@ -18,7 +20,7 @@
 	- [[Projects/Library/KR/000/020/020.00/KR-020.00\|KR-020.00]] Git
 		- [[Projects/Library/KR/000/020/020.00/KR-020.00 a\|KR-020.00 a]] Git 특정 환경의 파일만 커밋없이 제외하기
 	- [[Projects/Library/KR/000/020/020.10/KR-020.10\|KR-020.10]] Docker, Kubernetes
-		- [[Projects/Library/KR/000/020/020.10/KR-020.10 a\|KR-020.10 a]] 엉망진창 개발 환경, 도커가 등장한 뒤 (feat. 라마, 깃랩)
+		- [[Projects/Library/KR/000/020/020.10/KR-020.10 a\|KR-020.10 a]] 엉망진창 개발 환경, 도커가 등장한 뒤
 		- [[Projects/Library/KR/000/020/020.10/KR-020.10 b\|KR-020.10 b]] Kaniko와 credStore 및 Multistage 활용
 		- [[Projects/Library/KR/000/020/020.10/KR-020.10 c\|KR-020.10 c]] Kops와 eksctl 설치하기
 		- [[Projects/Library/KR/000/020/020.10/KR-020.10 d\|KR-020.10 d]] Helm 사용하기 ArgoCD, Loki, Grafana
@@ -33,7 +35,7 @@
 		- [[Projects/Library/KR/100/110/110.00/KR-110.00 c\|KR-110.00 c]] 디스코드 베스트 포스트 추천 봇 만들기 3편 - 파일 읽기 쓰기와 디스코드 봇 커맨드 구현하기
 		- [[Projects/Library/KR/100/110/110.00/KR-110.00 d\|KR-110.00 d]] 디스코드 베스트 포스트 추천 봇 만들기 4편 - 프로덕션 올리기전 시크릿 제거하기 bfg-repo-cleaner 와 커밋이 2배로 늘어나버린 문제
 		- [[Projects/Library/KR/100/110/110.00/KR-110.00 e\|KR-110.00 e]] 디스코드 베스트 포스트 추천 봇 만들기 5편 - 클라우드와 크론잡을 통해 24시간 서비스 생성하기
-		- [[Projects/Library/KR/100/110/110.00/KR-110.00 f\|KR-110.00 f]] 디스코드 베스트 포스트 추천 봇 만들기 6편 - 
+		- [[Projects/Library/KR/100/110/110.00/KR-110.00 f\|KR-110.00 f]] 디스코드 베스트 포스트 추천 봇 만들기 6편 - 열정통계, 열정게시물 기능
 	- [[KR-110.10\|KR-110.10]] (준비 중⏳)LLM에 RAG를 결합하여 내 블로그를 안내해주는 개인 사서
 		- [[KR-110.10 a\|KR-110.10 a]] (준비 중⏳)Langchang and Streamlit
 		- [[KR-110.10 b\|KR-110.10 b]] (준비 중⏳)RAG 구현
@@ -47,16 +49,14 @@
 - [[KR-130\|KR-130]] (준비 중⏳)기업 프로젝트
 	- (준비 중⏳)깃랩 HA 업그레이드
 	- (준비 중⏳)은행권 파이프라인 고도화
+	  
 [[KR-200\|KR-200]] (준비 중⏳)문제해결 경험
 - [[KR-210\|KR-210]] (준비 중⏳)트러블슈팅
+  
 [[KR-300\|KR-300]] (준비 중⏳)협업 경험
 - [[KR-310\|KR-310]] (준비 중⏳)개발자간 협업
 - [[KR-320\|KR-320]] (준비 중⏳)다분야 협업
 
-
----
-
-# Personal Categories
 
 [[Projects/Library/KR/400/KR-400\|KR-400]] 성장 경험
 - [[Projects/Library/KR/400/410/KR-410\|KR-410]] 개인 학습과 성장
@@ -70,9 +70,13 @@
 		- [[Projects/Library/KR/400/410/410.10/KR-410.10 b\|KR-410.10 b]] 데이터 구조 가지고 놀기
 		- [[Projects/Library/KR/400/410/410.10/KR-410.10 c\|KR-410.10 c]] 다이어그램 그릴 때 생각해 볼 점
 		- [[Projects/Library/KR/400/410/410.10/KR-410.10 d\|KR-410.10 d]] 객체지향의 사실과 오해 독후감
+		- [[Projects/Library/KR/400/410/410.10/KR-410.10 e\|KR-410.10 e]] 소프트웨어 장인 독후감 프로페셔널리즘, 실용주의, 자부심
 - [[Projects/Library/KR/400/420/KR-420\|KR-420]] 시스템 설계와 운영 개선
 	- [[Projects/Library/KR/400/420/420.00/KR-420.00\|KR-420.00]] 운영 지표와 성능 관리
 		- [[Projects/Library/KR/400/420/420.00/KR-420.00 a\|KR-420.00 a]] SLA, SLO, SLI의 차이와 고려할 점
+
+---
+# Personal Categories
 
 [[Projects/Library/KR/P000/KR-P-000\|KR-P-000]] 사색의 기록
 - [[Projects/Library/KR/P000/KR-P-000 a\|KR-P-000 a]] Hodie Vixi(Today I Lived) 오늘 하루도 고생한 스스로에게 해줄 말
