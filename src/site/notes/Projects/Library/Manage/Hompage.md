@@ -1,16 +1,16 @@
 ---
-{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2024-12-18T22:38:46.998+09:00"}
+{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2024-12-20T13:47:00.719+09:00"}
 ---
 
 #hompage #Library
 # New Books
-| POSTS                             | Link                                                                        | Date     |
-| --------------------------------- | --------------------------------------------------------------------------- | -------- |
-| 모바일웹, 웹앱, 하이브리드앱, 네이티브앱 정리        | [[Projects/Library/KR/P100/KR-P-100 b\|KR-P-100 b]]                      | 24-12-20 |
-| Cloud                             | [[Projects/Library/KR/000/020/020.20/KR-020.20\|KR-020.20]]              | 24-12-20 |
-| 클라우드를 사용할 때와 사용시 고려 요소            | [[Projects/Library/KR/000/020/020.20/KR-020.20 a\|KR-020.20 a]]          | 24-12-19 |
-| Call Number Index KR              | [[Projects/Library/Entrance/Call Number Index KR\|Call Number Index KR]] | 24-12-19 |
-| 객체지향의 사실과 오해 독후감 역할,책임,협력 이라는 3요소 | [[Projects/Library/KR/400/410/410.10/KR-410.10 d\|KR-410.10 d]]          | 24-12-19 |
+| POSTS                             | Link                                                                        | Date     | Tags                                     |
+| --------------------------------- | --------------------------------------------------------------------------- | -------- | ---------------------------------------- |
+| 모바일웹, 웹앱, 하이브리드앱, 네이티브앱 정리        | [[Projects/Library/KR/P100/KR-P-100 b\|KR-P-100 b]]                      | 24-12-20 | <ul><li>#취미와_놀이터</li></ul>               |
+| Cloud                             | [[Projects/Library/KR/000/020/020.20/KR-020.20\|KR-020.20]]              | 24-12-20 | <ul><li>#Cloud</li><li>#Ops</li></ul>    |
+| 클라우드를 사용할 때와 사용시 고려 요소            | [[Projects/Library/KR/000/020/020.20/KR-020.20 a\|KR-020.20 a]]          | 24-12-19 | <ul><li>#Cloud</li><li>#AWS</li></ul>    |
+| Call Number Index KR              | [[Projects/Library/Entrance/Call Number Index KR\|Call Number Index KR]] | 24-12-19 | <ul></ul>                                |
+| 객체지향의 사실과 오해 독후감 역할,책임,협력 이라는 3요소 | [[Projects/Library/KR/400/410/410.10/KR-410.10 d\|KR-410.10 d]]          | 24-12-19 | <ul><li>#개인학습과성장</li><li>#성장경험</li></ul> |
 
 { .block-language-dataview}
 
