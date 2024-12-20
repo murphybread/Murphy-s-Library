@@ -100,7 +100,15 @@ body {
 }
 
 
-
+.markdown-rendered blockquote{
+    border-left-style: solid !important;
+    background-color: #f5f2e8 !important;
+    border-left-width: 15px !important;
+    border-left-color: #4fc2e5 !important;
+    border-right-color: #3bb0d6 !important;
+    border-right-width: 4px !important;
+    border-right-style: solid !important;
+}
 /* Clearing floats only for elements that require it, in case they are added elsewhere */
 .markdown-rendered .clear-float::after {
     content: "";
