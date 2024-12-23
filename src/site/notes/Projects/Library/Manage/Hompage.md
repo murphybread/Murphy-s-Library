@@ -4,13 +4,13 @@
 
 #hompage #Library
 # New Books
-| POSTS                             | Link                                                                        | Date     | Tags                                                |
-| --------------------------------- | --------------------------------------------------------------------------- | -------- | --------------------------------------------------- |
-| IT블로그 table 요소 보기 좋게 수정하기         | [[Projects/Library/KR/000/010/010.10/KR-010.10 c\|KR-010.10 c]]          | 24-12-20 | <ul><li>#CSS</li></ul>                              |
-| Call Number Index KR              | [[Projects/Library/Entrance/Call Number Index KR\|Call Number Index KR]] | 24-12-20 | <ul></ul>                                           |
-| HTML,CSS,JavaScript               | [[Projects/Library/KR/000/010/010.10/KR-010.10\|KR-010.10]]              | 24-12-20 | <ul><li>#Dev</li><li>#HTML_CSS_JavaScript</li></ul> |
-| IT블로그 blockquote 개발자도구로 찾아내서 수정하기 | [[Projects/Library/KR/000/010/010.10/KR-010.10 b\|KR-010.10 b]]          | 24-12-20 | <ul><li>#CSS</li></ul>                              |
-| 소프트웨어 장인 독후감 프로페셔널리즘, 실용주의, 자부심   | [[Projects/Library/KR/400/410/410.10/KR-410.10 e\|KR-410.10 e]]          | 24-12-20 | <ul><li>#개인학습과성장</li><li>#독후감</li></ul>             |
+| POSTS                                | Link                                                                        | Date     | Tags                                         |
+| ------------------------------------ | --------------------------------------------------------------------------- | -------- | -------------------------------------------- |
+| Call Number Index KR                 | [[Projects/Library/Entrance/Call Number Index KR\|Call Number Index KR]] | 24-12-23 | <ul></ul>                                    |
+| 24년 12월 3주차 주간 회고: 기존 글들 마이그레이션 및 독서 | [[Projects/Library/KR/P300/P310/KR-P-310 e\|KR-P-310 e]]                 | 24-12-23 | <ul><li>#주간회고</li></ul>                      |
+| 모바일웹, 웹앱, 하이브리드앱, 네이티브앱 정리           | [[Projects/Library/KR/P100/P110/KR-P-110 b\|KR-P-110 b]]                 | 24-12-23 | <ul><li>#취미와_놀이터</li></ul>                   |
+| 지식관리 툴로 옵시디언을 사용하는 이유                | [[Projects/Library/KR/P100/P110/KR-P-110 a\|KR-P-110 a]]                 | 24-12-23 | <ul><li>#취미와_놀이터</li><li>#Obsidian</li></ul> |
+| 직업을 선택할때 지표를 통해 어느 것이 좋은지 평가해보는 방법   | [[Projects/Library/KR/P000/P010/KR-P-010 c\|KR-P-010 c]]                 | 24-12-23 | <ul><li>#사색의_기록</li></ul>                    |
 
 { .block-language-dataview}
 
@@ -98,15 +98,17 @@
 # Personal Categories
 
 [[Projects/Library/KR/P000/KR-P-000\|KR-P-000]] 사색의 기록
-- [[Projects/Library/KR/P000/KR-P-000 a\|KR-P-000 a]] Hodie Vixi(Today I Lived) 오늘 하루도 고생한 스스로에게 해줄 말
-- [[Projects/Library/KR/P000/KR-P-000 b\|KR-P-000 b]] 스스로 생각했을 때 불가능하다고 포기했던 일을 다시 시도하는 방법
-- [[Projects/Library/KR/P000/KR-P-000 c\|KR-P-000 c]] 직업을 선택할때 지표를 통해 어느 것이 좋은지 평가해보는 방법
+- [[Projects/Library/KR/P000/P010/KR-P-010\|KR-P-010]] 기록된 질문
+	- [[Projects/Library/KR/P000/P010/KR-P-010 a\|KR-P-010 a]] Hodie Vixi(Today I Lived) 오늘 하루도 고생한 스스로에게 해줄 말
+	- [[Projects/Library/KR/P000/P010/KR-P-010 b\|KR-P-010 b]] 스스로 생각했을 때 불가능하다고 포기했던 일을 다시 시도하는 방법
+	- [[Projects/Library/KR/P000/P010/KR-P-010 c\|KR-P-010 c]] 직업을 선택할때 지표를 통해 어느 것이 좋은지 평가해보는 방법
 [[Projects/Library/KR/P100/KR-P-100\|KR-P-100]] 취미와 놀이터
-- [[Projects/Library/KR/P100/KR-P-100 a\|KR-P-100 a]] 지식관리 툴로 옵시디언을 사용하는 이유
-- [[Projects/Library/KR/P100/KR-P-100 b\|KR-P-100 b]] 모바일웹, 웹앱, 하이브리드앱, 네이티브앱 정리
+- [[Projects/Library/KR/P100/P110/KR-P-110\|KR-P-110]] 기술 놀이터
+	- [[Projects/Library/KR/P100/P110/KR-P-110 a\|KR-P-110 a]] 지식관리 툴로 옵시디언을 사용하는 이유
+	- [[Projects/Library/KR/P100/P110/KR-P-110 b\|KR-P-110 b]] 모바일웹, 웹앱, 하이브리드앱, 네이티브앱 정리
 [[KR-P-200\|KR-P-200]] (준비 중⏳)마일스톤
-- [[KR-P-200 a\|KR-P-200 a]] (준비 중)인생에서 기억에 남는 순간
-	- [[KR-P-200 b\|KR-P-200 b]] (준비 중)노력 끝에 성취한 목표
+- [[KR-P-210\|KR-P-210]] (준비 중)인생에서 기억에 남는 순간
+- [[KR-P-220\|KR-P-220]] (준비 중)노력 끝에 성취한 목표
 	  
 [[Projects/Library/KR/P300/KR-P-300\|KR-P-300]] 회고
 - [[Projects/Library/KR/P300/P310/KR-P-310\|KR-P-310]] 주간 회고
@@ -114,6 +116,7 @@
 	- [[Projects/Library/KR/P300/P310/KR-P-310 b\|KR-P-310 b]] 2024년11월 4주차 회고: 협업 프로젝트시 필요한 것, 회사에 지원하기 위한 항목들의 퀄리티란
 	- [[Projects/Library/KR/P300/P310/KR-P-310 c\|KR-P-310 c]] 2024년12월1주차 회고: hydration 트러블 슈팅과 프론트엔드의 핵심 state와 component 
 	- [[Projects/Library/KR/P300/P310/KR-P-310 d\|KR-P-310 d]] 2024년12월 2주차 코딩테스트 준비하기 구현 문제 5시간안에 풀기
+	- [[Projects/Library/KR/P300/P310/KR-P-310 e\|KR-P-310 e]] 24년 12월 3주차 주간 회고: 기존 글들 마이그레이션 및 독서
 - [[Projects/Library/KR/P300/P320/KR-P-320\|KR-P-320]] 월간 회고
 - [[Projects/Library/KR/P300/P330/KR-P-330\|KR-P-330]] 연간 회고
 	- [[Projects/Library/KR/P300/P330/KR-P-330 a\|KR-P-330 a]] 2023년 회고
