@@ -1,20 +1,20 @@
 ---
-{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2024-12-20T13:47:00.719+09:00"}
+{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2024-12-23T17:19:37.457+09:00"}
 ---
 
 #hompage #Library
 # New Books
-| POSTS                                | Link                                                                        | Date     | Tags                                         |
-| ------------------------------------ | --------------------------------------------------------------------------- | -------- | -------------------------------------------- |
-| Call Number Index KR                 | [[Projects/Library/Entrance/Call Number Index KR\|Call Number Index KR]] | 24-12-23 | <ul></ul>                                    |
-| 24년 12월 3주차 주간 회고: 기존 글들 마이그레이션 및 독서 | [[Projects/Library/KR/P300/P310/KR-P-310 e\|KR-P-310 e]]                 | 24-12-23 | <ul><li>#주간회고</li></ul>                      |
-| 모바일웹, 웹앱, 하이브리드앱, 네이티브앱 정리           | [[Projects/Library/KR/P100/P110/KR-P-110 b\|KR-P-110 b]]                 | 24-12-23 | <ul><li>#취미와_놀이터</li></ul>                   |
-| 지식관리 툴로 옵시디언을 사용하는 이유                | [[Projects/Library/KR/P100/P110/KR-P-110 a\|KR-P-110 a]]                 | 24-12-23 | <ul><li>#취미와_놀이터</li><li>#Obsidian</li></ul> |
-| 직업을 선택할때 지표를 통해 어느 것이 좋은지 평가해보는 방법   | [[Projects/Library/KR/P000/P010/KR-P-010 c\|KR-P-010 c]]                 | 24-12-23 | <ul><li>#사색의_기록</li></ul>                    |
+| POSTS                                 | Link                                                                        | Date     | Tags                                         |
+| ------------------------------------- | --------------------------------------------------------------------------- | -------- | -------------------------------------------- |
+| 국비학원  졸업 프로젝트 AWS EKS 기반 물류 관리 자동화 구축 | [[Projects/Library/KR/100/120/KR-120.00\|KR-120.00]]                     | 24-12-26 | <ul><li>#팀프로젝트</li></ul>                     |
+| Call Number Index KR                  | [[Projects/Library/Entrance/Call Number Index KR\|Call Number Index KR]] | 24-12-26 | <ul></ul>                                    |
+| 24년 12월 3주차 주간 회고: 기존 글들 마이그레이션 및 독서  | [[Projects/Library/KR/P300/P310/KR-P-310 e\|KR-P-310 e]]                 | 24-12-23 | <ul><li>#주간회고</li></ul>                      |
+| 모바일웹, 웹앱, 하이브리드앱, 네이티브앱 정리            | [[Projects/Library/KR/P100/P110/KR-P-110 b\|KR-P-110 b]]                 | 24-12-23 | <ul><li>#취미와_놀이터</li></ul>                   |
+| 지식관리 툴로 옵시디언을 사용하는 이유                 | [[Projects/Library/KR/P100/P110/KR-P-110 a\|KR-P-110 a]]                 | 24-12-23 | <ul><li>#취미와_놀이터</li><li>#Obsidian</li></ul> |
 
 { .block-language-dataview}
 
-## Blog Post Categories (In progress: migration)
+## Blog Post Categories
 
 <div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/projects/library/entrance/call-number-index-kr/" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
 
@@ -59,18 +59,18 @@
 		- [[KR-110.10 a\|KR-110.10 a]] (준비 중⏳)Langchang and Streamlit
 		- [[KR-110.10 b\|KR-110.10 b]] (준비 중⏳)RAG 구현
 		- [[KR-110.10 c\|KR-110.10 c]] (준비 중⏳)메모리 , Admin , 프롬프트
-		- [[KR-110.10 4\|KR-110.10 4]] (준비 중⏳)배포, 시크릿
-	- [[KR-110.20\|KR-110.20]](준비 중⏳)IT 블로그
-	- [[KR-110.30\|KR-110.30]](준비 중⏳)편의점 프로그램
+		- [[KR-110.10 4\|KR-110.10 4]] (준비 중⏳)배포, 시크릿 관리
 	- [[Projects/Library/KR/100/110/110.40/KR-110.40\|KR-110.40]] 생성형 AI를 이용한 개인 창작 마법 프로젝트
-		- [[Projects/Library/KR/100/110/110.40/KR-110.40 a\|KR-110.40 a]] 프로젝트 중 겪은 트러블 슈팅 (CORS, 소셜 로그인 등)  
-- [[KR-120\|KR-120]] (준비 중⏳)팀 프로젝트
+		- [[Projects/Library/KR/100/110/110.40/KR-110.40 a\|KR-110.40 a]] 
+- [[Projects/Library/KR/100/120/KR-120\|KR-120]] 팀 프로젝트
+	- [[Projects/Library/KR/100/120/KR-120.00\|KR-120.00]] 국비학원  졸업 프로젝트 AWS EKS 기반 물류 관리 자동화 구축
 - [[KR-130\|KR-130]] (준비 중⏳)기업 프로젝트
 	- (준비 중⏳)깃랩 HA 업그레이드
 	- (준비 중⏳)은행권 파이프라인 고도화
 	  
 [[KR-200\|KR-200]] (준비 중⏳)문제해결 경험
 - [[KR-210\|KR-210]] (준비 중⏳)트러블슈팅
+	- magic 프로젝트 중 겪은 트러블 슈팅 (CORS, 소셜 로그인 등)  
   
 [[KR-300\|KR-300]] (준비 중⏳)협업 경험
 - [[KR-310\|KR-310]] (준비 중⏳)개발자간 협업

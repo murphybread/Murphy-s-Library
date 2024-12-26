@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"title":"Call Number Index KR","description":"한국어로 기록된 카테고리 목록","permalink":"/projects/library/entrance/call-number-index-kr/","dgPassFrontmatter":true,"noteIcon":"0","created":"2024-11-12T15:16:03.499+09:00","updated":"2024-12-23T17:08:20.434+09:00"}
+{"dg-publish":true,"title":"Call Number Index KR","description":"한국어로 기록된 카테고리 목록","permalink":"/projects/library/entrance/call-number-index-kr/","dgPassFrontmatter":true,"noteIcon":"0","created":"2024-11-12T15:16:03.499+09:00","updated":"2024-12-26T14:29:46.271+09:00"}
 ---
 
 [[Projects/Library/KR/000/KR-000\|KR-000]] 기술 스택
@@ -40,18 +40,18 @@
 		- [[KR-110.10 a\|KR-110.10 a]] (준비 중⏳)Langchang and Streamlit
 		- [[KR-110.10 b\|KR-110.10 b]] (준비 중⏳)RAG 구현
 		- [[KR-110.10 c\|KR-110.10 c]] (준비 중⏳)메모리 , Admin , 프롬프트
-		- [[KR-110.10 4\|KR-110.10 4]] (준비 중⏳)배포, 시크릿
-	- [[KR-110.20\|KR-110.20]](준비 중⏳)IT 블로그
-	- [[KR-110.30\|KR-110.30]](준비 중⏳)편의점 프로그램
+		- [[KR-110.10 4\|KR-110.10 4]] (준비 중⏳)배포, 시크릿 관리
 	- [[Projects/Library/KR/100/110/110.40/KR-110.40\|KR-110.40]] 생성형 AI를 이용한 개인 창작 마법 프로젝트
-		- [[Projects/Library/KR/100/110/110.40/KR-110.40 a\|KR-110.40 a]] 프로젝트 중 겪은 트러블 슈팅 (CORS, 소셜 로그인 등)  
-- [[KR-120\|KR-120]] (준비 중⏳)팀 프로젝트
+		- [[Projects/Library/KR/100/110/110.40/KR-110.40 a\|KR-110.40 a]] 
+- [[Projects/Library/KR/100/120/KR-120\|KR-120]] 팀 프로젝트
+	- [[Projects/Library/KR/100/120/KR-120.00\|KR-120.00]] 국비학원  졸업 프로젝트 AWS EKS 기반 물류 관리 자동화 구축
 - [[KR-130\|KR-130]] (준비 중⏳)기업 프로젝트
 	- (준비 중⏳)깃랩 HA 업그레이드
 	- (준비 중⏳)은행권 파이프라인 고도화
 	  
 [[KR-200\|KR-200]] (준비 중⏳)문제해결 경험
 - [[KR-210\|KR-210]] (준비 중⏳)트러블슈팅
+	- magic 프로젝트 중 겪은 트러블 슈팅 (CORS, 소셜 로그인 등)  
   
 [[KR-300\|KR-300]] (준비 중⏳)협업 경험
 - [[KR-310\|KR-310]] (준비 중⏳)개발자간 협업
