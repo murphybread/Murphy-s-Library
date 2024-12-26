@@ -4,13 +4,13 @@
 
 #hompage #Library
 # New Books
-| POSTS                                | Link                                                                        | Date     | Tags                                                                          |
-| ------------------------------------ | --------------------------------------------------------------------------- | -------- | ----------------------------------------------------------------------------- |
-| styled-components 간단 소개              | [[Projects/Library/KR/000/010/010.10/KR-010.10 a\|KR-010.10 a]]          | 24-12-26 | <ul><li>#HTML_CSS_JavaScript</li><li>#CSS</li><li>#styled_comonents</li></ul> |
-| IT블로그 table 요소 보기 좋게 수정하기            | [[Projects/Library/KR/000/010/010.00/KR-010.00 c\|KR-010.00 c]]          | 24-12-26 | <ul><li>#Debugging</li><li>#CSS</li></ul>                                     |
-| Call Number Index KR                 | [[Projects/Library/Entrance/Call Number Index KR\|Call Number Index KR]] | 24-12-26 | <ul></ul>                                                                     |
-| 24년 12월 3주차 주간 회고: 기존 글들 마이그레이션 및 독서 | [[Projects/Library/KR/P300/P310/KR-P-310 e\|KR-P-310 e]]                 | 24-12-26 | <ul><li>#주간회고</li></ul>                                                       |
-| IT블로그 blockquote 개발자도구로 찾아내서 수정하기    | [[Projects/Library/KR/000/010/010.00/KR-010.00 b\|KR-010.00 b]]          | 24-12-26 | <ul><li>#Debugging</li><li>#CSS</li></ul>                                     |
+| POSTS                                                                                | Link                                                                        | Date     | Tags                                                                                          |
+| ------------------------------------------------------------------------------------ | --------------------------------------------------------------------------- | -------- | --------------------------------------------------------------------------------------------- |
+| Hydration 에러: styled-components와 framer-motion동시 사용시 props가 강제로 넘어가면서 생긴 복합적 문제 해결하기 | [[Projects/Library/KR/000/010/010.30/KR-010.30 a\|KR-010.30 a]]          | 24-12-26 | <ul><li>#React_Next</li><li>#React</li><li>#styled_comonents</li><li>#framer_motion</li></ul> |
+| styled-components 간단 소개                                                              | [[Projects/Library/KR/000/010/010.10/KR-010.10 a\|KR-010.10 a]]          | 24-12-26 | <ul><li>#HTML_CSS_JavaScript</li><li>#CSS</li><li>#styled_comonents</li></ul>                 |
+| IT블로그 table 요소 보기 좋게 수정하기                                                            | [[Projects/Library/KR/000/010/010.00/KR-010.00 c\|KR-010.00 c]]          | 24-12-26 | <ul><li>#Debugging</li><li>#CSS</li></ul>                                                     |
+| Call Number Index KR                                                                 | [[Projects/Library/Entrance/Call Number Index KR\|Call Number Index KR]] | 24-12-26 | <ul></ul>                                                                                     |
+| 24년 12월 3주차 주간 회고: 기존 글들 마이그레이션 및 독서                                                 | [[Projects/Library/KR/P300/P310/KR-P-310 e\|KR-P-310 e]]                 | 24-12-26 | <ul><li>#주간회고</li></ul>                                                                       |
 
 { .block-language-dataview}
 
