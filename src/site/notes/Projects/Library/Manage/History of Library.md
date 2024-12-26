@@ -72,7 +72,7 @@ LIMIT 5
 참고링크: https://www.reddit.com/r/ObsidianMD/comments/17jlhku/inline_dataview_query_to_display_list_of_tags/
 
 # 0.15.0-LB
-![DALL·E 2024-06-20 00.22.00 - In front of a library, a person is bowing apologetically with a sign above them that says 'Under maintenance'. The person looks genuinely sorry, with .webp](/img/user/Projects/Library/Manage/DALL%C2%B7E%202024-06-20%2000.22.00%20-%20In%20front%20of%20a%20library,%20a%20person%20is%20bowing%20apologetically%20with%20a%20sign%20above%20them%20that%20says%20'Under%20maintenance'.%20The%20person%20looks%20genuinely%20sorry,%20with%20.webp)
+![[DALL·E 2024-06-20 00.22.00 - In front of a library, a person is bowing apologetically with a sign above them that says 'Under maintenance'. The person looks genuinely sorry, with .webp\|DALL·E 2024-06-20 00.22.00 - In front of a library, a person is bowing apologetically with a sign above them that says 'Under maintenance'. The person looks genuinely sorry, with .webp]]
 # I was testing a Python module that writes tags and ended up deleting all of my tags, so I took this opportunity to clean up my library categories.
 
 

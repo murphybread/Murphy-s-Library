@@ -1,25 +1,25 @@
 ---
-{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2024-12-26T18:24:53.614+09:00"}
+{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2024-12-26T23:20:15.926+09:00"}
 ---
 
 > "내 시간만큼 다른 사람의 시간도 소중하다"
 	-블로그 주인장 올림-
 
-개인의 경험과 고민, 철학 등을 기록해 놓은 블로그입니다. 단순한 TIL보다는 그 과정에서의 고민이나 실제로 겪어보고 느낀점이나 성장한 점등을 위주로 작성하였습니다.
+개인의 경험과 고민이나 생각, 철학 등을 기록해 놓은 블로그입니다. 단순한 TIL보다는 그 과정에서의 고민이나 실제로 겪어보고 느낀점이나 성장한 점등을 위주로 작성하였습니다.
 
 기술적인 주제의 카테고리는 000~400번까지입니다.
 개인적인 취미,회고 등의 카테고리는 P태그가 붙은 P-000~P~300번입니다.  
 
 Github: https://github.com/murphybread
 Email: nargene@gmail.com
-# New Books
+# Libray new books
 | POSTS                                                                                | Link                                                               | Date     | Tags                                                                                          |
 | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------ | -------- | --------------------------------------------------------------------------------------------- |
+| LLM에 RAG를 결합하여 내 블로그를 안내해주는 개인 사서                                                    | [[Projects/Library/KR/100/110/110.10/KR-110.10\|KR-110.10]]     | 24-12-26 | <ul><li>#개인프로젝트</li><li>#RAG</li></ul>                                                        |
+| Langchain,Streamlit , Milvus 등의 LLM을 위한 툴                                            | [[Projects/Library/KR/100/110/110.10/KR-110.10 a\|KR-110.10 a]] | 24-12-26 | <ul><li>#LLM</li><li>#RAG</li><li>#개인프로젝트</li></ul>                                           |
 | CI/CD 파이프라인 전환 및 고도화 구축 경험                                                           | [[Projects/Library/KR/100/130/KR-130.00 a\|KR-130.00 a]]        | 24-12-26 | <ul><li>#프로젝트경험</li></ul>                                                                     |
 | Hydration 에러: styled-components와 framer-motion동시 사용시 props가 강제로 넘어가면서 생긴 복합적 문제 해결하기 | [[Projects/Library/KR/000/010/010.30/KR-010.30 a\|KR-010.30 a]] | 24-12-26 | <ul><li>#React_Next</li><li>#React</li><li>#styled_comonents</li><li>#framer_motion</li></ul> |
 | styled-components 간단 소개                                                              | [[Projects/Library/KR/000/010/010.10/KR-010.10 a\|KR-010.10 a]] | 24-12-26 | <ul><li>#HTML_CSS_JavaScript</li><li>#CSS</li><li>#styled_comonents</li></ul>                 |
-| IT블로그 table 요소 보기 좋게 수정하기                                                            | [[Projects/Library/KR/000/010/010.00/KR-010.00 c\|KR-010.00 c]] | 24-12-26 | <ul><li>#Debugging</li><li>#CSS</li></ul>                                                     |
-| 24년 12월 3주차 주간 회고: 기존 글들 마이그레이션 및 독서                                                 | [[Projects/Library/KR/P300/P310/KR-P-310 e\|KR-P-310 e]]        | 24-12-26 | <ul><li>#주간회고</li></ul>                                                                       |
 
 { .block-language-dataview}
 
@@ -58,11 +58,8 @@ Email: nargene@gmail.com
 		- [[Projects/Library/KR/100/110/110.00/KR-110.00 d\|KR-110.00 d]] 디스코드 베스트 포스트 추천 봇 만들기 4편 - 프로덕션 올리기전 시크릿 제거하기 bfg-repo-cleaner 와 커밋이 2배로 늘어나버린 문제
 		- [[Projects/Library/KR/100/110/110.00/KR-110.00 e\|KR-110.00 e]] 디스코드 베스트 포스트 추천 봇 만들기 5편 - 클라우드와 크론잡을 통해 24시간 서비스 생성하기
 		- [[Projects/Library/KR/100/110/110.00/KR-110.00 f\|KR-110.00 f]] 디스코드 베스트 포스트 추천 봇 만들기 6편 - 열정통계, 열정게시물 기능
-	- [[KR-110.10\|KR-110.10]] (준비 중⏳)LLM에 RAG를 결합하여 내 블로그를 안내해주는 개인 사서
-		- [[KR-110.10 a\|KR-110.10 a]] (준비 중⏳)Langchang and Streamlit
-		- [[KR-110.10 b\|KR-110.10 b]] (준비 중⏳)RAG 구현
-		- [[KR-110.10 c\|KR-110.10 c]] (준비 중⏳)메모리 , Admin , 프롬프트
-		- [[KR-110.10 4\|KR-110.10 4]] (준비 중⏳)배포, 시크릿 관리
+	- [[Projects/Library/KR/100/110/110.10/KR-110.10\|KR-110.10]] LLM에 RAG를 결합하여 내 블로그를 안내해주는 개인 사서
+		- [[Projects/Library/KR/100/110/110.10/KR-110.10 a\|KR-110.10 a]] Langchain ,Streamlit , Milvus 등의 LLM을 위한 툴
 	- [[Projects/Library/KR/100/110/110.40/KR-110.40\|KR-110.40]] 생성형 AI를 이용한 개인 창작 마법 프로젝트
 		- [[Projects/Library/KR/100/110/110.40/KR-110.40 a\|KR-110.40 a]] 
 - [[Projects/Library/KR/100/120/KR-120\|KR-120]] 팀 프로젝트
