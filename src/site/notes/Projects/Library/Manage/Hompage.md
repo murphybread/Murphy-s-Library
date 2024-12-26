@@ -1,14 +1,14 @@
 ---
-{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2024-12-26T18:21:50.519+09:00"}
+{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2024-12-26T18:24:53.614+09:00"}
 ---
 
 > "내 시간만큼 다른 사람의 시간도 소중하다"
 	-블로그 주인장 올림-
 
-개인의 경헝과 철학등을 기록해 놓은 블로그입니다. 단순한 TIL보다는 그 과정에서의 고민이나 실제로 겪어보고 느낀점등을 위주로 작성하였습니다.
+개인의 경험과 고민, 철학 등을 기록해 놓은 블로그입니다. 단순한 TIL보다는 그 과정에서의 고민이나 실제로 겪어보고 느낀점이나 성장한 점등을 위주로 작성하였습니다.
 
-기술적인 위주의 내용은 000~400번까지입니다.
-개인적인 취미,회고 등의 내용은 P태그가 붙은 P-000~P~300번입니다.  
+기술적인 주제의 카테고리는 000~400번까지입니다.
+개인적인 취미,회고 등의 카테고리는 P태그가 붙은 P-000~P~300번입니다.  
 
 Github: https://github.com/murphybread
 Email: nargene@gmail.com
