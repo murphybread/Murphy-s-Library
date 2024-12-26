@@ -1,15 +1,15 @@
 ---
-{"dg-publish":true,"title":"Call Number Index KR","description":"한국어로 기록된 카테고리 목록","permalink":"/projects/library/entrance/call-number-index-kr/","dgPassFrontmatter":true,"noteIcon":"0","created":"2024-11-12T15:16:03.499+09:00","updated":"2024-12-26T14:29:46.271+09:00"}
+{"dg-publish":true,"title":"Call Number Index KR","description":"한국어로 기록된 카테고리 목록","permalink":"/projects/library/entrance/call-number-index-kr/","dgPassFrontmatter":true,"noteIcon":"0","created":"2024-11-12T15:16:03.499+09:00","updated":"2024-12-26T15:51:30.061+09:00"}
 ---
 
 [[Projects/Library/KR/000/KR-000\|KR-000]] 기술 스택
 - [[Projects/Library/KR/000/010/KR-010\|KR-010]] Dev
 	- [[Projects/Library/KR/000/010/010.00/KR-010.00\|KR-010.00]] Debugging
 		- [[Projects/Library/KR/000/010/010.00/KR-010.00 a\|KR-010.00 a]] VSCode 브레이크 포인트를 활용한 디버깅
+		- [[Projects/Library/KR/000/010/010.00/KR-010.00 b\|KR-010.00 b]] IT블로그 blockquote 개발자 도구로 찾아내서 수정하기
+		- [[Projects/Library/KR/000/010/010.00/KR-010.00 c\|KR-010.00 c]] IT블로그 table 요소 보기 좋게 수정하기
 	- [[Projects/Library/KR/000/010/010.10/KR-010.10\|KR-010.10]] HTML,CSS,JavaScript
 		- [[Projects/Library/KR/000/010/010.10/KR-010.10 a\|KR-010.10 a]] styled-components 간단 소개
-		- [[Projects/Library/KR/000/010/010.10/KR-010.10 b\|KR-010.10 b]] IT블로그 blockquote 개발자도구로 찾아내서 수정하기
-		- [[Projects/Library/KR/000/010/010.10/KR-010.10 c\|KR-010.10 c]] IT블로그 table 요소 보기 좋게 수정하기
 	- [[Projects/Library/KR/000/010/010.30/KR-010.30\|KR-010.30]] React, Next
 		- [[Projects/Library/KR/000/010/010.30/KR-010.30 a\|KR-010.30 a]] Hydration 에러: styled-components와 framer-motion동시 사용시 props가 강제로 넘어가면서 생긴 복합적 문제 해결하기
 	- [[Projects/Library/KR/000/010/010.40/KR-010.40\|KR-010.40]] Node.js
@@ -45,9 +45,9 @@
 		- [[Projects/Library/KR/100/110/110.40/KR-110.40 a\|KR-110.40 a]] 
 - [[Projects/Library/KR/100/120/KR-120\|KR-120]] 팀 프로젝트
 	- [[Projects/Library/KR/100/120/KR-120.00\|KR-120.00]] 국비학원  졸업 프로젝트 AWS EKS 기반 물류 관리 자동화 구축
-- [[KR-130\|KR-130]] (준비 중⏳)기업 프로젝트
-	- (준비 중⏳)깃랩 HA 업그레이드
-	- (준비 중⏳)은행권 파이프라인 고도화
+- [[Projects/Library/Entrance/KR-130\|KR-130]] 기업 프로젝트
+	- [[KR-130.00 a\|KR-130.00 a]] 금융권 프로덕션 환경의 깃랩 HA 업그레이드
+	- 금융권 파이프라인 고도화
 	  
 [[KR-200\|KR-200]] (준비 중⏳)문제해결 경험
 - [[KR-210\|KR-210]] (준비 중⏳)트러블슈팅

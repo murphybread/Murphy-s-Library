@@ -4,13 +4,13 @@
 
 #hompage #Library
 # New Books
-| POSTS                                 | Link                                                                        | Date     | Tags                                         |
-| ------------------------------------- | --------------------------------------------------------------------------- | -------- | -------------------------------------------- |
-| 국비학원  졸업 프로젝트 AWS EKS 기반 물류 관리 자동화 구축 | [[Projects/Library/KR/100/120/KR-120.00\|KR-120.00]]                     | 24-12-26 | <ul><li>#팀프로젝트</li></ul>                     |
-| Call Number Index KR                  | [[Projects/Library/Entrance/Call Number Index KR\|Call Number Index KR]] | 24-12-26 | <ul></ul>                                    |
-| 24년 12월 3주차 주간 회고: 기존 글들 마이그레이션 및 독서  | [[Projects/Library/KR/P300/P310/KR-P-310 e\|KR-P-310 e]]                 | 24-12-23 | <ul><li>#주간회고</li></ul>                      |
-| 모바일웹, 웹앱, 하이브리드앱, 네이티브앱 정리            | [[Projects/Library/KR/P100/P110/KR-P-110 b\|KR-P-110 b]]                 | 24-12-23 | <ul><li>#취미와_놀이터</li></ul>                   |
-| 지식관리 툴로 옵시디언을 사용하는 이유                 | [[Projects/Library/KR/P100/P110/KR-P-110 a\|KR-P-110 a]]                 | 24-12-23 | <ul><li>#취미와_놀이터</li><li>#Obsidian</li></ul> |
+| POSTS                                | Link                                                                        | Date     | Tags                                                |
+| ------------------------------------ | --------------------------------------------------------------------------- | -------- | --------------------------------------------------- |
+| IT블로그 table 요소 보기 좋게 수정하기            | [[Projects/Library/KR/000/010/010.00/KR-010.00 c\|KR-010.00 c]]          | 24-12-26 | <ul><li>#Debugging</li><li>#CSS</li></ul>           |
+| Call Number Index KR                 | [[Projects/Library/Entrance/Call Number Index KR\|Call Number Index KR]] | 24-12-26 | <ul></ul>                                           |
+| 24년 12월 3주차 주간 회고: 기존 글들 마이그레이션 및 독서 | [[Projects/Library/KR/P300/P310/KR-P-310 e\|KR-P-310 e]]                 | 24-12-26 | <ul><li>#주간회고</li></ul>                             |
+| IT블로그 blockquote 개발자도구로 찾아내서 수정하기    | [[Projects/Library/KR/000/010/010.00/KR-010.00 b\|KR-010.00 b]]          | 24-12-26 | <ul><li>#Debugging</li><li>#CSS</li></ul>           |
+| HTML,CSS,JavaScript                  | [[Projects/Library/KR/000/010/010.10/KR-010.10\|KR-010.10]]              | 24-12-26 | <ul><li>#Dev</li><li>#HTML_CSS_JavaScript</li></ul> |
 
 { .block-language-dataview}
 
@@ -25,10 +25,10 @@
 - [[Projects/Library/KR/000/010/KR-010\|KR-010]] Dev
 	- [[Projects/Library/KR/000/010/010.00/KR-010.00\|KR-010.00]] Debugging
 		- [[Projects/Library/KR/000/010/010.00/KR-010.00 a\|KR-010.00 a]] VSCode 브레이크 포인트를 활용한 디버깅
+		- [[Projects/Library/KR/000/010/010.00/KR-010.00 b\|KR-010.00 b]] IT블로그 blockquote 개발자 도구로 찾아내서 수정하기
+		- [[Projects/Library/KR/000/010/010.00/KR-010.00 c\|KR-010.00 c]] IT블로그 table 요소 보기 좋게 수정하기
 	- [[Projects/Library/KR/000/010/010.10/KR-010.10\|KR-010.10]] HTML,CSS,JavaScript
 		- [[Projects/Library/KR/000/010/010.10/KR-010.10 a\|KR-010.10 a]] styled-components 간단 소개
-		- [[Projects/Library/KR/000/010/010.10/KR-010.10 b\|KR-010.10 b]] IT블로그 blockquote 개발자도구로 찾아내서 수정하기
-		- [[Projects/Library/KR/000/010/010.10/KR-010.10 c\|KR-010.10 c]] IT블로그 table 요소 보기 좋게 수정하기
 	- [[Projects/Library/KR/000/010/010.30/KR-010.30\|KR-010.30]] React, Next
 		- [[Projects/Library/KR/000/010/010.30/KR-010.30 a\|KR-010.30 a]] Hydration 에러: styled-components와 framer-motion동시 사용시 props가 강제로 넘어가면서 생긴 복합적 문제 해결하기
 	- [[Projects/Library/KR/000/010/010.40/KR-010.40\|KR-010.40]] Node.js
@@ -64,9 +64,9 @@
 		- [[Projects/Library/KR/100/110/110.40/KR-110.40 a\|KR-110.40 a]] 
 - [[Projects/Library/KR/100/120/KR-120\|KR-120]] 팀 프로젝트
 	- [[Projects/Library/KR/100/120/KR-120.00\|KR-120.00]] 국비학원  졸업 프로젝트 AWS EKS 기반 물류 관리 자동화 구축
-- [[KR-130\|KR-130]] (준비 중⏳)기업 프로젝트
-	- (준비 중⏳)깃랩 HA 업그레이드
-	- (준비 중⏳)은행권 파이프라인 고도화
+- [[Projects/Library/Entrance/KR-130\|KR-130]] 기업 프로젝트
+	- [[KR-130.00 a\|KR-130.00 a]] 금융권 프로덕션 환경의 깃랩 HA 업그레이드
+	- 금융권 파이프라인 고도화
 	  
 [[KR-200\|KR-200]] (준비 중⏳)문제해결 경험
 - [[KR-210\|KR-210]] (준비 중⏳)트러블슈팅
