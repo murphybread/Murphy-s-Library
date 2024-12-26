@@ -1,11 +1,12 @@
 ---
-{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2024-12-26T17:28:42.723+09:00"}
+{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2024-12-26T18:21:50.519+09:00"}
 ---
 
 > "내 시간만큼 다른 사람의 시간도 소중하다"
 	-블로그 주인장 올림-
 
 개인의 경헝과 철학등을 기록해 놓은 블로그입니다. 단순한 TIL보다는 그 과정에서의 고민이나 실제로 겪어보고 느낀점등을 위주로 작성하였습니다.
+
 기술적인 위주의 내용은 000~400번까지입니다.
 개인적인 취미,회고 등의 내용은 P태그가 붙은 P-000~P~300번입니다.  
 
@@ -14,11 +15,11 @@ Email: nargene@gmail.com
 # New Books
 | POSTS                                                                                | Link                                                               | Date     | Tags                                                                                          |
 | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------ | -------- | --------------------------------------------------------------------------------------------- |
+| CI/CD 파이프라인 전환 및 고도화 구축 경험                                                           | [[Projects/Library/KR/100/130/KR-130.00 a\|KR-130.00 a]]        | 24-12-26 | <ul><li>#프로젝트경험</li></ul>                                                                     |
 | Hydration 에러: styled-components와 framer-motion동시 사용시 props가 강제로 넘어가면서 생긴 복합적 문제 해결하기 | [[Projects/Library/KR/000/010/010.30/KR-010.30 a\|KR-010.30 a]] | 24-12-26 | <ul><li>#React_Next</li><li>#React</li><li>#styled_comonents</li><li>#framer_motion</li></ul> |
 | styled-components 간단 소개                                                              | [[Projects/Library/KR/000/010/010.10/KR-010.10 a\|KR-010.10 a]] | 24-12-26 | <ul><li>#HTML_CSS_JavaScript</li><li>#CSS</li><li>#styled_comonents</li></ul>                 |
 | IT블로그 table 요소 보기 좋게 수정하기                                                            | [[Projects/Library/KR/000/010/010.00/KR-010.00 c\|KR-010.00 c]] | 24-12-26 | <ul><li>#Debugging</li><li>#CSS</li></ul>                                                     |
 | 24년 12월 3주차 주간 회고: 기존 글들 마이그레이션 및 독서                                                 | [[Projects/Library/KR/P300/P310/KR-P-310 e\|KR-P-310 e]]        | 24-12-26 | <ul><li>#주간회고</li></ul>                                                                       |
-| IT블로그 blockquote 개발자도구로 찾아내서 수정하기                                                    | [[Projects/Library/KR/000/010/010.00/KR-010.00 b\|KR-010.00 b]] | 24-12-26 | <ul><li>#Debugging</li><li>#CSS</li></ul>                                                     |
 
 { .block-language-dataview}
 
@@ -66,9 +67,8 @@ Email: nargene@gmail.com
 		- [[Projects/Library/KR/100/110/110.40/KR-110.40 a\|KR-110.40 a]] 
 - [[Projects/Library/KR/100/120/KR-120\|KR-120]] 팀 프로젝트
 	- [[Projects/Library/KR/100/120/KR-120.00\|KR-120.00]] 국비학원  졸업 프로젝트 AWS EKS 기반 물류 관리 자동화 구축
-- [[Projects/Library/Entrance/KR-130\|KR-130]] 기업 프로젝트
-	- [[KR-130.00 a\|KR-130.00 a]] 금융권 프로덕션 환경의 깃랩 HA 업그레이드
-	- 금융권 파이프라인 고도화
+- [[Projects/Library/KR/100/130/KR-130\|KR-130]] 회사 프로젝트
+	- [[Projects/Library/KR/100/130/KR-130.00 a\|KR-130.00 a]] CI/CD 파이프라인 전환 및 고도화 구축 경험
 	  
 [[KR-200\|KR-200]] (준비 중⏳)문제해결 경험
 - [[KR-210\|KR-210]] (준비 중⏳)트러블슈팅
@@ -124,11 +124,6 @@ Email: nargene@gmail.com
 - [[Projects/Library/KR/P300/P330/KR-P-330\|KR-P-330]] 연간 회고
 	- [[Projects/Library/KR/P300/P330/KR-P-330 a\|KR-P-330 a]] 2023년 회고
 
-
-
-#### External  Resources
-[![GitHub|left](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/murphybread)[![LinkedIn|left](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/%EB%AF%BC%EC%B0%AC-%EA%B9%80-aba89a243)
-[![Gmail|left](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:nargene@gmail.com)
 
 ---
 # History of Library
