@@ -1,11 +1,12 @@
 ---
-{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2024-12-26T23:20:15.926+09:00"}
+{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2024-12-26T23:22:28.275+09:00"}
 ---
 
 > "내 시간만큼 다른 사람의 시간도 소중하다"
 	-블로그 주인장 올림-
 
-개인의 경험과 고민이나 생각, 철학 등을 기록해 놓은 블로그입니다. 단순한 TIL보다는 그 과정에서의 고민이나 실제로 겪어보고 느낀점이나 성장한 점등을 위주로 작성하였습니다.
+개인의 경험과 고민이나 생각, 철학 등을 기록해 놓은 블로그입니다.
+단순한 TIL보다는 그 과정에서의 고민이나 실제로 겪어보고 느낀점이나 성장한 점등을 위주로 작성하였습니다.
 
 기술적인 주제의 카테고리는 000~400번까지입니다.
 개인적인 취미,회고 등의 카테고리는 P태그가 붙은 P-000~P~300번입니다.  
