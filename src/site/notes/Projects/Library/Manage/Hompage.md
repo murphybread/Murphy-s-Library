@@ -1,26 +1,29 @@
 ---
-{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2024-12-23T17:19:37.457+09:00"}
+{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2024-12-26T17:25:51.201+09:00"}
 ---
 
-#hompage #Library
+> "내 시간만큼 다른 사람의 시간도 소중하다"
+- 블로그 주인장 올림-
+
+개인의 경헝과 철학등을 기록해 놓은 블로그입니다. 단순한 TIL보다는 그 과정에서의 고민이나 실제로 겪어보고 느낀점등을 위주로 작성하였습니다.
+기술적인 위주의 내용은 000~400번까지입니다.
+개인적인 취미,회고 등의 내용은 P태그가 붙은 P-000~P~300번입니다.  
+
+[![GitHub|left](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/murphybread)[![Gmail|left](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:nargene@gmail.com)
+
+
 # New Books
 | POSTS                                                                                | Link                                                                        | Date     | Tags                                                                                          |
 | ------------------------------------------------------------------------------------ | --------------------------------------------------------------------------- | -------- | --------------------------------------------------------------------------------------------- |
+| Call Number Index KR                                                                 | [[Projects/Library/Entrance/Call Number Index KR\|Call Number Index KR]] | 24-12-26 | <ul></ul>                                                                                     |
 | Hydration 에러: styled-components와 framer-motion동시 사용시 props가 강제로 넘어가면서 생긴 복합적 문제 해결하기 | [[Projects/Library/KR/000/010/010.30/KR-010.30 a\|KR-010.30 a]]          | 24-12-26 | <ul><li>#React_Next</li><li>#React</li><li>#styled_comonents</li><li>#framer_motion</li></ul> |
 | styled-components 간단 소개                                                              | [[Projects/Library/KR/000/010/010.10/KR-010.10 a\|KR-010.10 a]]          | 24-12-26 | <ul><li>#HTML_CSS_JavaScript</li><li>#CSS</li><li>#styled_comonents</li></ul>                 |
 | IT블로그 table 요소 보기 좋게 수정하기                                                            | [[Projects/Library/KR/000/010/010.00/KR-010.00 c\|KR-010.00 c]]          | 24-12-26 | <ul><li>#Debugging</li><li>#CSS</li></ul>                                                     |
-| Call Number Index KR                                                                 | [[Projects/Library/Entrance/Call Number Index KR\|Call Number Index KR]] | 24-12-26 | <ul></ul>                                                                                     |
 | 24년 12월 3주차 주간 회고: 기존 글들 마이그레이션 및 독서                                                 | [[Projects/Library/KR/P300/P310/KR-P-310 e\|KR-P-310 e]]                 | 24-12-26 | <ul><li>#주간회고</li></ul>                                                                       |
 
 { .block-language-dataview}
 
 ## Blog Post Categories
-
-<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/projects/library/entrance/call-number-index-kr/" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
-
-
-
-
 [[Projects/Library/KR/000/KR-000\|KR-000]] 기술 스택
 - [[Projects/Library/KR/000/010/KR-010\|KR-010]] Dev
 	- [[Projects/Library/KR/000/010/010.00/KR-010.00\|KR-010.00]] Debugging
@@ -96,16 +99,17 @@
 
 ---
 # Personal Categories
-
 [[Projects/Library/KR/P000/KR-P-000\|KR-P-000]] 사색의 기록
 - [[Projects/Library/KR/P000/P010/KR-P-010\|KR-P-010]] 기록된 질문
 	- [[Projects/Library/KR/P000/P010/KR-P-010 a\|KR-P-010 a]] Hodie Vixi(Today I Lived) 오늘 하루도 고생한 스스로에게 해줄 말
 	- [[Projects/Library/KR/P000/P010/KR-P-010 b\|KR-P-010 b]] 스스로 생각했을 때 불가능하다고 포기했던 일을 다시 시도하는 방법
 	- [[Projects/Library/KR/P000/P010/KR-P-010 c\|KR-P-010 c]] 직업을 선택할때 지표를 통해 어느 것이 좋은지 평가해보는 방법
+	  
 [[Projects/Library/KR/P100/KR-P-100\|KR-P-100]] 취미와 놀이터
 - [[Projects/Library/KR/P100/P110/KR-P-110\|KR-P-110]] 기술 놀이터
 	- [[Projects/Library/KR/P100/P110/KR-P-110 a\|KR-P-110 a]] 지식관리 툴로 옵시디언을 사용하는 이유
 	- [[Projects/Library/KR/P100/P110/KR-P-110 b\|KR-P-110 b]] 모바일웹, 웹앱, 하이브리드앱, 네이티브앱 정리
+	  
 [[KR-P-200\|KR-P-200]] (준비 중⏳)마일스톤
 - [[KR-P-210\|KR-P-210]] (준비 중)인생에서 기억에 남는 순간
 - [[KR-P-220\|KR-P-220]] (준비 중)노력 끝에 성취한 목표
@@ -121,14 +125,11 @@
 - [[Projects/Library/KR/P300/P330/KR-P-330\|KR-P-330]] 연간 회고
 	- [[Projects/Library/KR/P300/P330/KR-P-330 a\|KR-P-330 a]] 2023년 회고
 
-</div></div>
-
-
 
 
 #### External  Resources
 [![GitHub|left](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/murphybread)[![LinkedIn|left](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/%EB%AF%BC%EC%B0%AC-%EA%B9%80-aba89a243)
-
+[![Gmail|left](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:nargene@gmail.com)
 
 ---
 # History of Library

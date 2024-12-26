@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"title":"Call Number Index KR","description":"한국어로 기록된 카테고리 목록","permalink":"/projects/library/entrance/call-number-index-kr/","dgPassFrontmatter":true,"noteIcon":"0","created":"2024-11-12T15:16:03.499+09:00","updated":"2024-12-26T15:51:30.061+09:00"}
+{"dg-publish":true,"title":"Call Number Index KR","description":"한국어로 기록된 카테고리 목록","permalink":"/projects/library/entrance/call-number-index-kr/","dgPassFrontmatter":true,"noteIcon":"0","created":"2024-11-12T15:16:03.499+09:00","updated":"2024-12-26T16:47:24.865+09:00"}
 ---
 
 [[Projects/Library/KR/000/KR-000\|KR-000]] 기술 스택
@@ -83,10 +83,12 @@
 	- [[Projects/Library/KR/P000/P010/KR-P-010 a\|KR-P-010 a]] Hodie Vixi(Today I Lived) 오늘 하루도 고생한 스스로에게 해줄 말
 	- [[Projects/Library/KR/P000/P010/KR-P-010 b\|KR-P-010 b]] 스스로 생각했을 때 불가능하다고 포기했던 일을 다시 시도하는 방법
 	- [[Projects/Library/KR/P000/P010/KR-P-010 c\|KR-P-010 c]] 직업을 선택할때 지표를 통해 어느 것이 좋은지 평가해보는 방법
+	  
 [[Projects/Library/KR/P100/KR-P-100\|KR-P-100]] 취미와 놀이터
 - [[Projects/Library/KR/P100/P110/KR-P-110\|KR-P-110]] 기술 놀이터
 	- [[Projects/Library/KR/P100/P110/KR-P-110 a\|KR-P-110 a]] 지식관리 툴로 옵시디언을 사용하는 이유
 	- [[Projects/Library/KR/P100/P110/KR-P-110 b\|KR-P-110 b]] 모바일웹, 웹앱, 하이브리드앱, 네이티브앱 정리
+	  
 [[KR-P-200\|KR-P-200]] (준비 중⏳)마일스톤
 - [[KR-P-210\|KR-P-210]] (준비 중)인생에서 기억에 남는 순간
 - [[KR-P-220\|KR-P-220]] (준비 중)노력 끝에 성취한 목표
