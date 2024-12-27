@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2024-12-27T23:06:07.358+09:00"}
+{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2024-12-27T23:08:29.515+09:00"}
 ---
 
 > "**"짧은 글에 담긴 진솔한 고민, 당신의 시간도 소중하니까요."**"
@@ -70,11 +70,6 @@ Email: nargene@gmail.com
 - [[Projects/Library/Manage/KR-210\|KR-210]] 트러블슈팅
 	- [[Projects/Library/KR/000/010/010.30/KR-210.00 a\|KR-210.00 a]] Hydration 에러: styled-components와 framer-motion동시 사용시 props가 강제로 넘어가면서 생긴 복합적 문제 해결하기
 	- magic 프로젝트 중 겪은 트러블 슈팅 (CORS, 소셜 로그인 등)  
-  
-[[KR-300\|KR-300]] (준비 중⏳)협업 경험
-- [[KR-310\|KR-310]] (준비 중⏳)개발자간 협업
-- [[KR-320\|KR-320]] (준비 중⏳)다분야 협업
-
 
 [[Projects/Library/KR/400/KR-400\|KR-400]] 성장 경험
 - [[Projects/Library/KR/400/410/KR-410\|KR-410]] 개인 학습과 성장
