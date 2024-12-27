@@ -1,12 +1,12 @@
 ---
-{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2024-12-26T23:22:28.275+09:00"}
+{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2024-12-27T15:20:39.243+09:00"}
 ---
 
-> "내 시간만큼 다른 사람의 시간도 소중하다"
+> "**"짧은 글에 담긴 진솔한 고민, 당신의 시간도 소중하니까요."**"
 	-블로그 주인장 올림-
 
 개인의 경험과 고민이나 생각, 철학 등을 기록해 놓은 블로그입니다.
-단순한 TIL보다는 그 과정에서의 고민이나 실제로 겪어보고 느낀점이나 성장한 점등을 위주로 작성하였습니다.
+단순한 TIL보다는 그 과정에서 고민이나 실제로 겪어보고 느낀 점을 주로 담았습니다.
 
 기술적인 주제의 카테고리는 000~400번까지입니다.
 개인적인 취미,회고 등의 카테고리는 P태그가 붙은 P-000~P~300번입니다.  
@@ -16,11 +16,11 @@ Email: nargene@gmail.com
 # Libray new books
 | POSTS                                                                                | Link                                                               | Date     | Tags                                                                                          |
 | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------ | -------- | --------------------------------------------------------------------------------------------- |
+| Hydration 에러: styled-components와 framer-motion동시 사용시 props가 강제로 넘어가면서 생긴 복합적 문제 해결하기 | [[Projects/Library/KR/000/010/010.30/KR-210.00 a\|KR-210.00 a]] | 24-12-27 | <ul><li>#React_Next</li><li>#React</li><li>#styled_comonents</li><li>#framer_motion</li></ul> |
+| 2024년12월1주차 회고: hydration 트러블 슈팅과 프론트엔드의 핵심 state와 component                         | [[Projects/Library/KR/P300/P310/KR-P-310 c\|KR-P-310 c]]        | 24-12-27 | <ul><li>#회고</li><li>#주간회고</li></ul>                                                           |
+| React, Next                                                                          | [[Projects/Library/KR/000/010/010.30/KR-010.30\|KR-010.30]]     | 24-12-27 | <ul><li>#React_Next</li><li>#Dev</li></ul>                                                    |
 | LLM에 RAG를 결합하여 내 블로그를 안내해주는 개인 사서                                                    | [[Projects/Library/KR/100/110/110.10/KR-110.10\|KR-110.10]]     | 24-12-26 | <ul><li>#개인프로젝트</li><li>#RAG</li></ul>                                                        |
 | Langchain,Streamlit , Milvus 등의 LLM을 위한 툴                                            | [[Projects/Library/KR/100/110/110.10/KR-110.10 a\|KR-110.10 a]] | 24-12-26 | <ul><li>#LLM</li><li>#RAG</li><li>#개인프로젝트</li></ul>                                           |
-| CI/CD 파이프라인 전환 및 고도화 구축 경험                                                           | [[Projects/Library/KR/100/130/KR-130.00 a\|KR-130.00 a]]        | 24-12-26 | <ul><li>#프로젝트경험</li></ul>                                                                     |
-| Hydration 에러: styled-components와 framer-motion동시 사용시 props가 강제로 넘어가면서 생긴 복합적 문제 해결하기 | [[Projects/Library/KR/000/010/010.30/KR-010.30 a\|KR-010.30 a]] | 24-12-26 | <ul><li>#React_Next</li><li>#React</li><li>#styled_comonents</li><li>#framer_motion</li></ul> |
-| styled-components 간단 소개                                                              | [[Projects/Library/KR/000/010/010.10/KR-010.10 a\|KR-010.10 a]] | 24-12-26 | <ul><li>#HTML_CSS_JavaScript</li><li>#CSS</li><li>#styled_comonents</li></ul>                 |
 
 { .block-language-dataview}
 
@@ -34,7 +34,7 @@ Email: nargene@gmail.com
 	- [[Projects/Library/KR/000/010/010.10/KR-010.10\|KR-010.10]] HTML,CSS,JavaScript
 		- [[Projects/Library/KR/000/010/010.10/KR-010.10 a\|KR-010.10 a]] styled-components 간단 소개
 	- [[Projects/Library/KR/000/010/010.30/KR-010.30\|KR-010.30]] React, Next
-		- [[Projects/Library/KR/000/010/010.30/KR-010.30 a\|KR-010.30 a]] Hydration 에러: styled-components와 framer-motion동시 사용시 props가 강제로 넘어가면서 생긴 복합적 문제 해결하기
+		
 	- [[Projects/Library/KR/000/010/010.40/KR-010.40\|KR-010.40]] Node.js
 		- [[Projects/Library/KR/000/010/010.40/KR-010.40 a\|KR-010.40 a]] Node.js 성능 향상: I/O-bound에는 Async와 CPU-bound를 위한 Cluster API vs Worker Threads
 	- [[Projects/Library/KR/000/010/010.60/KR-010.60\|KR-010.60]] Jest
@@ -68,8 +68,9 @@ Email: nargene@gmail.com
 - [[Projects/Library/KR/100/130/KR-130\|KR-130]] 회사 프로젝트
 	- [[Projects/Library/KR/100/130/KR-130.00 a\|KR-130.00 a]] CI/CD 파이프라인 전환 및 고도화 구축 경험
 	  
-[[KR-200\|KR-200]] (준비 중⏳)문제해결 경험
-- [[KR-210\|KR-210]] (준비 중⏳)트러블슈팅
+[[Projects/Library/Manage/KR-200\|KR-200]] 문제해결 경험
+- [[Projects/Library/Manage/KR-210\|KR-210]] 트러블슈팅
+	- [[Projects/Library/KR/000/010/010.30/KR-210.00 a\|KR-210.00 a]] Hydration 에러: styled-components와 framer-motion동시 사용시 props가 강제로 넘어가면서 생긴 복합적 문제 해결하기
 	- magic 프로젝트 중 겪은 트러블 슈팅 (CORS, 소셜 로그인 등)  
   
 [[KR-300\|KR-300]] (준비 중⏳)협업 경험

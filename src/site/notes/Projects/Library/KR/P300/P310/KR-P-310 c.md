@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"title":"2024년12월1주차 회고: hydration 트러블 슈팅과 프론트엔드의 핵심 state와 component","description":"이번 주의 경우 개인 프로젝트 magic-prompt의 업그레이드 및 hydration 트러블 슈팅과 현직 웹 프론트 개발자강에서 배운 state와 component의 깊이를 느꼈습니다.","permalink":"/projects/library/kr/p300/p310/kr-p-310-c/","dgPassFrontmatter":true,"noteIcon":"0","created":"2024-12-09T19:46:01.103+09:00","updated":"2024-12-18T21:35:40.009+09:00"}
+{"dg-publish":true,"title":"2024년12월1주차 회고: hydration 트러블 슈팅과 프론트엔드의 핵심 state와 component","description":"이번 주의 경우 개인 프로젝트 magic-prompt의 업그레이드 및 hydration 트러블 슈팅과 현직 웹 프론트 개발자강에서 배운 state와 component의 깊이를 느꼈습니다.","permalink":"/projects/library/kr/p300/p310/kr-p-310-c/","dgPassFrontmatter":true,"noteIcon":"0","created":"2024-12-09T19:46:01.103+09:00","updated":"2024-12-27T15:20:39.230+09:00"}
 ---
 
 현재 노트: [[Projects/Library/KR/P300/P310/KR-P-310 c\|KR-P-310 c]] 2024년12월1주차 회고: hydration 트러블 슈팅과 프론트엔드의 핵심 state와 component
@@ -26,7 +26,7 @@
 
 
 #### `hydration 에러 styled-component와 framer-motion 여러 라이브러리 사용시 발생`
-관련 문서 [[Projects/Library/KR/000/010/010.30/KR-010.30 a\|KR-010.30 a]] 
+관련 문서 [[Projects/Library/KR/000/010/010.30/KR-210.00 a\|KR-210.00 a]] 
 
 자세한 내용은 해당 문서에 기재돼있습니다. 간략하게 설명하면 Next.js로 컴포넌트를 구현하는 과정에서 hydration에러가 발생하였습니다. 그런데 해당 에러를 해결하는 과정에서 SSR과 가상 DOM이 불일치하는 hydration이라는 개념을 학습하고, 추가적으로 CSS-In-JS 방식의 styled-component와 실제 DOM으로 props를 전달하는 framer-motion이 복합적으로 작용하면서 생긴 문제를 트러블 슈팅하는 일이 있었습니다.
 
