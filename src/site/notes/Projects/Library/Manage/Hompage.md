@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2024-12-27T23:08:29.515+09:00"}
+{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2024-12-30T23:40:47.587+09:00"}
 ---
 
 > "**"짧은 글에 담긴 진솔한 고민, 당신의 시간도 소중하니까요."**"
@@ -16,11 +16,11 @@ Email: nargene@gmail.com
 # Libray new books
 | POSTS                                                                                | Link                                                               | Date     | Tags                                                                                          |
 | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------ | -------- | --------------------------------------------------------------------------------------------- |
+| AI 노래: 오늘과 내일의 간격은 오늘과 어제만큼멀까                                                        | [[Projects/Library/KR/P100/P120/KR-P-120 a\|KR-P-120 a]]        | 24-12-30 | <ul><li>#취미</li><li>#노래</li><li>#Suno</li></ul>                                               |
 | Hydration 에러: styled-components와 framer-motion동시 사용시 props가 강제로 넘어가면서 생긴 복합적 문제 해결하기 | [[Projects/Library/KR/000/010/010.30/KR-210.00 a\|KR-210.00 a]] | 24-12-27 | <ul><li>#React_Next</li><li>#React</li><li>#styled_comonents</li><li>#framer_motion</li></ul> |
 | 2024년12월1주차 회고: hydration 트러블 슈팅과 프론트엔드의 핵심 state와 component                         | [[Projects/Library/KR/P300/P310/KR-P-310 c\|KR-P-310 c]]        | 24-12-27 | <ul><li>#회고</li><li>#주간회고</li></ul>                                                           |
 | React, Next                                                                          | [[Projects/Library/KR/000/010/010.30/KR-010.30\|KR-010.30]]     | 24-12-27 | <ul><li>#React_Next</li><li>#Dev</li></ul>                                                    |
 | LLM에 RAG를 결합하여 내 블로그를 안내해주는 개인 사서                                                    | [[Projects/Library/KR/100/110/110.10/KR-110.10\|KR-110.10]]     | 24-12-26 | <ul><li>#개인프로젝트</li><li>#RAG</li></ul>                                                        |
-| Langchain,Streamlit , Milvus 등의 LLM을 위한 툴                                            | [[Projects/Library/KR/100/110/110.10/KR-110.10 a\|KR-110.10 a]] | 24-12-26 | <ul><li>#LLM</li><li>#RAG</li><li>#개인프로젝트</li></ul>                                           |
 
 { .block-language-dataview}
 
@@ -100,6 +100,8 @@ Email: nargene@gmail.com
 - [[Projects/Library/KR/P100/P110/KR-P-110\|KR-P-110]] 기술 놀이터
 	- [[Projects/Library/KR/P100/P110/KR-P-110 a\|KR-P-110 a]] 지식관리 툴로 옵시디언을 사용하는 이유
 	- [[Projects/Library/KR/P100/P110/KR-P-110 b\|KR-P-110 b]] 모바일웹, 웹앱, 하이브리드앱, 네이티브앱 정리
+- [[Projects/Library/KR/P100/P120/KR-P-120\|KR-P-120]] 취미
+	- [[Projects/Library/KR/P100/P120/KR-P-120 a\|KR-P-120 a]] AI 노래: 오늘과 내일의 간격은 오늘과 어제만큼멀까
 	  
 [[KR-P-200\|KR-P-200]] (준비 중⏳)마일스톤
 - [[KR-P-210\|KR-P-210]] (준비 중)인생에서 기억에 남는 순간
