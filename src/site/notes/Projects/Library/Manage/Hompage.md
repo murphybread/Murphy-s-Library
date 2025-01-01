@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2024-12-31T23:35:36.173+09:00"}
+{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2025-01-01T22:42:57.674+09:00"}
 ---
 
 > "**"짧은 글에 담긴 진솔한 고민, 당신의 시간도 소중하니까요."**"
@@ -16,11 +16,11 @@ Email: nargene@gmail.com
 # Libray new books
 | POSTS                                                                                | Link                                                               | Date     | Tags                                                                                          |
 | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------ | -------- | --------------------------------------------------------------------------------------------- |
+| 24년 12월 4주차 주간 회고: 불합격 그리고 리팩토링                                                      | [[Projects/Library/KR/P300/P310/KR-P-310 f\|KR-P-310 f]]        | 25-01-01 | <ul><li>#주간회고</li><li>#회고</li></ul>                                                           |
 | 우아한테크코스 프리코스 7기 최종 코딩테스트 불합격 원인 분석하기                                                 | [[Projects/Library/KR/400/410/410.00/KR-410.00 e\|KR-410.00 e]] | 24-12-31 | <ul><li>#우아한테크코스프리코스</li></ul>                                                                |
 | AI 노래: 오늘과 내일의 간격은 오늘과 어제만큼멀까                                                        | [[Projects/Library/KR/P100/P120/KR-P-120 a\|KR-P-120 a]]        | 24-12-30 | <ul><li>#취미</li><li>#노래</li><li>#Suno</li></ul>                                               |
 | Hydration 에러: styled-components와 framer-motion동시 사용시 props가 강제로 넘어가면서 생긴 복합적 문제 해결하기 | [[Projects/Library/KR/000/010/010.30/KR-210.00 a\|KR-210.00 a]] | 24-12-27 | <ul><li>#React_Next</li><li>#React</li><li>#styled_comonents</li><li>#framer_motion</li></ul> |
 | 2024년12월1주차 회고: hydration 트러블 슈팅과 프론트엔드의 핵심 state와 component                         | [[Projects/Library/KR/P300/P310/KR-P-310 c\|KR-P-310 c]]        | 24-12-27 | <ul><li>#회고</li><li>#주간회고</li></ul>                                                           |
-| React, Next                                                                          | [[Projects/Library/KR/000/010/010.30/KR-010.30\|KR-010.30]]     | 24-12-27 | <ul><li>#React_Next</li><li>#Dev</li></ul>                                                    |
 
 { .block-language-dataview}
 
@@ -115,6 +115,7 @@ Email: nargene@gmail.com
 	- [[Projects/Library/KR/P300/P310/KR-P-310 c\|KR-P-310 c]] 2024년12월1주차 회고: hydration 트러블 슈팅과 프론트엔드의 핵심 state와 component 
 	- [[Projects/Library/KR/P300/P310/KR-P-310 d\|KR-P-310 d]] 2024년12월 2주차 코딩테스트 준비하기 구현 문제 5시간안에 풀기
 	- [[Projects/Library/KR/P300/P310/KR-P-310 e\|KR-P-310 e]] 24년 12월 3주차 주간 회고: 기존 글들 마이그레이션 및 독서
+	- [[Projects/Library/KR/P300/P310/KR-P-310 f\|KR-P-310 f]] 24년 12월 4주차 주간 회고: 불합격 그리고 리팩토링
 - [[Projects/Library/KR/P300/P320/KR-P-320\|KR-P-320]] 월간 회고
 - [[Projects/Library/KR/P300/P330/KR-P-330\|KR-P-330]] 연간 회고
 	- [[Projects/Library/KR/P300/P330/KR-P-330 a\|KR-P-330 a]] 2023년 회고
