@@ -26,7 +26,7 @@
 
 
 #### `hydration 에러 styled-component와 framer-motion 여러 라이브러리 사용시 발생`
-관련 문서 [[Projects/Library/KR/000/010/010.30/KR-210.00 a\|KR-210.00 a]] 
+관련 문서 [[Projects/Library/KR/200/210/KR-210.00 a\|KR-210.00 a]] 
 
 자세한 내용은 해당 문서에 기재돼있습니다. 간략하게 설명하면 Next.js로 컴포넌트를 구현하는 과정에서 hydration에러가 발생하였습니다. 그런데 해당 에러를 해결하는 과정에서 SSR과 가상 DOM이 불일치하는 hydration이라는 개념을 학습하고, 추가적으로 CSS-In-JS 방식의 styled-component와 실제 DOM으로 props를 전달하는 framer-motion이 복합적으로 작용하면서 생긴 문제를 트러블 슈팅하는 일이 있었습니다.
 
