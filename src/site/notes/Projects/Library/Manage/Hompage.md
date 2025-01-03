@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2025-01-01T22:55:32.252+09:00"}
+{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2025-01-03T22:57:47.447+09:00"}
 ---
 
 > "**"짧은 글에 담긴 진솔한 고민, 당신의 시간도 소중하니까요."**"
@@ -16,11 +16,11 @@ Email: nargene@gmail.com
 # Libray new books
 | POSTS                                                                                | Link                                                               | Date     | Tags                                                                                          |
 | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------ | -------- | --------------------------------------------------------------------------------------------- |
+| DB 설계, 기능 구현 및 UI UX관련                                                               | [[Projects/Library/KR/100/110/110.40/KR-110.40 b\|KR-110.40 b]] | 25-01-03 | <ul><li>#개인프로젝트</li></ul>                                                                     |
 | Hydration 에러: styled-components와 framer-motion동시 사용시 props가 강제로 넘어가면서 생긴 복합적 문제 해결하기 | [[Projects/Library/KR/200/210/KR-210.00 a\|KR-210.00 a]]        | 25-01-01 | <ul><li>#React_Next</li><li>#React</li><li>#styled_comonents</li><li>#framer_motion</li></ul> |
 | 24년 12월 4주차 주간 회고: 불합격 그리고 리팩토링                                                      | [[Projects/Library/KR/P300/P310/KR-P-310 f\|KR-P-310 f]]        | 25-01-01 | <ul><li>#주간회고</li><li>#회고</li></ul>                                                           |
 | 우아한테크코스 프리코스 7기 최종 코딩테스트 불합격 원인 분석하기                                                 | [[Projects/Library/KR/400/410/410.00/KR-410.00 e\|KR-410.00 e]] | 24-12-31 | <ul><li>#우아한테크코스프리코스</li></ul>                                                                |
 | AI 노래: 오늘과 내일의 간격은 오늘과 어제만큼멀까                                                        | [[Projects/Library/KR/P100/P120/KR-P-120 a\|KR-P-120 a]]        | 24-12-30 | <ul><li>#취미</li><li>#노래</li><li>#Suno</li></ul>                                               |
-| 2024년12월1주차 회고: hydration 트러블 슈팅과 프론트엔드의 핵심 state와 component                         | [[Projects/Library/KR/P300/P310/KR-P-310 c\|KR-P-310 c]]        | 24-12-27 | <ul><li>#회고</li><li>#주간회고</li></ul>                                                           |
 
 { .block-language-dataview}
 
@@ -60,7 +60,8 @@ Email: nargene@gmail.com
 	- [[Projects/Library/KR/100/110/110.10/KR-110.10\|KR-110.10]] LLM에 RAG를 결합하여 내 블로그를 안내해주는 개인 사서
 		- [[Projects/Library/KR/100/110/110.10/KR-110.10 a\|KR-110.10 a]] Langchain ,Streamlit , Milvus 등의 LLM을 위한 툴
 	- [[Projects/Library/KR/100/110/110.40/KR-110.40\|KR-110.40]] 생성형 AI를 이용한 개인 창작 마법 프로젝트
-		- [[Projects/Library/KR/100/110/110.40/KR-110.40 a\|KR-110.40 a]] 
+		- [[Projects/Library/KR/100/110/110.40/KR-110.40 a\|KR-110.40 a]] 프로젝트 중 겪은 트러블 슈팅 (CORS, 소셜 로그인 등)
+		- [[Projects/Library/KR/100/110/110.40/KR-110.40 b\|KR-110.40 b]] DB 설계, 기능 구현 및 UI UX관련
 - [[Projects/Library/KR/100/120/KR-120\|KR-120]] 팀 프로젝트
 	- [[Projects/Library/KR/100/120/KR-120.00\|KR-120.00]] 국비학원  졸업 프로젝트 AWS EKS 기반 물류 관리 자동화 구축
 - [[Projects/Library/KR/100/130/KR-130\|KR-130]] 회사 프로젝트
