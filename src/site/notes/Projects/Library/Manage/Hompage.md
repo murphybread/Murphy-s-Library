@@ -1,12 +1,12 @@
 ---
-{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2025-01-03T22:57:47.447+09:00"}
+{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2025-01-08T11:12:57.658+09:00"}
 ---
 
 > "**"짧은 글에 담긴 진솔한 고민, 당신의 시간도 소중하니까요."**"
 	-블로그 주인장 올림-
 
 개인의 경험과 고민이나 생각, 철학 등을 기록해 놓은 블로그입니다.
-단순한 TIL보다는 그 과정에서 고민이나 실제로 겪어보고 느낀 점을 주로 담았습니다.
+단순한 기술적인 내용으로 작성하기보단, 왜 이 기술을 사용할까? 실제로 어떤 경우에 사용될까?와 같은 고민이나 실제로 겪어보고 느낀 점 등과 같은 경험적인 내용 위주로 담았습니다.
 
 기술적인 주제의 카테고리는 000~400번까지입니다.
 개인적인 취미,회고 등의 카테고리는 P태그가 붙은 P-000~P~300번입니다.  
