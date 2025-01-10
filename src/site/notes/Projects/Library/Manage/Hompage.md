@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2025-01-10T23:58:26.379+09:00"}
+{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2025-01-10T23:59:28.210+09:00"}
 ---
 
 > "**"짧은 글에 담긴 진솔한 고민, 당신의 시간도 소중하니까요."**"
@@ -119,6 +119,7 @@ Email: nargene@gmail.com
     - [[Projects/Library/KR/P300/P310/KR-P-310 d\|KR-P-310 d]] 12월 2주차 코딩테스트 준비하기 구현 문제 5시간안에 풀기
     - [[Projects/Library/KR/P300/P310/KR-P-310 e\|KR-P-310 e]] 24년 12월 3주차 주간 회고: 기존 글들 마이그레이션 및 독서
     - [[Projects/Library/KR/P300/P310/KR-P-310 f\|KR-P-310 f]] 24년 12월 4주차 주간 회고: 불합격 그리고 리팩토링
+    - [[Projects/Library/KR/P300/P310/KR-P-310 g\|KR-P-310 g]] 25년 1월 1주차 주간 회고: 준비하지 못한 이번년도
 - [[Projects/Library/KR/P300/P320/KR-P-320\|KR-P-320]] 월간 회고
 - [[Projects/Library/KR/P300/P330/KR-P-330\|KR-P-330]] 연간 회고
     - [[Projects/Library/KR/P300/P330/KR-P-330 a\|KR-P-330 a]] 2023년 회고
