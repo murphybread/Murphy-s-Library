@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2025-01-10T23:59:28.210+09:00"}
+{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2025-01-12T20:02:30.780+09:00"}
 ---
 
 > "**"짧은 글에 담긴 진솔한 고민, 당신의 시간도 소중하니까요."**"
@@ -14,13 +14,13 @@
 Github: https://github.com/murphybread
 Email: nargene@gmail.com
 # Libray new books
-| POSTS                                                                                | Link                                                               | Date     | Tags                                                                                          |
-| ------------------------------------------------------------------------------------ | ------------------------------------------------------------------ | -------- | --------------------------------------------------------------------------------------------- |
-| 25년 1월 1주차 주간 회고: 준비하지 못한 이번년도                                                       | [[Projects/Library/KR/P300/P310/KR-P-310 g\|KR-P-310 g]]        | 25-01-10 | <ul><li>#주간회고</li></ul>                                                                       |
-| React공식사이트에서 UI표현하기 중 중요한 내용만 추출                                                     | [[Projects/Library/KR/000/010/010.20/KR-010.20 a\|KR-010.20 a]] | 25-01-10 | <ul><li>#React</li></ul>                                                                      |
-| React                                                                                | [[Projects/Library/KR/000/010/010.20/KR-010.20\|KR-010.20]]     | 25-01-10 | <ul><li>#React</li></ul>                                                                      |
-| DB 설계, 기능 구현 및 UI UX관련                                                               | [[Projects/Library/KR/100/110/110.40/KR-110.40 b\|KR-110.40 b]] | 25-01-03 | <ul><li>#개인프로젝트</li></ul>                                                                     |
-| Hydration 에러: styled-components와 framer-motion동시 사용시 props가 강제로 넘어가면서 생긴 복합적 문제 해결하기 | [[Projects/Library/KR/200/210/KR-210.00 a\|KR-210.00 a]]        | 25-01-01 | <ul><li>#React_Next</li><li>#React</li><li>#styled_comonents</li><li>#framer_motion</li></ul> |
+| POSTS                            | Link                                                               | Date     | Tags                      |
+| -------------------------------- | ------------------------------------------------------------------ | -------- | ------------------------- |
+| 상호작용성 더하기                        | [[Projects/Library/KR/000/010/010.20/KR-010.20 b\|KR-010.20 b]] | 25-01-12 | <ul><li>#React</li></ul>  |
+| 25년 1월 1주차 주간 회고: 준비하지 못한 이번년도   | [[Projects/Library/KR/P300/P310/KR-P-310 g\|KR-P-310 g]]        | 25-01-10 | <ul><li>#주간회고</li></ul>   |
+| React공식사이트에서 UI표현하기 중 중요한 내용만 추출 | [[Projects/Library/KR/000/010/010.20/KR-010.20 a\|KR-010.20 a]] | 25-01-10 | <ul><li>#React</li></ul>  |
+| React                            | [[Projects/Library/KR/000/010/010.20/KR-010.20\|KR-010.20]]     | 25-01-10 | <ul><li>#React</li></ul>  |
+| DB 설계, 기능 구현 및 UI UX관련           | [[Projects/Library/KR/100/110/110.40/KR-110.40 b\|KR-110.40 b]] | 25-01-03 | <ul><li>#개인프로젝트</li></ul> |
 
 { .block-language-dataview}
 
@@ -37,6 +37,7 @@ Email: nargene@gmail.com
         - [[Projects/Library/KR/000/010/010.10/KR-010.10 a\|KR-010.10 a]] styled-components 간단 소개
     - [[Projects/Library/KR/000/010/010.20/KR-010.20\|KR-010.20]] React
         - [[Projects/Library/KR/000/010/010.20/KR-010.20 a\|KR-010.20 a]] React공식사이트에서 UI표현하기 중 중요한 내용만 추출
+        - [[Projects/Library/KR/000/010/010.20/KR-010.20 b\|KR-010.20 b]] 상호작용성 더하기
     - [[Projects/Library/KR/000/010/010.40/KR-010.40\|KR-010.40]] Node.js
         - [[Projects/Library/KR/000/010/010.40/KR-010.40 a\|KR-010.40 a]] Node.js 성능 향상: I/O-bound에는 Async와 CPU-bound를 위한 Cluster API vs Worker Threads
     - [[Projects/Library/KR/000/010/010.60/KR-010.60\|KR-010.60]] Jest
