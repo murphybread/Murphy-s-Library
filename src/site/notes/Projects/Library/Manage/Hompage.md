@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2025-01-12T20:02:30.780+09:00"}
+{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2025-01-13T15:39:19.096+09:00"}
 ---
 
 > "**"짧은 글에 담긴 진솔한 고민, 당신의 시간도 소중하니까요."**"
@@ -14,13 +14,13 @@
 Github: https://github.com/murphybread
 Email: nargene@gmail.com
 # Libray new books
-| POSTS                            | Link                                                               | Date     | Tags                      |
-| -------------------------------- | ------------------------------------------------------------------ | -------- | ------------------------- |
-| 상호작용성 더하기                        | [[Projects/Library/KR/000/010/010.20/KR-010.20 b\|KR-010.20 b]] | 25-01-12 | <ul><li>#React</li></ul>  |
-| 25년 1월 1주차 주간 회고: 준비하지 못한 이번년도   | [[Projects/Library/KR/P300/P310/KR-P-310 g\|KR-P-310 g]]        | 25-01-10 | <ul><li>#주간회고</li></ul>   |
-| React공식사이트에서 UI표현하기 중 중요한 내용만 추출 | [[Projects/Library/KR/000/010/010.20/KR-010.20 a\|KR-010.20 a]] | 25-01-10 | <ul><li>#React</li></ul>  |
-| React                            | [[Projects/Library/KR/000/010/010.20/KR-010.20\|KR-010.20]]     | 25-01-10 | <ul><li>#React</li></ul>  |
-| DB 설계, 기능 구현 및 UI UX관련           | [[Projects/Library/KR/100/110/110.40/KR-110.40 b\|KR-110.40 b]] | 25-01-03 | <ul><li>#개인프로젝트</li></ul> |
+| POSTS                            | Link                                                               | Date     | Tags                     |
+| -------------------------------- | ------------------------------------------------------------------ | -------- | ------------------------ |
+| 2024년 회고                         | [[Projects/Library/KR/P300/P330/KR-P-330 b\|KR-P-330 b]]        | 25-01-13 | <ul><li>#회고</li></ul>    |
+| \-                               | [[Projects/Library/Manage/note-template\|note-template]]        | 25-01-13 | <ul><li>#A</li></ul>     |
+| 상호작용성 더하기                        | [[Projects/Library/KR/000/010/010.20/KR-010.20 b\|KR-010.20 b]] | 25-01-12 | <ul><li>#React</li></ul> |
+| 25년 1월 1주차 주간 회고: 준비하지 못한 이번년도   | [[Projects/Library/KR/P300/P310/KR-P-310 g\|KR-P-310 g]]        | 25-01-10 | <ul><li>#주간회고</li></ul>  |
+| React공식사이트에서 UI표현하기 중 중요한 내용만 추출 | [[Projects/Library/KR/000/010/010.20/KR-010.20 a\|KR-010.20 a]] | 25-01-10 | <ul><li>#React</li></ul> |
 
 { .block-language-dataview}
 
@@ -121,9 +121,9 @@ Email: nargene@gmail.com
     - [[Projects/Library/KR/P300/P310/KR-P-310 e\|KR-P-310 e]] 24년 12월 3주차 주간 회고: 기존 글들 마이그레이션 및 독서
     - [[Projects/Library/KR/P300/P310/KR-P-310 f\|KR-P-310 f]] 24년 12월 4주차 주간 회고: 불합격 그리고 리팩토링
     - [[Projects/Library/KR/P300/P310/KR-P-310 g\|KR-P-310 g]] 25년 1월 1주차 주간 회고: 준비하지 못한 이번년도
-- [[Projects/Library/KR/P300/P320/KR-P-320\|KR-P-320]] 월간 회고
 - [[Projects/Library/KR/P300/P330/KR-P-330\|KR-P-330]] 연간 회고
     - [[Projects/Library/KR/P300/P330/KR-P-330 a\|KR-P-330 a]] 2023년 회고
+    - [[Projects/Library/KR/P300/P330/KR-P-330 b\|KR-P-330 b]] 2024년 회고
 
 
 
