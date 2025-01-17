@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2025-01-17T22:49:20.961+09:00"}
+{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2025-01-17T23:23:46.191+09:00"}
 ---
 
 > "**"짧은 글에 담긴 진솔한 고민, 당신의 시간도 소중하니까요."**"
@@ -134,9 +134,5 @@ Email: nargene@gmail.com
 Link:  [[Projects/Library/Manage/History of Library\|History of Library]]
 
 테스트
-
-```req
-url: https://fetchable-custom-quotes-ados.vercel.app/?id=013ebc01-5ed5-45b0-baea-c3f4d2fe72fa
-show: content, author
-format: {} -{}-
-```
+<p><span>팀 프로젝트가 개인 프로젝트보다 난이도가 항상 높다<br>
+-계동원-</span></p>
