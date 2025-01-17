@@ -474,7 +474,7 @@ So I modify this part. first get distinguish body. by the split function divide 
 
 현재 노트: [[<% tp.file.title %>\|<% tp.file.title %>]] 
 상위 분류: [[]] <pre class="dataview dataview-error">Evaluation Error: TypeError: Cannot read properties of undefined (reading 'title')
-    at eval (eval at &lt;anonymous&gt; (plugin:dataview), &lt;anonymous&gt;:1:53)
+    at eval (eval at &lt;anonymous&gt; (plugin:dataview), &lt;anonymous&gt;:1:59)
     at DataviewInlineApi.eval (plugin:dataview:18885:16)
     at evalInContext (plugin:dataview:18886:7)
     at asyncEvalInContext (plugin:dataview:18896:32)

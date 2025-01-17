@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2025-01-13T15:39:19.096+09:00"}
+{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2025-01-17T22:49:20.961+09:00"}
 ---
 
 > "**"짧은 글에 담긴 진솔한 고민, 당신의 시간도 소중하니까요."**"
@@ -14,13 +14,13 @@
 Github: https://github.com/murphybread
 Email: nargene@gmail.com
 # Libray new books
-| POSTS                            | Link                                                               | Date     | Tags                     |
-| -------------------------------- | ------------------------------------------------------------------ | -------- | ------------------------ |
-| 2024년 회고                         | [[Projects/Library/KR/P300/P330/KR-P-330 b\|KR-P-330 b]]        | 25-01-13 | <ul><li>#회고</li></ul>    |
-| \-                               | [[Projects/Library/Manage/note-template\|note-template]]        | 25-01-13 | <ul><li>#A</li></ul>     |
-| 상호작용성 더하기                        | [[Projects/Library/KR/000/010/010.20/KR-010.20 b\|KR-010.20 b]] | 25-01-12 | <ul><li>#React</li></ul> |
-| 25년 1월 1주차 주간 회고: 준비하지 못한 이번년도   | [[Projects/Library/KR/P300/P310/KR-P-310 g\|KR-P-310 g]]        | 25-01-10 | <ul><li>#주간회고</li></ul>  |
-| React공식사이트에서 UI표현하기 중 중요한 내용만 추출 | [[Projects/Library/KR/000/010/010.20/KR-010.20 a\|KR-010.20 a]] | 25-01-10 | <ul><li>#React</li></ul> |
+| POSTS                                                                                      | Link                                                               | Date     | Tags                                               |
+| ------------------------------------------------------------------------------------------ | ------------------------------------------------------------------ | -------- | -------------------------------------------------- |
+| State 관리하기                                                                                 | [[Projects/Library/KR/000/010/010.20/KR-010.20 c\|KR-010.20 c]] | 25-01-17 | <ul><li>#React</li></ul>                           |
+| 직접 겪으며 정리해본 도커 사용 이유와 잘 쓰기 위해 생각해볼 점                                                       | [[Projects/Library/KR/000/020/020.10/KR-020.10 a\|KR-020.10 a]] | 25-01-17 | <ul><li>#Docker</li><li>#Ops</li></ul>             |
+| 신입 개발자가 정리한 Jest 테스트 사용 예시와 환경 구성                                                          | [[Projects/Library/KR/000/010/010.60/KR-010.60 a\|KR-010.60 a]] | 25-01-17 | <ul><li>#기술스택</li><li>#Dev</li><li>#Jest</li></ul> |
+| Node.js 성능 향상:  I/O-bound에는 Async와 CPU-bound를 위한 Cluster API vs Worker Threads 학습 및 비교 테스트 | [[Projects/Library/KR/000/010/010.40/KR-010.40 a\|KR-010.40 a]] | 25-01-17 | <ul><li>#기술스택</li><li>#Dev</li><li>#Node</li></ul> |
+| 예시 제목                                                                                      | [[Projects/Library/Manage/note-template\|note-template]]        | 25-01-17 | <ul><li>#A</li></ul>                               |
 
 { .block-language-dataview}
 
@@ -38,15 +38,16 @@ Email: nargene@gmail.com
     - [[Projects/Library/KR/000/010/010.20/KR-010.20\|KR-010.20]] React
         - [[Projects/Library/KR/000/010/010.20/KR-010.20 a\|KR-010.20 a]] React공식사이트에서 UI표현하기 중 중요한 내용만 추출
         - [[Projects/Library/KR/000/010/010.20/KR-010.20 b\|KR-010.20 b]] 상호작용성 더하기
+        - [[Projects/Library/KR/000/010/010.20/KR-010.20 c\|KR-010.20 c]] State 관리하기
     - [[Projects/Library/KR/000/010/010.40/KR-010.40\|KR-010.40]] Node.js
-        - [[Projects/Library/KR/000/010/010.40/KR-010.40 a\|KR-010.40 a]] Node.js 성능 향상: I/O-bound에는 Async와 CPU-bound를 위한 Cluster API vs Worker Threads
+        - [[Projects/Library/KR/000/010/010.40/KR-010.40 a\|KR-010.40 a]] Node.js 성능 향상: I/O-bound에는 Async와 CPU-bound를 위한 Cluster API vs Worker Threads 학습 및 비교 테스트
     - [[Projects/Library/KR/000/010/010.60/KR-010.60\|KR-010.60]] Jest
         - [[Projects/Library/KR/000/010/010.60/KR-010.60 a\|KR-010.60 a]] 신입 개발자가 정리한 Jest 테스트 사용 예시와 환경 구성
 - [[Projects/Library/KR/000/020/KR-020\|KR-020]] Ops
     - [[Projects/Library/KR/000/020/020.00/KR-020.00\|KR-020.00]] Git
         - [[Projects/Library/KR/000/020/020.00/KR-020.00 a\|KR-020.00 a]] Git 특정 환경의 파일만 커밋없이 제외하기
     - [[Projects/Library/KR/000/020/020.10/KR-020.10\|KR-020.10]] Docker
-        - [[Projects/Library/KR/000/020/020.10/KR-020.10 a\|KR-020.10 a]] 엉망진창 개발 환경, 도커가 등장한 뒤
+        - [[Projects/Library/KR/000/020/020.10/KR-020.10 a\|KR-020.10 a]] 직접 겪으며 정리해본 도커 사용 이유와 잘 쓰기 위해 생각해볼 점
         - [[Projects/Library/KR/000/020/020.10/KR-020.10 b\|KR-020.10 b]] Kaniko와 credStore 및 Multistage 활용
         - [[Projects/Library/KR/000/020/020.10/KR-020.10 c\|KR-020.10 c]] Kops와 eksctl 설치하기
         - [[Projects/Library/KR/000/020/020.10/KR-020.10 d\|KR-020.10 d]] Helm 사용하기 ArgoCD, Loki, Grafana
@@ -121,6 +122,7 @@ Email: nargene@gmail.com
     - [[Projects/Library/KR/P300/P310/KR-P-310 e\|KR-P-310 e]] 24년 12월 3주차 주간 회고: 기존 글들 마이그레이션 및 독서
     - [[Projects/Library/KR/P300/P310/KR-P-310 f\|KR-P-310 f]] 24년 12월 4주차 주간 회고: 불합격 그리고 리팩토링
     - [[Projects/Library/KR/P300/P310/KR-P-310 g\|KR-P-310 g]] 25년 1월 1주차 주간 회고: 준비하지 못한 이번년도
+    - [[Projects/Library/KR/P300/P310/KR-P-310 h\|KR-P-310 h]] 25년 1월 1 주차 주간 회고: 아직 준비 되지 않은 이번 년도
 - [[Projects/Library/KR/P300/P330/KR-P-330\|KR-P-330]] 연간 회고
     - [[Projects/Library/KR/P300/P330/KR-P-330 a\|KR-P-330 a]] 2023년 회고
     - [[Projects/Library/KR/P300/P330/KR-P-330 b\|KR-P-330 b]] 2024년 회고
@@ -131,3 +133,10 @@ Email: nargene@gmail.com
 # History of Library
 Link:  [[Projects/Library/Manage/History of Library\|History of Library]]
 
+테스트
+
+```req
+url: https://fetchable-custom-quotes-ados.vercel.app/?id=013ebc01-5ed5-45b0-baea-c3f4d2fe72fa
+show: content, author
+format: {} -{}-
+```
