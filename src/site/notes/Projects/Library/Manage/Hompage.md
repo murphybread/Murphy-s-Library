@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2025-01-17T23:23:46.191+09:00"}
+{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2025-01-19T02:02:31.466+09:00"}
 ---
 
-> "**"짧은 글에 담긴 진솔한 고민, 당신의 시간도 소중하니까요."**"
+> **"짧은 글에 담긴 진솔한 고민, 10개의 무가치한 글보다는 1개의 가치 있는 글 쓰기"**
 	-블로그 주인장 올림-
 
 개인의 경험과 고민이나 생각, 철학 등을 기록해 놓은 블로그입니다.
@@ -133,6 +133,3 @@ Email: nargene@gmail.com
 # History of Library
 Link:  [[Projects/Library/Manage/History of Library\|History of Library]]
 
-테스트
-<p><span>팀 프로젝트가 개인 프로젝트보다 난이도가 항상 높다<br>
--계동원-</span></p>
