@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"title":"25년 1월 3주차 주간 회고 취업 준비하기","description":"살짝살짝 취업 을 위해 좀더 본격적인 내용을 준비하는 주였습니다.","permalink":"/projects/library/kr/p300/p310/kr-p-310-i/","dgPassFrontmatter":true,"noteIcon":"0","created":"2025-01-13T15:40:14.960+09:00","updated":"2025-01-20T17:37:04.936+09:00"}
+{"dg-publish":true,"title":"25년 1월 3주차 주간 회고 취업 준비하기","description":"살짝살짝 취업 을 위해 좀더 본격적인 내용을 준비하는 주였습니다.","permalink":"/projects/library/kr/p300/p310/kr-p-310-i/","dgPassFrontmatter":true,"noteIcon":"0","created":"2025-01-13T15:40:14.960+09:00","updated":"2025-01-20T17:39:38.021+09:00"}
 ---
 
 현재 노트: [[Projects/Library/KR/P300/P310/KR-P-310 i\|KR-P-310 i]] 
@@ -22,8 +22,6 @@
 
 상반기 취업 지원 2곳 ➕ 2025-01-16 ✅ 2025-01-16
 > 취업 이력서 경험
-
-QA직무 단기 응시 ➕ 2025-01-16 ✅ 2025-01-17
 
 
 [Figama 간단하게 사용해보기](https://yozm.wishket.com/magazine/detail/2802/) ➕ 2025-01-13 ✅ 2025-01-17
