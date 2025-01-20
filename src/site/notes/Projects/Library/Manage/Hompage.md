@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2025-01-19T02:02:31.466+09:00"}
+{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2025-01-19T21:48:28.828+09:00"}
 ---
 
 > **"짧은 글에 담긴 진솔한 고민, 10개의 무가치한 글보다는 1개의 가치 있는 글 쓰기"**
@@ -14,13 +14,13 @@
 Github: https://github.com/murphybread
 Email: nargene@gmail.com
 # Libray new books
-| POSTS                                                                                      | Link                                                               | Date     | Tags                                               |
-| ------------------------------------------------------------------------------------------ | ------------------------------------------------------------------ | -------- | -------------------------------------------------- |
-| State 관리하기                                                                                 | [[Projects/Library/KR/000/010/010.20/KR-010.20 c\|KR-010.20 c]] | 25-01-17 | <ul><li>#React</li></ul>                           |
-| 직접 겪으며 정리해본 도커 사용 이유와 잘 쓰기 위해 생각해볼 점                                                       | [[Projects/Library/KR/000/020/020.10/KR-020.10 a\|KR-020.10 a]] | 25-01-17 | <ul><li>#Docker</li><li>#Ops</li></ul>             |
-| 신입 개발자가 정리한 Jest 테스트 사용 예시와 환경 구성                                                          | [[Projects/Library/KR/000/010/010.60/KR-010.60 a\|KR-010.60 a]] | 25-01-17 | <ul><li>#기술스택</li><li>#Dev</li><li>#Jest</li></ul> |
-| Node.js 성능 향상:  I/O-bound에는 Async와 CPU-bound를 위한 Cluster API vs Worker Threads 학습 및 비교 테스트 | [[Projects/Library/KR/000/010/010.40/KR-010.40 a\|KR-010.40 a]] | 25-01-17 | <ul><li>#기술스택</li><li>#Dev</li><li>#Node</li></ul> |
-| 예시 제목                                                                                      | [[Projects/Library/Manage/note-template\|note-template]]        | 25-01-17 | <ul><li>#A</li></ul>                               |
+| POSTS                                | Link                                                               | Date     | Tags                                               |
+| ------------------------------------ | ------------------------------------------------------------------ | -------- | -------------------------------------------------- |
+| 25년 1월 3주차 주간 회고 취업 준비하기             | [[Projects/Library/KR/P300/P310/KR-P-310 i\|KR-P-310 i]]        | 25-01-20 | <ul><li>#주간회고</li></ul>                            |
+| 25년 1월 2 주차 주간 회고: 아직 준비 되지 않은 이번 년도 | [[Projects/Library/KR/P300/P310/KR-P-310 h\|KR-P-310 h]]        | 25-01-20 | <ul><li>#주간회고</li></ul>                            |
+| State 관리하기                           | [[Projects/Library/KR/000/010/010.20/KR-010.20 c\|KR-010.20 c]] | 25-01-17 | <ul><li>#React</li></ul>                           |
+| 직접 겪으며 정리해본 도커 사용 이유와 잘 쓰기 위해 생각해볼 점 | [[Projects/Library/KR/000/020/020.10/KR-020.10 a\|KR-020.10 a]] | 25-01-17 | <ul><li>#Docker</li><li>#Ops</li></ul>             |
+| 신입 개발자가 정리한 Jest 테스트 사용 예시와 환경 구성    | [[Projects/Library/KR/000/010/010.60/KR-010.60 a\|KR-010.60 a]] | 25-01-17 | <ul><li>#기술스택</li><li>#Dev</li><li>#Jest</li></ul> |
 
 { .block-language-dataview}
 
@@ -122,7 +122,7 @@ Email: nargene@gmail.com
     - [[Projects/Library/KR/P300/P310/KR-P-310 e\|KR-P-310 e]] 24년 12월 3주차 주간 회고: 기존 글들 마이그레이션 및 독서
     - [[Projects/Library/KR/P300/P310/KR-P-310 f\|KR-P-310 f]] 24년 12월 4주차 주간 회고: 불합격 그리고 리팩토링
     - [[Projects/Library/KR/P300/P310/KR-P-310 g\|KR-P-310 g]] 25년 1월 1주차 주간 회고: 준비하지 못한 이번년도
-    - [[Projects/Library/KR/P300/P310/KR-P-310 h\|KR-P-310 h]] 25년 1월 1 주차 주간 회고: 아직 준비 되지 않은 이번 년도
+    - [[Projects/Library/KR/P300/P310/KR-P-310 h\|KR-P-310 h]] 25년 1월 2 주차 주간 회고: 아직 준비 되지 않은 이번 년도
 - [[Projects/Library/KR/P300/P330/KR-P-330\|KR-P-330]] 연간 회고
     - [[Projects/Library/KR/P300/P330/KR-P-330 a\|KR-P-330 a]] 2023년 회고
     - [[Projects/Library/KR/P300/P330/KR-P-330 b\|KR-P-330 b]] 2024년 회고
