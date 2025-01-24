@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2025-01-19T21:48:28.828+09:00"}
+{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2025-01-24T15:36:33.656+09:00"}
 ---
 
 > **"짧은 글에 담긴 진솔한 고민, 10개의 무가치한 글보다는 1개의 가치 있는 글 쓰기"**
@@ -9,18 +9,18 @@
 단순한 기술적인 내용으로 작성하기보단, 왜 이 기술을 사용할까? 실제로 어떤 경우에 사용될까?와 같은 고민이나 실제로 겪어보고 느낀 점 등과 같은 경험적인 내용 위주로 담았습니다.
 
 기술적인 주제의 카테고리는 000~400번까지입니다.
-개인적인 취미,회고 등의 카테고리는 P태그가 붙은 P-000~P~300번입니다.  
+개인적인 취미,회고 등의 카테고리는 P태그가 붙은 P-000~P~300번입니다.  테스트
 
 Github: https://github.com/murphybread
 Email: nargene@gmail.com
 # Libray new books
 | POSTS                                | Link                                                               | Date     | Tags                           |
 | ------------------------------------ | ------------------------------------------------------------------ | -------- | ------------------------------ |
+| State 관리하기                           | [[Projects/Library/KR/000/010/010.20/KR-010.20 c\|KR-010.20 c]] | 25-01-24 | <ul><li>#React</li></ul>       |
 | VSCode 브레이크 포인트를 활용한 디버깅             | [[Projects/Library/KR/000/010/010.00/KR-010.00 a\|KR-010.00 a]] | 25-01-24 | <ul><li>#Debugging</li></ul>   |
 | 우아한테크코스 프리코스 7기 최종 코딩테스트 불합격 원인 분석하기 | [[Projects/Library/KR/400/410/410.00/KR-410.00 e\|KR-410.00 e]] | 25-01-22 | <ul><li>#우아한테크코스프리코스</li></ul> |
 | 25년 1월 3주차 주간 회고 취업 준비하기             | [[Projects/Library/KR/P300/P310/KR-P-310 i\|KR-P-310 i]]        | 25-01-20 | <ul><li>#주간회고</li></ul>        |
 | 25년 1월 2 주차 주간 회고: 아직 준비 되지 않은 이번 년도 | [[Projects/Library/KR/P300/P310/KR-P-310 h\|KR-P-310 h]]        | 25-01-20 | <ul><li>#주간회고</li></ul>        |
-| State 관리하기                           | [[Projects/Library/KR/000/010/010.20/KR-010.20 c\|KR-010.20 c]] | 25-01-17 | <ul><li>#React</li></ul>       |
 
 { .block-language-dataview}
 
