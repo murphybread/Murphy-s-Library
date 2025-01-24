@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2025-01-24T16:11:52.652+09:00"}
+{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2025-01-24T16:20:40.596+09:00"}
 ---
 
 > **"짧은 글에 담긴 진솔한 고민, 10개의 무가치한 글보다는 1개의 가치 있는 글 쓰기"**
@@ -14,8 +14,9 @@
 Github: https://github.com/murphybread
 Email: nargene@gmail.com
 
-최근 30일 인기 많은 글들
+# 최근 30일 인기 많은 글들
 <iframe width="600" height="230" src="https://lookerstudio.google.com/embed/reporting/3f07353a-7028-4da3-b318-ce1ed80fe190/page/L0sfE" frameborder="0" style="border:0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>
+
 # Libray new books
 | POSTS                                | Link                                                               | Date     | Tags                           |
 | ------------------------------------ | ------------------------------------------------------------------ | -------- | ------------------------------ |
@@ -26,6 +27,8 @@ Email: nargene@gmail.com
 | 25년 1월 2 주차 주간 회고: 아직 준비 되지 않은 이번 년도 | [[Projects/Library/KR/P300/P310/KR-P-310 h\|KR-P-310 h]]        | 25-01-20 | <ul><li>#주간회고</li></ul>        |
 
 { .block-language-dataview}
+
+---
 
 ## Blog Post Categories
 
