@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2025-01-24T15:36:33.656+09:00"}
+{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2025-01-24T15:38:43.281+09:00"}
 ---
 
 > **"짧은 글에 담긴 진솔한 고민, 10개의 무가치한 글보다는 1개의 가치 있는 글 쓰기"**
@@ -9,10 +9,13 @@
 단순한 기술적인 내용으로 작성하기보단, 왜 이 기술을 사용할까? 실제로 어떤 경우에 사용될까?와 같은 고민이나 실제로 겪어보고 느낀 점 등과 같은 경험적인 내용 위주로 담았습니다.
 
 기술적인 주제의 카테고리는 000~400번까지입니다.
-개인적인 취미,회고 등의 카테고리는 P태그가 붙은 P-000~P~300번입니다.  테스트
+개인적인 취미,회고 등의 카테고리는 P태그가 붙은 P-000~P~300번입니다. 
 
 Github: https://github.com/murphybread
 Email: nargene@gmail.com
+
+<iframe width="600" height="230" src="https://lookerstudio.google.com/embed/reporting/3f07353a-7028-4da3-b318-ce1ed80fe190/page/L0sfE" frameborder="0" style="border:0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>
+
 # Libray new books
 | POSTS                                | Link                                                               | Date     | Tags                           |
 | ------------------------------------ | ------------------------------------------------------------------ | -------- | ------------------------------ |
