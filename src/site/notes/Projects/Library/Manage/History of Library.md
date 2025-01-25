@@ -483,7 +483,14 @@ So I modify this part. first get distinguish body. by the split function divide 
     at e.load (app://obsidian.md/app.js:1:1230365)
     at DataviewApi.executeJs (plugin:dataview:19465:18)
     at eval (plugin:digitalgarden:10886:17)
-    at Generator.next (&lt;anonymous&gt;)</pre>
+    at Generator.next (&lt;anonymous&gt;)
+    at eval (plugin:digitalgarden:90:61)
+    at new Promise (&lt;anonymous&gt;)
+    at __async (plugin:digitalgarden:74:10)
+    at tryExecuteJs (plugin:digitalgarden:10882:10)
+    at DataviewCompiler.eval (plugin:digitalgarden:10806:28)
+    at Generator.next (&lt;anonymous&gt;)
+    at fulfilled (plugin:digitalgarden:77:24)</pre>
 
 #A
 
