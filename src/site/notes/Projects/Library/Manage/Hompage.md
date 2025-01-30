@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2025-01-25T23:04:54.717+09:00"}
+{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2025-01-30T21:14:38.785+09:00"}
 ---
 
 > **"짧은 글에 담긴 진솔한 고민, 10개의 무가치한 글보다는 1개의 가치 있는 글 쓰기"**
@@ -22,11 +22,11 @@ Email: nargene@gmail.com
 # Libray new books
 | POSTS                                                                | Link                                                               | Date     | Tags                                                |
 | -------------------------------------------------------------------- | ------------------------------------------------------------------ | -------- | --------------------------------------------------- |
+| 25년 1월 4주차 주간 회고 하던 일 마무리 하기                                         | [[Projects/Library/KR/P300/P310/KR-P-310 j\|KR-P-310 j]]        | 25-01-30 | <ul><li>#주간회고</li></ul>                             |
 | Google Ananlytics를 이용하여 블로그 인기 글 모듈 만든 후 서비스하기                       | [[Projects/Library/KR/100/110/110.20/KR-110.20\|KR-110.20]]     | 25-01-25 | <ul><li>#개인프로젝트</li><li>#Google_Analytics</li></ul> |
 | Google Analytics API 구현 및 임베드 코드를 위한 Looker Studio사용과 UI를 위한 추가 업데이트 | [[Projects/Library/KR/100/110/110.20/KR-110.20 a\|KR-110.20 a]] | 25-01-25 | <ul><li>#Google_Analytics</li></ul>                 |
 | 모바일웹, 웹앱, 하이브리드앱, 네이티브앱 정리                                           | [[Projects/Library/KR/P100/P110/KR-P-110 b\|KR-P-110 b]]        | 25-01-25 | <ul><li>#취미와_놀이터</li></ul>                          |
 | State 관리하기                                                           | [[Projects/Library/KR/000/010/010.20/KR-010.20 c\|KR-010.20 c]] | 25-01-24 | <ul><li>#React</li></ul>                            |
-| VSCode 브레이크 포인트를 활용한 디버깅                                             | [[Projects/Library/KR/000/010/010.00/KR-010.00 a\|KR-010.00 a]] | 25-01-24 | <ul><li>#Debugging</li></ul>                        |
 
 { .block-language-dataview}
 
@@ -74,8 +74,8 @@ Email: nargene@gmail.com
         - [[Projects/Library/KR/100/110/110.00/KR-110.00 f\|KR-110.00 f]] 디스코드 베스트 포스트 추천 봇 만들기 6편 - 모든 게시글 수 확인 하기, 유연한 확장을 위한 구조 수정, 적절한 캐시 사용
     - [[Projects/Library/KR/100/110/110.10/KR-110.10\|KR-110.10]] LLM에 RAG를 결합하여 내 블로그를 안내해주는 개인 사서
         - [[Projects/Library/KR/100/110/110.10/KR-110.10 a\|KR-110.10 a]] Langchain,Streamlit , Milvus 등의 LLM을 위한 툴
-	- [[Projects/Library/KR/100/110/110.20/KR-110.20\|KR-110.20]] a
-		- [[Projects/Library/KR/100/110/110.20/KR-110.20 a\|KR-110.20 a]]
+	- [[Projects/Library/KR/100/110/110.20/KR-110.20\|KR-110.20]] Google Ananlytics를 이용하여 블로그 인기 글 모듈 만든 후 서비스하기
+		- [[Projects/Library/KR/100/110/110.20/KR-110.20 a\|KR-110.20 a]] Google Analytics API 구현 및 임베드 코드를 위한 Looker Studio사용과 UI를 위한 추가 업데이트
     - [[Projects/Library/KR/100/110/110.40/KR-110.40\|KR-110.40]] 생성형 AI를 이용한 개인 창작 마법 프로젝트
         - [[Projects/Library/KR/100/110/110.40/KR-110.40 a\|KR-110.40 a]] 프로젝트 중 겪은 트러블 슈팅 (CORS, 소셜 로그인 등)
         - [[Projects/Library/KR/100/110/110.40/KR-110.40 b\|KR-110.40 b]] DB 설계, 기능 구현 및 UI UX관련
@@ -133,6 +133,8 @@ Email: nargene@gmail.com
     - [[Projects/Library/KR/P300/P310/KR-P-310 f\|KR-P-310 f]] 24년 12월 4주차 주간 회고: 불합격 그리고 리팩토링
     - [[Projects/Library/KR/P300/P310/KR-P-310 g\|KR-P-310 g]] 25년 1월 1주차 주간 회고: 준비하지 못한 이번년도
     - [[Projects/Library/KR/P300/P310/KR-P-310 h\|KR-P-310 h]] 25년 1월 2 주차 주간 회고: 아직 준비 되지 않은 이번 년도
+    - [[Projects/Library/KR/P300/P310/KR-P-310 i\|KR-P-310 i]] 25년 1월 3주차 주간 회고 취업 준비하기
+    - [[Projects/Library/KR/P300/P310/KR-P-310 j\|KR-P-310 j]] 25년 1월 4주차 주간 회고 취업 준비하기
 - [[Projects/Library/KR/P300/P330/KR-P-330\|KR-P-330]] 연간 회고
     - [[Projects/Library/KR/P300/P330/KR-P-330 a\|KR-P-330 a]] 2023년 회고
     - [[Projects/Library/KR/P300/P330/KR-P-330 b\|KR-P-330 b]] 2024년 회고
