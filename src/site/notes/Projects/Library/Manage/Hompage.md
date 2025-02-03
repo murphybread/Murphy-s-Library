@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2025-01-30T21:14:38.785+09:00"}
+{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2025-02-03T23:37:02.607+09:00"}
 ---
 
 > **"짧은 글에 담긴 진솔한 고민, 10개의 무가치한 글보다는 1개의 가치 있는 글 쓰기"**
@@ -22,11 +22,11 @@ Email: nargene@gmail.com
 # Libray new books
 | POSTS                                                                | Link                                                               | Date     | Tags                                                |
 | -------------------------------------------------------------------- | ------------------------------------------------------------------ | -------- | --------------------------------------------------- |
+| 25년 1월 5주차 회고 설날이라는 긴 휴일                                             | [[Projects/Library/KR/P300/P310/KR-P-310 k\|KR-P-310 k]]        | 25-02-03 | <ul><li>#주간회고</li></ul>                             |
 | 25년 1월 4주차 주간 회고 하던 일 마무리 하기                                         | [[Projects/Library/KR/P300/P310/KR-P-310 j\|KR-P-310 j]]        | 25-01-30 | <ul><li>#주간회고</li></ul>                             |
 | Google Ananlytics를 이용하여 블로그 인기 글 모듈 만든 후 서비스하기                       | [[Projects/Library/KR/100/110/110.20/KR-110.20\|KR-110.20]]     | 25-01-25 | <ul><li>#개인프로젝트</li><li>#Google_Analytics</li></ul> |
 | Google Analytics API 구현 및 임베드 코드를 위한 Looker Studio사용과 UI를 위한 추가 업데이트 | [[Projects/Library/KR/100/110/110.20/KR-110.20 a\|KR-110.20 a]] | 25-01-25 | <ul><li>#Google_Analytics</li></ul>                 |
 | 모바일웹, 웹앱, 하이브리드앱, 네이티브앱 정리                                           | [[Projects/Library/KR/P100/P110/KR-P-110 b\|KR-P-110 b]]        | 25-01-25 | <ul><li>#취미와_놀이터</li></ul>                          |
-| State 관리하기                                                           | [[Projects/Library/KR/000/010/010.20/KR-010.20 c\|KR-010.20 c]] | 25-01-24 | <ul><li>#React</li></ul>                            |
 
 { .block-language-dataview}
 
@@ -134,7 +134,8 @@ Email: nargene@gmail.com
     - [[Projects/Library/KR/P300/P310/KR-P-310 g\|KR-P-310 g]] 25년 1월 1주차 주간 회고: 준비하지 못한 이번년도
     - [[Projects/Library/KR/P300/P310/KR-P-310 h\|KR-P-310 h]] 25년 1월 2 주차 주간 회고: 아직 준비 되지 않은 이번 년도
     - [[Projects/Library/KR/P300/P310/KR-P-310 i\|KR-P-310 i]] 25년 1월 3주차 주간 회고 취업 준비하기
-    - [[Projects/Library/KR/P300/P310/KR-P-310 j\|KR-P-310 j]] 25년 1월 4주차 주간 회고 취업 준비하기
+    - [[Projects/Library/KR/P300/P310/KR-P-310 j\|KR-P-310 j]] 25년 1월 4주차 주간 회고 하던 일 마무리 하기
+    - [[Projects/Library/KR/P300/P310/KR-P-310 k\|KR-P-310 k]] 25년 1월 5주차 회고 설날이라는 긴 휴일 
 - [[Projects/Library/KR/P300/P330/KR-P-330\|KR-P-330]] 연간 회고
     - [[Projects/Library/KR/P300/P330/KR-P-330 a\|KR-P-330 a]] 2023년 회고
     - [[Projects/Library/KR/P300/P330/KR-P-330 b\|KR-P-330 b]] 2024년 회고
