@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2025-02-14T19:23:44.186+09:00"}
+{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2025-02-15T00:31:04.949+09:00"}
 ---
 
 > **"짧은 글에 담긴 진솔한 고민, 10개의 무가치한 글보다는 1개의 가치 있는 글 쓰기"**
@@ -20,13 +20,13 @@ Email: nargene@gmail.com
 ---
 
 # Libray new books
-| POSTS                                | Link                                                               | Date     | Tags                                    |
-| ------------------------------------ | ------------------------------------------------------------------ | -------- | --------------------------------------- |
-| React                                | [[Projects/Library/KR/000/010/010.20/KR-010.20\|KR-010.20]]     | 25-02-14 | <ul><li>#React</li></ul>                |
-| 탈출구                                  | [[Projects/Library/KR/000/010/010.20/KR-010.20 d\|KR-010.20 d]] | 25-02-14 | <ul><li>#React</li></ul>                |
-| 독서                                   | [[Projects/Library/KR/400/410/410.20/KR-410.20\|KR-410.20]]     | 25-02-14 | <ul><li>#독서</li></ul>                   |
-| 소프트웨어 장인 독후감 프로페셔널리즘, 실용주의, 자부심      | [[Projects/Library/KR/400/410/410.20/KR-410.20 b\|KR-410.20 b]] | 25-02-14 | <ul><li>#개인학습과성장</li><li>#독후감</li></ul> |
-| 24년 12월 3주차 주간 회고: 기존 글들 마이그레이션 및 독서 | [[Projects/Library/KR/P300/P310/KR-P-310 e\|KR-P-310 e]]        | 25-02-14 | <ul><li>#주간회고</li></ul>                 |
+| POSTS                           | Link                                                               | Date     | Tags                                    |
+| ------------------------------- | ------------------------------------------------------------------ | -------- | --------------------------------------- |
+| Formal하게 용어를 쓰도록 노력해보면서 배우는 것들  | [[Projects/Library/KR/400/410/410.10/KR-410.10 d\|KR-410.10 d]] | 25-02-15 | <ul><li>#개인학습과성장</li></ul>              |
+| React                           | [[Projects/Library/KR/000/010/010.20/KR-010.20\|KR-010.20]]     | 25-02-14 | <ul><li>#React</li></ul>                |
+| 탈출구                             | [[Projects/Library/KR/000/010/010.20/KR-010.20 d\|KR-010.20 d]] | 25-02-14 | <ul><li>#React</li></ul>                |
+| 독서                              | [[Projects/Library/KR/400/410/410.20/KR-410.20\|KR-410.20]]     | 25-02-14 | <ul><li>#독서</li></ul>                   |
+| 소프트웨어 장인 독후감 프로페셔널리즘, 실용주의, 자부심 | [[Projects/Library/KR/400/410/410.20/KR-410.20 b\|KR-410.20 b]] | 25-02-14 | <ul><li>#개인학습과성장</li><li>#독후감</li></ul> |
 
 { .block-language-dataview}
 
@@ -107,6 +107,7 @@ Email: nargene@gmail.com
         - [[Projects/Library/KR/400/410/410.10/KR-410.10 a\|KR-410.10 a]] 코드를 작성하는 역량과 읽고 분석하는 역량중 더 중요한 것은
         - [[Projects/Library/KR/400/410/410.10/KR-410.10 b\|KR-410.10 b]] 데이터 설계 가지고 놀기
         - [[Projects/Library/KR/400/410/410.10/KR-410.10 c\|KR-410.10 c]] 다이어그램 그릴 때 생각해 볼 점
+        - [[Projects/Library/KR/400/410/410.10/KR-410.10 d\|KR-410.10 d]] Formal하게 용어를 쓰도록 노력해보면서 배우는 것들
 	- [[Projects/Library/KR/400/410/410.20/KR-410.20\|KR-410.20]] 독서
         - [[Projects/Library/KR/400/410/410.20/KR-410.20 a\|KR-410.20 a]] 객체지향의 사실과 오해 독후감 역할,책임,협력 이라는 3요소
         - [[Projects/Library/KR/400/410/410.20/KR-410.20 b\|KR-410.20 b]] 소프트웨어 장인 독후감 프로페셔널리즘, 실용주의, 자부심
