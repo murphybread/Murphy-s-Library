@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2025-02-03T23:37:02.607+09:00"}
+{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2025-02-14T19:23:44.186+09:00"}
 ---
 
 > **"짧은 글에 담긴 진솔한 고민, 10개의 무가치한 글보다는 1개의 가치 있는 글 쓰기"**
@@ -20,13 +20,13 @@ Email: nargene@gmail.com
 ---
 
 # Libray new books
-| POSTS                                                                | Link                                                               | Date     | Tags                                                |
-| -------------------------------------------------------------------- | ------------------------------------------------------------------ | -------- | --------------------------------------------------- |
-| 25년 1월 5주차 회고 설날이라는 긴 휴일                                             | [[Projects/Library/KR/P300/P310/KR-P-310 k\|KR-P-310 k]]        | 25-02-03 | <ul><li>#주간회고</li></ul>                             |
-| 25년 1월 4주차 주간 회고 하던 일 마무리 하기                                         | [[Projects/Library/KR/P300/P310/KR-P-310 j\|KR-P-310 j]]        | 25-01-30 | <ul><li>#주간회고</li></ul>                             |
-| Google Ananlytics를 이용하여 블로그 인기 글 모듈 만든 후 서비스하기                       | [[Projects/Library/KR/100/110/110.20/KR-110.20\|KR-110.20]]     | 25-01-25 | <ul><li>#개인프로젝트</li><li>#Google_Analytics</li></ul> |
-| Google Analytics API 구현 및 임베드 코드를 위한 Looker Studio사용과 UI를 위한 추가 업데이트 | [[Projects/Library/KR/100/110/110.20/KR-110.20 a\|KR-110.20 a]] | 25-01-25 | <ul><li>#Google_Analytics</li></ul>                 |
-| 모바일웹, 웹앱, 하이브리드앱, 네이티브앱 정리                                           | [[Projects/Library/KR/P100/P110/KR-P-110 b\|KR-P-110 b]]        | 25-01-25 | <ul><li>#취미와_놀이터</li></ul>                          |
+| POSTS                                | Link                                                               | Date     | Tags                                    |
+| ------------------------------------ | ------------------------------------------------------------------ | -------- | --------------------------------------- |
+| React                                | [[Projects/Library/KR/000/010/010.20/KR-010.20\|KR-010.20]]     | 25-02-14 | <ul><li>#React</li></ul>                |
+| 탈출구                                  | [[Projects/Library/KR/000/010/010.20/KR-010.20 d\|KR-010.20 d]] | 25-02-14 | <ul><li>#React</li></ul>                |
+| 독서                                   | [[Projects/Library/KR/400/410/410.20/KR-410.20\|KR-410.20]]     | 25-02-14 | <ul><li>#독서</li></ul>                   |
+| 소프트웨어 장인 독후감 프로페셔널리즘, 실용주의, 자부심      | [[Projects/Library/KR/400/410/410.20/KR-410.20 b\|KR-410.20 b]] | 25-02-14 | <ul><li>#개인학습과성장</li><li>#독후감</li></ul> |
+| 24년 12월 3주차 주간 회고: 기존 글들 마이그레이션 및 독서 | [[Projects/Library/KR/P300/P310/KR-P-310 e\|KR-P-310 e]]        | 25-02-14 | <ul><li>#주간회고</li></ul>                 |
 
 { .block-language-dataview}
 
@@ -47,6 +47,7 @@ Email: nargene@gmail.com
         - [[Projects/Library/KR/000/010/010.20/KR-010.20 a\|KR-010.20 a]] React공식사이트에서 UI표현하기 중 중요한 내용만 추출
         - [[Projects/Library/KR/000/010/010.20/KR-010.20 b\|KR-010.20 b]] 상호작용성 더하기
         - [[Projects/Library/KR/000/010/010.20/KR-010.20 c\|KR-010.20 c]] State 관리하기
+        - [[Projects/Library/KR/000/010/010.20/KR-010.20 d\|KR-010.20 d]] 탈출구
     - [[Projects/Library/KR/000/010/010.40/KR-010.40\|KR-010.40]] Node.js
         - [[Projects/Library/KR/000/010/010.40/KR-010.40 a\|KR-010.40 a]] Node.js 성능 향상: I/O-bound에는 Async와 CPU-bound를 위한 Cluster API vs Worker Threads 학습 및 비교 테스트
     - [[Projects/Library/KR/000/010/010.60/KR-010.60\|KR-010.60]] Jest
@@ -79,6 +80,10 @@ Email: nargene@gmail.com
     - [[Projects/Library/KR/100/110/110.40/KR-110.40\|KR-110.40]] 생성형 AI를 이용한 개인 창작 마법 프로젝트
         - [[Projects/Library/KR/100/110/110.40/KR-110.40 a\|KR-110.40 a]] 프로젝트 중 겪은 트러블 슈팅 (CORS, 소셜 로그인 등)
         - [[Projects/Library/KR/100/110/110.40/KR-110.40 b\|KR-110.40 b]] DB 설계, 기능 구현 및 UI UX관련
+    - [[Projects/Library/KR/100/110/110.50/KR-110.50\|KR-110.50]] 명언 내보내기 프로젝트
+	    - [[Projects/Library/KR/100/110/110.50/KR-110.50 a\|KR-110.50 a]] 명언 내보내기 프로젝트 GitHub Pages 구현후 큰 문제로 플랫폼 변경하기
+	    - [[Projects/Library/KR/100/110/110.50/KR-110.50 b\|KR-110.50 b]] 명언 내보내기 프로젝트 Vercel Functions으로 serverless로 관리하기
+	    - [[Projects/Library/KR/100/110/110.50/KR-110.50 c\|KR-110.50 c]] 명언 내보내기 프로젝트 POST. DELETE가 Remote에서 불가능하다면 Local에서 구성하기
 - [[Projects/Library/KR/100/120/KR-120\|KR-120]] 팀프로젝트
     - [[Projects/Library/KR/100/120/KR-120.00\|KR-120.00]] 국비학원 졸업 프로젝트 AWS EKS 기반 물류 관리 자동화 구축
 - [[Projects/Library/KR/100/130/KR-130\|KR-130]] 회사 프로젝트
@@ -102,8 +107,9 @@ Email: nargene@gmail.com
         - [[Projects/Library/KR/400/410/410.10/KR-410.10 a\|KR-410.10 a]] 코드를 작성하는 역량과 읽고 분석하는 역량중 더 중요한 것은
         - [[Projects/Library/KR/400/410/410.10/KR-410.10 b\|KR-410.10 b]] 데이터 설계 가지고 놀기
         - [[Projects/Library/KR/400/410/410.10/KR-410.10 c\|KR-410.10 c]] 다이어그램 그릴 때 생각해 볼 점
-        - [[Projects/Library/KR/400/410/410.10/KR-410.10 d\|KR-410.10 d]] 객체지향의 사실과 오해 독후감 역할,책임,협력 이라는 3요소
-        - [[Projects/Library/KR/400/410/410.10/KR-410.10 e\|KR-410.10 e]] 소프트웨어 장인 독후감 프로페셔널리즘, 실용주의, 자부심
+	- [[Projects/Library/KR/400/410/410.20/KR-410.20\|KR-410.20]] 독서
+        - [[Projects/Library/KR/400/410/410.20/KR-410.20 a\|KR-410.20 a]] 객체지향의 사실과 오해 독후감 역할,책임,협력 이라는 3요소
+        - [[Projects/Library/KR/400/410/410.20/KR-410.20 b\|KR-410.20 b]] 소프트웨어 장인 독후감 프로페셔널리즘, 실용주의, 자부심
 - [[Projects/Library/KR/400/420/KR-420\|KR-420]] 시스템 설계와 운영 개선
     - [[Projects/Library/KR/400/420/420.00/KR-420.00\|KR-420.00]] 운영 지표와 성능 관리
         - [[Projects/Library/KR/400/420/420.00/KR-420.00 a\|KR-420.00 a]] SLA, SLO, SLI의 차이와 고려해야 할 점
@@ -135,7 +141,8 @@ Email: nargene@gmail.com
     - [[Projects/Library/KR/P300/P310/KR-P-310 h\|KR-P-310 h]] 25년 1월 2 주차 주간 회고: 아직 준비 되지 않은 이번 년도
     - [[Projects/Library/KR/P300/P310/KR-P-310 i\|KR-P-310 i]] 25년 1월 3주차 주간 회고 취업 준비하기
     - [[Projects/Library/KR/P300/P310/KR-P-310 j\|KR-P-310 j]] 25년 1월 4주차 주간 회고 하던 일 마무리 하기
-    - [[Projects/Library/KR/P300/P310/KR-P-310 k\|KR-P-310 k]] 25년 1월 5주차 회고 설날이라는 긴 휴일 
+    - [[Projects/Library/KR/P300/P310/KR-P-310 k\|KR-P-310 k]] 25년 1월 5주차 회고 설날이라는 긴 휴일
+    - [[Projects/Library/KR/P300/P310/KR-P-310 l\|KR-P-310 l]] 25년 2월 1주차 회고 코딩테스트 공부 및 서류준비
 - [[Projects/Library/KR/P300/P330/KR-P-330\|KR-P-330]] 연간 회고
     - [[Projects/Library/KR/P300/P330/KR-P-330 a\|KR-P-330 a]] 2023년 회고
     - [[Projects/Library/KR/P300/P330/KR-P-330 b\|KR-P-330 b]] 2024년 회고
