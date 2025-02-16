@@ -23,10 +23,10 @@ Email: nargene@gmail.com
 | POSTS                          | Link                                                               | Date     | Tags                       |
 | ------------------------------ | ------------------------------------------------------------------ | -------- | -------------------------- |
 | 25년 2월 2주차 코딩테스트 알고리즘 및 SQL공부  | [[Projects/Library/KR/P300/P310/KR-P-310 m\|KR-P-310 m]]        | 25-02-16 | <ul><li>#주간회고</li></ul>    |
-| 예시 제목                          | [[Projects/Library/Entrance/Agent\|Agent]]                      | 25-02-16 | <ul><li>#A</li></ul>       |
 | Formal하게 용어를 쓰도록 노력해보면서 배우는 것들 | [[Projects/Library/KR/400/410/410.10/KR-410.10 d\|KR-410.10 d]] | 25-02-15 | <ul><li>#개인학습과성장</li></ul> |
 | React                          | [[Projects/Library/KR/000/010/010.20/KR-010.20\|KR-010.20]]     | 25-02-14 | <ul><li>#React</li></ul>   |
 | 탈출구                            | [[Projects/Library/KR/000/010/010.20/KR-010.20 d\|KR-010.20 d]] | 25-02-14 | <ul><li>#React</li></ul>   |
+| 독서                             | [[Projects/Library/KR/400/410/410.20/KR-410.20\|KR-410.20]]     | 25-02-14 | <ul><li>#독서</li></ul>      |
 
 { .block-language-dataview}
 
