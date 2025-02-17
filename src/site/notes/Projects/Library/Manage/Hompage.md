@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2025-02-17T20:39:50.135+09:00"}
+{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2025-02-17T20:57:29.767+09:00"}
 ---
 
 > **"짧은 글에 담긴 진솔한 고민, 10개의 무가치한 글보다는 1개의 가치 있는 글 쓰기"**
@@ -22,11 +22,11 @@ Email: nargene@gmail.com
 # Libray new books
 | POSTS                          | Link                                                               | Date     | Tags                       |
 | ------------------------------ | ------------------------------------------------------------------ | -------- | -------------------------- |
-| HTML 구현 위주의 기록 저장소             | [[Projects/Library/KR/000/010/010.10/KR-010.10 b\|KR-010.10 b]] | 25-02-17 | <ul><li>#HTML</li></ul>    |
+| CSS 단위 규칙 레이아웃 선택자와 속성         | [[Projects/Library/Entrance/CSS\|CSS]]                          | 25-02-18 | <ul><li>#A</li></ul>       |
+| HTML 구현 기록 저장소                 | [[Projects/Library/KR/000/010/010.10/KR-010.10 b\|KR-010.10 b]] | 25-02-17 | <ul><li>#HTML</li></ul>    |
 | 25년 2월 2주차 코딩테스트 알고리즘 및 SQL공부  | [[Projects/Library/KR/P300/P310/KR-P-310 m\|KR-P-310 m]]        | 25-02-16 | <ul><li>#주간회고</li></ul>    |
 | Formal하게 용어를 쓰도록 노력해보면서 배우는 것들 | [[Projects/Library/KR/400/410/410.10/KR-410.10 d\|KR-410.10 d]] | 25-02-15 | <ul><li>#개인학습과성장</li></ul> |
 | React                          | [[Projects/Library/KR/000/010/010.20/KR-010.20\|KR-010.20]]     | 25-02-14 | <ul><li>#React</li></ul>   |
-| 탈출구                            | [[Projects/Library/KR/000/010/010.20/KR-010.20 d\|KR-010.20 d]] | 25-02-14 | <ul><li>#React</li></ul>   |
 
 { .block-language-dataview}
 
@@ -43,7 +43,7 @@ Email: nargene@gmail.com
         - [[Projects/Library/KR/000/010/010.00/KR-010.00 c\|KR-010.00 c]] IT블로그 table 요소 보기 좋게 수정하기
     - [[Projects/Library/KR/000/010/010.10/KR-010.10\|KR-010.10]] HTML,CSS,JavaScript
         - [[Projects/Library/KR/000/010/010.10/KR-010.10 a\|KR-010.10 a]] styled-components 간단 소개
-        - [[Projects/Library/KR/000/010/010.10/KR-010.10 b\|KR-010.10 b]]
+        - [[Projects/Library/KR/000/010/010.10/KR-010.10 b\|KR-010.10 b]] HTML 구현 기록 저장소
         - 
     - [[Projects/Library/KR/000/010/010.20/KR-010.20\|KR-010.20]] React
         - [[Projects/Library/KR/000/010/010.20/KR-010.20 a\|KR-010.20 a]] React공식사이트에서 UI표현하기 중 중요한 내용만 추출
