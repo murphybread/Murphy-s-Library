@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2025-02-18T15:04:46.447+09:00"}
+{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2025-02-19T00:01:54.027+09:00"}
 ---
 
 > **"짧은 글에 담긴 진솔한 고민, 10개의 아쉬운 글보다는 1개의 가치 있는 글 쓰기 지향"**
@@ -20,13 +20,13 @@ Email: nargene@gmail.com
 ---
 
 # Libray new books
-| POSTS                              | Link                                                               | Date     | Tags                       |
-| ---------------------------------- | ------------------------------------------------------------------ | -------- | -------------------------- |
-| CSS의 단위  CSS at-rules 레이아웃 선택자와 속성 | [[Projects/Library/KR/000/010/010.10/KR-010.10 c\|KR-010.10 c]] | 25-02-18 | <ul><li>#CSS</li></ul>     |
-| HTML 구현 기록 저장소                     | [[Projects/Library/KR/000/010/010.10/KR-010.10 b\|KR-010.10 b]] | 25-02-17 | <ul><li>#HTML</li></ul>    |
-| 25년 2월 2주차 코딩테스트 알고리즘 및 SQL공부      | [[Projects/Library/KR/P300/P310/KR-P-310 m\|KR-P-310 m]]        | 25-02-16 | <ul><li>#주간회고</li></ul>    |
-| Formal하게 용어를 쓰도록 노력해보면서 배우는 것들     | [[Projects/Library/KR/400/410/410.10/KR-410.10 d\|KR-410.10 d]] | 25-02-15 | <ul><li>#개인학습과성장</li></ul> |
-| React                              | [[Projects/Library/KR/000/010/010.20/KR-010.20\|KR-010.20]]     | 25-02-14 | <ul><li>#React</li></ul>   |
+| POSTS                                     | Link                                                               | Date     | Tags                       |
+| ----------------------------------------- | ------------------------------------------------------------------ | -------- | -------------------------- |
+| 트러블 슈팅 React에서 스톱워치 구현시 setInterval  주의사항 | [[Projects/Library/KR/200/210/KR-210.00 b\|KR-210.00 b]]        | 25-02-19 | <ul><li>#문제해결_경험</li></ul> |
+| CSS의 단위  CSS at-rules 레이아웃 선택자와 속성        | [[Projects/Library/KR/000/010/010.10/KR-010.10 c\|KR-010.10 c]] | 25-02-18 | <ul><li>#CSS</li></ul>     |
+| HTML 구현 기록 저장소                            | [[Projects/Library/KR/000/010/010.10/KR-010.10 b\|KR-010.10 b]] | 25-02-17 | <ul><li>#HTML</li></ul>    |
+| 25년 2월 2주차 코딩테스트 알고리즘 및 SQL공부             | [[Projects/Library/KR/P300/P310/KR-P-310 m\|KR-P-310 m]]        | 25-02-16 | <ul><li>#주간회고</li></ul>    |
+| Formal하게 용어를 쓰도록 노력해보면서 배우는 것들            | [[Projects/Library/KR/400/410/410.10/KR-410.10 d\|KR-410.10 d]] | 25-02-15 | <ul><li>#개인학습과성장</li></ul> |
 
 { .block-language-dataview}
 
@@ -95,6 +95,7 @@ Email: nargene@gmail.com
 
 - [[Projects/Library/KR/200/210/KR-210\|KR-210]] 렌더링 및 UI or UX
     - [[Projects/Library/KR/200/210/KR-210.00 a\|KR-210.00 a]] Hydration 에러: styled-components와 framer-motion동시 사용시 props가 강제로 넘어가면서 생긴 복합적 문제 해결하기
+    - [[Projects/Library/KR/200/210/KR-210.00 b\|KR-210.00 b]] React로 Timer 구현시 시간을 원하는 형태로 업데이트 하기
 
 [[Projects/Library/KR/400/KR-400\|KR-400]] 성장 경험
 
