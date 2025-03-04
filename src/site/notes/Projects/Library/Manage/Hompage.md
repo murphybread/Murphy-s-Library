@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2025-02-19T00:01:54.027+09:00"}
+{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2025-03-04T15:19:51.715+09:00"}
 ---
 
 > **"짧은 글에 담긴 진솔한 고민, 10개의 아쉬운 글보다는 1개의 가치 있는 글 쓰기 지향"**
@@ -20,13 +20,13 @@ Email: nargene@gmail.com
 ---
 
 # Libray new books
-| POSTS                                     | Link                                                               | Date     | Tags                       |
-| ----------------------------------------- | ------------------------------------------------------------------ | -------- | -------------------------- |
-| CSS의 단위  CSS at-rules 레이아웃 선택자와 속성        | [[Projects/Library/KR/000/010/010.10/KR-010.10 c\|KR-010.10 c]] | 25-02-19 | <ul><li>#CSS</li></ul>     |
-| 트러블 슈팅 React에서 스톱워치 구현시 setInterval  주의사항 | [[Projects/Library/KR/200/210/KR-210.00 b\|KR-210.00 b]]        | 25-02-19 | <ul><li>#문제해결_경험</li></ul> |
-| HTML 구현 기록 저장소                            | [[Projects/Library/KR/000/010/010.10/KR-010.10 b\|KR-010.10 b]] | 25-02-17 | <ul><li>#HTML</li></ul>    |
-| 25년 2월 2주차 코딩테스트 알고리즘 및 SQL공부             | [[Projects/Library/KR/P300/P310/KR-P-310 m\|KR-P-310 m]]        | 25-02-16 | <ul><li>#주간회고</li></ul>    |
-| Formal하게 용어를 쓰도록 노력해보면서 배우는 것들            | [[Projects/Library/KR/400/410/410.10/KR-410.10 d\|KR-410.10 d]] | 25-02-15 | <ul><li>#개인학습과성장</li></ul> |
+| POSTS                                    | Link                                                               | Date     | Tags                                                                |
+| ---------------------------------------- | ------------------------------------------------------------------ | -------- | ------------------------------------------------------------------- |
+| styled-components를 지양하게 된 이유             | [[Projects/Library/KR/000/010/010.10/KR-010.10 d\|KR-010.10 d]] | 25-03-04 | <ul><li>#CSS</li><li>#styled_comonents</li><li>#stylelint</li></ul> |
+| Formal하게 용어를 쓰도록 노력해보면서 배우는 것들           | [[Projects/Library/KR/400/410/410.10/KR-410.10 d\|KR-410.10 d]] | 25-03-04 | <ul><li>#개인학습과성장</li></ul>                                          |
+| 25년 2월 4주차 취업 포트폴리오 탐색 및 계획              | [[Projects/Library/KR/P300/P310/KR-P-310 o\|KR-P-310 o]]        | 25-03-04 | <ul><li>#주간회고</li></ul>                                             |
+| 독후감 리액트 훅을 활용한 마이크로 상태 관리 React에서 상태 관리란 | [[Projects/Library/KR/400/410/410.20/KR-410.20 c\|KR-410.20 c]] | 25-02-28 | <ul><li>#React</li><li>#독서</li></ul>                                |
+| React공식사이트에서 UI표현하기 중 중요한 내용만 추출         | [[Projects/Library/KR/000/010/010.20/KR-010.20 a\|KR-010.20 a]] | 25-02-28 | <ul><li>#React</li></ul>                                            |
 
 { .block-language-dataview}
 
@@ -44,7 +44,8 @@ Email: nargene@gmail.com
     - [[Projects/Library/KR/000/010/010.10/KR-010.10\|KR-010.10]] HTML,CSS,JavaScript
         - [[Projects/Library/KR/000/010/010.10/KR-010.10 a\|KR-010.10 a]] styled-components 간단 소개
         - [[Projects/Library/KR/000/010/010.10/KR-010.10 b\|KR-010.10 b]] HTML 구현 기록 저장소
-        - [[Projects/Library/KR/000/010/010.10/KR-010.10 c\|KR-010.10 c]] CSS의 단위  CSS at-rules 레이아웃 선택자와 속성
+        - [[Projects/Library/KR/000/010/010.10/KR-010.10 c\|KR-010.10 c]] CSS단위 CSS at-rules 레이아웃 선택자와 속성
+        - [[Projects/Library/KR/000/010/010.10/KR-010.10 d\|KR-010.10 d]]
     - [[Projects/Library/KR/000/010/010.20/KR-010.20\|KR-010.20]] React
         - [[Projects/Library/KR/000/010/010.20/KR-010.20 a\|KR-010.20 a]] React공식사이트에서 UI표현하기 중 중요한 내용만 추출
         - [[Projects/Library/KR/000/010/010.20/KR-010.20 b\|KR-010.20 b]] 상호작용성 더하기
@@ -114,6 +115,7 @@ Email: nargene@gmail.com
 	- [[Projects/Library/KR/400/410/410.20/KR-410.20\|KR-410.20]] 독서
         - [[Projects/Library/KR/400/410/410.20/KR-410.20 a\|KR-410.20 a]] 객체지향의 사실과 오해 독후감 역할,책임,협력 이라는 3요소
         - [[Projects/Library/KR/400/410/410.20/KR-410.20 b\|KR-410.20 b]] 소프트웨어 장인 독후감 프로페셔널리즘, 실용주의, 자부심
+        - [[Projects/Library/KR/400/410/410.20/KR-410.20 c\|KR-410.20 c]] 독후감 리액트 훅을 활용한 마이크로 상태 관리 React에서 상태 관리란
 - [[Projects/Library/KR/400/420/KR-420\|KR-420]] 시스템 설계와 운영 개선
     - [[Projects/Library/KR/400/420/420.00/KR-420.00\|KR-420.00]] 운영 지표와 성능 관리
         - [[Projects/Library/KR/400/420/420.00/KR-420.00 a\|KR-420.00 a]] SLA, SLO, SLI의 차이와 고려해야 할 점
@@ -147,7 +149,9 @@ Email: nargene@gmail.com
     - [[Projects/Library/KR/P300/P310/KR-P-310 j\|KR-P-310 j]] 25년 1월 4주차 주간 회고 하던 일 마무리 하기
     - [[Projects/Library/KR/P300/P310/KR-P-310 k\|KR-P-310 k]] 25년 1월 5주차 회고 설날이라는 긴 휴일
     - [[Projects/Library/KR/P300/P310/KR-P-310 l\|KR-P-310 l]] 25년 2월 1주차 회고 코딩테스트 공부 및 서류준비
-    - [[Projects/Library/KR/P300/P310/KR-P-310 m\|KR-P-310 m]] 25년 2월 2주차 코딩테스트 알고리즘 및 SQL공부 
+    - [[Projects/Library/KR/P300/P310/KR-P-310 m\|KR-P-310 m]] 25년 2월 2주차 코딩테스트 알고리즘 및 SQL공부
+    - [[Projects/Library/KR/P300/P310/KR-P-310 n\|KR-P-310 n]] 25년 2월 3주차 코딩테스트 알고리즘 및 SQL 공부 수행
+    - [[Projects/Library/KR/P300/P310/KR-P-310 o\|KR-P-310 o]] 25년 2월 4주차 취업 포트폴리오 탐색 및 계획
 - [[Projects/Library/KR/P300/P330/KR-P-330\|KR-P-330]] 연간 회고
     - [[Projects/Library/KR/P300/P330/KR-P-330 a\|KR-P-330 a]] 2023년 회고
     - [[Projects/Library/KR/P300/P330/KR-P-330 b\|KR-P-330 b]] 2024년 회고
