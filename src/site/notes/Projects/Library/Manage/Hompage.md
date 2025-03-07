@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2025-03-04T15:19:51.715+09:00"}
+{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2025-03-04T15:22:06.890+09:00"}
 ---
 
 > **"짧은 글에 담긴 진솔한 고민, 10개의 아쉬운 글보다는 1개의 가치 있는 글 쓰기 지향"**
@@ -22,11 +22,11 @@ Email: nargene@gmail.com
 # Libray new books
 | POSTS                                    | Link                                                               | Date     | Tags                                                                |
 | ---------------------------------------- | ------------------------------------------------------------------ | -------- | ------------------------------------------------------------------- |
+| CSS의 단위  CSS at-rules 레이아웃 선택자와 속성       | [[Projects/Library/KR/000/010/010.10/KR-010.10 c\|KR-010.10 c]] | 25-03-05 | <ul><li>#CSS</li></ul>                                              |
 | styled-components를 지양하게 된 이유             | [[Projects/Library/KR/000/010/010.10/KR-010.10 d\|KR-010.10 d]] | 25-03-04 | <ul><li>#CSS</li><li>#styled_comonents</li><li>#stylelint</li></ul> |
-| Formal하게 용어를 쓰도록 노력해보면서 배우는 것들           | [[Projects/Library/KR/400/410/410.10/KR-410.10 d\|KR-410.10 d]] | 25-03-04 | <ul><li>#개인학습과성장</li></ul>                                          |
 | 25년 2월 4주차 취업 포트폴리오 탐색 및 계획              | [[Projects/Library/KR/P300/P310/KR-P-310 o\|KR-P-310 o]]        | 25-03-04 | <ul><li>#주간회고</li></ul>                                             |
+| Formal하게 용어를 쓰도록 노력해보면서 배우는 것들           | [[Projects/Library/KR/400/410/410.10/KR-410.10 d\|KR-410.10 d]] | 25-03-04 | <ul><li>#개인학습과성장</li></ul>                                          |
 | 독후감 리액트 훅을 활용한 마이크로 상태 관리 React에서 상태 관리란 | [[Projects/Library/KR/400/410/410.20/KR-410.20 c\|KR-410.20 c]] | 25-02-28 | <ul><li>#React</li><li>#독서</li></ul>                                |
-| React공식사이트에서 UI표현하기 중 중요한 내용만 추출         | [[Projects/Library/KR/000/010/010.20/KR-010.20 a\|KR-010.20 a]] | 25-02-28 | <ul><li>#React</li></ul>                                            |
 
 { .block-language-dataview}
 
@@ -45,7 +45,7 @@ Email: nargene@gmail.com
         - [[Projects/Library/KR/000/010/010.10/KR-010.10 a\|KR-010.10 a]] styled-components 간단 소개
         - [[Projects/Library/KR/000/010/010.10/KR-010.10 b\|KR-010.10 b]] HTML 구현 기록 저장소
         - [[Projects/Library/KR/000/010/010.10/KR-010.10 c\|KR-010.10 c]] CSS단위 CSS at-rules 레이아웃 선택자와 속성
-        - [[Projects/Library/KR/000/010/010.10/KR-010.10 d\|KR-010.10 d]]
+        - [[Projects/Library/KR/000/010/010.10/KR-010.10 d\|KR-010.10 d]] styled-components를 지양하게 된 이유
     - [[Projects/Library/KR/000/010/010.20/KR-010.20\|KR-010.20]] React
         - [[Projects/Library/KR/000/010/010.20/KR-010.20 a\|KR-010.20 a]] React공식사이트에서 UI표현하기 중 중요한 내용만 추출
         - [[Projects/Library/KR/000/010/010.20/KR-010.20 b\|KR-010.20 b]] 상호작용성 더하기

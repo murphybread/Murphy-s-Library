@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"title":"25년 2월 4주차 취업 포트폴리오 탐색 및 계획","description":"주로 React와 HTML, JavaScript, CSS에 대한 구체적인 구현 역량을 요구하였기에 이를 수행할 프로젝트로 project-log로 선정하기로하였습니다.","permalink":"/projects/library/kr/p300/p310/kr-p-310-o/","dgPassFrontmatter":true,"noteIcon":"0","created":"2025-02-24T19:12:58.810+09:00","updated":"2025-03-04T14:09:27.082+09:00"}
+{"dg-publish":true,"title":"25년 2월 4주차 취업 포트폴리오 탐색 및 계획","description":"주로 React와 HTML, JavaScript, CSS에 대한 구체적인 구현 역량을 요구하였기에 이를 수행할 프로젝트로 project-log로 선정하기로하였습니다.","permalink":"/projects/library/kr/p300/p310/kr-p-310-o/","dgPassFrontmatter":true,"noteIcon":"0","created":"2025-02-24T19:12:58.810+09:00","updated":"2025-03-04T15:23:45.395+09:00"}
 ---
 
 현재 노트: [[Projects/Library/KR/P300/P310/KR-P-310 o\|KR-P-310 o]] 
@@ -10,7 +10,7 @@
     at asyncEvalInContext (plugin:dataview:18896:32)
     at DataviewJSRenderer.render (plugin:dataview:18922:19)
     at DataviewJSRenderer.onload (plugin:dataview:18464:14)
-    at DataviewJSRenderer.load (app://obsidian.md/app.js:1:1214143)
+    at e.load (app://obsidian.md/app.js:1:1214099)
     at DataviewApi.executeJs (plugin:dataview:19465:18)
     at eval (plugin:digitalgarden:10886:17)
     at Generator.next (&lt;anonymous&gt;)</pre>
@@ -43,6 +43,7 @@
 local ASR + local TTS + LLM + RAG +ComfyUI의 종합 프로젝트를 수행하며 대부분의 자원(시간,에너지)을 쏟아버리면서 활동에 집중 못함.
 
 
+## 포트폴리오용 project-log
 리액트를 활용한 프로젝트 필수 정리
 선택은 타입스크립트 독서 정도만. 프로젝트까지는 안하고 책으로 개념만 알아두어도 괜찮을듯
 
