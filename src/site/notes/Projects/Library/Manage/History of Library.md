@@ -480,7 +480,7 @@ So I modify this part. first get distinguish body. by the split function divide 
     at asyncEvalInContext (plugin:dataview:18896:32)
     at DataviewJSRenderer.render (plugin:dataview:18922:19)
     at DataviewJSRenderer.onload (plugin:dataview:18464:14)
-    at e.load (app://obsidian.md/app.js:1:1214099)
+    at DataviewJSRenderer.load (app://obsidian.md/app.js:1:1214099)
     at DataviewApi.executeJs (plugin:dataview:19465:18)
     at eval (plugin:digitalgarden:10886:17)
     at Generator.next (&lt;anonymous&gt;)</pre>
