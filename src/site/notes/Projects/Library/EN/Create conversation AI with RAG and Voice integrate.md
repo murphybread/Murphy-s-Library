@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"title":"Building a Voice-Driven AI Assistant: Integrating ASR, TTS, LLM, RAG, and Text-to-Image","description":"Discover how to build a high-quality voice-enabled chatbot with memory using open-source models. This comprehensive guide explores ASR with Whisper, TTS with Kokoro-82M, RAG with Qdrant and BGE-M3, and image generation with Stable Diffusion—balancing performance and cost for an optimal AI assistant implementation.","permalink":"/projects/library/en/create-conversation-ai-with-rag-and-voice-integrate/","dgPassFrontmatter":true,"noteIcon":"0","created":"2025-02-09T01:35:19.667+09:00","updated":"2025-03-13T17:23:13.578+09:00"}
+{"dg-publish":true,"title":"Building a Voice-Driven AI Assistant: Integrating ASR, TTS, LLM, RAG, and Text-to-Image","description":"Discover how to build a high-quality voice-enabled chatbot with memory using open-source models. This comprehensive guide explores ASR with Whisper, TTS with Kokoro-82M, RAG with Qdrant and BGE-M3, and image generation with Stable Diffusion—balancing performance and cost for an optimal AI assistant implementation.","permalink":"/projects/library/en/create-conversation-ai-with-rag-and-voice-integrate/","dgPassFrontmatter":true,"noteIcon":"0","created":"2025-02-09T01:35:19.667+09:00","updated":"2025-03-13T17:36:38.349+09:00"}
 ---
 
 
@@ -65,7 +65,6 @@ check vram usage , speed, WER [user benchmark][https://github.com/SYSTRAN/faster
 -> Determined that fastwhisper v3 is appropriate.
 
 ---
-
 ## TTS (Text to Speach)
 
 Candidates
@@ -81,7 +80,6 @@ https://huggingface.co/spaces/Pendrokar/TTS-Spaces-Arena
 >  multilangual support and inference speed about 300ms ~ 500ms 
 
 ---
-
 ##  RAG (Retrieval-Augmented Generation)
 
 We need to think about the **vector DB** and the **embedding model** for RAG
@@ -93,7 +91,7 @@ The candidates for the search results are **Faiss** and **Qdrant**.
 
 >After using it, the review is that it's a cloud free plan, so it's easy to save and the UI is quite good, so it's easy to use.
 
-### Vector DB
+#### Vector DB
 
 |                      | Qdrant                                                              | Faiss                                                                |
 | -------------------- | ------------------------------------------------------------------- | -------------------------------------------------------------------- |
@@ -119,14 +117,13 @@ So in conclusion, I decided to use **qdrant cloud** because the test results onl
 
 
 
-### Imbedding model
+#### Imbedding model
 Considerations of the embedding model will include the **price** and the **dimension and max-token** and **inference speed** and whether is open-source.  
 In other words, we use open source if possible, and if there is a model that is high enough quality and easy to use, we can use external API and looked for it.
 
 In my first attempt, I tried to find the *one with the highest accuracy!* so I used a high ranking model on the arena board.
 
-**embed-qa-4**
-- https://build.nvidia.com/nvidia/embed-qa-4/modelcard 
+[embed-qa-4](https://build.nvidia.com/nvidia/embed-qa-4/modelcard )
 - Parameter Count: 335 million
 - qdrant with nvidia # [nvidia](https://build.nvidia.com/nvidia)/embed-qa-4
 - qdrant inference docs https://qdrant.tech/documentation/embeddings/nvidia/
@@ -155,7 +152,7 @@ others candidates
 - https://huggingface.co/nomic-ai/nomic-embed-text-v2-moe?utm_source=chatgpt.com
 
 
-## Graph RAG **(Preparing for implementation)**
+#### Graph RAG **(Preparing for implementation)**
 
 I looked up graph RAG to upgrade RAG a bit more.  
   
@@ -206,14 +203,6 @@ https://www.youtube.com/watch?v=5EmRZcJIfnw
 Impressively, experimental results show that **LigthRAG** is less than 100 tokens, compared to 610,000 retrive tokens in microsoft **graphRAG**.
 
 
-
-
-
-
-
-
----
-
 # Text to Image
 The text to image model is *much trickier than other models* when it comes to selection. As the *cost is high*, it is difficult to find the T2I model that has the **biggest VRAM constraints** and understands natural language.  
 You also have to consider the style that the painting body supports (i.e., I thought it was around anime painting at first, so it was difficult to use a model that only supported realistic). And since the **inference speed** is the longest, this should be considered as well  
@@ -250,7 +239,6 @@ https://stability.ai/learning-hub/stable-diffusion-3-5-prompt-guide
 T5Encoder 256 max tokens
 CLIPS G and L 77 max tokens
 
----
 
 # Backend Server Configuration
 **Websocket** + **FastAPI**
@@ -275,7 +263,7 @@ system message tell them to distinguish the line by `\n`
 ### rollacked update: using openai realtime API
 I tried to change it to the **openai realtime API** instead of the local tts I used before. The reason I tried to change it was because of its **naturalness**. First of all, I tried to change it because the function of **interrupting in conversation** and the **tone and accent** are more natural and changeable, unlike the existing method.
 
-> However, in conclusion, I implemented it, but we rolled back again using the existing method of use. I somehow solved the technical problem, but the cost was very very **expensive.**
+> However, in conclusion, I implemented it, but I rolled back again using the existing method of use. I somehow solved the technical problem, but the cost was very very **expensive.**
 
 It's a shame that I rolled back in the end, but I've learned to solve problems that other people might be confused about while implementing, so I'm recording it.
 
@@ -292,8 +280,11 @@ add whisper model
 ```
 
 
-*getting transcript from openai reailtime API response*  event is `conversation.item.input_audio_transcription.completed`
+*getting transcript from openai reailtime API user audio transcript*  event is `conversation.item.input_audio_transcription.completed`
 https://platform.openai.com/docs/api-reference/realtime-server-events/conversation/item/input_audio_transcription
+
+Eventually, this text goes into the query. So if you received a strange answer in the conversation, you might want to check what the text of this voice input is like.  
+For example, if you pronounce it as read, but the transcript is made with lead, you can check the situation
 ```
 {
     "event_id": "event_2122",
@@ -329,13 +320,9 @@ The current code uses the GPT-4o model through the Realtime API, with prices as 
 - **Text output: $20.00/1M token.**  
 - **Audio output: $80.00/1M token.**
 
-Especially, I can see that the output token came out this much even though it wasn't that much
+Especially, I can see that the output token came out this much even though it wasn't that much(The result of playing for about an hour)
 ![Pasted image 20250302005902.png](/img/user/images/Pasted%20image%2020250302005902.png)
 
-
-
-
----
 
 # Frontend Server configuration
 
@@ -346,7 +333,6 @@ VoiceAssistantClient.jsx:239 Audio Decoding Error: EncodingError: Unable to deco
 localhost/:1 Uncaught (in promise) EncodingError: Unable to decode audio data
 ```
 
----
 
 # ComfyUI server configuration
 
@@ -369,7 +355,6 @@ Check created result with meta data -> in `history` path
 #### **Download image**
 `/api/view?filename={prefix}_00001_.png` 
 
----
 
 # Integrate Web Application with ComfyUI
 
@@ -433,8 +418,6 @@ add memoy context to user question. Initialize value after query.
 
 > [!tips] audio file extension
 > I recommend file extension mp3 file, first I choose pcm that speed and size. But Web Audio API doesn't support pcm file, for compatibility use mp3
-
-
 
 
 
