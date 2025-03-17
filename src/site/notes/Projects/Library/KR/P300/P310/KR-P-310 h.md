@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"title":"25년 1월 2 주차 주간 회고: 아직 준비 되지 않은 이번 년도","description":"25년으로 바뀐 후 첫 주였습니다.","permalink":"/projects/library/kr/p300/p310/kr-p-310-h/","dgPassFrontmatter":true,"noteIcon":"0","created":"2025-01-10T23:14:07.279+09:00","updated":"2025-01-20T17:29:16.436+09:00"}
+{"dg-publish":true,"title":"25년 1월 2 주차 주간 회고: 아직 준비 되지 않은 이번 년도","description":"25년으로 바뀐 후 첫 주였습니다.","permalink":"/projects/library/kr/p300/p310/kr-p-310-h/","dgPassFrontmatter":true,"noteIcon":"0","created":"2025-01-10T23:14:07.279+09:00","updated":"2025-03-18T02:04:17.332+09:00"}
 ---
 
-현재 노트: [[Projects/Library/KR/P300/P310/KR-P-310 h\|KR-P-310 h]] 
+현재 노트: [[Projects/Library/KR/P300/P310/KR-P-310 h\|KR-P-310 h]] 25년 1월 2 주차 주간 회고: 아직 준비 되지 않은 이번 년도
 상위 분류: [[Projects/Library/KR/P300/P310/KR-P-310\|KR-P-310]] 주간 회고
 
 #주간회고 

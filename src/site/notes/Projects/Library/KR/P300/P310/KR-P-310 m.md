@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"title":"25년 2월 2주차 코딩테스트 알고리즘 및 SQL공부","description":"몇개의 코딩테스트를 위해 알고리즘과 SQL공부를 수행하였습니다.","permalink":"/projects/library/kr/p300/p310/kr-p-310-m/","dgPassFrontmatter":true,"noteIcon":"0","created":"2025-02-14T21:11:04.186+09:00","updated":"2025-02-16T23:48:28.833+09:00"}
+{"dg-publish":true,"title":"25년 2월 2주차 코딩테스트 알고리즘 및 SQL공부","description":"몇개의 코딩테스트를 위해 알고리즘과 SQL공부를 수행하였습니다.","permalink":"/projects/library/kr/p300/p310/kr-p-310-m/","dgPassFrontmatter":true,"noteIcon":"0","created":"2025-02-14T21:11:04.186+09:00","updated":"2025-03-18T02:03:12.070+09:00"}
 ---
 
-현재 노트: [[Projects/Library/KR/P300/P310/KR-P-310 m\|KR-P-310 m]] 
+현재 노트: [[Projects/Library/KR/P300/P310/KR-P-310 m\|KR-P-310 m]] 25년 2월 2주차 코딩테스트 알고리즘 및 SQL공부
 상위 분류: [[Projects/Library/KR/P300/P310/KR-P-310\|KR-P-310]] 주간 회고
 
 #주간회고 

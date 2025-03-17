@@ -1,19 +1,9 @@
 ---
-{"dg-publish":true,"title":"25년 2월 4주차 취업 포트폴리오 탐색 및 계획","description":"주로 React와 HTML, JavaScript, CSS에 대한 구체적인 구현 역량을 요구하였기에 이를 수행할 프로젝트로 project-log로 선정하기로하였습니다.","permalink":"/projects/library/kr/p300/p310/kr-p-310-o/","dgPassFrontmatter":true,"noteIcon":"0","created":"2025-02-24T19:12:58.810+09:00","updated":"2025-03-04T15:23:45.395+09:00"}
+{"dg-publish":true,"title":"25년 2월 4주차 취업 포트폴리오 탐색 및 계획","description":"주로 React와 HTML, JavaScript, CSS에 대한 구체적인 구현 역량을 요구하였기에 이를 수행할 프로젝트로 project-log로 선정하기로하였습니다.","permalink":"/projects/library/kr/p300/p310/kr-p-310-o/","dgPassFrontmatter":true,"noteIcon":"0","created":"2025-02-24T19:12:58.810+09:00","updated":"2025-03-18T02:02:25.163+09:00"}
 ---
 
-현재 노트: [[Projects/Library/KR/P300/P310/KR-P-310 o\|KR-P-310 o]] 
-상위 분류: [[Projects/Library/KR/P300/P310/KR-P-310\|KR-P-310]] <pre class="dataview dataview-error">Evaluation Error: TypeError: Cannot read properties of undefined (reading 'title')
-    at eval (eval at &lt;anonymous&gt; (plugin:dataview), &lt;anonymous&gt;:1:59)
-    at DataviewInlineApi.eval (plugin:dataview:18885:16)
-    at evalInContext (plugin:dataview:18886:7)
-    at asyncEvalInContext (plugin:dataview:18896:32)
-    at DataviewJSRenderer.render (plugin:dataview:18922:19)
-    at DataviewJSRenderer.onload (plugin:dataview:18464:14)
-    at DataviewJSRenderer.load (app://obsidian.md/app.js:1:1214099)
-    at DataviewApi.executeJs (plugin:dataview:19465:18)
-    at eval (plugin:digitalgarden:10886:17)
-    at Generator.next (&lt;anonymous&gt;)</pre>
+현재 노트: [[Projects/Library/KR/P300/P310/KR-P-310 o\|KR-P-310 o]] 25년 2월 4주차 취업 포트폴리오 탐색 및 계획
+상위 분류: [[Projects/Library/KR/P300/P310/KR-P-310\|KR-P-310]] 주간 회고
 
 #주간회고 
 

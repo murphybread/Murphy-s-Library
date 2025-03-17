@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"title":"25년 1월 4주차 주간 회고 하던 일 마무리 하기","description":"25년 1월이 약 4주나 지났지만,목표로 했던 계획이 잘 안되고 할일을 쌓아두기만하며, 기존의 계획헀던 부분도 잘 수행하지 못함을 스스로 발견","permalink":"/projects/library/kr/p300/p310/kr-p-310-j/","dgPassFrontmatter":true,"noteIcon":"0","created":"2025-01-30T21:14:40.081+09:00","updated":"2025-01-30T21:21:35.717+09:00"}
+{"dg-publish":true,"title":"25년 1월 4주차 주간 회고 하던 일 마무리 하기","description":"25년 1월이 약 4주나 지났지만,목표로 했던 계획이 잘 안되고 할일을 쌓아두기만하며, 기존의 계획헀던 부분도 잘 수행하지 못함을 스스로 발견","permalink":"/projects/library/kr/p300/p310/kr-p-310-j/","dgPassFrontmatter":true,"noteIcon":"0","created":"2025-01-30T21:14:40.081+09:00","updated":"2025-03-18T02:04:30.893+09:00"}
 ---
 
-현재 노트: [[Projects/Library/KR/P300/P310/KR-P-310 j\|KR-P-310 j]] 
+현재 노트: [[Projects/Library/KR/P300/P310/KR-P-310 j\|KR-P-310 j]] 25년 1월 4주차 주간 회고 하던 일 마무리 하기
 상위 분류: [[Projects/Library/KR/P300/P310/KR-P-310\|KR-P-310]] 주간 회고
 
 #주간회고 

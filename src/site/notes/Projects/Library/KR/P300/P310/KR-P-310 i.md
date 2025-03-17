@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"title":"25년 1월 3주차 주간 회고 취업 준비하기","description":"살짝살짝 취업 을 위해 좀더 본격적인 내용을 준비하는 주였습니다.","permalink":"/projects/library/kr/p300/p310/kr-p-310-i/","dgPassFrontmatter":true,"noteIcon":"0","created":"2025-01-13T15:40:14.960+09:00","updated":"2025-01-20T17:39:38.021+09:00"}
+{"dg-publish":true,"title":"25년 1월 3주차 주간 회고 취업 준비하기","description":"살짝살짝 취업 을 위해 좀더 본격적인 내용을 준비하는 주였습니다.","permalink":"/projects/library/kr/p300/p310/kr-p-310-i/","dgPassFrontmatter":true,"noteIcon":"0","created":"2025-01-13T15:40:14.960+09:00","updated":"2025-03-18T02:04:24.692+09:00"}
 ---
 
-현재 노트: [[Projects/Library/KR/P300/P310/KR-P-310 i\|KR-P-310 i]] 
+현재 노트: [[Projects/Library/KR/P300/P310/KR-P-310 i\|KR-P-310 i]] 25년 1월 3주차 주간 회고 취업 준비하기
 상위 분류: [[Projects/Library/KR/P300/P310/KR-P-310\|KR-P-310]] 주간 회고
 
 #주간회고 

@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"title":"2024년 회고","description":"2024년 개발자로의 포지션 변경을 위한 퇴사, 계획했던 캠프의 탈락, 계획하지 않았던 곳에서의 배움 등 다사다난 했던 2024년을 정리해봅니다.","permalink":"/projects/library/kr/p300/p330/kr-p-330-b/","dgPassFrontmatter":true,"noteIcon":"0","created":"2025-01-13T13:05:45.507+09:00","updated":"2025-01-13T15:38:35.766+09:00"}
+{"dg-publish":true,"title":"2024년 회고","description":"2024년 개발자로의 포지션 변경을 위한 퇴사, 계획했던 캠프의 탈락, 계획하지 않았던 곳에서의 배움 등 다사다난 했던 2024년을 정리해봅니다.","permalink":"/projects/library/kr/p300/p330/kr-p-330-b/","dgPassFrontmatter":true,"noteIcon":"0","created":"2025-01-13T13:05:45.507+09:00","updated":"2025-03-18T02:03:47.954+09:00"}
 ---
 
-현재 노트: [[Projects/Library/KR/P300/P330/KR-P-330 b\|KR-P-330 b]] 
+현재 노트: [[Projects/Library/KR/P300/P330/KR-P-330 b\|KR-P-330 b]] 2024년 회고
 상위 분류: [[Projects/Library/KR/P300/P330/KR-P-330\|KR-P-330]] 연간 회고 
 
 #회고
