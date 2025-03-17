@@ -20,13 +20,13 @@ Email: nargene@gmail.com
 ---
 
 # Libray new books
-| POSTS                                            | Link                                                                                | Date     | Tags                                                       |
-| ------------------------------------------------ | ----------------------------------------------------------------------------------- | -------- | ---------------------------------------------------------- |
-| Light RAG Experiment Report                      | [[Projects/Library/EN/Light RAG Experiment Report\|Light RAG Experiment Report]] | 25-03-18 | <ul><li>#RAG</li><li>#LightRAG</li><li>#graphRAG</li></ul> |
-| 2025년 3월 2주차 회고 포트폴리오 컴포넌트 및 페이지 만들기 AI RAG 프로젝트 | [[Projects/Library/KR/P300/P310/KR-P-310 q\|KR-P-310 q]]                         | 25-03-17 | <ul><li>#주간</li></ul>                                      |
-| CSS의 단위  CSS at-rules 레이아웃 선택자와 속성               | [[Projects/Library/KR/000/010/010.10/KR-010.10 c\|KR-010.10 c]]                  | 25-03-17 | <ul><li>#CSS</li></ul>                                     |
-| gemini flash 2.0 으로 일관된 그림체의 캐릭터 그려보기            | [[Projects/Library/KR/P100/P120/KR-P-120 b\|KR-P-120 b]]                         | 25-03-17 | <ul><li>#geminai</li></ul>                                 |
-| Formal하게 용어를 쓰도록 노력해보면서 배우는 것들                   | [[Projects/Library/KR/400/410/410.10/KR-410.10 d\|KR-410.10 d]]                  | 25-03-17 | <ul><li>#개인학습과성장</li></ul>                                 |
+| POSTS                                                | Link                                                                                | Date     | Tags                                                       |
+| ---------------------------------------------------- | ----------------------------------------------------------------------------------- | -------- | ---------------------------------------------------------- |
+| 디스코드 베스트 포스트 추천 봇 만들기 3편 - 파일 읽기 쓰기와 디스코드 봇 커맨드 구현하기 | [[Projects/Library/KR/100/110/110.00/KR-110.00 c\|KR-110.00 c]]                  | 25-03-18 | <ul><li>#프로젝트경험</li><li>#개인프로젝트</li><li>#디스코드봇</li></ul>   |
+| Light RAG Experiment Report                          | [[Projects/Library/EN/Light RAG Experiment Report\|Light RAG Experiment Report]] | 25-03-18 | <ul><li>#RAG</li><li>#LightRAG</li><li>#graphRAG</li></ul> |
+| 2025년 3월 2주차 회고 포트폴리오 컴포넌트 및 페이지 만들기 AI RAG 프로젝트     | [[Projects/Library/KR/P300/P310/KR-P-310 q\|KR-P-310 q]]                         | 25-03-17 | <ul><li>#주간</li></ul>                                      |
+| CSS의 단위  CSS at-rules 레이아웃 선택자와 속성                   | [[Projects/Library/KR/000/010/010.10/KR-010.10 c\|KR-010.10 c]]                  | 25-03-17 | <ul><li>#CSS</li></ul>                                     |
+| gemini flash 2.0 으로 일관된 그림체의 캐릭터 그려보기                | [[Projects/Library/KR/P100/P120/KR-P-120 b\|KR-P-120 b]]                         | 25-03-17 | <ul><li>#geminai</li></ul>                                 |
 
 { .block-language-dataview}
 
