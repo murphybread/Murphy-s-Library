@@ -22,11 +22,11 @@ Email: nargene@gmail.com
 # Libray new books
 | POSTS                                                                | Link                                                               | Date     | Tags                                                |
 | -------------------------------------------------------------------- | ------------------------------------------------------------------ | -------- | --------------------------------------------------- |
+| 2024년 회고                                                             | [[Projects/Library/KR/P300/P330/KR-P-330 b\|KR-P-330 b]]        | 25-03-18 | <ul><li>#회고</li></ul>                               |
 | VSCode 브레이크 포인트를 활용한 디버깅                                             | [[Projects/Library/KR/000/010/010.00/KR-010.00 a\|KR-010.00 a]] | 25-03-18 | <ul><li>#Debugging</li></ul>                        |
 | 명언 내보내기 프로젝트 GitHub Pages 구현후 큰 문제로 플랫폼 변경하기                         | [[Projects/Library/KR/100/110/110.50/KR-110.50 a\|KR-110.50 a]] | 25-03-18 | <ul><li>#개인프로젝트</li></ul>                           |
 | Google Ananlytics를 이용하여 블로그 인기 글 모듈 만든 후 서비스하기                       | [[Projects/Library/KR/100/110/110.20/KR-110.20\|KR-110.20]]     | 25-03-18 | <ul><li>#개인프로젝트</li><li>#Google_Analytics</li></ul> |
 | Google Analytics API 구현 및 임베드 코드를 위한 Looker Studio사용과 UI를 위한 추가 업데이트 | [[Projects/Library/KR/100/110/110.20/KR-110.20 a\|KR-110.20 a]] | 25-03-18 | <ul><li>#Google_Analytics</li></ul>                 |
-| State 관리하기                                                           | [[Projects/Library/KR/000/010/010.20/KR-010.20 c\|KR-010.20 c]] | 25-03-18 | <ul><li>#React</li></ul>                            |
 
 { .block-language-dataview}
 
