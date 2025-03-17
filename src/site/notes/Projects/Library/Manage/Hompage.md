@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2025-03-13T17:24:25.481+09:00"}
+{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2025-03-17T19:30:43.114+09:00"}
 ---
 
 > **"짧은 글에 담긴 진솔한 고민, 10개의 아쉬운 글보다는 1개의 가치 있는 글 쓰기 지향"**
@@ -20,13 +20,13 @@ Email: nargene@gmail.com
 ---
 
 # Libray new books
-| POSTS                                                                                   | Link                                                                                                                                | Date     | Tags                                                                                                                                                                                                    |
-| --------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Building a Voice-Driven AI Assistant: Integrating ASR, TTS, LLM, RAG, and Text-to-Image | [[Projects/Library/EN/Create conversation AI with RAG and Voice integrate\|Create conversation AI with RAG and Voice integrate]] | 25-03-13 | <ul><li>#ASR</li><li>#TTS</li><li>#LLM</li><li>#RAG</li><li>#T2I</li><li>#STT</li><li>#Kokoro82m</li><li>#chagpt</li><li>#openai-realtimeAPI</li><li>#bge-m3</li><li>#qdrant</li><li>#ComfyUI</li></ul> |
-| CSS의 단위  CSS at-rules 레이아웃 선택자와 속성                                                      | [[Projects/Library/KR/000/010/010.10/KR-010.10 c\|KR-010.10 c]]                                                                  | 25-03-11 | <ul><li>#CSS</li></ul>                                                                                                                                                                                  |
-| 2025년 3월 1주차 회고 포트폴리오만들기 먼저 커스텀 UI 라이브러리 만들기                                            | [[Projects/Library/KR/P300/P310/KR-P-310 p\|KR-P-310 p]]                                                                         | 25-03-10 | <ul><li>#주간</li></ul>                                                                                                                                                                                   |
-| HTML 구현 기록 저장소                                                                          | [[Projects/Library/KR/000/010/010.10/KR-010.10 b\|KR-010.10 b]]                                                                  | 25-03-07 | <ul><li>#HTML</li></ul>                                                                                                                                                                                 |
-| styled-components를 지양하게 된 이유                                                            | [[Projects/Library/KR/000/010/010.10/KR-010.10 d\|KR-010.10 d]]                                                                  | 25-03-04 | <ul><li>#CSS</li><li>#styled_comonents</li><li>#stylelint</li></ul>                                                                                                                                     |
+| POSTS                                            | Link                                                               | Date     | Tags                       |
+| ------------------------------------------------ | ------------------------------------------------------------------ | -------- | -------------------------- |
+| 2025년 3월 2주차 회고 포트폴리오 컴포넌트 및 페이지 만들기 AI RAG 프로젝트 | [[Projects/Library/KR/P300/P310/KR-P-310 q\|KR-P-310 q]]        | 25-03-17 | <ul><li>#주간</li></ul>      |
+| CSS의 단위  CSS at-rules 레이아웃 선택자와 속성               | [[Projects/Library/KR/000/010/010.10/KR-010.10 c\|KR-010.10 c]] | 25-03-17 | <ul><li>#CSS</li></ul>     |
+| gemini flash 2.0 으로 일관된 그림체의 캐릭터 그려보기            | [[Projects/Library/KR/P100/P120/KR-P-120 b\|KR-P-120 b]]        | 25-03-17 | <ul><li>#geminai</li></ul> |
+| Formal하게 용어를 쓰도록 노력해보면서 배우는 것들                   | [[Projects/Library/KR/400/410/410.10/KR-410.10 d\|KR-410.10 d]] | 25-03-17 | <ul><li>#개인학습과성장</li></ul> |
+| HTML 구현 기록 저장소                                   | [[Projects/Library/KR/000/010/010.10/KR-010.10 b\|KR-010.10 b]] | 25-03-17 | <ul><li>#HTML</li></ul>    |
 
 { .block-language-dataview}
 
@@ -134,6 +134,7 @@ Email: nargene@gmail.com
     - [[Projects/Library/KR/P100/P110/KR-P-110 b\|KR-P-110 b]] 모바일웹, 웹앱, 하이브리드앱, 네이티브앱 정리
 - [[Projects/Library/KR/P100/P120/KR-P-120\|KR-P-120]] 취미
     - [[Projects/Library/KR/P100/P120/KR-P-120 a\|KR-P-120 a]] AI 노래: 오늘과 내일의 간격은 오늘과 어제만큼멀까
+    - [[Projects/Library/KR/P100/P120/KR-P-120 b\|KR-P-120 b]] gemini flash 2.0 으로 일관된 그림체의 캐릭터 그려보기
 
 [[Projects/Library/KR/P300/KR-P-300\|KR-P-300]] 회고
 - [[Projects/Library/KR/P300/P310/KR-P-310\|KR-P-310]] 주간 회고
@@ -153,6 +154,7 @@ Email: nargene@gmail.com
     - [[Projects/Library/KR/P300/P310/KR-P-310 n\|KR-P-310 n]] 25년 2월 3주차 코딩테스트 알고리즘 및 SQL 공부 수행
     - [[Projects/Library/KR/P300/P310/KR-P-310 o\|KR-P-310 o]] 25년 2월 4주차 취업 포트폴리오 탐색 및 계획
     - [[Projects/Library/KR/P300/P310/KR-P-310 p\|KR-P-310 p]] 2025년 3월 1주차 회고 포트폴리오만들기 먼저 커스텀 UI 라이브러리 만들기
+    - [[Projects/Library/KR/P300/P310/KR-P-310 q\|KR-P-310 q]] 2025년 3월 2주차 회고 포트폴리오 컴포넌트 및 페이지 만들기 AI RAG 프로젝트
 - [[Projects/Library/KR/P300/P330/KR-P-330\|KR-P-330]] 연간 회고
     - [[Projects/Library/KR/P300/P330/KR-P-330 a\|KR-P-330 a]] 2023년 회고
     - [[Projects/Library/KR/P300/P330/KR-P-330 b\|KR-P-330 b]] 2024년 회고
