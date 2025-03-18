@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"title":"25년 1월 5주차 회고 설날이라는 긴 휴일","description":"25년 1월 5주차의 경우 설날이다보니 쉬는 한주가 됐습니다. 1월달이 벌써 지나간 만큼 좀 더 가시적인 성과가 필요하지 않았나 반성해봅니다.","permalink":"/projects/library/kr/p300/p310/kr-p-310-k/","dgPassFrontmatter":true,"noteIcon":"0","created":"2025-01-31T16:35:24.761+09:00","updated":"2025-03-18T02:05:05.246+09:00"}
+{"dg-publish":true,"title":"25년 1월 5주차 회고 설날이라는 긴 휴일","description":"25년 1월 5주차의 경우 설날이다보니 쉬는 한주가 됐습니다. 1월달이 벌써 지나간 만큼 좀 더 가시적인 성과가 필요하지 않았나 반성해봅니다.","permalink":"/projects/library/kr/p300/p310/kr-p-310-k/","dgPassFrontmatter":true,"noteIcon":"0","created":"2025-01-31T16:35:24.761+09:00","updated":"2025-03-18T11:08:49.443+09:00"}
 ---
 
 현재 노트: [[Projects/Library/KR/P300/P310/KR-P-310 k\|KR-P-310 k]] 25년 1월 5주차 회고 설날이라는 긴 휴일

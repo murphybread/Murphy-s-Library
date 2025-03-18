@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"title":"25년 1월 1주차 주간 회고: 준비하지 못한 이번년도","description":"이번 년도를 어떻게 보낼지, 작년을 어떻게 보냈는지를 정리하는 1주가 됐었어야 했는데 제대로 수행을 못했습니다.","permalink":"/projects/library/kr/p300/p310/kr-p-310-g/","dgPassFrontmatter":true,"noteIcon":"0","created":"2025-01-01T22:43:09.017+09:00","updated":"2025-03-18T01:58:24.058+09:00"}
+{"dg-publish":true,"title":"25년 1월 1주차 주간 회고: 준비하지 못한 이번년도","description":"이번 년도를 어떻게 보낼지, 작년을 어떻게 보냈는지를 정리하는 1주가 됐었어야 했는데 제대로 수행을 못했습니다.","permalink":"/projects/library/kr/p300/p310/kr-p-310-g/","dgPassFrontmatter":true,"noteIcon":"0","created":"2025-01-01T22:43:09.017+09:00","updated":"2025-03-18T11:08:35.184+09:00"}
 ---
 
 현재 노트: [[Projects/Library/KR/P300/P310/KR-P-310 g\|KR-P-310 g]] 25년 1월 1주차 주간 회고: 준비하지 못한 이번년도

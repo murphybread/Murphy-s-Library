@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"title":"25년 2월 4주차 취업 포트폴리오 탐색 및 계획","description":"주로 React와 HTML, JavaScript, CSS에 대한 구체적인 구현 역량을 요구하였기에 이를 수행할 프로젝트로 project-log로 선정하기로하였습니다.","permalink":"/projects/library/kr/p300/p310/kr-p-310-o/","dgPassFrontmatter":true,"noteIcon":"0","created":"2025-02-24T19:12:58.810+09:00","updated":"2025-03-18T02:02:25.163+09:00"}
+{"dg-publish":true,"title":"25년 2월 4주차 취업 포트폴리오 탐색 및 계획","description":"주로 React와 HTML, JavaScript, CSS에 대한 구체적인 구현 역량을 요구하였기에 이를 수행할 프로젝트로 project-log로 선정하기로하였습니다.","permalink":"/projects/library/kr/p300/p310/kr-p-310-o/","dgPassFrontmatter":true,"noteIcon":"0","created":"2025-02-24T19:12:58.810+09:00","updated":"2025-03-18T11:09:04.635+09:00"}
 ---
 
 현재 노트: [[Projects/Library/KR/P300/P310/KR-P-310 o\|KR-P-310 o]] 25년 2월 4주차 취업 포트폴리오 탐색 및 계획

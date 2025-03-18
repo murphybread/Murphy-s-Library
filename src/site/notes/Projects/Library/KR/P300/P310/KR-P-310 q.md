@@ -1,11 +1,11 @@
 ---
-{"dg-publish":true,"title":"2025년 3월 2주차 회고 포트폴리오 컴포넌트 및 페이지 만들기 AI RAG 프로젝트","description":"이번 주는 눈에 띄말한 포트폴리오 진전이 있었고, RAG프로젝트를 수행했습니다.","permalink":"/projects/library/kr/p300/p310/kr-p-310-q/","dgPassFrontmatter":true,"noteIcon":"0","created":"2025-03-10T00:07:04.083+09:00","updated":"2025-03-18T01:59:14.699+09:00"}
+{"dg-publish":true,"title":"2025년 3월 2주차 회고 포트폴리오 컴포넌트 및 페이지 만들기 AI RAG 프로젝트","description":"이번 주는 눈에 띄말한 포트폴리오 진전이 있었고, RAG프로젝트를 수행했습니다.","permalink":"/projects/library/kr/p300/p310/kr-p-310-q/","dgPassFrontmatter":true,"noteIcon":"0","created":"2025-03-10T00:07:04.083+09:00","updated":"2025-03-18T11:09:16.416+09:00"}
 ---
 
 현재 노트: [[Projects/Library/KR/P300/P310/KR-P-310 q\|KR-P-310 q]] 2025년 3월 2주차 회고 포트폴리오 컴포넌트 및 페이지 만들기 AI RAG 프로젝트
 상위 분류: [[Projects/Library/KR/P300/P310/KR-P-310\|KR-P-310]] 주간 회고
 
-#주간 회고
+#주간_회고
 
  
  저번주 주 피드백

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/projects/library/manage/history-of-library/","dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-31T20:39:20.070+09:00","updated":"2024-11-21T15:10:45.706+09:00"}
+{"dg-publish":true,"permalink":"/projects/library/manage/history-of-library/","dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-31T20:39:20.070+09:00","updated":"2025-03-18T02:30:45.900+09:00"}
 ---
 
 #History #Versioning_Strategy 
@@ -72,7 +72,7 @@ LIMIT 5
 참고링크: https://www.reddit.com/r/ObsidianMD/comments/17jlhku/inline_dataview_query_to_display_list_of_tags/
 
 # 0.15.0-LB
-![[DALL·E 2024-06-20 00.22.00 - In front of a library, a person is bowing apologetically with a sign above them that says 'Under maintenance'. The person looks genuinely sorry, with .webp\|DALL·E 2024-06-20 00.22.00 - In front of a library, a person is bowing apologetically with a sign above them that says 'Under maintenance'. The person looks genuinely sorry, with .webp]]
+
 # I was testing a Python module that writes tags and ended up deleting all of my tags, so I took this opportunity to clean up my library categories.
 
 
@@ -467,29 +467,6 @@ So I modify this part. first get distinguish body. by the split function divide 
 
 ## **Template 1: For Content with a Source**
 
-<div class="transclusion internal-embed is-loaded"><div class="markdown-embed">
-
-
-
-
-현재 노트: [[<% tp.file.title %>\|<% tp.file.title %>]] 
-상위 분류: [[]] <pre class="dataview dataview-error">Evaluation Error: TypeError: Cannot read properties of undefined (reading 'title')
-    at eval (eval at &lt;anonymous&gt; (plugin:dataview), &lt;anonymous&gt;:1:59)
-    at DataviewInlineApi.eval (plugin:dataview:18885:16)
-    at evalInContext (plugin:dataview:18886:7)
-    at asyncEvalInContext (plugin:dataview:18896:32)
-    at DataviewJSRenderer.render (plugin:dataview:18922:19)
-    at DataviewJSRenderer.onload (plugin:dataview:18464:14)
-    at DataviewJSRenderer.load (app://obsidian.md/app.js:1:1214099)
-    at DataviewApi.executeJs (plugin:dataview:19465:18)
-    at eval (plugin:digitalgarden:10886:17)
-    at Generator.next (&lt;anonymous&gt;)</pre>
-
-#A
-
-</div></div>
-
-
 ## **Template 2: For Content without a Source**
 
 
@@ -521,7 +498,7 @@ This section summarizes the key findings and suggests next steps
 
 Structural management from one file  
   
-In the case of `![[note_name]]` in obisidian's markdown grammar, it is called Wikilink, which shows the contents of the linked note. In other words, the mirroring method makes the two structures managed by Homepage and call-number-index manage in one place  
+In the case of in obisidian's markdown grammar, it is called Wikilink, which shows the contents of the linked note. In other words, the mirroring method makes the two structures managed by Homepage and call-number-index manage in one place  
   
 The result is easy to implement and easy to manage afterwards
 
@@ -664,7 +641,10 @@ dg-publish: true
 ## Change the call number index structure and modify the convert file
 
 ### Problem
-`obisidian use ![[filename]] preview of note, but line break and indentation was wrong`
+```
+obisidian use ![[filename\|filename]] preview of note, but line break and indentation was wrong
+```
+
 
 Major category indent was wrong
 
@@ -1287,12 +1267,13 @@ duplicate_tag.py to automate it.
 ## Change the call number index structure and modify the convert file
 
 ### Problem
-`obisidian use ![[filename]] preview of note, but line break and indentation was wrong`
+{{CODE_BLOCK_12}}
+
 
 Major category indent was wrong
 
 As-is Used this structure pattern
-{{CODE_BLOCK_12}}
+{{CODE_BLOCK_13}}
 
 Major Category don't use hypen.
 That makes preview error indent and line break
@@ -1300,13 +1281,13 @@ That makes preview error indent and line break
 ### Solution
 
 ### First Change call number md file like this
-{{CODE_BLOCK_13}}
+{{CODE_BLOCK_14}}
 
 ### Second Change convert_josn.py 
 Important point is just change a little bit. Because I don't want to change output.json, filename, path etc...
 only consider point is major and minor category variable.
 
-{{CODE_BLOCK_14}}
+{{CODE_BLOCK_15}}
 
 
 # 0.1.1-PY
@@ -1319,9 +1300,9 @@ It is appropriate to manage .md files other than .py only using the Sync functio
 
 ## Solution
 1. Delete .md files from remove server (when command is worked not delete immedately. you shoud commit and push)
-{{CODE_BLOCK_15}}
-1. Register files with md extension (fileanme should be `.gitignore)
 {{CODE_BLOCK_16}}
+1. Register files with md extension (fileanme should be `.gitignore)
+{{CODE_BLOCK_17}}
 
 if command worked and file is created,
 next step is commit and push
@@ -1471,7 +1452,7 @@ the template file is note.njk file
 About Homepage is managed by index.njk
 
 
-{{CODE_BLOCK_17}}
+{{CODE_BLOCK_18}}
 ## Google Translation
 Implementing Google Translation
 Add script in position that after body's first 'end for'
@@ -1484,9 +1465,9 @@ Add a Border
 Change location
 
 ### Google Translation-CSS
-{{CODE_BLOCK_18}}
-### Google Translation-HTML
 {{CODE_BLOCK_19}}
+### Google Translation-HTML
+{{CODE_BLOCK_20}}
 
 # Hompage Custom
 ## code font and color change
@@ -1494,35 +1475,35 @@ just code element not working so , important used
 
 src/site/styles/custom-style.scss
 
-{{CODE_BLOCK_20}}
-
 {{CODE_BLOCK_21}}
+
+{{CODE_BLOCK_22}}
 
 
 Even I changed CSS, It's not applied. So i find the element and modify it.
 markdown-rendered img
 only works when using !important
 add new line after badge
-{{CODE_BLOCK_22}}
+{{CODE_BLOCK_23}}
 
 ## Change img soruce width and clear
 
 `p::before` and `clear`
-{{CODE_BLOCK_23}}
+{{CODE_BLOCK_24}}
 
 
 ## add pre code block style
-{{CODE_BLOCK_24}}
-
-## code and pre tags style by ai
 {{CODE_BLOCK_25}}
 
-before
+## code and pre tags style by ai
 {{CODE_BLOCK_26}}
+
+before
+{{CODE_BLOCK_27}}
 
 After
 white background web site, so black window
-{{CODE_BLOCK_27}}
+{{CODE_BLOCK_28}}
 
 
 ## modify js and apply css
@@ -1533,7 +1514,7 @@ before
 after
 `const STYLE_PATH = "src/site/styles/";`
 
-{{CODE_BLOCK_28}}
+{{CODE_BLOCK_29}}
 
 ## hr for new line
 In markdown `---` horizon line makes new line. In html to makes new line defualt.
@@ -1544,7 +1525,7 @@ So I just add it approximately 20px
 
 If you're unsure about which tags are affected by a specific tag, you can use a developer tool like F12 to check.
 
-{{CODE_BLOCK_29}}
+{{CODE_BLOCK_30}}
 
 
 # Python Files
@@ -1639,12 +1620,13 @@ duplicate_tag.py to automate it.
 ## Change the call number index structure and modify the convert file
 
 ### Problem
-`obisidian use ![[filename]] preview of note, but line break and indentation was wrong`
+{{CODE_BLOCK_12}}
+
 
 Major category indent was wrong
 
 As-is Used this structure pattern
-{{CODE_BLOCK_12}}
+{{CODE_BLOCK_13}}
 
 Major Category don't use hypen.
 That makes preview error indent and line break
@@ -1652,13 +1634,13 @@ That makes preview error indent and line break
 ### Solution
 
 ### First Change call number md file like this
-{{CODE_BLOCK_13}}
+{{CODE_BLOCK_14}}
 
 ### Second Change convert_josn.py 
 Important point is just change a little bit. Because I don't want to change output.json, filename, path etc...
 only consider point is major and minor category variable.
 
-{{CODE_BLOCK_14}}
+{{CODE_BLOCK_15}}
 
 
 # 0.1.1-PY
@@ -1671,9 +1653,9 @@ It is appropriate to manage .md files other than .py only using the Sync functio
 
 ## Solution
 1. Delete .md files from remove server (when command is worked not delete immedately. you shoud commit and push)
-{{CODE_BLOCK_15}}
-1. Register files with md extension (fileanme should be `.gitignore)
 {{CODE_BLOCK_16}}
+1. Register files with md extension (fileanme should be `.gitignore)
+{{CODE_BLOCK_17}}
 
 if command worked and file is created,
 next step is commit and push
@@ -1823,7 +1805,7 @@ the template file is note.njk file
 About Homepage is managed by index.njk
 
 
-{{CODE_BLOCK_17}}
+{{CODE_BLOCK_18}}
 ## Google Translation
 Implementing Google Translation
 Add script in position that after body's first 'end for'
@@ -1836,9 +1818,9 @@ Add a Border
 Change location
 
 ### Google Translation-CSS
-{{CODE_BLOCK_18}}
-### Google Translation-HTML
 {{CODE_BLOCK_19}}
+### Google Translation-HTML
+{{CODE_BLOCK_20}}
 
 # Hompage Custom
 ## code font and color change
@@ -1846,35 +1828,35 @@ just code element not working so , important used
 
 src/site/styles/custom-style.scss
 
-{{CODE_BLOCK_20}}
-
 {{CODE_BLOCK_21}}
+
+{{CODE_BLOCK_22}}
 
 
 Even I changed CSS, It's not applied. So i find the element and modify it.
 markdown-rendered img
 only works when using !important
 add new line after badge
-{{CODE_BLOCK_22}}
+{{CODE_BLOCK_23}}
 
 ## Change img soruce width and clear
 
 `p::before` and `clear`
-{{CODE_BLOCK_23}}
+{{CODE_BLOCK_24}}
 
 
 ## add pre code block style
-{{CODE_BLOCK_24}}
-
-## code and pre tags style by ai
 {{CODE_BLOCK_25}}
 
-before
+## code and pre tags style by ai
 {{CODE_BLOCK_26}}
+
+before
+{{CODE_BLOCK_27}}
 
 After
 white background web site, so black window
-{{CODE_BLOCK_27}}
+{{CODE_BLOCK_28}}
 
 
 ## modify js and apply css
@@ -1885,7 +1867,7 @@ before
 after
 `const STYLE_PATH = "src/site/styles/";`
 
-{{CODE_BLOCK_28}}
+{{CODE_BLOCK_29}}
 
 ## hr for new line
 In markdown `---` horizon line makes new line. In html to makes new line defualt.
@@ -1896,7 +1878,7 @@ So I just add it approximately 20px
 
 If you're unsure about which tags are affected by a specific tag, you can use a developer tool like F12 to check.
 
-{{CODE_BLOCK_29}}
+{{CODE_BLOCK_30}}
 
 
 # Python Files
@@ -1991,12 +1973,13 @@ duplicate_tag.py to automate it.
 ## Change the call number index structure and modify the convert file
 
 ### Problem
-`obisidian use ![[filename]] preview of note, but line break and indentation was wrong`
+{{CODE_BLOCK_12}}
+
 
 Major category indent was wrong
 
 As-is Used this structure pattern
-{{CODE_BLOCK_12}}
+{{CODE_BLOCK_13}}
 
 Major Category don't use hypen.
 That makes preview error indent and line break
@@ -2004,13 +1987,13 @@ That makes preview error indent and line break
 ### Solution
 
 ### First Change call number md file like this
-{{CODE_BLOCK_13}}
+{{CODE_BLOCK_14}}
 
 ### Second Change convert_josn.py 
 Important point is just change a little bit. Because I don't want to change output.json, filename, path etc...
 only consider point is major and minor category variable.
 
-{{CODE_BLOCK_14}}
+{{CODE_BLOCK_15}}
 
 
 # 0.1.1-PY
@@ -2023,9 +2006,9 @@ It is appropriate to manage .md files other than .py only using the Sync functio
 
 ## Solution
 1. Delete .md files from remove server (when command is worked not delete immedately. you shoud commit and push)
-{{CODE_BLOCK_15}}
-1. Register files with md extension (fileanme should be `.gitignore)
 {{CODE_BLOCK_16}}
+1. Register files with md extension (fileanme should be `.gitignore)
+{{CODE_BLOCK_17}}
 
 if command worked and file is created,
 next step is commit and push
@@ -2175,7 +2158,7 @@ the template file is note.njk file
 About Homepage is managed by index.njk
 
 
-{{CODE_BLOCK_17}}
+{{CODE_BLOCK_18}}
 ## Google Translation
 Implementing Google Translation
 Add script in position that after body's first 'end for'
@@ -2188,9 +2171,9 @@ Add a Border
 Change location
 
 ### Google Translation-CSS
-{{CODE_BLOCK_18}}
-### Google Translation-HTML
 {{CODE_BLOCK_19}}
+### Google Translation-HTML
+{{CODE_BLOCK_20}}
 
 # Hompage Custom
 ## code font and color change
@@ -2198,35 +2181,35 @@ just code element not working so , important used
 
 src/site/styles/custom-style.scss
 
-{{CODE_BLOCK_20}}
-
 {{CODE_BLOCK_21}}
+
+{{CODE_BLOCK_22}}
 
 
 Even I changed CSS, It's not applied. So i find the element and modify it.
 markdown-rendered img
 only works when using !important
 add new line after badge
-{{CODE_BLOCK_22}}
+{{CODE_BLOCK_23}}
 
 ## Change img soruce width and clear
 
 `p::before` and `clear`
-{{CODE_BLOCK_23}}
+{{CODE_BLOCK_24}}
 
 
 ## add pre code block style
-{{CODE_BLOCK_24}}
-
-## code and pre tags style by ai
 {{CODE_BLOCK_25}}
 
-before
+## code and pre tags style by ai
 {{CODE_BLOCK_26}}
+
+before
+{{CODE_BLOCK_27}}
 
 After
 white background web site, so black window
-{{CODE_BLOCK_27}}
+{{CODE_BLOCK_28}}
 
 
 ## modify js and apply css
@@ -2237,7 +2220,7 @@ before
 after
 `const STYLE_PATH = "src/site/styles/";`
 
-{{CODE_BLOCK_28}}
+{{CODE_BLOCK_29}}
 
 ## hr for new line
 In markdown `---` horizon line makes new line. In html to makes new line defualt.
@@ -2248,7 +2231,7 @@ So I just add it approximately 20px
 
 If you're unsure about which tags are affected by a specific tag, you can use a developer tool like F12 to check.
 
-{{CODE_BLOCK_29}}
+{{CODE_BLOCK_30}}
 
 
 # Python Files
@@ -2343,12 +2326,13 @@ duplicate_tag.py to automate it.
 ## Change the call number index structure and modify the convert file
 
 ### Problem
-`obisidian use ![[filename]] preview of note, but line break and indentation was wrong`
+{{CODE_BLOCK_12}}
+
 
 Major category indent was wrong
 
 As-is Used this structure pattern
-{{CODE_BLOCK_12}}
+{{CODE_BLOCK_13}}
 
 Major Category don't use hypen.
 That makes preview error indent and line break
@@ -2356,13 +2340,13 @@ That makes preview error indent and line break
 ### Solution
 
 ### First Change call number md file like this
-{{CODE_BLOCK_13}}
+{{CODE_BLOCK_14}}
 
 ### Second Change convert_josn.py 
 Important point is just change a little bit. Because I don't want to change output.json, filename, path etc...
 only consider point is major and minor category variable.
 
-{{CODE_BLOCK_14}}
+{{CODE_BLOCK_15}}
 
 
 # 0.1.1-PY
@@ -2375,9 +2359,9 @@ It is appropriate to manage .md files other than .py only using the Sync functio
 
 ## Solution
 1. Delete .md files from remove server (when command is worked not delete immedately. you shoud commit and push)
-{{CODE_BLOCK_15}}
-1. Register files with md extension (fileanme should be `.gitignore)
 {{CODE_BLOCK_16}}
+1. Register files with md extension (fileanme should be `.gitignore)
+{{CODE_BLOCK_17}}
 
 if command worked and file is created,
 next step is commit and push
@@ -2527,7 +2511,7 @@ the template file is note.njk file
 About Homepage is managed by index.njk
 
 
-{{CODE_BLOCK_17}}
+{{CODE_BLOCK_18}}
 ## Google Translation
 Implementing Google Translation
 Add script in position that after body's first 'end for'
@@ -2540,9 +2524,9 @@ Add a Border
 Change location
 
 ### Google Translation-CSS
-{{CODE_BLOCK_18}}
-### Google Translation-HTML
 {{CODE_BLOCK_19}}
+### Google Translation-HTML
+{{CODE_BLOCK_20}}
 
 # Hompage Custom
 ## code font and color change
@@ -2550,35 +2534,35 @@ just code element not working so , important used
 
 src/site/styles/custom-style.scss
 
-{{CODE_BLOCK_20}}
-
 {{CODE_BLOCK_21}}
+
+{{CODE_BLOCK_22}}
 
 
 Even I changed CSS, It's not applied. So i find the element and modify it.
 markdown-rendered img
 only works when using !important
 add new line after badge
-{{CODE_BLOCK_22}}
+{{CODE_BLOCK_23}}
 
 ## Change img soruce width and clear
 
 `p::before` and `clear`
-{{CODE_BLOCK_23}}
+{{CODE_BLOCK_24}}
 
 
 ## add pre code block style
-{{CODE_BLOCK_24}}
-
-## code and pre tags style by ai
 {{CODE_BLOCK_25}}
 
-before
+## code and pre tags style by ai
 {{CODE_BLOCK_26}}
+
+before
+{{CODE_BLOCK_27}}
 
 After
 white background web site, so black window
-{{CODE_BLOCK_27}}
+{{CODE_BLOCK_28}}
 
 
 ## modify js and apply css
@@ -2589,7 +2573,7 @@ before
 after
 `const STYLE_PATH = "src/site/styles/";`
 
-{{CODE_BLOCK_28}}
+{{CODE_BLOCK_29}}
 
 ## hr for new line
 In markdown `---` horizon line makes new line. In html to makes new line defualt.
@@ -2600,7 +2584,7 @@ So I just add it approximately 20px
 
 If you're unsure about which tags are affected by a specific tag, you can use a developer tool like F12 to check.
 
-{{CODE_BLOCK_29}}
+{{CODE_BLOCK_30}}
 
 
 # Python Files

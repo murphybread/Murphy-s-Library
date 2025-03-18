@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2025-03-17T21:54:32.546+09:00"}
+{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2025-03-17T19:30:43.114+09:00"}
 ---
 
 > **"짧은 글에 담긴 진솔한 고민, 10개의 아쉬운 글보다는 1개의 가치 있는 글 쓰기 지향"**
@@ -20,13 +20,13 @@ Email: nargene@gmail.com
 ---
 
 # Libray new books
-| POSTS                                                                | Link                                                               | Date     | Tags                                                |
-| -------------------------------------------------------------------- | ------------------------------------------------------------------ | -------- | --------------------------------------------------- |
-| 2024년 회고                                                             | [[Projects/Library/KR/P300/P330/KR-P-330 b\|KR-P-330 b]]        | 25-03-18 | <ul><li>#회고</li></ul>                               |
-| VSCode 브레이크 포인트를 활용한 디버깅                                             | [[Projects/Library/KR/000/010/010.00/KR-010.00 a\|KR-010.00 a]] | 25-03-18 | <ul><li>#Debugging</li></ul>                        |
-| 명언 내보내기 프로젝트 GitHub Pages 구현후 큰 문제로 플랫폼 변경하기                         | [[Projects/Library/KR/100/110/110.50/KR-110.50 a\|KR-110.50 a]] | 25-03-18 | <ul><li>#개인프로젝트</li></ul>                           |
-| Google Ananlytics를 이용하여 블로그 인기 글 모듈 만든 후 서비스하기                       | [[Projects/Library/KR/100/110/110.20/KR-110.20\|KR-110.20]]     | 25-03-18 | <ul><li>#개인프로젝트</li><li>#Google_Analytics</li></ul> |
-| Google Analytics API 구현 및 임베드 코드를 위한 Looker Studio사용과 UI를 위한 추가 업데이트 | [[Projects/Library/KR/100/110/110.20/KR-110.20 a\|KR-110.20 a]] | 25-03-18 | <ul><li>#Google_Analytics</li></ul>                 |
+| POSTS                                            | Link                                                        | Date     | Tags                     |
+| ------------------------------------------------ | ----------------------------------------------------------- | -------- | ------------------------ |
+| 2025년 3월 2주차 회고 포트폴리오 컴포넌트 및 페이지 만들기 AI RAG 프로젝트 | [[Projects/Library/KR/P300/P310/KR-P-310 q\|KR-P-310 q]] | 25-03-18 | <ul><li>#주간_회고</li></ul> |
+| 2025년 3월 1주차 회고 포트폴리오만들기 먼저 커스텀 UI 라이브러리 만들기     | [[Projects/Library/KR/P300/P310/KR-P-310 p\|KR-P-310 p]] | 25-03-18 | <ul><li>#주간</li></ul>    |
+| 25년 2월 4주차 취업 포트폴리오 탐색 및 계획                      | [[Projects/Library/KR/P300/P310/KR-P-310 o\|KR-P-310 o]] | 25-03-18 | <ul><li>#주간회고</li></ul>  |
+| 25년 2월 3주차 코딩테스트 알고리즘 및   SQL 공부 수행              | [[Projects/Library/KR/P300/P310/KR-P-310 n\|KR-P-310 n]] | 25-03-18 | <ul><li>#주간회고</li></ul>  |
+| 25년 2월 2주차 코딩테스트 알고리즘 및 SQL공부                    | [[Projects/Library/KR/P300/P310/KR-P-310 m\|KR-P-310 m]] | 25-03-18 | <ul><li>#주간회고</li></ul>  |
 
 { .block-language-dataview}
 

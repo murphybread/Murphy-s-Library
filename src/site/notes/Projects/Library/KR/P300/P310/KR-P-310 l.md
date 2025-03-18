@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"title":"25년 2월 1주차 회고 코딩테스트 공부 및 서류준비","description":null,"permalink":"/projects/library/kr/p300/p310/kr-p-310-l/","dgPassFrontmatter":true,"noteIcon":"0","created":"2025-02-14T21:11:04.038+09:00","updated":"2025-03-18T02:04:36.490+09:00"}
+{"dg-publish":true,"title":"25년 2월 1주차 회고 코딩테스트 공부 및 서류준비","description":null,"permalink":"/projects/library/kr/p300/p310/kr-p-310-l/","dgPassFrontmatter":true,"noteIcon":"0","created":"2025-02-14T18:12:49.251+09:00","updated":"2025-03-18T11:08:53.530+09:00"}
 ---
 
 현재 노트: [[Projects/Library/KR/P300/P310/KR-P-310 l\|KR-P-310 l]] 25년 2월 1주차 회고 코딩테스트 공부 및 서류준비

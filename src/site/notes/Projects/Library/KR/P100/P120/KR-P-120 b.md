@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"title":"gemini flash 2.0 으로 일관된 그림체의 캐릭터 그려보기","description":"이미지-텍스트 모달리티를 가진  LLM을 통해 inpaint 적인 내용과 consistent 적인 내용을 테스트해봅니다.","permalink":"/projects/library/kr/p100/p120/kr-p-120-b/","dgPassFrontmatter":true,"noteIcon":"0","created":"2025-01-31T15:40:27.903+09:00","updated":"2025-03-18T01:59:27.464+09:00"}
+{"dg-publish":true,"title":"gemini flash 2.0 으로 일관된 그림체의 캐릭터 그려보기","description":"이미지-텍스트 모달리티를 가진  LLM을 통해 inpaint 적인 내용과 consistent 적인 내용을 테스트해봅니다.","permalink":"/projects/library/kr/p100/p120/kr-p-120-b/","dgPassFrontmatter":true,"noteIcon":"0","created":"2025-01-31T15:40:27.903+09:00","updated":"2025-03-18T11:08:17.288+09:00"}
 ---
 
 현재 노트: [[Projects/Library/KR/P100/P120/KR-P-120 b\|KR-P-120 b]] gemini flash 2.0 으로 일관된 그림체의 캐릭터 그려보기

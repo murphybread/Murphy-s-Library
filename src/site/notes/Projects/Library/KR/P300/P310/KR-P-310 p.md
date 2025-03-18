@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"title":"2025년 3월 1주차 회고 포트폴리오만들기 먼저 커스텀 UI 라이브러리 만들기","description":"이번주는 포트폴리오 목적을 상기시키고 자체 UI라이브러리를 만들었던 한 주였습니다. 직접 Material UI를 사용하면서 느꼈던 아쉬운점으로 결국 직접 만드는게 좋겠다고 판단하였습니다.","permalink":"/projects/library/kr/p300/p310/kr-p-310-p/","dgPassFrontmatter":true,"noteIcon":"0","created":"2025-03-04T14:09:51.539+09:00","updated":"2025-03-18T02:01:14.930+09:00"}
+{"dg-publish":true,"title":"2025년 3월 1주차 회고 포트폴리오만들기 먼저 커스텀 UI 라이브러리 만들기","description":"이번주는 포트폴리오 목적을 상기시키고 자체 UI라이브러리를 만들었던 한 주였습니다. 직접 Material UI를 사용하면서 느꼈던 아쉬운점으로 결국 직접 만드는게 좋겠다고 판단하였습니다.","permalink":"/projects/library/kr/p300/p310/kr-p-310-p/","dgPassFrontmatter":true,"noteIcon":"0","created":"2025-03-04T14:09:51.539+09:00","updated":"2025-03-18T11:09:08.725+09:00"}
 ---
 
 현재 노트: [[Projects/Library/KR/P300/P310/KR-P-310 p\|KR-P-310 p]] 2025년 3월 1주차 회고 포트폴리오만들기 먼저 커스텀 UI 라이브러리 만들기
