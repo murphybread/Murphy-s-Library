@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/projects/library/manage/history-of-library/","dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-31T20:39:20.070+09:00","updated":"2025-03-18T02:30:45.900+09:00"}
+{"dg-publish":true,"permalink":"/projects/library/manage/history-of-library/","dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-31T20:39:20.070+09:00","updated":"2025-03-18T14:58:14.273+09:00"}
 ---
 
 #History #Versioning_Strategy 
@@ -50,14 +50,16 @@ LIMIT 5
 
 
 `TABLE file.tags AS Tags -> TABLE join(file.tags, ", ") AS Tags`
-
-```dataview-script
-TABLE join(file.tags, ", ") AS Tags
-FROM "Projects/Library"
-WHERE dg-publish = true
-SORT file.mtime DESC
-LIMIT 5
 ```
+	```dataview-script
+	TABLE join(file.tags, ", ") AS Tags
+	FROM "Projects/Library"
+	WHERE dg-publish = true
+	SORT file.mtime DESC
+	LIMIT 5
+	```
+```
+
 
 
 변경 전
@@ -551,16 +553,16 @@ Understanding data structures and creating variables with JSON enables this recu
     
     if major_code:
         major_info = json_structure.get("MajorCategories", {}).get(major_code, {})
-        tag += f"#[[{major_code}\|{major_code}]]#{major_info.get('title', '').replace(' ', '_')}"
+        tag += f"#[[{major_code}]]#{major_info.get('title', '').replace(' ', '_')}"
     if minor_code:
         minor_info = major_info.get("MinorCategories", {}).get(minor_code, {})
-        tag += f"#[[{minor_code}\|{minor_code}]]#{minor_info.get('title', '').replace(' ', '_')}"
+        tag += f"#[[{minor_code}]]#{minor_info.get('title', '').replace(' ', '_')}"
     if sub_code:
         sub_info = minor_info.get("Subcategories", {}).get(f"{minor_code}.{sub_code}", {})
-        tag += f"#[[{minor_code}.{sub_code}\|{minor_code}.{sub_code}]]#{sub_info.get('title', '').replace(' ', '_')}"
+        tag += f"#[[{minor_code}.{sub_code}]]#{sub_info.get('title', '').replace(' ', '_')}"
     if book_code:
         book_info = sub_info.get("Books", {}).get(f"{minor_code}.{sub_code} {book_code}", "")
-        tag += f"#[[{minor_code}.{sub_code} {book_code}\|{minor_code}.{sub_code} {book_code}]]#{book_info.replace(' ', '_')}"
+        tag += f"#[[{minor_code}.{sub_code} {book_code}]]#{book_info.replace(' ', '_')}"
     
     
     print(major_code, minor_code , sub_code, book_code)
@@ -642,7 +644,7 @@ dg-publish: true
 
 ### Problem
 ```
-obisidian use ![[filename\|filename]] preview of note, but line break and indentation was wrong
+obisidian use ![[filename]] preview of note, but line break and indentation was wrong
 ```
 
 
@@ -650,12 +652,12 @@ Major category indent was wrong
 
 As-is Used this structure pattern
 ```
-[[000\|000]] IT Knowledge
-- [[010\|010]] Develop Knowledge
-	- [[010.00\|010.00]] Develop Computer Science Knowledge
-		- [[010.00 a\|010.00 a]] Essential Developer Insights
-	- [[010.10\|010.10]] Develop Programming Language
-		- [[010.10 a\|010.10 a]] Bash shell
+[[000]] IT Knowledge
+- [[010]] Develop Knowledge
+	- [[010.00]] Develop Computer Science Knowledge
+		- [[010.00 a]] Essential Developer Insights
+	- [[010.10]] Develop Programming Language
+		- [[010.10 a]] Bash shell
 
 ```
 
@@ -666,12 +668,12 @@ That makes preview error indent and line break
 
 ### First Change call number md file like this
 ```
-- [[000\|000]] IT Knowledge
-	- [[010\|010]] Develop Knowledge
-		- [[010.00\|010.00]] Develop Computer Science Knowledge
-			- [[010.00 a\|010.00 a]] Essential Developer Insights
-		- [[010.10\|010.10]] Develop Programming Language
-			- [[010.10 a\|010.10 a]] Bash shell
+- [[000]] IT Knowledge
+	- [[010]] Develop Knowledge
+		- [[010.00]] Develop Computer Science Knowledge
+			- [[010.00 a]] Essential Developer Insights
+		- [[010.10]] Develop Programming Language
+			- [[010.10 a]] Bash shell
 ```
 
 ### Second Change convert_josn.py 
@@ -1203,12 +1205,12 @@ Think about data
 when not major, convert major
 when sub or book, consider position of function argument
 
-{{CODE_BLOCK_8}}
+{{CODE_BLOCK_9}}
 
 ### Making tag
 If you know how to use get for recursive contents in JSON, function become very easy
 Understanding data structures and creating variables with JSON enables this recursive structure
-{{CODE_BLOCK_9}}
+{{CODE_BLOCK_10}}
 
 
 #  0.2.3-OB
@@ -1252,7 +1254,7 @@ There are some things that work and some things that don't, and in particular, t
 
 If the tag of the note that doesn't work is separated by a line like this, it is judged as a problem.
 problem form
-{{CODE_BLOCK_10}}
+{{CODE_BLOCK_11}}
 
 
 ### Solution.
@@ -1260,20 +1262,20 @@ Tested some notes by moving the tags as follows and confirmed normal operation.
 Then I added a function called `update_content_and_position` in the python file.
 duplicate_tag.py to automate it.
 
-{{CODE_BLOCK_11}}
+{{CODE_BLOCK_12}}
 
 # 0.2.0-PY
 
 ## Change the call number index structure and modify the convert file
 
 ### Problem
-{{CODE_BLOCK_12}}
+{{CODE_BLOCK_13}}
 
 
 Major category indent was wrong
 
 As-is Used this structure pattern
-{{CODE_BLOCK_13}}
+{{CODE_BLOCK_14}}
 
 Major Category don't use hypen.
 That makes preview error indent and line break
@@ -1281,13 +1283,13 @@ That makes preview error indent and line break
 ### Solution
 
 ### First Change call number md file like this
-{{CODE_BLOCK_14}}
+{{CODE_BLOCK_15}}
 
 ### Second Change convert_josn.py 
 Important point is just change a little bit. Because I don't want to change output.json, filename, path etc...
 only consider point is major and minor category variable.
 
-{{CODE_BLOCK_15}}
+{{CODE_BLOCK_16}}
 
 
 # 0.1.1-PY
@@ -1300,9 +1302,9 @@ It is appropriate to manage .md files other than .py only using the Sync functio
 
 ## Solution
 1. Delete .md files from remove server (when command is worked not delete immedately. you shoud commit and push)
-{{CODE_BLOCK_16}}
-1. Register files with md extension (fileanme should be `.gitignore)
 {{CODE_BLOCK_17}}
+1. Register files with md extension (fileanme should be `.gitignore)
+{{CODE_BLOCK_18}}
 
 if command worked and file is created,
 next step is commit and push
@@ -1452,7 +1454,7 @@ the template file is note.njk file
 About Homepage is managed by index.njk
 
 
-{{CODE_BLOCK_18}}
+{{CODE_BLOCK_19}}
 ## Google Translation
 Implementing Google Translation
 Add script in position that after body's first 'end for'
@@ -1465,9 +1467,9 @@ Add a Border
 Change location
 
 ### Google Translation-CSS
-{{CODE_BLOCK_19}}
-### Google Translation-HTML
 {{CODE_BLOCK_20}}
+### Google Translation-HTML
+{{CODE_BLOCK_21}}
 
 # Hompage Custom
 ## code font and color change
@@ -1475,35 +1477,35 @@ just code element not working so , important used
 
 src/site/styles/custom-style.scss
 
-{{CODE_BLOCK_21}}
-
 {{CODE_BLOCK_22}}
+
+{{CODE_BLOCK_23}}
 
 
 Even I changed CSS, It's not applied. So i find the element and modify it.
 markdown-rendered img
 only works when using !important
 add new line after badge
-{{CODE_BLOCK_23}}
+{{CODE_BLOCK_24}}
 
 ## Change img soruce width and clear
 
 `p::before` and `clear`
-{{CODE_BLOCK_24}}
+{{CODE_BLOCK_25}}
 
 
 ## add pre code block style
-{{CODE_BLOCK_25}}
-
-## code and pre tags style by ai
 {{CODE_BLOCK_26}}
 
-before
+## code and pre tags style by ai
 {{CODE_BLOCK_27}}
+
+before
+{{CODE_BLOCK_28}}
 
 After
 white background web site, so black window
-{{CODE_BLOCK_28}}
+{{CODE_BLOCK_29}}
 
 
 ## modify js and apply css
@@ -1514,7 +1516,7 @@ before
 after
 `const STYLE_PATH = "src/site/styles/";`
 
-{{CODE_BLOCK_29}}
+{{CODE_BLOCK_30}}
 
 ## hr for new line
 In markdown `---` horizon line makes new line. In html to makes new line defualt.
@@ -1525,7 +1527,7 @@ So I just add it approximately 20px
 
 If you're unsure about which tags are affected by a specific tag, you can use a developer tool like F12 to check.
 
-{{CODE_BLOCK_30}}
+{{CODE_BLOCK_31}}
 
 
 # Python Files
@@ -1556,12 +1558,12 @@ Think about data
 when not major, convert major
 when sub or book, consider position of function argument
 
-{{CODE_BLOCK_8}}
+{{CODE_BLOCK_9}}
 
 ### Making tag
 If you know how to use get for recursive contents in JSON, function become very easy
 Understanding data structures and creating variables with JSON enables this recursive structure
-{{CODE_BLOCK_9}}
+{{CODE_BLOCK_10}}
 
 
 #  0.2.3-OB
@@ -1605,7 +1607,7 @@ There are some things that work and some things that don't, and in particular, t
 
 If the tag of the note that doesn't work is separated by a line like this, it is judged as a problem.
 problem form
-{{CODE_BLOCK_10}}
+{{CODE_BLOCK_11}}
 
 
 ### Solution.
@@ -1613,20 +1615,20 @@ Tested some notes by moving the tags as follows and confirmed normal operation.
 Then I added a function called `update_content_and_position` in the python file.
 duplicate_tag.py to automate it.
 
-{{CODE_BLOCK_11}}
+{{CODE_BLOCK_12}}
 
 # 0.2.0-PY
 
 ## Change the call number index structure and modify the convert file
 
 ### Problem
-{{CODE_BLOCK_12}}
+{{CODE_BLOCK_13}}
 
 
 Major category indent was wrong
 
 As-is Used this structure pattern
-{{CODE_BLOCK_13}}
+{{CODE_BLOCK_14}}
 
 Major Category don't use hypen.
 That makes preview error indent and line break
@@ -1634,13 +1636,13 @@ That makes preview error indent and line break
 ### Solution
 
 ### First Change call number md file like this
-{{CODE_BLOCK_14}}
+{{CODE_BLOCK_15}}
 
 ### Second Change convert_josn.py 
 Important point is just change a little bit. Because I don't want to change output.json, filename, path etc...
 only consider point is major and minor category variable.
 
-{{CODE_BLOCK_15}}
+{{CODE_BLOCK_16}}
 
 
 # 0.1.1-PY
@@ -1653,9 +1655,9 @@ It is appropriate to manage .md files other than .py only using the Sync functio
 
 ## Solution
 1. Delete .md files from remove server (when command is worked not delete immedately. you shoud commit and push)
-{{CODE_BLOCK_16}}
-1. Register files with md extension (fileanme should be `.gitignore)
 {{CODE_BLOCK_17}}
+1. Register files with md extension (fileanme should be `.gitignore)
+{{CODE_BLOCK_18}}
 
 if command worked and file is created,
 next step is commit and push
@@ -1805,7 +1807,7 @@ the template file is note.njk file
 About Homepage is managed by index.njk
 
 
-{{CODE_BLOCK_18}}
+{{CODE_BLOCK_19}}
 ## Google Translation
 Implementing Google Translation
 Add script in position that after body's first 'end for'
@@ -1818,9 +1820,9 @@ Add a Border
 Change location
 
 ### Google Translation-CSS
-{{CODE_BLOCK_19}}
-### Google Translation-HTML
 {{CODE_BLOCK_20}}
+### Google Translation-HTML
+{{CODE_BLOCK_21}}
 
 # Hompage Custom
 ## code font and color change
@@ -1828,35 +1830,35 @@ just code element not working so , important used
 
 src/site/styles/custom-style.scss
 
-{{CODE_BLOCK_21}}
-
 {{CODE_BLOCK_22}}
+
+{{CODE_BLOCK_23}}
 
 
 Even I changed CSS, It's not applied. So i find the element and modify it.
 markdown-rendered img
 only works when using !important
 add new line after badge
-{{CODE_BLOCK_23}}
+{{CODE_BLOCK_24}}
 
 ## Change img soruce width and clear
 
 `p::before` and `clear`
-{{CODE_BLOCK_24}}
+{{CODE_BLOCK_25}}
 
 
 ## add pre code block style
-{{CODE_BLOCK_25}}
-
-## code and pre tags style by ai
 {{CODE_BLOCK_26}}
 
-before
+## code and pre tags style by ai
 {{CODE_BLOCK_27}}
+
+before
+{{CODE_BLOCK_28}}
 
 After
 white background web site, so black window
-{{CODE_BLOCK_28}}
+{{CODE_BLOCK_29}}
 
 
 ## modify js and apply css
@@ -1867,7 +1869,7 @@ before
 after
 `const STYLE_PATH = "src/site/styles/";`
 
-{{CODE_BLOCK_29}}
+{{CODE_BLOCK_30}}
 
 ## hr for new line
 In markdown `---` horizon line makes new line. In html to makes new line defualt.
@@ -1878,7 +1880,7 @@ So I just add it approximately 20px
 
 If you're unsure about which tags are affected by a specific tag, you can use a developer tool like F12 to check.
 
-{{CODE_BLOCK_30}}
+{{CODE_BLOCK_31}}
 
 
 # Python Files
@@ -1909,12 +1911,12 @@ Think about data
 when not major, convert major
 when sub or book, consider position of function argument
 
-{{CODE_BLOCK_8}}
+{{CODE_BLOCK_9}}
 
 ### Making tag
 If you know how to use get for recursive contents in JSON, function become very easy
 Understanding data structures and creating variables with JSON enables this recursive structure
-{{CODE_BLOCK_9}}
+{{CODE_BLOCK_10}}
 
 
 #  0.2.3-OB
@@ -1958,7 +1960,7 @@ There are some things that work and some things that don't, and in particular, t
 
 If the tag of the note that doesn't work is separated by a line like this, it is judged as a problem.
 problem form
-{{CODE_BLOCK_10}}
+{{CODE_BLOCK_11}}
 
 
 ### Solution.
@@ -1966,20 +1968,20 @@ Tested some notes by moving the tags as follows and confirmed normal operation.
 Then I added a function called `update_content_and_position` in the python file.
 duplicate_tag.py to automate it.
 
-{{CODE_BLOCK_11}}
+{{CODE_BLOCK_12}}
 
 # 0.2.0-PY
 
 ## Change the call number index structure and modify the convert file
 
 ### Problem
-{{CODE_BLOCK_12}}
+{{CODE_BLOCK_13}}
 
 
 Major category indent was wrong
 
 As-is Used this structure pattern
-{{CODE_BLOCK_13}}
+{{CODE_BLOCK_14}}
 
 Major Category don't use hypen.
 That makes preview error indent and line break
@@ -1987,13 +1989,13 @@ That makes preview error indent and line break
 ### Solution
 
 ### First Change call number md file like this
-{{CODE_BLOCK_14}}
+{{CODE_BLOCK_15}}
 
 ### Second Change convert_josn.py 
 Important point is just change a little bit. Because I don't want to change output.json, filename, path etc...
 only consider point is major and minor category variable.
 
-{{CODE_BLOCK_15}}
+{{CODE_BLOCK_16}}
 
 
 # 0.1.1-PY
@@ -2006,9 +2008,9 @@ It is appropriate to manage .md files other than .py only using the Sync functio
 
 ## Solution
 1. Delete .md files from remove server (when command is worked not delete immedately. you shoud commit and push)
-{{CODE_BLOCK_16}}
-1. Register files with md extension (fileanme should be `.gitignore)
 {{CODE_BLOCK_17}}
+1. Register files with md extension (fileanme should be `.gitignore)
+{{CODE_BLOCK_18}}
 
 if command worked and file is created,
 next step is commit and push
@@ -2158,7 +2160,7 @@ the template file is note.njk file
 About Homepage is managed by index.njk
 
 
-{{CODE_BLOCK_18}}
+{{CODE_BLOCK_19}}
 ## Google Translation
 Implementing Google Translation
 Add script in position that after body's first 'end for'
@@ -2171,9 +2173,9 @@ Add a Border
 Change location
 
 ### Google Translation-CSS
-{{CODE_BLOCK_19}}
-### Google Translation-HTML
 {{CODE_BLOCK_20}}
+### Google Translation-HTML
+{{CODE_BLOCK_21}}
 
 # Hompage Custom
 ## code font and color change
@@ -2181,35 +2183,35 @@ just code element not working so , important used
 
 src/site/styles/custom-style.scss
 
-{{CODE_BLOCK_21}}
-
 {{CODE_BLOCK_22}}
+
+{{CODE_BLOCK_23}}
 
 
 Even I changed CSS, It's not applied. So i find the element and modify it.
 markdown-rendered img
 only works when using !important
 add new line after badge
-{{CODE_BLOCK_23}}
+{{CODE_BLOCK_24}}
 
 ## Change img soruce width and clear
 
 `p::before` and `clear`
-{{CODE_BLOCK_24}}
+{{CODE_BLOCK_25}}
 
 
 ## add pre code block style
-{{CODE_BLOCK_25}}
-
-## code and pre tags style by ai
 {{CODE_BLOCK_26}}
 
-before
+## code and pre tags style by ai
 {{CODE_BLOCK_27}}
+
+before
+{{CODE_BLOCK_28}}
 
 After
 white background web site, so black window
-{{CODE_BLOCK_28}}
+{{CODE_BLOCK_29}}
 
 
 ## modify js and apply css
@@ -2220,7 +2222,7 @@ before
 after
 `const STYLE_PATH = "src/site/styles/";`
 
-{{CODE_BLOCK_29}}
+{{CODE_BLOCK_30}}
 
 ## hr for new line
 In markdown `---` horizon line makes new line. In html to makes new line defualt.
@@ -2231,7 +2233,7 @@ So I just add it approximately 20px
 
 If you're unsure about which tags are affected by a specific tag, you can use a developer tool like F12 to check.
 
-{{CODE_BLOCK_30}}
+{{CODE_BLOCK_31}}
 
 
 # Python Files
@@ -2262,12 +2264,12 @@ Think about data
 when not major, convert major
 when sub or book, consider position of function argument
 
-{{CODE_BLOCK_8}}
+{{CODE_BLOCK_9}}
 
 ### Making tag
 If you know how to use get for recursive contents in JSON, function become very easy
 Understanding data structures and creating variables with JSON enables this recursive structure
-{{CODE_BLOCK_9}}
+{{CODE_BLOCK_10}}
 
 
 #  0.2.3-OB
@@ -2311,7 +2313,7 @@ There are some things that work and some things that don't, and in particular, t
 
 If the tag of the note that doesn't work is separated by a line like this, it is judged as a problem.
 problem form
-{{CODE_BLOCK_10}}
+{{CODE_BLOCK_11}}
 
 
 ### Solution.
@@ -2319,20 +2321,20 @@ Tested some notes by moving the tags as follows and confirmed normal operation.
 Then I added a function called `update_content_and_position` in the python file.
 duplicate_tag.py to automate it.
 
-{{CODE_BLOCK_11}}
+{{CODE_BLOCK_12}}
 
 # 0.2.0-PY
 
 ## Change the call number index structure and modify the convert file
 
 ### Problem
-{{CODE_BLOCK_12}}
+{{CODE_BLOCK_13}}
 
 
 Major category indent was wrong
 
 As-is Used this structure pattern
-{{CODE_BLOCK_13}}
+{{CODE_BLOCK_14}}
 
 Major Category don't use hypen.
 That makes preview error indent and line break
@@ -2340,13 +2342,13 @@ That makes preview error indent and line break
 ### Solution
 
 ### First Change call number md file like this
-{{CODE_BLOCK_14}}
+{{CODE_BLOCK_15}}
 
 ### Second Change convert_josn.py 
 Important point is just change a little bit. Because I don't want to change output.json, filename, path etc...
 only consider point is major and minor category variable.
 
-{{CODE_BLOCK_15}}
+{{CODE_BLOCK_16}}
 
 
 # 0.1.1-PY
@@ -2359,9 +2361,9 @@ It is appropriate to manage .md files other than .py only using the Sync functio
 
 ## Solution
 1. Delete .md files from remove server (when command is worked not delete immedately. you shoud commit and push)
-{{CODE_BLOCK_16}}
-1. Register files with md extension (fileanme should be `.gitignore)
 {{CODE_BLOCK_17}}
+1. Register files with md extension (fileanme should be `.gitignore)
+{{CODE_BLOCK_18}}
 
 if command worked and file is created,
 next step is commit and push
@@ -2511,7 +2513,7 @@ the template file is note.njk file
 About Homepage is managed by index.njk
 
 
-{{CODE_BLOCK_18}}
+{{CODE_BLOCK_19}}
 ## Google Translation
 Implementing Google Translation
 Add script in position that after body's first 'end for'
@@ -2524,9 +2526,9 @@ Add a Border
 Change location
 
 ### Google Translation-CSS
-{{CODE_BLOCK_19}}
-### Google Translation-HTML
 {{CODE_BLOCK_20}}
+### Google Translation-HTML
+{{CODE_BLOCK_21}}
 
 # Hompage Custom
 ## code font and color change
@@ -2534,35 +2536,35 @@ just code element not working so , important used
 
 src/site/styles/custom-style.scss
 
-{{CODE_BLOCK_21}}
-
 {{CODE_BLOCK_22}}
+
+{{CODE_BLOCK_23}}
 
 
 Even I changed CSS, It's not applied. So i find the element and modify it.
 markdown-rendered img
 only works when using !important
 add new line after badge
-{{CODE_BLOCK_23}}
+{{CODE_BLOCK_24}}
 
 ## Change img soruce width and clear
 
 `p::before` and `clear`
-{{CODE_BLOCK_24}}
+{{CODE_BLOCK_25}}
 
 
 ## add pre code block style
-{{CODE_BLOCK_25}}
-
-## code and pre tags style by ai
 {{CODE_BLOCK_26}}
 
-before
+## code and pre tags style by ai
 {{CODE_BLOCK_27}}
+
+before
+{{CODE_BLOCK_28}}
 
 After
 white background web site, so black window
-{{CODE_BLOCK_28}}
+{{CODE_BLOCK_29}}
 
 
 ## modify js and apply css
@@ -2573,7 +2575,7 @@ before
 after
 `const STYLE_PATH = "src/site/styles/";`
 
-{{CODE_BLOCK_29}}
+{{CODE_BLOCK_30}}
 
 ## hr for new line
 In markdown `---` horizon line makes new line. In html to makes new line defualt.
@@ -2584,7 +2586,7 @@ So I just add it approximately 20px
 
 If you're unsure about which tags are affected by a specific tag, you can use a developer tool like F12 to check.
 
-{{CODE_BLOCK_30}}
+{{CODE_BLOCK_31}}
 
 
 # Python Files

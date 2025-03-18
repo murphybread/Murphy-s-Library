@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"title":"Building a Voice-Driven AI Assistant: Integrating ASR, TTS, LLM, RAG, and Text-to-Image","description":"Discover how to build a high-quality voice-enabled chatbot with memory using open-source models. This comprehensive guide explores ASR with Whisper, TTS with Kokoro-82M, RAG with Qdrant and BGE-M3, and image generation with Stable Diffusion—balancing performance and cost for an optimal AI assistant implementation.","permalink":"/projects/library/en/create-conversation-ai-with-rag-and-voice-integrate/","dgPassFrontmatter":true,"noteIcon":"0","created":"2025-02-09T01:35:19.667+09:00","updated":"2025-03-13T17:36:38.349+09:00"}
+{"dg-publish":true,"title":"Building a Voice-Driven AI Assistant: Integrating ASR, TTS, LLM, RAG, and Text-to-Image","description":"Discover how to build a high-quality voice-enabled chatbot with memory using open-source models. This comprehensive guide explores ASR with Whisper, TTS with Kokoro-82M, RAG with Qdrant and BGE-M3, and image generation with Stable Diffusion—balancing performance and cost for an optimal AI assistant implementation.","permalink":"/projects/library/en/create-conversation-ai-with-rag-and-voice-integrate/","dgPassFrontmatter":true,"noteIcon":"0","created":"2025-02-09T01:35:19.667+09:00","updated":"2025-03-18T15:26:19.723+09:00"}
 ---
 
 
@@ -47,22 +47,22 @@ This page notes why I choose it and the concerns I had while implementing it, tr
 
 ## Speach to Text, ASR (Automatic speech recognition)
 
-factor of consideration
+factors of consideration
 - vram usage
 - speed
 - multilingual
 - WER
 
-first choice famos model [openai/whisper-large-v3-turbo](https://huggingface.co/openai/whisper-large-v3-turbo)
 
-[Reddit User Opinions](https://www.reddit.com/r/LocalLLaMA/comments/1hc1qzi/is_whispercpp_still_the_king_of_stt/) -> Best Open Source model yet (as of February 2025)
-
+[Reddit User Opinions](https://www.reddit.com/r/LocalLLaMA/comments/1hc1qzi/is_whispercpp_still_the_king_of_stt/) -> After checking, it looks like the best model at the moment is the whisper model.
 [Explore Top 10 Models on the Arena Leader Board](https://huggingface.co/spaces/hf-audio/open_asr_leaderboard)
 
-check vram usage , speed, WER [user benchmark][https://github.com/SYSTRAN/faster-whisper/issues/1030]
+first choice famos model [openai/whisper-large-v3-turbo](https://huggingface.co/openai/whisper-large-v3-turbo)
+
+check vram usage , speed, WER [user benchmark](https://github.com/SYSTRAN/faster-whisper/issues/1030)
 
 
--> Determined that fastwhisper v3 is appropriate.
+-> **Considering the inference speed, I decided that fastwhisper v3 was the most appropriate choice.**
 
 ---
 ## TTS (Text to Speach)
@@ -77,19 +77,29 @@ Candidates
 TTS Arena
 https://huggingface.co/spaces/Pendrokar/TTS-Spaces-Arena
 
->  multilangual support and inference speed about 300ms ~ 500ms 
+-> **I chose kokoro82M because it has an attractive enough size of 82M and a wrapper.**
+
+> Test results show that it is fast enough, taking about 300ms to 500ms for inference.
 
 ---
 ##  RAG (Retrieval-Augmented Generation)
 
 We need to think about the **vector DB** and the **embedding model** for RAG
-The considerations of the vector DB were fast and cheap, open source and local support, and community.  
+Consider.
+
+factors of consideration
+- indexing and retrival speed
+- cost
+- open source
+- local support
+- community
+
 The candidates for the search results are **Faiss** and **Qdrant**.  
-*Quick reasoning speed and high performance seems to be the opinion that qdrant is better*. So I choose **Qdrant**.
+The general opinion seems to be that *Qdrant is better in terms of quick reasoning speed and high performance.* So, I chose **Qdrant**.
 
-[See Analysis in Blog Post](https://www.restack.io/p/vector-database-answer-qdrant-vs-faiss-cat-ai)
+[Qdrant Analysis in Blog Post](https://www.restack.io/p/vector-database-answer-qdrant-vs-faiss-cat-ai)
 
->After using it, the review is that it's a cloud free plan, so it's easy to save and the UI is quite good, so it's easy to use.
+>After using Qdrant, I found that its free cloud plan and user-friendly UI make managing persistent data very easy
 
 #### Vector DB
 
