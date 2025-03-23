@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"title":"Building a Voice-Driven AI Assistant: Integrating ASR, TTS, LLM, RAG, and Text-to-Image","description":"Discover how to build a high-quality voice-enabled chatbot with memory using open-source models. This comprehensive guide explores ASR with Whisper, TTS with Kokoro-82M, RAG with Qdrant and BGE-M3, and image generation with Stable Diffusion—balancing performance and cost for an optimal AI assistant implementation.","permalink":"/projects/library/en/create-conversation-ai-with-rag-and-voice-integrate/","dgPassFrontmatter":true,"noteIcon":"0","created":"2025-02-09T01:35:19.667+09:00","updated":"2025-03-18T15:26:19.723+09:00"}
+{"dg-publish":true,"title":"Building a Voice-Driven AI Assistant: Integrating ASR, TTS, LLM, RAG, and Text-to-Image","description":"Discover how to build a high-quality voice-enabled chatbot with memory using open-source models. This comprehensive guide explores ASR with Whisper, TTS with Kokoro-82M, RAG with Qdrant and BGE-M3, and image generation with Stable Diffusion—balancing performance and cost for an optimal AI assistant implementation.","permalink":"/projects/library/en/create-conversation-ai-with-rag-and-voice-integrate/","dgPassFrontmatter":true,"noteIcon":"0","created":"2025-02-09T01:35:19.667+09:00","updated":"2025-03-19T15:35:22.008+09:00"}
 ---
 
 
@@ -336,7 +336,7 @@ Especially, I can see that the output token came out this much even though it wa
 
 # Frontend Server configuration
 
-after I got this error, I change file tts audio file extension
+after I got this error, I change file tts audio file extension from `pcm` to `mp3`
 ```
 VoiceAssistantClient.jsx:239 Audio Decoding Error: EncodingError: Unable to decode audio data
 (anonymous)@VoiceAssistantClient.jsx:239

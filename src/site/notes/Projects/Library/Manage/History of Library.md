@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/projects/library/manage/history-of-library/","dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-31T20:39:20.070+09:00","updated":"2025-03-18T14:58:14.273+09:00"}
+{"dg-publish":true,"permalink":"/projects/library/manage/history-of-library/","dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-31T20:39:20.070+09:00","updated":"2025-03-18T19:18:04.848+09:00"}
 ---
 
 #History #Versioning_Strategy 
@@ -471,27 +471,6 @@ So I modify this part. first get distinguish body. by the split function divide 
 
 ## **Template 2: For Content without a Source**
 
-
-<div class="transclusion internal-embed is-loaded"><div class="markdown-embed">
-
-
-
-# Title
-#Tag
-
-
-## Audience
-Target audience or group
-## Overview
-Summary of this article including background and table of contents
-## Content
-Body of the article 
-## Conclusion
-This section summarizes the key findings and suggests next steps
-
-
-
-</div></div>
 
 
 
