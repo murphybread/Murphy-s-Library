@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"title":"Building a Voice-Driven AI Assistant: Integrating ASR, TTS, LLM, RAG, and Text-to-Image","description":"Discover how to build a high-quality voice-enabled chatbot with memory using open-source models. This comprehensive guide explores ASR with Whisper, TTS with Kokoro-82M, RAG with Qdrant and BGE-M3, and image generation with Stable Diffusion—balancing performance and cost for an optimal AI assistant implementation.","permalink":"/projects/library/en/create-conversation-ai-with-rag-and-voice-integrate/","dgPassFrontmatter":true,"noteIcon":"0","created":"2025-02-09T01:35:19.667+09:00","updated":"2025-03-19T15:35:22.008+09:00"}
+{"dg-publish":true,"title":"Building a Voice-Driven AI Assistant: Integrating ASR, TTS, LLM, RAG, and Text-to-Image","description":"Discover how to build a high-quality voice-enabled chatbot with memory using open-source models. This comprehensive guide explores ASR with Whisper, TTS with Kokoro-82M, RAG with Qdrant and BGE-M3, and image generation with Stable Diffusion—balancing performance and cost for an optimal AI assistant implementation.","permalink":"/projects/library/en/create-conversation-ai-with-rag-and-voice-integrate/","dgPassFrontmatter":true,"noteIcon":"0","created":"2025-02-09T01:35:19.667+09:00","updated":"2025-03-25T15:03:11.011+09:00"}
 ---
 
 
@@ -162,7 +162,7 @@ others candidates
 - https://huggingface.co/nomic-ai/nomic-embed-text-v2-moe?utm_source=chatgpt.com
 
 
-#### Graph RAG **(Preparing for implementation)**
+#### Graph RAG 
 
 I looked up graph RAG to upgrade RAG a bit more.  
   
@@ -212,6 +212,7 @@ I found new RAG Architecute  **LightRAG**
 https://www.youtube.com/watch?v=5EmRZcJIfnw
 Impressively, experimental results show that **LigthRAG** is less than 100 tokens, compared to 610,000 retrive tokens in microsoft **graphRAG**.
 
+>  report about LightRAg is here
 
 # Text to Image
 The text to image model is *much trickier than other models* when it comes to selection. As the *cost is high*, it is difficult to find the T2I model that has the **biggest VRAM constraints** and understands natural language.  

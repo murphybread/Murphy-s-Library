@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2025-03-24T21:43:23.242+09:00"}
+{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2025-03-25T20:47:10.468+09:00"}
 ---
 
 > **"짧은 글에 담긴 진솔한 고민, 10개의 아쉬운 글보다는 1개의 가치 있는 글 쓰기 지향"**
@@ -22,11 +22,11 @@ Email: nargene@gmail.com
 # Libray new books
 | POSTS                                                                                   | Link                                                                                                                                | Date     | Tags                                                                                                                                                                                                    |
 | --------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Obsidian digital garden 플러그인에서 데이터 증가에 따라는로딩 속도 저하 해결하기                                 | [[Projects/Library/KR/000/010/010.00/KR-010.00 d\|KR-010.00 d]]                                                                  | 25-03-24 | <ul><li>#Debugging</li></ul>                                                                                                                                                                            |
+| 마크다운 문서에서 발생하기 쉬운 웹 렌더링 시 HTML 엘레멘트 인식 문제 해결하기                                          | [[Projects/Library/Entrance/KR-010.00 e\|KR-010.00 e]]                                                                           | 25-03-25 | <ul><li>#A</li><li>#트러블슈팅</li></ul>                                                                                                                                                                     |
+| 글 데이터 증가에 따라 느려진 로딩 속도 저하 해결하기(feat. Obsidian)                                          | [[Projects/Library/KR/000/010/010.00/KR-010.00 d\|KR-010.00 d]]                                                                  | 25-03-25 | <ul><li>#Debugging</li></ul>                                                                                                                                                                            |
+| Building a Voice-Driven AI Assistant: Integrating ASR, TTS, LLM, RAG, and Text-to-Image | [[Projects/Library/EN/Create conversation AI with RAG and Voice integrate\|Create conversation AI with RAG and Voice integrate]] | 25-03-25 | <ul><li>#ASR</li><li>#TTS</li><li>#LLM</li><li>#RAG</li><li>#T2I</li><li>#STT</li><li>#Kokoro82m</li><li>#chagpt</li><li>#openai-realtimeAPI</li><li>#bge-m3</li><li>#qdrant</li><li>#ComfyUI</li></ul> |
 | CSS의 단위  CSS at-rules 레이아웃 선택자와 속성                                                      | [[Projects/Library/KR/000/010/010.10/KR-010.10 c\|KR-010.10 c]]                                                                  | 25-03-23 | <ul><li>#CSS</li></ul>                                                                                                                                                                                  |
-| Building a Voice-Driven AI Assistant: Integrating ASR, TTS, LLM, RAG, and Text-to-Image | [[Projects/Library/EN/Create conversation AI with RAG and Voice integrate\|Create conversation AI with RAG and Voice integrate]] | 25-03-19 | <ul><li>#ASR</li><li>#TTS</li><li>#LLM</li><li>#RAG</li><li>#T2I</li><li>#STT</li><li>#Kokoro82m</li><li>#chagpt</li><li>#openai-realtimeAPI</li><li>#bge-m3</li><li>#qdrant</li><li>#ComfyUI</li></ul> |
 | 명언 내보내기 프로젝트                                                                            | [[Projects/Library/KR/100/110/110.50/KR-110.50\|KR-110.50]]                                                                      | 25-03-18 | <ul><li>#개인프로젝트</li></ul>                                                                                                                                                                               |
-| 독후감 리액트 훅을 활용한 마이크로 상태 관리 React에서 상태 관리란                                                | [[Projects/Library/KR/400/410/410.20/KR-410.20 c\|KR-410.20 c]]                                                                  | 25-03-18 | <ul><li>#React</li><li>#독서</li></ul>                                                                                                                                                                    |
 
 { .block-language-dataview}
 
@@ -41,7 +41,8 @@ Email: nargene@gmail.com
         - [[Projects/Library/KR/000/010/010.00/KR-010.00 a\|KR-010.00 a]] VSCode 브레이크 포인트를 활용한 디버깅
         - [[Projects/Library/KR/000/010/010.00/KR-010.00 b\|KR-010.00 b]] IT블로그 blockquote 개발자도구로 찾아내서 수정하기
         - [[Projects/Library/KR/000/010/010.00/KR-010.00 c\|KR-010.00 c]] IT블로그 table 요소 보기 좋게 수정하기
-        - [[Projects/Library/KR/000/010/010.00/KR-010.00 d\|KR-010.00 d]] 
+        - [[Projects/Library/KR/000/010/010.00/KR-010.00 d\|KR-010.00 d]] 글 데이터 증가에 따라 느려진 로딩 속도 저하 해결하기(feat. Obsidian)
+        - [[Projects/Library/Entrance/KR-010.00 e\|KR-010.00 e]] 마크다운 문서에서 발생하기 쉬운 웹 렌더링 시 HTML 엘레멘트 인식 문제 해결하기
     - [[Projects/Library/KR/000/010/010.10/KR-010.10\|KR-010.10]] HTML,CSS,JavaScript
         - [[Projects/Library/KR/000/010/010.10/KR-010.10 a\|KR-010.10 a]] styled-components 간단 소개
         - [[Projects/Library/KR/000/010/010.10/KR-010.10 b\|KR-010.10 b]] HTML 구현 기록 저장소
