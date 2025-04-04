@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2025-03-25T20:47:10.468+09:00"}
+{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2025-04-04T21:13:18.471+09:00"}
 ---
 
 > **"짧은 글에 담긴 진솔한 고민, 10개의 아쉬운 글보다는 1개의 가치 있는 글 쓰기 지향"**
@@ -20,13 +20,13 @@ Email: nargene@gmail.com
 ---
 
 # Libray new books
-| POSTS                                                                                   | Link                                                                                                                                | Date     | Tags                                                                                                                                                                                                    |
-| --------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 마크다운 문서에서 발생하기 쉬운 웹 렌더링 시 HTML 엘레멘트 인식 문제 해결하기                                          | [[Projects/Library/KR/000/010/010.00/KR-010.00 e\|KR-010.00 e]]                                                                  | 25-03-28 | <ul><li>#트러블슈팅</li></ul>                                                                                                                                                                                |
-| HTML 구현 기록 저장소                                                                          | [[Projects/Library/KR/000/010/010.10/KR-010.10 b\|KR-010.10 b]]                                                                  | 25-03-25 | <ul><li>#HTML</li></ul>                                                                                                                                                                                 |
-| 글 데이터 증가에 따라 느려진 로딩 속도 저하 해결하기(feat. Obsidian)                                          | [[Projects/Library/KR/000/010/010.00/KR-010.00 d\|KR-010.00 d]]                                                                  | 25-03-25 | <ul><li>#Debugging</li></ul>                                                                                                                                                                            |
-| Building a Voice-Driven AI Assistant: Integrating ASR, TTS, LLM, RAG, and Text-to-Image | [[Projects/Library/EN/Create conversation AI with RAG and Voice integrate\|Create conversation AI with RAG and Voice integrate]] | 25-03-25 | <ul><li>#ASR</li><li>#TTS</li><li>#LLM</li><li>#RAG</li><li>#T2I</li><li>#STT</li><li>#Kokoro82m</li><li>#chagpt</li><li>#openai-realtimeAPI</li><li>#bge-m3</li><li>#qdrant</li><li>#ComfyUI</li></ul> |
-| CSS의 단위  CSS at-rules 레이아웃 선택자와 속성                                                      | [[Projects/Library/KR/000/010/010.10/KR-010.10 c\|KR-010.10 c]]                                                                  | 25-03-23 | <ul><li>#CSS</li></ul>                                                                                                                                                                                  |
+| POSTS                                          | Link                                                               | Date     | Tags                                       |
+| ---------------------------------------------- | ------------------------------------------------------------------ | -------- | ------------------------------------------ |
+| Axios 객체 조사하기(단위 테스트 전 고려해볼 점)                 | [[Projects/Library/KR/000/010/010.30/KR-010.30 a\|KR-010.30 a]] | 25-04-04 | <ul><li>#Jest</li><li>#Axios</li></ul>     |
+| JavaScript                                     | [[Projects/Library/KR/000/010/010.30/KR-010.30\|KR-010.30]]     | 25-04-04 | <ul><li>#React_Next</li><li>#Dev</li></ul> |
+| 마크다운 문서에서 발생하기 쉬운 웹 렌더링 시 HTML 엘레멘트 인식 문제 해결하기 | [[Projects/Library/KR/000/010/010.00/KR-010.00 e\|KR-010.00 e]] | 25-03-28 | <ul><li>#트러블슈팅</li></ul>                   |
+| HTML 구현 기록 저장소                                 | [[Projects/Library/KR/000/010/010.10/KR-010.10 b\|KR-010.10 b]] | 25-03-25 | <ul><li>#HTML</li></ul>                    |
+| 글 데이터 증가에 따라 느려진 로딩 속도 저하 해결하기(feat. Obsidian) | [[Projects/Library/KR/000/010/010.00/KR-010.00 d\|KR-010.00 d]] | 25-03-25 | <ul><li>#Debugging</li></ul>               |
 
 { .block-language-dataview}
 
@@ -43,7 +43,7 @@ Email: nargene@gmail.com
         - [[Projects/Library/KR/000/010/010.00/KR-010.00 c\|KR-010.00 c]] IT블로그 table 요소 보기 좋게 수정하기
         - [[Projects/Library/KR/000/010/010.00/KR-010.00 d\|KR-010.00 d]] 글 데이터 증가에 따라 느려진 로딩 속도 저하 해결하기(feat. Obsidian)
         - [[Projects/Library/KR/000/010/010.00/KR-010.00 e\|KR-010.00 e]] 마크다운 문서에서 발생하기 쉬운 웹 렌더링 시 HTML 엘레멘트 인식 문제 해결하기
-    - [[Projects/Library/KR/000/010/010.10/KR-010.10\|KR-010.10]] HTML,CSS,JavaScript
+    - [[Projects/Library/KR/000/010/010.10/KR-010.10\|KR-010.10]] HTML,CSS
         - [[Projects/Library/KR/000/010/010.10/KR-010.10 a\|KR-010.10 a]] styled-components 간단 소개
         - [[Projects/Library/KR/000/010/010.10/KR-010.10 b\|KR-010.10 b]] HTML 구현 기록 저장소
         - [[Projects/Library/KR/000/010/010.10/KR-010.10 c\|KR-010.10 c]] CSS단위 CSS at-rules 레이아웃 선택자와 속성
@@ -53,6 +53,8 @@ Email: nargene@gmail.com
         - [[Projects/Library/KR/000/010/010.20/KR-010.20 b\|KR-010.20 b]] 상호작용성 더하기
         - [[Projects/Library/KR/000/010/010.20/KR-010.20 c\|KR-010.20 c]] State 관리하기
         - [[Projects/Library/KR/000/010/010.20/KR-010.20 d\|KR-010.20 d]] 탈출구
+    - [[Projects/Library/KR/000/010/010.30/KR-010.30\|KR-010.30]] JavaScript
+	    - [[Projects/Library/KR/000/010/010.30/KR-010.30 a\|KR-010.30 a]] axios객체 조사하기
     - [[Projects/Library/KR/000/010/010.40/KR-010.40\|KR-010.40]] Node.js
         - [[Projects/Library/KR/000/010/010.40/KR-010.40 a\|KR-010.40 a]] Node.js 성능 향상: I/O-bound에는 Async와 CPU-bound를 위한 Cluster API vs Worker Threads 학습 및 비교 테스트
     - [[Projects/Library/KR/000/010/010.60/KR-010.60\|KR-010.60]] Jest
