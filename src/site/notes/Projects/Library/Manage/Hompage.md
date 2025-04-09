@@ -20,13 +20,13 @@ Email: nargene@gmail.com
 ---
 
 # Libray new books
-| POSTS                                                                   | Link                                                               | Date     | Tags                                       |
-| ----------------------------------------------------------------------- | ------------------------------------------------------------------ | -------- | ------------------------------------------ |
-| JavaScript에서  대규모 숫자의 경우 스프레드 연산자가 실패하는 이유를 분석하고 테스트해보며 stack size 이해하기 | [[Projects/Library/KR/000/010/010.30/KR-010.40 b\|KR-010.40 b]] | 25-04-09 | <ul><li>#JavaScript</li></ul>              |
-| 2025년 3월 2주차 회고 포트폴리오 컴포넌트 및 페이지 만들기 AI RAG 프로젝트                        | [[Projects/Library/KR/P300/P310/KR-P-310 q\|KR-P-310 q]]        | 25-04-08 | <ul><li>#주간_회고</li></ul>                   |
-| Axios 객체 조사하기(단위 테스트 전 고려해볼 점)                                          | [[Projects/Library/KR/000/010/010.30/KR-010.30 a\|KR-010.30 a]] | 25-04-04 | <ul><li>#Jest</li><li>#Axios</li></ul>     |
-| JavaScript                                                              | [[Projects/Library/KR/000/010/010.30/KR-010.30\|KR-010.30]]     | 25-04-04 | <ul><li>#React_Next</li><li>#Dev</li></ul> |
-| 마크다운 문서에서 발생하기 쉬운 웹 렌더링 시 HTML 엘레멘트 인식 문제 해결하기                          | [[Projects/Library/KR/000/010/010.00/KR-010.00 e\|KR-010.00 e]] | 25-03-28 | <ul><li>#트러블슈팅</li></ul>                   |
+| POSTS                                                                   | Link                                                               | Date     | Tags                                               |
+| ----------------------------------------------------------------------- | ------------------------------------------------------------------ | -------- | -------------------------------------------------- |
+| Node.js                                                                 | [[Projects/Library/KR/000/010/010.40/KR-010.40\|KR-010.40]]     | 25-04-09 | <ul><li>#기술스택</li><li>#Dev</li><li>#Node</li></ul> |
+| JavaScript에서  대규모 숫자의 경우 스프레드 연산자가 실패하는 이유를 분석하고 테스트해보며 stack size 이해하기 | [[Projects/Library/KR/000/010/010.30/KR-010.40 b\|KR-010.40 b]] | 25-04-09 | <ul><li>#JavaScript</li></ul>                      |
+| 2025년 3월 2주차 회고 포트폴리오 컴포넌트 및 페이지 만들기 AI RAG 프로젝트                        | [[Projects/Library/KR/P300/P310/KR-P-310 q\|KR-P-310 q]]        | 25-04-08 | <ul><li>#주간_회고</li></ul>                           |
+| Axios 객체 조사하기(단위 테스트 전 고려해볼 점)                                          | [[Projects/Library/KR/000/010/010.30/KR-010.30 a\|KR-010.30 a]] | 25-04-04 | <ul><li>#Jest</li><li>#Axios</li></ul>             |
+| JavaScript                                                              | [[Projects/Library/KR/000/010/010.30/KR-010.30\|KR-010.30]]     | 25-04-04 | <ul><li>#React_Next</li><li>#Dev</li></ul>         |
 
 { .block-language-dataview}
 
