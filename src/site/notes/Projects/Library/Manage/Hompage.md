@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2025-04-09T14:30:37.547+09:00"}
+{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2025-04-11T14:58:12.038+09:00"}
 ---
 
 > **"짧은 글에 담긴 진솔한 고민, 10개의 아쉬운 글보다는 1개의 가치 있는 글 쓰기 지향"**
@@ -22,11 +22,11 @@ Email: nargene@gmail.com
 # Libray new books
 | POSTS                                                                   | Link                                                               | Date     | Tags                                               |
 | ----------------------------------------------------------------------- | ------------------------------------------------------------------ | -------- | -------------------------------------------------- |
+| Jest에서 ESM을 설정 변경 없이 쉽게 사용해보기                                           | [[Projects/Library/KR/000/010/010.60/KR-010.60 b\|KR-010.60 b]] | 25-04-11 | <ul><li>#Jest</li></ul>                            |
 | Node.js                                                                 | [[Projects/Library/KR/000/010/010.40/KR-010.40\|KR-010.40]]     | 25-04-09 | <ul><li>#기술스택</li><li>#Dev</li><li>#Node</li></ul> |
 | JavaScript에서  대규모 숫자의 경우 스프레드 연산자가 실패하는 이유를 분석하고 테스트해보며 stack size 이해하기 | [[Projects/Library/KR/000/010/010.30/KR-010.40 b\|KR-010.40 b]] | 25-04-09 | <ul><li>#JavaScript</li></ul>                      |
 | 2025년 3월 2주차 회고 포트폴리오 컴포넌트 및 페이지 만들기 AI RAG 프로젝트                        | [[Projects/Library/KR/P300/P310/KR-P-310 q\|KR-P-310 q]]        | 25-04-08 | <ul><li>#주간_회고</li></ul>                           |
 | Axios 객체 조사하기(단위 테스트 전 고려해볼 점)                                          | [[Projects/Library/KR/000/010/010.30/KR-010.30 a\|KR-010.30 a]] | 25-04-04 | <ul><li>#Jest</li><li>#Axios</li></ul>             |
-| JavaScript                                                              | [[Projects/Library/KR/000/010/010.30/KR-010.30\|KR-010.30]]     | 25-04-04 | <ul><li>#React_Next</li><li>#Dev</li></ul>         |
 
 { .block-language-dataview}
 
@@ -60,6 +60,7 @@ Email: nargene@gmail.com
         - [[Projects/Library/KR/000/010/010.30/KR-010.40 b\|KR-010.40 b]] JavaScript에서 대규모 숫자의 경우 스프레드 연산자가 실패하는 이유를 분석하고 테스트해보며 stack size 이해하기
     - [[Projects/Library/KR/000/010/010.60/KR-010.60\|KR-010.60]] Jest
         - [[Projects/Library/KR/000/010/010.60/KR-010.60 a\|KR-010.60 a]] 신입 개발자가 정리한 Jest 테스트 사용 예시와 환경 구성
+        - [[Projects/Library/KR/000/010/010.60/KR-010.60 b\|KR-010.60 b]] Jest에서 ESM을 설정 변경 없이 쉽게 사용해보기
 - [[Projects/Library/KR/000/020/KR-020\|KR-020]] Ops
     - [[Projects/Library/KR/000/020/020.00/KR-020.00\|KR-020.00]] Git
         - [[Projects/Library/KR/000/020/020.00/KR-020.00 a\|KR-020.00 a]] Git 특정 환경의 파일만 커밋없이 제외하기
