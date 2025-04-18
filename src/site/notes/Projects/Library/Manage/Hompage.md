@@ -20,13 +20,13 @@ Email: nargene@gmail.com
 ---
 
 # Libray new books
-| POSTS                                                                   | Link                                                               | Date     | Tags                                               |
-| ----------------------------------------------------------------------- | ------------------------------------------------------------------ | -------- | -------------------------------------------------- |
-| Jest에서 ESM을 설정 변경 없이 쉽게 사용해보기                                           | [[Projects/Library/KR/000/010/010.60/KR-010.60 b\|KR-010.60 b]] | 25-04-11 | <ul><li>#Jest</li></ul>                            |
-| Node.js                                                                 | [[Projects/Library/KR/000/010/010.40/KR-010.40\|KR-010.40]]     | 25-04-09 | <ul><li>#기술스택</li><li>#Dev</li><li>#Node</li></ul> |
-| JavaScript에서  대규모 숫자의 경우 스프레드 연산자가 실패하는 이유를 분석하고 테스트해보며 stack size 이해하기 | [[Projects/Library/KR/000/010/010.30/KR-010.40 b\|KR-010.40 b]] | 25-04-09 | <ul><li>#JavaScript</li></ul>                      |
-| 2025년 3월 2주차 회고 포트폴리오 컴포넌트 및 페이지 만들기 AI RAG 프로젝트                        | [[Projects/Library/KR/P300/P310/KR-P-310 q\|KR-P-310 q]]        | 25-04-08 | <ul><li>#주간_회고</li></ul>                           |
-| Axios 객체 조사하기(단위 테스트 전 고려해볼 점)                                          | [[Projects/Library/KR/000/010/010.30/KR-010.30 a\|KR-010.30 a]] | 25-04-04 | <ul><li>#Jest</li><li>#Axios</li></ul>             |
+| POSTS                                                                   | Link                                                               | Date     | Tags                                                            |
+| ----------------------------------------------------------------------- | ------------------------------------------------------------------ | -------- | --------------------------------------------------------------- |
+| JavaScript에서  대규모 숫자의 경우 스프레드 연산자가 실패하는 이유를 분석하고 테스트해보며 stack size 이해하기 | [[Projects/Library/KR/000/010/010.40/KR-010.40 b\|KR-010.40 b]] | 25-04-18 | <ul><li>#JavaScript</li></ul>                                   |
+| 생성형 AI를 이용한 개인 창작 마법 프로젝트                                               | [[Projects/Library/KR/100/110/110.40/KR-110.40\|KR-110.40]]     | 25-04-15 | <ul><li>#magic_prompt</li><li>#개인프로젝트</li><li>#프로젝트경험</li></ul> |
+| 프로젝트 중 겪은 트러블 슈팅 (CORS, 소셜 로그인 등)                                       | [[Projects/Library/KR/100/110/110.40/KR-110.40 a\|KR-110.40 a]] | 25-04-15 | <ul><li>#개인프로젝트</li><li>#프로젝트경험</li><li>#magic_prompt</li></ul> |
+| Jest에서 ESM을 설정 변경 없이 쉽게 사용해보기                                           | [[Projects/Library/KR/000/010/010.60/KR-010.60 b\|KR-010.60 b]] | 25-04-11 | <ul><li>#Jest</li></ul>                                         |
+| Node.js                                                                 | [[Projects/Library/KR/000/010/010.40/KR-010.40\|KR-010.40]]     | 25-04-09 | <ul><li>#기술스택</li><li>#Dev</li><li>#Node</li></ul>              |
 
 { .block-language-dataview}
 
@@ -57,7 +57,7 @@ Email: nargene@gmail.com
 	    - [[Projects/Library/KR/000/010/010.30/KR-010.30 a\|KR-010.30 a]] axios객체 조사하기
     - [[Projects/Library/KR/000/010/010.40/KR-010.40\|KR-010.40]] Node.js
         - [[Projects/Library/KR/000/010/010.40/KR-010.40 a\|KR-010.40 a]] Node.js 성능 향상: I/O-bound에는 Async와 CPU-bound를 위한 Cluster API vs Worker Threads 학습 및 비교 테스트
-        - [[Projects/Library/KR/000/010/010.30/KR-010.40 b\|KR-010.40 b]] JavaScript에서 대규모 숫자의 경우 스프레드 연산자가 실패하는 이유를 분석하고 테스트해보며 stack size 이해하기
+        - [[Projects/Library/KR/000/010/010.40/KR-010.40 b\|KR-010.40 b]] JavaScript에서 대규모 숫자의 경우 스프레드 연산자가 실패하는 이유를 분석하고 테스트해보며 stack size 이해하기
     - [[Projects/Library/KR/000/010/010.60/KR-010.60\|KR-010.60]] Jest
         - [[Projects/Library/KR/000/010/010.60/KR-010.60 a\|KR-010.60 a]] 신입 개발자가 정리한 Jest 테스트 사용 예시와 환경 구성
         - [[Projects/Library/KR/000/010/010.60/KR-010.60 b\|KR-010.60 b]] Jest에서 ESM을 설정 변경 없이 쉽게 사용해보기
