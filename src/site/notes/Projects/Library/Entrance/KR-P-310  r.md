@@ -1,5 +1,5 @@
 ---
-{"title":"test","description":null,"dg-publish":true,"private":true,"permalink":"/projects/library/entrance/kr-p-310-r/","dgPassFrontmatter":true,"noteIcon":"0","created":"2025-03-06T23:20:59.614+09:00","updated":"2025-04-21T10:43:35.867+09:00"}
+{"title":"test","description":null,"dg-publish":true,"private":true,"permalink":"/projects/library/entrance/kr-p-310-r/","dgPassFrontmatter":true,"noteIcon":"0","created":"2025-03-06T23:20:59.614+09:00","updated":"2025-04-21T10:49:32.247+09:00"}
 ---
 
 현재 노트: [[Projects/Library/Entrance/KR-P-310  r\|KR-P-310  r]] 
@@ -7,8 +7,7 @@
 
 #주간회고 
 
-
-
+::: hidden
 CJ 올리브네트웍스 ai엔지니어 채용설명회
 데이터분석 과제 확인
 Pandas공부
@@ -102,6 +101,11 @@ Claude APP
 `C:\Users\YOURUSERNAME\AppData\Roaming\Claude` -> `claude_desktop_config.json`
 
 restart
+:::
+
+
+
+
 
 
 ## npm run 방식의 특징
