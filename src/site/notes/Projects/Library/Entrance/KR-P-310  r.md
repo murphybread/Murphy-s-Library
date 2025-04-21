@@ -1,5 +1,5 @@
 ---
-{"title":"test","description":null,"dg-publish":true,"private":"true","permalink":"/projects/library/entrance/kr-p-310-r/","dgPassFrontmatter":true,"noteIcon":"0","created":"2025-03-06T23:20:59.614+09:00","updated":"2025-04-21T10:39:30.272+09:00"}
+{"title":"test","description":null,"dg-publish":true,"private":true,"permalink":"/projects/library/entrance/kr-p-310-r/","dgPassFrontmatter":true,"noteIcon":"0","created":"2025-03-06T23:20:59.614+09:00","updated":"2025-04-21T10:43:35.867+09:00"}
 ---
 
 현재 노트: [[Projects/Library/Entrance/KR-P-310  r\|KR-P-310  r]] 
