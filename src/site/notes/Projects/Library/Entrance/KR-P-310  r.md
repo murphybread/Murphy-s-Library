@@ -1,5 +1,5 @@
 ---
-{"title":"test","description":null,"dg-publish":true,"private":true,"permalink":"/projects/library/entrance/kr-p-310-r/","dgPassFrontmatter":true,"noteIcon":"0","created":"2025-03-06T23:20:59.614+09:00","updated":"2025-04-21T10:49:32.247+09:00"}
+{"title":"test","description":null,"dg-publish":true,"permalink":"/projects/library/entrance/kr-p-310-r/","dgPassFrontmatter":true,"noteIcon":"0","created":"2025-03-06T23:20:59.614+09:00","updated":"2025-04-21T10:53:25.988+09:00"}
 ---
 
 현재 노트: [[Projects/Library/Entrance/KR-P-310  r\|KR-P-310  r]] 
@@ -7,101 +7,7 @@
 
 #주간회고 
 
-::: hidden
-CJ 올리브네트웍스 ai엔지니어 채용설명회
-데이터분석 과제 확인
-Pandas공부
-Model 공부
-
-KT대졸 신입
-코딩테스트 그현 공부
-
-네이버 클라우드 헬스케어 프로덕트인턴
-프론트개발자 및 ai 엔지니어 강조
-
-
-# 이번 주 할 일(3월 17일 월요일 작성)
-project log 포트폴리오 완성
-- end to end 테스트 해보기
-	- 프로젝트 보기
-	- 프로젝트 클릭
-	- 프로젝트에서 커밋 생성
-	- react-router-dom으로 라우팅
-
-Light RAG 제대로 테스트 완료하기
-- openai RAG와 비교하기
-
-
-
-
-# 이번 주 활동
-## 프론트 엔드 포트폴리오
-
-#### layouts
-- homepage: 모든 프로젝트가 보임
-	- 각 project가 card 컴포넌트로 표현디며 클릭시 Dashboard로 이동
-
-
-
----
-
-
-주간회고 public or private
-
-
----
-
-## openai vector store 테스트
-[[Projects/Library/Entrance/openai vector store\|openai vector store]]
-
-2025년 3월11일 업데이트한 기능을 참고하여 무료로 제공되는 수준의 openai RAG의 비용, 성능 테스트.
-비용 발생 메커니즘
-1. 파일 임베딩된 후 벡터 용량의 비용 $0.1/GB
-	1. 매 시간마다 용량 측정
-	2. 하루가 넘는 시점에서 1GB보다 작은 경우 무료
-	3. 1GB초과분만큼 $0.1달로 비용 발생
-2. file search tool 호출 비용 $2.5/1k
-3. RAG결과  chat completion LLM 비용 모델별로 발생
-	- gpt4o-mini
-		-  input $0.15/ 1M tokens
-		- ouput $0.60/1M tokens
-
----
-
-React-Router 프로젝트에 적용하며 학습
-
-BrowerRouter
-Routes
-Route
-
-UseNavigate
-
-
----
-
-타입스크립트 필요한 부분만 독서 완료
-1~4장 기본형 , 타입선언 등
-
-
----
-Claude MCP 서버 테스트
-
-MCP server를 통해 llm이 명령을 내림
-MCP server는 해당 명령으로 외부 또는 내부소스에 접근해서 데이터 제공
-
-
-Node설치
-버전이 제대로 나오는지 확인
-```
-node --version
-npm --version
-```
-
-Claude APP
-`C:\Users\YOURUSERNAME\AppData\Roaming\Claude` -> `claude_desktop_config.json`
-
-restart
-:::
+Hidden Content
 
 
 
