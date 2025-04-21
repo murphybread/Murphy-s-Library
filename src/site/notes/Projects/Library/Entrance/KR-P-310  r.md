@@ -1,13 +1,13 @@
 ---
-{"title":"test","description":null,"dg-publish":true,"permalink":"/projects/library/entrance/kr-p-310-r/","dgPassFrontmatter":true,"noteIcon":"0","created":"2025-03-06T23:20:59.614+09:00","updated":"2025-04-21T10:54:01.140+09:00"}
+{"title":"2025년 3월 3주차 코딩테스트 공부","description":null,"dg-publish":true,"permalink":"/projects/library/entrance/kr-p-310-r/","dgPassFrontmatter":true,"noteIcon":"0","created":"2025-03-06T23:20:59.614+09:00","updated":"2025-04-21T11:06:27.513+09:00"}
 ---
 
 현재 노트: [[Projects/Library/Entrance/KR-P-310  r\|KR-P-310  r]] 
-상위 분류: [[]] 
+상위 분류: [[Projects/Library/KR/P300/P310/KR-P-310\|KR-P-310]] 
 
 #주간회고 
 
-🔒 Hidden Content
+🔒 Some Hidden Content
 	
 
 
@@ -125,68 +125,7 @@ Open Manus  seo 명령 잘못했다가 4,800,000만 토큰 사용
 
 ```
 (OpenManus) 
-KMC@DESKTOP-6GSGOBK MINGW64 ~/Desktop/Project/OpenManus (main)
-$ python main.py
-INFO     [browser_use] BrowserUse logging setup complete with level info
-INFO     [root] Anonymized telemetry enabled. See https://docs.browser-use.com/development/telemetry for more information.
- 'browser_use' completed its mission! Result: Observed output of cmd `browser_use` executed:
-Searched for 'murphybooks.me' and navigated to first result: https://www.murphybooks.me/
-All results:https://www.murphybooks.me/
-https://www.murphybooks.me/projects/library/manage/history-of-library/
-https://www.williammurphybooks.net/
-https://www.instagram.com/al.murphy.books/
-https://aliciamurphybooks.com/
-https://www.reddit.com/r/RomanceBooks/comments/1dab294/whats_happening_with_monica_murphy_books/
-https://www.erinmurphybooks.com/
-https://www.amazon.com/stores/author/B07P62J2B6
-https://www.frankmurphybooks.com/
-https://www.google.com/search?num=12
-2025-03-21 02:13:56.943 | INFO     | app.agent.base:run:140 - Executing step 2/20
-\
-2025-03-21 02:18:42.047 | INFO     | app.agent.toolcall:act:149 - 🎯 Tool 'browser_use' completed its mission! Result: Observed output of cmd `browser_use` executed:
-Scrolled down by 1100 pixels
-2025-03-21 02:18:42.047 | INFO     | app.agent.base:run:140 - Executing step 19/20
-2025-03-21 02:18:59.263 | INFO     | app.llm:update_token_count:250 - Token usage: Input=465311, Completion=16, Cumulative Input=4437058, Cumulative Completion=356, Total=465327, Cumulative Total=4437414
-2025-03-21 02:18:59.264 | INFO     | app.agent.toolcall:think:80 - ✨ Manus's thoughts: 
-2025-03-21 02:18:59.264 | INFO     | app.agent.toolcall:think:81 - 🛠️ Manus selected 1 tools to use
-2025-03-21 02:18:59.264 | INFO     | app.agent.toolcall:think:85 - 🧰 Tools being prepared: ['browser_use']
-2025-03-21 02:18:59.265 | INFO     | app.agent.toolcall:think:88 - 🔧 Tool arguments: {"action":"scroll_down"}
-2025-03-21 02:18:59.265 | INFO     | app.agent.toolcall:execute_tool:179 - 🔧 Activating tool: 'browser_use'...
-2025-03-21 02:18:59.270 | INFO     | app.agent.toolcall:act:149 - 🎯 Tool 'browser_use' completed its mission! Result: Observed output of cmd `browser_use` executed:
-Scrolled down by 1100 pixels
-2025-03-21 02:18:59.271 | INFO     | app.agent.base:run:140 - Executing step 20/20
-2025-03-21 02:19:28.111 | INFO     | app.llm:update_token_count:250 - Token usage: Input=491063, Completion=16, Cumulative Input=4928121, Cumulative Completion=372, Total=491079, Cumulative Total=4928493
-2025-03-21 02:19:28.113 | INFO     | app.agent.toolcall:think:80 - ✨ Manus's thoughts: 
-2025-03-21 02:19:28.113 | INFO     | app.agent.toolcall:think:81 - 🛠️ Manus selected 1 tools to use
-2025-03-21 02:19:28.113 | INFO     | app.agent.toolcall:think:85 - 🧰 Tools being prepared: ['browser_use']
-2025-03-21 02:19:28.113 | INFO     | app.agent.toolcall:think:88 - 🔧 Tool arguments: {"action":"scroll_down"}
-2025-03-21 02:19:28.113 | INFO     | app.agent.toolcall:execute_tool:179 - 🔧 Activating tool: 'browser_use'...
-2025-03-21 02:19:28.123 | INFO     | app.agent.toolcall:act:149 - 🎯 Tool 'browser_use' completed its mission! Result: Observed output of cmd `browser_use` executed:
-Scrolled down by 1100 pixels
-2025-03-21 02:19:28.124 | INFO     | __main__:main:17 - Request processing completed.
-Exception ignored in: <function _ProactorBasePipeTransport.__del__ at 0x000002513564FD80>
-Traceback (most recent call last):
-  File "C:\Users\KMC\AppData\Roaming\uv\python\cpython-3.12.9-windows-x86_64-none\Lib\asyncio\proactor_events.py", line 116, in __del__   
-    _warn(f"unclosed transport {self!r}", ResourceWarning, source=self)
-                               ^^^^^^^^
-  File "C:\Users\KMC\AppData\Roaming\uv\python\cpython-3.12.9-windows-x86_64-none\Lib\asyncio\proactor_events.py", line 80, in __repr__   
-    info.append(f'fd={self._sock.fileno()}')
-                      ^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\KMC\AppData\Roaming\uv\python\cpython-3.12.9-windows-x86_64-none\Lib\asyncio\windows_utils.py", line 102, in fileno      
-    raise ValueError("I/O operation on closed pipe")
-ValueError: I/O operation on closed pipe
-Exception ignored in: <function BaseSubprocessTransport.__del__ at 0x000002513564E480>
-Traceback (most recent call last):
-  File "C:\Users\KMC\AppData\Roaming\uv\python\cpython-3.12.9-windows-x86_64-none\Lib\asyncio\base_subprocess.py", line 125, in __del__   
-    _warn(f"unclosed transport {self!r}", ResourceWarning, source=self)
-                               ^^^^^^^^
-  File "C:\Users\KMC\AppData\Roaming\uv\python\cpython-3.12.9-windows-x86_64-none\Lib\asyncio\base_subprocess.py", line 70, in __repr__   
-    info.append(f'stdin={stdin.pipe}')
-                        ^^^^^^^^^^^^
-  File "C:\Users\KMC\AppData\Roaming\uv\python\cpython-3.12.9-windows-x86_64-none\Lib\asyncio\proactor_events.py", line 80, in __repr__   
-    info.append(f'fd={self._sock.fileno()}')
-                      ^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\KMC\AppData\Roaming\uv\python\cpython-3.12.9-windows-x86_64-none\Lib\asyncio\windows_utils.py", line 102, in fileno      
+    
     raise ValueError("I/O operation on closed pipe")
 ValueError: I/O operation on closed pipe
 (OpenManus) 

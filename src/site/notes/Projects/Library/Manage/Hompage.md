@@ -22,7 +22,7 @@ Email: nargene@gmail.com
 # Libray new books
 | POSTS                                                                   | Link                                                               | Date     | Tags                                                            |
 | ----------------------------------------------------------------------- | ------------------------------------------------------------------ | -------- | --------------------------------------------------------------- |
-| test                                                                    | [[Projects/Library/Entrance/KR-P-310  r\|KR-P-310  r]]          | 25-04-21 | <ul><li>#주간회고</li></ul>                                         |
+| 2025년 3월 3주차 코딩테스트 공부                                                   | [[Projects/Library/Entrance/KR-P-310  r\|KR-P-310  r]]          | 25-04-21 | <ul><li>#주간회고</li></ul>                                         |
 | JavaScript에서  대규모 숫자의 경우 스프레드 연산자가 실패하는 이유를 분석하고 테스트해보며 stack size 이해하기 | [[Projects/Library/KR/000/010/010.40/KR-010.40 b\|KR-010.40 b]] | 25-04-18 | <ul><li>#JavaScript</li></ul>                                   |
 | 생성형 AI를 이용한 개인 창작 마법 프로젝트                                               | [[Projects/Library/KR/100/110/110.40/KR-110.40\|KR-110.40]]     | 25-04-15 | <ul><li>#magic_prompt</li><li>#개인프로젝트</li><li>#프로젝트경험</li></ul> |
 | 프로젝트 중 겪은 트러블 슈팅 (CORS, 소셜 로그인 등)                                       | [[Projects/Library/KR/100/110/110.40/KR-110.40 a\|KR-110.40 a]] | 25-04-15 | <ul><li>#개인프로젝트</li><li>#프로젝트경험</li><li>#magic_prompt</li></ul> |
