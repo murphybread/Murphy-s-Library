@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2025-04-11T14:58:12.038+09:00"}
+{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2025-04-21T10:37:44.438+09:00"}
 ---
 
 > **"짧은 글에 담긴 진솔한 고민, 10개의 아쉬운 글보다는 1개의 가치 있는 글 쓰기 지향"**
@@ -22,11 +22,11 @@ Email: nargene@gmail.com
 # Libray new books
 | POSTS                                                                   | Link                                                               | Date     | Tags                                                            |
 | ----------------------------------------------------------------------- | ------------------------------------------------------------------ | -------- | --------------------------------------------------------------- |
+| test                                                                    | [[Projects/Library/Entrance/KR-P-310  r\|KR-P-310  r]]          | 25-04-21 | <ul><li>#주간회고</li></ul>                                         |
 | JavaScript에서  대규모 숫자의 경우 스프레드 연산자가 실패하는 이유를 분석하고 테스트해보며 stack size 이해하기 | [[Projects/Library/KR/000/010/010.40/KR-010.40 b\|KR-010.40 b]] | 25-04-18 | <ul><li>#JavaScript</li></ul>                                   |
 | 생성형 AI를 이용한 개인 창작 마법 프로젝트                                               | [[Projects/Library/KR/100/110/110.40/KR-110.40\|KR-110.40]]     | 25-04-15 | <ul><li>#magic_prompt</li><li>#개인프로젝트</li><li>#프로젝트경험</li></ul> |
 | 프로젝트 중 겪은 트러블 슈팅 (CORS, 소셜 로그인 등)                                       | [[Projects/Library/KR/100/110/110.40/KR-110.40 a\|KR-110.40 a]] | 25-04-15 | <ul><li>#개인프로젝트</li><li>#프로젝트경험</li><li>#magic_prompt</li></ul> |
 | Jest에서 ESM을 설정 변경 없이 쉽게 사용해보기                                           | [[Projects/Library/KR/000/010/010.60/KR-010.60 b\|KR-010.60 b]] | 25-04-11 | <ul><li>#Jest</li></ul>                                         |
-| Node.js                                                                 | [[Projects/Library/KR/000/010/010.40/KR-010.40\|KR-010.40]]     | 25-04-09 | <ul><li>#기술스택</li><li>#Dev</li><li>#Node</li></ul>              |
 
 { .block-language-dataview}
 
@@ -161,6 +161,7 @@ Email: nargene@gmail.com
     - [[Projects/Library/KR/P300/P310/KR-P-310 o\|KR-P-310 o]] 25년 2월 4주차 취업 포트폴리오 탐색 및 계획
     - [[Projects/Library/KR/P300/P310/KR-P-310 p\|KR-P-310 p]] 2025년 3월 1주차 회고 포트폴리오만들기 먼저 커스텀 UI 라이브러리 만들기
     - [[Projects/Library/KR/P300/P310/KR-P-310 q\|KR-P-310 q]] 2025년 3월 2주차 회고 포트폴리오 컴포넌트 및 페이지 만들기 AI RAG 프로젝트
+    - [[Projects/Library/Entrance/KR-P-310  r\|KR-P-310  r]]
 - [[Projects/Library/KR/P300/P330/KR-P-330\|KR-P-330]] 연간 회고
     - [[Projects/Library/KR/P300/P330/KR-P-330 a\|KR-P-330 a]] 2023년 회고
     - [[Projects/Library/KR/P300/P330/KR-P-330 b\|KR-P-330 b]] 2024년 회고
