@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2025-04-23T18:00:56.897+09:00"}
+{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2025-04-23T18:46:14.170+09:00"}
 ---
 
 > **"짧은 글에 담긴 진솔한 고민, 10개의 아쉬운 글보다는 1개의 가치 있는 글 쓰기 지향"**
@@ -22,11 +22,11 @@ Email: nargene@gmail.com
 # Libray new books
 | POSTS                                      | Link                                                               | Date     | Tags                        |
 | ------------------------------------------ | ------------------------------------------------------------------ | -------- | --------------------------- |
+| 2025년 3월 3주차 코딩테스트 공부                      | [[Projects/Library/KR/P300/P310/KR-P-310 r\|KR-P-310 r]]        | 25-04-23 | <ul><li>#주간회고</li></ul>     |
 | Packages                                   | [[Projects/Library/KR/000/020/020.30/KR-020.30\|KR-020.30]]     | 25-04-23 | <ul><li>#Packages</li></ul> |
 | pnpm에서 npm으로 돌아간 이유(로컬과 CI 환경에서 직접 테스트해보기) | [[Projects/Library/KR/000/020/020.30/KR-020.30 a\|KR-020.30 a]] | 25-04-23 | <ul><li>#Packages</li></ul> |
 | 2025년 4월 1주차~3주차 회고 미수행                    | [[Projects/Library/KR/P300/P310/KR-P-310 t\|KR-P-310 t]]        | 25-04-22 | <ul><li>#주간회고</li></ul>     |
 | 2025년 3월 4주차 회고 미수행                        | [[Projects/Library/KR/P300/P310/KR-P-310 s\|KR-P-310 s]]        | 25-04-21 | <ul><li>#주간회고</li></ul>     |
-| 2025년 3월 3주차 코딩테스트 공부                      | [[Projects/Library/KR/P300/P310/KR-P-310  r\|KR-P-310  r]]      | 25-04-21 | <ul><li>#주간회고</li></ul>     |
 
 { .block-language-dataview}
 
@@ -72,7 +72,7 @@ Email: nargene@gmail.com
     - [[Projects/Library/KR/000/020/020.20/KR-020.20\|KR-020.20]] Cloud
         - [[Projects/Library/KR/000/020/020.20/KR-020.20 a\|KR-020.20 a]] 클라우드를 사용할 때와 사용시 고려 요소
     - [[Projects/Library/KR/000/020/020.30/KR-020.30\|KR-020.30]] Packages
-	    - [[Projects/Library/KR/000/020/020.30/KR-020.30 a\|KR-020.30 a]]
+	    - [[Projects/Library/KR/000/020/020.30/KR-020.30 a\|KR-020.30 a]] pnpm에서 npm으로 돌아간 이유(로컬과 CI 환경에서 직접 테스트해보기)
 
 [[Projects/Library/KR/100/KR-100\|KR-100]] 프로젝트 경험
 
@@ -163,9 +163,9 @@ Email: nargene@gmail.com
     - [[Projects/Library/KR/P300/P310/KR-P-310 o\|KR-P-310 o]] 25년 2월 4주차 취업 포트폴리오 탐색 및 계획
     - [[Projects/Library/KR/P300/P310/KR-P-310 p\|KR-P-310 p]] 2025년 3월 1주차 회고 포트폴리오만들기 먼저 커스텀 UI 라이브러리 만들기
     - [[Projects/Library/KR/P300/P310/KR-P-310 q\|KR-P-310 q]] 2025년 3월 2주차 회고 포트폴리오 컴포넌트 및 페이지 만들기 AI RAG 프로젝트
-    - [[Projects/Library/KR/P300/P310/KR-P-310  r\|KR-P-310  r]] 2025년 3월 3주차 코딩테스트
+    - [[Projects/Library/KR/P300/P310/KR-P-310 r\|KR-P-310 r]] 2025년 3월 3주차 코딩테스트
     - [[Projects/Library/KR/P300/P310/KR-P-310 s\|KR-P-310 s]] 2025년 3월 4주차 회고 실패
-    - [[Projects/Library/KR/P300/P310/KR-P-310 t\|KR-P-310 t]] 2025년 4월1주차 ~ 4월 3주차 회고
+    - [[Projects/Library/KR/P300/P310/KR-P-310 t\|KR-P-310 t]] 2025년 4월1주차 ~ 4월 3주차 회고 미수행
 - [[Projects/Library/KR/P300/P330/KR-P-330\|KR-P-330]] 연간 회고
     - [[Projects/Library/KR/P300/P330/KR-P-330 a\|KR-P-330 a]] 2023년 회고
     - [[Projects/Library/KR/P300/P330/KR-P-330 b\|KR-P-330 b]] 2024년 회고
