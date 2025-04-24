@@ -22,11 +22,11 @@ Email: nargene@gmail.com
 # Libray new books
 | POSTS                                      | Link                                                               | Date     | Tags                        |
 | ------------------------------------------ | ------------------------------------------------------------------ | -------- | --------------------------- |
+| Jest에서 ESM을 설정 변경 없이 쉽게 사용해보기              | [[Projects/Library/KR/000/010/010.60/KR-010.60 b\|KR-010.60 b]] | 25-04-24 | <ul><li>#Jest</li></ul>     |
 | 2025년 3월 3주차 코딩테스트 공부                      | [[Projects/Library/KR/P300/P310/KR-P-310 r\|KR-P-310 r]]        | 25-04-23 | <ul><li>#주간회고</li></ul>     |
 | Packages                                   | [[Projects/Library/KR/000/020/020.30/KR-020.30\|KR-020.30]]     | 25-04-23 | <ul><li>#Packages</li></ul> |
 | pnpm에서 npm으로 돌아간 이유(로컬과 CI 환경에서 직접 테스트해보기) | [[Projects/Library/KR/000/020/020.30/KR-020.30 a\|KR-020.30 a]] | 25-04-23 | <ul><li>#Packages</li></ul> |
 | 2025년 4월 1주차~3주차 회고 미수행                    | [[Projects/Library/KR/P300/P310/KR-P-310 t\|KR-P-310 t]]        | 25-04-22 | <ul><li>#주간회고</li></ul>     |
-| 2025년 3월 4주차 회고 미수행                        | [[Projects/Library/KR/P300/P310/KR-P-310 s\|KR-P-310 s]]        | 25-04-21 | <ul><li>#주간회고</li></ul>     |
 
 { .block-language-dataview}
 
