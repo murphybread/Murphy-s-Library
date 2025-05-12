@@ -11,7 +11,7 @@
 	
 
 ## openai vector store 테스트
-[[Projects/Library/Entrance/openai vector store\|openai vector store]]
+[[Archives/openai vector store\|openai vector store]]
 
 2025년 3월11일 업데이트한 기능을 참고하여 무료로 제공되는 수준의 openai RAG의 비용, 성능 테스트.
 비용 발생 메커니즘

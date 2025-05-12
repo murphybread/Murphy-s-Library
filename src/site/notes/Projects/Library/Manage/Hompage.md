@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2025-04-23T18:46:14.170+09:00"}
+{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2025-05-12T17:58:04.501+09:00"}
 ---
 
 > **"짧은 글에 담긴 진솔한 고민, 10개의 아쉬운 글보다는 1개의 가치 있는 글 쓰기 지향"**
@@ -20,13 +20,13 @@ Email: nargene@gmail.com
 ---
 
 # Libray new books
-| POSTS                                      | Link                                                               | Date     | Tags                        |
-| ------------------------------------------ | ------------------------------------------------------------------ | -------- | --------------------------- |
-| Jest에서 ESM을 설정 변경 없이 쉽게 사용해보기              | [[Projects/Library/KR/000/010/010.60/KR-010.60 b\|KR-010.60 b]] | 25-04-24 | <ul><li>#Jest</li></ul>     |
-| 2025년 3월 3주차 코딩테스트 공부                      | [[Projects/Library/KR/P300/P310/KR-P-310 r\|KR-P-310 r]]        | 25-04-23 | <ul><li>#주간회고</li></ul>     |
-| Packages                                   | [[Projects/Library/KR/000/020/020.30/KR-020.30\|KR-020.30]]     | 25-04-23 | <ul><li>#Packages</li></ul> |
-| pnpm에서 npm으로 돌아간 이유(로컬과 CI 환경에서 직접 테스트해보기) | [[Projects/Library/KR/000/020/020.30/KR-020.30 a\|KR-020.30 a]] | 25-04-23 | <ul><li>#Packages</li></ul> |
-| 2025년 4월 1주차~3주차 회고 미수행                    | [[Projects/Library/KR/P300/P310/KR-P-310 t\|KR-P-310 t]]        | 25-04-22 | <ul><li>#주간회고</li></ul>     |
+| POSTS                         | Link                                                               | Date     | Tags                     |
+| ----------------------------- | ------------------------------------------------------------------ | -------- | ------------------------ |
+| 2025년 5월 2주 이력서 t2i 오픈소스 테스트  | [[Projects/Library/KR/P300/P310/KR-P-310 w\|KR-P-310 w]]        | 25-05-12 | <ul><li>#주간_회고</li></ul> |
+| 2025년 5월 1주 차 주간 회고 이력서 등     | [[Projects/Library/KR/P300/P310/KR-P-310 v\|KR-P-310 v]]        | 25-05-12 | <ul><li>#주간_회고</li></ul> |
+| 2025년 4월 4주차 이력서 코딩테스트        | [[Projects/Library/KR/P300/P310/KR-P-310 u\|KR-P-310 u]]        | 25-05-07 | <ul><li>#주간회고</li></ul>  |
+| Jest에서 ESM을 설정 변경 없이 쉽게 사용해보기 | [[Projects/Library/KR/000/010/010.60/KR-010.60 b\|KR-010.60 b]] | 25-04-24 | <ul><li>#Jest</li></ul>  |
+| 2025년 3월 3주차 코딩테스트 공부         | [[Projects/Library/KR/P300/P310/KR-P-310 r\|KR-P-310 r]]        | 25-04-23 | <ul><li>#주간회고</li></ul>  |
 
 { .block-language-dataview}
 
@@ -166,6 +166,9 @@ Email: nargene@gmail.com
     - [[Projects/Library/KR/P300/P310/KR-P-310 r\|KR-P-310 r]] 2025년 3월 3주차 코딩테스트
     - [[Projects/Library/KR/P300/P310/KR-P-310 s\|KR-P-310 s]] 2025년 3월 4주차 회고 실패
     - [[Projects/Library/KR/P300/P310/KR-P-310 t\|KR-P-310 t]] 2025년 4월1주차 ~ 4월 3주차 회고 미수행
+    - [[Projects/Library/KR/P300/P310/KR-P-310 u\|KR-P-310 u]] 2025년 4월 4주 차 주간 회고 이력서 코딩테스트
+    - [[Projects/Library/KR/P300/P310/KR-P-310 v\|KR-P-310 v]] 2025년 5월 1주 채용설명회, 이력서
+    - [[Projects/Library/KR/P300/P310/KR-P-310 w\|KR-P-310 w]] 2025년 5월 2주 이력서, t2i 오픈소스 테스트
 - [[Projects/Library/KR/P300/P330/KR-P-330\|KR-P-330]] 연간 회고
     - [[Projects/Library/KR/P300/P330/KR-P-330 a\|KR-P-330 a]] 2023년 회고
     - [[Projects/Library/KR/P300/P330/KR-P-330 b\|KR-P-330 b]] 2024년 회고
