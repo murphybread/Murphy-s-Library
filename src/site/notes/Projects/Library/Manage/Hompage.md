@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2025-05-12T17:58:04.501+09:00"}
+{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2025-05-25T22:54:29.887+09:00"}
 ---
 
 > **"짧은 글에 담긴 진솔한 고민, 10개의 아쉬운 글보다는 1개의 가치 있는 글 쓰기 지향"**
@@ -137,7 +137,7 @@ Email: nargene@gmail.com
     - [[Projects/Library/KR/P000/P010/KR-P-010 c\|KR-P-010 c]] 직업을 선택할때 지표를 통해 어느 것이 좋은지 평가해보는 방법
 
 [[Projects/Library/KR/P100/KR-P-100\|KR-P-100]] 취미와 놀이터
-- [[Projects/Library/KR/P100/P110/KR-P-110\|KR-P-110]] 기술 놀이터
+- [[Projects/Library/KR/P100/P110/KR-P-110\|KR-P-110]] 기술 관련 정리
     - [[Projects/Library/KR/P100/P110/KR-P-110 a\|KR-P-110 a]] 지식관리 툴로 옵시디언을 사용하는 이유
     - [[Projects/Library/KR/P100/P110/KR-P-110 b\|KR-P-110 b]] 모바일웹, 웹앱, 하이브리드앱, 네이티브앱 정리
 - [[Projects/Library/KR/P100/P120/KR-P-120\|KR-P-120]] 취미
