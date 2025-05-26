@@ -20,13 +20,13 @@ Email: nargene@gmail.com
 ---
 
 # Libray new books
-| POSTS                         | Link                                                               | Date     | Tags                     |
-| ----------------------------- | ------------------------------------------------------------------ | -------- | ------------------------ |
-| 2025년 5월 2주 이력서 t2i 오픈소스 테스트  | [[Projects/Library/KR/P300/P310/KR-P-310 w\|KR-P-310 w]]        | 25-05-12 | <ul><li>#주간_회고</li></ul> |
-| 2025년 5월 1주 차 주간 회고 이력서 등     | [[Projects/Library/KR/P300/P310/KR-P-310 v\|KR-P-310 v]]        | 25-05-12 | <ul><li>#주간_회고</li></ul> |
-| 2025년 4월 4주차 이력서 코딩테스트        | [[Projects/Library/KR/P300/P310/KR-P-310 u\|KR-P-310 u]]        | 25-05-07 | <ul><li>#주간회고</li></ul>  |
-| Jest에서 ESM을 설정 변경 없이 쉽게 사용해보기 | [[Projects/Library/KR/000/010/010.60/KR-010.60 b\|KR-010.60 b]] | 25-04-24 | <ul><li>#Jest</li></ul>  |
-| 2025년 3월 3주차 코딩테스트 공부         | [[Projects/Library/KR/P300/P310/KR-P-310 r\|KR-P-310 r]]        | 25-04-23 | <ul><li>#주간회고</li></ul>  |
+| POSTS                        | Link                                                        | Date     | Tags                     |
+| ---------------------------- | ----------------------------------------------------------- | -------- | ------------------------ |
+| 2025년 5월 4주 주간회고             | [[Projects/Library/KR/P300/P310/KR-P-310 y\|KR-P-310 y]] | 25-05-26 | <ul><li>#주간회고</li></ul>  |
+| 2025년 5월 3주                  | [[Projects/Library/KR/P300/P310/KR-P-310 x\|KR-P-310 x]] | 25-05-26 | <ul><li>#주간회고</li></ul>  |
+| 2025년 5월 2주 이력서 t2i 오픈소스 테스트 | [[Projects/Library/KR/P300/P310/KR-P-310 w\|KR-P-310 w]] | 25-05-12 | <ul><li>#주간_회고</li></ul> |
+| 2025년 5월 1주 차 주간 회고 이력서 등    | [[Projects/Library/KR/P300/P310/KR-P-310 v\|KR-P-310 v]] | 25-05-12 | <ul><li>#주간_회고</li></ul> |
+| 2025년 4월 4주차 이력서 코딩테스트       | [[Projects/Library/KR/P300/P310/KR-P-310 u\|KR-P-310 u]] | 25-05-07 | <ul><li>#주간회고</li></ul>  |
 
 { .block-language-dataview}
 
