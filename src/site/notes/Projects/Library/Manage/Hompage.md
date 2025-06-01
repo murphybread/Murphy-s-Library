@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2025-05-25T22:54:29.887+09:00"}
+{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2025-06-01T22:01:34.266+09:00"}
 ---
 
 > **"짧은 글에 담긴 진솔한 고민, 10개의 아쉬운 글보다는 1개의 가치 있는 글 쓰기 지향"**
@@ -20,13 +20,13 @@ Email: nargene@gmail.com
 ---
 
 # Libray new books
-| POSTS                        | Link                                                        | Date     | Tags                     |
-| ---------------------------- | ----------------------------------------------------------- | -------- | ------------------------ |
-| 2025년 5월 4주 주간회고             | [[Projects/Library/KR/P300/P310/KR-P-310 y\|KR-P-310 y]] | 25-05-26 | <ul><li>#주간회고</li></ul>  |
-| 2025년 5월 3주                  | [[Projects/Library/KR/P300/P310/KR-P-310 x\|KR-P-310 x]] | 25-05-26 | <ul><li>#주간회고</li></ul>  |
-| 2025년 5월 2주 이력서 t2i 오픈소스 테스트 | [[Projects/Library/KR/P300/P310/KR-P-310 w\|KR-P-310 w]] | 25-05-12 | <ul><li>#주간_회고</li></ul> |
-| 2025년 5월 1주 차 주간 회고 이력서 등    | [[Projects/Library/KR/P300/P310/KR-P-310 v\|KR-P-310 v]] | 25-05-12 | <ul><li>#주간_회고</li></ul> |
-| 2025년 4월 4주차 이력서 코딩테스트       | [[Projects/Library/KR/P300/P310/KR-P-310 u\|KR-P-310 u]] | 25-05-07 | <ul><li>#주간회고</li></ul>  |
+| POSTS                                         | Link                                                               | Date     | Tags                     |
+| --------------------------------------------- | ------------------------------------------------------------------ | -------- | ------------------------ |
+| 독서 실무로 통하는 타입스크립트 바로 실행하며 익히는 105가지 오류 해방의 기술 | [[Projects/Library/KR/400/410/410.20/KR-410.20 d\|KR-410.20 d]] | 25-06-01 | <ul><li>#독서</li></ul>    |
+| 2025년 5월 4주 주간회고                              | [[Projects/Library/KR/P300/P310/KR-P-310 y\|KR-P-310 y]]        | 25-05-26 | <ul><li>#주간회고</li></ul>  |
+| 2025년 5월 3주                                   | [[Projects/Library/KR/P300/P310/KR-P-310 x\|KR-P-310 x]]        | 25-05-26 | <ul><li>#주간회고</li></ul>  |
+| 2025년 5월 2주 이력서 t2i 오픈소스 테스트                  | [[Projects/Library/KR/P300/P310/KR-P-310 w\|KR-P-310 w]]        | 25-05-12 | <ul><li>#주간_회고</li></ul> |
+| 2025년 5월 1주 차 주간 회고 이력서 등                     | [[Projects/Library/KR/P300/P310/KR-P-310 v\|KR-P-310 v]]        | 25-05-12 | <ul><li>#주간_회고</li></ul> |
 
 { .block-language-dataview}
 
@@ -124,6 +124,7 @@ Email: nargene@gmail.com
         - [[Projects/Library/KR/400/410/410.20/KR-410.20 a\|KR-410.20 a]] 객체지향의 사실과 오해 독후감 역할,책임,협력 이라는 3요소
         - [[Projects/Library/KR/400/410/410.20/KR-410.20 b\|KR-410.20 b]] 소프트웨어 장인 독후감 프로페셔널리즘, 실용주의, 자부심
         - [[Projects/Library/KR/400/410/410.20/KR-410.20 c\|KR-410.20 c]] 독후감 리액트 훅을 활용한 마이크로 상태 관리 React에서 상태 관리란
+        - [[Projects/Library/KR/400/410/410.20/KR-410.20 d\|KR-410.20 d]] 독서 실무로 통하는 타입스크립트 바로 실행하며 익히는 105가지 오류 해방의 기술
 - [[Projects/Library/KR/400/420/KR-420\|KR-420]] 시스템 설계와 운영 개선
     - [[Projects/Library/KR/400/420/420.00/KR-420.00\|KR-420.00]] 운영 지표와 성능 관리
         - [[Projects/Library/KR/400/420/420.00/KR-420.00 a\|KR-420.00 a]] SLA, SLO, SLI의 차이와 고려해야 할 점
@@ -169,6 +170,8 @@ Email: nargene@gmail.com
     - [[Projects/Library/KR/P300/P310/KR-P-310 u\|KR-P-310 u]] 2025년 4월 4주 차 주간 회고 이력서 코딩테스트
     - [[Projects/Library/KR/P300/P310/KR-P-310 v\|KR-P-310 v]] 2025년 5월 1주 채용설명회, 이력서
     - [[Projects/Library/KR/P300/P310/KR-P-310 w\|KR-P-310 w]] 2025년 5월 2주 이력서, t2i 오픈소스 테스트
+    - [[Projects/Library/KR/P300/P310/KR-P-310 x\|KR-P-310 x]] 2025년 5월 3주 이력서 코딩테스트
+    - [[Projects/Library/KR/P300/P310/KR-P-310 y\|KR-P-310 y]] 2025년 5월 4주 ssafy, CIJ
 - [[Projects/Library/KR/P300/P330/KR-P-330\|KR-P-330]] 연간 회고
     - [[Projects/Library/KR/P300/P330/KR-P-330 a\|KR-P-330 a]] 2023년 회고
     - [[Projects/Library/KR/P300/P330/KR-P-330 b\|KR-P-330 b]] 2024년 회고
