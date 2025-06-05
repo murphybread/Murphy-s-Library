@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2025-06-01T22:01:34.266+09:00"}
+{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2025-06-05T19:52:12.131+09:00"}
 ---
 
 > **"짧은 글에 담긴 진솔한 고민, 10개의 아쉬운 글보다는 1개의 가치 있는 글 쓰기 지향"**
@@ -20,13 +20,13 @@ Email: nargene@gmail.com
 ---
 
 # Libray new books
-| POSTS                                         | Link                                                               | Date     | Tags                     |
-| --------------------------------------------- | ------------------------------------------------------------------ | -------- | ------------------------ |
-| 독서 실무로 통하는 타입스크립트 바로 실행하며 익히는 105가지 오류 해방의 기술 | [[Projects/Library/KR/400/410/410.20/KR-410.20 d\|KR-410.20 d]] | 25-06-01 | <ul><li>#독서</li></ul>    |
-| 2025년 5월 4주 주간회고                              | [[Projects/Library/KR/P300/P310/KR-P-310 y\|KR-P-310 y]]        | 25-05-26 | <ul><li>#주간회고</li></ul>  |
-| 2025년 5월 3주                                   | [[Projects/Library/KR/P300/P310/KR-P-310 x\|KR-P-310 x]]        | 25-05-26 | <ul><li>#주간회고</li></ul>  |
-| 2025년 5월 2주 이력서 t2i 오픈소스 테스트                  | [[Projects/Library/KR/P300/P310/KR-P-310 w\|KR-P-310 w]]        | 25-05-12 | <ul><li>#주간_회고</li></ul> |
-| 2025년 5월 1주 차 주간 회고 이력서 등                     | [[Projects/Library/KR/P300/P310/KR-P-310 v\|KR-P-310 v]]        | 25-05-12 | <ul><li>#주간_회고</li></ul> |
+| POSTS                                             | Link                                                               | Date     | Tags                                              |
+| ------------------------------------------------- | ------------------------------------------------------------------ | -------- | ------------------------------------------------- |
+| 백준허브 확장프로그램 구름 플랫폼 업로드 문제 해결하가                    | [[Projects/Library/KR/000/010/010.00/KR-010.00 f\|KR-010.00 f]] | 25-06-05 | <ul><li>#디버깅</li><li>#Debugging</li></ul>         |
+| 2025년 5월 5주                                       | [[Projects/Library/KR/P300/P310/KR-P-310 z\|KR-P-310 z]]        | 25-06-04 | <ul><li>#주간회고</li></ul>                           |
+| GPT-SoVITS를 이용한 AI로 TTS 생성(전처리부터 파인튜닝 및 추론까지) 가이드 | [[Projects/Library/KR/P100/P120/KR-P-120 c\|KR-P-120 c]]        | 25-06-04 | <ul><li>#취미</li><li>#TTS</li><li>#Audio</li></ul> |
+| 독서 실무로 통하는 타입스크립트 바로 실행하며 익히는 105가지 오류 해방의 기술     | [[Projects/Library/KR/400/410/410.20/KR-410.20 d\|KR-410.20 d]] | 25-06-01 | <ul><li>#독서</li></ul>                             |
+| 2025년 5월 4주 주간회고                                  | [[Projects/Library/KR/P300/P310/KR-P-310 y\|KR-P-310 y]]        | 25-05-26 | <ul><li>#주간회고</li></ul>                           |
 
 { .block-language-dataview}
 
@@ -43,6 +43,7 @@ Email: nargene@gmail.com
         - [[Projects/Library/KR/000/010/010.00/KR-010.00 c\|KR-010.00 c]] IT블로그 table 요소 보기 좋게 수정하기
         - [[Projects/Library/KR/000/010/010.00/KR-010.00 d\|KR-010.00 d]] 글 데이터 증가에 따라 느려진 로딩 속도 저하 해결하기(feat. Obsidian)
         - [[Projects/Library/KR/000/010/010.00/KR-010.00 e\|KR-010.00 e]] 마크다운 문서에서 발생하기 쉬운 웹 렌더링 시 HTML 엘레멘트 인식 문제 해결하기
+        - [[Projects/Library/KR/000/010/010.00/KR-010.00 f\|KR-010.00 f]] 백준허브 확장프로그램 구름 플랫폼 업로드 문제 해결하가
     - [[Projects/Library/KR/000/010/010.10/KR-010.10\|KR-010.10]] HTML,CSS
         - [[Projects/Library/KR/000/010/010.10/KR-010.10 a\|KR-010.10 a]] styled-components 간단 소개
         - [[Projects/Library/KR/000/010/010.10/KR-010.10 b\|KR-010.10 b]] HTML 구현 기록 저장소
@@ -144,6 +145,7 @@ Email: nargene@gmail.com
 - [[Projects/Library/KR/P100/P120/KR-P-120\|KR-P-120]] 취미
     - [[Projects/Library/KR/P100/P120/KR-P-120 a\|KR-P-120 a]] AI 노래: 오늘과 내일의 간격은 오늘과 어제만큼멀까
     - [[Projects/Library/KR/P100/P120/KR-P-120 b\|KR-P-120 b]] gemini flash 2.0 으로 일관된 그림체의 캐릭터 그려보기
+    - [[Projects/Library/KR/P100/P120/KR-P-120 c\|KR-P-120 c]] GPT-SoVITS를 이용한 AI로 TTS 생성(전처리부터 파인튜닝 및 추론까지) 가이드
 
 [[Projects/Library/KR/P300/KR-P-300\|KR-P-300]] 회고
 - [[Projects/Library/KR/P300/P310/KR-P-310\|KR-P-310]] 주간 회고
