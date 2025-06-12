@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2025-06-05T19:52:12.131+09:00"}
+{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2025-06-12T21:47:02.937+09:00"}
 ---
 
 > **"짧은 글에 담긴 진솔한 고민, 10개의 아쉬운 글보다는 1개의 가치 있는 글 쓰기 지향"**
@@ -22,11 +22,11 @@ Email: nargene@gmail.com
 # Libray new books
 | POSTS                                             | Link                                                               | Date     | Tags                                              |
 | ------------------------------------------------- | ------------------------------------------------------------------ | -------- | ------------------------------------------------- |
+| project log                                       | [[Projects/Library/KR/100/110/110.60/KR-110.60\|KR-110.60]]     | 25-06-12 | <ul><li>#개인프로젝트</li></ul>                         |
+| 2025년 6월 1주                                       | [[Projects/Library/KR/P300/P310/KR-P-310 aa\|KR-P-310 aa]]      | 25-06-11 | <ul><li>#주간회고</li></ul>                           |
 | 백준허브 확장프로그램 구름 플랫폼 업로드 문제 해결하가                    | [[Projects/Library/KR/000/010/010.00/KR-010.00 f\|KR-010.00 f]] | 25-06-05 | <ul><li>#디버깅</li><li>#Debugging</li></ul>         |
 | 2025년 5월 5주                                       | [[Projects/Library/KR/P300/P310/KR-P-310 z\|KR-P-310 z]]        | 25-06-04 | <ul><li>#주간회고</li></ul>                           |
 | GPT-SoVITS를 이용한 AI로 TTS 생성(전처리부터 파인튜닝 및 추론까지) 가이드 | [[Projects/Library/KR/P100/P120/KR-P-120 c\|KR-P-120 c]]        | 25-06-04 | <ul><li>#취미</li><li>#TTS</li><li>#Audio</li></ul> |
-| 독서 실무로 통하는 타입스크립트 바로 실행하며 익히는 105가지 오류 해방의 기술     | [[Projects/Library/KR/400/410/410.20/KR-410.20 d\|KR-410.20 d]] | 25-06-01 | <ul><li>#독서</li></ul>                             |
-| 2025년 5월 4주 주간회고                                  | [[Projects/Library/KR/P300/P310/KR-P-310 y\|KR-P-310 y]]        | 25-05-26 | <ul><li>#주간회고</li></ul>                           |
 
 { .block-language-dataview}
 
@@ -96,6 +96,7 @@ Email: nargene@gmail.com
 	    - [[Projects/Library/KR/100/110/110.50/KR-110.50 a\|KR-110.50 a]] 명언 내보내기 프로젝트 GitHub Pages 구현후 큰 문제로 플랫폼 변경하기
 	    - [[Projects/Library/KR/100/110/110.50/KR-110.50 b\|KR-110.50 b]] 명언 내보내기 프로젝트 Vercel Functions으로 serverless로 관리하기
 	    - [[Projects/Library/KR/100/110/110.50/KR-110.50 c\|KR-110.50 c]] 명언 내보내기 프로젝트 POST. DELETE가 Remote에서 불가능하다면 Local에서 구성하기
+	- [[Projects/Library/KR/100/110/110.60/KR-110.60\|KR-110.60]] project log
 - [[Projects/Library/KR/100/120/KR-120\|KR-120]] 팀프로젝트
     - [[Projects/Library/KR/100/120/KR-120.00\|KR-120.00]] 국비학원 졸업 프로젝트 AWS EKS 기반 물류 관리 자동화 구축
 - [[Projects/Library/KR/100/130/KR-130\|KR-130]] 회사 프로젝트
@@ -174,6 +175,8 @@ Email: nargene@gmail.com
     - [[Projects/Library/KR/P300/P310/KR-P-310 w\|KR-P-310 w]] 2025년 5월 2주 이력서, t2i 오픈소스 테스트
     - [[Projects/Library/KR/P300/P310/KR-P-310 x\|KR-P-310 x]] 2025년 5월 3주 이력서 코딩테스트
     - [[Projects/Library/KR/P300/P310/KR-P-310 y\|KR-P-310 y]] 2025년 5월 4주 ssafy, CIJ
+    - [[Projects/Library/KR/P300/P310/KR-P-310 z\|KR-P-310 z]] 2025년 5월 5주 naver 부스트캠프, TTS GPT-SoVITS 프로젝트
+    - [[Projects/Library/KR/P300/P310/KR-P-310 aa\|KR-P-310 aa]] 2025년 6월 1주 SSAFY, 백준허브
 - [[Projects/Library/KR/P300/P330/KR-P-330\|KR-P-330]] 연간 회고
     - [[Projects/Library/KR/P300/P330/KR-P-330 a\|KR-P-330 a]] 2023년 회고
     - [[Projects/Library/KR/P300/P330/KR-P-330 b\|KR-P-330 b]] 2024년 회고
