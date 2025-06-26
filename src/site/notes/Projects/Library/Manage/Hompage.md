@@ -20,13 +20,13 @@ Email: nargene@gmail.com
 ---
 
 # Libray new books
-| POSTS                                             | Link                                                               | Date     | Tags                                              |
-| ------------------------------------------------- | ------------------------------------------------------------------ | -------- | ------------------------------------------------- |
-| project log                                       | [[Projects/Library/KR/100/110/110.60/KR-110.60\|KR-110.60]]     | 25-06-12 | <ul><li>#개인프로젝트</li></ul>                         |
-| 2025년 6월 1주                                       | [[Projects/Library/KR/P300/P310/KR-P-310 aa\|KR-P-310 aa]]      | 25-06-11 | <ul><li>#주간회고</li></ul>                           |
-| 백준허브 확장프로그램 구름 플랫폼 업로드 문제 해결하가                    | [[Projects/Library/KR/000/010/010.00/KR-010.00 f\|KR-010.00 f]] | 25-06-05 | <ul><li>#디버깅</li><li>#Debugging</li></ul>         |
-| 2025년 5월 5주                                       | [[Projects/Library/KR/P300/P310/KR-P-310 z\|KR-P-310 z]]        | 25-06-04 | <ul><li>#주간회고</li></ul>                           |
-| GPT-SoVITS를 이용한 AI로 TTS 생성(전처리부터 파인튜닝 및 추론까지) 가이드 | [[Projects/Library/KR/P100/P120/KR-P-120 c\|KR-P-120 c]]        | 25-06-04 | <ul><li>#취미</li><li>#TTS</li><li>#Audio</li></ul> |
+| POSTS                           | Link                                                               | Date     | Tags                                      |
+| ------------------------------- | ------------------------------------------------------------------ | -------- | ----------------------------------------- |
+| Google Drive 활용 최종 정리본 (개인 기록용) | [[Projects/Library/KR/P100/P110/KR-P-110 c\|KR-P-110 c]]        | 25-06-26 | <ul><li>#취미와놀이터</li></ul>                 |
+| project log                     | [[Projects/Library/KR/100/110/110.60/KR-110.60\|KR-110.60]]     | 25-06-12 | <ul><li>#개인프로젝트</li></ul>                 |
+| 2025년 6월 1주                     | [[Projects/Library/KR/P300/P310/KR-P-310 aa\|KR-P-310 aa]]      | 25-06-11 | <ul><li>#주간회고</li></ul>                   |
+| 백준허브 확장프로그램 구름 플랫폼 업로드 문제 해결하가  | [[Projects/Library/KR/000/010/010.00/KR-010.00 f\|KR-010.00 f]] | 25-06-05 | <ul><li>#디버깅</li><li>#Debugging</li></ul> |
+| 2025년 5월 5주                     | [[Projects/Library/KR/P300/P310/KR-P-310 z\|KR-P-310 z]]        | 25-06-04 | <ul><li>#주간회고</li></ul>                   |
 
 { .block-language-dataview}
 
