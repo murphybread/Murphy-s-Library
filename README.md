@@ -1,8 +1,4 @@
-# Digital Obsidian Garden
-This is the template to be used together with the [Digital Garden Obsidian Plugin](https://github.com/oleeskild/Obsidian-Digital-Garden). 
-See the README in the plugin repo for information on how to set it up.
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/oleeskild/digitalgarden)
+이 저장소는 “개인 IT 블로그”용입니다. Obsidian 앱을 사용해 마크다운(MD) 파일로 글을 작성하고, 플러그인과 Vercel을 통해 배포합니다.
 
 ---
-web IT blog for murphy
+기술 스택: SCSS, Obsidian, Vercel
