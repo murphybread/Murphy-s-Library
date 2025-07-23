@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2025-07-12T23:25:20.093+09:00"}
+{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2025-07-23T23:08:59.224+09:00"}
 ---
 
 > **"짧은 글에 담긴 진솔한 고민, 10개의 아쉬운 글보다는 1개의 가치 있는 글 쓰기 지향"**
@@ -22,11 +22,11 @@ Email: nargene@gmail.com
 # Libray new books
 | POSTS                                                                                                | Link                                                               | Date     | Tags                                     |
 | ---------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ | -------- | ---------------------------------------- |
+| Eclipse 에서 IDE 설정에의해 특정 기능이나 Run 에러 트러블슈팅해보기                                                         | [[Projects/Library/Entrance/KR-010.70 b\|KR-010.70 b]]          | 25-07-23 | <ul><li>#Java</li></ul>                  |
 | jar 파일 실행시 Error initializing QuantumRenderer: no suitable pipeline found 에러 해결하기 (feat: JavaFX 의존성) | [[Projects/Library/KR/000/010/010.70/KR-010.70 a\|KR-010.70 a]] | 25-07-12 | <ul><li>#Java</li><li>#jar</li></ul>     |
 | Java                                                                                                 | [[Projects/Library/KR/000/010/010.70/KR-010.70\|KR-010.70]]     | 25-07-12 | <ul><li>#A</li></ul>                     |
 | 소프트웨어 장인 독후감 프로페셔널리즘, 실용주의, 자부심                                                                      | [[Projects/Library/KR/400/410/410.20/KR-410.20 b\|KR-410.20 b]] | 25-07-08 | <ul><li>#개인학습과성장</li><li>#독후감</li></ul>  |
 | 객체지향의 사실과 오해 독후감 역할,책임,협력 이라는 3요소                                                                    | [[Projects/Library/KR/400/410/410.20/KR-410.20 a\|KR-410.20 a]] | 25-07-08 | <ul><li>#개인학습과성장</li><li>#성장경험</li></ul> |
-| 데이터 설계 가지고 놀기                                                                                        | [[Projects/Library/KR/400/410/410.10/KR-410.10 b\|KR-410.10 b]] | 25-07-08 | <ul><li>#개인학습과성장</li><li>#성장경험</li></ul> |
 
 { .block-language-dataview}
 
@@ -64,6 +64,7 @@ Email: nargene@gmail.com
         - [[Projects/Library/KR/000/010/010.60/KR-010.60 b\|KR-010.60 b]] Jest에서 ESM을 설정 변경 없이 쉽게 사용해보기
     - [[Projects/Library/KR/000/010/010.70/KR-010.70\|KR-010.70]] Java
 	    - [[Projects/Library/KR/000/010/010.70/KR-010.70 a\|KR-010.70 a]] jar 파일 실행시 Error initializing QuantumRenderer: no suitable pipeline found 에러 해결하기 (feat: JavaFX 의존성)
+	    - [[Projects/Library/Entrance/KR-010.70 b\|KR-010.70 b]] Eclipse 에서 IDE 설정에의해 특정 기능이나 Run 에러 트러블슈팅해보기
 - [[Projects/Library/KR/000/020/KR-020\|KR-020]] Ops
     - [[Projects/Library/KR/000/020/020.00/KR-020.00\|KR-020.00]] Git
         - [[Projects/Library/KR/000/020/020.00/KR-020.00 a\|KR-020.00 a]] Git 특정 환경의 파일만 커밋없이 제외하기
