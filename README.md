@@ -2,5 +2,7 @@
 
 ---
 
-테스트
-기술 스택: SCSS, Obsidian, Vercel
+주소 https://www.murphybooks.me/
+데이터원천: Obisidian md파일
+인프라 배포: Vercel
+
