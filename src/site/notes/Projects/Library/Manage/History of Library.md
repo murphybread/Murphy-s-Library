@@ -289,7 +289,7 @@ create_base_template.py
 
 
  # An introduction to the whole process
-![0.9 architecture.png](/img/user/Excalidraw/0.9%20architecture.png)
+![0.9 architecture.png](/img/user/images/0.9%20architecture.png)
 ## Web platform
 >Write posts (a md file) in the Entrance directory as inspiration strikes.
 >Automatically tagged, repositioned when running automation.py
