@@ -1,9 +1,13 @@
 ---
-{"dg-publish":true,"title":"CSV파서 만들어서 기능연동해보기","description":"CSV파서 만들어서 기능연동해보기","permalink":"/projects/library/kr/000/010/010-70/kr-010-70-c/","dgPassFrontmatter":true,"noteIcon":"0","created":"2025-08-03T23:56:41.053+09:00","updated":"2025-08-09T17:42:53.246+09:00"}
+{"dg-publish":true,"title":"csv 파서 JAVA로 만들어보기","description":null,"number":null,"permalink":"/projects/library/entrance/csv-java/","dgPassFrontmatter":true,"noteIcon":"0","created":"2025-08-02T21:59:04.495+09:00","updated":"2025-08-09T17:40:34.493+09:00"}
 ---
 
 현재 노트: [[Projects/Library/Entrance/csv 파서 JAVA로 만들어보기\|csv 파서 JAVA로 만들어보기]] 
 상위 분류: [[]] 
+
+#A
+
+재 노트: [[Java-Project-002\|Java-Project-002]] CSV 파싱 프로젝트 회고 상위 분류: [[Java-Projects\|Java-Projects]]
 
 #Java #CSV #Swing #DataParsing #Troubleshooting
 
