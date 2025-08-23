@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2025-08-09T17:42:06.740+09:00"}
+{"dg-publish":true,"dg-home":true,"permalink":"/projects/library/manage/hompage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"0","created":"2023-12-20T12:21:00.425+09:00","updated":"2025-08-23T23:52:03.333+09:00"}
 ---
 
 > **"짧은 글에 담긴 진솔한 고민, 10개의 아쉬운 글보다는 1개의 가치 있는 글 쓰기 지향"**
@@ -22,11 +22,11 @@ Email: nargene@gmail.com
 # Libray new books
 | POSTS                                                                                                | Link                                                               | Date     | Tags                                                                                              |
 | ---------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ | -------- | ------------------------------------------------------------------------------------------------- |
+| 2025년 목표                                                                                             | [[Projects/Library/KR/P300/P330/KR-P-330 c\|KR-P-330 c]]        | 25-08-23 | <ul><li>#회고</li></ul>                                                                             |
 | CSV파서 만들어서 기능연동해보기                                                                                   | [[Projects/Library/KR/000/010/010.70/KR-010.70 c\|KR-010.70 c]] | 25-08-09 | <ul><li>#Java</li><li>#CSV</li><li>#Swing</li><li>#DataParsing</li><li>#Troubleshooting</li></ul> |
 | Eclipse 에서 IDE 설정에의해 특정 기능이나 Run 에러 트러블슈팅해보기                                                         | [[Projects/Library/Entrance/KR-010.70 b\|KR-010.70 b]]          | 25-08-03 | <ul><li>#Java</li></ul>                                                                           |
 | jar 파일 실행시 Error initializing QuantumRenderer: no suitable pipeline found 에러 해결하기 (feat: JavaFX 의존성) | [[Projects/Library/KR/000/010/010.70/KR-010.70 a\|KR-010.70 a]] | 25-07-12 | <ul><li>#Java</li><li>#jar</li></ul>                                                              |
 | Java                                                                                                 | [[Projects/Library/KR/000/010/010.70/KR-010.70\|KR-010.70]]     | 25-07-12 | <ul><li>#A</li></ul>                                                                              |
-| 소프트웨어 장인 독후감 프로페셔널리즘, 실용주의, 자부심                                                                      | [[Projects/Library/KR/400/410/410.20/KR-410.20 b\|KR-410.20 b]] | 25-07-08 | <ul><li>#개인학습과성장</li><li>#독후감</li></ul>                                                           |
 
 { .block-language-dataview}
 
@@ -185,6 +185,7 @@ Email: nargene@gmail.com
 - [[Projects/Library/KR/P300/P330/KR-P-330\|KR-P-330]] 연간 회고
     - [[Projects/Library/KR/P300/P330/KR-P-330 a\|KR-P-330 a]] 2023년 회고
     - [[Projects/Library/KR/P300/P330/KR-P-330 b\|KR-P-330 b]] 2024년 회고
+    - [[Projects/Library/KR/P300/P330/KR-P-330 c\|KR-P-330 c]] 2025년 목표
 
 
 
