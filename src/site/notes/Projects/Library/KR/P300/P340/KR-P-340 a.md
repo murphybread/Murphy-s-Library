@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"title":"SSAFY 14기 합격 후기 비전공자에서 전공자반 가기","description":null,"number":null,"permalink":"/projects/library/kr/p300/p340/kr-p-340-a/","dgPassFrontmatter":true,"noteIcon":"0","created":"2025-08-24T23:53:59.828+09:00","updated":"2025-08-24T23:56:38.451+09:00"}
+{"dg-publish":true,"title":"SSAFY 14기 합격 후기 비전공자에서 전공자반 가기","description":null,"number":null,"permalink":"/projects/library/kr/p300/p340/kr-p-340-a/","dgPassFrontmatter":true,"noteIcon":"0","created":"2025-08-24T23:53:59.828+09:00","updated":"2025-08-24T23:56:49.011+09:00"}
 ---
 
 현재 노트: [[Projects/Library/KR/P300/P340/KR-P-340 a\|KR-P-340 a]] 
@@ -7,6 +7,7 @@
 
 #회고
 
+본인소개
 
 합격 준비 전략 현재 목차 정리
 
